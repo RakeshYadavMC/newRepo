@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Requirement_to_Send_7512</fullName>
+    <active>true</active>
+    <description>Requires 7512 to be sent based on set criteria.</description>
+    <errorConditionFormula>AND (
+ RecordType.DeveloperName = "Changes",
+ Account.CreatedBy.Profile.Name = "International Distributor Community",
+ ISPICKVAL( Ship_Date_Change_30_days__c , "Yes"),
+OR (
+  ISPICKVAL(  Change_Type__c  , "Ship Date Change"),
+  ISPICKVAL( Change_Type__c , "Expediting"),
+  ISPICKVAL( Change_Type__c , "Add Item"),
+  ISPICKVAL( Change_Type__c , "Remove Item"),
+  ISPICKVAL( Change_Type__c , "Cancel")
+),
+OR (
+  ISPICKVAL( Status, "Closed"),
+  ISPICKVAL( Status, "Closed - Approved"),
+  ISPICKVAL( Status, "Closed - Rejected")
+),
+OR (
+  ISPICKVAL(  X7512_Sent__c , "No"),
+  ISPICKVAL(  X7512_Sent__c , "")
+)
+)</errorConditionFormula>
+    <errorDisplayField>X7512_Sent__c</errorDisplayField>
+    <errorMessage>7512 must be sent.</errorMessage>
+</ValidationRule>

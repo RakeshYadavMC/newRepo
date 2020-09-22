@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GTR_Sales_Responsibility__c</fullName>
+    <externalId>false</externalId>
+    <label>GTR Sales Responsibility</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Global Accounts</fullName>
+                <default>false</default>
+                <label>Global Accounts</label>
+            </value>
+            <value>
+                <fullName>EM, Cruise &amp; 3P</fullName>
+                <default>false</default>
+                <label>EM, Cruise &amp; 3P</label>
+            </value>
+            <value>
+                <fullName>GTR HQ</fullName>
+                <default>false</default>
+                <label>GTR HQ</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

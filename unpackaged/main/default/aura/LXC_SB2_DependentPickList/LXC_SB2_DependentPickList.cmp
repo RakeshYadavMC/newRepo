@@ -1,0 +1,57 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction"
+                access="global"
+                controller="CNT_SB2_DependentPickList">
+    <!-- call doInit function on component load -->  
+    <aura:handler name="init" value="this" action="{!c.doInit}"/>
+    
+    <!-- aura attributes-->  
+    <aura:attribute name="controllingFieldLabel" type="String" default="Select Time Period"/>
+    <aura:attribute name="dependentFieldLabel" type="String" default="Select Time Interval"/>
+    <aura:attribute name="showDefaultOption" type="Boolean" default="false"/>
+    <aura:attribute name="listControllingValues" type="list" default="[]" description="to store controller field values"/>
+    <aura:attribute name="listDependingValues" type="list" default="[]" description="to store dependent field values"/>
+    <aura:attribute name="depnedentFieldMap" type="map" description="map to store dependent values with controlling value"/>
+    <aura:attribute name="bDisabledDependentFld" type="boolean" default="true"/> 
+    <aura:attribute name="objDetail" type="Brand_Allocation__c" default="{'sobjectType' : 'Brand_Allocation__c'}"/>
+    <aura:attribute name="controllingFieldAPI" type="string" default="Time_Period__c" description="store field API name of Controller field"/>
+    <aura:attribute name="dependingFieldAPI" type="string" default="Time_Interval__c" description="store field API name of dependent field"/>
+    <aura:attribute name="controllingValue" type="String" default=""/>
+    <aura:attribute name="dependentValue" type="String" default=""/>
+    <aura:attribute name="required" type="Boolean" default="false"/>
+    <aura:attribute name="missingFieldMessage" type="String" description="Message to show when field is missing"/>
+    <aura:registerEvent name="sendFieldValue" type="c:LXC_SB2_GenericEvent"/>
+
+    <!--Controller Field-->
+        <lightning:select name="controllerFld"
+                          value="{!v.controllingValue}"
+                          label="{!v.controllingFieldLabel}"
+                          onchange="{!c.onControllerFieldChange}"
+                          aura:id="dynamicField"
+                          required="{!v.required}"
+                          messageWhenValueMissing="{!v.missingFieldMessage}">
+        	<aura:if isTrue="{!v.showDefaultOption}">
+            	<option value="">Select...</option>
+        	</aura:if>
+            <aura:iteration items="{!v.listControllingValues}" var="val">
+                <option value="{!val}">{!val}</option>
+            </aura:iteration>
+        </lightning:select>
+    
+    <!--Dependent Field-->
+        <lightning:select name="dependentFld"
+                          value="{!v.dependentValue}"
+                          label="{!v.dependentFieldLabel}"
+                          disabled="{!v.bDisabledDependentFld}" 
+                          onchange="{!c.sendRequest}"
+                          aura:id="dynamicField"
+                          required="{!v.required}"
+                          messageWhenValueMissing="{!v.missingFieldMessage}">
+            <aura:if isTrue="{!v.showDefaultOption}">
+            	<option value="">Select...</option>
+        	</aura:if>
+            <aura:iteration items="{!v.listDependingValues}" var="val">
+                <option value="{!val}">{!val}</option>
+            </aura:iteration>
+        </lightning:select>
+    
+</aura:component>

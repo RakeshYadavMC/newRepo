@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BeamSuntory_Letterhead</letterhead>
+    <name>Order Placed</name>
+    <style>freeForm</style>
+    <subject>A Single Barrel Order has been placed #{!Case.CaseNumber}</subject>
+    <textOnly>Hi,
+
+A Single Barrel order of type {!Case.Type} for the {!Case.Brand__c} brand has been created.
+
+
+Case Number: {!Case.CaseNumber}
+
+Type: {!Case.Type}
+
+Brand: {!Case.Brand__c} {!Case.Product_Type__c}
+
+Submitter: {!Case.Submitter__c}
+
+Account: {!Case.Account}
+
+Retail Account: {!Case.Retail_Account__c}
+
+
+
+
+{!$Label.ThankYou}
+
+{!$Label.BeamCS}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

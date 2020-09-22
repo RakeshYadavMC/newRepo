@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BeamSuntory_Letterhead</letterhead>
+    <name>Denied Claim w/ Denial Letter Template</name>
+    <style>freeForm</style>
+    <subject>{!Case.CaseNumber} - {!Case.RecordType} - Denied Claim</subject>
+    <textOnly>We have researched your claim case number {!Case.CaseNumber} and have denied it. Attached is the Denial Letter.  Please review the attached letter for further information.
+
+Thank you,
+
+Beam Suntory Customer Service
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

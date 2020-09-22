@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason_for_Denial__c</fullName>
+    <externalId>false</externalId>
+    <label>Reason for Denial</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Caused by Carrier</fullName>
+                <default>false</default>
+                <label>Caused by Carrier</label>
+            </value>
+            <value>
+                <fullName>Consumer Illness not justified</fullName>
+                <default>false</default>
+                <label>Consumer Illness not justified</label>
+            </value>
+            <value>
+                <fullName>Damaged During Transit/At Retail</fullName>
+                <default>false</default>
+                <label>Damaged During Transit/At Retail</label>
+            </value>
+            <value>
+                <fullName>Defective cork/closure</fullName>
+                <default>false</default>
+                <label>Defective cork/closure</label>
+            </value>
+            <value>
+                <fullName>Duplicate Claim</fullName>
+                <default>false</default>
+                <label>Duplicate Claim</label>
+            </value>
+            <value>
+                <fullName>First Time User Did Not Like</fullName>
+                <default>false</default>
+                <label>First Time User Did Not Like</label>
+            </value>
+            <value>
+                <fullName>Health/Injury case</fullName>
+                <default>false</default>
+                <label>Health/Injury case</label>
+            </value>
+            <value>
+                <fullName>Incorrect Shipping Plant</fullName>
+                <default>false</default>
+                <label>Incorrect Shipping Plant</label>
+            </value>
+            <value>
+                <fullName>Incorrect State Code in SAP</fullName>
+                <default>false</default>
+                <label>Incorrect State Code in SAP</label>
+            </value>
+            <value>
+                <fullName>Known Issue</fullName>
+                <default>false</default>
+                <label>Known Issue</label>
+            </value>
+            <value>
+                <fullName>Loaded Based off Existing Shipping Requirements</fullName>
+                <default>false</default>
+                <label>Loaded Based off Existing Shipping Requirements</label>
+            </value>
+            <value>
+                <fullName>Maker's Mark Previous Wax</fullName>
+                <default>false</default>
+                <label>Maker's Mark Previous Wax</label>
+            </value>
+            <value>
+                <fullName>Missing Lot Code Information</fullName>
+                <default>false</default>
+                <label>Missing Lot Code Information</label>
+            </value>
+            <value>
+                <fullName>Natural Cork Aged</fullName>
+                <default>false</default>
+                <label>Natural Cork Aged</label>
+            </value>
+            <value>
+                <fullName>No Inventory Discrepancies – Shipped Complete</fullName>
+                <default>false</default>
+                <label>No Inventory Discrepancies – Shipped Complete</label>
+            </value>
+            <value>
+                <fullName>No Pictures Provided to Support Claim</fullName>
+                <default>false</default>
+                <label>No Pictures Provided to Support Claim</label>
+            </value>
+            <value>
+                <fullName>No Response from Consumer/Customer</fullName>
+                <default>false</default>
+                <label>No Response from Consumer/Customer</label>
+            </value>
+            <value>
+                <fullName>No State Code in SAP</fullName>
+                <default>false</default>
+                <label>No State Code in SAP</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Package Redesign/Change</fullName>
+                <default>false</default>
+                <label>Package Redesign/Change</label>
+            </value>
+            <value>
+                <fullName>Product Frozen/Freezer</fullName>
+                <default>false</default>
+                <label>Product Frozen/Freezer</label>
+            </value>
+            <value>
+                <fullName>Product Is Conforming</fullName>
+                <default>false</default>
+                <label>Product Is Conforming</label>
+            </value>
+            <value>
+                <fullName>Product Reformulation/% ABV Change</fullName>
+                <default>false</default>
+                <label>Product Reformulation/% ABV Change</label>
+            </value>
+            <value>
+                <fullName>Product Shelf Life Exceeded</fullName>
+                <default>false</default>
+                <label>Product Shelf Life Exceeded</label>
+            </value>
+            <value>
+                <fullName>Product Shelf Life Exceeded – Flavoured Products</fullName>
+                <default>false</default>
+                <label>Product Shelf Life Exceeded – Flavoured Products</label>
+            </value>
+            <value>
+                <fullName>Sample/Retain Conforms To Standard</fullName>
+                <default>false</default>
+                <label>Sample/Retain Conforms To Standard</label>
+            </value>
+            <value>
+                <fullName>Sample Unavailable</fullName>
+                <default>false</default>
+                <label>Sample Unavailable</label>
+            </value>
+            <value>
+                <fullName>Storage Conditions Not As Recommended</fullName>
+                <default>false</default>
+                <label>Storage Conditions Not As Recommended</label>
+            </value>
+            <value>
+                <fullName>Tampered Seal</fullName>
+                <default>false</default>
+                <label>Tampered Seal</label>
+            </value>
+            <value>
+                <fullName>Tampering/Adulteration</fullName>
+                <default>false</default>
+                <label>Tampering/Adulteration</label>
+            </value>
+            <value>
+                <fullName>Unable To Investigate (No Sample, Lot Code Or Photos Provided)</fullName>
+                <default>false</default>
+                <label>Unable To Investigate (No Sample, Lot Code Or Photos Provided)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

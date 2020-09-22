@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<entry xml:base="https://MOBILED.BEAMSUNTORY.COM:44381/sap/opu/odata/sap/ZGSP_PR_CREATION_SRV/" xmlns="http://www.w3.org/2005/Atom" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+    <id>https://MOBILED.BEAMSUNTORY.COM:44381/sap/opu/odata/sap/ZGSP_PR_CREATION_SRV/PRHeaderSet('10014214')</id>
+    <title type="text">PRHeaderSet('10014214')</title>
+    <updated>2020-02-04T15:03:26Z</updated>
+    <category term="ZGSP_PR_CREATION_SRV.PRHeader" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link href="PRHeaderSet('10014214')" rel="self" title="PRHeader" />
+    <link href="PRHeaderSet('10014214')/PRHeaderToPRItem" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/PRHeaderToPRItem" type="application/atom+xml;type=feed" title="PRHeaderToPRItem">
+        <m:inline>
+            <feed xml:base="https://MOBILED.BEAMSUNTORY.COM:44381/sap/opu/odata/sap/ZGSP_PR_CREATION_SRV/">
+                <id>https://MOBILED.BEAMSUNTORY.COM:44381/sap/opu/odata/sap/ZGSP_PR_CREATION_SRV/PRHeaderSet('10014214')/PRHeaderToPRItem</id>
+                <title type="text">PRItemsSet</title>
+                <updated>2020-02-04T15:03:26Z</updated>
+                <author>
+                    <name />
+                </author>
+                <link href="PRHeaderSet('10014214')/PRHeaderToPRItem" rel="self" title="PRItemsSet" />
+                <entry>
+                    <id>https://MOBILED.BEAMSUNTORY.COM:44381/sap/opu/odata/sap/ZGSP_PR_CREATION_SRV/PRItemsSet(PreqNo='10014214',PreqItem='00010')</id>
+                    <title type="text">PRItemsSet(PreqNo='10014214',PreqItem='00010')</title>
+                    <updated>2020-02-04T15:03:26Z</updated>
+                    <category term="ZGSP_PR_CREATION_SRV.PRItems" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+                    <link href="PRItemsSet(PreqNo='10014214',PreqItem='00010')" rel="self" title="PRItems" />
+                    <content type="application/xml">
+                        <m:properties>
+                            <d:PreqNo>10014214</d:PreqNo>
+                            <d:PreqItem>00010</d:PreqItem>
+                            <d:DocType />
+                            <d:DocCat />
+                            <d:CtrlInd />
+                            <d:DeleteInd />
+                            <d:ProcStat />
+                            <d:CreateInd />
+                            <d:RelInd />
+                            <d:RelStatus />
+                            <d:RelStrat />
+                            <d:PurGroup>U12</d:PurGroup>
+                            <d:CreatedBy />
+                            <d:ChOn m:null="true" />
+                            <d:PreqName>HPotru</d:PreqName>
+                            <d:ShortText>SALESFORCE.COM INC - PR-00110</d:ShortText>
+                            <d:Material />
+                            <d:MaterialExternal />
+                            <d:MaterialGuid />
+                            <d:MaterialVersion />
+                            <d:PurMat />
+                            <d:PurMatExternal />
+                            <d:PurMatGuid />
+                            <d:PurMatVersion />
+                            <d:Plant>US50</d:Plant>
+                            <d:StoreLoc />
+                            <d:Trackingno />
+                            <d:MatlGroup>32010000</d:MatlGroup>
+                            <d:SupplPlnt />
+                            <d:Quantity>800</d:Quantity>
+                            <d:Unit>EA</d:Unit>
+                            <d:PreqUnitIso />
+                            <d:Shortage>0</d:Shortage>
+                            <d:PreqDate m:null="true" />
+                            <d:DelDatcatExt />
+                            <d:DelivDate>2020-02-03T00:00:00</d:DelivDate>
+                            <d:RelDate m:null="true" />
+                            <d:GrPrTime>0</d:GrPrTime>
+                            <d:PreqPrice>1.000000000</d:PreqPrice>
+                            <d:PriceUnit>1</d:PriceUnit>
+                            <d:ItemCat />
+                            <d:Acctasscat>S</d:Acctasscat>
+                            <d:Consumpt />
+                            <d:Changeable>false</d:Changeable>
+                            <d:Distrib />
+                            <d:PartInv />
+                            <d:GrInd>false</d:GrInd>
+                            <d:GrNonVal>false</d:GrNonVal>
+                            <d:IrInd>false</d:IrInd>
+                            <d:DesVendor>48057</d:DesVendor>
+                            <d:FixedVend>48057</d:FixedVend>
+                            <d:PurchOrg>US20</d:PurchOrg>
+                            <d:AgmtDocCat />
+                            <d:Agreement />
+                            <d:AgmtItem>00000</d:AgmtItem>
+                            <d:InfoRec />
+                            <d:Assigned>false</d:Assigned>
+                            <d:QuotaArr />
+                            <d:Quotarritm>000</d:Quotarritm>
+                            <d:MrpCtrler />
+                            <d:BomexplNo />
+                            <d:LastResub m:null="true" />
+                            <d:Resubmis>0</d:Resubmis>
+                            <d:NoResub>0</d:NoResub>
+                            <d:PoNumber />
+                            <d:PoItem>00000</d:PoItem>
+                            <d:PoDate m:null="true" />
+                            <d:Ordered>0</d:Ordered>
+                            <d:SheetNo />
+                            <d:ValType />
+                            <d:Commitment>false</d:Commitment>
+                            <d:Closed>false</d:Closed>
+                            <d:ReservNo>0000000000</d:ReservNo>
+                            <d:SpecStock />
+                            <d:Setreserno>0000000000</d:Setreserno>
+                            <d:Settlitmno>0000</d:Settlitmno>
+                            <d:Fixed>false</d:Fixed>
+                            <d:PoUnit />
+                            <d:PoUnitIso />
+                            <d:RevLev />
+                            <d:Advance>false</d:Advance>
+                            <d:PckgNo>0000000000</d:PckgNo>
+                            <d:KanbanInd />
+                            <d:PoPrice />
+                            <d:IntObjNo>000000000000000000</d:IntObjNo>
+                            <d:RelGroup />
+                            <d:SubjToR>false</d:SubjToR>
+                            <d:Promotion />
+                            <d:Batch />
+                            <d:SpstckPhy />
+                            <d:ProdVersion />
+                            <d:CmmtItem />
+                            <d:FundsCtr />
+                            <d:Fund />
+                            <d:ConfigOrg />
+                            <d:ConfMatl />
+                            <d:ComQty>0</d:ComQty>
+                            <d:ComDate m:null="true" />
+                            <d:MatlCat />
+                            <d:Address2 />
+                            <d:Address />
+                            <d:Customer />
+                            <d:SuppVendor />
+                            <d:ScVendor>false</d:ScVendor>
+                            <d:ValuationSpecStock />
+                            <d:ValueItem>0.00</d:ValueItem>
+                            <d:Currency>USD</d:Currency>
+                            <d:CurrencyIso />
+                            <d:VendMat />
+                            <d:GeneralRelease>false</d:GeneralRelease>
+                            <d:ManufProf />
+                            <d:Uomusage />
+                            <d:Langu />
+                            <d:LanguIso />
+                            <d:ValidityObject />
+                            <d:ManuMat />
+                            <d:MfrNo />
+                            <d:MfrNoExt />
+                            <d:FwOrder />
+                            <d:FwOrderItem>00000</d:FwOrderItem>
+                            <d:PlndDelry>0</d:PlndDelry>
+                            <d:MrpArea />
+                            <d:DelivTime>PT00H00M00S</d:DelivTime>
+                            <d:RefReq />
+                            <d:RefReqItem>00000</d:RefReqItem>
+                            <d:GrantNbr />
+                            <d:FuncArea />
+                            <d:Memory>false</d:Memory>
+                            <d:Procstat />
+                            <d:RelValue>0.000000000</d:RelValue>
+                            <d:ReqBlocked />
+                            <d:ReasonBlocking />
+                            <d:Version />
+                            <d:ProcuringPlant />
+                            <d:ExtProcProf />
+                            <d:ExtProcRefDoc />
+                            <d:ExtProcRefItem>00000</d:ExtProcRefItem>
+                            <d:FundsRes />
+                            <d:ResItem>000</d:ResItem>
+                            <d:ConfMatlExternal />
+                            <d:ConfMatlGuid />
+                            <d:ConfMatlVersion />
+                            <d:SupplStloc />
+                            <d:PrioUrgency>00</d:PrioUrgency>
+                            <d:PrioRequirement>000</d:PrioRequirement>
+                            <d:Minremlife>0</d:Minremlife>
+                            <d:PeriodIndExpirationDate>D</d:PeriodIndExpirationDate>
+                            <d:BudgetPeriod />
+                            <d:BrasNbm />
+                            <d:MatlUsage />
+                            <d:MatOrigin />
+                            <d:InHouse>false</d:InHouse>
+                            <d:Indus3 />
+                            <d:StkSegment />
+                            <d:ReqSegment />
+                            <d:AvailDate m:null="true" />
+                            <d:MaterialLong />
+                            <d:PurMatLong />
+                            <d:ConfMatlLong />
+                        </m:properties>
+                    </content>
+                </entry>                
+            </feed>
+        </m:inline>
+    </link>    
+</entry>

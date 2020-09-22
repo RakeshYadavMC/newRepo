@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>A mapping of Campaign Country to 2-digit WBS Country Code</description>
+    <enableFeeds>false</enableFeeds>
+    <label>WBS Country Codes</label>
+    <visibility>Public</visibility>
+</CustomObject>

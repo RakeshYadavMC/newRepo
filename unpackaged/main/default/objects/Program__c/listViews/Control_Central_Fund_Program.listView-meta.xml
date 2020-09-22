@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Control_Central_Fund_Program</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Control Central Fund</label>
+    <queue>Control_Central_Fund</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

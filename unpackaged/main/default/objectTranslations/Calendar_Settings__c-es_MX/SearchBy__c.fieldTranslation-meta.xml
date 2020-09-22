@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Free text search by this field --></help>
+        <label><!-- SearchBy --></label>
+        <name>SearchBy__c</name>
+    </CustomFieldTranslation>

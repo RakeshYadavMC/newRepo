@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <articleTypeChannelDisplay>
+        <articleTypeTemplates>
+            <channel>App</channel>
+            <template>Tab</template>
+        </articleTypeTemplates>
+        <articleTypeTemplates>
+            <channel>Prm</channel>
+            <template>Tab</template>
+        </articleTypeTemplates>
+        <articleTypeTemplates>
+            <channel>Csp</channel>
+            <template>Tab</template>
+        </articleTypeTemplates>
+        <articleTypeTemplates>
+            <channel>Pkb</channel>
+            <template>Toc</template>
+        </articleTypeTemplates>
+    </articleTypeChannelDisplay>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Global Business Services - link to documents stored on STIR</description>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <label>GBS Document Link</label>
+    <pluralLabel>GBS Document Links</pluralLabel>
+</CustomObject>

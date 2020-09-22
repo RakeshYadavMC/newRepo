@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>LY</label>
+    <protected>false</protected>
+    <values>
+        <field>Brand_Image_URL__c</field>
+        <value xsi:type="xsd:string">youtube.png</value>
+    </values>
+    <values>
+        <field>Brand__c</field>
+        <value xsi:type="xsd:string">Laphroaig</value>
+    </values>
+    <values>
+        <field>Image_URL__c</field>
+        <value xsi:type="xsd:string">https://embed.widencdn.net/img/beamsuntory/g2et2vqlgo/20x20px/youtube.png</value>
+    </values>
+    <values>
+        <field>Legal_Statements1__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Legal_Statements2__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>URL_Type__c</field>
+        <value xsi:type="xsd:string">Youtube</value>
+    </values>
+    <values>
+        <field>URL__c</field>
+        <value xsi:type="xsd:string">https://www.youtube.com/user/officiallaphroaig</value>
+    </values>
+</CustomMetadata>

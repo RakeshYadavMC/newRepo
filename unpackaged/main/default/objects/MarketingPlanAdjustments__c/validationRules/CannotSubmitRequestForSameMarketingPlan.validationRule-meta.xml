@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CannotSubmitRequestForSameMarketingPlan</fullName>
+    <active>true</active>
+    <description>Cannot submit request if Transferring and Receiving Marketing Plans are the same.</description>
+    <errorConditionFormula>TransferringMarketingPlan__c  =  ReceivingMarketingPlan__c</errorConditionFormula>
+    <errorMessage>Transferring and Receiving Marketing Plans are the same. Please change one of the fields and submit again.</errorMessage>
+</ValidationRule>

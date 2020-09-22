@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Knob_Creek_Bourbon</fullName>
+    <columns>MasterLabel</columns>
+    <columns>Default_Text_Value__c</columns>
+    <columns>Options__c</columns>
+    <columns>POS_Static_Resource__c</columns>
+    <columns>Premise_Type__c</columns>
+    <columns>Show_Text_Options__c</columns>
+    <columns>State__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>MasterLabel</field>
+        <operation>notContain</operation>
+        <value>KC-Rye</value>
+    </filters>
+    <filters>
+        <field>MasterLabel</field>
+        <operation>contains</operation>
+        <value>KC</value>
+    </filters>
+    <label>Knob Creek Bourbon</label>
+    <language>en_US</language>
+</ListView>

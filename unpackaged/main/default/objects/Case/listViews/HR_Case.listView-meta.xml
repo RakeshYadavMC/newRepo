@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HR_Case</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CASES.ORIGIN</columns>
+    <columns>Submitter__c</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>Category_1__c</columns>
+    <columns>CASES.CREATED_DATE</columns>
+    <columns>VIP_Check__c</columns>
+    <columns>Traffic_Light__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Case_Time_Elapsed__c</columns>
+    <columns>New_Activity_Flag__c</columns>
+    <filterScope>Queue</filterScope>
+    <filters>
+        <field>CASES.CLOSED</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Submitted__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Queue - HR</label>
+    <language>en_US</language>
+    <queue>HR</queue>
+    <sharedTo>
+        <role>GBS_Director_North_America</role>
+        <roleAndSubordinatesInternal>GBS_HR_Management_United_States</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

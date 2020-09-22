@@ -1,0 +1,12 @@
+<p>Dear {!Contact.FirstName},</p>
+<p>Thank you for contacting Hakushu&reg; Whisky!</p>
+<p>The Hakushu Distillery in the Yamanashi prefecture, Chūbu region, Japan is open 7 days week, with the exception of some special holidays. Guided tours are conducted from 10:00 a.m.- 3:00 p.m. each day. The tour is approximately 30 minutes. You may also visit the Suntory Whisky Museum, White Terrace Restaurant, Hakushu Bar, Gift Shop and Bird Sanctuary during your visit to the distillery.</p>
+<p>To take part in a guided tour, make a reservation by calling the distillery. Please find contact information below:</p>
+<p>Phone:<br />
+  +81-551-35-2211</p>
+<p>Operator hours:<br />
+  9:30 am to 4:30 pm<br />
+  (except plant shutdowns)</p>
+<p>Please visit our website for more details:<br />
+  http://www.suntory.com/factory/hakushu/inspection/index.html</p>
+<p>Thank you for being a {!Case.Brand__c} fan,</p>

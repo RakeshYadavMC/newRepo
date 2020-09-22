@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?><SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>AccountVisibility</fullName>
+        <accessLevel>Read</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>None</caseAccessLevel>
+            <contactAccessLevel>Read</contactAccessLevel>
+            <opportunityAccessLevel>Read</opportunityAccessLevel>
+        </accountSettings>
+        <description>Sharing rule used to grant Read-Only access to all Accounts across all sales360 users.</description>
+        <label>Account Visibility</label>
+        <sharedTo>
+            <group>sales360AllUsers</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Non-Premise,Distributor,On Premise,Off Premise,Corporate Account</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Account_Edit_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>None</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>None</opportunityAccessLevel>
+        </accountSettings>
+        <description>It gives edit access to records whose owner is Beam Suntory CS &amp; Record Type is Consumer Account.</description>
+        <label>Account Edit Sharing</label>
+        <sharedTo>
+            <group>Account_Edit_Group</group>
+        </sharedTo>
+        <booleanFilter>1</booleanFilter>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Consumer Account</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Account_Share_with_SplashThat_Integration_User</fullName>
+        <accessLevel>Read</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>None</caseAccessLevel>
+            <contactAccessLevel>None</contactAccessLevel>
+            <opportunityAccessLevel>None</opportunityAccessLevel>
+        </accountSettings>
+        <label>Account Share with SplashThat Integration User</label>
+        <sharedTo>
+            <group>Integration_User_for_SpashThat</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>On Premise,Non-Premise,Off Premise</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BSM_Bonus_Coupon_Wholesalers</fullName>
+        <accessLevel>Read</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>None</caseAccessLevel>
+            <contactAccessLevel>Read</contactAccessLevel>
+            <opportunityAccessLevel>None</opportunityAccessLevel>
+        </accountSettings>
+        <description>Share MX Wholesalers to Guest User License for Coupon Redemption (Custom Checkbox 1 = Bonus Program)</description>
+        <label>BSM Bonus Coupon Wholesalers</label>
+        <sharedTo>
+            <group>BSM_Site_Guest_User</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>gvp__Custom_Checkbox_1__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>CS_Accounts</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Edit</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>None</opportunityAccessLevel>
+        </accountSettings>
+        <description>Share read/write privileges on Distributor Accounts with Customer Service Coordinators and Management</description>
+        <label>CS Accounts</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Customer_Service_Management</roleAndSubordinatesInternal>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Distributor</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>MX_Account_Access</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>None</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>None</opportunityAccessLevel>
+        </accountSettings>
+        <label>MX Account Access</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Beam_Suntory_Mexico</roleAndSubordinatesInternal>
+        </sharedTo>
+        <criteriaItems>
+            <field>BillingCountry</field>
+            <operation>equals</operation>
+            <value>MX,Mexico</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Share_Accounts_and_Contacts_with_All_GBS_Roles</fullName>
+        <accessLevel>Read</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>None</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>None</opportunityAccessLevel>
+        </accountSettings>
+        <description>Give access to Accounts and Contacts for all GBS Users in the new GBS Role Hierarchy.</description>
+        <label>Share Accounts and Contacts with All GBS Roles</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>GBS_Director</roleAndSubordinatesInternal>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Vendor,Distributor</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>notEqual</operation>
+            <value>Beam Suntory GBS</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Share_Vendors_Distributors_with_GBS</fullName>
+        <accessLevel>Read</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Read</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>None</opportunityAccessLevel>
+        </accountSettings>
+        <label>Share Vendors Distributors with GBS</label>
+        <sharedTo>
+            <group>GBS_Employees_All</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Vendor,Distributor</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>notEqual</operation>
+            <value>Beam Suntory GBS</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingOwnerRules>
+        <fullName>BSMX</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>None</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>None</opportunityAccessLevel>
+        </accountSettings>
+        <label>BSMX</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Beam_Suntory_Mexico</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>Beam_Suntory_Mexico</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

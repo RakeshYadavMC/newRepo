@@ -1,0 +1,6 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<font face="arial">亲爱的 {!Case.Contact}，</font><div><font face="arial"><br></font></div><div><font face="arial">感谢您注册 Beam Suntory Company Community （公司社区）。 您的请求正在审核中，一旦获得批准，用户名和必要的操作项将通过电子邮件提供。 如果您的请求需要额外的验证，将发送电子邮件通知。 处理请求最多需要 2 个工作日；请根据需要检查垃圾邮件/垃圾邮件文件夹。&nbsp;</font></div><div><font face="arial"><br></font></div><div><font face="arial">感谢您，</font></div><div><font face="arial">Beam Suntory&nbsp;</font></div><div><font face="arial"><br></font></div><div><font face="arial">{!Case.Thread_Id}</font></div>]]></td>
+</tr>
+</table>

@@ -1,0 +1,7 @@
+The following Bonus Agreement requires approval:
+
+Account: {!Account.Name}
+Agreement: {!gvp__Sales_Goal__c.gvp__Custom_1__c}
+
+Please click here to review and approve this record:
+{!ApprovalRequest.Internal_URL}

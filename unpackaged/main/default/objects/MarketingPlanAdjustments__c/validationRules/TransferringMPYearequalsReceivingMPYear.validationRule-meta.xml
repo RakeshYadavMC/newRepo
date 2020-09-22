@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TransferringMPYearequalsReceivingMPYear</fullName>
+    <active>true</active>
+    <errorConditionFormula>text(TransferringMarketingPlan__r.Year__c)  &lt;&gt;  text(ReceivingMarketingPlan__r.Year__c)</errorConditionFormula>
+    <errorMessage>Year of Transferring Marketing Plan does not equal Year of Receiving Marketing Plan.</errorMessage>
+</ValidationRule>

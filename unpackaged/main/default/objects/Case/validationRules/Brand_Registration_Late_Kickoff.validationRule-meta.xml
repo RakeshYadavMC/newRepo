@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Brand_Registration_Late_Kickoff</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF(
+  AND(
+    RecordType.DeveloperName='Brand_Registration',
+    OR(
+      AND(ISCHANGED(Kick_Off_Brand_Registration__c), Kick_Off_Brand_Registration__c=TRUE), 
+      ISCHANGED(In_field_Date__c)
+    ),
+    (TODAY()+75) - In_field_Date__c &gt; 0,
+    ISBLANK(TEXT(Reason))
+  ),
+true,
+false
+)</errorConditionFormula>
+    <errorDisplayField>Reason</errorDisplayField>
+    <errorMessage>The In-Field Date is in less than 75 days away and is late. Please specify a reason that this Kickoff is late.</errorMessage>
+</ValidationRule>

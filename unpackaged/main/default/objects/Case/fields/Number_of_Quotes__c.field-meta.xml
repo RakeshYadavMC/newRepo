@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Number_of_Quotes__c</fullName>
+    <description>This field represents the number of quotes that were requested in a Quote Request Case. Only applies to items that are available.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The number of quotes that were requested and processed for available items</inlineHelpText>
+    <label>Number of Quotes</label>
+    <summaryFilterItems>
+        <field>Quote_Request__c.Item_Available__c</field>
+        <operation>equals</operation>
+        <value>Yes</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Quote_Request__c.Case__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

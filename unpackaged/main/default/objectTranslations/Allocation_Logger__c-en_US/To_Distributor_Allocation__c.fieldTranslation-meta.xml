@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- To Distributor Allocation --></label>
+        <name>To_Distributor_Allocation__c</name>
+        <relationshipLabel><!-- Allocation Loggers (To Distributor Allocation) --></relationshipLabel>
+    </CustomFieldTranslation>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Business_Unit__c</fullName>
+    <externalId>false</externalId>
+    <label>Business Unit</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Bulk/Barrel</fullName>
+                <default>false</default>
+                <label>Bulk/Barrel</label>
+            </value>
+            <value>
+                <fullName>Canada</fullName>
+                <default>false</default>
+                <label>Canada</label>
+            </value>
+            <value>
+                <fullName>Developed Europe</fullName>
+                <default>false</default>
+                <label>Developed Europe</label>
+            </value>
+            <value>
+                <fullName>Emerging Asia</fullName>
+                <default>false</default>
+                <label>Emerging Asia</label>
+            </value>
+            <value>
+                <fullName>Emerging Europe</fullName>
+                <default>false</default>
+                <label>Emerging Europe</label>
+            </value>
+            <value>
+                <fullName>India</fullName>
+                <default>false</default>
+                <label>India</label>
+            </value>
+            <value>
+                <fullName>Mexico</fullName>
+                <default>false</default>
+                <label>Mexico</label>
+            </value>
+            <value>
+                <fullName>Oceania</fullName>
+                <default>false</default>
+                <label>Oceania</label>
+            </value>
+            <value>
+                <fullName>South America</fullName>
+                <default>false</default>
+                <label>South America</label>
+            </value>
+            <value>
+                <fullName>Travel Retail</fullName>
+                <default>false</default>
+                <label>Travel Retail</label>
+            </value>
+            <value>
+                <fullName>US</fullName>
+                <default>false</default>
+                <label>US</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

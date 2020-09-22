@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Help_Text__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(AND(PR_Header_Status__c='New',PR_Amount__c &gt; Campaign_Balance__c),'* Insufficient Campaign Balance. ','')+
+IF(Phasing_Records_Count__c = 0, '* Phasing records needs to be created. ','')+
+IF(PR_Amount__c&gt;0 &amp;&amp; Phasing_Records_Count__c&gt;0 &amp;&amp; ROUND(PR_Amount_USD__c,2) &lt;&gt; ROUND(Phasing_Amount_USD__c,2), '* PR Amount and Phasing Amount not matching. ','')+
+IF(NOT(Approved__c), '* PR Not Approved By Finance. ','')+
+if(OR(ISBLANK(Description__c),ISBLANK(PR_Amount__c),PR_Amount__c&lt;1,ISBLANK(TEXT(StartMonth__c)),ISBLANK(TEXT(EndMonth__c)),
+		ISBLANK(TEXT(GLAccountType__c)),ISBLANK(TEXT(GL_Code2__c)),ISBLANK(TEXT(GLDescription2__c)),ISBLANK(GL_Details__c)),
+	'* Required fields are missing. ','')</formula>
+    <label>Help Text</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

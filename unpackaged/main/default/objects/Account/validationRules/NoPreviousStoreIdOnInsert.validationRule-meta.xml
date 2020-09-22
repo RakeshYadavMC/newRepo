@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NoPreviousStoreIdOnInsert</fullName>
+    <active>false</active>
+    <description>This rule is no longer needed after anaplan revisions to the ETL</description>
+    <errorConditionFormula>AND(
+  ISNEW() ,
+  NOT(ISBLANK(PreviousStoreID__c)),
+  NOT(ISNULL(PreviousStoreID__c)),
+  NOT(AccountAction__c=3)
+)</errorConditionFormula>
+    <errorMessage>Previous StoreID should be blank on insert</errorMessage>
+</ValidationRule>

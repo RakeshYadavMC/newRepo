@@ -1,0 +1,6 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<div><span style="font-size: 12pt;"><br></span></div><div><span style="font-size: 12pt;"><br></span></div><div><span style="font-size: 12pt;">{!Case.State__c}'s blank {!Case.Related_Month__c} {!Case.Year__c} workbook has been uploaded for this Price Filing Case in Salesforce and is attached to this email.</span></div><div><span style="font-size: 12pt;"><br></span></div><div>The Price Filing is due by {!Case.Due_Date__c}. Please complete and return this workbook by <b>{!Case.State_Manager_Due_Date__c}</b>.</div><div><br></div><div><div>Click&nbsp;<a href="{!Case.Link}">here</a>&nbsp;to view this Case in Salesforce.</div><div><br></div><div><br></div><div><span style="font-size: x-small; background-color: rgb(255, 255, 255);">{!Case.Thread_Id}</span></div></div>]]></td>
+</tr>
+</table>

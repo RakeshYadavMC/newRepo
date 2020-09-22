@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Claimed_by_Jody</fullName>
+    <columns>NAME</columns>
+    <columns>Vendor_Name__c</columns>
+    <columns>Finance_Reviewer__c</columns>
+    <columns>Status__c</columns>
+    <columns>Payment_Terms__c</columns>
+    <columns>Request_Date__c</columns>
+    <columns>Total_PR_Amount__c</columns>
+    <columns>SAP_Company_Code__c</columns>
+    <columns>SAP_PR_Number__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Finance_Reviewer__c</field>
+        <operation>equals</operation>
+        <value>Jody Cates</value>
+    </filters>
+    <label>Claimed by Jody</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>Finance_PRs</group>
+    </sharedTo>
+</ListView>

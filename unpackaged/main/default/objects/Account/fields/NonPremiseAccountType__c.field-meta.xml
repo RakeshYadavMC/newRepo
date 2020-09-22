@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NonPremiseAccountType__c</fullName>
+    <externalId>false</externalId>
+    <label>Non-Premise Account Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Media</fullName>
+                <default>false</default>
+                <label>Media</label>
+            </value>
+            <value>
+                <fullName>Event</fullName>
+                <default>false</default>
+                <label>Event</label>
+            </value>
+            <value>
+                <fullName>Charity</fullName>
+                <default>false</default>
+                <label>Charity</label>
+            </value>
+            <value>
+                <fullName>Non-Licensed Accounts</fullName>
+                <default>false</default>
+                <label>Non-Licensed Accounts</label>
+            </value>
+            <value>
+                <fullName>Industry Association</fullName>
+                <default>false</default>
+                <label>Industry Association</label>
+            </value>
+            <value>
+                <fullName>Agency</fullName>
+                <default>false</default>
+                <label>Agency</label>
+            </value>
+            <value>
+                <fullName>Organization</fullName>
+                <default>false</default>
+                <label>Organization</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

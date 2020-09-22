@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Forecast_Week__c</fullName>
+    <externalId>false</externalId>
+    <formula>TEXT(CEILING(Day(Forecast_Date__c) / 7))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Snapshot Week</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

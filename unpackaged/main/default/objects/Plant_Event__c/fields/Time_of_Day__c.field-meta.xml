@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Time_of_Day__c</fullName>
+    <externalId>false</externalId>
+    <label>Time of Day</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AM</fullName>
+                <default>false</default>
+                <label>AM</label>
+            </value>
+            <value>
+                <fullName>PM</fullName>
+                <default>false</default>
+                <label>PM</label>
+            </value>
+            <value>
+                <fullName>ALL</fullName>
+                <default>false</default>
+                <label>ALL</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Trip</controllingFieldValue>
+            <controllingFieldValue>Blackout</controllingFieldValue>
+            <valueName>AM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trip</controllingFieldValue>
+            <controllingFieldValue>Blackout</controllingFieldValue>
+            <valueName>PM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Blackout</controllingFieldValue>
+            <valueName>ALL</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

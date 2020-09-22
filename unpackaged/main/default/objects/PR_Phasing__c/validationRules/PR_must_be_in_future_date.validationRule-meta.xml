@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PR_must_be_in_future_date</fullName>
+    <active>true</active>
+    <description>This validation on PR Phasing object to ensure the phasing is created for future dates.
+Restrict for any past dated phasing records.</description>
+    <errorConditionFormula>IF(AND($Permission.Bypass_PR_Validations,Delivery_Date__c &lt; Today()),
+ADDMONTHS(Delivery_Date__c,1) &lt; Today(),
+Delivery_Date__c &lt; Today()
+)</errorConditionFormula>
+    <errorDisplayField>Delivery_Date__c</errorDisplayField>
+    <errorMessage>You can not create a Phasing with past dated.</errorMessage>
+</ValidationRule>

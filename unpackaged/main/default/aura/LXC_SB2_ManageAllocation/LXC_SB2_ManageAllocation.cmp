@@ -1,0 +1,274 @@
+<aura:component implements="force:appHostable,lightning:isUrlAddressable" controller="CNT_SB2_ManageAllocations">
+
+    <aura:handler name="init" value="{!this}" action="{!c.init}" />
+    <aura:handler name="change" value="{!v.brandAllocation}" action="{!c.brandAllocationChange}" />
+    <!-- <aura:handler name="change" value="{!v.brand}" action="{!c.brandChange}" /> -->
+    <aura:handler name="change" value="{!v.programTypeAndInterval}" action="{!c.programTypeAndIntervalChange}" />
+    <aura:handler name="change" value="{!v.country}" action="{!c.countryChange}" />
+    <aura:handler name="change" value="{!v.from}" action="{!c.fromChange}" />
+    <aura:handler name="change" value="{!v.to}" action="{!c.toChange}" />
+    <aura:handler name="change" value="{!v.fromAllocationValue}" action="{!c.fromAllocationValueChange}" />
+    <aura:handler name="change" value="{!v.toAllocationValue}" action="{!c.toAllocationValueChange}" />
+
+    <aura:attribute name="isLoading" type="boolean" default="false" />
+
+    <aura:attribute name="brands" type="List" description="To store brands"/>
+    <aura:attribute name="countries" type="List" description="To store countries" />
+    <aura:attribute name="programTypesAndTimeIntervals" type="List" description="To store program types and time intervals" />
+
+    <aura:attribute name="brandAllocation" type="Object" description="To store brand allocation data" />
+
+    <aura:attribute name="brand" type="String" description="To store brand" />
+    <aura:attribute name="programTypeAndInterval" type="String" description="To store program type and time interval" />
+    <aura:attribute name="country" type="String" description="To store country" />
+
+    <aura:attribute name="from" type="String" description="To store from which object allocation will be transfer or modified" />
+    <aura:attribute name="to" type="String" description="To store on which object allocation will be received" />
+
+    <aura:attribute name="fromAllocationLabel" type="String" description="To store, from label i.e. Region, State or Distributor" />
+    <aura:attribute name="toAllocationLabel" type="String" description="To store, to label i.e. Region, State or Distributor" />
+
+    <aura:attribute name="fromAllocationValue" type="String" />
+    <aura:attribute name="toAllocationValue" type="String" />
+
+    <aura:attribute name="fromAllocations" type="Object" />
+    <aura:attribute name="toAllocations" type="Object" />
+
+    <aura:attribute name="totalAllocation" type="String" />
+    <aura:attribute name="usedAllocation" type="String" />
+    <aura:attribute name="remainingAllocation" type="String" />
+    
+    <aura:attribute name="toTotalAllocation" type="String" />
+    <aura:attribute name="toUsedAllocation" type="String" />
+    <aura:attribute name="toRemainingAllocation" type="String" />
+
+    <lightning:workspaceAPI aura:id="workspace" />
+    <lightning:navigationItemAPI aura:id="navigationItemAPI"/>
+
+    <aura:attribute name="title" type="String" />
+
+    <aura:attribute
+        name="fromToValues"
+        type="List"
+        default="[
+            {'label':'Region', 'value':'Brand_Country_Region_Allocation__c'},
+            {'label':'State', 'value':'Brand_Country_Region_State_Allocation__c'},
+            {'label':'Distributor', 'value':'Brand_Country_Region_State_Dist_Alloc__c'},
+        ]"
+    />
+
+    <aura:attribute
+        name="manageAllocation"
+        type="Allocation_Logger__c"
+        default="{
+        'sobjectType': 'Allocation_Logger__c',
+        'Brand_Allocation__c': '',
+        'Chage_Type__c' : '',
+        'From_State_Allocation__c' : '',
+        'From_Region_Allocation__c' : '',
+        'From_Distributor_Allocation__c' : '',
+        'To_State_Allocation__c': '',
+        'To_Region_Allocation__c': '',
+        'To_Distributor_Allocation__c': '',
+        'Allocation_Changed__c' : 1,
+        'Transfer_Modification_Reason__c': '',
+        'From_Original_Allocation__c': '',
+        'To_Original_Allocation__c': ''
+    }"
+    />
+
+    
+
+    <lightning:card>
+        <!-- Card Title -->
+        <aura:set attribute="title">
+            <p class="title">{! v.title }</p>
+
+            <!-- Validation Error Messages -->
+            <aura:if isTrue="{!v.hasError}">
+                <div class="pageLevelErrors">
+                    <div class="forcePageError">
+                        <div class="genericNotification">
+                            <span class="genericError uiOutputText">
+                                Review the errors on this page.
+                            </span>
+                        </div>
+                        <ul class="errorsList">
+                            <aura:iteration items="{!v.errors}" var="error">
+                                <li>{!error}</li>
+                            </aura:iteration>
+                        </ul>
+                    </div>
+                </div>
+            </aura:if>
+        </aura:set>
+
+        <div class="slds-form slds-p-horizontal_medium">
+            <!-- Loader -->
+            <aura:if isTrue="{!v.isLoading}">
+                <lightning:spinner alternativeText="Loading..." />
+            </aura:if>
+
+            <!-- Brand Selection -->
+            <lightning:select
+                aura:id="formInput"
+                class="formElementWidth"
+                label="Brand"
+                required="true"
+                value="{!v.brand}"
+                onchange="{! c.brandChange }"
+                tabindex="-1"
+            >
+                <option value="">&lt;Select an option&gt;</option>
+                <aura:iteration items="{!v.brands}" var="brand">
+                    <option text="{!brand}" value="{!brand}" selected="{!brand.selected}" />
+                </aura:iteration>
+            </lightning:select>
+
+            <!-- Program Type & Time Interval Selection -->
+            <lightning:select
+                aura:id="formInput"
+                class="formElementWidth"
+                label="Program Type &amp; Time Interval"
+                required="true"
+                value="{!v.programTypeAndInterval}"
+                disabled="{! empty(v.programTypesAndTimeIntervals) }"
+            >
+                <option value="">&lt;Select an option&gt;</option>
+                <aura:iteration items="{!v.programTypesAndTimeIntervals}" var="item">
+                    <option text="{!item}" value="{!item}" selected="{!item.selected}" />
+                </aura:iteration>
+            </lightning:select>
+
+            <!-- Country Selection -->
+            <lightning:select
+                aura:id="formInput"
+                class="formElementWidth"
+                label="Country"
+                required="true"
+                value="{!v.country}"
+                disabled="{! empty(v.countries) }"
+            >
+                <option value="">&lt;Select an option&gt;</option>
+                <aura:iteration items="{!v.countries}" var="item">
+                    <option text="{!item}" value="{!item}" selected="{!item.selected}" />
+                </aura:iteration>
+            </lightning:select>
+
+            <aura:if isTrue="{! v.brand &amp;&amp; v.programTypeAndInterval &amp;&amp; v.country }">
+                <div class="divInline">
+                    <div class="formElementWidth">
+                        <lightning:select
+                            aura:id="formInput"
+                            label="{! v.title == 'Modify Allocations' ? 'Allocation Level?' : 'From' }"
+                            required="true"
+                            value="{! v.from }"
+                        >
+                            <option value="">&lt;Select an option&gt;</option>
+                            <aura:iteration items="{!v.fromToValues}" var="item">
+                                <option text="{!item.label}" value="{!item.value}" selected="{!item.selected}" />
+                            </aura:iteration>
+                        </lightning:select>
+
+                        <aura:if isTrue="{! not(empty(v.from)) }">
+                            <lightning:select
+                                aura:id="formInput"
+                                label="{! v.fromAllocationLabel + ' Allocation' }"
+                                required="true"
+                                value="{! v.fromAllocationValue }"
+                                disabled="{! empty(v.fromAllocations) }"
+                            >
+                                <option value="">&lt;Select an option&gt;</option>
+                                <aura:iteration items="{!v.fromAllocations}" var="item">
+                                    <option text="{!item.Name}" value="{!item.Id}" selected="{!item.selected}" />
+                                </aura:iteration>
+                            </lightning:select>
+                        </aura:if>
+                        <aura:if isTrue="{! v.fromAllocationValue }">
+                            <p class="allocationMargin">
+                                Total Allocation: {! v.totalAllocation } | Used: {! v.usedAllocation } | Remaining: {!
+                                v.remainingAllocation }
+                            </p>
+                        </aura:if>
+                    </div>
+
+                    <aura:if isTrue="{! v.manageAllocation.Change_Type__c == 'Transfer' &amp;&amp; not(empty(v.fromAllocationValue))}">
+                        <div class="formElementWidth marginLeft">
+                            <lightning:select
+                                aura:id="formInput"
+                                label="To"
+                                required="true"
+                                value="{! v.to }"
+                                disabled="{! v.remainingAllocation == 0}"
+                            >
+                                <option value="">&lt;Select an option&gt;</option>
+                                <aura:iteration items="{!v.fromToValues}" var="item">
+                                    <option text="{!item.label}" value="{!item.value}" selected="{!item.selected}" />
+                                </aura:iteration>
+                            </lightning:select>
+
+                            <aura:if isTrue="{! not(empty(v.to)) }">
+                                <lightning:select
+                                    aura:id="formInput"
+                                    label="{! v.toAllocationLabel + ' Allocation' }"
+                                    required="true"
+                                    value="{! v.toAllocationValue }"
+                                    disabled="{! empty(v.toAllocations) }"
+                                >
+                                    <option value="">&lt;Select an option&gt;</option>
+                                    <aura:iteration items="{!v.toAllocations}" var="item">
+                                        <option
+                                            text="{!item.Name}"
+                                            value="{!item.Id}"
+                                            selected="{!item.selected}"
+                                        />
+                                    </aura:iteration>
+                                </lightning:select>
+                            </aura:if>
+                            
+                            <aura:if isTrue="{! v.toAllocationValue }">
+                            <p class="allocationMargin">
+                                Total Allocation: {! v.toTotalAllocation } | Used: {! v.toUsedAllocation } | Remaining: {!
+                                v.toRemainingAllocation }
+                            </p>
+                        </aura:if>
+                        </div>
+                    </aura:if>
+                </div>
+            </aura:if>
+
+            <aura:if isTrue="{! v.fromAllocationValue }">
+                <lightning:input
+                    aura:id="formInput"
+                    type="number"
+                    required="true"
+                    class="formElementWidth"
+                    min="{! v.manageAllocation.Change_Type__c == 'Modify' ? v.usedAllocation : 1 }"
+                    max="{! v.manageAllocation.Change_Type__c == 'Modify' ? null : v.remainingAllocation }"
+                    messageWhenRangeUnderflow="{! v.manageAllocation.Change_Type__c == 'Modify' ? 'New allocation should be equal or greater than used allocation.' : 'Allocation value should be 1 or more.' }"
+                    messageWhenRangeOverflow="Allocation value should be equal or less than remaining allocation."
+                    messageWhenValueMissing="Please provide a value."
+                    messageWhenBadInput="Please provide a numeric value."
+                    label="{! v.manageAllocation.Change_Type__c == 'Modify' ? 'New Allocation' : 'Allocation to Transfer' }"
+                    onpaste="{! c.handlePaste }"
+                    value="{!v.manageAllocation.Allocation_Changed__c}"
+                />
+
+                <lightning:textarea
+                    aura:id="formInput"
+                    name="comment"
+                    maxlength="5000"
+                    class="formElementWidth"
+                    label="{! v.manageAllocation.Change_Type__c == 'Modify' ? 'Reason of Change' : 'Reason of Transfer' }"
+                    required="true"
+                    messageWhenValueMissing="Please provide a reason."
+                    value="{!v.manageAllocation.Transfer_Modification_Reason__c}"
+                />
+            </aura:if>
+        </div>
+        <!-- Cancel & Submit Button -->
+        <aura:set attribute="footer">
+            <lightning:button variant="brand" type="submit" name="Submit" label="Submit" onclick="{!c.handleSubmit}" />
+        </aura:set>
+    </lightning:card>
+</aura:component>

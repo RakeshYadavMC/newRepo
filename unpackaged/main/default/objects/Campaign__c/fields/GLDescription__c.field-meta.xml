@@ -1,0 +1,1767 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GLDescription__c</fullName>
+    <externalId>false</externalId>
+    <label>GL Description</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>GLAccountType__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Ad Production Costs</fullName>
+                <default>false</default>
+                <label>Ad Production Costs</label>
+            </value>
+            <value>
+                <fullName>Advanced TV Paid Advertising</fullName>
+                <default>false</default>
+                <label>Advanced TV Paid Advertising</label>
+            </value>
+            <value>
+                <fullName>Cinema Paid Advertising</fullName>
+                <default>false</default>
+                <label>Cinema Paid Advertising</label>
+            </value>
+            <value>
+                <fullName>Consumer Giveaways</fullName>
+                <default>false</default>
+                <label>Consumer Giveaways</label>
+            </value>
+            <value>
+                <fullName>Consumer Magazines Paid Advertising</fullName>
+                <default>false</default>
+                <label>Consumer Magazines Paid Advertising</label>
+            </value>
+            <value>
+                <fullName>Consumer Newspaper Paid Advertising</fullName>
+                <default>false</default>
+                <label>Consumer Newspaper Paid Advertising</label>
+            </value>
+            <value>
+                <fullName>Consumer Research</fullName>
+                <default>false</default>
+                <label>Consumer Research</label>
+            </value>
+            <value>
+                <fullName>Creative Agency Fees</fullName>
+                <default>false</default>
+                <label>Creative Agency Fees</label>
+            </value>
+            <value>
+                <fullName>Customer Relations Management</fullName>
+                <default>false</default>
+                <label>Customer Relations Management</label>
+            </value>
+            <value>
+                <fullName>Digital Display Paid Advertising</fullName>
+                <default>false</default>
+                <label>Digital Display Paid Advertising</label>
+            </value>
+            <value>
+                <fullName>Direct Mail</fullName>
+                <default>false</default>
+                <label>Direct Mail</label>
+            </value>
+            <value>
+                <fullName>Freight and Storage (National POS Only)</fullName>
+                <default>false</default>
+                <label>Freight and Storage (National POS Only)</label>
+            </value>
+            <value>
+                <fullName>Heritage Center</fullName>
+                <default>false</default>
+                <label>Heritage Center</label>
+            </value>
+            <value>
+                <fullName>Liscensing and Royalty</fullName>
+                <default>false</default>
+                <label>Liscensing and Royalty</label>
+            </value>
+            <value>
+                <fullName>Media Agency Fees</fullName>
+                <default>false</default>
+                <label>Media Agency Fees</label>
+            </value>
+            <value>
+                <fullName>Mobile Paid Advertising</fullName>
+                <default>false</default>
+                <label>Mobile Paid Advertising</label>
+            </value>
+            <value>
+                <fullName>Non-Standard Digital Units Paid Advertising</fullName>
+                <default>false</default>
+                <label>Non-Standard Digital Units Paid Advertising</label>
+            </value>
+            <value>
+                <fullName>Off Premise Consumer Promotion</fullName>
+                <default>false</default>
+                <label>Off Premise Consumer Promotion</label>
+            </value>
+            <value>
+                <fullName>Off Premise Display Installation</fullName>
+                <default>false</default>
+                <label>Off Premise Display Installation</label>
+            </value>
+            <value>
+                <fullName>Off Premise POS</fullName>
+                <default>false</default>
+                <label>Off Premise POS</label>
+            </value>
+            <value>
+                <fullName>Off Premise Sampling</fullName>
+                <default>false</default>
+                <label>Off Premise Sampling</label>
+            </value>
+            <value>
+                <fullName>Off Premise - Trade Event</fullName>
+                <default>false</default>
+                <label>Off Premise - Trade Event</label>
+            </value>
+            <value>
+                <fullName>Off Premise Value Added Packaging (VAP)</fullName>
+                <default>false</default>
+                <label>Off Premise Value Added Packaging (VAP)</label>
+            </value>
+            <value>
+                <fullName>Off Trade Incentive</fullName>
+                <default>false</default>
+                <label>Off Trade Incentive</label>
+            </value>
+            <value>
+                <fullName>Online Video Paid Advertising</fullName>
+                <default>false</default>
+                <label>Online Video Paid Advertising</label>
+            </value>
+            <value>
+                <fullName>On Premise Consumer Promotion</fullName>
+                <default>false</default>
+                <label>On Premise Consumer Promotion</label>
+            </value>
+            <value>
+                <fullName>On Premise Menus</fullName>
+                <default>false</default>
+                <label>On Premise Menus</label>
+            </value>
+            <value>
+                <fullName>On Premise POS</fullName>
+                <default>false</default>
+                <label>On Premise POS</label>
+            </value>
+            <value>
+                <fullName>On Premise Sampling</fullName>
+                <default>false</default>
+                <label>On Premise Sampling</label>
+            </value>
+            <value>
+                <fullName>On Premise - Trade Event</fullName>
+                <default>false</default>
+                <label>On Premise - Trade Event</label>
+            </value>
+            <value>
+                <fullName>On Trade Incentive</fullName>
+                <default>false</default>
+                <label>On Trade Incentive</label>
+            </value>
+            <value>
+                <fullName>Outdoor Paid Advertising</fullName>
+                <default>false</default>
+                <label>Outdoor Paid Advertising</label>
+            </value>
+            <value>
+                <fullName>Out of Home</fullName>
+                <default>false</default>
+                <label>Out of Home</label>
+            </value>
+            <value>
+                <fullName>Panel Research / Trade Data</fullName>
+                <default>false</default>
+                <label>Panel Research / Trade Data</label>
+            </value>
+            <value>
+                <fullName>PR Agency Fees</fullName>
+                <default>false</default>
+                <label>PR Agency Fees</label>
+            </value>
+            <value>
+                <fullName>PR Events</fullName>
+                <default>false</default>
+                <label>PR Events</label>
+            </value>
+            <value>
+                <fullName>PR Materials / Other Expenses</fullName>
+                <default>false</default>
+                <label>PR Materials / Other Expenses</label>
+            </value>
+            <value>
+                <fullName>Radio Paid Advertising</fullName>
+                <default>false</default>
+                <label>Radio Paid Advertising</label>
+            </value>
+            <value>
+                <fullName>Rebates Price Support</fullName>
+                <default>false</default>
+                <label>Rebates Price Support</label>
+            </value>
+            <value>
+                <fullName>Search Engine Optimization</fullName>
+                <default>false</default>
+                <label>Search Engine Optimization</label>
+            </value>
+            <value>
+                <fullName>Search Paid Advertising</fullName>
+                <default>false</default>
+                <label>Search Paid Advertising</label>
+            </value>
+            <value>
+                <fullName>Social Content Creation and Development</fullName>
+                <default>false</default>
+                <label>Social Content Creation and Development</label>
+            </value>
+            <value>
+                <fullName>Sponsorship Activation</fullName>
+                <default>false</default>
+                <label>Sponsorship Activation</label>
+            </value>
+            <value>
+                <fullName>Sponsorship Fees</fullName>
+                <default>false</default>
+                <label>Sponsorship Fees</label>
+            </value>
+            <value>
+                <fullName>Trade Digital Paid Advertising</fullName>
+                <default>false</default>
+                <label>Trade Digital Paid Advertising</label>
+            </value>
+            <value>
+                <fullName>Trade Print Paid Advertising</fullName>
+                <default>false</default>
+                <label>Trade Print Paid Advertising</label>
+            </value>
+            <value>
+                <fullName>TV Paid Advertising</fullName>
+                <default>false</default>
+                <label>TV Paid Advertising</label>
+            </value>
+            <value>
+                <fullName>Website Creation and Development</fullName>
+                <default>false</default>
+                <label>Website Creation and Development</label>
+            </value>
+            <value>
+                <fullName>Agency Fee – Consultants</fullName>
+                <default>false</default>
+                <label>Agency Fee – Consultants</label>
+            </value>
+            <value>
+                <fullName>Agency Fee – Design</fullName>
+                <default>false</default>
+                <label>Agency Fee – Design</label>
+            </value>
+            <value>
+                <fullName>Agency Fee – Digital</fullName>
+                <default>false</default>
+                <label>Agency Fee – Digital</label>
+            </value>
+            <value>
+                <fullName>Agency Fee – Experiential</fullName>
+                <default>false</default>
+                <label>Agency Fee – Experiential</label>
+            </value>
+            <value>
+                <fullName>Agency Fee – Innovation</fullName>
+                <default>false</default>
+                <label>Agency Fee – Innovation</label>
+            </value>
+            <value>
+                <fullName>Agency Fee – Lead Creative</fullName>
+                <default>false</default>
+                <label>Agency Fee – Lead Creative</label>
+            </value>
+            <value>
+                <fullName>Agency Fee – Media</fullName>
+                <default>false</default>
+                <label>Agency Fee – Media</label>
+            </value>
+            <value>
+                <fullName>Agency Fee – PR</fullName>
+                <default>false</default>
+                <label>Agency Fee – PR</label>
+            </value>
+            <value>
+                <fullName>Agency Fee – Shopper</fullName>
+                <default>false</default>
+                <label>Agency Fee – Shopper</label>
+            </value>
+            <value>
+                <fullName>Agency Fee – Talent</fullName>
+                <default>false</default>
+                <label>Agency Fee – Talent</label>
+            </value>
+            <value>
+                <fullName>Agency Fee – Technology Platform</fullName>
+                <default>false</default>
+                <label>Agency Fee – Technology Platform</label>
+            </value>
+            <value>
+                <fullName>Analytics – Marketing Analytics</fullName>
+                <default>false</default>
+                <label>Analytics – Marketing Analytics</label>
+            </value>
+            <value>
+                <fullName>Execution – Consumer Experience &amp; Personalization</fullName>
+                <default>false</default>
+                <label>Execution – Consumer Experience &amp; Personalization</label>
+            </value>
+            <value>
+                <fullName>Misc – POS Freight &amp; Storage</fullName>
+                <default>false</default>
+                <label>Misc – POS Freight &amp; Storage</label>
+            </value>
+            <value>
+                <fullName>Off-Trade – Consumer Promotions - POS Materials</fullName>
+                <default>false</default>
+                <label>Off-Trade – Consumer Promotions - POS Materials</label>
+            </value>
+            <value>
+                <fullName>Off-Trade – Consumer Promotions - Redemption</fullName>
+                <default>false</default>
+                <label>Off-Trade – Consumer Promotions - Redemption</label>
+            </value>
+            <value>
+                <fullName>Off-Trade – Consumer Promotions - Sampling</fullName>
+                <default>false</default>
+                <label>Off-Trade – Consumer Promotions - Sampling</label>
+            </value>
+            <value>
+                <fullName>Off-Trade – Consumer Promotions - Sweeps</fullName>
+                <default>false</default>
+                <label>Off-Trade – Consumer Promotions - Sweeps</label>
+            </value>
+            <value>
+                <fullName>Off-Trade – Display Installations</fullName>
+                <default>false</default>
+                <label>Off-Trade – Display Installations</label>
+            </value>
+            <value>
+                <fullName>Off-Trade – Trade Promotions</fullName>
+                <default>false</default>
+                <label>Off-Trade – Trade Promotions</label>
+            </value>
+            <value>
+                <fullName>Off-Trade – Value Added Packaging</fullName>
+                <default>false</default>
+                <label>Off-Trade – Value Added Packaging</label>
+            </value>
+            <value>
+                <fullName>On-Trade – Consumer Promotions - POS Materials</fullName>
+                <default>false</default>
+                <label>On-Trade – Consumer Promotions - POS Materials</label>
+            </value>
+            <value>
+                <fullName>On-Trade – Consumer Promotions - Print, Digital POS and Fulfillment Services</fullName>
+                <default>false</default>
+                <label>On-Trade – Consumer Promotions - Print, Digital POS and Fulfillment Services</label>
+            </value>
+            <value>
+                <fullName>On-Trade – Consumer Promotions - Redemption</fullName>
+                <default>false</default>
+                <label>On-Trade – Consumer Promotions - Redemption</label>
+            </value>
+            <value>
+                <fullName>On-Trade – Consumer Promotions - Sampling</fullName>
+                <default>false</default>
+                <label>On-Trade – Consumer Promotions - Sampling</label>
+            </value>
+            <value>
+                <fullName>On-Trade – Consumer Promotions - Sweeps</fullName>
+                <default>false</default>
+                <label>On-Trade – Consumer Promotions - Sweeps</label>
+            </value>
+            <value>
+                <fullName>On-Trade – Display Installations</fullName>
+                <default>false</default>
+                <label>On-Trade – Display Installations</label>
+            </value>
+            <value>
+                <fullName>On-Trade – Drink machines</fullName>
+                <default>false</default>
+                <label>On-Trade – Drink machines</label>
+            </value>
+            <value>
+                <fullName>On-Trade – Menus</fullName>
+                <default>false</default>
+                <label>On-Trade – Menus</label>
+            </value>
+            <value>
+                <fullName>On-Trade – Trade Promotions</fullName>
+                <default>false</default>
+                <label>On-Trade – Trade Promotions</label>
+            </value>
+            <value>
+                <fullName>OOP – Consultants</fullName>
+                <default>false</default>
+                <label>OOP – Consultants</label>
+            </value>
+            <value>
+                <fullName>OOP – Design</fullName>
+                <default>false</default>
+                <label>OOP – Design</label>
+            </value>
+            <value>
+                <fullName>OOP – Digital</fullName>
+                <default>false</default>
+                <label>OOP – Digital</label>
+            </value>
+            <value>
+                <fullName>OOP – Experiential</fullName>
+                <default>false</default>
+                <label>OOP – Experiential</label>
+            </value>
+            <value>
+                <fullName>OOP – Innovation</fullName>
+                <default>false</default>
+                <label>OOP – Innovation</label>
+            </value>
+            <value>
+                <fullName>OOP – Lead Creative</fullName>
+                <default>false</default>
+                <label>OOP – Lead Creative</label>
+            </value>
+            <value>
+                <fullName>OOP – Media</fullName>
+                <default>false</default>
+                <label>OOP – Media</label>
+            </value>
+            <value>
+                <fullName>OOP – PR</fullName>
+                <default>false</default>
+                <label>OOP – PR</label>
+            </value>
+            <value>
+                <fullName>OOP – Shopper</fullName>
+                <default>false</default>
+                <label>OOP – Shopper</label>
+            </value>
+            <value>
+                <fullName>OOP – Talent</fullName>
+                <default>false</default>
+                <label>OOP – Talent</label>
+            </value>
+            <value>
+                <fullName>OOP – Technology Platform</fullName>
+                <default>false</default>
+                <label>OOP – Technology Platform</label>
+            </value>
+            <value>
+                <fullName>Paid Media – Cinema</fullName>
+                <default>false</default>
+                <label>Paid Media – Cinema</label>
+            </value>
+            <value>
+                <fullName>Paid Media – Consumer Print</fullName>
+                <default>false</default>
+                <label>Paid Media – Consumer Print</label>
+            </value>
+            <value>
+                <fullName>Paid Media – Digital OLA</fullName>
+                <default>false</default>
+                <label>Paid Media – Digital OLA</label>
+            </value>
+            <value>
+                <fullName>Paid Media – Digital OLV</fullName>
+                <default>false</default>
+                <label>Paid Media – Digital OLV</label>
+            </value>
+            <value>
+                <fullName>Paid Media – Direct Mail</fullName>
+                <default>false</default>
+                <label>Paid Media – Direct Mail</label>
+            </value>
+            <value>
+                <fullName>Paid Media – eCommerce</fullName>
+                <default>false</default>
+                <label>Paid Media – eCommerce</label>
+            </value>
+            <value>
+                <fullName>Paid Media – Film</fullName>
+                <default>false</default>
+                <label>Paid Media – Film</label>
+            </value>
+            <value>
+                <fullName>Paid Media – Mobile</fullName>
+                <default>false</default>
+                <label>Paid Media – Mobile</label>
+            </value>
+            <value>
+                <fullName>Paid Media – Out of Home</fullName>
+                <default>false</default>
+                <label>Paid Media – Out of Home</label>
+            </value>
+            <value>
+                <fullName>Paid Media – Radio</fullName>
+                <default>false</default>
+                <label>Paid Media – Radio</label>
+            </value>
+            <value>
+                <fullName>Paid Media – Search Engine Marketing (SEM)</fullName>
+                <default>false</default>
+                <label>Paid Media – Search Engine Marketing (SEM)</label>
+            </value>
+            <value>
+                <fullName>Paid Media – Search Engine Optimization (SEO)</fullName>
+                <default>false</default>
+                <label>Paid Media – Search Engine Optimization (SEO)</label>
+            </value>
+            <value>
+                <fullName>Paid Media – Social</fullName>
+                <default>false</default>
+                <label>Paid Media – Social</label>
+            </value>
+            <value>
+                <fullName>Paid Media – Trade Print</fullName>
+                <default>false</default>
+                <label>Paid Media – Trade Print</label>
+            </value>
+            <value>
+                <fullName>Production – Brand Asset Creation and Development</fullName>
+                <default>false</default>
+                <label>Production – Brand Asset Creation and Development</label>
+            </value>
+            <value>
+                <fullName>Production – Brand Websites</fullName>
+                <default>false</default>
+                <label>Production – Brand Websites</label>
+            </value>
+            <value>
+                <fullName>Production – Consumer Print</fullName>
+                <default>false</default>
+                <label>Production – Consumer Print</label>
+            </value>
+            <value>
+                <fullName>Production – Customer Relations Management</fullName>
+                <default>false</default>
+                <label>Production – Customer Relations Management</label>
+            </value>
+            <value>
+                <fullName>Production – Customer Samples</fullName>
+                <default>false</default>
+                <label>Production – Customer Samples</label>
+            </value>
+            <value>
+                <fullName>Production – Digital Asset Production</fullName>
+                <default>false</default>
+                <label>Production – Digital Asset Production</label>
+            </value>
+            <value>
+                <fullName>Production – eCommerce</fullName>
+                <default>false</default>
+                <label>Production – eCommerce</label>
+            </value>
+            <value>
+                <fullName>Production – Film</fullName>
+                <default>false</default>
+                <label>Production – Film</label>
+            </value>
+            <value>
+                <fullName>Production – Licensing Royalty</fullName>
+                <default>false</default>
+                <label>Production – Licensing Royalty</label>
+            </value>
+            <value>
+                <fullName>Production – Out of Home</fullName>
+                <default>false</default>
+                <label>Production – Out of Home</label>
+            </value>
+            <value>
+                <fullName>Production – Social Media Asset Production</fullName>
+                <default>false</default>
+                <label>Production – Social Media Asset Production</label>
+            </value>
+            <value>
+                <fullName>Production – Trade Print</fullName>
+                <default>false</default>
+                <label>Production – Trade Print</label>
+            </value>
+            <value>
+                <fullName>Research – Category</fullName>
+                <default>false</default>
+                <label>Research – Category</label>
+            </value>
+            <value>
+                <fullName>Research – Consumer</fullName>
+                <default>false</default>
+                <label>Research – Consumer</label>
+            </value>
+            <value>
+                <fullName>Research – Creative</fullName>
+                <default>false</default>
+                <label>Research – Creative</label>
+            </value>
+            <value>
+                <fullName>Research – In-Market Performance / Measurement</fullName>
+                <default>false</default>
+                <label>Research – In-Market Performance / Measurement</label>
+            </value>
+            <value>
+                <fullName>Research – Innovation</fullName>
+                <default>false</default>
+                <label>Research – Innovation</label>
+            </value>
+            <value>
+                <fullName>Research – Packaging</fullName>
+                <default>false</default>
+                <label>Research – Packaging</label>
+            </value>
+            <value>
+                <fullName>Research – Shopper / Channel</fullName>
+                <default>false</default>
+                <label>Research – Shopper / Channel</label>
+            </value>
+            <value>
+                <fullName>Research – Syndicated / Subscriptions</fullName>
+                <default>false</default>
+                <label>Research – Syndicated / Subscriptions</label>
+            </value>
+            <value>
+                <fullName>Sponsorship – Attitudinal Sponsorship Contract Fee</fullName>
+                <default>false</default>
+                <label>Sponsorship – Attitudinal Sponsorship Contract Fee</label>
+            </value>
+            <value>
+                <fullName>Sponsorship – Experiential Sponsorship Contract Fee</fullName>
+                <default>false</default>
+                <label>Sponsorship – Experiential Sponsorship Contract Fee</label>
+            </value>
+            <value>
+                <fullName>Sponsorship – Celebrity Partnerships</fullName>
+                <default>false</default>
+                <label>Sponsorship – Celebrity Partnerships</label>
+            </value>
+            <value>
+                <fullName>Digital Rebates</fullName>
+                <default>false</default>
+                <label>Digital Rebates</label>
+            </value>
+            <value>
+                <fullName>Off-Trade - Digital Rebates</fullName>
+                <default>false</default>
+                <label>Off-Trade - Digital Rebates</label>
+            </value>
+            <value>
+                <fullName>On-Trade - Digital Rebates</fullName>
+                <default>false</default>
+                <label>On-Trade - Digital Rebates</label>
+            </value>
+            <value>
+                <fullName>Rebates</fullName>
+                <default>false</default>
+                <label>Rebates</label>
+            </value>
+            <value>
+                <fullName>Execution – PR</fullName>
+                <default>false</default>
+                <label>Execution – PR</label>
+            </value>
+            <value>
+                <fullName>Off-Trade – Consumer Promotions - Print, Digital POS and Fulfillment Services</fullName>
+                <default>false</default>
+                <label>Off-Trade – Consumer Promotions - Print, Digital POS and Fulfillment Services</label>
+            </value>
+            <value>
+                <fullName>Brand Education – Heritage Center and Distillery Visits</fullName>
+                <default>false</default>
+                <label>Brand Education – Heritage Center and Distillery Visits</label>
+            </value>
+            <value>
+                <fullName>On-Trade – Consumer Promotions - Experiential</fullName>
+                <default>false</default>
+                <label>On-Trade – Consumer Promotions - Experiential</label>
+            </value>
+            <value>
+                <fullName>Off-Trade – Consumer Promotions - Experiential</fullName>
+                <default>false</default>
+                <label>Off-Trade – Consumer Promotions - Experiential</label>
+            </value>
+            <value>
+                <fullName>Non-Premise – Consumer Promotions - Experiential</fullName>
+                <default>false</default>
+                <label>Non-Premise – Consumer Promotions - Experiential</label>
+            </value>
+            <value>
+                <fullName>On-Trade – Consumer Influencer Program</fullName>
+                <default>false</default>
+                <label>On-Trade – Consumer Influencer Program</label>
+            </value>
+            <value>
+                <fullName>Off-Trade – Consumer Influencer Program</fullName>
+                <default>false</default>
+                <label>Off-Trade – Consumer Influencer Program</label>
+            </value>
+            <value>
+                <fullName>Non-Premise – Consumer Influencer Program</fullName>
+                <default>false</default>
+                <label>Non-Premise – Consumer Influencer Program</label>
+            </value>
+            <value>
+                <fullName>On-Trade – Trade Influencer Program</fullName>
+                <default>false</default>
+                <label>On-Trade – Trade Influencer Program</label>
+            </value>
+            <value>
+                <fullName>Off-Trade – Trade Influencer Program</fullName>
+                <default>false</default>
+                <label>Off-Trade – Trade Influencer Program</label>
+            </value>
+            <value>
+                <fullName>Non-Premise – Trade Influencer Program</fullName>
+                <default>false</default>
+                <label>Non-Premise – Trade Influencer Program</label>
+            </value>
+            <value>
+                <fullName>Non-Premise – Trade Promotions</fullName>
+                <default>false</default>
+                <label>Non-Premise – Trade Promotions</label>
+            </value>
+            <value>
+                <fullName>Non-Premise – Consumer Promotions - POS Materials</fullName>
+                <default>false</default>
+                <label>Non-Premise – Consumer Promotions - POS Materials</label>
+            </value>
+            <value>
+                <fullName>Agency Fee â€“ Consultants</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Agency Fee â€“ Consultants</label>
+            </value>
+            <value>
+                <fullName>Agency Management Fe</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Agency Management Fe</label>
+            </value>
+            <value>
+                <fullName>Brand Education – Heritage Centers Costs</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Brand Education – Heritage Centers Costs</label>
+            </value>
+            <value>
+                <fullName>Consumer Press Magaz</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Consumer Press Magaz</label>
+            </value>
+            <value>
+                <fullName>Consumer Press Newsp</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Consumer Press Newsp</label>
+            </value>
+            <value>
+                <fullName>Customer Relations M</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Customer Relations M</label>
+            </value>
+            <value>
+                <fullName>Execution – Experiential</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Execution – Experiential</label>
+            </value>
+            <value>
+                <fullName>Execution – Non-Premise and Consumer Influencer Program</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Execution – Non-Premise and Consumer Influencer Program</label>
+            </value>
+            <value>
+                <fullName>Execution – Non-Premise and Trade Influencer Program</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Execution – Non-Premise and Trade Influencer Program</label>
+            </value>
+            <value>
+                <fullName>Heritage Center - Co</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Heritage Center - Co</label>
+            </value>
+            <value>
+                <fullName>Internet</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Internet</label>
+            </value>
+            <value>
+                <fullName>Internet - Non-compa</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Internet - Non-compa</label>
+            </value>
+            <value>
+                <fullName>Licensing Royalty -</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Licensing Royalty -</label>
+            </value>
+            <value>
+                <fullName>Media Buying Commiss</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Media Buying Commiss</label>
+            </value>
+            <value>
+                <fullName>Misc Consumer Giveaways</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Misc Consumer Giveaways</label>
+            </value>
+            <value>
+                <fullName>Misc – A&amp;P Expenses Recovered From 3rd Parties</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Misc – A&amp;P Expenses Recovered From 3rd Parties</label>
+            </value>
+            <value>
+                <fullName>Misc – A&amp;P Translation FX</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Misc – A&amp;P Translation FX</label>
+            </value>
+            <value>
+                <fullName>Misc – BI I/C Rebill</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Misc – BI I/C Rebill</label>
+            </value>
+            <value>
+                <fullName>Misc – Other Brand Investment</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Misc – Other Brand Investment</label>
+            </value>
+            <value>
+                <fullName>Non Working Ad Production Costs</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Non Working Ad Production Costs</label>
+            </value>
+            <value>
+                <fullName>Non Working Creative Agency Fees</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Non Working Creative Agency Fees</label>
+            </value>
+            <value>
+                <fullName>Non Working PR Agency Fees</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Non Working PR Agency Fees</label>
+            </value>
+            <value>
+                <fullName>Off Premis POS</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Off Premis POS</label>
+            </value>
+            <value>
+                <fullName>Off Premise Value Add Packaging (VAP)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Off Premise Value Add Packaging (VAP)</label>
+            </value>
+            <value>
+                <fullName>Off Premise Value Added Packaging_(VAP)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Off Premise Value Added Packaging_(VAP)</label>
+            </value>
+            <value>
+                <fullName>Off Trade - Sampling</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Off Trade - Sampling</label>
+            </value>
+            <value>
+                <fullName>Off Trade - Trade Pr</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Off Trade - Trade Pr</label>
+            </value>
+            <value>
+                <fullName>Off Trade Consumer P</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Off Trade Consumer P</label>
+            </value>
+            <value>
+                <fullName>Off Trade Display In</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Off Trade Display In</label>
+            </value>
+            <value>
+                <fullName>Off Trade Incentives</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Off Trade Incentives</label>
+            </value>
+            <value>
+                <fullName>Off Trade Materials</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Off Trade Materials</label>
+            </value>
+            <value>
+                <fullName>Off Trade Promotiona</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Off Trade Promotiona</label>
+            </value>
+            <value>
+                <fullName>Off Trade Sales Ince</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Off Trade Sales Ince</label>
+            </value>
+            <value>
+                <fullName>Off-Trade - Consumer Promotions - POS Materials</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Off-Trade - Consumer Promotions - POS Materials</label>
+            </value>
+            <value>
+                <fullName>Off-Trade - Value Added Packaging</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Off-Trade - Value Added Packaging</label>
+            </value>
+            <value>
+                <fullName>Off-Trade – Consumer Promotions - Fulfillment Services</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Off-Trade – Consumer Promotions - Fulfillment Services</label>
+            </value>
+            <value>
+                <fullName>OffTradeIncentive</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>OffTradeIncentive</label>
+            </value>
+            <value>
+                <fullName>Off_Premis_POS</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Off_Premis_POS</label>
+            </value>
+            <value>
+                <fullName>Off_Premise_Sampling</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Off_Premise_Sampling</label>
+            </value>
+            <value>
+                <fullName>Off_Premise_Value_Added_Packaging_(VAP)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Off_Premise_Value_Added_Packaging_(VAP)</label>
+            </value>
+            <value>
+                <fullName>On Premise - Trade_Event</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>On Premise - Trade_Event</label>
+            </value>
+            <value>
+                <fullName>On Trade - Sampling</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>On Trade - Sampling</label>
+            </value>
+            <value>
+                <fullName>On Trade - Trade Pro</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>On Trade - Trade Pro</label>
+            </value>
+            <value>
+                <fullName>On Trade Consumer Pr</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>On Trade Consumer Pr</label>
+            </value>
+            <value>
+                <fullName>On Trade Incentives</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>On Trade Incentives</label>
+            </value>
+            <value>
+                <fullName>On Trade Materials (</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>On Trade Materials (</label>
+            </value>
+            <value>
+                <fullName>On Trade Promotional</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>On Trade Promotional</label>
+            </value>
+            <value>
+                <fullName>On Trade Sales Incen</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>On Trade Sales Incen</label>
+            </value>
+            <value>
+                <fullName>On-Trade - Consumer Promotions - POS Materials</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>On-Trade - Consumer Promotions - POS Materials</label>
+            </value>
+            <value>
+                <fullName>On_Premise_-_Trade_Event</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>On_Premise_-_Trade_Event</label>
+            </value>
+            <value>
+                <fullName>On_Premise_Menus</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>On_Premise_Menus</label>
+            </value>
+            <value>
+                <fullName>On_Premise_POS</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>On_Premise_POS</label>
+            </value>
+            <value>
+                <fullName>On_Premise_Sampling</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>On_Premise_Sampling</label>
+            </value>
+            <value>
+                <fullName>PR Materials / Other</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PR Materials / Other</label>
+            </value>
+            <value>
+                <fullName>Packaging - Consumer</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Packaging - Consumer</label>
+            </value>
+            <value>
+                <fullName>Packaging - Mandator</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Packaging - Mandator</label>
+            </value>
+            <value>
+                <fullName>Packaging-New Prod I</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Packaging-New Prod I</label>
+            </value>
+            <value>
+                <fullName>Rebate Price Support</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Rebate Price Support</label>
+            </value>
+            <value>
+                <fullName>Rebates__</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Rebates__</label>
+            </value>
+            <value>
+                <fullName>Research Consumer Research</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Research Consumer Research</label>
+            </value>
+            <value>
+                <fullName>Sponsorship Activati</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Sponsorship Activati</label>
+            </value>
+            <value>
+                <fullName>Sponsorship Sponsorship Fees</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Sponsorship Sponsorship Fees</label>
+            </value>
+            <value>
+                <fullName>Sponsorship – Attitudinal Sponsorship Execution</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Sponsorship – Attitudinal Sponsorship Execution</label>
+            </value>
+            <value>
+                <fullName>Sponsorship – Experiential Sponsorship Execution</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Sponsorship – Experiential Sponsorship Execution</label>
+            </value>
+            <value>
+                <fullName>SponsorshipActivation</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>SponsorshipActivation</label>
+            </value>
+            <value>
+                <fullName>SponsorshipFees</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>SponsorshipFees</label>
+            </value>
+            <value>
+                <fullName>Sponsorship_Activation</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Sponsorship_Activation</label>
+            </value>
+            <value>
+                <fullName>Sponsorship_Fees</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Sponsorship_Fees</label>
+            </value>
+            <value>
+                <fullName>TV</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>TV</label>
+            </value>
+            <value>
+                <fullName>Trade Press</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Trade Press</label>
+            </value>
+            <value>
+                <fullName>Trade Print Ad Advertising</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Trade Print Ad Advertising</label>
+            </value>
+            <value>
+                <fullName>Value Added Packagin</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Value Added Packagin</label>
+            </value>
+            <value>
+                <fullName>Working Direct Mail</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Working Direct Mail</label>
+            </value>
+            <value>
+                <fullName>Working Out of Home</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Working Out of Home</label>
+            </value>
+            <value>
+                <fullName>Working PR Events</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Working PR Events</label>
+            </value>
+            <value>
+                <fullName>__</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>__</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Agency OOP</controllingFieldValue>
+            <valueName>OOP – Consultants</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agency OOP</controllingFieldValue>
+            <valueName>OOP – Design</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agency OOP</controllingFieldValue>
+            <valueName>OOP – Digital</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agency OOP</controllingFieldValue>
+            <valueName>OOP – Experiential</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agency OOP</controllingFieldValue>
+            <valueName>OOP – Innovation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agency OOP</controllingFieldValue>
+            <valueName>OOP – Lead Creative</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agency OOP</controllingFieldValue>
+            <valueName>OOP – Media</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agency OOP</controllingFieldValue>
+            <valueName>OOP – PR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agency OOP</controllingFieldValue>
+            <valueName>OOP – Shopper</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agency OOP</controllingFieldValue>
+            <valueName>OOP – Talent</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agency OOP</controllingFieldValue>
+            <valueName>OOP – Technology Platform</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Brand Investment</controllingFieldValue>
+            <controllingFieldValue>Misc</controllingFieldValue>
+            <valueName>Misc – POS Freight &amp; Storage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Brand Investment</controllingFieldValue>
+            <controllingFieldValue>Misc</controllingFieldValue>
+            <valueName>Production – Licensing Royalty</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Brand Education</controllingFieldValue>
+            <valueName>Brand Education – Heritage Center and Distillery Visits</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-Premise</controllingFieldValue>
+            <valueName>Non-Premise – Consumer Promotions - Experiential</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-Premise</controllingFieldValue>
+            <valueName>Non-Premise – Consumer Influencer Program</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-Premise</controllingFieldValue>
+            <valueName>Non-Premise – Trade Influencer Program</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-Premise</controllingFieldValue>
+            <valueName>Non-Premise – Trade Promotions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-Premise</controllingFieldValue>
+            <valueName>Non-Premise – Consumer Promotions - POS Materials</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Execution</controllingFieldValue>
+            <valueName>Execution – Consumer Experience &amp; Personalization</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Execution</controllingFieldValue>
+            <valueName>Execution – PR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Media</controllingFieldValue>
+            <valueName>Paid Media – Cinema</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Media</controllingFieldValue>
+            <valueName>Paid Media – Consumer Print</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Media</controllingFieldValue>
+            <valueName>Paid Media – Digital OLA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Media</controllingFieldValue>
+            <valueName>Paid Media – Digital OLV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Media</controllingFieldValue>
+            <valueName>Paid Media – Direct Mail</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Media</controllingFieldValue>
+            <valueName>Paid Media – eCommerce</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Media</controllingFieldValue>
+            <valueName>Paid Media – Film</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Media</controllingFieldValue>
+            <valueName>Paid Media – Mobile</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Media</controllingFieldValue>
+            <valueName>Paid Media – Out of Home</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Media</controllingFieldValue>
+            <valueName>Paid Media – Radio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Media</controllingFieldValue>
+            <valueName>Paid Media – Search Engine Marketing (SEM)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Media</controllingFieldValue>
+            <valueName>Paid Media – Search Engine Optimization (SEO)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Media</controllingFieldValue>
+            <valueName>Paid Media – Social</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Media</controllingFieldValue>
+            <valueName>Paid Media – Trade Print</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Digital Rebates</controllingFieldValue>
+            <valueName>Digital Rebates</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off-Trade</controllingFieldValue>
+            <valueName>Off-Trade – Consumer Promotions - POS Materials</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off-Trade</controllingFieldValue>
+            <valueName>Off-Trade – Consumer Promotions - Sampling</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off-Trade</controllingFieldValue>
+            <valueName>Off-Trade – Consumer Promotions - Sweeps</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off-Trade</controllingFieldValue>
+            <valueName>Off-Trade – Display Installations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off-Trade</controllingFieldValue>
+            <valueName>Off-Trade – Trade Promotions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off-Trade</controllingFieldValue>
+            <valueName>Off-Trade – Value Added Packaging</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off-Trade</controllingFieldValue>
+            <valueName>Off-Trade – Consumer Promotions - Print, Digital POS and Fulfillment Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off-Trade</controllingFieldValue>
+            <valueName>Off-Trade – Consumer Promotions - Experiential</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off-Trade</controllingFieldValue>
+            <valueName>Off-Trade – Consumer Influencer Program</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off-Trade</controllingFieldValue>
+            <valueName>Off-Trade – Trade Influencer Program</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>On-Trade</controllingFieldValue>
+            <valueName>On-Trade – Consumer Promotions - POS Materials</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>On-Trade</controllingFieldValue>
+            <valueName>On-Trade – Consumer Promotions - Print, Digital POS and Fulfillment Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>On-Trade</controllingFieldValue>
+            <valueName>On-Trade – Consumer Promotions - Sampling</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>On-Trade</controllingFieldValue>
+            <valueName>On-Trade – Consumer Promotions - Sweeps</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>On-Trade</controllingFieldValue>
+            <valueName>On-Trade – Display Installations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>On-Trade</controllingFieldValue>
+            <valueName>On-Trade – Drink machines</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>On-Trade</controllingFieldValue>
+            <valueName>On-Trade – Menus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>On-Trade</controllingFieldValue>
+            <valueName>On-Trade – Trade Promotions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>On-Trade</controllingFieldValue>
+            <valueName>On-Trade – Consumer Promotions - Experiential</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>On-Trade</controllingFieldValue>
+            <valueName>On-Trade – Consumer Influencer Program</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>On-Trade</controllingFieldValue>
+            <valueName>On-Trade – Trade Influencer Program</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incentives</controllingFieldValue>
+            <valueName>Off Trade Incentive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incentives</controllingFieldValue>
+            <valueName>On Trade Incentive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Misc</controllingFieldValue>
+            <valueName>Consumer Giveaways</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Misc</controllingFieldValue>
+            <valueName>Customer Relations Management</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Misc</controllingFieldValue>
+            <valueName>Freight and Storage (National POS Only)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Misc</controllingFieldValue>
+            <valueName>Heritage Center</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Misc</controllingFieldValue>
+            <valueName>Liscensing and Royalty</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non Working</controllingFieldValue>
+            <valueName>Ad Production Costs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non Working</controllingFieldValue>
+            <valueName>Creative Agency Fees</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non Working</controllingFieldValue>
+            <valueName>Media Agency Fees</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non Working</controllingFieldValue>
+            <valueName>PR Agency Fees</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non Working</controllingFieldValue>
+            <valueName>Social Content Creation and Development</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non Working</controllingFieldValue>
+            <valueName>Website Creation and Development</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Premise</controllingFieldValue>
+            <valueName>Off Premise Consumer Promotion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Premise</controllingFieldValue>
+            <valueName>Off Premise Display Installation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Premise</controllingFieldValue>
+            <valueName>Off Premise POS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Premise</controllingFieldValue>
+            <valueName>Off Premise Sampling</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Premise</controllingFieldValue>
+            <valueName>Off Premise - Trade Event</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Premise</controllingFieldValue>
+            <valueName>Off Premise Value Added Packaging (VAP)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>On Premise</controllingFieldValue>
+            <valueName>On Premise Consumer Promotion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>On Premise</controllingFieldValue>
+            <valueName>On Premise Menus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>On Premise</controllingFieldValue>
+            <valueName>On Premise POS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>On Premise</controllingFieldValue>
+            <valueName>On Premise Sampling</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>On Premise</controllingFieldValue>
+            <valueName>On Premise - Trade Event</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rebates</controllingFieldValue>
+            <valueName>Off-Trade – Consumer Promotions - Redemption</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rebates</controllingFieldValue>
+            <valueName>On-Trade – Consumer Promotions - Redemption</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rebates</controllingFieldValue>
+            <valueName>Off-Trade - Digital Rebates</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rebates</controllingFieldValue>
+            <valueName>On-Trade - Digital Rebates</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rebates</controllingFieldValue>
+            <valueName>Rebates</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Research</controllingFieldValue>
+            <valueName>Consumer Research</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Research</controllingFieldValue>
+            <valueName>Panel Research / Trade Data</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Research</controllingFieldValue>
+            <valueName>Research – Category</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Research</controllingFieldValue>
+            <valueName>Research – Consumer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Research</controllingFieldValue>
+            <valueName>Research – Creative</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Research</controllingFieldValue>
+            <valueName>Research – In-Market Performance / Measurement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Research</controllingFieldValue>
+            <valueName>Research – Innovation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Research</controllingFieldValue>
+            <valueName>Research – Packaging</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Research</controllingFieldValue>
+            <valueName>Research – Shopper / Channel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Research</controllingFieldValue>
+            <valueName>Research – Syndicated / Subscriptions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sponsorship</controllingFieldValue>
+            <valueName>Sponsorship Activation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sponsorship</controllingFieldValue>
+            <valueName>Sponsorship Fees</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sponsorship</controllingFieldValue>
+            <valueName>Sponsorship – Attitudinal Sponsorship Contract Fee</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sponsorship</controllingFieldValue>
+            <valueName>Sponsorship – Experiential Sponsorship Contract Fee</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sponsorship</controllingFieldValue>
+            <valueName>Sponsorship – Celebrity Partnerships</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Working</controllingFieldValue>
+            <valueName>Advanced TV Paid Advertising</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Working</controllingFieldValue>
+            <valueName>Cinema Paid Advertising</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Working</controllingFieldValue>
+            <valueName>Consumer Magazines Paid Advertising</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Working</controllingFieldValue>
+            <valueName>Consumer Newspaper Paid Advertising</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Working</controllingFieldValue>
+            <valueName>Digital Display Paid Advertising</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Working</controllingFieldValue>
+            <valueName>Direct Mail</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Working</controllingFieldValue>
+            <valueName>Mobile Paid Advertising</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Working</controllingFieldValue>
+            <valueName>Non-Standard Digital Units Paid Advertising</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Working</controllingFieldValue>
+            <valueName>Online Video Paid Advertising</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Working</controllingFieldValue>
+            <valueName>Outdoor Paid Advertising</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Working</controllingFieldValue>
+            <valueName>Out of Home</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Working</controllingFieldValue>
+            <valueName>PR Events</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Working</controllingFieldValue>
+            <valueName>PR Materials / Other Expenses</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Working</controllingFieldValue>
+            <valueName>Radio Paid Advertising</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Working</controllingFieldValue>
+            <valueName>Search Engine Optimization</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Working</controllingFieldValue>
+            <valueName>Search Paid Advertising</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Working</controllingFieldValue>
+            <valueName>Trade Digital Paid Advertising</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Working</controllingFieldValue>
+            <valueName>Trade Print Paid Advertising</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Working</controllingFieldValue>
+            <valueName>TV Paid Advertising</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ad Production</controllingFieldValue>
+            <valueName>Production – Brand Asset Creation and Development</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ad Production</controllingFieldValue>
+            <valueName>Production – Brand Websites</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ad Production</controllingFieldValue>
+            <valueName>Production – Consumer Print</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ad Production</controllingFieldValue>
+            <valueName>Production – Customer Relations Management</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ad Production</controllingFieldValue>
+            <valueName>Production – Customer Samples</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ad Production</controllingFieldValue>
+            <valueName>Production – Digital Asset Production</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ad Production</controllingFieldValue>
+            <valueName>Production – eCommerce</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ad Production</controllingFieldValue>
+            <valueName>Production – Film</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ad Production</controllingFieldValue>
+            <valueName>Production – Out of Home</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ad Production</controllingFieldValue>
+            <valueName>Production – Social Media Asset Production</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ad Production</controllingFieldValue>
+            <valueName>Production – Trade Print</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agency Fees</controllingFieldValue>
+            <valueName>Agency Fee – Consultants</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agency Fees</controllingFieldValue>
+            <valueName>Agency Fee – Design</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agency Fees</controllingFieldValue>
+            <valueName>Agency Fee – Digital</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agency Fees</controllingFieldValue>
+            <valueName>Agency Fee – Experiential</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agency Fees</controllingFieldValue>
+            <valueName>Agency Fee – Innovation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agency Fees</controllingFieldValue>
+            <valueName>Agency Fee – Lead Creative</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agency Fees</controllingFieldValue>
+            <valueName>Agency Fee – Media</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agency Fees</controllingFieldValue>
+            <valueName>Agency Fee – PR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agency Fees</controllingFieldValue>
+            <valueName>Agency Fee – Shopper</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agency Fees</controllingFieldValue>
+            <valueName>Agency Fee – Talent</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agency Fees</controllingFieldValue>
+            <valueName>Agency Fee – Technology Platform</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agency Fees</controllingFieldValue>
+            <valueName>Analytics – Marketing Analytics</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

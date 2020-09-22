@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Brand__c</fullName>
+    <externalId>false</externalId>
+    <label>Brand</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>DeKuyper</fullName>
+                <default>false</default>
+                <label>DeKuyper</label>
+            </value>
+            <value>
+                <fullName>Cruzan</fullName>
+                <default>false</default>
+                <label>Cruzan</label>
+            </value>
+            <value>
+                <fullName>Maker's Mark</fullName>
+                <default>false</default>
+                <label>Maker's Mark</label>
+            </value>
+            <value>
+                <fullName>Jim Beam</fullName>
+                <default>false</default>
+                <label>Jim Beam</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

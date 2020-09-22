@@ -1,0 +1,3027 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Barrel Inquiry</layout>
+        <sections>
+            <label><!-- Email-to-Case Details --></label>
+            <section>Email-to-Case Details</section>
+        </sections>
+        <sections>
+            <label><!-- External Customer Details --></label>
+            <section>External Customer Details</section>
+        </sections>
+        <sections>
+            <label><!-- Market Alert Information --></label>
+            <section>Market Alert Information</section>
+        </sections>
+        <sections>
+            <label><!-- New User Request Details --></label>
+            <section>New User Request Details</section>
+        </sections>
+        <sections>
+            <label><!-- Newsletter Details --></label>
+            <section>Newsletter Details</section>
+        </sections>
+        <sections>
+            <label><!-- Product Information --></label>
+            <section>Product Information</section>
+        </sections>
+        <sections>
+            <label><!-- SLA Tracking --></label>
+            <section>SLA Tracking</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Barrel Ready to Enter Layout</layout>
+        <sections>
+            <label><!-- Email-to-Case Details --></label>
+            <section>Email-to-Case Details</section>
+        </sections>
+        <sections>
+            <label><!-- External Customer Details --></label>
+            <section>External Customer Details</section>
+        </sections>
+        <sections>
+            <label><!-- Market Alert Information --></label>
+            <section>Market Alert Information</section>
+        </sections>
+        <sections>
+            <label><!-- New User Request Details --></label>
+            <section>New User Request Details</section>
+        </sections>
+        <sections>
+            <label><!-- Newsletter Details --></label>
+            <section>Newsletter Details</section>
+        </sections>
+        <sections>
+            <label><!-- Product Information --></label>
+            <section>Product Information</section>
+        </sections>
+        <sections>
+            <label><!-- SLA Tracking --></label>
+            <section>SLA Tracking</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Bombout &amp; Esker Layout</layout>
+        <sections>
+            <label><!-- External Customer Details --></label>
+            <section>External Customer Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Brand Registration</layout>
+        <sections>
+            <label><!-- Dates --></label>
+            <section>Dates</section>
+        </sections>
+        <sections>
+            <label><!-- Optional Information --></label>
+            <section>Optional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Project Information --></label>
+            <section>Project Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CS Inquiry</layout>
+        <sections>
+            <label><!-- Email-to-Case Details --></label>
+            <section>Email-to-Case Details</section>
+        </sections>
+        <sections>
+            <label><!-- External Customer Details --></label>
+            <section>External Customer Details</section>
+        </sections>
+        <sections>
+            <label><!-- Market Alert Information --></label>
+            <section>Market Alert Information</section>
+        </sections>
+        <sections>
+            <label><!-- New User Request Details --></label>
+            <section>New User Request Details</section>
+        </sections>
+        <sections>
+            <label><!-- Newsletter Details --></label>
+            <section>Newsletter Details</section>
+        </sections>
+        <sections>
+            <label><!-- Product Information --></label>
+            <section>Product Information</section>
+        </sections>
+        <sections>
+            <label><!-- SLA Tracking --></label>
+            <section>SLA Tracking</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CS Inquiry - Community</layout>
+        <sections>
+            <label><!-- Email-to-Case Details --></label>
+            <section>Email-to-Case Details</section>
+        </sections>
+        <sections>
+            <label><!-- External Customer Details --></label>
+            <section>External Customer Details</section>
+        </sections>
+        <sections>
+            <label><!-- Market Alert Information --></label>
+            <section>Market Alert Information</section>
+        </sections>
+        <sections>
+            <label><!-- New User Request Details --></label>
+            <section>New User Request Details</section>
+        </sections>
+        <sections>
+            <label><!-- Newsletter Details --></label>
+            <section>Newsletter Details</section>
+        </sections>
+        <sections>
+            <label><!-- Product Information --></label>
+            <section>Product Information</section>
+        </sections>
+        <sections>
+            <label><!-- SLA Tracking --></label>
+            <section>SLA Tracking</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Changes Close Case Layout</layout>
+        <layoutType>CaseClose</layoutType>
+        <sections>
+            <label><!-- Case Information --></label>
+            <section>Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- International Documentation --></label>
+            <section>International Documentation</section>
+        </sections>
+        <sections>
+            <label><!-- Order Close Details --></label>
+            <section>Order Close Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Changes Page Layout</layout>
+        <sections>
+            <label><!-- Case Resolution Details --></label>
+            <section>Case Resolution Details</section>
+        </sections>
+        <sections>
+            <label><!-- Change Ticket Details --></label>
+            <section>Change Ticket Details</section>
+        </sections>
+        <sections>
+            <label><!-- Document Request Details --></label>
+            <section>Document Request Details</section>
+        </sections>
+        <sections>
+            <label><!-- Email-to-Case Information --></label>
+            <section>Email-to-Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- External Customer Details --></label>
+            <section>External Customer Details</section>
+        </sections>
+        <sections>
+            <label><!-- International Documentation --></label>
+            <section>International Documentation</section>
+        </sections>
+        <sections>
+            <label><!-- Product Information --></label>
+            <section>Product Information</section>
+        </sections>
+        <sections>
+            <label><!-- SLA Tracking --></label>
+            <section>SLA Tracking</section>
+        </sections>
+        <sections>
+            <label><!-- Traffic Request Details --></label>
+            <section>Traffic Request Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Changes Page Layout - Community</layout>
+        <sections>
+            <label><!-- Change Ticket Details --></label>
+            <section>Change Ticket Details</section>
+        </sections>
+        <sections>
+            <label><!-- Document Request Details --></label>
+            <section>Document Request Details</section>
+        </sections>
+        <sections>
+            <label><!-- Email-to-Case Information --></label>
+            <section>Email-to-Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- External Customer Details --></label>
+            <section>External Customer Details</section>
+        </sections>
+        <sections>
+            <label><!-- Product Information --></label>
+            <section>Product Information</section>
+        </sections>
+        <sections>
+            <label><!-- SLA Tracking --></label>
+            <section>SLA Tracking</section>
+        </sections>
+        <sections>
+            <label><!-- Traffic Request Details --></label>
+            <section>Traffic Request Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Claims Layout</layout>
+        <sections>
+            <label><!-- Email-to-Case Information --></label>
+            <section>Email-to-Case Information</section>
+        </sections>
+        <sections>
+            <label>Anfragedetails</label>
+            <section>Request Details</section>
+        </sections>
+        <sections>
+            <label>Zusammenfassung beantragen</label>
+            <section>Request Summary</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Close Inquiry Layout</layout>
+        <layoutType>CaseClose</layoutType>
+        <sections>
+            <label><!-- Case Information --></label>
+            <section>Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- Inquiry Close Details --></label>
+            <section>Inquiry Close Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Close Quality Claim Layout</layout>
+        <layoutType>CaseClose</layoutType>
+        <sections>
+            <label><!-- Claim Information --></label>
+            <section>Claim Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Compliance Inquiry</layout>
+        <sections>
+            <label><!-- Email-to-Case Information --></label>
+            <section>Email-to-Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- Request Details --></label>
+            <section>Request Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Compliance Sub Case</layout>
+        <sections>
+            <label><!-- Dates and Flags --></label>
+            <section>Dates and Flags</section>
+        </sections>
+        <sections>
+            <label><!-- Email-to-Case Information --></label>
+            <section>Email-to-Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- Optional Details --></label>
+            <section>Optional Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Consumer Inquiry</layout>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Email-to-Case Details --></label>
+            <section>Email-to-Case Details</section>
+        </sections>
+        <sections>
+            <label><!-- More Details --></label>
+            <section>More Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Customer Data Layout</layout>
+        <sections>
+            <label><!-- Case Resolution Details --></label>
+            <section>Case Resolution Details</section>
+        </sections>
+        <sections>
+            <label><!-- Change Ticket Details --></label>
+            <section>Change Ticket Details</section>
+        </sections>
+        <sections>
+            <label><!-- Document Request Details --></label>
+            <section>Document Request Details</section>
+        </sections>
+        <sections>
+            <label><!-- Email-to-Case Information --></label>
+            <section>Email-to-Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- External Customer Details --></label>
+            <section>External Customer Details</section>
+        </sections>
+        <sections>
+            <label><!-- International Documentation --></label>
+            <section>International Documentation</section>
+        </sections>
+        <sections>
+            <label><!-- Product Information --></label>
+            <section>Product Information</section>
+        </sections>
+        <sections>
+            <label><!-- SLA Tracking --></label>
+            <section>SLA Tracking</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Customer Data Sub case layout</layout>
+        <sections>
+            <label><!-- Case Resolution Details --></label>
+            <section>Case Resolution Details</section>
+        </sections>
+        <sections>
+            <label><!-- Change Ticket Details --></label>
+            <section>Change Ticket Details</section>
+        </sections>
+        <sections>
+            <label><!-- Document Request Details --></label>
+            <section>Document Request Details</section>
+        </sections>
+        <sections>
+            <label><!-- Email-to-Case Information --></label>
+            <section>Email-to-Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- External Customer Details --></label>
+            <section>External Customer Details</section>
+        </sections>
+        <sections>
+            <label><!-- International Documentation --></label>
+            <section>International Documentation</section>
+        </sections>
+        <sections>
+            <label><!-- Product Information --></label>
+            <section>Product Information</section>
+        </sections>
+        <sections>
+            <label><!-- SLA Tracking --></label>
+            <section>SLA Tracking</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Discount</layout>
+        <sections>
+            <label><!-- Email-to-Case Information --></label>
+            <section>Email-to-Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- Request Details --></label>
+            <section>Request Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>EDI Layout</layout>
+        <sections>
+            <label><!-- External Customer Details --></label>
+            <section>External Customer Details</section>
+        </sections>
+        <sections>
+            <label><!-- SLA Tracking --></label>
+            <section>SLA Tracking</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>EDI Layout - Community</layout>
+        <sections>
+            <label><!-- External Customer Details --></label>
+            <section>External Customer Details</section>
+        </sections>
+        <sections>
+            <label><!-- SLA Tracking --></label>
+            <section>SLA Tracking</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Escalation Page Layout (CS)</layout>
+        <sections>
+            <label><!-- Case Resolution Details --></label>
+            <section>Case Resolution Details</section>
+        </sections>
+        <sections>
+            <label><!-- Change Ticket Details --></label>
+            <section>Change Ticket Details</section>
+        </sections>
+        <sections>
+            <label><!-- Claim Details --></label>
+            <section>Claim Details</section>
+        </sections>
+        <sections>
+            <label><!-- External Customer Details --></label>
+            <section>External Customer Details</section>
+        </sections>
+        <sections>
+            <label><!-- Inquiry Details --></label>
+            <section>Inquiry Details</section>
+        </sections>
+        <sections>
+            <label><!-- International Documentation --></label>
+            <section>International Documentation</section>
+        </sections>
+        <sections>
+            <label><!-- Location --></label>
+            <section>Location</section>
+        </sections>
+        <sections>
+            <label><!-- Product Information --></label>
+            <section>Product Information</section>
+        </sections>
+        <sections>
+            <label><!-- SLA Tracking --></label>
+            <section>SLA Tracking</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Escalation Page Layout - Community</layout>
+        <sections>
+            <label><!-- Case Resolution Details --></label>
+            <section>Case Resolution Details</section>
+        </sections>
+        <sections>
+            <label><!-- Escalated Case Information --></label>
+            <section>Escalated Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- External Customer Details --></label>
+            <section>External Customer Details</section>
+        </sections>
+        <sections>
+            <label><!-- SLA Tracking --></label>
+            <section>SLA Tracking</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>GBS Outlook Layout</layout>
+        <sections>
+            <label><!-- Case Details --></label>
+            <section>Case Details</section>
+        </sections>
+        <sections>
+            <label><!-- Case Summary --></label>
+            <section>Case Summary</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- SLA Tracking --></label>
+            <section>SLA Tracking</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>GMDM - Account Change/Extend</layout>
+        <sections>
+            <label><!-- Email-to-Case Information --></label>
+            <section>Email-to-Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- External Customer Details --></label>
+            <section>External Customer Details</section>
+        </sections>
+        <sections>
+            <label><!-- Request Details --></label>
+            <section>Request Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>GMDM - Center Account Create</layout>
+        <sections>
+            <label><!-- Email-to-Case Information --></label>
+            <section>Email-to-Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- External Customer Details --></label>
+            <section>External Customer Details</section>
+        </sections>
+        <sections>
+            <label><!-- Request Details --></label>
+            <section>Request Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>GMDM - Center Account Create - Community</layout>
+        <sections>
+            <label><!-- Email-to-Case Information --></label>
+            <section>Email-to-Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- Request Details --></label>
+            <section>Request Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>GMDM - Center Change</layout>
+        <sections>
+            <label><!-- Email-to-Case Information --></label>
+            <section>Email-to-Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- External Customer Details --></label>
+            <section>External Customer Details</section>
+        </sections>
+        <sections>
+            <label><!-- Request Details --></label>
+            <section>Request Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>GMDM - Customer Hierarchy</layout>
+        <sections>
+            <label><!-- Email-to-Case Information --></label>
+            <section>Email-to-Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- External Customer Details --></label>
+            <section>External Customer Details</section>
+        </sections>
+        <sections>
+            <label><!-- Request Details --></label>
+            <section>Request Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>GMDM - Customer Maintenance</layout>
+        <sections>
+            <label><!-- Email-to-Case Information --></label>
+            <section>Email-to-Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- External Customer Details --></label>
+            <section>External Customer Details</section>
+        </sections>
+        <sections>
+            <label><!-- Request Details --></label>
+            <section>Request Details</section>
+        </sections>
+        <sections>
+            <label><!-- Request Summary --></label>
+            <section>Request Summary</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>GMDM - EDW Mapping</layout>
+        <sections>
+            <label><!-- Email-to-Case Information --></label>
+            <section>Email-to-Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- External Customer Details --></label>
+            <section>External Customer Details</section>
+        </sections>
+        <sections>
+            <label><!-- Request Details --></label>
+            <section>Request Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>GMDM - EDW Mapping - Community</layout>
+        <sections>
+            <label><!-- Email-to-Case Information --></label>
+            <section>Email-to-Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- Request Details --></label>
+            <section>Request Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>GMDM - Materials</layout>
+        <sections>
+            <label><!-- Email-to-Case Information --></label>
+            <section>Email-to-Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- Request Details --></label>
+            <section>Request Details</section>
+        </sections>
+        <sections>
+            <label><!-- Request Summary --></label>
+            <section>Request Summary</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>GMDM - Rebates</layout>
+        <sections>
+            <label><!-- Email-to-Case Information --></label>
+            <section>Email-to-Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- External Customer Details --></label>
+            <section>External Customer Details</section>
+        </sections>
+        <sections>
+            <label><!-- Request Details --></label>
+            <section>Request Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>GMDM - Simple Request</layout>
+        <sections>
+            <label><!-- Email-to-Case Information --></label>
+            <section>Email-to-Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- External Customer Details --></label>
+            <section>External Customer Details</section>
+        </sections>
+        <sections>
+            <label><!-- Request Details --></label>
+            <section>Request Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>GMDM - Vendor Maintenance</layout>
+        <sections>
+            <label><!-- Email-to-Case Information --></label>
+            <section>Email-to-Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- External Customer Details --></label>
+            <section>External Customer Details</section>
+        </sections>
+        <sections>
+            <label><!-- Request Details --></label>
+            <section>Request Details</section>
+        </sections>
+        <sections>
+            <label><!-- Request Summary --></label>
+            <section>Request Summary</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>GMDM Layout</layout>
+        <sections>
+            <label><!-- Email-to-Case Information --></label>
+            <section>Email-to-Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- Request Details --></label>
+            <section>Request Details</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>GMDM Layout - Community</layout>
+        <sections>
+            <label><!-- Request Details --></label>
+            <section>Request Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>HR Layout</layout>
+        <sections>
+            <label><!-- Email-to-Case Information --></label>
+            <section>Email-to-Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- External Customer Details --></label>
+            <section>External Customer Details</section>
+        </sections>
+        <sections>
+            <label><!-- Request Details --></label>
+            <section>Request Details</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>HR Layout - Community</layout>
+        <sections>
+            <label><!-- Email-to-Case Information --></label>
+            <section>Email-to-Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- Request Details --></label>
+            <section>Request Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>International Tracking Case Layout</layout>
+        <sections>
+            <label><!-- SLA Tracking --></label>
+            <section>SLA Tracking</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>OTC - Bailment Error Layout</layout>
+        <sections>
+            <label><!-- Bailment Error Details --></label>
+            <section>Bailment Error Details</section>
+        </sections>
+        <sections>
+            <label><!-- PGI Error --></label>
+            <section>PGI Error</section>
+        </sections>
+        <sections>
+            <label><!-- Request Details --></label>
+            <section>Request Details</section>
+        </sections>
+        <sections>
+            <label><!-- Request Summary --></label>
+            <section>Request Summary</section>
+        </sections>
+        <sections>
+            <label><!-- SLA Tracking --></label>
+            <section>SLA Tracking</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>OTC - Bailment Layout</layout>
+        <sections>
+            <label><!-- Bailment Case Details --></label>
+            <section>Bailment Case Details</section>
+        </sections>
+        <sections>
+            <label><!-- Bailment Case Summary --></label>
+            <section>Bailment Case Summary</section>
+        </sections>
+        <sections>
+            <label><!-- Request Summary --></label>
+            <section>Request Summary</section>
+        </sections>
+        <sections>
+            <label><!-- SLA Tracking --></label>
+            <section>SLA Tracking</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>OTC - Cancellation</layout>
+        <sections>
+            <label><!-- Email-to-Case Information --></label>
+            <section>Email-to-Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- Request Details --></label>
+            <section>Request Details</section>
+        </sections>
+        <sections>
+            <label><!-- Request Summary --></label>
+            <section>Request Summary</section>
+        </sections>
+        <sections>
+            <label><!-- SLA Tracking --></label>
+            <section>SLA Tracking</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>OTC - Commissions</layout>
+        <sections>
+            <label><!-- Email-to-Case Information --></label>
+            <section>Email-to-Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- Request Details --></label>
+            <section>Request Details</section>
+        </sections>
+        <sections>
+            <label><!-- Request Summary --></label>
+            <section>Request Summary</section>
+        </sections>
+        <sections>
+            <label><!-- SLA Tracking --></label>
+            <section>SLA Tracking</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>OTC - Correct Invoice</layout>
+        <sections>
+            <label><!-- Email-to-Case Information --></label>
+            <section>Email-to-Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- Request Details --></label>
+            <section>Request Details</section>
+        </sections>
+        <sections>
+            <label><!-- Request Summary --></label>
+            <section>Request Summary</section>
+        </sections>
+        <sections>
+            <label><!-- SLA Tracking --></label>
+            <section>SLA Tracking</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>OTC - Credit Approval</layout>
+        <sections>
+            <label><!-- Email-to-Case Information --></label>
+            <section>Email-to-Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- Request Details --></label>
+            <section>Request Details</section>
+        </sections>
+        <sections>
+            <label><!-- Request Summary --></label>
+            <section>Request Summary</section>
+        </sections>
+        <sections>
+            <label><!-- SLA Tracking --></label>
+            <section>SLA Tracking</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>OTC - Credit Approval - Community</layout>
+        <sections>
+            <label><!-- Email-to-Case Information --></label>
+            <section>Email-to-Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- Request Summary --></label>
+            <section>Request Summary</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>OTC - D2D Xfer</layout>
+        <sections>
+            <label><!-- Email-to-Case Information --></label>
+            <section>Email-to-Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- Request Details --></label>
+            <section>Request Details</section>
+        </sections>
+        <sections>
+            <label><!-- Request Summary --></label>
+            <section>Request Summary</section>
+        </sections>
+        <sections>
+            <label><!-- SLA Tracking --></label>
+            <section>SLA Tracking</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>OTC - FI Request</layout>
+        <sections>
+            <label><!-- Email-to-Case Information --></label>
+            <section>Email-to-Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- Request Details --></label>
+            <section>Request Details</section>
+        </sections>
+        <sections>
+            <label><!-- Request Summary --></label>
+            <section>Request Summary</section>
+        </sections>
+        <sections>
+            <label><!-- SLA Tracking --></label>
+            <section>SLA Tracking</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>OTC - Invoice Number</layout>
+        <sections>
+            <label><!-- Email-to-Case Information --></label>
+            <section>Email-to-Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- Request Details --></label>
+            <section>Request Details</section>
+        </sections>
+        <sections>
+            <label><!-- Request Summary --></label>
+            <section>Request Summary</section>
+        </sections>
+        <sections>
+            <label><!-- SLA Tracking --></label>
+            <section>SLA Tracking</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>OTC - Invoice Request</layout>
+        <sections>
+            <label><!-- Email-to-Case Information --></label>
+            <section>Email-to-Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- Request Details --></label>
+            <section>Request Details</section>
+        </sections>
+        <sections>
+            <label><!-- Request Summary --></label>
+            <section>Request Summary</section>
+        </sections>
+        <sections>
+            <label><!-- SLA Tracking --></label>
+            <section>SLA Tracking</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>OTC - Manual Invoice Request</layout>
+        <sections>
+            <label><!-- Email-to-Case Information --></label>
+            <section>Email-to-Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- Request Details --></label>
+            <section>Request Details</section>
+        </sections>
+        <sections>
+            <label><!-- Request Summary --></label>
+            <section>Request Summary</section>
+        </sections>
+        <sections>
+            <label><!-- SLA Tracking --></label>
+            <section>SLA Tracking</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>OTC - Resend Auto Invoice</layout>
+        <sections>
+            <label><!-- Email-to-Case Information --></label>
+            <section>Email-to-Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- External Customer Details --></label>
+            <section>External Customer Details</section>
+        </sections>
+        <sections>
+            <label><!-- Request Details --></label>
+            <section>Request Details</section>
+        </sections>
+        <sections>
+            <label><!-- Request Summary --></label>
+            <section>Request Summary</section>
+        </sections>
+        <sections>
+            <label><!-- SLA Tracking --></label>
+            <section>SLA Tracking</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>OTC - TPM</layout>
+        <sections>
+            <label><!-- Email-to-Case Information --></label>
+            <section>Email-to-Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- Request Details --></label>
+            <section>Request Details</section>
+        </sections>
+        <sections>
+            <label><!-- Request Summary --></label>
+            <section>Request Summary</section>
+        </sections>
+        <sections>
+            <label><!-- SLA Tracking --></label>
+            <section>SLA Tracking</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>OTC Billing Layout</layout>
+        <sections>
+            <label><!-- Case Description --></label>
+            <section>Case Description</section>
+        </sections>
+        <sections>
+            <label><!-- Credit Request Summary --></label>
+            <section>Credit Request Summary</section>
+        </sections>
+        <sections>
+            <label><!-- Email-to-Case Information --></label>
+            <section>Email-to-Case Information</section>
+        </sections>
+        <sections>
+            <label>Anfragedetails</label>
+            <section>Request Details</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>OTC Billing Layout - Community</layout>
+        <sections>
+            <label><!-- Email-to-Case Information --></label>
+            <section>Email-to-Case Information</section>
+        </sections>
+        <sections>
+            <label>Anfragedetails</label>
+            <section>Request Details</section>
+        </sections>
+        <sections>
+            <label>Zusammenfassung beantragen</label>
+            <section>Request Summary</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Order Claim Close Case</layout>
+        <layoutType>CaseClose</layoutType>
+        <sections>
+            <label><!-- Claim Information --></label>
+            <section>Claim Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Order Claim Page Layout</layout>
+        <sections>
+            <label><!-- Claim Details --></label>
+            <section>Claim Details</section>
+        </sections>
+        <sections>
+            <label><!-- Email-to-Case Details --></label>
+            <section>Email-to-Case Details</section>
+        </sections>
+        <sections>
+            <label><!-- External Customer Details --></label>
+            <section>External Customer Details</section>
+        </sections>
+        <sections>
+            <label><!-- Product Details --></label>
+            <section>Product Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Order Claim Page Layout - Community</layout>
+        <sections>
+            <label><!-- Case Details --></label>
+            <section>Case Details</section>
+        </sections>
+        <sections>
+            <label><!-- External Customer Details --></label>
+            <section>External Customer Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Order Claim Sub Case Close Case</layout>
+        <layoutType>CaseClose</layoutType>
+        <sections>
+            <label><!-- Claim Information --></label>
+            <section>Claim Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Order Claim Sub Case Page Layout</layout>
+        <sections>
+            <label><!-- Claim Details --></label>
+            <section>Claim Details</section>
+        </sections>
+        <sections>
+            <label><!-- Email-to-Case Details --></label>
+            <section>Email-to-Case Details</section>
+        </sections>
+        <sections>
+            <label><!-- External Customer Details --></label>
+            <section>External Customer Details</section>
+        </sections>
+        <sections>
+            <label><!-- Pause Milestone --></label>
+            <section>Pause Milestone</section>
+        </sections>
+        <sections>
+            <label><!-- Product Details --></label>
+            <section>Product Details</section>
+        </sections>
+        <sections>
+            <label><!-- SLA Tracking --></label>
+            <section>SLA Tracking</section>
+        </sections>
+        <sections>
+            <label><!-- Sales Order Details --></label>
+            <section>Sales Order Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Order Close Case Layout</layout>
+        <layoutType>CaseClose</layoutType>
+        <sections>
+            <label><!-- Case Information --></label>
+            <section>Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- International Documentation --></label>
+            <section>International Documentation</section>
+        </sections>
+        <sections>
+            <label><!-- Order Close Details --></label>
+            <section>Order Close Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Outlook Case Layout</layout>
+        <sections>
+            <label><!-- Email-to-Case Details --></label>
+            <section>Email-to-Case Details</section>
+        </sections>
+        <sections>
+            <label><!-- External Customer Details --></label>
+            <section>External Customer Details</section>
+        </sections>
+        <sections>
+            <label><!-- SLA Tracking --></label>
+            <section>SLA Tracking</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PTP/AP - PR/PO</layout>
+        <sections>
+            <label><!-- Email-to-Case Information --></label>
+            <section>Email-to-Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- External Customer Details --></label>
+            <section>External Customer Details</section>
+        </sections>
+        <sections>
+            <label><!-- Request Details --></label>
+            <section>Request Details</section>
+        </sections>
+        <sections>
+            <label><!-- Request Summary --></label>
+            <section>Request Summary</section>
+        </sections>
+        <sections>
+            <label><!-- SLA Tracking --></label>
+            <section>SLA Tracking</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PTP/AP Layout</layout>
+        <sections>
+            <label><!-- Email-to-Case Information --></label>
+            <section>Email-to-Case Information</section>
+        </sections>
+        <sections>
+            <label>Externe Kundendaten</label>
+            <section>External Customer Details</section>
+        </sections>
+        <sections>
+            <label>Rechnungsstand / Zahlungsavis</label>
+            <section>Invoice Status / Remittance Details Summary</section>
+        </sections>
+        <sections>
+            <label>Anfragedetails</label>
+            <section>Request Details</section>
+        </sections>
+        <sections>
+            <label>Zusammenfassung beantragen</label>
+            <section>Request Summary</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PTP/AP Layout - Community</layout>
+        <sections>
+            <label>Zusammenfassung beantragen</label>
+            <section>Request Summary</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Payroll Layout</layout>
+        <sections>
+            <label><!-- Email-to-Case Information --></label>
+            <section>Email-to-Case Information</section>
+        </sections>
+        <sections>
+            <label>Zusammenfassung beantragen</label>
+            <section>Request Summary</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Payroll Layout - Community</layout>
+        <sections>
+            <label><!-- Email-to-Case Information --></label>
+            <section>Email-to-Case Information</section>
+        </sections>
+        <sections>
+            <label>Zusammenfassung beantragen</label>
+            <section>Request Summary</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Portal Registration</layout>
+        <sections>
+            <label><!-- Registration Information --></label>
+            <section>Registration Information</section>
+        </sections>
+        <sections>
+            <label>Anfragedetails</label>
+            <section>Request Details</section>
+        </sections>
+        <sections>
+            <label><!-- SLA Tracking --></label>
+            <section>SLA Tracking</section>
+        </sections>
+        <sections>
+            <label><!-- Type(s) of User --></label>
+            <section>Type(s) of User</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Price Filing</layout>
+        <sections>
+            <label><!-- Activity Tracking --></label>
+            <section>Activity Tracking</section>
+        </sections>
+        <sections>
+            <label><!-- Date Information --></label>
+            <section>Date Information</section>
+        </sections>
+        <sections>
+            <label><!-- Email-to-Case Information --></label>
+            <section>Email-to-Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- Request Details --></label>
+            <section>Request Details</section>
+        </sections>
+        <sections>
+            <label><!-- State Manager Information --></label>
+            <section>State Manager Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Price Filing (Commercial Finance)</layout>
+        <sections>
+            <label><!-- Activity Tracking --></label>
+            <section>Activity Tracking</section>
+        </sections>
+        <sections>
+            <label><!-- Date Information --></label>
+            <section>Date Information</section>
+        </sections>
+        <sections>
+            <label><!-- Email-to-Case Information --></label>
+            <section>Email-to-Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- Request Details --></label>
+            <section>Request Details</section>
+        </sections>
+        <sections>
+            <label><!-- State Manager Information --></label>
+            <section>State Manager Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Price Posting</layout>
+        <sections>
+            <label><!-- Activity Tracking --></label>
+            <section>Activity Tracking</section>
+        </sections>
+        <sections>
+            <label><!-- Date Information --></label>
+            <section>Date Information</section>
+        </sections>
+        <sections>
+            <label><!-- Email-to-Case Information --></label>
+            <section>Email-to-Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- Request Details --></label>
+            <section>Request Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Quality Claim ContactUs Page Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Claim Information --></label>
+            <section>Claim Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Email-to-Case Details --></label>
+            <section>Email-to-Case Details</section>
+        </sections>
+        <sections>
+            <label><!-- Location Information --></label>
+            <section>Location Information</section>
+        </sections>
+        <sections>
+            <label><!-- More Details --></label>
+            <section>More Details</section>
+        </sections>
+        <sections>
+            <label><!-- Product Information --></label>
+            <section>Product Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Quality Claim Page Layout</layout>
+        <sections>
+            <label><!-- Claim Information --></label>
+            <section>Claim Information</section>
+        </sections>
+        <sections>
+            <label><!-- Email-to-Case Details --></label>
+            <section>Email-to-Case Details</section>
+        </sections>
+        <sections>
+            <label><!-- External Customer Details --></label>
+            <section>External Customer Details</section>
+        </sections>
+        <sections>
+            <label><!-- Location Information --></label>
+            <section>Location Information</section>
+        </sections>
+        <sections>
+            <label><!-- Product Information --></label>
+            <section>Product Information</section>
+        </sections>
+        <sections>
+            <label><!-- Request Summary --></label>
+            <section>Request Summary</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Quality Claim Page Layout - Community</layout>
+        <sections>
+            <label><!-- Claim Information --></label>
+            <section>Claim Information</section>
+        </sections>
+        <sections>
+            <label><!-- Email-to-Case Details --></label>
+            <section>Email-to-Case Details</section>
+        </sections>
+        <sections>
+            <label><!-- External Customer Details --></label>
+            <section>External Customer Details</section>
+        </sections>
+        <sections>
+            <label><!-- Product Information --></label>
+            <section>Product Information</section>
+        </sections>
+        <sections>
+            <label><!-- Request Summary --></label>
+            <section>Request Summary</section>
+        </sections>
+        <sections>
+            <label><!-- SLA Tracking --></label>
+            <section>SLA Tracking</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Quality Claim Sub Case Page Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Claim Information --></label>
+            <section>Claim Information</section>
+        </sections>
+        <sections>
+            <label><!-- Email-to-Case Details --></label>
+            <section>Email-to-Case Details</section>
+        </sections>
+        <sections>
+            <label><!-- External Customer Details --></label>
+            <section>External Customer Details</section>
+        </sections>
+        <sections>
+            <label><!-- Investigation Information --></label>
+            <section>Investigation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Location Information --></label>
+            <section>Location Information</section>
+        </sections>
+        <sections>
+            <label><!-- Product Information --></label>
+            <section>Product Information</section>
+        </sections>
+        <sections>
+            <label><!-- Results --></label>
+            <section>Results</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Quote Request</layout>
+        <sections>
+            <label><!-- Activity Tracking --></label>
+            <section>Activity Tracking</section>
+        </sections>
+        <sections>
+            <label><!-- Email-to-Case Information --></label>
+            <section>Email-to-Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- Request Details --></label>
+            <section>Request Details</section>
+        </sections>
+        <sections>
+            <label><!-- State Manager Information --></label>
+            <section>State Manager Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Quote Request (Commercial Finance)</layout>
+        <sections>
+            <label><!-- Activity Tracking --></label>
+            <section>Activity Tracking</section>
+        </sections>
+        <sections>
+            <label><!-- Email-to-Case Information --></label>
+            <section>Email-to-Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- Request Details --></label>
+            <section>Request Details</section>
+        </sections>
+        <sections>
+            <label><!-- State Manager Information --></label>
+            <section>State Manager Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Quote Request - Community</layout>
+        <sections>
+            <label><!-- Activity Tracking --></label>
+            <section>Activity Tracking</section>
+        </sections>
+        <sections>
+            <label><!-- Email-to-Case Information --></label>
+            <section>Email-to-Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- Recipient Information --></label>
+            <section>Recipient Information</section>
+        </sections>
+        <sections>
+            <label><!-- Request Details --></label>
+            <section>Request Details</section>
+        </sections>
+        <sections>
+            <label><!-- State Manager Information --></label>
+            <section>State Manager Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>RTR Layout</layout>
+        <sections>
+            <label><!-- Email-to-Case Information --></label>
+            <section>Email-to-Case Information</section>
+        </sections>
+        <sections>
+            <label>Externe Kundendaten</label>
+            <section>External Customer Details</section>
+        </sections>
+        <sections>
+            <label><!-- Request Summary --></label>
+            <section>Request Summary</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Single Barrel - Proof Specific</layout>
+        <sections>
+            <label><!-- Barrel Information --></label>
+            <section>Barrel Information</section>
+        </sections>
+        <sections>
+            <label><!-- Email-to-Case Details --></label>
+            <section>Email-to-Case Details</section>
+        </sections>
+        <sections>
+            <label><!-- External Customer Details --></label>
+            <section>External Customer Details</section>
+        </sections>
+        <sections>
+            <label><!-- Sample Kit Details --></label>
+            <section>Sample Kit Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Single Barrel - Proof Specific - Community</layout>
+        <sections>
+            <label><!-- Email-to-Case Details --></label>
+            <section>Email-to-Case Details</section>
+        </sections>
+        <sections>
+            <label><!-- External Customer Details --></label>
+            <section>External Customer Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Single Barrel - Standard</layout>
+        <sections>
+            <label><!-- Barrel Details --></label>
+            <section>Barrel Details</section>
+        </sections>
+        <sections>
+            <label><!-- Email-to-Case Details --></label>
+            <section>Email-to-Case Details</section>
+        </sections>
+        <sections>
+            <label><!-- External Customer Details --></label>
+            <section>External Customer Details</section>
+        </sections>
+        <sections>
+            <label><!-- Sample Kit Details --></label>
+            <section>Sample Kit Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Single Barrel - Standard - Community</layout>
+        <sections>
+            <label><!-- Email-to-Case Details --></label>
+            <section>Email-to-Case Details</section>
+        </sections>
+        <sections>
+            <label><!-- External Customer Details --></label>
+            <section>External Customer Details</section>
+        </sections>
+        <sections>
+            <label><!-- Sample Kit Details --></label>
+            <section>Sample Kit Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Single barrel Inquiry layout</layout>
+        <sections>
+            <label><!-- Email-to-Case Details --></label>
+            <section>Email-to-Case Details</section>
+        </sections>
+        <sections>
+            <label><!-- External Customer Details --></label>
+            <section>External Customer Details</section>
+        </sections>
+        <sections>
+            <label><!-- Market Alert Information --></label>
+            <section>Market Alert Information</section>
+        </sections>
+        <sections>
+            <label><!-- New User Request Details --></label>
+            <section>New User Request Details</section>
+        </sections>
+        <sections>
+            <label><!-- Newsletter Details --></label>
+            <section>Newsletter Details</section>
+        </sections>
+        <sections>
+            <label><!-- Product Information --></label>
+            <section>Product Information</section>
+        </sections>
+        <sections>
+            <label><!-- SLA Tracking --></label>
+            <section>SLA Tracking</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Standard Layout</layout>
+        <sections>
+            <label><!-- Email-to-Case Information --></label>
+            <section>Email-to-Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- Request Details --></label>
+            <section>Request Details</section>
+        </sections>
+        <sections>
+            <label><!-- SLA Tracking --></label>
+            <section>SLA Tracking</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>State License Registration</layout>
+        <sections>
+            <label><!-- Dates --></label>
+            <section>Dates</section>
+        </sections>
+        <sections>
+            <label><!-- Optional Information --></label>
+            <section>Optional Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>T&amp;E Layout</layout>
+        <sections>
+            <label><!-- Corporate Card Request Status Inquiry --></label>
+            <section>Corporate Card Request Status Inquiry</section>
+        </sections>
+        <sections>
+            <label><!-- Email-to-Case Information --></label>
+            <section>Email-to-Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- Request Corporate Card Details --></label>
+            <section>Request Corporate Card Details</section>
+        </sections>
+        <sections>
+            <label>Zusammenfassung beantragen</label>
+            <section>Request Summary</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Tax Layout</layout>
+        <sections>
+            <label><!-- Email-to-Case Information --></label>
+            <section>Email-to-Case Information</section>
+        </sections>
+        <sections>
+            <label>Anfragedetails</label>
+            <section>Request Details</section>
+        </sections>
+        <sections>
+            <label>Zusammenfassung beantragen</label>
+            <section>Request Summary</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Tracking Case Layout</layout>
+        <sections>
+            <label><!-- Request Summary --></label>
+            <section>Request Summary</section>
+        </sections>
+        <sections>
+            <label><!-- SLA Tracking --></label>
+            <section>SLA Tracking</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>US Order</layout>
+        <sections>
+            <label><!-- Email-to-Case Details --></label>
+            <section>Email-to-Case Details</section>
+        </sections>
+        <sections>
+            <label><!-- External Customer Details --></label>
+            <section>External Customer Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>US/Int'l Order Layout</layout>
+        <sections>
+            <label><!-- Email-to-Case Details --></label>
+            <section>Email-to-Case Details</section>
+        </sections>
+        <sections>
+            <label><!-- External Customer Details --></label>
+            <section>External Customer Details</section>
+        </sections>
+        <sections>
+            <label><!-- International Documentation --></label>
+            <section>International Documentation</section>
+        </sections>
+        <sections>
+            <label><!-- SLA Tracking --></label>
+            <section>SLA Tracking</section>
+        </sections>
+        <sections>
+            <label><!-- Sales Order Details --></label>
+            <section>Sales Order Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>US/Int'l Order Layout - Community</layout>
+        <sections>
+            <label><!-- Case Details --></label>
+            <section>Case Details</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Update Case --></label>
+        <name>CloseCaseMacro</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Close Case --></label>
+        <name>Close_Case_Brand_Registration</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Close Case --></label>
+        <name>Close_Case_Brand_Registration_Sub_Case</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Close Case --></label>
+        <name>Close_Case_Discounts</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Close Case --></label>
+        <name>Close_Case_Price_Posting</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Close Case --></label>
+        <name>Close_Case_Quote_Request</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Change Due Date --></label>
+        <name>Compliance_Change_Due_Date</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Change In-Field Date --></label>
+        <name>Compliance_Change_In_Field_Date</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Case --></label>
+        <name>Create_Case</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Kick Off --></label>
+        <name>Kick_Off_Brand_Registration</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Kick off Attachments --></label>
+        <name>Kick_off_Attachments</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewChildCase --></label>
+        <name>NewChildCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Parent Quality Case --></label>
+        <name>Parent_Quality_Case</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Email --></label>
+        <name>SendEmailComplaintInquiry</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Email --></label>
+        <name>SendEmailCompliance</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Set Item Pricing --></label>
+        <name>Set_Item_Pricing</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Barrel Ready to Enter --></label>
+        <name>Barrel_Ready_to_Enter</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Any emails that are delivered to the org-wide email will be routed to this record type --></description>
+        <label><!-- Beam Suntory Email-to-Case --></label>
+        <name>Beam_Suntory_Email_to_Case</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Bomb Out --></label>
+        <name>Bomb_Out</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Bomb Out - Esker --></label>
+        <name>Bomb_Out_Esker</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- (Compliance) Used for creation of new brands within the system --></description>
+        <label><!-- Brand Registration --></label>
+        <name>Brand_Registration</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Submit Customer Service - Changes cases via the Internal Community --></description>
+        <label><!-- Changes --></label>
+        <name>Changes</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Submit Claims cases via the Company Community --></description>
+        <label><!-- Claims --></label>
+        <name>Claims</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- (Compliance) Used for inquiries regarding information about a product or product line --></description>
+        <label><!-- Compliance Inquiry --></label>
+        <name>Compliance_Inquiry</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- (Compliance) Used for Compliance Sub Cases --></description>
+        <label><!-- Compliance Sub Case --></label>
+        <name>Compliance_Sub_Case</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This Record type is used to create the cases for Inquiry Type --></description>
+        <label><!-- Consumer Inquiry --></label>
+        <name>Consumer_Inquiry</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Customer Data --></label>
+        <name>Customer_Data</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Customer Data Sub Case --></label>
+        <name>Customer_Data_Sub_Case</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- (Compliance) Used for initiation of new brand discounts --></description>
+        <label><!-- Discount --></label>
+        <name>Discount</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This Record type is used to create the dummy case via contact us form and then after filling all the required information of Case from the Consumer then will update the case record type. --></description>
+        <label><!-- Dummy Case --></label>
+        <name>Dummy_Case</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Submit Customer Service - EDI Order cases via the Internal Community --></description>
+        <label><!-- EDI Order --></label>
+        <name>EDI_Order</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Submit Customer Service - Escalation Form cases --></description>
+        <label><!-- Escalated Form --></label>
+        <name>Escalated_Form</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Used to create cases from Outlook --></description>
+        <label><!-- GBS Outlook --></label>
+        <name>GBS_Outlook</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Submit Global Master Data Management cases via the Company Community --></description>
+        <label><!-- GMDM --></label>
+        <name>GMDM</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Submit Global Master Data Management cases via the Company Community --></description>
+        <label><!-- GMDM - GL Account Change/Extend --></label>
+        <name>GMDM_Account_Change_Extend</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Submit Global Master Data Management cases via the Company Community --></description>
+        <label><!-- GMDM - Cost Center Create --></label>
+        <name>GMDM_Center_Account_Create</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Submit Global Master Data Management cases via the Company Community --></description>
+        <label><!-- GMDM - Cost Center Change --></label>
+        <name>GMDM_Center_Change</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Submit Global Master Data Management cases via the Company Community --></description>
+        <label><!-- GMDM - Customer Hierarchy --></label>
+        <name>GMDM_Customer_Hierarchy</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Submit Global Master Data Management cases via the Company Community --></description>
+        <label><!-- GMDM - Customer Maintenance --></label>
+        <name>GMDM_Customer_Maintenance</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Submit Global Master Data Management cases via the Company Community --></description>
+        <label><!-- GMDM - EDW Mapping --></label>
+        <name>GMDM_EDW_Mapping</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Submit Global Master Data Management cases via the Company Community --></description>
+        <label><!-- GMDM - Materials --></label>
+        <name>GMDM_Materials</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Submit Global Master Data Management cases via the Company Community --></description>
+        <label><!-- GMDM - Rebates --></label>
+        <name>GMDM_Rebates</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Submit Global Master Data Management cases via the Company Community --></description>
+        <label><!-- GMDM - Simple Request --></label>
+        <name>GMDM_Simple_Request</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Submit Global Master Data Management cases via the Company Community --></description>
+        <label><!-- GMDM - Vendor Maintenance --></label>
+        <name>GMDM_Vendor_Maintenance</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Submit Human Resource cases via the Company Community --></description>
+        <label><!-- HR --></label>
+        <name>HR</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Submit Customer Service - Inquiry cases via the Internal Community --></description>
+        <label><!-- Inquiry --></label>
+        <name>Inquiry</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Submit Customer Service - Internal Inquiry cases via the Internal Community --></description>
+        <label><!-- Inquiry (Internal) --></label>
+        <name>Inquiry_Internal</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Submit International sub-cases --></description>
+        <label><!-- International Sub Case --></label>
+        <name>International_Sub_Case</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Submit Cases to logistics cases record type from Internal Community --></description>
+        <label><!-- Logistics request --></label>
+        <name>Logistics_request</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Submit Bailment cases via the Company Community (OTC Billing) --></description>
+        <label><!-- OTC - Bailment --></label>
+        <name>OTC_Bailment</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Submit Bailment Error Cases as a sub-case off of the Bailment master-case via the Console --></description>
+        <label><!-- OTC - Bailment Error --></label>
+        <name>OTC_Bailment_Error</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Submit Order to Cash / Billing cases via the Company Community --></description>
+        <label><!-- OTC Billing --></label>
+        <name>OTC_Billing</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Submit Order to Cash / Billing cases via the Company Community --></description>
+        <label><!-- OTC - Cancellation --></label>
+        <name>OTC_Cancellation</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Submit Order to Cash / Billing cases via the Company Community --></description>
+        <label><!-- OTC - Commissions --></label>
+        <name>OTC_Commissions</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Submit Order to Cash / Billing cases via the Company Community --></description>
+        <label><!-- OTC - Correct Invoice --></label>
+        <name>OTC_Correct_Invoice</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Submit Order to Cash / Billing cases via the Company Community --></description>
+        <label><!-- OTC - Credit Approval --></label>
+        <name>OTC_Credit_Approval</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Submit Order to Cash / Billing cases via the Company Community --></description>
+        <label><!-- OTC - D2D Xfer --></label>
+        <name>OTC_D2D_Xfer</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Submit Order to Cash / Billing cases via the Company Community --></description>
+        <label><!-- OTC - FI Request --></label>
+        <name>OTC_FI_Request</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Submit Order to Cash / Billing cases via the Company Community --></description>
+        <label><!-- OTC - Invoice Number --></label>
+        <name>OTC_Invoice_Number</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Submit Order to Cash / Billing cases via the Company Community --></description>
+        <label><!-- OTC - Invoice Request --></label>
+        <name>OTC_Invoice_Request</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Submit Order to Cash / Billing cases via the Company Community --></description>
+        <label><!-- OTC - Manual Invoice Request --></label>
+        <name>OTC_Manual_Invoice_Request</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Submit Order to Cash / Billing cases via the Company Community --></description>
+        <label><!-- OTC - Resend Auto Invoice --></label>
+        <name>OTC_Resend_Auto_Invoice</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Submit Order to Cash / Billing cases via the Company Community --></description>
+        <label><!-- OTC - TPM --></label>
+        <name>OTC_TPM</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Record Type for Open Enrollment Inquiries --></description>
+        <label><!-- Open Enrollment Inquiries --></label>
+        <name>Open_Enrollment_Inquiries</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Submit Customer Service - Order Claim cases via the Internal Community --></description>
+        <label><!-- Order Claim --></label>
+        <name>Order_Claim</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Order Claim Sub Case --></label>
+        <name>Order_Claim_Sub_Case</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Submit Customer Service - Order cases via the Internal Community --></description>
+        <label><!-- Orders --></label>
+        <name>Orders</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Outlook --></label>
+        <name>Outlook</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Submit Procure to Pay / Accounts Payable cases via the Company Community --></description>
+        <label><!-- PTP/AP --></label>
+        <name>PTP_AP</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Submit Procure to Pay / Accounts Payable cases via the Company Community --></description>
+        <label><!-- PTP/AP - PR/PO --></label>
+        <name>PTP_AP_PR_PO</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Submit Payroll cases via the Company Community --></description>
+        <label><!-- Payroll --></label>
+        <name>Payroll</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Price Filing --></description>
+        <label><!-- Price Filing --></label>
+        <name>Price_Filing</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- (Compliance) Used for creation and management of price postings --></description>
+        <label><!-- Price Posting --></label>
+        <name>Price_Posting</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Submit Customer Service - Quality Claim cases via the Internal Community --></description>
+        <label><!-- Quality Claim --></label>
+        <name>Quality_Claim</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Quality Claim Sub Case --></label>
+        <name>Quality_Claim_Sub_Case</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- (Compliance) Used for fulfilling quote requests regarding new or existing products --></description>
+        <label><!-- Quote Request --></label>
+        <name>Quote_Request</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Submit Record to Report cases via the Company Community --></description>
+        <label><!-- RTR --></label>
+        <name>RTR</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Record Type for self Registration --></description>
+        <label><!-- Registration Approval --></label>
+        <name>Registration_Approval</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Single Barrel Inquiry --></label>
+        <name>Single_Barrel_Inquiry</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Single Barrel - Proof Specific --></label>
+        <name>Single_Barrel_Proof_Specific</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Single Barrel - Split Barrel --></label>
+        <name>Single_Barrel_Split_Barrel</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Single Barrel - Standard --></label>
+        <name>Single_Barrel_Standard</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Submit Standard sub-cases for tracking activities related to parent case --></description>
+        <label><!-- Standard Case --></label>
+        <name>Standard_Case</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This record type is used for Submitting State License cases by Market Readiness Team --></description>
+        <label><!-- State License --></label>
+        <name>State_License</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Submit Travel &amp; Entertainment cases via the Company Community --></description>
+        <label><!-- T&amp;E --></label>
+        <name>T_E</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Submit Tax cases via the Company Community --></description>
+        <label><!-- Tax --></label>
+        <name>Tax</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Case type for 3rd party cases. --></description>
+        <label><!-- Third Party Case --></label>
+        <name>Third_Party_Case</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Please ensure this documentation has been sent before the case is closed. --></errorMessage>
+        <name>Annex_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- This record must be approved before closing.  Please submit this record for approval on the previous page in the Approval list --></errorMessage>
+        <name>Approval_Required_before_Closing</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- This record must be contain a value for CPro Approval. Please mark &quot;Yes&quot; or &quot;No&quot;. --></errorMessage>
+        <name>Approval_of_Denial_Req_before_Closing</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please ensure this documentation has been sent before the case is closed. --></errorMessage>
+        <name>Bill_of_Lading_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Billing SAP Number and Financial Disposition are required on a child case of type &quot;Mis-Shipment Claim&quot; or &quot;Overage Claim&quot; --></errorMessage>
+        <name>Billing_SAP_number_missing_from_sub_case</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Case cannot be closed if any of the fields : Incorrect CMIR,Correct CMIR,Sales order Number,PO number,Additional Info are blank --></errorMessage>
+        <name>Bomb_Out_Esker_Transmission_Error_type</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Case cannot be closed if any of these fields : Correct SCC,Incorrect CMIR,Beam SKU,Correct Plant,Incorrect Plant,Sales Order Number,PO Number ,Additional Information  are blank --></errorMessage>
+        <name>Bomb_Out_Wrong_plant_type</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Case cannot be closed if any of these fields : Additional Information,Incorrect CMIR,Incorrect SCC,Correct SCC,Correct CMIR,Beam SKU,Sales Order Number,PO Number are blank --></errorMessage>
+        <name>Bomb_out_CMIR_Obsolete_SCC</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Case cannot be closed if any of the fields Incorrect Carrier code,Correct Carrier code,Fix on edpar table,Sales order number,PO number,Additional Info are blank --></errorMessage>
+        <name>Bomb_out_Carrier_type</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Case cannot be closed if any of the fields : Sales order number,PO number,Additional Info are blank --></errorMessage>
+        <name>Bomb_out_Multiple_PO_Beamproduct</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Case cannot be closed if any of the fields are blank: Additional Information, Beam SKU , Sales Order Number, PO Number, --></errorMessage>
+        <name>Bomb_out_No_issue_type</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Case Cannot be closed if any of the fields: Beam SKU,Sales order number,PO number,Additional info  are blank --></errorMessage>
+        <name>Bomb_out_Other_type</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Case Cannot be closed if any of these fields are blank: Incorrect CMIR, Correct CMIR, Beam SKU, Sales Order Number, PO Number , Additional Information --></errorMessage>
+        <name>Bomb_out_incorrect_material_type</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot update this checkbox once it&apos;s checked. --></errorMessage>
+        <name>Bottle_Pickup_Request_Uncheckable</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Project must be kicked off and all states must be closed before the project can be completed. --></errorMessage>
+        <name>Brand_Reg_Submitted_To_Close</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The In-Field Date is in less than 75 days away and is late. Please specify a reason that this Kickoff is late. --></errorMessage>
+        <name>Brand_Registration_Late_Kickoff</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Compliant Pro Number is required to close the ticket. --></errorMessage>
+        <name>CPro_Number_Requirement</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Reason must be provided if Status for Case is Closed-No Action for Compliance Sub Case Record Types. --></errorMessage>
+        <name>Case_Closed_No_Action_Reason_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Due Date cannot be set to a date before today --></errorMessage>
+        <name>Case_Due_Date_Cannot_Be_In_The_Past</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Proof of Submission must be uploaded before the Case can be closed. --></errorMessage>
+        <name>Case_Must_Be_Submitted_To_Close</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The Case cannot be closed until the Approved Workbook is uploaded to STIR and the &quot;Uploaded to STIR&quot; checkbox has been checked. --></errorMessage>
+        <name>Case_Must_Be_Uploaded_To_STIR_To_Close</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Case cannot be closed directly from Logged status. --></errorMessage>
+        <name>Case_cant_be_closed_directly_from_Logged</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please ensure this documentation has been sent before the case is closed. --></errorMessage>
+        <name>Certificate_of_Age_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please ensure this documentation has been sent before the case is closed. --></errorMessage>
+        <name>Certificate_of_Analysis_LotCode_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please ensure this documentation has been sent before the case is closed. --></errorMessage>
+        <name>Certificate_of_Analysis_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please ensure this documentation has been sent before the case is closed. --></errorMessage>
+        <name>Certificate_of_Freesale_LotCode_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please ensure this documentation has been sent before the case is closed. --></errorMessage>
+        <name>Certificate_of_Freesale_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please ensure this documentation has been sent before the case is closed. --></errorMessage>
+        <name>Certificate_of_Origin_Lot_Codes_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please ensure this documentation has been sent before the case is closed. --></errorMessage>
+        <name>Certificate_of_Origin_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter State and Priority values to save the record. --></errorMessage>
+        <name>Check_State_nd_Priority_for_QuoteRequest</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The Credit Amount has been approved, the values may not be altered. --></errorMessage>
+        <name>Claim_Amount_Lock</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Did you reach out to the Commercial Contact to verify the product can be sold to this account? --></errorMessage>
+        <name>Commercial_Contact_must_be_Contacted</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- An explanation is required to change the Date. Please enter an explanation and try again. --></errorMessage>
+        <name>Comp_BR_Date_Changed_No_Explanation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- If you are attempting to create a new case, please visit the Customer Service Portal. If you wish to make an update to an existing case, please leave a comment on the ticket. --></errorMessage>
+        <name>Create_Update_Record_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Credit Amount is required when Financial Disposition is Financial Invoice. --></errorMessage>
+        <name>Credit_Amount_Requirement</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Case must be approved if needed and &quot;Approval Needed&quot; cannot be blank --></errorMessage>
+        <name>Discount_Must_Be_Approved_To_Close</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Case Year of the Due Date / Expiration Date should not be same as Parent Case --></errorMessage>
+        <name>Due_Date_and_Exp_Date_Year_validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please clone this case and assign to the Distributor Advocate Queue, this is an extended delay. --></errorMessage>
+        <name>Extended_Delay_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Field is Required. --></errorMessage>
+        <name>FTB_Number_field_requirement</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Financial Disposition is required. --></errorMessage>
+        <name>Financial_Dispo_Requirement</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- This case must be submitted for approval to close. --></errorMessage>
+        <name>GBS_GMDM_Require_Approval_for_Close</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- HR Cases can only be assigned to HR Personnel. --></errorMessage>
+        <name>GBS_HR_Cases_Assignment_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A case cannot be closed if the Business unit is Blank --></errorMessage>
+        <name>GBS_OTC_Business_Unit</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Case cannot be closed if Current Payment Terms is Blank --></errorMessage>
+        <name>GBS_OTC_Current_Payment_Terms</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Case cannot be closed if the Current Risk Rating is Blank --></errorMessage>
+        <name>GBS_OTC_Current_Risk_Rating</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Case cannot be closed if Current Limit is Blank --></errorMessage>
+        <name>GBS_OTC_Current_limit</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Case cannot be closed if Recommended Limit is Blank --></errorMessage>
+        <name>GBS_OTC_Recommended_Limit</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Case cannot be closed if Recommended Payment Terms is Blank --></errorMessage>
+        <name>GBS_OTC_Recommended_Payment_Terms</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Case cannot be closed if the Recommended Risk Rating is Blank --></errorMessage>
+        <name>GBS_OTC_Recommended_Risk_Rating</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Case cannot be closed if Requested Payment Terms is Blank --></errorMessage>
+        <name>GBS_OTC_Requested_Payment_Terms</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- This case must be submitted for approval to close. --></errorMessage>
+        <name>GBS_OTC_Require_Approval_for_Close</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Case cannot be closed if the Review Type is Blank --></errorMessage>
+        <name>GBS_OTC_Review_Type</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select Primary Category --></errorMessage>
+        <name>GBS_Primary_Category_Mandate_ClosePage</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Case Resolution Details are required --></errorMessage>
+        <name>GBS_Resolution_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select Primary Category --></errorMessage>
+        <name>GMDM_Primary_Category_Mandate_ClosePage</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Reason and Budget Code fields are Required because Incoterms were changed. --></errorMessage>
+        <name>Incoterms_Changed_Requirement_Case</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please ensure this documentation has been sent before the case is closed. --></errorMessage>
+        <name>Invoice_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- This order type cannot be selected. --></errorMessage>
+        <name>No_Req_for_Intl_Domestic_Distributor</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- This type is not available to Domestic Distributors. --></errorMessage>
+        <name>No_Sample_for_Domestic_Intl_Distributors</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A Non Technical Response is required to close the Case. --></errorMessage>
+        <name>Non_Tech_Response_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- There are PO&apos;s without an SAP Number. An SAP Number is required for all PO&apos;s associated with this Case. --></errorMessage>
+        <name>Order_Number_for_Dupe_No_Action</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please ensure this documentation has been sent before the case is closed. --></errorMessage>
+        <name>Packing_List_Codes_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Cases cannot be closed directly from their queue. Please pick up this case before closing. --></errorMessage>
+        <name>Prevent_Case_Closure_From_Queue</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Case must be approved before closing --></errorMessage>
+        <name>Price_Filing_Must_Be_Approved_To_Close</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A &quot;Submission Confirmation&quot; or &quot;State Manager Approval&quot; document is required to close a Price Posting Case --></errorMessage>
+        <name>Price_Posting_Sub_or_App_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please ensure this documentation has been sent before the case is closed. --></errorMessage>
+        <name>Proforma_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Case must be approved before closing --></errorMessage>
+        <name>Quote_Request_Must_Be_Approved_To_Close</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 7512 must be sent. --></errorMessage>
+        <name>Requirement_to_Send_7512</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You are restricted from making this change.  Please reach out to the System Administrator if you believe you are seeing this message in error. --></errorMessage>
+        <name>Restrict_Edits_by_Record_Submitter</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Subcase can only be closed if its parent case has SAP Number filled. --></errorMessage>
+        <name>Restricts_SubcaseClosure_Parent_SAP_Null</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Return SAP Number is required on a child case of type &quot;Damage Claim&quot; or &quot;Shortage Claim&quot; --></errorMessage>
+        <name>Return_SAP_number_missing_from_sub_case</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Either Return or Billing SAP Number are required for a Financial Disposition of Credit. --></errorMessage>
+        <name>SAP_Number_Requirement</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Ship To Country and Project Market fields are required to Close this ticket. --></errorMessage>
+        <name>Ship_to_Country_and_Project_Market_Field</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select an Inquiry Brand before closing the case --></errorMessage>
+        <name>Single_Barrel_Inquiry_Brand_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Due Date cannot be greater than the Expiration date --></errorMessage>
+        <name>State_License_Due_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Subcase state should be the same as parent case state --></errorMessage>
+        <name>State_License_Sub_Case_State_field</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- State Manager Response Date is required in order to close a Price Filing case! --></errorMessage>
+        <name>State_Manager_Response_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- State Manager Submission Date is required in order to close a Discount case! --></errorMessage>
+        <name>State_Manager_Submission_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Submission date is required in order to close a Discounts Case! --></errorMessage>
+        <name>Submission_Date_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- This record must be approved by trainer before closing.  Please submit this record for approval below. --></errorMessage>
+        <name>Training_Required_before_Closing</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select the Z2 reasons before closing the case --></errorMessage>
+        <name>Update_Z2_Status_on_Customer_data_case</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Case cannot be closed without entering the Approval date --></errorMessage>
+        <name>VAP_Allocation_and_Traypack_Closed_case</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Was the PO Date Validated for this case? --></errorMessage>
+        <name>Validate_PO_Requirements</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please Enter the Z2 Explanation Field --></errorMessage>
+        <name>Z2_Reason_Selection_Validation</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- CloseCase --></label>
+        <name>CloseCase</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Close_Case_GBS --></label>
+        <name>Close_Case_GBS</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Case_As_Distributor --></label>
+        <name>Create_Case_As_Distributor</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Ship_Date_Change --></label>
+        <name>Ship_Date_Change</name>
+    </webLinks>
+</CustomObjectTranslation>

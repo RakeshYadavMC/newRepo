@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Non_Tech_Response_Required</fullName>
+    <active>true</active>
+    <description>Non technical response is required before closing a Quality Claim Sub Case</description>
+    <errorConditionFormula>RecordType.DeveloperName = 'Quality_Claim_Sub_Case' &amp;&amp; ISBLANK(Non_Technical_Response__c) &amp;&amp; CONTAINS('Closed', TEXT(Status))</errorConditionFormula>
+    <errorMessage>A Non Technical Response is required to close the Case.</errorMessage>
+</ValidationRule>

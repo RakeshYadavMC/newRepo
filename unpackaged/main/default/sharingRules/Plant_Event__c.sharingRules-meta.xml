@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?><SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Share_with_El_Tesoro</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share with El Tesoro</label>
+        <sharedTo>
+            <group>El_Tesoro_Single_Barrel</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Brand__c</field>
+            <operation>equals</operation>
+            <value>El Tesoro</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Share_with_Knob_Creek</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share with Knob Creek</label>
+        <sharedTo>
+            <group>Knob_Creek_Single_Barrel</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Brand__c</field>
+            <operation>equals</operation>
+            <value>Knob Creek</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Share_with_Makers_Mark</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share with Makers Mark</label>
+        <sharedTo>
+            <group>Makers_Mark_Single_Barrel</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Brand__c</field>
+            <operation>equals</operation>
+            <value>Makers Mark</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+</SharingRules>

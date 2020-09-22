@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Display Potential --></label>
+        <name>DisplayPotential__c</name>
+        <picklistValues>
+            <masterLabel>Bin (1-3 phys cs)</masterLabel>
+            <translation><!-- Bin (1-3 phys cs) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Large (15+ phys cs)</masterLabel>
+            <translation><!-- Large (15+ phys cs) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium (5-15 phys cs)</masterLabel>
+            <translation><!-- Medium (5-15 phys cs) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small (3-5 phys cs)</masterLabel>
+            <translation><!-- Small (3-5 phys cs) --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

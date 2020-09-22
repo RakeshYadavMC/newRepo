@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Australia_Marketing_Plan_Transfers</fullName>
+    <columns>NAME</columns>
+    <columns>Amount__c</columns>
+    <columns>ReceivingMarketingPlan__c</columns>
+    <columns>Receiving_Territory__c</columns>
+    <columns>TransferringMarketingPlan__c</columns>
+    <columns>Transferring_MP_Unallocated_Budget__c</columns>
+    <columns>Transferring_Territory__c</columns>
+    <columns>Within_Same_Brand__c</columns>
+    <columns>Within_Same_Division__c</columns>
+    <columns>Within_Same_Region__c</columns>
+    <columns>CURRENCY_ISO_CODE</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Country_From__c</field>
+        <operation>equals</operation>
+        <value>AUS</value>
+    </filters>
+    <label>Australia Marketing Plan Transfers</label>
+    <language>en_US</language>
+    <sharedTo>
+        <roleAndSubordinates>AUS_Brand_Manager</roleAndSubordinates>
+        <roleAndSubordinates>AUS_Category_Director</roleAndSubordinates>
+        <roleAndSubordinates>AUS_Category_Manager</roleAndSubordinates>
+        <roleAndSubordinates>AUS_Finance_Manager</roleAndSubordinates>
+        <roleAndSubordinates>AUS_Financial_Controller</roleAndSubordinates>
+        <roleAndSubordinates>AUS_Group_Category_Manager</roleAndSubordinates>
+        <roleAndSubordinates>AUS_Management_Director</roleAndSubordinates>
+        <roleAndSubordinates>AUS_Marketing_Director</roleAndSubordinates>
+        <roleAndSubordinates>AUS_Marketing_Manager</roleAndSubordinates>
+        <roleAndSubordinates>Application_Admin</roleAndSubordinates>
+    </sharedTo>
+</ListView>

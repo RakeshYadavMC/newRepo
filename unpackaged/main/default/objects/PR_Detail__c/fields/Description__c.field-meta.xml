@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Description__c</fullName>
+    <description>Write In - 140 Character Max
+Ex: (State, Brand, Description, Month)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Write In - 140 Character Max
+Ex: (State, Brand, Description, Month)</inlineHelpText>
+    <label>Description</label>
+    <length>27</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

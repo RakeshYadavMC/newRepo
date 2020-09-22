@@ -1,0 +1,14 @@
+<messaging:emailTemplate subject="Responses for Legal Contract Form: {!relatedTo.name}" recipientType="User" relatedToType="Legal_Contract_Form__c">
+    <messaging:htmlEmailBody >
+       <html>
+            <body>
+            <p>Dear User,</p>
+            <p>New Legal Contract Form has been submitted &nbsp;<apex:outputlink value="{!$Label.Domain_URL+relatedTo.Id}">{!relatedTo.Name}</apex:outputlink>
+            </p>
+            <p>Below is a list of reseponses for {!relatedTo.name}.</p>
+                <c:LegalContractEmailTemplateComponent legalId="{!relatedTo.Id}" /><br/><br/>
+            <p/>            
+            </body>
+        </html>
+    </messaging:htmlEmailBody>
+</messaging:emailTemplate>

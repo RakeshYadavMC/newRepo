@@ -1,0 +1,3 @@
+<p>Dear {!Contact.FirstName},</p>
+<p>The alcohol in {!Case.Product_Type__c} is produced from the fermentation and distillation of agave and does not contain gluten.</p>
+<p>Beam Suntory does not advise legal age adults whether to drink or not to drink; this is a decision you may want to discuss with your physician if you have any questions. Your physician may be able to provide personalized advice about this issue based on the information provided above.</p>

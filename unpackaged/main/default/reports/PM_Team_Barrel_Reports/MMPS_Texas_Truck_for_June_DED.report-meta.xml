@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Case$CaseNumber</field>
+    </columns>
+    <columns>
+        <field>Case$Retail_Account__c</field>
+    </columns>
+    <columns>
+        <field>Case$Type</field>
+    </columns>
+    <columns>
+        <field>Case$Account</field>
+    </columns>
+    <columns>
+        <field>Case$Account_State__c</field>
+    </columns>
+    <columns>
+        <field>Case$Brand__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Case$Quantity__c</field>
+    </columns>
+    <currency>USD</currency>
+    <filter>
+        <booleanFilter>1 AND 2 AND 3</booleanFilter>
+        <criteriaItems>
+            <column>Case$RecordType</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Case.Single_Barrel_Proof_Specific,Case.Single_Barrel_Split_Barrel,Case.Single_Barrel_Standard</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case$Brand__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Maker&apos;s Mark,Makers Mark</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case$CaseNumber</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>00424699,00447948,00487245,00487247,00487248,00487249,00487256,00487258,00487259,00487260,00487262,00487263,00487264,00487265,00487266,00487267,00487269,00487270,00487541,00487545,00673947,00673951,00673954</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>MMPS - Texas Truck for June</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Cases_with_Barrels__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Case$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Recommendation__c</fullName>
+    <externalId>false</externalId>
+    <label>Recommendation</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No Action</fullName>
+                <default>false</default>
+                <label>No Action</label>
+            </value>
+            <value>
+                <fullName>Product Return</fullName>
+                <default>false</default>
+                <label>Product Return</label>
+            </value>
+            <value>
+                <fullName>Product Reworked On-Site</fullName>
+                <default>false</default>
+                <label>Product Reworked On-Site</label>
+            </value>
+            <value>
+                <fullName>Product Destroyed</fullName>
+                <default>false</default>
+                <label>Product Destroyed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

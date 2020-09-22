@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>true</doesSendEmailToMembers>
+    <name>Knob Creek - Single Barrel</name>
+    <queueMembers>
+        <publicGroups>
+            <publicGroup>Knob_Creek_Single_Barrel</publicGroup>
+        </publicGroups>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Barrel__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>POS_Customization__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Plant_Event__c</sobjectType>
+    </queueSobject>
+</Queue>

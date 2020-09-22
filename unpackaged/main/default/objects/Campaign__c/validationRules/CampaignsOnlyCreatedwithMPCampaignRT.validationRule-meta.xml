@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CampaignsOnlyCreatedwithMPCampaignRT</fullName>
+    <active>true</active>
+    <description>Campaigns can only be created if the Master Marketing Plan has a record type containing 'Campaigns Allowed'.</description>
+    <errorConditionFormula>NOT(CONTAINS(ParentMarketingPlan__r.RecordType.Name, 'Campaigns Allowed'))</errorConditionFormula>
+    <errorMessage>Campaigns can only be created if the Master Marketing Plan record type allows for Campaigns. Please select another Marketing Plan.</errorMessage>
+</ValidationRule>

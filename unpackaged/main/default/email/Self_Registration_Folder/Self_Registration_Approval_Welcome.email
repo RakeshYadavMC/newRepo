@@ -1,0 +1,8 @@
+Hi {!Receiving_User.FirstName},
+
+Thank you for registering with the {!Community_Name}!.  Your registration has been approved.  Please access the portal here {!Community_Url}. Please click on to finish setting up your access. 
+
+Username: {!Receiving_User.Username}
+            
+Thanks,
+{!Organization.Name}

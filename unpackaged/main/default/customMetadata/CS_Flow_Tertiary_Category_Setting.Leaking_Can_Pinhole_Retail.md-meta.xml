@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Leaking Can/Pinhole - Retail</label>
+    <protected>false</protected>
+    <values>
+        <field>Access_Groups__c</field>
+        <value xsi:type="xsd:string">CS,EXTERNAL,ADMIN,EMPLOYEE</value>
+    </values>
+    <values>
+        <field>CS_Flow_Picklist_Setting__c</field>
+        <value xsi:type="xsd:string">Leaking_Can_Pinhole</value>
+    </values>
+    <values>
+        <field>CS_Flow_Secondary_Category_Setting__c</field>
+        <value xsi:type="xsd:string">Can_Retail</value>
+    </values>
+    <values>
+        <field>Countries__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Order__c</field>
+        <value xsi:type="xsd:double">1.0</value>
+    </values>
+</CustomMetadata>

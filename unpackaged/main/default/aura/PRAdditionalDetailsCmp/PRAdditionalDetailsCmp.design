@@ -1,0 +1,4 @@
+<design:component>
+	<design:attribute name="paymentTerms" label="PaymentTerms" />
+    <design:attribute name="prCurrency" label="PRCurrency" />
+</design:component>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Submission_Date_Required</fullName>
+    <active>true</active>
+    <description>Submission date is required in order to close a Discounts Case</description>
+    <errorConditionFormula>AND( ISPICKVAL(Status, 'Closed' ), Case_Record_Type__c == 'Discount', ISBLANK(Submission_Date__c ) )</errorConditionFormula>
+    <errorMessage>Submission date is required in order to close a Discounts Case!</errorMessage>
+</ValidationRule>

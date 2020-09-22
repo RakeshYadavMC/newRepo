@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>An email template sent when a Price Filing case&apos;s Blank Workbook is attached.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BeamSuntory_Letterhead</letterhead>
+    <name>Price Filing Blank Workbook Uploaded</name>
+    <style>freeForm</style>
+    <subject>{!Case.Subject} - Blank Workbook Uploaded</subject>
+    <textOnly>{!Case.State__c}&apos;s blank {!Case.Related_Month__c} {!Case.Year__c} workbook has been uploaded for this Price Filing Case in Salesforce and is attached to this email.
+
+The Price Filing is due by {!Case.State_Manager_Due_Date__c}. Please complete and return this workbook by {!Case.Due_Date__c}.
+
+Click the link below to view this Case in Salesforce.
+{!Case.Link}
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

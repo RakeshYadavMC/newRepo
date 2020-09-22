@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Missed_Appointment_Reason__c</fullName>
+    <description>New Pick list for Order Claim Record Type.Should only be available in Service console for agents to input. [SR_109459]</description>
+    <externalId>false</externalId>
+    <label>Missed Appointment Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Car accidents</fullName>
+                <default>false</default>
+                <label>Car accidents</label>
+            </value>
+            <value>
+                <fullName>Carrier delay</fullName>
+                <default>false</default>
+                <label>Carrier delay</label>
+            </value>
+            <value>
+                <fullName>Commercial terms</fullName>
+                <default>false</default>
+                <label>Commercial terms</label>
+            </value>
+            <value>
+                <fullName>Credit blocks</fullName>
+                <default>false</default>
+                <label>Credit blocks</label>
+            </value>
+            <value>
+                <fullName>Master Data issues</fullName>
+                <default>false</default>
+                <label>Master Data issues</label>
+            </value>
+            <value>
+                <fullName>Police checkpoint</fullName>
+                <default>false</default>
+                <label>Police checkpoint</label>
+            </value>
+            <value>
+                <fullName>Road Repairs</fullName>
+                <default>false</default>
+                <label>Road Repairs</label>
+            </value>
+            <value>
+                <fullName>Robberies</fullName>
+                <default>false</default>
+                <label>Robberies</label>
+            </value>
+            <value>
+                <fullName>Secured Storage Fee</fullName>
+                <default>false</default>
+                <label>Secured Storage Fee</label>
+            </value>
+            <value>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+                <label>Unknown</label>
+            </value>
+            <value>
+                <fullName>Weather issues</fullName>
+                <default>false</default>
+                <label>Weather issues</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AdditionalInformation__c</fullName>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Additional Information</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Sponsorship</fullName>
+                <default>false</default>
+                <label>Sponsorship</label>
+            </value>
+            <value>
+                <fullName>Charity</fullName>
+                <default>false</default>
+                <label>Charity</label>
+            </value>
+            <value>
+                <fullName>Free Product</fullName>
+                <default>false</default>
+                <label>Free Product</label>
+            </value>
+            <value>
+                <fullName>Product Availability</fullName>
+                <default>false</default>
+                <label>Product Availability</label>
+            </value>
+            <value>
+                <fullName>Problem with my Order</fullName>
+                <default>false</default>
+                <label>Problem with my Order</label>
+            </value>
+            <value>
+                <fullName>Nutritional Information</fullName>
+                <default>false</default>
+                <label>Nutritional Information</label>
+            </value>
+            <value>
+                <fullName>Value of my bottle</fullName>
+                <default>false</default>
+                <label>Value of my bottle</label>
+            </value>
+            <value>
+                <fullName>Product Ingredients</fullName>
+                <default>false</default>
+                <label>Product Ingredients</label>
+            </value>
+            <value>
+                <fullName>Product Shelf life</fullName>
+                <default>false</default>
+                <label>Product Shelf life</label>
+            </value>
+            <value>
+                <fullName>Decanter Inquiry</fullName>
+                <default>false</default>
+                <label>Decanter Inquiry</label>
+            </value>
+            <value>
+                <fullName>Distributions</fullName>
+                <default>false</default>
+                <label>Distributions</label>
+            </value>
+            <value>
+                <fullName>Work for us</fullName>
+                <default>false</default>
+                <label>Work for us</label>
+            </value>
+            <value>
+                <fullName>Be a Brand Influencer</fullName>
+                <default>false</default>
+                <label>Be a Brand Influencer</label>
+            </value>
+            <value>
+                <fullName>License our Brand</fullName>
+                <default>false</default>
+                <label>License our Brand</label>
+            </value>
+            <value>
+                <fullName>Rebates</fullName>
+                <default>false</default>
+                <label>Rebates</label>
+            </value>
+            <value>
+                <fullName>Coupons</fullName>
+                <default>false</default>
+                <label>Coupons</label>
+            </value>
+            <value>
+                <fullName>Login</fullName>
+                <default>false</default>
+                <label>Login</label>
+            </value>
+            <value>
+                <fullName>Points</fullName>
+                <default>false</default>
+                <label>Points</label>
+            </value>
+            <value>
+                <fullName>Plots</fullName>
+                <default>false</default>
+                <label>Plots</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Liquid</fullName>
+                <default>false</default>
+                <label>Liquid</label>
+            </value>
+            <value>
+                <fullName>Bottle</fullName>
+                <default>false</default>
+                <label>Bottle</label>
+            </value>
+            <value>
+                <fullName>Can</fullName>
+                <default>false</default>
+                <label>Can</label>
+            </value>
+            <value>
+                <fullName>Gluten</fullName>
+                <default>false</default>
+                <label>Gluten</label>
+            </value>
+            <value>
+                <fullName>Caramel</fullName>
+                <default>false</default>
+                <label>Caramel</label>
+            </value>
+            <value>
+                <fullName>Suppliers</fullName>
+                <default>false</default>
+                <label>Suppliers</label>
+            </value>
+            <value>
+                <fullName>Website Question/Issue</fullName>
+                <default>false</default>
+                <label>Website Question/Issue</label>
+            </value>
+            <value>
+                <fullName>Free Merchandise</fullName>
+                <default>false</default>
+                <label>Free Merchandise</label>
+            </value>
+            <value>
+                <fullName>Used Barrels</fullName>
+                <default>false</default>
+                <label>Used Barrels</label>
+            </value>
+            <value>
+                <fullName>Other Inquiry</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Other Inquiry</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

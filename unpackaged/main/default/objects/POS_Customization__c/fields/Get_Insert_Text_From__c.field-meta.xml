@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Get_Insert_Text_From__c</fullName>
+    <externalId>false</externalId>
+    <label>Get Insert Text From</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Bottle Label Text</fullName>
+                <default>false</default>
+                <label>Bottle Label Text</label>
+            </value>
+            <value>
+                <fullName>Account Name</fullName>
+                <default>false</default>
+                <label>Account Name</label>
+            </value>
+            <value>
+                <fullName>Bottle Text</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Bottle Text</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Menu Insert Card</controllingFieldValue>
+            <controllingFieldValue>Half Barrel Rack</controllingFieldValue>
+            <controllingFieldValue>Full Barrel Rack</controllingFieldValue>
+            <controllingFieldValue>Barrel Head Sign</controllingFieldValue>
+            <controllingFieldValue>Snifter Glassware</controllingFieldValue>
+            <controllingFieldValue>Half Barrel</controllingFieldValue>
+            <controllingFieldValue>Ring: $40</controllingFieldValue>
+            <controllingFieldValue>Wall Art: $45</controllingFieldValue>
+            <controllingFieldValue>Shelf Glorifier-INSERT</controllingFieldValue>
+            <controllingFieldValue>Flight Tray: $994</controllingFieldValue>
+            <controllingFieldValue>Barrel Plaque-INSERT</controllingFieldValue>
+            <controllingFieldValue>Bottle Cradle-INSERT</controllingFieldValue>
+            <controllingFieldValue>Floor Display-INSERT</controllingFieldValue>
+            <controllingFieldValue>Flight Tray</controllingFieldValue>
+            <controllingFieldValue>Ring</controllingFieldValue>
+            <controllingFieldValue>Commemorative Stave</controllingFieldValue>
+            <controllingFieldValue>Wall Art</controllingFieldValue>
+            <controllingFieldValue>Barrel Display</controllingFieldValue>
+            <controllingFieldValue>Bottle Glorifier</controllingFieldValue>
+            <controllingFieldValue>Barrel Plaque</controllingFieldValue>
+            <controllingFieldValue>Bottle Cradle</controllingFieldValue>
+            <controllingFieldValue>Bottle Necker</controllingFieldValue>
+            <controllingFieldValue>Bottle Plate Text</controllingFieldValue>
+            <controllingFieldValue>Floor Display</controllingFieldValue>
+            <controllingFieldValue>Menu Insert Card-INSERT</controllingFieldValue>
+            <controllingFieldValue>Pour Spout</controllingFieldValue>
+            <controllingFieldValue>Shelf Glorifier</controllingFieldValue>
+            <controllingFieldValue>Barrel</controllingFieldValue>
+            <controllingFieldValue>Hang Tag</controllingFieldValue>
+            <controllingFieldValue>Selection Frame</controllingFieldValue>
+            <valueName>Bottle Label Text</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Menu Insert Card</controllingFieldValue>
+            <controllingFieldValue>Half Barrel Rack</controllingFieldValue>
+            <controllingFieldValue>Full Barrel Rack</controllingFieldValue>
+            <controllingFieldValue>Barrel Head Sign</controllingFieldValue>
+            <controllingFieldValue>Snifter Glassware</controllingFieldValue>
+            <controllingFieldValue>Half Barrel</controllingFieldValue>
+            <controllingFieldValue>Ring: $40</controllingFieldValue>
+            <controllingFieldValue>Wall Art: $45</controllingFieldValue>
+            <controllingFieldValue>Shelf Glorifier-INSERT</controllingFieldValue>
+            <controllingFieldValue>Flight Tray: $994</controllingFieldValue>
+            <controllingFieldValue>Barrel Plaque-INSERT</controllingFieldValue>
+            <controllingFieldValue>Bottle Cradle-INSERT</controllingFieldValue>
+            <controllingFieldValue>Floor Display-INSERT</controllingFieldValue>
+            <controllingFieldValue>Flight Tray</controllingFieldValue>
+            <controllingFieldValue>Ring</controllingFieldValue>
+            <controllingFieldValue>Commemorative Stave</controllingFieldValue>
+            <controllingFieldValue>Wall Art</controllingFieldValue>
+            <controllingFieldValue>Barrel Display</controllingFieldValue>
+            <controllingFieldValue>Bottle Glorifier</controllingFieldValue>
+            <controllingFieldValue>Barrel Plaque</controllingFieldValue>
+            <controllingFieldValue>Bottle Cradle</controllingFieldValue>
+            <controllingFieldValue>Bottle Necker</controllingFieldValue>
+            <controllingFieldValue>Bottle Plate Text</controllingFieldValue>
+            <controllingFieldValue>Floor Display</controllingFieldValue>
+            <controllingFieldValue>Menu Insert Card-INSERT</controllingFieldValue>
+            <controllingFieldValue>Pour Spout</controllingFieldValue>
+            <controllingFieldValue>Shelf Glorifier</controllingFieldValue>
+            <controllingFieldValue>Barrel</controllingFieldValue>
+            <controllingFieldValue>Hang Tag</controllingFieldValue>
+            <controllingFieldValue>Selection Frame</controllingFieldValue>
+            <valueName>Account Name</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

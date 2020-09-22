@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Region_Hidden__c</fullName>
+    <description>Field used for workflow rule that shows different Picklist values based on Marketing Plan.</description>
+    <externalId>false</externalId>
+    <label>Division Hidden</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Activation</fullName>
+                <default>false</default>
+                <label>Activation</label>
+            </value>
+            <value>
+                <fullName>Brand Education</fullName>
+                <default>false</default>
+                <label>Brand Education</label>
+            </value>
+            <value>
+                <fullName>Canada</fullName>
+                <default>false</default>
+                <label>Canada</label>
+            </value>
+            <value>
+                <fullName>Central Division</fullName>
+                <default>false</default>
+                <label>Central Division</label>
+            </value>
+            <value>
+                <fullName>East Coast Division</fullName>
+                <default>false</default>
+                <label>East Coast Division</label>
+            </value>
+            <value>
+                <fullName>Eastern Control Division</fullName>
+                <default>false</default>
+                <label>Eastern Control Division</label>
+            </value>
+            <value>
+                <fullName>Florida Division</fullName>
+                <default>false</default>
+                <label>Florida Division</label>
+            </value>
+            <value>
+                <fullName>Franchise Division</fullName>
+                <default>false</default>
+                <label>Franchise Division</label>
+            </value>
+            <value>
+                <fullName>Global Insights</fullName>
+                <default>false</default>
+                <label>Global Insights</label>
+            </value>
+            <value>
+                <fullName>Global Marketing</fullName>
+                <default>false</default>
+                <label>Global Marketing</label>
+            </value>
+            <value>
+                <fullName>Mexico</fullName>
+                <default>false</default>
+                <label>Mexico</label>
+            </value>
+            <value>
+                <fullName>Mideast Division</fullName>
+                <default>false</default>
+                <label>Mideast Division</label>
+            </value>
+            <value>
+                <fullName>Midsouth Division</fullName>
+                <default>false</default>
+                <label>Midsouth Division</label>
+            </value>
+            <value>
+                <fullName>Midwest Division</fullName>
+                <default>false</default>
+                <label>Midwest Division</label>
+            </value>
+            <value>
+                <fullName>Military</fullName>
+                <default>false</default>
+                <label>Military</label>
+            </value>
+            <value>
+                <fullName>Mountain Division</fullName>
+                <default>false</default>
+                <label>Mountain Division</label>
+            </value>
+            <value>
+                <fullName>National Accounts</fullName>
+                <default>false</default>
+                <label>National Accounts</label>
+            </value>
+            <value>
+                <fullName>National Marketing</fullName>
+                <default>false</default>
+                <label>National Marketing</label>
+            </value>
+            <value>
+                <fullName>Transportation &amp; Other</fullName>
+                <default>false</default>
+                <label>Transportation &amp; Other</label>
+            </value>
+            <value>
+                <fullName>West Coast Division</fullName>
+                <default>false</default>
+                <label>West Coast Division</label>
+            </value>
+            <value>
+                <fullName>Western Control Division</fullName>
+                <default>false</default>
+                <label>Western Control Division</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

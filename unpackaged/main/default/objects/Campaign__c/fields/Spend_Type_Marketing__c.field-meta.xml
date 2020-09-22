@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Spend_Type_Marketing__c</fullName>
+    <externalId>false</externalId>
+    <label>Spend Type [Marketing]</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Off</fullName>
+                <default>false</default>
+                <label>Off</label>
+            </value>
+            <value>
+                <fullName>Perm. Visibility</fullName>
+                <default>false</default>
+                <label>Perm. Visibility</label>
+            </value>
+            <value>
+                <fullName>BTL 'Equity'</fullName>
+                <default>false</default>
+                <label>BTL 'Equity'</label>
+            </value>
+            <value>
+                <fullName>On</fullName>
+                <default>false</default>
+                <label>On</label>
+            </value>
+            <value>
+                <fullName>S'Ship / Experential</fullName>
+                <default>false</default>
+                <label>S'Ship / Experential</label>
+            </value>
+            <value>
+                <fullName>Research Syndicated</fullName>
+                <default>false</default>
+                <label>Research Syndicated</label>
+            </value>
+            <value>
+                <fullName>POS Storage &amp; Distribution</fullName>
+                <default>false</default>
+                <label>POS Storage &amp; Distribution</label>
+            </value>
+            <value>
+                <fullName>Media</fullName>
+                <default>false</default>
+                <label>Media</label>
+            </value>
+            <value>
+                <fullName>NPD Launch Support</fullName>
+                <default>false</default>
+                <label>NPD Launch Support</label>
+            </value>
+            <value>
+                <fullName>NPD Production &amp; Development</fullName>
+                <default>false</default>
+                <label>NPD Production &amp; Development</label>
+            </value>
+            <value>
+                <fullName>Research Brand</fullName>
+                <default>false</default>
+                <label>Research Brand</label>
+            </value>
+            <value>
+                <fullName>NPD Development</fullName>
+                <default>false</default>
+                <label>NPD Development</label>
+            </value>
+            <value>
+                <fullName>Pendulum</fullName>
+                <default>false</default>
+                <label>Pendulum</label>
+            </value>
+            <value>
+                <fullName>Research</fullName>
+                <default>false</default>
+                <label>Research</label>
+            </value>
+            <value>
+                <fullName>Syndicated Research</fullName>
+                <default>false</default>
+                <label>Syndicated Research</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

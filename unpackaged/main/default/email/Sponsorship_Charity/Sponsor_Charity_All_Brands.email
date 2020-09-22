@@ -1,0 +1,4 @@
+<p>Dear {!Contact.FirstName},</p>
+<p>Thank you for contacting us about {!Case.Product_Type__c}<br />
+We're glad to hear from loyal brand fans like you. We know great ideas come from all around, please reach out to marketinginquiry@beamglobal.com</p>
+<p>Thank you for thinking of {!Case.Product_Type__c}</p>

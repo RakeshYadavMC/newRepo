@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>This email template is used to notify the coordinator that commercial finance has rejected their discounts document. Any additional details from commercial finance are included, if applicable</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BeamSuntory_Letterhead</letterhead>
+    <name>Discounts Document Rejected</name>
+    <style>freeForm</style>
+    <subject>{!Case.Subject} - Discount Document Was Rejected</subject>
+    <textOnly>The Discount Document for this Case was Rejected by Commercial Finance.
+
+Comments from Commercial Finance, if entered, can be seen below:
+{!Case.Document_Change_Description__c}
+
+Please revise the document and attach it to a response to this email.
+
+Click the link below to view this Case in Salesforce. 
+{!Case.Link} 
+
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

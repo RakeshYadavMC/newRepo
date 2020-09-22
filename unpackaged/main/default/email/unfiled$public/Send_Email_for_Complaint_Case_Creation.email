@@ -1,0 +1,16 @@
+Hello {!Contact.FirstName},
+
+Thank you for contacting Beam Suntory, we are here to help! We will provide a response within 24-48 hours (M-F 8am-4pm CST)
+
+If you have any additional information to add that you think will help us to assist you, please reply to this email.
+
+Thank you for your patience and support. We look forward to speaking with you soon!
+
+Sincerely,
+Beam Suntory
+
+Description :
+{!Case.Description}
+
+
+{!Case.Thread_Id}

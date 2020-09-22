@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ProgrammingType__c</fullName>
+    <externalId>false</externalId>
+    <label>Programming Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>SpendDescription__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Display</fullName>
+                <color>#A845DC</color>
+                <default>false</default>
+                <label>Display</label>
+            </value>
+            <value>
+                <fullName>Incentive</fullName>
+                <color>#78C953</color>
+                <default>false</default>
+                <label>Incentive</label>
+            </value>
+            <value>
+                <fullName>POS</fullName>
+                <color>#F3D904</color>
+                <default>false</default>
+                <label>POS</label>
+            </value>
+            <value>
+                <fullName>Promotion</fullName>
+                <color>#0B6FCE</color>
+                <default>false</default>
+                <label>Promotion</label>
+            </value>
+            <value>
+                <fullName>Sampling</fullName>
+                <color>#E27001</color>
+                <default>false</default>
+                <label>Sampling</label>
+            </value>
+            <value>
+                <fullName>Sponsorship</fullName>
+                <color>#A53711</color>
+                <default>false</default>
+                <label>Sponsorship</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <color>#66E9BD</color>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Pricing</fullName>
+                <default>false</default>
+                <label>Pricing</label>
+            </value>
+            <value>
+                <fullName>Menu</fullName>
+                <color>#3366FF</color>
+                <default>false</default>
+                <label>Menu</label>
+            </value>
+            <value>
+                <fullName>Other Activation</fullName>
+                <color>#FF6666</color>
+                <default>false</default>
+                <label>Other Activation</label>
+            </value>
+            <value>
+                <fullName>Shelf</fullName>
+                <default>false</default>
+                <label>Shelf</label>
+            </value>
+            <value>
+                <fullName>Distribution Off</fullName>
+                <default>false</default>
+                <label>Distribution Off</label>
+            </value>
+            <value>
+                <fullName>Distribution On</fullName>
+                <default>false</default>
+                <label>Distribution On</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Sales Samples</controllingFieldValue>
+            <controllingFieldValue>Search Engine Optimization</controllingFieldValue>
+            <controllingFieldValue>Search Paid Advertising</controllingFieldValue>
+            <controllingFieldValue>Social Content Creation and Development</controllingFieldValue>
+            <controllingFieldValue>Trade Digital Paid Advertising</controllingFieldValue>
+            <controllingFieldValue>Trade Print Paid Advertising</controllingFieldValue>
+            <controllingFieldValue>TV Paid Advertising</controllingFieldValue>
+            <controllingFieldValue>Website Creation and Development</controllingFieldValue>
+            <controllingFieldValue>Digital Display Paid Advertising</controllingFieldValue>
+            <controllingFieldValue>Focus Calendar Priority</controllingFieldValue>
+            <controllingFieldValue>Direct Mail</controllingFieldValue>
+            <controllingFieldValue>Freight and Storage (National POS Only)</controllingFieldValue>
+            <controllingFieldValue>Heritage Center</controllingFieldValue>
+            <controllingFieldValue>Liscensing and Royalty</controllingFieldValue>
+            <controllingFieldValue>Media Agency Fees</controllingFieldValue>
+            <controllingFieldValue>Menu Printing</controllingFieldValue>
+            <controllingFieldValue>Misc. (requires comment)</controllingFieldValue>
+            <controllingFieldValue>Mobile Paid Advertising</controllingFieldValue>
+            <controllingFieldValue>Non-Standard Digital Units Paid Advertising</controllingFieldValue>
+            <controllingFieldValue>Ad Production Costs</controllingFieldValue>
+            <controllingFieldValue>Advanced TV Paid Advertising</controllingFieldValue>
+            <controllingFieldValue>Cinema Paid Advertising</controllingFieldValue>
+            <controllingFieldValue>Consumer Giveaways</controllingFieldValue>
+            <controllingFieldValue>Consumer Magazines Paid Advertising</controllingFieldValue>
+            <controllingFieldValue>Consumer Newspaper Paid Advertising</controllingFieldValue>
+            <controllingFieldValue>Consumer Research</controllingFieldValue>
+            <controllingFieldValue>Creative Agency Fees</controllingFieldValue>
+            <controllingFieldValue>Customer Relations Management</controllingFieldValue>
+            <controllingFieldValue>Off Premise - Trade Event</controllingFieldValue>
+            <controllingFieldValue>Online Video Paid Advertising</controllingFieldValue>
+            <controllingFieldValue>On Premise Menus</controllingFieldValue>
+            <controllingFieldValue>On Premise - Trade Event</controllingFieldValue>
+            <controllingFieldValue>Outdoor Paid Advertising</controllingFieldValue>
+            <controllingFieldValue>Out of Home</controllingFieldValue>
+            <controllingFieldValue>Panel Research / Trade Data</controllingFieldValue>
+            <controllingFieldValue>PR Agency Fees</controllingFieldValue>
+            <controllingFieldValue>PR Events</controllingFieldValue>
+            <controllingFieldValue>PR Materials / Other Expenses</controllingFieldValue>
+            <controllingFieldValue>Radio Paid Advertising</controllingFieldValue>
+            <controllingFieldValue>Sales Programs</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sponsorship Activation</controllingFieldValue>
+            <controllingFieldValue>Sponsorship Fees</controllingFieldValue>
+            <controllingFieldValue>Focus Calendar Priority</controllingFieldValue>
+            <valueName>Sponsorship</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Focus Calendar Priority</controllingFieldValue>
+            <controllingFieldValue>Off Premise Display Installation</controllingFieldValue>
+            <valueName>Display</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Focus Calendar Priority</controllingFieldValue>
+            <controllingFieldValue>Off Trade Incentive</controllingFieldValue>
+            <controllingFieldValue>On Trade Incentive</controllingFieldValue>
+            <valueName>Incentive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Focus Calendar Priority</controllingFieldValue>
+            <controllingFieldValue>Off Premise POS</controllingFieldValue>
+            <controllingFieldValue>Off Premise Value Added Packaging (VAP)</controllingFieldValue>
+            <controllingFieldValue>On Premise POS</controllingFieldValue>
+            <valueName>POS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Focus Calendar Priority</controllingFieldValue>
+            <controllingFieldValue>Off Premise Consumer Promotion</controllingFieldValue>
+            <controllingFieldValue>On Premise Consumer Promotion</controllingFieldValue>
+            <valueName>Promotion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Focus Calendar Priority</controllingFieldValue>
+            <controllingFieldValue>Off Premise Sampling</controllingFieldValue>
+            <controllingFieldValue>On Premise Sampling</controllingFieldValue>
+            <valueName>Sampling</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Focus Calendar Priority</controllingFieldValue>
+            <valueName>Menu</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Focus Calendar Priority</controllingFieldValue>
+            <valueName>Other Activation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Price Support</controllingFieldValue>
+            <controllingFieldValue>Rebates Price Support</controllingFieldValue>
+            <valueName>Pricing</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

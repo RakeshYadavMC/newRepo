@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- GL Account Type --></label>
+        <name>GLAccountType__c</name>
+        <picklistValues>
+            <masterLabel>3rd Party Brand Investment</masterLabel>
+            <translation><!-- 3rd Party Brand Investment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ad Production</masterLabel>
+            <translation><!-- Ad Production --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Agency Fees</masterLabel>
+            <translation><!-- Agency Fees --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Agency OOP</masterLabel>
+            <translation><!-- Agency OOP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BI - FX</masterLabel>
+            <translation><!-- BI - FX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BI - I/C Rebill</masterLabel>
+            <translation><!-- BI - I/C Rebill --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brand Education</masterLabel>
+            <translation><!-- Brand Education --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Execution</masterLabel>
+            <translation><!-- Execution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Media</masterLabel>
+            <translation><!-- Media --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-Premise</masterLabel>
+            <translation><!-- Non-Premise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Off-Trade</masterLabel>
+            <translation><!-- Off-Trade --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On-Trade</masterLabel>
+            <translation><!-- On-Trade --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Brand Investment</masterLabel>
+            <translation><!-- Other Brand Investment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rebates</masterLabel>
+            <translation><!-- Rebates --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Research</masterLabel>
+            <translation><!-- Research --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sponsorship</masterLabel>
+            <translation><!-- Sponsorship --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

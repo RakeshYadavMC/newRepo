@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Reason the item is unavailable --></help>
+        <label><!-- Unavailability Reason --></label>
+        <name>Unavailability_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Discontinued</masterLabel>
+            <translation><!-- Discontinued --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Item Doesn’t Exist</masterLabel>
+            <translation><!-- Item Doesn’t Exist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Item Isn’t Ready For Quotes Yet</masterLabel>
+            <translation><!-- Item Isn’t Ready For Quotes Yet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Item Not A Beam Item</masterLabel>
+            <translation><!-- Item Not A Beam Item --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Allocated</masterLabel>
+            <translation><!-- Not Allocated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Program_Date_Validation</fullName>
+    <active>true</active>
+    <description>Start Date of the Program must be prior or equal to End Date.</description>
+    <errorConditionFormula>StartDate__c &gt; EndDate__c</errorConditionFormula>
+    <errorMessage>Start Date must be prior or equal to End Date. Please update the Start or End Date.</errorMessage>
+</ValidationRule>

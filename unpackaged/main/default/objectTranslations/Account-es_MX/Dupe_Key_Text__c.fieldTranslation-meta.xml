@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Utilizado para mostrar registros únicos</help>
+        <label>Llave de Texto Duplicado</label>
+        <name>Dupe_Key_Text__c</name>
+    </CustomFieldTranslation>

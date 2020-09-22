@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Brand_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Brand Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Buttershots</fullName>
+                <default>false</default>
+                <label>Buttershots</label>
+            </value>
+            <value>
+                <fullName>Black Cherry</fullName>
+                <default>false</default>
+                <label>Black Cherry</label>
+            </value>
+            <value>
+                <fullName>Cask Strength</fullName>
+                <default>false</default>
+                <label>Cask Strength</label>
+            </value>
+            <value>
+                <fullName>Original/White</fullName>
+                <default>false</default>
+                <label>Original/White</label>
+            </value>
+            <value>
+                <fullName>MMK Cask Strength</fullName>
+                <default>false</default>
+                <label>MMK Cask Strength</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- User Access Groups should be separated with a comma(,) --></help>
+        <label><!-- Access Groups --></label>
+        <name>Access_Groups__c</name>
+    </CustomFieldTranslation>

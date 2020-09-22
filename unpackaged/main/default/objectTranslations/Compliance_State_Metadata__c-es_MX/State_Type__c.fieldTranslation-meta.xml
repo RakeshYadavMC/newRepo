@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Options include: &quot;Prior Approval&quot;, &quot;Auto Approval&quot;, &quot;Price Posting&quot; --></help>
+        <label><!-- State Type --></label>
+        <name>State_Type__c</name>
+    </CustomFieldTranslation>

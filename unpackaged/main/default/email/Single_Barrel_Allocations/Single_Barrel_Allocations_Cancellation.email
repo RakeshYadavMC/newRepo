@@ -1,0 +1,12 @@
+<messaging:emailTemplate subject="Barrel Allocations are not available for your state" recipientType="User" relatedToType="Case">
+<messaging:plainTextEmailBody >
+Hi all,
+
+A {!relatedTo.Brand_Allocation__r.Brand__r.Name} barrel order was sold to one of your accounts, {!relatedTo.Retail_Account__r.Name}, but was unable to be processed as there is no allocation remaining for {!relatedTo.Single_Barrel_State__c} - {!relatedTo.Single_Barrel_Region__c} - {!relatedTo.Single_Barrel_Country__c}. 
+Please contact the brand manager for your region to see if additional allocation is available.
+
+Thank you,
+
+The Single Barrel Team
+</messaging:plainTextEmailBody>
+</messaging:emailTemplate>

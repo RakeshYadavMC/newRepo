@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X2015_Rates</fullName>
+    <columns>MasterLabel</columns>
+    <columns>Currency_Code__c</columns>
+    <columns>Effective_Start_Date__c</columns>
+    <columns>Effective_End_Date__c</columns>
+    <columns>Conversion_Rate__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Effective_Start_Date__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>1/1/2015</value>
+    </filters>
+    <filters>
+        <field>Effective_End_Date__c</field>
+        <operation>lessOrEqual</operation>
+        <value>12/31/2015</value>
+    </filters>
+    <label>2015 Rates</label>
+    <language>en_US</language>
+</ListView>

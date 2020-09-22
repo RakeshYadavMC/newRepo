@@ -1,0 +1,154 @@
+<center>
+    <table cellpadding="0" cellspacing="0" id="topTable" width="1000">
+      <tbody>
+        <tr valign="top">
+          <td style=
+          "background-color:#FFFFFF; bEditID:r1st1; bLabel:header; vertical-align:middle; height:50; text-align:center;">
+          <img border="0" id="r1sp1" src=
+          "https://beamsuntory.my.salesforce.com/servlet/servlet.ImageServer?id=015o0000001wlAC&oid=00Do0000000cCkJ" height="50" width="200"></td>
+        </tr>
+        <tr valign="top">
+          <td style=
+          "background-color:#CCCCCC; bEditID:r2st1; bLabel:accent1; height:1;">
+          </td>
+        </tr>
+        <tr valign="top">
+          <td height="300" style=
+          "background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;">
+            <table border="0" cellpadding="5" cellspacing="5" width="1000">
+              <tbody>
+                <tr valign="top">
+                  <td style=
+                  "background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;">
+                    <div style=
+                    "font-size: 13.5pt; color: rgb(0, 0, 0); font-family: arial;">
+                      <font face=
+                      "Arial">Hi&nbsp;</font>{!Case.Submitter_First_Name__c}<font face="Arial">,</font>
+                    </div>
+                    <div style=
+                    "font-size: 13.5pt; color: rgb(0, 0, 0); font-family: arial;">
+                      <font face="Arial"><br></font>
+                    </div>
+					<div style=
+                    "font-size: 13.5pt; color: rgb(0, 0, 0); font-family: arial;">
+                      <font face="Arial">Please find the below case details.
+					</div>
+					<div style=
+                    "font-size: 13.5pt; color: rgb(0, 0, 0); font-family: arial;">
+                      <font face="Arial">Case:&nbsp<b>{!Case.CaseNumber}</b>&nbsp-&nbsp{!Case.Category_1__c}&nbsp-&nbsp{!Case.Category_2__c}
+					</div>
+					<div style=
+                    "font-size: 13.5pt; color: rgb(0, 0, 0); font-family: arial;">
+                      <font face="Arial"><br></font>
+                    </div>
+					<div style=
+                    "font-size: 13.5pt; color: rgb(0, 0, 0); font-family: arial;">
+                      <font face="Arial">Your case
+                      <b>#{!Case.CaseNumber}</b>&nbsp;has been closed with the following resolution details:
+					</div>
+					<div style=
+                    "font-size: 13.5pt; color: rgb(0, 0, 0); font-family: arial;">
+                      <font face="Arial">{!Case.Case_Resolution_Details__c}</font>
+                    </div>
+					<div style=
+                    "font-size: 13.5pt; color: rgb(0, 0, 0); font-family: arial;">
+                      <font face="Arial"><br></font>
+                    </div>
+
+<div style=
+                    "font-size: 13.5pt; color: rgb(0, 0, 0); font-family: arial;">
+                      <font face="Arial">Please take 5 seconds to answer this one question survey:
+					</div>
+					<div style=
+                    "font-size: 13.5pt; color: rgb(0, 0, 0); font-family: arial;">
+                      <font face="Arial"><br></font>
+                    </div>
+					<div style=
+                    "font-size: 13.5pt; color: rgb(0, 0, 0); font-family: arial;">
+                      <font face="Arial">How would you rate your GBS experience?
+					</div>
+					<tr valign="top">
+					<td style=
+					  "background-color:#FFFFFF; bEditID:r1st1; bLabel:header; vertical-align:middle; height:100;">
+
+<a  href="{!$Label.Base_Company_Community_Survey_URL}?id={!Case.Id}&rating=1">					
+<img src="https://beamsuntory--c.na74.content.force.com/servlet/servlet.ImageServer?id=015o00000031I3k&amp;oid=00Do0000000cCkJ" border="0" align="center" alt="">
+</a>
+&nbsp;
+<a  href="{!$Label.Base_Company_Community_Survey_URL}?id={!Case.Id}&rating=2">						  
+<img src="https://beamsuntory--c.na74.content.force.com/servlet/servlet.ImageServer?id=015o00000031I3p&amp;oid=00Do0000000cCkJ" border="0" align="center" alt="">
+</a>
+&nbsp;
+<a  href="{!$Label.Base_Company_Community_Survey_URL}?id={!Case.Id}&rating=3">						 
+<img src="https://beamsuntory--c.na74.content.force.com/servlet/servlet.ImageServer?id=015o00000031I3u&amp;oid=00Do0000000cCkJ" border="0" align="center" alt="">
+</a>
+&nbsp;
+<a  href="{!$Label.Base_Company_Community_Survey_URL}?id={!Case.Id}&rating=4">
+<img src="https://beamsuntory--c.na74.content.force.com/servlet/servlet.ImageServer?id=015o00000031I49&amp;oid=00Do0000000cCkJ" border="0" align="center" alt="">
+</a>
+&nbsp;
+<a  href="{!$Label.Base_Company_Community_Survey_URL}?id={!Case.Id}&rating=5">
+ <img src="https://beamsuntory--c.na74.content.force.com/servlet/servlet.ImageServer?id=015o00000031I4E&amp;oid=00Do0000000cCkJ" border="0" align="center" alt="">
+</a>					 
+					<div style=
+                    "font-size: 13.5pt; color: rgb(0, 0, 0); font-family: arial;"><br>
+                      <font face="Arial">Should you wish to reopen this case, just reply with REOPEN CASE in the subject within 5 days. Please include the reason why this case should be reopened.
+					</div>
+					<div style=
+                    "font-size: 13.5pt; color: rgb(0, 0, 0); font-family: arial;">
+                      <font face="Arial"><br></font>
+                    </div>
+					<div style=
+                    "font-size: 13.5pt; color: rgb(0, 0, 0); font-family: arial;">
+                      <font face="Arial"><b>Instructions for re-opening the case:</b>
+					</div>
+					<div style=
+                    "font-size: 13.5pt; color: rgb(0, 0, 0); font-family: arial;">
+                      <font face="Arial">To re-open your case from community, please login and click on “My Cases” tab, select “My Closed Cases” view and click on “Re-open Case” button. Upon clicking the Re-open button please add the reason for reopening the case in the pop-up window. Please note: The button will only be available for five calendar days, after which it will be “disabled” and greyed out.
+					</div>
+					<div style=
+                    "font-size: 13.5pt; color: rgb(0, 0, 0); font-family: arial;">
+                      <font face="Arial"><br></font>
+                    </div>
+					<div style=
+                    "font-size: 13.5pt; color: rgb(0, 0, 0); font-family: arial;">
+                      <font face="Arial">Click below to see your case:
+					</div>
+					<div style=
+                    "font-size: 13.5pt; color: rgb(0, 0, 0); font-family: arial;">
+                      <a href="{!$Label.Base_Company_Community_URL}{!Case.Id}">{!$Label.Base_Company_Community_URL}{!Case.Id}</a>
+					</div>
+					<div style=
+                    "font-size: 13.5pt; color: rgb(0, 0, 0); font-family: arial;">
+                      <font face="Arial">{!Case.Thread_Id}
+					</div>
+					<div style=
+                    "font-size: 13.5pt; color: rgb(0, 0, 0); font-family: arial;">
+                      <font face="Arial"><br></font>
+                    </div>
+					
+		</tr>
+		 </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+        <tr valign="top">
+          <td style=
+          " background-color:#CCCCCC; bEditID:r4st1; bLabel:accent2; height:1;">
+          </td>
+        </tr>
+        <tr valign="top">
+          <td style=
+          " background-color:#FFFFFF; bEditID:r5st1; bLabel:footer; vertical-align:top; height:80; text-align:center;">
+          </td>
+        </tr>
+        <tr valign="top">
+          <td style=
+          " background-color:#FFFFFF; bEditID:r6st1; bLabel:accent3; height:0;">
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </center>

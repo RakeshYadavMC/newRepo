@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Traffic_Request_Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>Traffic Request Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Product Availability/Inbound</fullName>
+                <default>false</default>
+                <label>Product Availability/Inbound</label>
+            </value>
+            <value>
+                <fullName>Cut at the Door</fullName>
+                <default>false</default>
+                <label>Cut at the Door</label>
+            </value>
+            <value>
+                <fullName>Missing/Confirmation Carrier</fullName>
+                <default>false</default>
+                <label>Missing/Confirmation Carrier</label>
+            </value>
+            <value>
+                <fullName>Plant Change</fullName>
+                <default>false</default>
+                <label>Plant Change</label>
+            </value>
+            <value>
+                <fullName>Missing Pricing/Costing</fullName>
+                <default>false</default>
+                <label>Missing Pricing/Costing</label>
+            </value>
+            <value>
+                <fullName>Order on Credit</fullName>
+                <default>false</default>
+                <label>Order on Credit</label>
+            </value>
+            <value>
+                <fullName>Overweight</fullName>
+                <default>false</default>
+                <label>Overweight</label>
+            </value>
+            <value>
+                <fullName>Pallet Capacity</fullName>
+                <default>false</default>
+                <label>Pallet Capacity</label>
+            </value>
+            <value>
+                <fullName>Dates not Aligned</fullName>
+                <default>false</default>
+                <label>Dates not Aligned</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Onpack SKU Sub</fullName>
+                <default>false</default>
+                <label>Onpack SKU Sub</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

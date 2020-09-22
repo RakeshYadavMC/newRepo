@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Jim Beam</fullName>
+        <default>false</default>
+        <label>Jim Beam</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Makers Mark</fullName>
+        <default>false</default>
+        <label>Makers Mark</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Knob Creek</fullName>
+        <default>false</default>
+        <label>Knob Creek</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Bakers</fullName>
+        <default>false</default>
+        <label>Bakers</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Bookers</fullName>
+        <default>false</default>
+        <label>Bookers</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Basil Haydens</fullName>
+        <default>false</default>
+        <label>Basil Haydens</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Cruzan</fullName>
+        <default>false</default>
+        <label>Cruzan</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Canadian Club</fullName>
+        <default>false</default>
+        <label>Canadian Club</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Hornitos</fullName>
+        <default>false</default>
+        <label>Hornitos</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Legent</fullName>
+        <default>false</default>
+        <label>Legent</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Laphroaig</fullName>
+        <default>false</default>
+        <label>Laphroaig</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Tres Generaciones</fullName>
+        <default>false</default>
+        <label>Tres Generaciones</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Multiple</fullName>
+        <default>false</default>
+        <label>Multiple</label>
+    </standardValue>
+</StandardValueSet>

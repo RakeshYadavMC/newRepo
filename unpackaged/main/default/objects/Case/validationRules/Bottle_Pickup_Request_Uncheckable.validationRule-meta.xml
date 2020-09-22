@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bottle_Pickup_Request_Uncheckable</fullName>
+    <active>true</active>
+    <description>This validation rule is used to don't allow to user to uncheck the checked checkbox.</description>
+    <errorConditionFormula>AND( $RecordType.Name = "Quality Claim Sub Case",
+				ISCHANGED( Bottle_Pickup_Request__c ) ,
+				PRIORVALUE( Bottle_Pickup_Request__c ) = TRUE )</errorConditionFormula>
+    <errorDisplayField>Bottle_Pickup_Request__c</errorDisplayField>
+    <errorMessage>You cannot update this checkbox once it's checked.</errorMessage>
+</ValidationRule>

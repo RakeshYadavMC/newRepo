@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_cant_be_closed_directly_from_Logged</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF(PRIORVALUE(Status)="Logged" &amp;&amp; ISPICKVAL(Status, "Closed") ,TRUE,FALSE)</errorConditionFormula>
+    <errorDisplayField>Status</errorDisplayField>
+    <errorMessage>Case cannot be closed directly from Logged status.</errorMessage>
+</ValidationRule>

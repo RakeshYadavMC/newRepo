@@ -1,0 +1,7 @@
+<apex:page standardController="Account">
+
+<apex:iframe src="https://reporting-prd.beamsuntory.com/t/TheBARAmericas/views/Sales360AccountAnalysis/Analyze?:embed=y&Store%20ID%20/%20TDL={!account.StoreID__c}&:showShareOptions=true&:display_count=no&:showVizHome=no#4"
+
+height="780px" width="1260px" scrolling="true"/>
+
+</apex:page>

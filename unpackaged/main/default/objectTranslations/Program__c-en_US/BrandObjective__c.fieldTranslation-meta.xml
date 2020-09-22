@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Brand Objective --></label>
+        <name>BrandObjective__c</name>
+        <picklistValues>
+            <masterLabel>Execute sampling programs</masterLabel>
+            <translation><!-- Execute sampling programs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Objective 2</masterLabel>
+            <translation><!-- Objective 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Objective 3</masterLabel>
+            <translation><!-- Objective 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Objective 4</masterLabel>
+            <translation><!-- Objective 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Objective 5</masterLabel>
+            <translation><!-- Objective 5 --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>El_Tesoro_Single_Barrel_Account_Application</fullName>
+    <columns>NAME</columns>
+    <columns>Account__c</columns>
+    <columns>Brand__c</columns>
+    <columns>Case__c</columns>
+    <columns>Submitter__c</columns>
+    <columns>Premise_Type__c</columns>
+    <columns>Regional_Diplomat__c</columns>
+    <columns>Status__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Brand__c</field>
+        <operation>equals</operation>
+        <value>El Tesoro</value>
+    </filters>
+    <label>El Tesoro - Single Barrel</label>
+    <language>en_US</language>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

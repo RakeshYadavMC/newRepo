@@ -1,0 +1,10 @@
+.THIS {
+}
+
+.THIS .sendSurveyText {
+    font-weight: var(--lwc-fontWeightBold,700);
+}
+
+.THIS .sendSurveyButton {
+	margin-bottom: var(--lwc-varSpacingVerticalSmall,0.75rem)
+}

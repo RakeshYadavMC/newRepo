@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FieldSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Webservice_Update</fullName>
+    <description>List of fields that trigger a webservice update call</description>
+    <displayedFields>
+        <field>CurrencyIsoCode</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <displayedFields>
+        <field>PlannedCampaignSpend_USD_Hidden__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <displayedFields>
+        <field>PlannedCampaignSpend__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <label>Webservice Update</label>
+</FieldSet>

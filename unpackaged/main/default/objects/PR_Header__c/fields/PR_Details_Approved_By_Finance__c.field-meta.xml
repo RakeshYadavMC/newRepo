@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PR_Details_Approved_By_Finance__c</fullName>
+    <description>To show if there any PR Details are rejected</description>
+    <externalId>false</externalId>
+    <label>PR Details Approved By Finance?</label>
+    <summaryFilterItems>
+        <field>PR_Detail__c.Approved__c</field>
+        <operation>equals</operation>
+        <value>False</value>
+    </summaryFilterItems>
+    <summaryForeignKey>PR_Detail__c.PR_Header__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Company_Code_RTR__c</fullName>
+    <externalId>false</externalId>
+    <label>Company Code - RTR</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CA30 - Alberta Distillers Ltd [CA]</fullName>
+                <default>false</default>
+                <label>CA30 - Alberta Distillers Ltd [CA]</label>
+            </value>
+            <value>
+                <fullName>CA60 - Beam Global Canada Inc. [CA]</fullName>
+                <default>false</default>
+                <label>CA60 - Beam Global Canada Inc. [CA]</label>
+            </value>
+            <value>
+                <fullName>CA70 - Canadian Club Canada, Inc [CA]</fullName>
+                <default>false</default>
+                <label>CA70 - Canadian Club Canada, Inc [CA]</label>
+            </value>
+            <value>
+                <fullName>US11 - Maker's Mark Distillery [US]</fullName>
+                <default>false</default>
+                <label>US11 - Maker's Mark Distillery [US]</label>
+            </value>
+            <value>
+                <fullName>US30 - Jim Beam Brands, Co. [US]</fullName>
+                <default>false</default>
+                <label>US30 - Jim Beam Brands, Co. [US]</label>
+            </value>
+            <value>
+                <fullName>USC0 - Jim Beam Brands, Co. [US]</fullName>
+                <default>false</default>
+                <label>USC0 - Jim Beam Brands, Co. [US]</label>
+            </value>
+            <value>
+                <fullName>USC1 - EMEA Ledger</fullName>
+                <default>false</default>
+                <label>USC1 - EMEA Ledger</label>
+            </value>
+            <value>
+                <fullName>USC2 - APSA Ledger</fullName>
+                <default>false</default>
+                <label>USC2 - APSA Ledger</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

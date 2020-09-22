@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>PR Successfully Created in SAP</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BeamSuntory_Letterhead</letterhead>
+    <name>PR Successfully Created in SAP</name>
+    <style>freeForm</style>
+    <subject>PR# {!PR_Header__c.Name} Successfully Created in SAP</subject>
+    <textOnly>Hello {!PR_Header__c.OwnerFullName},
+Your Salesforce Request # {!PR_Header__c.Name} for vendor {!PR_Header__c.Vendor_Name__c} has been successfully created in SAP.  The SAP PR # for this request is {!PR_Header__c.SAP_PR_Number__c}.
+Please allow 72 hours for GBS to create the PO, you will be notified via email once the PO is created.
+Thanks,
+NA Controllership Team</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

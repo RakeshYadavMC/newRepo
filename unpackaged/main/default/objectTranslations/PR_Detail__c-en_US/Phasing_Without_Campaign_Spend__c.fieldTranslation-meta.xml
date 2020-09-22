@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- This field will display the number of Phasing records with no Campaign Spends attached --></help>
+        <label><!-- # Phasing Without Campaign Spend --></label>
+        <name>Phasing_Without_Campaign_Spend__c</name>
+    </CustomFieldTranslation>

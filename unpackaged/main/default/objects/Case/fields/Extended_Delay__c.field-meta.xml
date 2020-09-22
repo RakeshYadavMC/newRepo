@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Extended_Delay__c</fullName>
+    <externalId>false</externalId>
+    <formula>AND (
+ RecordType.Name = "Changes",
+ ISPICKVAL( Type , "Outage"),
+ Availability_Date__c - DATEVALUE(CreatedDate) &gt;= 21
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Extended Delay</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

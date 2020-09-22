@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Program__c</fullName>
+    <externalId>false</externalId>
+    <label>Programs</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>JB AFL - ATL - RTD</fullName>
+                <default>false</default>
+                <label>JB AFL - ATL - RTD</label>
+            </value>
+            <value>
+                <fullName>JB AFL - BTL - RTD</fullName>
+                <default>false</default>
+                <label>JB AFL - BTL - RTD</label>
+            </value>
+            <value>
+                <fullName>JB High ABV - BTL</fullName>
+                <default>false</default>
+                <label>JB High ABV - BTL</label>
+            </value>
+            <value>
+                <fullName>JB Black Focus - ATL - RTD</fullName>
+                <default>false</default>
+                <label>JB Black Focus - ATL - RTD</label>
+            </value>
+            <value>
+                <fullName>JB Black Focus - BTL - RTD</fullName>
+                <default>false</default>
+                <label>JB Black Focus - BTL - RTD</label>
+            </value>
+            <value>
+                <fullName>JB Make Hist - ATL - RTD</fullName>
+                <default>false</default>
+                <label>JB Make Hist - ATL - RTD</label>
+            </value>
+            <value>
+                <fullName>JB Make Hist - BTL - RTD</fullName>
+                <default>false</default>
+                <label>JB Make Hist - BTL - RTD</label>
+            </value>
+            <value>
+                <fullName>JB Misc - ATL</fullName>
+                <default>false</default>
+                <label>JB Misc - ATL</label>
+            </value>
+            <value>
+                <fullName>JB NPD - ATL</fullName>
+                <default>false</default>
+                <label>JB NPD - ATL</label>
+            </value>
+            <value>
+                <fullName>JB Advocacy OP - ATL - RTD</fullName>
+                <default>false</default>
+                <label>JB Advocacy OP - ATL - RTD</label>
+            </value>
+            <value>
+                <fullName>JB Advocacy OP - BTL - RTD</fullName>
+                <default>false</default>
+                <label>JB Advocacy OP - BTL - RTD</label>
+            </value>
+            <value>
+                <fullName>JB Pendulum -BTL - RTD</fullName>
+                <default>false</default>
+                <label>JB Pendulum -BTL - RTD</label>
+            </value>
+            <value>
+                <fullName>JB Sum On Pack - ATL</fullName>
+                <default>false</default>
+                <label>JB Sum On Pack - ATL</label>
+            </value>
+            <value>
+                <fullName>JB Sum On Pack - BTL</fullName>
+                <default>false</default>
+                <label>JB Sum On Pack - BTL</label>
+            </value>
+            <value>
+                <fullName>JB Activation Kits - BTL</fullName>
+                <default>false</default>
+                <label>JB Activation Kits - BTL</label>
+            </value>
+            <value>
+                <fullName>JB AFL - ATL - FBS</fullName>
+                <default>false</default>
+                <label>JB AFL - ATL - FBS</label>
+            </value>
+            <value>
+                <fullName>JB AFL - BTL - FBS</fullName>
+                <default>false</default>
+                <label>JB AFL - BTL - FBS</label>
+            </value>
+            <value>
+                <fullName>JB Agency -ATL</fullName>
+                <default>false</default>
+                <label>JB Agency -ATL</label>
+            </value>
+            <value>
+                <fullName>JB Gifting - BTL</fullName>
+                <default>false</default>
+                <label>JB Gifting - BTL</label>
+            </value>
+            <value>
+                <fullName>JB Highball - BTL</fullName>
+                <default>false</default>
+                <label>JB Highball - BTL</label>
+            </value>
+            <value>
+                <fullName>JB TM - BTL</fullName>
+                <default>false</default>
+                <label>JB TM - BTL</label>
+            </value>
+            <value>
+                <fullName>JB Black Focus -ATL</fullName>
+                <default>false</default>
+                <label>JB Black Focus -ATL</label>
+            </value>
+            <value>
+                <fullName>JB Black Focus - BTL</fullName>
+                <default>false</default>
+                <label>JB Black Focus - BTL</label>
+            </value>
+            <value>
+                <fullName>JB Make Hist - ATL -FBS</fullName>
+                <default>false</default>
+                <label>JB Make Hist - ATL -FBS</label>
+            </value>
+            <value>
+                <fullName>JB Make Hist - BTL - FBS</fullName>
+                <default>false</default>
+                <label>JB Make Hist - BTL - FBS</label>
+            </value>
+            <value>
+                <fullName>JB Advocacy OP - ATL - FBS</fullName>
+                <default>false</default>
+                <label>JB Advocacy OP - ATL - FBS</label>
+            </value>
+            <value>
+                <fullName>JB Advocacy OP - BTL - FBS</fullName>
+                <default>false</default>
+                <label>JB Advocacy OP - BTL - FBS</label>
+            </value>
+            <value>
+                <fullName>JB Pendulum -BTL - FBS</fullName>
+                <default>false</default>
+                <label>JB Pendulum -BTL - FBS</label>
+            </value>
+            <value>
+                <fullName>JB Research - ATL</fullName>
+                <default>false</default>
+                <label>JB Research - ATL</label>
+            </value>
+            <value>
+                <fullName>JB Research - BTL</fullName>
+                <default>false</default>
+                <label>JB Research - BTL</label>
+            </value>
+            <value>
+                <fullName>JB The Blend - BTL</fullName>
+                <default>false</default>
+                <label>JB The Blend - BTL</label>
+            </value>
+            <value>
+                <fullName>CC Agency - ATL _RTD</fullName>
+                <default>false</default>
+                <label>CC Agency - ATL _RTD</label>
+            </value>
+            <value>
+                <fullName>CC Agency - BTL - RTD</fullName>
+                <default>false</default>
+                <label>CC Agency - BTL - RTD</label>
+            </value>
+            <value>
+                <fullName>CC Summer -  ATL</fullName>
+                <default>false</default>
+                <label>CC Summer -  ATL</label>
+            </value>
+            <value>
+                <fullName>CC Summer -  BTL</fullName>
+                <default>false</default>
+                <label>CC Summer -  BTL</label>
+            </value>
+            <value>
+                <fullName>CC CC Winter - ATL</fullName>
+                <default>false</default>
+                <label>CC CC Winter - ATL</label>
+            </value>
+            <value>
+                <fullName>CC CC Winter - BTL</fullName>
+                <default>false</default>
+                <label>CC CC Winter - BTL</label>
+            </value>
+            <value>
+                <fullName>CC Draught - ATL</fullName>
+                <default>false</default>
+                <label>CC Draught - ATL</label>
+            </value>
+            <value>
+                <fullName>CC Draught - BTL</fullName>
+                <default>false</default>
+                <label>CC Draught - BTL</label>
+            </value>
+            <value>
+                <fullName>CC Media -  ATL</fullName>
+                <default>false</default>
+                <label>CC Media -  ATL</label>
+            </value>
+            <value>
+                <fullName>CC  NPD - ATL</fullName>
+                <default>false</default>
+                <label>CC  NPD - ATL</label>
+            </value>
+            <value>
+                <fullName>CC  NPD - BTL</fullName>
+                <default>false</default>
+                <label>CC  NPD - BTL</label>
+            </value>
+            <value>
+                <fullName>CC Packcenter - BTL - RTD</fullName>
+                <default>false</default>
+                <label>CC Packcenter - BTL - RTD</label>
+            </value>
+            <value>
+                <fullName>CC Research - ATL</fullName>
+                <default>false</default>
+                <label>CC Research - ATL</label>
+            </value>
+            <value>
+                <fullName>CC Research - BTL</fullName>
+                <default>false</default>
+                <label>CC Research - BTL</label>
+            </value>
+            <value>
+                <fullName>CC Trial -  ATL</fullName>
+                <default>false</default>
+                <label>CC Trial -  ATL</label>
+            </value>
+            <value>
+                <fullName>CC Visibilty - BTL</fullName>
+                <default>false</default>
+                <label>CC Visibilty - BTL</label>
+            </value>
+            <value>
+                <fullName>CC Agency - ATL - FBS</fullName>
+                <default>false</default>
+                <label>CC Agency - ATL - FBS</label>
+            </value>
+            <value>
+                <fullName>CC Agency - BTL - FBS</fullName>
+                <default>false</default>
+                <label>CC Agency - BTL - FBS</label>
+            </value>
+            <value>
+                <fullName>CC - FBS -  BTL</fullName>
+                <default>false</default>
+                <label>CC - FBS -  BTL</label>
+            </value>
+            <value>
+                <fullName>CC Media -  BTL</fullName>
+                <default>false</default>
+                <label>CC Media -  BTL</label>
+            </value>
+            <value>
+                <fullName>CC Misc - BTL</fullName>
+                <default>false</default>
+                <label>CC Misc - BTL</label>
+            </value>
+            <value>
+                <fullName>CC Pack center - BTL - FBS</fullName>
+                <default>false</default>
+                <label>CC Pack center - BTL - FBS</label>
+            </value>
+            <value>
+                <fullName>CC The Blend -  BTL</fullName>
+                <default>false</default>
+                <label>CC The Blend -  BTL</label>
+            </value>
+            <value>
+                <fullName>MI Pendulum/Other - BTL</fullName>
+                <default>false</default>
+                <label>MI Pendulum/Other - BTL</label>
+            </value>
+            <value>
+                <fullName>MI - Q1 Focus - BTL</fullName>
+                <default>false</default>
+                <label>MI - Q1 Focus - BTL</label>
+            </value>
+            <value>
+                <fullName>MI - Q4 Focus - BTL</fullName>
+                <default>false</default>
+                <label>MI - Q4 Focus - BTL</label>
+            </value>
+            <value>
+                <fullName>MM Bartender Eng - BTL</fullName>
+                <default>false</default>
+                <label>MM Bartender Eng - BTL</label>
+            </value>
+            <value>
+                <fullName>MM Brand Exp - ATL</fullName>
+                <default>false</default>
+                <label>MM Brand Exp - ATL</label>
+            </value>
+            <value>
+                <fullName>MM May Focus Period - BTL</fullName>
+                <default>false</default>
+                <label>MM May Focus Period - BTL</label>
+            </value>
+            <value>
+                <fullName>MM Media -  ATL</fullName>
+                <default>false</default>
+                <label>MM Media -  ATL</label>
+            </value>
+            <value>
+                <fullName>MM Nov Focus Period - BTL</fullName>
+                <default>false</default>
+                <label>MM Nov Focus Period - BTL</label>
+            </value>
+            <value>
+                <fullName>MM Other -  ATL</fullName>
+                <default>false</default>
+                <label>MM Other -  ATL</label>
+            </value>
+            <value>
+                <fullName>MM Packcenter - BTL</fullName>
+                <default>false</default>
+                <label>MM Packcenter - BTL</label>
+            </value>
+            <value>
+                <fullName>MM Research - ATL</fullName>
+                <default>false</default>
+                <label>MM Research - ATL</label>
+            </value>
+            <value>
+                <fullName>MM Research - BTL</fullName>
+                <default>false</default>
+                <label>MM Research - BTL</label>
+            </value>
+            <value>
+                <fullName>AU Instore - BTL</fullName>
+                <default>false</default>
+                <label>AU Instore - BTL</label>
+            </value>
+            <value>
+                <fullName>AU - Trial Platfm - ATL</fullName>
+                <default>false</default>
+                <label>AU - Trial Platfm - ATL</label>
+            </value>
+            <value>
+                <fullName>BW PMOD - BTL</fullName>
+                <default>false</default>
+                <label>BW PMOD - BTL</label>
+            </value>
+            <value>
+                <fullName>LA Focus - BTL</fullName>
+                <default>false</default>
+                <label>LA Focus - BTL</label>
+            </value>
+            <value>
+                <fullName>LA Other - BTL</fullName>
+                <default>false</default>
+                <label>LA Other - BTL</label>
+            </value>
+            <value>
+                <fullName>LA PMOD - BTL</fullName>
+                <default>false</default>
+                <label>LA PMOD - BTL</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

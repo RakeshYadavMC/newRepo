@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lock_Records_POS_Finance_Only</fullName>
+    <active>true</active>
+    <description>Lock National POS (Finance Only) Records</description>
+    <errorConditionFormula>AND(RecordType.Name  = "POS Finance Only",ISCHANGED( Name ),$Profile.Name &lt;&gt; "System Administrator", $Profile.Name &lt;&gt; "Commercial Services Management", $Profile.Name &lt;&gt; "Application Admin - Platform", ISPICKVAL( ParentMarketingPlan__r.Country__c , "US") )</errorConditionFormula>
+    <errorMessage>Your profile does not have access to edit this field for campaign type - National POS (Finance Only)!</errorMessage>
+</ValidationRule>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GBS_HR_Cases_Assignment_Check</fullName>
+    <active>true</active>
+    <description>HR Case record types should only be assigned to HR role(s)</description>
+    <errorConditionFormula>AND(
+  OR(
+    AND(
+      ISBLANK( Owner:Queue.Id),
+      Owner:User.Access_Group__c &lt;&gt; 'HR'
+    ),
+    AND(
+      ISBLANK(Owner:User.Id),
+      Owner:Queue.DeveloperName &lt;&gt; 'HR'
+    )
+  ),
+  RecordType.DeveloperName = 'HR',
+  NOT(ISNEW()),
+  ISCHANGED(OwnerId) 
+)</errorConditionFormula>
+    <errorDisplayField>OwnerId</errorDisplayField>
+    <errorMessage>HR Cases can only be assigned to HR Personnel.</errorMessage>
+</ValidationRule>

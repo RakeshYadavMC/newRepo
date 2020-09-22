@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Within_10_Hours_of_SLA__c</fullName>
+    <externalId>false</externalId>
+    <formula>AND(Escalation_2__c - Running_Case_Time__c &lt; 10, Escalation_2__c - Running_Case_Time__c &gt; 0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Within 10 Hours of SLA</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

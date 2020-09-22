@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Current_Status__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( Checked_In__c = TRUE, IMAGE("/servlet/servlet.FileDownload?file=015o0000001wimm","Checked-In")&amp;" You are currently checked-in", IMAGE("/servlet/servlet.FileDownload?file=015o0000001wimn","Checked-Out")&amp;" You are currently checked-out")</formula>
+    <label>Current Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

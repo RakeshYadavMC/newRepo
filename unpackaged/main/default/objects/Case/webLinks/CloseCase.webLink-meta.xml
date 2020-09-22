@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CloseCase</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Close Case</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>{!REQUIRESCRIPT("/soap/ajax/28.0/connection.js")} 
+{!REQUIRESCRIPT("/soap/ajax/28.0/apex.js")} 
+
+var caseId = '{!Case.Id}'; 
+
+var query = sforce.connection.query("select Name,parentId from Attachment where ParentId = '{!Case.Id}'"); 
+console.log('{!Case.Type}');
+
+if(('{!Case.Type}' == 'Newsletter' &amp;&amp; query.getArray('records').length == 0) || ('{!Case.Type}' == 'Newsletter' &amp;&amp; '{!Case.Type_of_Newsletter__c}' == '')) { 
+   if(document.getElementById('customErrorMessage')) { 
+   } 
+   else { 
+      var div = document.createElement('div'); 
+      div.style.fontSize = '14px'; 
+      div.style.color = 'red'; 
+      div.style.paddingTop = '4px'; 
+      div.id = 'customErrorMessage'; 
+      document.getElementById('topButtonRow').appendChild(div); 
+      div.textContent = 'Please verify that you have added an attachment and you have selected a "Type of Newsletter"'; 
+   } 
+
+} 
+else { 
+   location.href = "/"+'{!Case.Id}'+"/s?retURL=%2F"+'{!Case.Id}'; 
+}</url>
+</WebLink>

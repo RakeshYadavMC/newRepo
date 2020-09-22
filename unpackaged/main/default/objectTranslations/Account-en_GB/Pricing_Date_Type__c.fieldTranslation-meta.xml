@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Pricing Date Type --></label>
+        <name>Pricing_Date_Type__c</name>
+        <picklistValues>
+            <masterLabel>PO Date</masterLabel>
+            <translation><!-- PO Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ship Date</masterLabel>
+            <translation><!-- Ship Date --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

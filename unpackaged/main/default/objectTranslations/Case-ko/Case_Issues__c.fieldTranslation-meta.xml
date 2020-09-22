@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Case Issues --></label>
+        <name>Case_Issues__c</name>
+        <picklistValues>
+            <masterLabel>Allocation</masterLabel>
+            <translation><!-- Allocation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CMIR</masterLabel>
+            <translation><!-- CMIR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Costing (YMTP)</masterLabel>
+            <translation><!-- Costing (YMTP) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IT</masterLabel>
+            <translation><!-- IT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incorrect Shipping Date</masterLabel>
+            <translation><!-- Incorrect Shipping Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incoterms</masterLabel>
+            <translation><!-- Incoterms --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missing Carrier</masterLabel>
+            <translation><!-- Missing Carrier --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Issue</masterLabel>
+            <translation><!-- No Issue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Obsolete Item</masterLabel>
+            <translation><!-- Obsolete Item --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Overweight</masterLabel>
+            <translation><!-- Overweight --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price Discrepancy</masterLabel>
+            <translation><!-- Price Discrepancy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pricing (YPOU)</masterLabel>
+            <translation><!-- Pricing (YPOU) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wrong Plant</masterLabel>
+            <translation><!-- Wrong Plant --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

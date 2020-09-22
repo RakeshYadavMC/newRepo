@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Please populate this field if &quot;Other&quot; option is chosen in GL Detail --></help>
+        <label><!-- GL Comments --></label>
+        <name>GL_Comments__c</name>
+    </CustomFieldTranslation>

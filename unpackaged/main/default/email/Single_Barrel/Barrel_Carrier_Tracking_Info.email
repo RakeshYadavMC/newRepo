@@ -1,0 +1,18 @@
+<messaging:emailTemplate subject="BARREL Carrier and Tracking Number Info" recipientType="User" relatedToType="Barrel__c">
+<messaging:htmlEmailBody >
+<html>
+<body>
+<apex:image id="Campaign_email_template_1_header" value="https://beamsuntory--c.na74.content.force.com/servlet/servlet.ImageServer?id=015o0000001Dyoa&oid=00Do0000000cCkJ" style="display: block; margin-left: auto;margin-right: auto; width:50%" />
+<div style="content:' '; display:block; border:.5px solid black; margin-top:10px; border-color: #999999;"></div>
+
+<p>Good news! Your {!relatedTo.Case__r.Brand__c} {!relatedTo.Case__r.Product_Type__c} barrel for {!relatedTo.Case__r.Retail_Account__r.Name} has shipped.</p>
+<p>Case number: {!relatedTo.Case__r.CaseNumber}</p>
+<p>Retail Account name: {!relatedTo.Case__r.Retail_Account__r.Name}</p>
+<p>Carrier: {!relatedTo.CarrierNew__c}</p>
+<p>Tracking Number: {!relatedTo.Tracking_Number__c}</p>
+<p>Please reach out to single.barrels@beamsuntory.com with any questions or concerns.</p>
+
+</body>
+</html>
+</messaging:htmlEmailBody>
+</messaging:emailTemplate>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Primary Business --></label>
+        <name>Primary_Business__c</name>
+        <picklistValues>
+            <masterLabel>Beam Suntory</masterLabel>
+            <translation><!-- Beam Suntory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I am an employee of one of these companies</masterLabel>
+            <translation><!-- I am an employee of one of these companies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suntory Beverage Food Europe</masterLabel>
+            <translation><!-- Suntory Beverage Food Europe --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

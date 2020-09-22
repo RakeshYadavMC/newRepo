@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BeamSuntory_Letterhead</letterhead>
+    <name>CONCUR SIGN ON LETTER</name>
+    <style>freeForm</style>
+    <subject>Concur Profile Setup – ACTION REQUIRED</subject>
+    <textOnly>Hello and welcome!
+
+Your Concur travel and expense profile has been created and can now be accessed to submit incurred business-related expenses that have been charged to your corporate credit card, as well as Brand Ambassador/Product Knowledge reimbursement requests.
+
+Please review this email for more information on accessing your Concur profile, convenient functionality, and actions to take to ensure a timely reimbursement.
+
+SINGLE SIGN ON (SSO)
+
+Use the link below to access Concur when logged into any Beam Suntory network without being prompted to enter a username and password.
+
+Concur SSO URL: https://www.concursolutions.com/UI/SSO/p00035669ldi
+
+ACCESS CONCUR FROM STIR OR MOBILE DEVICE
+
+Concur can also be accessed from the STIR homepage by navigating to the Concur portal tile (shown below). Please note the portal icon may not appear automatically, but can be added by selecting the EDIT button.
+
+To access Concur from a mobile device (Beam-issued or personal), you must install Intune prior to setting accessing your expense profile. The instructions for installing Intune have been included below. After install, proceed with the one-time setup of SSO by opening the Concur app, selecting the SSO Company Code Sign In and entering the email address you use to normally log into Concur. When prompted for a Company Code, use RJEWRP. Your mobile device is now configured for SSO anytime you open the Concur app from your phone.
+
+To install Intune Click Here
+
+UPDATE BANKING INFORMATION – Action required
+
+Upon accessing Concur for the first time, you must set up your personal banking details so the system can reimburse you for Brand Ambassador/Product Knowledge expenses. You will not be able to submit an expense report for any personally paid amounts until you have completed the setup. To add personal banking information in Concur, navigate to your Profile through Profile Settings then select the Bank Information option from the Expense Settings menu located on the left-hand side of the page. Once the banking details are saved and authorized, Concur will conduct a penny test to confirm the account information entered is correct. Once you have received a confirmation email, you may begin submitting expense reports with amounts requesting expense reimbursement
+
+For more information on the Brand Ambassador/Product Knowledge policy and how to submit those expenses, click here
+
+VERIFY YOUR EMAIL ADDRESS – Action required
+
+Verify your email address within Concur to ensure certain functionalities work upon initial setup. To verify your email address, navigate to your Profile through Profile Settings then select the Email Addresses option from the Your Information menu on the left-hand side of the page. Add your email address then select Verify. The system will send you a confirmation code to the email address provided which should be entered in the field that is created when you selected the Verify option. Once the code is entered, a green circle icon with a check mark will appear, confirming your email address is now verified. This will allow you to proceed with enabling your e-receipts, the details of which appear below.
+
+A verified email address is required to use the Autopopulation of Meal Attendees feature in Concur. This functionality migrates the invitees on a Microsoft Outlook invitation directly into the expense report of the meeting organizer. For more information on this functionality, click here
+
+UPDATE TRAVEL PROFILE – Action required
+
+Complete your travel profile by confirming that your name matches your government ID/Passport used to travel; discrepancies may result in delay of travel and costly purchases because of inability to use tickets procured under an incorrect name
+
+If you are eligible for a corporate card, add that information in your profile as well once the account information is received. For additional details, visit T&amp;E FAQ’s page by clicking here.
+
+ENABLE E-RECEIPTS
+
+The e-receipt functionality pre-populates receipt for items booked through BCD to help save time when preparing your expense reports for approval. Enabling this feature automatically provides the receipts for BCD booked items into your Available Expense queue, streamlining the process of receipt upload and matching expenses to their corresponding credit card transactions. To set up this feature – complete the following in Concur
+
+Log in to Concur, navigate to your profile located in the upper right-hand page of the screen
+
+Click on Profile &gt; Profile Settings – on the left-hand side of the page select E-Receipt Activation from the Other Settings menu
+
+The E-Receipt Activation page will appear (screenshot below).  Click on the link and follow the prompts for finalizing the setup
+
+UBER FOR BUSINESS
+
+Beam Suntory has partnered with Uber for business to provide you with more options during business travel. Click here to begin the setup of Uber for Business profile, which provides the opportunity to store and easily use your corporate credit card for all business rides, auto-population of required expense line items when submitting charges and automatic upload of e-receipts into your Concur profile.
+
+RENTAL CAR INSURANCE
+
+Rental Car liability coverage is provided by our insurance provider, Safety National, when traveling on company business in the United States including St. Croix. Every Beam Suntory employee is covered by this policy while renting a vehicle for business in the United States and should carry the attached insurance card. Please be prepared to provide proof of your Beam Suntory insurance, which also provides a list of everything you need to do in the event of an accident. You should decline any additional insurance covered offered by the rental company as it is redundant. Liability coverage should only be accepted when traveling outside of the United States.
+
+If you encounter any issues completing the above action items or would like additional information on the functionality, contact GBS_NA_TravelExpense@beamsuntory.com or Submit a T&amp;E Case in Salesforce and we will be happy to assist
+
+Thanks so much,
+
+The GBS Travel and Entertainment team
+
+T&amp;E Support</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

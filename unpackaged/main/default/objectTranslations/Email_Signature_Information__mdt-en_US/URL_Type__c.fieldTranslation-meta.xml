@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- URL Type --></label>
+        <name>URL_Type__c</name>
+        <picklistValues>
+            <masterLabel>Brand Logo</masterLabel>
+            <translation><!-- Brand Logo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brand URL</masterLabel>
+            <translation><!-- Brand URL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Facebook</masterLabel>
+            <translation><!-- Facebook --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Instagram</masterLabel>
+            <translation><!-- Instagram --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pinterest</masterLabel>
+            <translation><!-- Pinterest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Twitter</masterLabel>
+            <translation><!-- Twitter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Youtube</masterLabel>
+            <translation><!-- Youtube --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

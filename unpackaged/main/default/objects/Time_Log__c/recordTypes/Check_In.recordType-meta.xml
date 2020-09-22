@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_In</fullName>
+    <active>true</active>
+    <label>Check-In</label>
+    <picklistValues>
+        <picklist>Check_Out_Reason__c</picklist>
+        <values>
+            <fullName>Close of Business</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lunch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meeting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Project</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Training</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

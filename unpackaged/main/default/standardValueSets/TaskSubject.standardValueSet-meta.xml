@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>New Task</fullName>
+        <default>false</default>
+        <label>New Task</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Account Visit</fullName>
+        <default>false</default>
+        <label>Account Visit</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Presentation</fullName>
+        <default>false</default>
+        <label>Presentation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Followup</fullName>
+        <default>false</default>
+        <label>Followup</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Call</fullName>
+        <default>false</default>
+        <label>Call</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email</fullName>
+        <default>false</default>
+        <label>Email</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Meeting</fullName>
+        <default>false</default>
+        <label>Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Social Media Interaction</fullName>
+        <default>false</default>
+        <label>Social Media Interaction</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Web form Submission</fullName>
+        <default>false</default>
+        <label>Web form Submission</label>
+    </standardValue>
+</StandardValueSet>

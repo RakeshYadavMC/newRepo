@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IOCodeCannotBeCreatedinPriorYearPlan</fullName>
+    <active>true</active>
+    <description>IO Codes cannot be created for a Campaigns if the Master Marketing Plan is associated with a previous Year</description>
+    <errorConditionFormula>AND( 
+ISCHANGED( IOCode__c),
+NOT(CONTAINS($Profile.Name, "System Administrator")), 
+VALUE(( Year__c )) &lt; YEAR( TODAY() ))</errorConditionFormula>
+    <errorMessage>IO Codes cannot be created for a Campaigns if the Master Marketing Plan is associated with a previous Year</errorMessage>
+</ValidationRule>

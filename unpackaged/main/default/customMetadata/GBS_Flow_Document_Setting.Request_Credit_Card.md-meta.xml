@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Request Credit Card</label>
+    <protected>false</protected>
+    <values>
+        <field>Business_Function__c</field>
+        <value xsi:type="xsd:string">TE</value>
+    </values>
+    <values>
+        <field>Display_Text__c</field>
+        <value xsi:type="xsd:string">Credit card request form</value>
+    </values>
+    <values>
+        <field>GBS_Flow_Picklist_Setting__c</field>
+        <value xsi:type="xsd:string">Request_credit_card</value>
+    </values>
+    <values>
+        <field>Link__c</field>
+        <value xsi:type="xsd:string">https://bgsw1.sharepoint.com/:w:/r/sites/GBS/_layouts/15/Doc.aspx?sourcedoc=%7B70CBD518-2363-4C62-8290-83A011B136DD%7D&amp;file=Travel_entertainment_Forms_North%20America%20corporate%20credit%20card.docx&amp;action=default&amp;mobileredirect=true</value>
+    </values>
+</CustomMetadata>

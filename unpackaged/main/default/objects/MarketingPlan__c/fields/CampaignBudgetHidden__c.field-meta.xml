@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CampaignBudgetHidden__c</fullName>
+    <description>Sum of all child Campaigns Budgets. This field is hidden on the record and used to populate the "Campaign Budget" field.</description>
+    <externalId>false</externalId>
+    <label>Campaign Allocated Budget Hidden</label>
+    <summarizedField>Campaign__c.PlannedCampaignSpend_USD_Hidden__c</summarizedField>
+    <summaryForeignKey>Campaign__c.ParentMarketingPlan__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

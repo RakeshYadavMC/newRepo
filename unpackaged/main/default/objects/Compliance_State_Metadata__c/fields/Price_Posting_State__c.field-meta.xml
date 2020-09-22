@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Price_Posting_State__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Indicates that this state is an "Price Posting" State, meaning that the posting date must be recorded manually.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates that this state's posting date must be entered manually</inlineHelpText>
+    <label>Price Posting State</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

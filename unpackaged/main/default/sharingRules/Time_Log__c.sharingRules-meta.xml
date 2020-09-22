@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>Time_Logs_with_CS</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Time Logs with CS</label>
+        <sharedTo>
+            <role>Customer_Service_Management</role>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>Customer_Service_Management</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

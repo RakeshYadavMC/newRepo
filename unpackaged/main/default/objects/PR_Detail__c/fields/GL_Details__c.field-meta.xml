@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GL_Details__c</fullName>
+    <externalId>false</externalId>
+    <label>GL Details</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>GL_Code2__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Distributors (All Costs Eligible for BI)</fullName>
+                <default>false</default>
+                <label>Distributors (All Costs Eligible for BI)</label>
+            </value>
+            <value>
+                <fullName>Retailers (All Costs EXCEPT Air &amp; Hotel Eligible for BI)</fullName>
+                <default>false</default>
+                <label>Retailers (All Costs EXCEPT Air &amp; Hotel Eligible for BI)</label>
+            </value>
+            <value>
+                <fullName>BSI Employees (All Costs Opex)</fullName>
+                <default>false</default>
+                <label>BSI Employees (All Costs Opex)</label>
+            </value>
+            <value>
+                <fullName>Educational</fullName>
+                <default>false</default>
+                <label>Educational</label>
+            </value>
+            <value>
+                <fullName>Incentive</fullName>
+                <default>false</default>
+                <label>Incentive</label>
+            </value>
+            <value>
+                <fullName>Window/Counter Wraps</fullName>
+                <default>false</default>
+                <label>Window/Counter Wraps</label>
+            </value>
+            <value>
+                <fullName>Racks</fullName>
+                <default>false</default>
+                <label>Racks</label>
+            </value>
+            <value>
+                <fullName>Cases</fullName>
+                <default>false</default>
+                <label>Cases</label>
+            </value>
+            <value>
+                <fullName>Other (Specify in Comments)</fullName>
+                <default>false</default>
+                <label>Other (Specify in Comments)</label>
+            </value>
+            <value>
+                <fullName>Music</fullName>
+                <default>false</default>
+                <label>Music</label>
+            </value>
+            <value>
+                <fullName>Sports</fullName>
+                <default>false</default>
+                <label>Sports</label>
+            </value>
+            <value>
+                <fullName>Art</fullName>
+                <default>false</default>
+                <label>Art</label>
+            </value>
+            <value>
+                <fullName>Whiskey Fest</fullName>
+                <default>false</default>
+                <label>Whiskey Fest</label>
+            </value>
+            <value>
+                <fullName>F&amp;W Fest</fullName>
+                <default>false</default>
+                <label>F&amp;W Fest</label>
+            </value>
+            <value>
+                <fullName>Rebates Print</fullName>
+                <default>false</default>
+                <label>Rebates Print</label>
+            </value>
+            <value>
+                <fullName>Coupons Print</fullName>
+                <default>false</default>
+                <label>Coupons Print</label>
+            </value>
+            <value>
+                <fullName>Data Warehousing</fullName>
+                <default>false</default>
+                <label>Data Warehousing</label>
+            </value>
+            <value>
+                <fullName>SMS</fullName>
+                <default>false</default>
+                <label>SMS</label>
+            </value>
+            <value>
+                <fullName>Email Outbound Messaging</fullName>
+                <default>false</default>
+                <label>Email Outbound Messaging</label>
+            </value>
+            <value>
+                <fullName>Strategic use of Consumer Data</fullName>
+                <default>false</default>
+                <label>Strategic use of Consumer Data</label>
+            </value>
+            <value>
+                <fullName>Friends of Laphroaig</fullName>
+                <default>false</default>
+                <label>Friends of Laphroaig</label>
+            </value>
+            <value>
+                <fullName>Ambassadors</fullName>
+                <default>false</default>
+                <label>Ambassadors</label>
+            </value>
+            <value>
+                <fullName>Bartenders</fullName>
+                <default>false</default>
+                <label>Bartenders</label>
+            </value>
+            <value>
+                <fullName>USBG</fullName>
+                <default>false</default>
+                <label>USBG</label>
+            </value>
+            <value>
+                <fullName>Regular POS (e.g. T-Shirts, shot glasses, etc)</fullName>
+                <default>false</default>
+                <label>Regular POS (e.g. T-Shirts, shot glasses, etc)</label>
+            </value>
+            <value>
+                <fullName>Electronic (e.g. TV's, iPads, etc)</fullName>
+                <default>false</default>
+                <label>Electronic (e.g. TV's, iPads, etc)</label>
+            </value>
+            <value>
+                <fullName>Specialty Items (e.g. Grills, Golf Clubs, Leather Jackets, etc)</fullName>
+                <default>false</default>
+                <label>Specialty Items (e.g. Grills, Golf Clubs, Leather Jackets, etc)</label>
+            </value>
+            <value>
+                <fullName>Menus (Use GL 15333 Instead)</fullName>
+                <default>false</default>
+                <label>Menus (Use GL 15333 Instead)</label>
+            </value>
+            <value>
+                <fullName>Locally Packed VAP (Value Added Pack)</fullName>
+                <default>false</default>
+                <label>Locally Packed VAP (Value Added Pack)</label>
+            </value>
+            <value>
+                <fullName>BAGB (Buy A, Get B)</fullName>
+                <default>false</default>
+                <label>BAGB (Buy A, Get B)</label>
+            </value>
+            <value>
+                <fullName>Not Applicable</fullName>
+                <default>false</default>
+                <label>Not Applicable</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>15356</controllingFieldValue>
+            <controllingFieldValue>15357</controllingFieldValue>
+            <controllingFieldValue>15378</controllingFieldValue>
+            <controllingFieldValue>15379</controllingFieldValue>
+            <controllingFieldValue>15380</controllingFieldValue>
+            <controllingFieldValue>15381</controllingFieldValue>
+            <controllingFieldValue>15981</controllingFieldValue>
+            <controllingFieldValue>15358</controllingFieldValue>
+            <controllingFieldValue>15990</controllingFieldValue>
+            <controllingFieldValue>15359</controllingFieldValue>
+            <controllingFieldValue>15991</controllingFieldValue>
+            <controllingFieldValue>15360</controllingFieldValue>
+            <controllingFieldValue>15992</controllingFieldValue>
+            <controllingFieldValue>15361</controllingFieldValue>
+            <controllingFieldValue>15362</controllingFieldValue>
+            <controllingFieldValue>15363</controllingFieldValue>
+            <controllingFieldValue>15364</controllingFieldValue>
+            <controllingFieldValue>15365</controllingFieldValue>
+            <controllingFieldValue>15366</controllingFieldValue>
+            <controllingFieldValue>15367</controllingFieldValue>
+            <controllingFieldValue>15384</controllingFieldValue>
+            <controllingFieldValue>15385</controllingFieldValue>
+            <controllingFieldValue>15386</controllingFieldValue>
+            <controllingFieldValue>15301</controllingFieldValue>
+            <controllingFieldValue>15302</controllingFieldValue>
+            <controllingFieldValue>15303</controllingFieldValue>
+            <controllingFieldValue>15304</controllingFieldValue>
+            <controllingFieldValue>15305</controllingFieldValue>
+            <controllingFieldValue>15306</controllingFieldValue>
+            <controllingFieldValue>15307</controllingFieldValue>
+            <controllingFieldValue>15308</controllingFieldValue>
+            <controllingFieldValue>15309</controllingFieldValue>
+            <controllingFieldValue>15310</controllingFieldValue>
+            <controllingFieldValue>15311</controllingFieldValue>
+            <controllingFieldValue>__</controllingFieldValue>
+            <controllingFieldValue>15388</controllingFieldValue>
+            <controllingFieldValue>15389</controllingFieldValue>
+            <controllingFieldValue>15390</controllingFieldValue>
+            <controllingFieldValue>15317</controllingFieldValue>
+            <controllingFieldValue>15320</controllingFieldValue>
+            <controllingFieldValue>15321</controllingFieldValue>
+            <controllingFieldValue>15322</controllingFieldValue>
+            <controllingFieldValue>15324</controllingFieldValue>
+            <controllingFieldValue>15397</controllingFieldValue>
+            <controllingFieldValue>15398</controllingFieldValue>
+            <controllingFieldValue>15328</controllingFieldValue>
+            <controllingFieldValue>15329</controllingFieldValue>
+            <controllingFieldValue>15330</controllingFieldValue>
+            <controllingFieldValue>15332</controllingFieldValue>
+            <controllingFieldValue>15333</controllingFieldValue>
+            <controllingFieldValue>15334</controllingFieldValue>
+            <controllingFieldValue>15335</controllingFieldValue>
+            <controllingFieldValue>15336</controllingFieldValue>
+            <controllingFieldValue>15337</controllingFieldValue>
+            <controllingFieldValue>15338</controllingFieldValue>
+            <controllingFieldValue>15339</controllingFieldValue>
+            <controllingFieldValue>15340</controllingFieldValue>
+            <controllingFieldValue>15341</controllingFieldValue>
+            <controllingFieldValue>15342</controllingFieldValue>
+            <controllingFieldValue>15343</controllingFieldValue>
+            <controllingFieldValue>15344</controllingFieldValue>
+            <controllingFieldValue>15345</controllingFieldValue>
+            <controllingFieldValue>15368</controllingFieldValue>
+            <controllingFieldValue>15369</controllingFieldValue>
+            <controllingFieldValue>15370</controllingFieldValue>
+            <controllingFieldValue>15371</controllingFieldValue>
+            <controllingFieldValue>15372</controllingFieldValue>
+            <controllingFieldValue>15373</controllingFieldValue>
+            <controllingFieldValue>15374</controllingFieldValue>
+            <controllingFieldValue>15346</controllingFieldValue>
+            <controllingFieldValue>15375</controllingFieldValue>
+            <controllingFieldValue>15347</controllingFieldValue>
+            <controllingFieldValue>15376</controllingFieldValue>
+            <controllingFieldValue>15348</controllingFieldValue>
+            <controllingFieldValue>15377</controllingFieldValue>
+            <controllingFieldValue>15351</controllingFieldValue>
+            <controllingFieldValue>15352</controllingFieldValue>
+            <controllingFieldValue>15353</controllingFieldValue>
+            <controllingFieldValue>15354</controllingFieldValue>
+            <controllingFieldValue>15355</controllingFieldValue>
+            <valueName>Not Applicable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>15382</controllingFieldValue>
+            <controllingFieldValue>15383</controllingFieldValue>
+            <controllingFieldValue>15394</controllingFieldValue>
+            <controllingFieldValue>15395</controllingFieldValue>
+            <controllingFieldValue>15396</controllingFieldValue>
+            <controllingFieldValue>15323</controllingFieldValue>
+            <controllingFieldValue>15331</controllingFieldValue>
+            <valueName>Other (Specify in Comments)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>15382</controllingFieldValue>
+            <valueName>Music</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>15382</controllingFieldValue>
+            <valueName>Sports</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>15382</controllingFieldValue>
+            <valueName>Art</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>15383</controllingFieldValue>
+            <valueName>Whiskey Fest</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>15383</controllingFieldValue>
+            <valueName>F&amp;W Fest</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>15312</controllingFieldValue>
+            <valueName>Distributors (All Costs Eligible for BI)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>15312</controllingFieldValue>
+            <valueName>Retailers (All Costs EXCEPT Air &amp; Hotel Eligible for BI)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>15312</controllingFieldValue>
+            <valueName>BSI Employees (All Costs Opex)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>15312</controllingFieldValue>
+            <valueName>Educational</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>15312</controllingFieldValue>
+            <valueName>Incentive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>15391</controllingFieldValue>
+            <controllingFieldValue>15392</controllingFieldValue>
+            <controllingFieldValue>15393</controllingFieldValue>
+            <valueName>Friends of Laphroaig</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>15391</controllingFieldValue>
+            <controllingFieldValue>15392</controllingFieldValue>
+            <controllingFieldValue>15393</controllingFieldValue>
+            <valueName>Ambassadors</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>15394</controllingFieldValue>
+            <controllingFieldValue>15395</controllingFieldValue>
+            <controllingFieldValue>15396</controllingFieldValue>
+            <valueName>Bartenders</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>15394</controllingFieldValue>
+            <controllingFieldValue>15395</controllingFieldValue>
+            <controllingFieldValue>15396</controllingFieldValue>
+            <valueName>USBG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>15313</controllingFieldValue>
+            <valueName>Data Warehousing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>15313</controllingFieldValue>
+            <valueName>SMS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>15313</controllingFieldValue>
+            <valueName>Email Outbound Messaging</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>15313</controllingFieldValue>
+            <valueName>Strategic use of Consumer Data</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>15318</controllingFieldValue>
+            <controllingFieldValue>15327</controllingFieldValue>
+            <valueName>Rebates Print</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>15318</controllingFieldValue>
+            <controllingFieldValue>15327</controllingFieldValue>
+            <valueName>Coupons Print</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>15319</controllingFieldValue>
+            <controllingFieldValue>15326</controllingFieldValue>
+            <valueName>Regular POS (e.g. T-Shirts, shot glasses, etc)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>15319</controllingFieldValue>
+            <controllingFieldValue>15326</controllingFieldValue>
+            <valueName>Electronic (e.g. TV's, iPads, etc)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>15319</controllingFieldValue>
+            <controllingFieldValue>15326</controllingFieldValue>
+            <valueName>Specialty Items (e.g. Grills, Golf Clubs, Leather Jackets, etc)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>15319</controllingFieldValue>
+            <controllingFieldValue>15326</controllingFieldValue>
+            <valueName>Menus (Use GL 15333 Instead)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>15323</controllingFieldValue>
+            <controllingFieldValue>15331</controllingFieldValue>
+            <valueName>Window/Counter Wraps</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>15323</controllingFieldValue>
+            <controllingFieldValue>15331</controllingFieldValue>
+            <valueName>Racks</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>15323</controllingFieldValue>
+            <controllingFieldValue>15331</controllingFieldValue>
+            <valueName>Cases</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>15325</controllingFieldValue>
+            <valueName>Locally Packed VAP (Value Added Pack)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>15325</controllingFieldValue>
+            <valueName>BAGB (Buy A, Get B)</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Touchpoint --></label>
+        <name>GL_Touchpoint__c</name>
+        <picklistValues>
+            <masterLabel>Media</masterLabel>
+            <translation><!-- Media --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-Premise</masterLabel>
+            <translation><!-- Non-Premise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-Working</masterLabel>
+            <translation><!-- Non-Working --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Off-Trade</masterLabel>
+            <translation><!-- Off-Trade --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On-Trade</masterLabel>
+            <translation><!-- On-Trade --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product</masterLabel>
+            <translation><!-- Product --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

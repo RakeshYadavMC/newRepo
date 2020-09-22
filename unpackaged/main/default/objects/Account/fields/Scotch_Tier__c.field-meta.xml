@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Scotch_Tier__c</fullName>
+    <externalId>false</externalId>
+    <label>Scotch Tier</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Bronze</fullName>
+                <default>false</default>
+                <label>Bronze</label>
+            </value>
+            <value>
+                <fullName>Gold</fullName>
+                <default>false</default>
+                <label>Gold</label>
+            </value>
+            <value>
+                <fullName>National</fullName>
+                <default>false</default>
+                <label>National</label>
+            </value>
+            <value>
+                <fullName>Platinum</fullName>
+                <default>false</default>
+                <label>Platinum</label>
+            </value>
+            <value>
+                <fullName>Silver</fullName>
+                <default>false</default>
+                <label>Silver</label>
+            </value>
+            <value>
+                <fullName>Warehouse</fullName>
+                <default>false</default>
+                <label>Warehouse</label>
+            </value>
+            <value>
+                <fullName>*TBD*</fullName>
+                <default>false</default>
+                <label>*TBD*</label>
+            </value>
+            <value>
+                <fullName>Main Warehouse</fullName>
+                <default>false</default>
+                <label>Main Warehouse</label>
+            </value>
+            <value>
+                <fullName>New / Multiple accounts</fullName>
+                <default>false</default>
+                <label>New / Multiple accounts</label>
+            </value>
+            <value>
+                <fullName>Regional Warehouse</fullName>
+                <default>false</default>
+                <label>Regional Warehouse</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

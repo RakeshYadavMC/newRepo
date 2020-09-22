@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DistributorMaster__c</fullName>
+    <externalId>false</externalId>
+    <label>Distributor Master</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Allan S Goodman Inc</fullName>
+                <default>false</default>
+                <label>Allan S Goodman Inc</label>
+            </value>
+            <value>
+                <fullName>All Other Distributors</fullName>
+                <default>false</default>
+                <label>All Other Distributors</label>
+            </value>
+            <value>
+                <fullName>Athens</fullName>
+                <default>false</default>
+                <label>Athens</label>
+            </value>
+            <value>
+                <fullName>B &amp; T</fullName>
+                <default>false</default>
+                <label>B &amp; T</label>
+            </value>
+            <value>
+                <fullName>Badger</fullName>
+                <default>false</default>
+                <label>Badger</label>
+            </value>
+            <value>
+                <fullName>Best Brands</fullName>
+                <default>false</default>
+                <label>Best Brands</label>
+            </value>
+            <value>
+                <fullName>Brescome Barton Inc</fullName>
+                <default>false</default>
+                <label>Brescome Barton Inc</label>
+            </value>
+            <value>
+                <fullName>Connecticut Distributors Inc</fullName>
+                <default>false</default>
+                <label>Connecticut Distributors Inc</label>
+            </value>
+            <value>
+                <fullName>Empire</fullName>
+                <default>false</default>
+                <label>Empire</label>
+            </value>
+            <value>
+                <fullName>Fedway Associates Inc</fullName>
+                <default>false</default>
+                <label>Fedway Associates Inc</label>
+            </value>
+            <value>
+                <fullName>Frank</fullName>
+                <default>false</default>
+                <label>Frank</label>
+            </value>
+            <value>
+                <fullName>General Wholesale</fullName>
+                <default>false</default>
+                <label>General Wholesale</label>
+            </value>
+            <value>
+                <fullName>Georgia Crown</fullName>
+                <default>false</default>
+                <label>Georgia Crown</label>
+            </value>
+            <value>
+                <fullName>Glazers Total</fullName>
+                <default>false</default>
+                <label>Glazers Total</label>
+            </value>
+            <value>
+                <fullName>Hartley &amp; Parker Ltd</fullName>
+                <default>false</default>
+                <label>Hartley &amp; Parker Ltd</label>
+            </value>
+            <value>
+                <fullName>Horizon</fullName>
+                <default>false</default>
+                <label>Horizon</label>
+            </value>
+            <value>
+                <fullName>Johnson Bros</fullName>
+                <default>false</default>
+                <label>Johnson Bros</label>
+            </value>
+            <value>
+                <fullName>Knoxville Bev</fullName>
+                <default>false</default>
+                <label>Knoxville Bev</label>
+            </value>
+            <value>
+                <fullName>M.S Walker</fullName>
+                <default>false</default>
+                <label>M.S Walker</label>
+            </value>
+            <value>
+                <fullName>Major Brands</fullName>
+                <default>false</default>
+                <label>Major Brands</label>
+            </value>
+            <value>
+                <fullName>Phillips</fullName>
+                <default>false</default>
+                <label>Phillips</label>
+            </value>
+            <value>
+                <fullName>R&amp;R Marketing</fullName>
+                <default>false</default>
+                <label>R&amp;R Marketing</label>
+            </value>
+            <value>
+                <fullName>RNDC</fullName>
+                <default>false</default>
+                <label>RNDC</label>
+            </value>
+            <value>
+                <fullName>Star Distributors</fullName>
+                <default>false</default>
+                <label>Star Distributors</label>
+            </value>
+            <value>
+                <fullName>SWS</fullName>
+                <default>false</default>
+                <label>SWS</label>
+            </value>
+            <value>
+                <fullName>Triple C</fullName>
+                <default>false</default>
+                <label>Triple C</label>
+            </value>
+            <value>
+                <fullName>United</fullName>
+                <default>false</default>
+                <label>United</label>
+            </value>
+            <value>
+                <fullName>West Tennessee Crown Distributing</fullName>
+                <default>false</default>
+                <label>West Tennessee Crown Distributing</label>
+            </value>
+            <value>
+                <fullName>Wirtz</fullName>
+                <default>false</default>
+                <label>Wirtz</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

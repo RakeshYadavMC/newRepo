@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Customer Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Sales_Entity__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Bottler</fullName>
+                <default>false</default>
+                <label>Bottler</label>
+            </value>
+            <value>
+                <fullName>Brewery</fullName>
+                <default>false</default>
+                <label>Brewery</label>
+            </value>
+            <value>
+                <fullName>Broker</fullName>
+                <default>false</default>
+                <label>Broker</label>
+            </value>
+            <value>
+                <fullName>Cooperage</fullName>
+                <default>false</default>
+                <label>Cooperage</label>
+            </value>
+            <value>
+                <fullName>Crafter</fullName>
+                <default>false</default>
+                <label>Crafter</label>
+            </value>
+            <value>
+                <fullName>Distiller</fullName>
+                <default>false</default>
+                <label>Distiller</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Retailer</fullName>
+                <default>false</default>
+                <label>Retailer</label>
+            </value>
+            <value>
+                <fullName>Winery</fullName>
+                <default>false</default>
+                <label>Winery</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Third Party</controllingFieldValue>
+            <valueName>Bottler</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Third Party</controllingFieldValue>
+            <valueName>Brewery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Third Party</controllingFieldValue>
+            <valueName>Broker</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Third Party</controllingFieldValue>
+            <valueName>Cooperage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Third Party</controllingFieldValue>
+            <valueName>Crafter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Third Party</controllingFieldValue>
+            <valueName>Distiller</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Third Party</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Third Party</controllingFieldValue>
+            <valueName>Retailer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Third Party</controllingFieldValue>
+            <valueName>Winery</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Project_Number__c</fullName>
+    <description>The Project Number (PN) of the Project. Used for Compliance Cases.</description>
+    <externalId>false</externalId>
+    <label>Project Number</label>
+    <length>5</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

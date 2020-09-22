@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Request_Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>Request Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Lost</fullName>
+                <default>false</default>
+                <label>Lost</label>
+            </value>
+            <value>
+                <fullName>Disputed</fullName>
+                <default>false</default>
+                <label>Disputed</label>
+            </value>
+            <value>
+                <fullName>Never Received</fullName>
+                <default>false</default>
+                <label>Never Received</label>
+            </value>
+            <value>
+                <fullName>Internal</fullName>
+                <default>false</default>
+                <label>Internal</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

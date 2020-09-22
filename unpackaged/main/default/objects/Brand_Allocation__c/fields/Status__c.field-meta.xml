@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <defaultValue>'Active'</defaultValue>
+    <externalId>false</externalId>
+    <label>Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Active</fullName>
+                <default>false</default>
+                <label>Active</label>
+            </value>
+            <value>
+                <fullName>Expired</fullName>
+                <default>false</default>
+                <label>Expired</label>
+            </value>
+            <value>
+                <fullName>overlap</fullName>
+                <default>false</default>
+                <label>overlap</label>
+            </value>
+            <value>
+                <fullName>Inactive</fullName>
+                <default>false</default>
+                <label>Inactive</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

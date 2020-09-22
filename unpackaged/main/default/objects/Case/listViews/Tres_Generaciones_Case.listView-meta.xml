@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tres_Generaciones_Case</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Tres Generaciones</label>
+    <queue>CC_Tres_Generaciones</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

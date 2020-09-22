@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Request_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Request Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Create</fullName>
+                <default>false</default>
+                <label>Create</label>
+            </value>
+            <value>
+                <fullName>Block</fullName>
+                <default>false</default>
+                <label>Block</label>
+            </value>
+            <value>
+                <fullName>Extend</fullName>
+                <default>false</default>
+                <label>Extend</label>
+            </value>
+            <value>
+                <fullName>Change</fullName>
+                <default>false</default>
+                <label>Change</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,11 @@
+<p>Dear {!Contact.FirstName},</p>
+<p>Thank you for your email and for contacting Jim Beam®.  We always love to hear from our consumers.</p>
+<p>You can find Jim Beam® drink recipes by visiting us at www.virtualspirit.org.  Simply select the “Virtual Mixology Guide” link, then choose either “Download to PC” or “Download to <span class="caps">MAC</span>” (depending on the system you are working on,) open the zip file and select the liquor category you are inquiring about to download recipes in that category.</p>
+<p>You can also visit us at www.jimbeam.com.  Simply select the “Mixology” link, and then select the “Drink Recipes” link.  You can then sort the recipe list by selecting your desired preference in a drink (such as the number of ingredients, the type of Taste you're looking for, and the liquor/drink of your choice.)</p>
+<p>We hope this information is helpful for you.  If you need anything further, please don't hesitate to contact us, we're always happy to help.</p>
+<p>Thanks again for your email and we hope you continue to enjoy Jim Beam® and all our Beam® products for many more years to come.</p>
+<p>{!Case.OwnerFullName}<br />
+<strong>Jim Beam® Customer Care Representative</strong><br />
+<img src="{!$Label.SF_Base_URL_BrandLogo}JimBeam.png" alt=""  width="120px" /> <br />
+<a href="https://www.facebook.com/JimBeamUS"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}facebook.png" width="20" alt="" /></a> <a href="https://twitter.com/JimBeam"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}twitter.png" width="20" alt="" /></a> <a href="https://instagram.com/Jimbeamofficial"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}instagram.png" width="20" alt="" /></a> <a href="http://www.pinterest.com/jimbeamofficial/"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}pinterest.png" width="20" alt="" /></a> <a href="https://www.youtube.com/JimBeam"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}youtube.png" width="20" alt="" /></a> <br />
+<a href="http://www.drinksmart.com"><img src="{!$Label.SF_Base_URL_BrandLogo}DrinkSmart.png" width="120" title="Drink Smart" alt="Drink Smart" /></a></p>

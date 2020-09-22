@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MPBudgetCannotbeLessThanZero</fullName>
+    <active>true</active>
+    <description>MP Budget cannot be less than zero dollars.</description>
+    <errorConditionFormula>Budget__c &lt; 0</errorConditionFormula>
+    <errorDisplayField>Budget__c</errorDisplayField>
+    <errorMessage>MP Budget cannot be less than zero dollars. Please update the MP Budget field.</errorMessage>
+</ValidationRule>

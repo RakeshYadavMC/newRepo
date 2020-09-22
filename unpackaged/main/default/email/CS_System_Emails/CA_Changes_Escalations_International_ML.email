@@ -1,0 +1,70 @@
+<messaging:emailTemplate subject="{!relatedTo.CaseNumber} - {!relatedTo.RecordType.Name} {!$Label.CasePickedUp}" recipientType="User" relatedToType="Case" language="{!CASE(relatedTo.Case_Language__c,'en_US','en_US','es','es','en_US')}">
+<messaging:htmlEmailBody >
+<html>
+
+<style>
+center {
+    display: block;
+    text-align: -webkit-center;
+}
+
+
+</style>
+
+<body>
+    <center>
+    <table cellpadding="0" width="500" cellspacing="0" id="topTable" height="450">
+        <tbody>
+            <tr valign="top">
+                <td style=" background-color:#FFFFFF; bEditID:r1st1; bLabel:header; vertical-align:middle; height:100; text-align:center;"><img border="0" beditid="r1sp1" blabel="headerImage" id="r1sp1" src="https://beamsuntory--BeamQA--c.cs21.content.force.com/servlet/servlet.ImageServer?id=015q0000000cP4q&oid=00Dq00000000Ne2&lastMod=1457588492000"/></td>
+            </tr>
+            <tr valign="top">
+                <td style=" background-color:#CCCCCC; bEditID:r2st1; bLabel:accent1; height:1;"></td>
+            </tr>
+            <tr valign="top">
+                <td styleinsert="1" height="300" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;">
+                    <table border="0" cellpadding="5" width="550" cellspacing="5" height="400">
+                        <tbody>
+                            <tr valign="top" height="400">
+                                <td teditid="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aeditid="c1r1" locked="0"><font face="Arial, sans-serif"><span style="font-size: 12pt; line-height: 107%;">{!$Label.CaseAssigned}&nbsp;</span><span style="font-size: 14.6667px; line-height: 15.6933px;"><u>{!relatedTo.Owner.Name}</u></span><span style="font-size: 12pt; line-height: 107%;">&nbsp;{!$Label.AppropriateSLA}&nbsp;</span></font>
+                                    
+                                        <div><span style="font-size: 12pt; font-family: Arial, sans-serif;"><br/></span></div>
+                                        <div><span style="font-size: 12pt; font-family: Arial, sans-serif;">RE: {!relatedTo.Subject}</span></div>                                        
+                                        <div><span style="font-size: 12pt; font-family: Arial, sans-serif;">Case Number :{!relatedTo.CaseNumber}</span></div>
+                                        <div><span style="font-size: 12pt; font-family: Arial, sans-serif;">Case Description :{!relatedTo.Claim_Description__c}</span></div>
+                                        <div><span style="font-size: 12pt; font-family: Arial, sans-serif;">Case Type :{!relatedTo.Type}</span></div>
+                                        <div><span style="font-size: 12pt; font-family: Arial, sans-serif;">Escalated Form Description:{!relatedTo.Escalated_Form_Description__c}</span></div>
+                                        
+                                        
+                                        <div><span style="font-size: 12pt; font-family: Arial, sans-serif;"><br/></span></div>
+                                        <div><span style="font-size: 12pt; font-family: Arial, sans-serif;">{!$Label.ThankYou}</span></div>
+                                        <div><span style="font-size: 12pt; font-family: Arial, sans-serif;"><br/></span></div>
+                                        <div><span style="font-size: 12pt; font-family: Arial, sans-serif;">{!$Label.BeamCS}</span></div>
+                                        <div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="Calibri"><span style="font-size: 11pt; line-height: 107%;"><br/></span></font></div>
+                                        <div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="Calibri"><span style="font-size: 11pt; line-height: 107%;"><br/></span></font></div>
+                                        <div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="Calibri"><span style="font-size: 11pt; line-height: 107%;"><br/></span></font></div>
+                                        <div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="Calibri"><span style="font-size: 11pt; line-height: 107%;"><br/></span></font></div>
+                                        <div><font face="arial" size="1">{!relatedTo.Thread__c}</font></div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td style=" background-color:#CCCCCC; bEditID:r4st1; bLabel:accent2; height:1;"></td>
+            </tr>
+            <tr valign="top">
+                <td style=" background-color:#FFFFFF; bEditID:r5st1; bLabel:footer; vertical-align:top; height:80; text-align:center;"></td>
+            </tr>
+            <tr valign="top">
+                <td style=" background-color:#FFFFFF; bEditID:r6st1; bLabel:accent3; height:0;"></td>
+            </tr>
+        </tbody>
+    </table>
+</center>
+</body>
+</html>
+    
+</messaging:htmlEmailBody>
+</messaging:emailTemplate>

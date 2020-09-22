@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Restrict_Edits_by_Record_Submitter</fullName>
+    <active>false</active>
+    <description>Restricts edits to GBS Cases from the submitter of the record</description>
+    <errorConditionFormula>AND( 
+  NOT(ISNEW()),
+  OR( 
+    ISCHANGED(Status),
+    ISCHANGED( RecordTypeId )
+  ),
+  $Profile.Name &lt;&gt; "System Administrator",
+  $Profile.Name &lt;&gt; "GBS Management",
+  $Profile.Name &lt;&gt; "GBS Analyst",
+  $Profile.Name &lt;&gt; "CS Management",
+  $Profile.Name &lt;&gt; "CS Coordinator",
+  RecordType.Name &lt;&gt; "OTC - Bailment",
+  RecordType.Name &lt;&gt; "OTC - Bailment Error",
+  OR(
+    CONTAINS(RecordType.Name, "OTC "),
+    CONTAINS(RecordType.Name, "GMDM "),
+    RecordType.Name = "HR",
+    RecordType.Name = "Payroll",
+    RecordType.Name = "PTP/AP",
+    RecordType.Name = "PTP/AP - PR/PO",
+    RecordType.Name = "RTR",
+    RecordType.Name = "T&amp;E"
+  )
+)</errorConditionFormula>
+    <errorMessage>You are restricted from making this change.  Please reach out to the System Administrator if you believe you are seeing this message in error.</errorMessage>
+</ValidationRule>

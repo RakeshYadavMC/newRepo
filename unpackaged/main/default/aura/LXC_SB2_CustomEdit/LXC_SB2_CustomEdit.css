@@ -1,0 +1,25 @@
+.THIS {
+    
+}
+
+.THIS p {
+    font-size: 16px;
+    margin: 2rem 0;
+}
+
+.THIS.side-margin {
+    margin: 0 -2rem;
+}
+
+.THIS.header-position {
+    margin-top: -1rem;
+}
+
+.THIS.footer-position {
+    text-align: right;
+    position: fixed;
+    width: 100%;
+    border-top: 2px solid rgb(221, 219, 218);
+    padding-top: 1rem;
+    padding-right: 1rem;
+}

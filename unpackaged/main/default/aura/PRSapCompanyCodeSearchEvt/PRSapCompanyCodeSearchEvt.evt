@@ -1,0 +1,3 @@
+<aura:event type="COMPONENT" description="PR Sap Comapany Code Search Event">
+    <aura:attribute name="SAPCompanyCodeId" type="String" default="" />
+</aura:event>

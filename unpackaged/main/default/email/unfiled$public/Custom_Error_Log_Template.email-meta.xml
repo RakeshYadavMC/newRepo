@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to alert admin users about a custom exception</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BeamSuntory_Letterhead</letterhead>
+    <name>Custom Error Log Template</name>
+    <style>freeForm</style>
+    <subject>Custom Error Excpetion</subject>
+    <textOnly>Hi {!User.Name},
+
+There was a custom exception:
+
+Apex Class: {!Custom_Exception_Logs__c.Class_Name__c}
+Method Name: {!Custom_Exception_Logs__c.Method_name__c}
+Error Message: {!Custom_Exception_Logs__c.Message__c}
+Error Type: {!Custom_Exception_Logs__c.Error_Type__c}
+
+You can reference the custom error exception record here:
+{!Custom_Exception_Logs__c.Link}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

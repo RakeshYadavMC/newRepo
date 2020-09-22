@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BeamSuntory_Letterhead</letterhead>
+    <name>Applicant Career Opportunities Inquiry Template</name>
+    <style>freeForm</style>
+    <subject>Case #{!Case.CaseNumber} - HR Applicant Career Opportunities Inquiry Case</subject>
+    <textOnly>Thank you for your interest in a position at Beam Suntory. You will find all of Beam Suntory open positions posted on the www.beamsuntory.com web page under Career Opportunities. If you no longer see a position posted that was previously posted, then that position has been filled.  A position could possibly still be showing on a job site that is not on the Beam Suntory site due to the timing the job site completes updates.
+
+
+Thank You,
+The Beam Suntory Global Business Services HR Team</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

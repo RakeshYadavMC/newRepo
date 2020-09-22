@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DistributorLevel3__c</fullName>
+    <externalId>false</externalId>
+    <label>Distributor Level 3</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Glazer-Arkansas</fullName>
+                <default>false</default>
+                <label>Glazer-Arkansas</label>
+            </value>
+            <value>
+                <fullName>Glazer-Kansas</fullName>
+                <default>false</default>
+                <label>Glazer-Kansas</label>
+            </value>
+            <value>
+                <fullName>Glazer-Louisiana</fullName>
+                <default>false</default>
+                <label>Glazer-Louisiana</label>
+            </value>
+            <value>
+                <fullName>Glazer-Ohio</fullName>
+                <default>false</default>
+                <label>Glazer-Ohio</label>
+            </value>
+            <value>
+                <fullName>Glazer-Texas</fullName>
+                <default>false</default>
+                <label>Glazer-Texas</label>
+            </value>
+            <value>
+                <fullName>Hartley &amp; Parker Ltd-Total</fullName>
+                <default>false</default>
+                <label>Hartley &amp; Parker Ltd-Total</label>
+            </value>
+            <value>
+                <fullName>Horizon - Total</fullName>
+                <default>false</default>
+                <label>Horizon - Total</label>
+            </value>
+            <value>
+                <fullName>Johnson Bros-Total</fullName>
+                <default>false</default>
+                <label>Johnson Bros-Total</label>
+            </value>
+            <value>
+                <fullName>Knoxville Bev-Total</fullName>
+                <default>false</default>
+                <label>Knoxville Bev-Total</label>
+            </value>
+            <value>
+                <fullName>M.S Walker-Total</fullName>
+                <default>false</default>
+                <label>M.S Walker-Total</label>
+            </value>
+            <value>
+                <fullName>Major Brands - Total</fullName>
+                <default>false</default>
+                <label>Major Brands - Total</label>
+            </value>
+            <value>
+                <fullName>Phillips-Total</fullName>
+                <default>false</default>
+                <label>Phillips-Total</label>
+            </value>
+            <value>
+                <fullName>R&amp;R Marketing-Total</fullName>
+                <default>false</default>
+                <label>R&amp;R Marketing-Total</label>
+            </value>
+            <value>
+                <fullName>Rndc - Total</fullName>
+                <default>false</default>
+                <label>Rndc - Total</label>
+            </value>
+            <value>
+                <fullName>Star Distributors-Total</fullName>
+                <default>false</default>
+                <label>Star Distributors-Total</label>
+            </value>
+            <value>
+                <fullName>Sws-Alaska</fullName>
+                <default>false</default>
+                <label>Sws-Alaska</label>
+            </value>
+            <value>
+                <fullName>Sws-Arizona</fullName>
+                <default>false</default>
+                <label>Sws-Arizona</label>
+            </value>
+            <value>
+                <fullName>Sws-Colorado</fullName>
+                <default>false</default>
+                <label>Sws-Colorado</label>
+            </value>
+            <value>
+                <fullName>Sws-Delaware</fullName>
+                <default>false</default>
+                <label>Sws-Delaware</label>
+            </value>
+            <value>
+                <fullName>Sws-Florida</fullName>
+                <default>false</default>
+                <label>Sws-Florida</label>
+            </value>
+            <value>
+                <fullName>Sws-Hawaii</fullName>
+                <default>false</default>
+                <label>Sws-Hawaii</label>
+            </value>
+            <value>
+                <fullName>Sws-Illinois</fullName>
+                <default>false</default>
+                <label>Sws-Illinois</label>
+            </value>
+            <value>
+                <fullName>Sws-Kentucky</fullName>
+                <default>false</default>
+                <label>Sws-Kentucky</label>
+            </value>
+            <value>
+                <fullName>Sws-Metro Ny</fullName>
+                <default>false</default>
+                <label>Sws-Metro Ny</label>
+            </value>
+            <value>
+                <fullName>Sws-Minnesota</fullName>
+                <default>false</default>
+                <label>Sws-Minnesota</label>
+            </value>
+            <value>
+                <fullName>Sws-Nevada</fullName>
+                <default>false</default>
+                <label>Sws-Nevada</label>
+            </value>
+            <value>
+                <fullName>Sws-New Mexico</fullName>
+                <default>false</default>
+                <label>Sws-New Mexico</label>
+            </value>
+            <value>
+                <fullName>Sws-No California</fullName>
+                <default>false</default>
+                <label>Sws-No California</label>
+            </value>
+            <value>
+                <fullName>Sws-So California</fullName>
+                <default>false</default>
+                <label>Sws-So California</label>
+            </value>
+            <value>
+                <fullName>Sws-South Carolina</fullName>
+                <default>false</default>
+                <label>Sws-South Carolina</label>
+            </value>
+            <value>
+                <fullName>Sws-Upstate Ny</fullName>
+                <default>false</default>
+                <label>Sws-Upstate Ny</label>
+            </value>
+            <value>
+                <fullName>Sws-Washington</fullName>
+                <default>false</default>
+                <label>Sws-Washington</label>
+            </value>
+            <value>
+                <fullName>Triple C-Total</fullName>
+                <default>false</default>
+                <label>Triple C-Total</label>
+            </value>
+            <value>
+                <fullName>United - Total</fullName>
+                <default>false</default>
+                <label>United - Total</label>
+            </value>
+            <value>
+                <fullName>West Tennessee Crown Distributing-Total</fullName>
+                <default>false</default>
+                <label>West Tennessee Crown Distributing-Total</label>
+            </value>
+            <value>
+                <fullName>Wirtz - Total</fullName>
+                <default>false</default>
+                <label>Wirtz - Total</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

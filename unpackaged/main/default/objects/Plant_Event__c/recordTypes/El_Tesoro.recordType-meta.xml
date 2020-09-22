@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>El_Tesoro</fullName>
+    <active>true</active>
+    <label>El Tesoro</label>
+    <picklistValues>
+        <picklist>Brand__c</picklist>
+        <values>
+            <fullName>El Tesoro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Knob Creek</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Makers Mark</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Plant__c</picklist>
+        <values>
+            <fullName>Clermont</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>La Alteña Distillery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loretto</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Product_Type__c</picklist>
+        <values>
+            <fullName>1973 43YEAR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Four Oak</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Full Barrel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JIM BEAM WHITE %26 COLA 10%25</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JIM BEAM WHITE %26 COLA 4%2E5%25</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SURF</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canceled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending Approval</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Time_Slot__c</picklist>
+        <values>
+            <fullName>09%3A00 AM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10%3A30 AM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>12%3A00 PM</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Time_of_Day__c</picklist>
+        <values>
+            <fullName>ALL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PM</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type__c</picklist>
+        <values>
+            <fullName>Blackout</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trip</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Waiting_Options__c</picklist>
+        <values>
+            <fullName>Cocktail Bar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tour after selection</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

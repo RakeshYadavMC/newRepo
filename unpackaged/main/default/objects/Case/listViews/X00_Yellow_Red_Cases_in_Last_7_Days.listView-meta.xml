@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X00_Yellow_Red_Cases_in_Last_7_Days</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CASES.RECORDTYPE</columns>
+    <columns>Traffic_Light__c</columns>
+    <columns>Running_Time__c</columns>
+    <columns>Time_With_Support__c</columns>
+    <columns>Running_Case_Time__c</columns>
+    <columns>Escalation_1__c</columns>
+    <columns>Escalation_2__c</columns>
+    <columns>Last_Status_Change__c</columns>
+    <columns>CASES.CREATED_DATE</columns>
+    <columns>SLA_Start_Time__c</columns>
+    <columns>SLA_End_Time__c</columns>
+    <columns>Hold_Time_Elapsed__c</columns>
+    <columns>Coordinator_Time_Elapsed__c</columns>
+    <columns>Case_Time_Elapsed__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.CLOSED</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>SLA_Status__c</field>
+        <operation>notEqual</operation>
+        <value>2_Green</value>
+    </filters>
+    <filters>
+        <field>CASES.CREATED_DATE</field>
+        <operation>equals</operation>
+        <value>LAST_N_DAYS:7</value>
+    </filters>
+    <label>00 Yellow/Red Cases in Last 7 Days</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>Salesforce_Support</group>
+    </sharedTo>
+</ListView>

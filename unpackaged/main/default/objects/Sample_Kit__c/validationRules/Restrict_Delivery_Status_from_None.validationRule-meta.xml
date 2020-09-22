@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Restrict_Delivery_Status_from_None</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(OR(ISBLANK(Tracking_Number__c), ISBLANK(TEXT(Carrier__c))), ISCHANGED(Delivery_Status__c), ISBLANK(TEXT(PRIORVALUE(Delivery_Status__c))))</errorConditionFormula>
+    <errorDisplayField>Delivery_Status__c</errorDisplayField>
+    <errorMessage>Tracking Number and Carrier field values should not be empty.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Category_3__c</fullName>
+    <externalId>false</externalId>
+    <label>Tertiary Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Category_2__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>3rd Party</fullName>
+                <default>false</default>
+                <label>3rd Party</label>
+            </value>
+            <value>
+                <fullName>Accrual</fullName>
+                <default>false</default>
+                <label>Accrual</label>
+            </value>
+            <value>
+                <fullName>Block</fullName>
+                <default>false</default>
+                <label>Block</label>
+            </value>
+            <value>
+                <fullName>Change</fullName>
+                <default>false</default>
+                <label>Change</label>
+            </value>
+            <value>
+                <fullName>CIP Reporting</fullName>
+                <default>false</default>
+                <label>CIP Reporting</label>
+            </value>
+            <value>
+                <fullName>Cost Center / IO Reclassification</fullName>
+                <default>false</default>
+                <label>Cost Center / IO Reclassification</label>
+            </value>
+            <value>
+                <fullName>Cost Center Detail</fullName>
+                <default>false</default>
+                <label>Cost Center Detail</label>
+            </value>
+            <value>
+                <fullName>Cost Center Reclassification</fullName>
+                <default>false</default>
+                <label>Cost Center Reclassification</label>
+            </value>
+            <value>
+                <fullName>Create</fullName>
+                <default>false</default>
+                <label>Create</label>
+            </value>
+            <value>
+                <fullName>Deprecation Pull</fullName>
+                <default>false</default>
+                <label>Deprecation Pull</label>
+            </value>
+            <value>
+                <fullName>Existing</fullName>
+                <default>false</default>
+                <label>Existing</label>
+            </value>
+            <value>
+                <fullName>Expiration</fullName>
+                <default>false</default>
+                <label>Expiration</label>
+            </value>
+            <value>
+                <fullName>Extend</fullName>
+                <default>false</default>
+                <label>Extend</label>
+            </value>
+            <value>
+                <fullName>FI Invoice Costing</fullName>
+                <default>false</default>
+                <label>FI Invoice Costing</label>
+            </value>
+            <value>
+                <fullName>Fixed Asset Sub-Ledger</fullName>
+                <default>false</default>
+                <label>Fixed Asset Sub-Ledger</label>
+            </value>
+            <value>
+                <fullName>Freight</fullName>
+                <default>false</default>
+                <label>Freight</label>
+            </value>
+            <value>
+                <fullName>FX Revaluation</fullName>
+                <default>false</default>
+                <label>FX Revaluation</label>
+            </value>
+            <value>
+                <fullName>G/L Account Reclassification</fullName>
+                <default>false</default>
+                <label>G/L Account Reclassification</label>
+            </value>
+            <value>
+                <fullName>Intercompany</fullName>
+                <default>false</default>
+                <label>Intercompany</label>
+            </value>
+            <value>
+                <fullName>Inventory Adjustment</fullName>
+                <default>false</default>
+                <label>Inventory Adjustment</label>
+            </value>
+            <value>
+                <fullName>New</fullName>
+                <default>false</default>
+                <label>New</label>
+            </value>
+            <value>
+                <fullName>Obsolete</fullName>
+                <default>false</default>
+                <label>Obsolete</label>
+            </value>
+            <value>
+                <fullName>PAB Form - Attached</fullName>
+                <default>false</default>
+                <label>PAB Form - Attached</label>
+            </value>
+            <value>
+                <fullName>PAB Form - Request</fullName>
+                <default>false</default>
+                <label>PAB Form - Request</label>
+            </value>
+            <value>
+                <fullName>Partner Function</fullName>
+                <default>false</default>
+                <label>Partner Function</label>
+            </value>
+            <value>
+                <fullName>Pricing</fullName>
+                <default>false</default>
+                <label>Pricing</label>
+            </value>
+            <value>
+                <fullName>Reconciliation</fullName>
+                <default>false</default>
+                <label>Reconciliation</label>
+            </value>
+            <value>
+                <fullName>Reporting</fullName>
+                <default>false</default>
+                <label>Reporting</label>
+            </value>
+            <value>
+                <fullName>Service Charge</fullName>
+                <default>false</default>
+                <label>Service Charge</label>
+            </value>
+            <value>
+                <fullName>Supporting Documentation</fullName>
+                <default>false</default>
+                <label>Supporting Documentation</label>
+            </value>
+            <value>
+                <fullName>Tax</fullName>
+                <default>false</default>
+                <label>Tax</label>
+            </value>
+            <value>
+                <fullName>Upload</fullName>
+                <default>false</default>
+                <label>Upload</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Regular pay/increase</fullName>
+                <default>false</default>
+                <label>Regular pay/increase</label>
+            </value>
+            <value>
+                <fullName>Bonus</fullName>
+                <default>false</default>
+                <label>Bonus</label>
+            </value>
+            <value>
+                <fullName>Company car</fullName>
+                <default>false</default>
+                <label>Company car</label>
+            </value>
+            <value>
+                <fullName>Brand ambassador</fullName>
+                <default>false</default>
+                <label>Brand ambassador</label>
+            </value>
+            <value>
+                <fullName>Relocation</fullName>
+                <default>false</default>
+                <label>Relocation</label>
+            </value>
+            <value>
+                <fullName>Other pay/earning inquiry</fullName>
+                <default>false</default>
+                <label>Other pay/earning inquiry</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Project Number/IO</controllingFieldValue>
+            <controllingFieldValue>Asset Tagging</controllingFieldValue>
+            <controllingFieldValue>G/L Upload Mapping</controllingFieldValue>
+            <controllingFieldValue>Master Data</controllingFieldValue>
+            <valueName>Change</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Project Number/IO</controllingFieldValue>
+            <controllingFieldValue>Asset Tagging</controllingFieldValue>
+            <controllingFieldValue>G/L Upload Mapping</controllingFieldValue>
+            <controllingFieldValue>Master Data</controllingFieldValue>
+            <valueName>Create</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Project Number/IO</controllingFieldValue>
+            <controllingFieldValue>Addition</controllingFieldValue>
+            <controllingFieldValue>Report</controllingFieldValue>
+            <controllingFieldValue>Reporting</controllingFieldValue>
+            <controllingFieldValue>Asset Tagging</controllingFieldValue>
+            <controllingFieldValue>Destruction Requests</controllingFieldValue>
+            <controllingFieldValue>G/L Upload Mapping</controllingFieldValue>
+            <controllingFieldValue>Journal Entry</controllingFieldValue>
+            <controllingFieldValue>Master Data</controllingFieldValue>
+            <controllingFieldValue>Payroll GL accounting reports</controllingFieldValue>
+            <controllingFieldValue>Bailment inventory reporting</controllingFieldValue>
+            <controllingFieldValue>Other - bailment inventory</controllingFieldValue>
+            <controllingFieldValue>Fixed asset reporting</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bailment Inventory</controllingFieldValue>
+            <controllingFieldValue>Report</controllingFieldValue>
+            <controllingFieldValue>Bailment inventory reporting</controllingFieldValue>
+            <valueName>FI Invoice Costing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bailment Inventory</controllingFieldValue>
+            <controllingFieldValue>Report</controllingFieldValue>
+            <controllingFieldValue>Bailment inventory reporting</controllingFieldValue>
+            <valueName>Reconciliation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Billing Posting - OTC</controllingFieldValue>
+            <controllingFieldValue>Audit</controllingFieldValue>
+            <controllingFieldValue>Fixed Assets</controllingFieldValue>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <controllingFieldValue>Invoice Posting - PTP</controllingFieldValue>
+            <controllingFieldValue>Journal Entry Posting</controllingFieldValue>
+            <controllingFieldValue>Other – Audit request</controllingFieldValue>
+            <controllingFieldValue>Payment Posting - PTP</controllingFieldValue>
+            <valueName>Existing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Billing Posting - OTC</controllingFieldValue>
+            <controllingFieldValue>Audit</controllingFieldValue>
+            <controllingFieldValue>Fixed Assets</controllingFieldValue>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <controllingFieldValue>Invoice Posting - PTP</controllingFieldValue>
+            <controllingFieldValue>Journal Entry Posting</controllingFieldValue>
+            <controllingFieldValue>Other – Audit request</controllingFieldValue>
+            <controllingFieldValue>Payment Posting - PTP</controllingFieldValue>
+            <valueName>New</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Addition</controllingFieldValue>
+            <valueName>PAB Form - Attached</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Addition</controllingFieldValue>
+            <valueName>PAB Form - Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Report</controllingFieldValue>
+            <controllingFieldValue>Payroll GL accounting reports</controllingFieldValue>
+            <controllingFieldValue>Payroll GL Accounting</controllingFieldValue>
+            <valueName>Cost Center Detail</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reporting</controllingFieldValue>
+            <controllingFieldValue>Fixed asset reporting</controllingFieldValue>
+            <valueName>CIP Reporting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reporting</controllingFieldValue>
+            <controllingFieldValue>Fixed asset reporting</controllingFieldValue>
+            <valueName>Deprecation Pull</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reporting</controllingFieldValue>
+            <controllingFieldValue>Fixed asset reporting</controllingFieldValue>
+            <valueName>Fixed Asset Sub-Ledger</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pay/earnings inquiry</controllingFieldValue>
+            <valueName>Regular pay/increase</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pay/earnings inquiry</controllingFieldValue>
+            <valueName>Bonus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pay/earnings inquiry</controllingFieldValue>
+            <valueName>Company car</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pay/earnings inquiry</controllingFieldValue>
+            <valueName>Brand ambassador</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pay/earnings inquiry</controllingFieldValue>
+            <valueName>Relocation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pay/earnings inquiry</controllingFieldValue>
+            <valueName>Other pay/earning inquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Destruction Requests</controllingFieldValue>
+            <valueName>Expiration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Destruction Requests</controllingFieldValue>
+            <valueName>Obsolete</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Journal Entry</controllingFieldValue>
+            <valueName>Cost Center Reclassification</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other - bailment inventory</controllingFieldValue>
+            <valueName>Inventory Adjustment</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

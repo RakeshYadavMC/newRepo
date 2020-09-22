@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Plant_Event__c.Cases__r$CaseNumber</field>
+    </columns>
+    <columns>
+        <field>Plant_Event__c.Cases__r$Brand__c</field>
+    </columns>
+    <columns>
+        <field>Plant_Event__c$Name</field>
+    </columns>
+    <columns>
+        <field>Plant_Event__c$Scheduled_Date__c</field>
+    </columns>
+    <columns>
+        <field>Plant_Event__c$Time_of_Day__c</field>
+    </columns>
+    <columns>
+        <field>Plant_Event__c.Cases__r$Submitter__c</field>
+    </columns>
+    <columns>
+        <field>Plant_Event__c.Cases__r$Retail_Account__c</field>
+    </columns>
+    <columns>
+        <field>Plant_Event__c.Cases__r$Account</field>
+    </columns>
+    <currency>USD</currency>
+    <description>Sent to Amber Mason
+Weekly on Thursdays</description>
+    <filter>
+        <criteriaItems>
+            <column>Plant_Event__c.Cases__r$Status</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>DUP - No Action,Close Pending,Closed,Closed - Abandoned,Closed - Approved,Closed - Rejected,Closed - No Action,Canceled,Cancelled-Allocation</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Plant_Event__c.Cases__r$Brand__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Knob Creek</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Plant_Event__c.Cases__r$Account</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>SOUTHERN WINE &amp; SPIRITS OF FL</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>FL Plant Events</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Plant_Events__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>Plant_Event__c$Scheduled_Date__c</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>Plant_Event__c$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

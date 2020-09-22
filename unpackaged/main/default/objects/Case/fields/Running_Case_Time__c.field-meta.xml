@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Running_Case_Time__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(NOW() &gt; SLA_Start_Time__c &amp;&amp; NOW() &lt; SLA_End_Time__c &amp;&amp; IsClosed = FALSE, Time_With_Support__c + Time_With_Customer__c + Running_Time__c, Time_With_Support__c + Time_With_Customer__c)</formula>
+    <label>Running Case Time</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>3</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

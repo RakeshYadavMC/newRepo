@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Central_RTD_Program</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Central RTD</label>
+    <queue>Central_RTD</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

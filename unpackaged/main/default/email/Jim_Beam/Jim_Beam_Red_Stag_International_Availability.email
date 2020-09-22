@@ -1,0 +1,9 @@
+<p>Dear {!Contact.FirstName},</p>
+<p>Thanks for your inquiry about Red Stag by Jim Beam®!  We always like to hear from our consumers.   </p>
+<p>Unfortunately, the distribution of Red Stag by Jim Beam® is currently limited to the United States, but we'll keep your contact information on file and let you know if it migrates to your country in the future.</p>
+<p>Learn more about our unique, cherry-infused bourbon at www.JimBeam.com. You'll find recipes and tasting notes, and you can Join The Herd to stay informed about promotions and cool events in your neck of the woods! Remember, you must be 21 or older to visit. And don't forget, you can also gather at the Red Stag by Jim Beam® watering hole and connect with other Red Stag by Jim Beam® fans by becoming a friend of Red Stag by Jim Beam® on Facebook.</p>
+<p>{!Case.OwnerFullName}<br />
+<strong>Jim Beam® Customer Care Representative</strong><br />
+<img src="{!$Label.SF_Base_URL_BrandLogo}JimBeam.png" alt=""  width="120px" /> <br />
+<a href="https://www.facebook.com/JimBeamUS"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}facebook.png" width="20" alt="" /></a> <a href="https://twitter.com/JimBeam"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}twitter.png" width="20" alt="" /></a> <a href="https://instagram.com/Jimbeamofficial"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}instagram.png" width="20" alt="" /></a> <a href="http://www.pinterest.com/jimbeamofficial/"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}pinterest.png" width="20" alt="" /></a> <a href="https://www.youtube.com/JimBeam"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}youtube.png" width="20" alt="" /></a> <br />
+<a href="http://www.drinksmart.com"><img src="{!$Label.SF_Base_URL_BrandLogo}DrinkSmart.png" width="120" title="Drink Smart" alt="Drink Smart" /></a></p>

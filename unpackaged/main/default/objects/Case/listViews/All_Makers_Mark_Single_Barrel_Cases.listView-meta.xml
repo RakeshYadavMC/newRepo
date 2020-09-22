@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Makers_Mark_Single_Barrel_Cases</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>Account_State__c</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>Retail_Account__c</columns>
+    <columns>Submitter__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.Single_Barrel_Proof_Specific</value>
+    </filters>
+    <filters>
+        <field>Brand__c</field>
+        <operation>equals</operation>
+        <value>Makers Mark</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Closed,Closed - Abandoned,Canceled</value>
+    </filters>
+    <label>All Makers Mark Single Barrel Cases</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>Makers_Mark_Diplomats_Single_Barrel</group>
+    </sharedTo>
+</ListView>

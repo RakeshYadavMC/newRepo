@@ -1,0 +1,8 @@
+<p>Hi {!Case.OwnerFullName}</p>
+
+<p>{!Case.Priority} Priority Case <a href="{!Case.Link}"># {!Case.CaseNumber}</a> - {!Case.How_can_we_help__c} - '{!Case.AdditionalInformation__c}' was pending with Customer since last 48 hrs and is now closed.</p>
+
+Thank you<br>
+Beam Suntory
+
+<p>{!Case.Thread_Id}</p>

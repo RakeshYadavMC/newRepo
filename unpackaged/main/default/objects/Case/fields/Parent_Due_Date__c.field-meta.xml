@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Parent_Due_Date__c</fullName>
+    <description>The Due Date of the Parent Case</description>
+    <externalId>false</externalId>
+    <formula>Parent.Due_Date__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>The Due Date of the Parent Case</inlineHelpText>
+    <label>Parent Due Date</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

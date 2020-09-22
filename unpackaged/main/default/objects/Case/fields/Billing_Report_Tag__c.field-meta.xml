@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Billing_Report_Tag__c</fullName>
+    <externalId>false</externalId>
+    <label>Report Tag</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>1099/1042 inquiries</fullName>
+                <default>false</default>
+                <label>1099/1042 inquiries</label>
+            </value>
+            <value>
+                <fullName>401k/Retirement</fullName>
+                <default>false</default>
+                <label>401k/Retirement</label>
+            </value>
+            <value>
+                <fullName>6th7th Day</fullName>
+                <default>false</default>
+                <label>6th7th Day</label>
+            </value>
+            <value>
+                <fullName>Accounting</fullName>
+                <default>false</default>
+                <label>Accounting</label>
+            </value>
+            <value>
+                <fullName>Add Output</fullName>
+                <default>false</default>
+                <label>Add Output</label>
+            </value>
+            <value>
+                <fullName>Address Inquiry/Issue</fullName>
+                <default>false</default>
+                <label>Address Inquiry/Issue</label>
+            </value>
+            <value>
+                <fullName>Adhoc Report</fullName>
+                <default>false</default>
+                <label>Adhoc Report</label>
+            </value>
+            <value>
+                <fullName>ADL</fullName>
+                <default>false</default>
+                <label>ADL</label>
+            </value>
+            <value>
+                <fullName>Adoption</fullName>
+                <default>false</default>
+                <label>Adoption</label>
+            </value>
+            <value>
+                <fullName>Aires</fullName>
+                <default>false</default>
+                <label>Aires</label>
+            </value>
+            <value>
+                <fullName>Annual Bonus (AIP, SIP)</fullName>
+                <default>false</default>
+                <label>Annual Bonus (AIP, SIP)</label>
+            </value>
+            <value>
+                <fullName>ATI/PA request</fullName>
+                <default>false</default>
+                <label>ATI/PA request</label>
+            </value>
+            <value>
+                <fullName>Attendees Required/Missing</fullName>
+                <default>false</default>
+                <label>Attendees Required/Missing</label>
+            </value>
+            <value>
+                <fullName>Auto Allowance</fullName>
+                <default>false</default>
+                <label>Auto Allowance</label>
+            </value>
+            <value>
+                <fullName>Available Expense/Import Inquiries</fullName>
+                <default>false</default>
+                <label>Available Expense/Import Inquiries</label>
+            </value>
+            <value>
+                <fullName>Awards</fullName>
+                <default>false</default>
+                <label>Awards</label>
+            </value>
+            <value>
+                <fullName>Bad Pin/Pin Reset</fullName>
+                <default>false</default>
+                <label>Bad Pin/Pin Reset</label>
+            </value>
+            <value>
+                <fullName>Banking</fullName>
+                <default>false</default>
+                <label>Banking</label>
+            </value>
+            <value>
+                <fullName>Banking Details update</fullName>
+                <default>false</default>
+                <label>Banking Details update</label>
+            </value>
+            <value>
+                <fullName>BCD requested vendor/merchant not available</fullName>
+                <default>false</default>
+                <label>BCD requested vendor/merchant not available</label>
+            </value>
+            <value>
+                <fullName>BCD Travel Rate Inquiry</fullName>
+                <default>false</default>
+                <label>BCD Travel Rate Inquiry</label>
+            </value>
+            <value>
+                <fullName>Beam Global</fullName>
+                <default>false</default>
+                <label>Beam Global</label>
+            </value>
+            <value>
+                <fullName>Beam Pac</fullName>
+                <default>false</default>
+                <label>Beam Pac</label>
+            </value>
+            <value>
+                <fullName>Benefit Focus</fullName>
+                <default>false</default>
+                <label>Benefit Focus</label>
+            </value>
+            <value>
+                <fullName>Benefits</fullName>
+                <default>false</default>
+                <label>Benefits</label>
+            </value>
+            <value>
+                <fullName>BI Review/Questions/Inquiries</fullName>
+                <default>false</default>
+                <label>BI Review/Questions/Inquiries</label>
+            </value>
+            <value>
+                <fullName>Bonus (Sign-On, )</fullName>
+                <default>false</default>
+                <label>Bonus (Sign-On, )</label>
+            </value>
+            <value>
+                <fullName>Brand Ambassador</fullName>
+                <default>false</default>
+                <label>Brand Ambassador</label>
+            </value>
+            <value>
+                <fullName>Brokerage</fullName>
+                <default>false</default>
+                <label>Brokerage</label>
+            </value>
+            <value>
+                <fullName>CA Adjustment</fullName>
+                <default>false</default>
+                <label>CA Adjustment</label>
+            </value>
+            <value>
+                <fullName>Canada</fullName>
+                <default>false</default>
+                <label>Canada</label>
+            </value>
+            <value>
+                <fullName>Cancel invoice - Accounting Error</fullName>
+                <default>false</default>
+                <label>Cancel invoice - Accounting Error</label>
+            </value>
+            <value>
+                <fullName>Cancel Invoice - Customer Master Error</fullName>
+                <default>false</default>
+                <label>Cancel Invoice - Customer Master Error</label>
+            </value>
+            <value>
+                <fullName>Cancel Invoice - Delivery Error</fullName>
+                <default>false</default>
+                <label>Cancel Invoice - Delivery Error</label>
+            </value>
+            <value>
+                <fullName>Cancel Invoice - FI/CO interface Error</fullName>
+                <default>false</default>
+                <label>Cancel Invoice - FI/CO interface Error</label>
+            </value>
+            <value>
+                <fullName>Cancel Invoice - IT Issue</fullName>
+                <default>false</default>
+                <label>Cancel Invoice - IT Issue</label>
+            </value>
+            <value>
+                <fullName>Cancel Invoice - Missing Conditions</fullName>
+                <default>false</default>
+                <label>Cancel Invoice - Missing Conditions</label>
+            </value>
+            <value>
+                <fullName>Cancel Invoice - Other</fullName>
+                <default>false</default>
+                <label>Cancel Invoice - Other</label>
+            </value>
+            <value>
+                <fullName>Cancel Invoice - Pricing</fullName>
+                <default>false</default>
+                <label>Cancel Invoice - Pricing</label>
+            </value>
+            <value>
+                <fullName>Cancel Invoice - Split Invoice</fullName>
+                <default>false</default>
+                <label>Cancel Invoice - Split Invoice</label>
+            </value>
+            <value>
+                <fullName>Ceridian Dayforce</fullName>
+                <default>false</default>
+                <label>Ceridian Dayforce</label>
+            </value>
+            <value>
+                <fullName>Champions Club</fullName>
+                <default>false</default>
+                <label>Champions Club</label>
+            </value>
+            <value>
+                <fullName>CitiManager profile update requests</fullName>
+                <default>false</default>
+                <label>CitiManager profile update requests</label>
+            </value>
+            <value>
+                <fullName>Clermont</fullName>
+                <default>false</default>
+                <label>Clermont</label>
+            </value>
+            <value>
+                <fullName>Close requests</fullName>
+                <default>false</default>
+                <label>Close requests</label>
+            </value>
+            <value>
+                <fullName>COE/TR</fullName>
+                <default>false</default>
+                <label>COE/TR</label>
+            </value>
+            <value>
+                <fullName>Commuter</fullName>
+                <default>false</default>
+                <label>Commuter</label>
+            </value>
+            <value>
+                <fullName>Company Car Fuel</fullName>
+                <default>false</default>
+                <label>Company Car Fuel</label>
+            </value>
+            <value>
+                <fullName>Configuration Enhancement</fullName>
+                <default>false</default>
+                <label>Configuration Enhancement</label>
+            </value>
+            <value>
+                <fullName>Corp Tax</fullName>
+                <default>false</default>
+                <label>Corp Tax</label>
+            </value>
+            <value>
+                <fullName>Correct Invoice - Currency</fullName>
+                <default>false</default>
+                <label>Correct Invoice - Currency</label>
+            </value>
+            <value>
+                <fullName>Correct Invoice - Freight</fullName>
+                <default>false</default>
+                <label>Correct Invoice - Freight</label>
+            </value>
+            <value>
+                <fullName>Correct Invoice - IT Issue</fullName>
+                <default>false</default>
+                <label>Correct Invoice - IT Issue</label>
+            </value>
+            <value>
+                <fullName>Correct Invoice - Other</fullName>
+                <default>false</default>
+                <label>Correct Invoice - Other</label>
+            </value>
+            <value>
+                <fullName>Correct Invoice - Pallets</fullName>
+                <default>false</default>
+                <label>Correct Invoice - Pallets</label>
+            </value>
+            <value>
+                <fullName>Correct Invoice - Partner Function</fullName>
+                <default>false</default>
+                <label>Correct Invoice - Partner Function</label>
+            </value>
+            <value>
+                <fullName>Correct Invoice  - Pricing</fullName>
+                <default>false</default>
+                <label>Correct Invoice  - Pricing</label>
+            </value>
+            <value>
+                <fullName>Correct Invoice - Service Charge</fullName>
+                <default>false</default>
+                <label>Correct Invoice - Service Charge</label>
+            </value>
+            <value>
+                <fullName>Correct Invoice - Tax</fullName>
+                <default>false</default>
+                <label>Correct Invoice - Tax</label>
+            </value>
+            <value>
+                <fullName>Correct Invoice - Trans SKU</fullName>
+                <default>false</default>
+                <label>Correct Invoice - Trans SKU</label>
+            </value>
+            <value>
+                <fullName>Cost of Living</fullName>
+                <default>false</default>
+                <label>Cost of Living</label>
+            </value>
+            <value>
+                <fullName>Create Canada Commissions</fullName>
+                <default>false</default>
+                <label>Create Canada Commissions</label>
+            </value>
+            <value>
+                <fullName>Create Canada TPM</fullName>
+                <default>false</default>
+                <label>Create Canada TPM</label>
+            </value>
+            <value>
+                <fullName>Create D2D Transfer</fullName>
+                <default>false</default>
+                <label>Create D2D Transfer</label>
+            </value>
+            <value>
+                <fullName>Create EDI Failure Notification</fullName>
+                <default>false</default>
+                <label>Create EDI Failure Notification</label>
+            </value>
+            <value>
+                <fullName>Create Financial Invoice</fullName>
+                <default>false</default>
+                <label>Create Financial Invoice</label>
+            </value>
+            <value>
+                <fullName>Cruzan</fullName>
+                <default>false</default>
+                <label>Cruzan</label>
+            </value>
+            <value>
+                <fullName>Deductions Adjustments</fullName>
+                <default>false</default>
+                <label>Deductions Adjustments</label>
+            </value>
+            <value>
+                <fullName>Destruction Adjustment</fullName>
+                <default>false</default>
+                <label>Destruction Adjustment</label>
+            </value>
+            <value>
+                <fullName>Direct Deposit Rejections</fullName>
+                <default>false</default>
+                <label>Direct Deposit Rejections</label>
+            </value>
+            <value>
+                <fullName>Discrepancy Investigation</fullName>
+                <default>false</default>
+                <label>Discrepancy Investigation</label>
+            </value>
+            <value>
+                <fullName>Duplicate Payment Review</fullName>
+                <default>false</default>
+                <label>Duplicate Payment Review</label>
+            </value>
+            <value>
+                <fullName>Duplicate Receipt Inquiries</fullName>
+                <default>false</default>
+                <label>Duplicate Receipt Inquiries</label>
+            </value>
+            <value>
+                <fullName>Duplicate Request</fullName>
+                <default>false</default>
+                <label>Duplicate Request</label>
+            </value>
+            <value>
+                <fullName>EDI Retransmission</fullName>
+                <default>false</default>
+                <label>EDI Retransmission</label>
+            </value>
+            <value>
+                <fullName>EMEA Adjustment</fullName>
+                <default>false</default>
+                <label>EMEA Adjustment</label>
+            </value>
+            <value>
+                <fullName>Emkay</fullName>
+                <default>false</default>
+                <label>Emkay</label>
+            </value>
+            <value>
+                <fullName>Employee Referral</fullName>
+                <default>false</default>
+                <label>Employee Referral</label>
+            </value>
+            <value>
+                <fullName>Employee Transfer</fullName>
+                <default>false</default>
+                <label>Employee Transfer</label>
+            </value>
+            <value>
+                <fullName>Exception Approval/Non-reimbursable expense</fullName>
+                <default>false</default>
+                <label>Exception Approval/Non-reimbursable expense</label>
+            </value>
+            <value>
+                <fullName>Exception Message/Audit Rule Inquiry</fullName>
+                <default>false</default>
+                <label>Exception Message/Audit Rule Inquiry</label>
+            </value>
+            <value>
+                <fullName>Executive Benefits</fullName>
+                <default>false</default>
+                <label>Executive Benefits</label>
+            </value>
+            <value>
+                <fullName>Exit Notification</fullName>
+                <default>false</default>
+                <label>Exit Notification</label>
+            </value>
+            <value>
+                <fullName>Expense entry does not match receipt</fullName>
+                <default>false</default>
+                <label>Expense entry does not match receipt</label>
+            </value>
+            <value>
+                <fullName>Expired Card Inquiry</fullName>
+                <default>false</default>
+                <label>Expired Card Inquiry</label>
+            </value>
+            <value>
+                <fullName>EY</fullName>
+                <default>false</default>
+                <label>EY</label>
+            </value>
+            <value>
+                <fullName>Fidelity</fullName>
+                <default>false</default>
+                <label>Fidelity</label>
+            </value>
+            <value>
+                <fullName>Final Pay</fullName>
+                <default>false</default>
+                <label>Final Pay</label>
+            </value>
+            <value>
+                <fullName>Frankfort</fullName>
+                <default>false</default>
+                <label>Frankfort</label>
+            </value>
+            <value>
+                <fullName>Fraud/Suspicious activity Inquiry</fullName>
+                <default>false</default>
+                <label>Fraud/Suspicious activity Inquiry</label>
+            </value>
+            <value>
+                <fullName>Frequent Flier Status</fullName>
+                <default>false</default>
+                <label>Frequent Flier Status</label>
+            </value>
+            <value>
+                <fullName>Garnishment, Support, Levy</fullName>
+                <default>false</default>
+                <label>Garnishment, Support, Levy</label>
+            </value>
+            <value>
+                <fullName>GBS</fullName>
+                <default>false</default>
+                <label>GBS</label>
+            </value>
+            <value>
+                <fullName>General Query</fullName>
+                <default>false</default>
+                <label>General Query</label>
+            </value>
+            <value>
+                <fullName>Gift Card</fullName>
+                <default>false</default>
+                <label>Gift Card</label>
+            </value>
+            <value>
+                <fullName>Global Mobility</fullName>
+                <default>false</default>
+                <label>Global Mobility</label>
+            </value>
+            <value>
+                <fullName>Hourly</fullName>
+                <default>false</default>
+                <label>Hourly</label>
+            </value>
+            <value>
+                <fullName>HRBP</fullName>
+                <default>false</default>
+                <label>HRBP</label>
+            </value>
+            <value>
+                <fullName>HR Ops</fullName>
+                <default>false</default>
+                <label>HR Ops</label>
+            </value>
+            <value>
+                <fullName>Incorrect Expense Type</fullName>
+                <default>false</default>
+                <label>Incorrect Expense Type</label>
+            </value>
+            <value>
+                <fullName>Increase</fullName>
+                <default>false</default>
+                <label>Increase</label>
+            </value>
+            <value>
+                <fullName>Informational</fullName>
+                <default>false</default>
+                <label>Informational</label>
+            </value>
+            <value>
+                <fullName>Intercompany</fullName>
+                <default>false</default>
+                <label>Intercompany</label>
+            </value>
+            <value>
+                <fullName>Interface Inquiry/Issues</fullName>
+                <default>false</default>
+                <label>Interface Inquiry/Issues</label>
+            </value>
+            <value>
+                <fullName>Internal order requests</fullName>
+                <default>false</default>
+                <label>Internal order requests</label>
+            </value>
+            <value>
+                <fullName>IT</fullName>
+                <default>false</default>
+                <label>IT</label>
+            </value>
+            <value>
+                <fullName>Itemization of hotel needed</fullName>
+                <default>false</default>
+                <label>Itemization of hotel needed</label>
+            </value>
+            <value>
+                <fullName>Makers Mark</fullName>
+                <default>false</default>
+                <label>Makers Mark</label>
+            </value>
+            <value>
+                <fullName>Manual Invoice Request</fullName>
+                <default>false</default>
+                <label>Manual Invoice Request</label>
+            </value>
+            <value>
+                <fullName>MCC unblock request</fullName>
+                <default>false</default>
+                <label>MCC unblock request</label>
+            </value>
+            <value>
+                <fullName>Merit/Lump Sum</fullName>
+                <default>false</default>
+                <label>Merit/Lump Sum</label>
+            </value>
+            <value>
+                <fullName>Missing/Incorrect Receipt</fullName>
+                <default>false</default>
+                <label>Missing/Incorrect Receipt</label>
+            </value>
+            <value>
+                <fullName>MR11</fullName>
+                <default>false</default>
+                <label>MR11</label>
+            </value>
+            <value>
+                <fullName>MRBR</fullName>
+                <default>false</default>
+                <label>MRBR</label>
+            </value>
+            <value>
+                <fullName>MX Adjustment</fullName>
+                <default>false</default>
+                <label>MX Adjustment</label>
+            </value>
+            <value>
+                <fullName>North Carolina Billing</fullName>
+                <default>false</default>
+                <label>North Carolina Billing</label>
+            </value>
+            <value>
+                <fullName>Notification</fullName>
+                <default>false</default>
+                <label>Notification</label>
+            </value>
+            <value>
+                <fullName>Offboarding</fullName>
+                <default>false</default>
+                <label>Offboarding</label>
+            </value>
+            <value>
+                <fullName>Offboarding former/terminated employees</fullName>
+                <default>false</default>
+                <label>Offboarding former/terminated employees</label>
+            </value>
+            <value>
+                <fullName>Order confirmation</fullName>
+                <default>false</default>
+                <label>Order confirmation</label>
+            </value>
+            <value>
+                <fullName>other</fullName>
+                <default>false</default>
+                <label>other</label>
+            </value>
+            <value>
+                <fullName>Other Bailment request</fullName>
+                <default>false</default>
+                <label>Other Bailment request</label>
+            </value>
+            <value>
+                <fullName>Password Reset</fullName>
+                <default>false</default>
+                <label>Password Reset</label>
+            </value>
+            <value>
+                <fullName>Pay Changes Reports</fullName>
+                <default>false</default>
+                <label>Pay Changes Reports</label>
+            </value>
+            <value>
+                <fullName>Personal Charge Repayments</fullName>
+                <default>false</default>
+                <label>Personal Charge Repayments</label>
+            </value>
+            <value>
+                <fullName>Personal Travel Inquiry</fullName>
+                <default>false</default>
+                <label>Personal Travel Inquiry</label>
+            </value>
+            <value>
+                <fullName>PGI Adjustment</fullName>
+                <default>false</default>
+                <label>PGI Adjustment</label>
+            </value>
+            <value>
+                <fullName>Positive Pay</fullName>
+                <default>false</default>
+                <label>Positive Pay</label>
+            </value>
+            <value>
+                <fullName>Print Invoice Copy</fullName>
+                <default>false</default>
+                <label>Print Invoice Copy</label>
+            </value>
+            <value>
+                <fullName>Profit Sharing</fullName>
+                <default>false</default>
+                <label>Profit Sharing</label>
+            </value>
+            <value>
+                <fullName>PTO</fullName>
+                <default>false</default>
+                <label>PTO</label>
+            </value>
+            <value>
+                <fullName>Redirected Request</fullName>
+                <default>false</default>
+                <label>Redirected Request</label>
+            </value>
+            <value>
+                <fullName>Regular Pay</fullName>
+                <default>false</default>
+                <label>Regular Pay</label>
+            </value>
+            <value>
+                <fullName>Relocation</fullName>
+                <default>false</default>
+                <label>Relocation</label>
+            </value>
+            <value>
+                <fullName>Repack Adjustment</fullName>
+                <default>false</default>
+                <label>Repack Adjustment</label>
+            </value>
+            <value>
+                <fullName>Resend through Ship Compliant</fullName>
+                <default>false</default>
+                <label>Resend through Ship Compliant</label>
+            </value>
+            <value>
+                <fullName>Retention Bonus</fullName>
+                <default>false</default>
+                <label>Retention Bonus</label>
+            </value>
+            <value>
+                <fullName>Retro Pay</fullName>
+                <default>false</default>
+                <label>Retro Pay</label>
+            </value>
+            <value>
+                <fullName>Severance</fullName>
+                <default>false</default>
+                <label>Severance</label>
+            </value>
+            <value>
+                <fullName>Shipping Tracking</fullName>
+                <default>false</default>
+                <label>Shipping Tracking</label>
+            </value>
+            <value>
+                <fullName>Sign-On Bonus</fullName>
+                <default>false</default>
+                <label>Sign-On Bonus</label>
+            </value>
+            <value>
+                <fullName>Splitting Charges</fullName>
+                <default>false</default>
+                <label>Splitting Charges</label>
+            </value>
+            <value>
+                <fullName>Spot Bonus</fullName>
+                <default>false</default>
+                <label>Spot Bonus</label>
+            </value>
+            <value>
+                <fullName>SSO/Concur mobile app issues</fullName>
+                <default>false</default>
+                <label>SSO/Concur mobile app issues</label>
+            </value>
+            <value>
+                <fullName>SuccessFactors</fullName>
+                <default>false</default>
+                <label>SuccessFactors</label>
+            </value>
+            <value>
+                <fullName>Taste Panel</fullName>
+                <default>false</default>
+                <label>Taste Panel</label>
+            </value>
+            <value>
+                <fullName>Taxi</fullName>
+                <default>false</default>
+                <label>Taxi</label>
+            </value>
+            <value>
+                <fullName>Timekeeping</fullName>
+                <default>false</default>
+                <label>Timekeeping</label>
+            </value>
+            <value>
+                <fullName>Treasury</fullName>
+                <default>false</default>
+                <label>Treasury</label>
+            </value>
+            <value>
+                <fullName>Tuition</fullName>
+                <default>false</default>
+                <label>Tuition</label>
+            </value>
+            <value>
+                <fullName>Tungsten inquiry</fullName>
+                <default>false</default>
+                <label>Tungsten inquiry</label>
+            </value>
+            <value>
+                <fullName>Unclaimed property inquiries</fullName>
+                <default>false</default>
+                <label>Unclaimed property inquiries</label>
+            </value>
+            <value>
+                <fullName>United Way</fullName>
+                <default>false</default>
+                <label>United Way</label>
+            </value>
+            <value>
+                <fullName>US Adjustment</fullName>
+                <default>false</default>
+                <label>US Adjustment</label>
+            </value>
+            <value>
+                <fullName>W2 Issues</fullName>
+                <default>false</default>
+                <label>W2 Issues</label>
+            </value>
+            <value>
+                <fullName>Wires</fullName>
+                <default>false</default>
+                <label>Wires</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

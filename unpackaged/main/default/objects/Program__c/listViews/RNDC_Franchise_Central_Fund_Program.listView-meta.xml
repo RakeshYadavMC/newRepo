@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RNDC_Franchise_Central_Fund_Program</fullName>
+    <filterScope>Queue</filterScope>
+    <label>RNDC/Franchise Central Fund</label>
+    <queue>RNDC_Franchise_Central_Fund</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

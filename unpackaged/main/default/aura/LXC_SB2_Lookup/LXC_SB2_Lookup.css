@@ -1,0 +1,18 @@
+.THIS {
+    position: relative;
+}
+
+.THIS .slds-form--inline .slds-form-element__control {
+    display: block !important;
+}
+
+.THIS label {
+    display: none !important;
+}
+
+.THIS .slds-listbox {
+    max-height: 8rem;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    min-width: 20rem;
+}

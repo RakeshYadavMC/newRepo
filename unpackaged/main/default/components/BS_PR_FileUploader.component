@@ -1,0 +1,342 @@
+<!----------------------------------------------
+   * Component Name: File_Uploader
+   * Controller/Extension Name: BS_PR_FileUploader_ctrl
+   * Description: This component is used to upload attachments. 
+                  1) Upload attachments
+                  2) Displaying th list of attachments uploaded
+                  3) Delete attchments
+                  4) Download & view the attachments           
+   * Changes: None
+------------------------------------------------>
+
+
+<apex:component controller="BS_PR_FileUploader_ctrl" id="uploadComponent" allowDML="true">
+    <apex:attribute description="Id of Parent record where attachment would be attached" name="ParentId" assignTo="{!Parent_id}" type="String" required="true"/>
+    <apex:attribute description="additional Id of Parent record where attachment would be attached" name="ParentId2" type="String" required="false"/>
+    <apex:form id="uploadForm_id">                
+        <head>
+            <apex:slds />
+            <title>Upload Attachments</title>
+            <style>
+                .slds td,
+                .slds th {
+                border: 1px solid #A9A9A9 !important;
+                }
+                
+                .tr td {
+                border-left: 0px;
+                }
+                
+                .success,
+                .dataTables_filter {
+                display: none;
+                }
+                
+                #dataTable td:first-child,
+                #dataTable td:nth-child(2) {
+                border-right: 0px;
+                }
+                
+                #dataTable td:nth-child(2),
+                #dataTable td:nth-child(3) {
+                border-left: 0px;
+                }
+                
+                #dataTable {
+                margin: 0 auto;
+                width: 50%;
+                }
+                
+                .FilebuttonStyle {
+                font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+                font-size: 13px;
+                color: #ffffff !important;
+                background-color: #169fcc !important;
+                text-decoration: none;
+                text-align: center;
+                border: 1px solid #1691ba !important;
+                line-height: 25px;
+                !important;
+                border-radius: 4px;
+                display: inline-block;
+                cursor: pointer;
+                width: 85px;
+                }
+                
+                #dataTable td:nth-child(2) {
+                text-align: left !important;
+                }
+                
+                td.fileRow {
+                overflow: hidden;
+                font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+                font-size: 13px;
+                color: #ffffff;
+                background-color: #8db728;
+                text-decoration: none;
+                text-align: left !important;
+                border: 1px solid #6c8049;
+                line-height: 32px;
+                !important;
+                border-radius: 4px;
+                //padding-left:10px;
+                //padding-right:10px;
+                background-image: linear-gradient(top, #9dcc3d, #7da223);
+                background-image: -o-linear-gradient(top, #9dcc3d, #7da223);
+                background-image: -moz-linear-gradient(top, #9dcc3d, #7da223);
+                background-image: -webkit-linear-gradient(top, #9dcc3d, #7da223);
+                background-image: -ms-linear-gradient(top, #9dcc3d, #7da223);
+                display: inline-block;
+                cursor: pointer;
+                width: 120px;
+                overflow: hidden;
+                }
+                
+                td.fileRow input {
+                display: block !important;
+                width: 157px !important;
+                height: 57px !important;
+                opacity: 0 !important;
+                text-align: left;
+                overflow: hidden !important;                
+                }
+                .FilebuttonGroup {
+                	margin: 1em 0;
+                }
+                
+				#Attachment_Table2 tr:hover {background-color: #ddd;}
+                #Attachment_Table2 th {
+                    text-align:center!important;
+                	color: #ffffff;
+                    background-color: #3a6690;
+                }  
+                
+            </style>
+            
+        </head>
+        <body>                            
+            <div class="slds">
+                <div class="site-main-content slds-col slds-col--rule-right slds-size--6-of-6 slds-large-size--12-of-12 slds-large-order--1">                      
+                    <div class="slidingDiv" style="display: block;">
+                        <div calss="slds-container--large content" style=" background:#fff !important;border: 1px solid #D9DEE7 !important;margin: 0 0 2% 0; padding: 1em !important;">
+                            <div calss="slds-container--large content">
+                                <apex:outputPanel id="topPanel">
+                                    <apex:outputPanel id="buttonsPanel">
+                                        <div class="FilebuttonGroup Hide_launch">
+                                            <center>
+                                                <input type="button" value="Upload" onclick="uploadFile()" status="loadStatus"  class="btn slds-button slds-button_success upload Hide_launch" style="color:#fff;"  title="Upload"/>                                                                                        	
+                                            	<apex:image styleclass="loadingimage" value="/img/loading32.gif" title="Processing..."  width="25" height="25"/>                                                                                  
+                                            </center>
+                                        </div>
+                                    </apex:outputPanel>
+                                    <apex:outputPanel id="inputPanel">
+                                        <table id="dataTable" class="" style="width:100px;border:1px solid #fff;margin:auto;">
+                                            <tbody>
+                                                <tr>
+                                                    <td class="fileRows" style="border:1px solid #fff;margin-left: 100px;">
+                                                        <tr class="Hide_launch">
+                                                            <!--<td><input type="checkbox" onclick="processCheckbox()" name="chk" class="fileCheckBox"/></td> -->
+                                                            <td class="fileRows"><input type="file" multiple="true"/></td>
+                                                            <!-- <td><span class="filestatus"></span></td> -->
+                                                        </tr>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </apex:outputPanel>
+                                    <apex:outputPanel id="msgPanel">
+                                        <center>
+                                            <div class="Success slds-notify slds-notify--toast slds-theme--inverse-text slds-theme--success" role="alert" style="z-index: 9999;display:none;">
+                                                <span class="slds-assistive-text">Success</span>
+                                                <div class="slds-col slds-align-middle">
+                                                    <h2 class="slds-text-heading--small">Files Uploaded Successfully:</h2>
+                                                    <div id="successfilesStatus"></div>
+                                                </div>
+                                            </div>
+                                            <div class="Error slds-notify slds-notify--toast slds-theme--inverse-text slds-theme--error" role="alert" style="z-index: 9999;display:none;">
+                                                <span class="slds-assistive-text">Error</span>
+                                                <div class="slds-col slds-align-middle">
+                                                    <h2 class="slds-text-heading--small">
+                                                        <span>Error Uploading Files:</span>
+                                                        <div id="errorfilesStatus"></div>
+                                                    </h2>                                        
+                                                </div>
+                                            </div>
+                                        </center>
+                                    </apex:outputPanel>
+                                    <br/>
+                                    <apex:outputPanel id="AttListTable">
+                                        <table id="Attachment_Table2" >
+                                            <thead>
+                                                <tr>
+                                                    <th>Action</th>
+                                                    <th>Name</th>
+                                                    <th>Created By</th>
+                                                    <th>Created Date</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <apex:repeat value="{!AttachmentsList}" var="a">
+                                                    <tr>
+                                                        <td>
+                                                            <apex:commandLink value="Del" action="{!deleteFile}" onclick="ConfirmDelete();" reRender="uploadForm_datatablescript,AttListTable">                                                    <!-- onclick="return confirm('Are you sure?');" -->
+                                                                <apex:param value="{!a.id}" name="attachment_id" assignTo="{!attachment_id}"/>
+                                                            </apex:commandLink>
+                                                        </td>
+                                                        <td>
+                                                            <apex:commandLink target="_blank" action="/servlet/servlet.FileDownload?file={!a.id}">{!a.Name}</apex:commandLink>
+                                                        </td>
+                                                        <td>{!a.Owner.Name}</td>
+                                                        <td>
+                                                            <apex:outputText value="{0,date,MM/dd/yyyy}">
+                                                                <apex:param value="{!a.CreatedDate}" />
+                                                            </apex:outputText>
+                                                        </td>
+                                                    </tr>
+                                                </apex:repeat>
+                                            </tbody>
+                                        </table>
+                                    </apex:outputPanel>
+                                </apex:outputPanel>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <apex:actionFunction name="reloadtopPanel" reRender="uploadForm_datatablescript,AttListTable,inputPanel"/>
+            <apex:actionFunction name="reloadAttListTable" reRender="uploadForm_datatablescript,AttListTable"/>
+            
+            <apex:outputPanel id="uploadForm_datatablescript">
+                <apex:includescript value="//code.jquery.com/jquery-3.4.1.min.js" />
+                <apex:includescript value="//cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js" />
+                <apex:stylesheet value="//cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css" />    
+                <script>
+                var __sfdcSessionId = '{!GETSESSIONID()}';
+                var filesToUpload = [];                
+                function ConfirmDelete(){
+                    $('.loadingimage').show();
+                    var x = confirm("Are you sure you want to delete?");
+                    if (x){                    	
+                        return true;
+                    }else{
+                        return false;
+                    }                        
+                }                
+                $(document).ready(function() {                      
+                      $('.loadingimage').hide();
+                    $("[id$='attachmentBlock']").find('.pbSubsection').attr({
+                        'style': 'margin-right:-70px !important;'
+                    });
+                    
+                      $('#Attachment_Table').DataTable({
+                          "bSort": false,
+                          "lengthChange": false,
+                          "paginate": true,
+                          "scrollCollapse": true,
+                          "iDisplayLength": 5,
+                          destroy: true,
+                          retrieve: true,
+                          "language": {
+                          "emptyTable": "No Uploads Available"
+                          }
+                                                                                          
+                      });
+                      $("[id$='_remove']").hide();                    
+                      
+                  });
+               </script>
+            </apex:outputPanel>
+            
+            <script src="/soap/ajax/46.0/connection.js" type="text/javascript"></script>
+            <script type="text/javascript">            	
+                function uploadFile(parentId) {
+                    $("input[type=file]").each(function() {
+                        //if($(this).val()) filesToUpload.push($(this)[0].files[0]);       
+                        if($(this).val()) {
+                            for(let i=0;i<$(this)[0].files.length;i++)
+                            filesToUpload.push($(this)[0].files[i]);   
+                        }
+                    });                
+                    var filecount = filesToUpload.length;
+                	var fCount=0;
+                    if(filecount==0) alert('Atleast one file must be selected!');                                        
+                    if(filecount>0) $('.upload').hide();
+                    if(filecount>0) $('.loadingimage').show();                  
+                    for (var i = 0; i < filecount; i++) {                        
+                        var f = filesToUpload[i];                        
+                        var reader = new FileReader();
+                        // Keep a reference to the File in the FileReader so it can be accessed in callbacks                        
+                        reader.file = f;						                        
+                        reader.onload = function(e){
+							fCount++;
+                            const fnamelength=this.file.name.length;
+                            const fsize=(this.file.size / 1024 / 1024).toFixed(2);                             
+                            if(fnamelength>60){
+                                //alert('File name must be less than 60 char length: '+this.file.name);                                
+                                //$('.loadingimage').hide();
+                                //$('.upload').show();
+                                $(".Error").css("display", "block");
+                                $("#errorfilesStatus").append("<li>"+this.file.name+" - Name > 60 char.</li>");
+                            }
+                            if(fsize>8){
+                            	//alert('File size must be less than 8 MB: '+this.file.name);                                
+                                //$('.loadingimage').hide();
+                                //$('.upload').show();
+                                $(".Error").css("display", "block");
+                                $("#errorfilesStatus").append("<li>"+this.file.name+" - Max 8MB allowed</li>");
+                            }                            
+                            if(fsize<=8 && fnamelength<=60){
+								var att = new sforce.SObject("Attachment");
+								att.Name = this.file.name;
+								att.ContentType = this.file.type;
+								att.ParentId = "{!ParentId}";
+								var binary = "";
+								var bytes = new Uint8Array(e.target.result);
+								var len = bytes.byteLength;
+								for (var j = 0; j < len; j++) {
+									binary += String.fromCharCode(bytes[j]);
+								}
+								att.Body = (new sforce.Base64Binary(binary)).toString();
+								var result = sforce.connection.create([att]);                         
+								if(result[0].getBoolean("success")) {										
+                                    //$('.loadingimage').show();                                      
+                                    //$('.upload').hide();
+									var prAttach = new sforce.SObject("PR_Attachment__c");
+									prAttach.Name=att.Name;
+									prAttach.Attachment_Id__c=result[0].id;
+									prAttach.PR_Header__c="{!ParentId}";
+									prAttach.Vendor__c="{!ParentId2}";
+									var prAttachResult = sforce.connection.create([prAttach]);
+                                    $(".Success").css("display", "block");
+                                    $("#successfilesStatus").append("<li>"+att.Name+" </li>");
+								}
+								else{                                	
+                                    $(".Error").css("display", "block");
+                                    $("#errorfilesStatus").append("<li>"+att.Name+" </li>");
+                                }
+                            }
+                            if(fCount>0 && fCount==filecount){
+                                NotifyMessage();
+                    		}
+                        };
+                        reader.readAsArrayBuffer(f);
+                    }
+                }
+				function NotifyMessage() {
+					setTimeout(function() {
+                        $('.Success').fadeOut(10000)
+						$('.Error').fadeOut(10000)
+                    }, 7000);
+                    //setTimeout(function() {                        												
+                        reloadtopPanel();
+                        $('.loadingimage').hide();
+						$('.upload').show();
+                    //}, 200);					
+                    return false;
+				}                           
+            </script>
+                           
+            </body>                        
+    </apex:form>              
+</apex:component>

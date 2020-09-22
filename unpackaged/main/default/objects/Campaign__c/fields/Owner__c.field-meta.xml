@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Owner__c</fullName>
+    <externalId>false</externalId>
+    <label>Owner</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>FBS/BTL/OFF PREMISE</fullName>
+                <default>false</default>
+                <label>FBS/BTL/OFF PREMISE</label>
+            </value>
+            <value>
+                <fullName>RTD/BTL/OFF PREMISE</fullName>
+                <default>false</default>
+                <label>RTD/BTL/OFF PREMISE</label>
+            </value>
+            <value>
+                <fullName>BTL/ON PREMISE</fullName>
+                <default>false</default>
+                <label>BTL/ON PREMISE</label>
+            </value>
+            <value>
+                <fullName>THE BLEND</fullName>
+                <default>false</default>
+                <label>THE BLEND</label>
+            </value>
+            <value>
+                <fullName>FBS/ATL</fullName>
+                <default>false</default>
+                <label>FBS/ATL</label>
+            </value>
+            <value>
+                <fullName>RTD/ATL</fullName>
+                <default>false</default>
+                <label>RTD/ATL</label>
+            </value>
+            <value>
+                <fullName>PENDULUM</fullName>
+                <default>false</default>
+                <label>PENDULUM</label>
+            </value>
+            <value>
+                <fullName>RESEARCH – SYND</fullName>
+                <default>false</default>
+                <label>RESEARCH – SYND</label>
+            </value>
+            <value>
+                <fullName>RESEARCH – CONSUMER</fullName>
+                <default>false</default>
+                <label>RESEARCH – CONSUMER</label>
+            </value>
+            <value>
+                <fullName>RESEARCH – INNOVATION</fullName>
+                <default>false</default>
+                <label>RESEARCH – INNOVATION</label>
+            </value>
+            <value>
+                <fullName>RESEARCH – ADHOC</fullName>
+                <default>false</default>
+                <label>RESEARCH – ADHOC</label>
+            </value>
+            <value>
+                <fullName>OTHER</fullName>
+                <default>false</default>
+                <label>OTHER</label>
+            </value>
+            <value>
+                <fullName>ON PREMISE</fullName>
+                <default>false</default>
+                <label>ON PREMISE</label>
+            </value>
+            <value>
+                <fullName>INNOVATION - BT</fullName>
+                <default>false</default>
+                <label>INNOVATION - BT</label>
+            </value>
+            <value>
+                <fullName>BT INNOVATION</fullName>
+                <default>false</default>
+                <label>BT INNOVATION</label>
+            </value>
+            <value>
+                <fullName>TCC</fullName>
+                <default>false</default>
+                <label>TCC</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

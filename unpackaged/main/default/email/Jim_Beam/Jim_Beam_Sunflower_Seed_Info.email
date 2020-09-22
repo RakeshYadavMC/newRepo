@@ -1,0 +1,7 @@
+<p>Dear {!Contact.FirstName},</p>
+<p>Thanks for your email inquiry about the Jim Beam® sunflower seeds.  The sunflower seeds are sold by the case.  Each bag is 5.5 ozs. in size and there are 12 bags in each case.  Hope you find this information helpful.</p>
+<p>{!Case.OwnerFullName}<br />
+<strong>Jim Beam® Customer Care Representative</strong><br />
+<img src="{!$Label.SF_Base_URL_BrandLogo}JimBeam.png" alt=""  width="120px" /> <br />
+<a href="https://www.facebook.com/JimBeamUS"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}facebook.png" width="20" alt="" /></a> <a href="https://twitter.com/JimBeam"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}twitter.png" width="20" alt="" /></a> <a href="https://instagram.com/Jimbeamofficial"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}instagram.png" width="20" alt="" /></a> <a href="http://www.pinterest.com/jimbeamofficial/"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}pinterest.png" width="20" alt="" /></a> <a href="https://www.youtube.com/JimBeam"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}youtube.png" width="20" alt="" /></a> <br />
+<a href="http://www.drinksmart.com"><img src="{!$Label.SF_Base_URL_BrandLogo}DrinkSmart.png" width="120" title="Drink Smart" alt="Drink Smart" /></a></p>

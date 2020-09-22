@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Brand__c</fullName>
+    <externalId>false</externalId>
+    <label>Brand</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>(ri)1</fullName>
+                <default>false</default>
+                <label>(ri)1</label>
+            </value>
+            <value>
+                <fullName>100 Anos</fullName>
+                <default>false</default>
+                <label>100 Anos</label>
+            </value>
+            <value>
+                <fullName>2 Gingers</fullName>
+                <default>false</default>
+                <label>2 Gingers</label>
+            </value>
+            <value>
+                <fullName>Aftershock</fullName>
+                <default>false</default>
+                <label>Aftershock</label>
+            </value>
+            <value>
+                <fullName>Alberta</fullName>
+                <default>false</default>
+                <label>Alberta</label>
+            </value>
+            <value>
+                <fullName>Alberta Premium</fullName>
+                <default>false</default>
+                <label>Alberta Premium</label>
+            </value>
+            <value>
+                <fullName>Alberta Pure</fullName>
+                <default>false</default>
+                <label>Alberta Pure</label>
+            </value>
+            <value>
+                <fullName>Alberta Springs</fullName>
+                <default>false</default>
+                <label>Alberta Springs</label>
+            </value>
+            <value>
+                <fullName>AO</fullName>
+                <default>false</default>
+                <label>AO</label>
+            </value>
+            <value>
+                <fullName>Ardmore</fullName>
+                <default>false</default>
+                <label>Ardmore</label>
+            </value>
+            <value>
+                <fullName>Auchentoshan</fullName>
+                <default>false</default>
+                <label>Auchentoshan</label>
+            </value>
+            <value>
+                <fullName>Baker's</fullName>
+                <default>false</default>
+                <label>Baker's</label>
+            </value>
+            <value>
+                <fullName>Banff Ice</fullName>
+                <default>false</default>
+                <label>Banff Ice</label>
+            </value>
+            <value>
+                <fullName>Basil Hayden's</fullName>
+                <default>false</default>
+                <label>Basil Hayden's</label>
+            </value>
+            <value>
+                <fullName>Booker's</fullName>
+                <default>false</default>
+                <label>Booker's</label>
+            </value>
+            <value>
+                <fullName>Bowmore</fullName>
+                <default>false</default>
+                <label>Bowmore</label>
+            </value>
+            <value>
+                <fullName>Bruxo</fullName>
+                <default>false</default>
+                <label>Bruxo</label>
+            </value>
+            <value>
+                <fullName>Calico Jack</fullName>
+                <default>false</default>
+                <label>Calico Jack</label>
+            </value>
+            <value>
+                <fullName>Canadian Club</fullName>
+                <default>false</default>
+                <label>Canadian Club</label>
+            </value>
+            <value>
+                <fullName>Castellana</fullName>
+                <default>false</default>
+                <label>Castellana</label>
+            </value>
+            <value>
+                <fullName>Cockburn's</fullName>
+                <default>false</default>
+                <label>Cockburn's</label>
+            </value>
+            <value>
+                <fullName>Conch</fullName>
+                <default>false</default>
+                <label>Conch</label>
+            </value>
+            <value>
+                <fullName>Connemara</fullName>
+                <default>false</default>
+                <label>Connemara</label>
+            </value>
+            <value>
+                <fullName>Courvoisier</fullName>
+                <default>false</default>
+                <label>Courvoisier</label>
+            </value>
+            <value>
+                <fullName>Cruzan</fullName>
+                <default>false</default>
+                <label>Cruzan</label>
+            </value>
+            <value>
+                <fullName>DeKuyper</fullName>
+                <default>false</default>
+                <label>DeKuyper</label>
+            </value>
+            <value>
+                <fullName>DYC</fullName>
+                <default>false</default>
+                <label>DYC</label>
+            </value>
+            <value>
+                <fullName>EFFEN</fullName>
+                <default>false</default>
+                <label>EFFEN</label>
+            </value>
+            <value>
+                <fullName>El Tesoro</fullName>
+                <default>false</default>
+                <label>El Tesoro</label>
+            </value>
+            <value>
+                <fullName>Gilbey's</fullName>
+                <default>false</default>
+                <label>Gilbey's</label>
+            </value>
+            <value>
+                <fullName>Giro</fullName>
+                <default>false</default>
+                <label>Giro</label>
+            </value>
+            <value>
+                <fullName>Glen Garioch</fullName>
+                <default>false</default>
+                <label>Glen Garioch</label>
+            </value>
+            <value>
+                <fullName>Hakushu</fullName>
+                <default>false</default>
+                <label>Hakushu</label>
+            </value>
+            <value>
+                <fullName>Hibiki</fullName>
+                <default>false</default>
+                <label>Hibiki</label>
+            </value>
+            <value>
+                <fullName>Hornitos</fullName>
+                <default>false</default>
+                <label>Hornitos</label>
+            </value>
+            <value>
+                <fullName>HOROYOI</fullName>
+                <default>false</default>
+                <label>HOROYOI</label>
+            </value>
+            <value>
+                <fullName>Jim Beam</fullName>
+                <default>false</default>
+                <label>Jim Beam</label>
+            </value>
+            <value>
+                <fullName>Jim Beam RTD</fullName>
+                <default>false</default>
+                <label>Jim Beam RTD</label>
+            </value>
+            <value>
+                <fullName>Kamchatka</fullName>
+                <default>false</default>
+                <label>Kamchatka</label>
+            </value>
+            <value>
+                <fullName>Kamora</fullName>
+                <default>false</default>
+                <label>Kamora</label>
+            </value>
+            <value>
+                <fullName>Kessler</fullName>
+                <default>false</default>
+                <label>Kessler</label>
+            </value>
+            <value>
+                <fullName>Kilbeggan</fullName>
+                <default>false</default>
+                <label>Kilbeggan</label>
+            </value>
+            <value>
+                <fullName>Knob Creek</fullName>
+                <default>false</default>
+                <label>Knob Creek</label>
+            </value>
+            <value>
+                <fullName>La Ina</fullName>
+                <default>false</default>
+                <label>La Ina</label>
+            </value>
+            <value>
+                <fullName>Laphroaig</fullName>
+                <default>false</default>
+                <label>Laphroaig</label>
+            </value>
+            <value>
+                <fullName>Larios</fullName>
+                <default>false</default>
+                <label>Larios</label>
+            </value>
+            <value>
+                <fullName>Legent</fullName>
+                <default>false</default>
+                <label>Legent</label>
+            </value>
+            <value>
+                <fullName>Leroux</fullName>
+                <default>false</default>
+                <label>Leroux</label>
+            </value>
+            <value>
+                <fullName>Maker's Mark</fullName>
+                <default>false</default>
+                <label>Maker's Mark</label>
+            </value>
+            <value>
+                <fullName>McClelland</fullName>
+                <default>false</default>
+                <label>McClelland</label>
+            </value>
+            <value>
+                <fullName>Midori</fullName>
+                <default>false</default>
+                <label>Midori</label>
+            </value>
+            <value>
+                <fullName>OAKSMITH</fullName>
+                <default>false</default>
+                <label>OAKSMITH</label>
+            </value>
+            <value>
+                <fullName>Old Crow</fullName>
+                <default>false</default>
+                <label>Old Crow</label>
+            </value>
+            <value>
+                <fullName>Old Grand Dad</fullName>
+                <default>false</default>
+                <label>Old Grand Dad</label>
+            </value>
+            <value>
+                <fullName>Old Overholt</fullName>
+                <default>false</default>
+                <label>Old Overholt</label>
+            </value>
+            <value>
+                <fullName>Old Tub</fullName>
+                <default>false</default>
+                <label>Old Tub</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Pavan</fullName>
+                <default>false</default>
+                <label>Pavan</label>
+            </value>
+            <value>
+                <fullName>Pinnacle</fullName>
+                <default>false</default>
+                <label>Pinnacle</label>
+            </value>
+            <value>
+                <fullName>Prime Blue</fullName>
+                <default>false</default>
+                <label>Prime Blue</label>
+            </value>
+            <value>
+                <fullName>Ronrico</fullName>
+                <default>false</default>
+                <label>Ronrico</label>
+            </value>
+            <value>
+                <fullName>Salignac</fullName>
+                <default>false</default>
+                <label>Salignac</label>
+            </value>
+            <value>
+                <fullName>Sauza</fullName>
+                <default>false</default>
+                <label>Sauza</label>
+            </value>
+            <value>
+                <fullName>Sipsmith</fullName>
+                <default>false</default>
+                <label>Sipsmith</label>
+            </value>
+            <value>
+                <fullName>Skinnygirl</fullName>
+                <default>false</default>
+                <label>Skinnygirl</label>
+            </value>
+            <value>
+                <fullName>Sourz</fullName>
+                <default>false</default>
+                <label>Sourz</label>
+            </value>
+            <value>
+                <fullName>Sunnybrook</fullName>
+                <default>false</default>
+                <label>Sunnybrook</label>
+            </value>
+            <value>
+                <fullName>Suntory</fullName>
+                <default>false</default>
+                <label>Suntory</label>
+            </value>
+            <value>
+                <fullName>Tangle Ridge</fullName>
+                <default>false</default>
+                <label>Tangle Ridge</label>
+            </value>
+            <value>
+                <fullName>Teacher's</fullName>
+                <default>false</default>
+                <label>Teacher's</label>
+            </value>
+            <value>
+                <fullName>Toki</fullName>
+                <default>false</default>
+                <label>Toki</label>
+            </value>
+            <value>
+                <fullName>Trave Amaretto</fullName>
+                <default>false</default>
+                <label>Trave Amaretto</label>
+            </value>
+            <value>
+                <fullName>Tres Generaciones</fullName>
+                <default>false</default>
+                <label>Tres Generaciones</label>
+            </value>
+            <value>
+                <fullName>Tyrconnell</fullName>
+                <default>false</default>
+                <label>Tyrconnell</label>
+            </value>
+            <value>
+                <fullName>Vox</fullName>
+                <default>false</default>
+                <label>Vox</label>
+            </value>
+            <value>
+                <fullName>Windsor Canadian</fullName>
+                <default>false</default>
+                <label>Windsor Canadian</label>
+            </value>
+            <value>
+                <fullName>Wolfschmidt Kummel</fullName>
+                <default>false</default>
+                <label>Wolfschmidt Kummel</label>
+            </value>
+            <value>
+                <fullName>Yamazaki</fullName>
+                <default>false</default>
+                <label>Yamazaki</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

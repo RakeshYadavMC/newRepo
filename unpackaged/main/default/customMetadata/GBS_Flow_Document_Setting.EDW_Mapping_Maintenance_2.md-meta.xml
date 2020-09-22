@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>EDW Mapping Maintenance 2</label>
+    <protected>false</protected>
+    <values>
+        <field>Business_Function__c</field>
+        <value xsi:type="xsd:string">GMDM</value>
+    </values>
+    <values>
+        <field>Display_Text__c</field>
+        <value xsi:type="xsd:string">Cost Center Request Form</value>
+    </values>
+    <values>
+        <field>GBS_Flow_Picklist_Setting__c</field>
+        <value xsi:type="xsd:string">EDW_Mapping_Maintenance</value>
+    </values>
+    <values>
+        <field>Link__c</field>
+        <value xsi:type="xsd:string">https://bgsw1.sharepoint.com/GBS-support/_layouts/15/WopiFrame.aspx?sourcedoc=%7B059277E2-7FEF-41A2-ABFD-0691F8085757%7D&amp;file=Cost%20Center%20Request%20Form.xlsx&amp;action=default&amp;CT=1510922646227&amp;OR=DocLibClassicUI</value>
+    </values>
+</CustomMetadata>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SKU_Issue__c</fullName>
+    <externalId>false</externalId>
+    <label>SKU Issue</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No Issue</fullName>
+                <default>false</default>
+                <label>No Issue</label>
+            </value>
+            <value>
+                <fullName>Obsolete Item</fullName>
+                <default>false</default>
+                <label>Obsolete Item</label>
+            </value>
+            <value>
+                <fullName>Wrong Plant</fullName>
+                <default>false</default>
+                <label>Wrong Plant</label>
+            </value>
+            <value>
+                <fullName>Allocation</fullName>
+                <default>false</default>
+                <label>Allocation</label>
+            </value>
+            <value>
+                <fullName>Pricing (YPOU)</fullName>
+                <default>false</default>
+                <label>Pricing (YPOU)</label>
+            </value>
+            <value>
+                <fullName>CMIR</fullName>
+                <default>false</default>
+                <label>CMIR</label>
+            </value>
+            <value>
+                <fullName>Costing (YMTP)</fullName>
+                <default>false</default>
+                <label>Costing (YMTP)</label>
+            </value>
+            <value>
+                <fullName>Price Discrepancy</fullName>
+                <default>false</default>
+                <label>Price Discrepancy</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Pending Discontinuation</fullName>
+                <default>false</default>
+                <label>Pending Discontinuation</label>
+            </value>
+            <value>
+                <fullName>Sales Promotion</fullName>
+                <default>false</default>
+                <label>Sales Promotion</label>
+            </value>
+            <value>
+                <fullName>Incorrect Material Number Used</fullName>
+                <default>false</default>
+                <label>Incorrect Material Number Used</label>
+            </value>
+            <value>
+                <fullName>Not a Beam Suntory Product</fullName>
+                <default>false</default>
+                <label>Not a Beam Suntory Product</label>
+            </value>
+            <value>
+                <fullName>item cannot be individually sold</fullName>
+                <default>false</default>
+                <label>item cannot be individually sold</label>
+            </value>
+            <value>
+                <fullName>Barrel SKU on multiple line PO</fullName>
+                <default>false</default>
+                <label>Barrel SKU on multiple line PO</label>
+            </value>
+            <value>
+                <fullName>Multiple items linked to SCC</fullName>
+                <default>false</default>
+                <label>Multiple items linked to SCC</label>
+            </value>
+            <value>
+                <fullName>Carrier</fullName>
+                <default>false</default>
+                <label>Carrier</label>
+            </value>
+            <value>
+                <fullName>SCC transmission error</fullName>
+                <default>false</default>
+                <label>SCC transmission error</label>
+            </value>
+            <value>
+                <fullName>Esker transmission error</fullName>
+                <default>false</default>
+                <label>Esker transmission error</label>
+            </value>
+            <value>
+                <fullName>Incorrect SCC submitted</fullName>
+                <default>false</default>
+                <label>Incorrect SCC submitted</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>10</visibleLines>
+</CustomField>

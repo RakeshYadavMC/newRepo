@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>EG and LMF Spend</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>EG and LMF Spend</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>EG Spend Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- EG Spend Hierarchy --></label>
+            <section>EG Spend Hierarchy</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>LMF Spend Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- LMF Spend Hierarchy --></label>
+            <section>LMF Spend Hierarchy</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- EG / DA Spend. --></description>
+        <label><!-- EG / DA Spend --></label>
+        <name>EG_DASpend</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- LMF Spend. --></description>
+        <label><!-- LMF Spend --></label>
+        <name>LMFSpend</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

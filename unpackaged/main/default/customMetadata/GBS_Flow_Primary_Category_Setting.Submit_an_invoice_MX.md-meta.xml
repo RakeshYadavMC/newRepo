@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Submit an invoice MX</label>
+    <protected>false</protected>
+    <values>
+        <field>Access_Groups__c</field>
+        <value xsi:type="xsd:string">ADMIN,EMPLOYEE,HR,PAYROLL,CS</value>
+    </values>
+    <values>
+        <field>GBS_Centers__c</field>
+        <value xsi:type="xsd:string">MX</value>
+    </values>
+    <values>
+        <field>GBS_Flow_Picklist_Setting__c</field>
+        <value xsi:type="xsd:string">Submit_an_invoice</value>
+    </values>
+    <values>
+        <field>GBS_Flow_Team_Setting__c</field>
+        <value xsi:type="xsd:string">Procure_to_Pay_Accounts_Payable</value>
+    </values>
+    <values>
+        <field>Order__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Visible_to_VIP_User__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+</CustomMetadata>

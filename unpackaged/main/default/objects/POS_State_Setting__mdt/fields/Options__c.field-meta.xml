@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Options__c</fullName>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Options</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Include;Don't Include</fullName>
+                <default>true</default>
+                <label>Include;Don't Include</label>
+            </value>
+            <value>
+                <fullName>Include;Don't Include;Insert Only</fullName>
+                <default>false</default>
+                <label>Include;Don't Include;Insert Only</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

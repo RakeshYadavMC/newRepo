@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BeamSuntory_Letterhead</letterhead>
+    <name>CONCUR PROFILE CREATION &amp; CREDIT CARD FORM HAS BEEN RECEIVED (US)</name>
+    <style>freeForm</style>
+    <subject>Action required: Concur profile &amp; credit card set-up</subject>
+    <textOnly>Hello,
+We have received your completed Concur Access and Credit Card Authorization Forms.  
+CONCUR INSTRUCTIONS, SETUP AND USE
+Instructions in regard to use of your Concur account to record travel and expenses have been sent under separate cover. The email will come from GBS_NA_TravelExpense@beamsuntory.com and includes important information on the following:
+•	Single Sign On and Concur mobile app usage (for both Beam and personal phones)
+•	Setting up personal banking information (required to begin submitting expenses)
+•	Verification of your email address to enable e-receipt functionality
+•	Travel profile setup
+•	Important information regarding business partnerships with companies such as Uber and Amazon for Business
+APPLICATION PROCESS FOR YOUR CORPORATE CREDIT CARD
+You will also receive an email with the application instructions for your corporate credit card shortly.
+NOTE:  Make sure you are using the email and passcode combination provided below when prompted (also included in Slide 3 and 4 of instruction file). Failure to do so will not allow you to finish the application process.
+Email address: bturner@beamsuntory.com
+Passcode: beamsuntoryonecard15
+ 
+How to apply for a corporate credit card - US
+ 
+****IMPORTANT: After you have submitted your online credit card application, submit a new SalesForce case at GBS_NA_TravelExpense@beamsuntory.com. This will notify T&amp;E your credit card application is ready for review &amp; approval.  You can expect your card to arrive 7-10 business days after confirmation of approval, which will be sent via email under separate cover. If you expect to incur business expenses before card delivery timeframe, please talk to your manager about making alternate arrangements for payment and reimbursement. ***  
+In preparation of corporate card usage, it is important to familiarize yourself with the Global T&amp;E Policy, specifically the guidelines regarding how to make travel arrangements and the difference between reimbursable and non-reimbursable business expenses.  Click here to view the Global T&amp;E Policy.
+We have also included a reference guide to help you become familiar with submitting expenses through our travel and expense system, Concur. The below link will help to assist you with your first few expense reports and help to navigate through some of the basics of the system.
+Citibank charges and T&amp;E expense guide
+If you have any questions about either your Concur profile or Citibank application process, please submit a case to GBS_NA_TravelExpense@beamsuntory.com. Thank you.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

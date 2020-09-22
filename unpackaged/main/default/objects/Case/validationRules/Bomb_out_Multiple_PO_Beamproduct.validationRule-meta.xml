@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bomb_out_Multiple_PO_Beamproduct</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISPICKVAL( Status , "Closed"),
+OR(ISPICKVAL( Type, "Barrel SKU on Multiple Line PO"),ISPICKVAL( Type, "Not a Beam Suntory Product")),
+OR(
+ISBLANK(Sales_order_Numberr__c),
+ISBLANK(PO_Number__c),
+ISBLANK(Additional_Info__c)
+
+)
+)</errorConditionFormula>
+    <errorMessage>Case cannot be closed if any of the fields : Sales order number,PO number,Additional Info are blank</errorMessage>
+</ValidationRule>

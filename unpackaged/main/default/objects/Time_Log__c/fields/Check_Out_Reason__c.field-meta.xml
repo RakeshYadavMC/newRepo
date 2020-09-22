@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_Out_Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>Check Out Reason</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Close of Business</fullName>
+                <default>false</default>
+                <label>Close of Business</label>
+            </value>
+            <value>
+                <fullName>Meeting</fullName>
+                <default>false</default>
+                <label>Meeting</label>
+            </value>
+            <value>
+                <fullName>Lunch</fullName>
+                <default>false</default>
+                <label>Lunch</label>
+            </value>
+            <value>
+                <fullName>PTO</fullName>
+                <default>false</default>
+                <label>PTO</label>
+            </value>
+            <value>
+                <fullName>Training</fullName>
+                <default>false</default>
+                <label>Training</label>
+            </value>
+            <value>
+                <fullName>Project</fullName>
+                <default>false</default>
+                <label>Project</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

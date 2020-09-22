@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Campaign_Balance_Available__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(AND(PR_Header_Status__c='New',PR_Amount__c &gt; Campaign_Balance__c),
+IMAGE("/resource/1575356823000/Cross_Mark", "Cross_Mark",20,20),
+IMAGE("/resource/1575356771000/Checked_Tick", "Checked_Tick",20,20)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Campaign Balance Available?</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

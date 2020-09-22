@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Case Resolved Email</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BeamSuntory_Letterhead</letterhead>
+    <name>Case Resolved Email</name>
+    <style>freeForm</style>
+    <subject>{!Case.CaseNumber} - {!Case.RecordType} - Your case has been resolved!</subject>
+    <textOnly>Case {!Case.CaseNumber} has been resolved.  If you feel as though this case was closed in error or there are open issues, please reply back to this email with &apos;REOPEN CASE&apos; in the subject line to re-open the case. Thank you for contacting Beam Suntory!
+
+
+
+Kind regards,
+
+
+
+Beam Suntory Customer Service
+
+
+
+
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

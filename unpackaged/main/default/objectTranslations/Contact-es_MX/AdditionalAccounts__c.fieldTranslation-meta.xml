@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Please use this field to identify any other Accounts this Contact is associated to. Include Store ID Store Name and any other relevant attributes used to identify the Account.</help>
+        <label>Cuentas Adicionales</label>
+        <name>AdditionalAccounts__c</name>
+    </CustomFieldTranslation>

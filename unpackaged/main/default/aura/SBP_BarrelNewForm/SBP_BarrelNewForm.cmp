@@ -1,0 +1,169 @@
+<aura:component implements="flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" access="global" >
+    
+    <aura:attribute name="barrelId" type="string"/>
+    <aura:attribute name="brand" type="string"/>
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <aura:registerEvent name="loadMyEvent" type="c:PassBarrelId"/>
+    
+    <lightning:overlayLibrary aura:id="overlayLib"/>
+    
+    <lightning:recordEditForm objectApiName="Barrel__c" 
+                              onload="{!c.handleCreateLoad}"
+                              onsuccess="{!c.onSuccess}"
+                              onsubmit="{!c.onSubmit}"
+                              onerror="{!c.onError}"
+                              recordId ="{!v.barrelId}"
+                              >
+       <aura:if isTrue="{!v.brand == 'Knob Creek'}"> 
+        
+       <div class="slds-tabs--scoped">
+            <fieldset class="slds-form--compound">
+                <div class="slds-form-element__group slds-tabs--scoped__content">
+                    <div class="slds-form-element__row">
+                        <div class="slds-form-element slds-size--1-of-2">
+                            <lightning:inputField aura:id="BrandId" fieldName="Brand__c"/>
+                        </div>
+                        <div class="slds-form-element slds-size--1-of-2">
+                            <lightning:inputField aura:id="recordtypeid" fieldName="RecordType"/>
+                        </div>
+                    </div>
+                    
+                    <div class="slds-form-element__row">
+                        <div class="slds-form-element slds-size--1-of-2">
+                            <lightning:inputField aura:id="productTypeId" fieldName="Product_Type__c"/>
+                        </div>
+                        <div class="slds-form-element slds-size--1-of-2">
+                            <lightning:inputField aura:id="proofId" fieldName="Proof__c"/>
+                        </div>
+                    </div>
+                    
+                    <div class="slds-form-element__row">
+                        <div class="slds-form-element slds-size--1-of-2">
+                            <lightning:inputField aura:id="warehouseId" fieldName="Warehouse__c"/>
+                        </div>
+                        <div class="slds-form-element slds-size--1-of-2">
+                            <lightning:inputField aura:id="barrelProofId" fieldName="Barrel_Proof__c"/>
+                        </div>
+                    </div>
+                    
+                    <div class="slds-form-element__row">
+                        <div class="slds-form-element slds-size--1-of-2">
+                            <lightning:inputField aura:id="floorId" fieldName="Floor__c"/>
+                        </div>
+                        <div class="slds-form-element slds-size--1-of-2">
+                            <lightning:inputField aura:id="barrelNumberId" fieldName="Barrel_Number__c"/>
+                        </div>
+                    </div>
+                    
+                    <div class="slds-form-element__row">
+                        <div class="slds-form-element slds-size--1-of-2">
+                            <lightning:inputField aura:id="rickId" fieldName="Rick__c"/>
+                        </div>
+                        <div class="slds-form-element slds-size--1-of-2">
+                            <lightning:inputField aura:id="tierId" fieldName="Tier__c"/>
+                        </div>
+                    </div>
+                    
+                    <div class="slds-form-element__row">
+                        <div class="slds-form-element slds-size--1-of-2">
+                            <lightning:inputField aura:id="storyId" fieldName="Story__c"/>
+                        </div>
+                        <div class="slds-form-element slds-size--1-of-2">
+                            <lightning:inputField aura:id="barrelDateId" fieldName="Barreled_Date__c"/>
+                        </div>
+                    </div>
+                    
+                </div>
+           </fieldset>
+        </div>
+        </aura:if>
+        
+        <aura:if isTrue="{!v.brand == 'El Tesoro'}"> 
+        
+       <div class="slds-tabs--scoped">
+            <fieldset class="slds-form--compound">
+                <div class="slds-form-element__group slds-tabs--scoped__content">
+                    <div class="slds-form-element__row">
+                        <div class="slds-form-element slds-size--1-of-2">
+                             <lightning:inputField aura:id="barrelNumberId" fieldName="Barrel_Number__c"/>
+                        </div>
+                        <div class="slds-form-element slds-size--1-of-2">
+                            <lightning:inputField aura:id="recordtypeid" fieldName="RecordType"/>
+                        </div>
+                    </div>
+                    
+                    <div class="slds-form-element__row">
+                        <div class="slds-form-element slds-size--1-of-2">
+                             <lightning:inputField aura:id="barrelNumberId" fieldName="Barrel_Id__c"/>
+                        </div>
+                        <div class="slds-form-element slds-size--1-of-2">
+                            <lightning:inputField aura:id="recordtypeid" fieldName="PO_Number__c"/>
+                        </div>
+                    </div>
+                    
+                    <div class="slds-form-element__row">
+                        <div class="slds-form-element slds-size--1-of-2">
+                             <lightning:inputField aura:id="barrelNumberId" fieldName="Quantity__c"/>
+                        </div>
+
+                    </div>
+                    
+                    <div class="slds-form-element__row">
+                        <div class="slds-form-element slds-size--1-of-2">
+                             <lightning:inputField aura:id="barrelNumberId" fieldName="SKU__c"/>
+                        </div>
+                        <div class="slds-form-element slds-size--1-of-2">
+                            <lightning:inputField aura:id="recordtypeid" fieldName="SKU_Entered_Date__c"/>
+                        </div>
+                    </div>
+                    
+                    <div class="slds-form-element__row">
+                        <div class="slds-form-element slds-size--1-of-2">
+                             <lightning:inputField aura:id="barrelNumberId" fieldName="Proof__c"/>
+                        </div>
+                        <div class="slds-form-element slds-size--1-of-2">
+                            <lightning:inputField aura:id="recordtypeid" fieldName="Barrel_Proof__c"/>
+                        </div>
+                    </div>
+                    
+                    <div class="slds-form-element__row">
+                        <div class="slds-form-element slds-size--1-of-2">
+                             <lightning:inputField aura:id="barrelNumberId" fieldName="Selection_Date__c"/>
+                        </div>
+                        <div class="slds-form-element slds-size--1-of-2">
+                            <lightning:inputField aura:id="recordtypeid" fieldName="Expected_Ship_Date__c"/>
+                        </div>
+                    </div>
+                    
+                    <div class="slds-form-element__row">
+                        <div class="slds-form-element slds-size--1-of-2">
+                             <lightning:inputField aura:id="barrelNumberId" fieldName="Barreled_Date__c"/>
+                        </div>
+                        <div class="slds-form-element slds-size--1-of-2">
+                            <lightning:inputField aura:id="recordtypeid" fieldName="Ship_Date__c"/>
+                        </div>
+                    </div>
+                    
+                    <div class="slds-form-element__row">
+                        <div class="slds-form-element slds-size--1-of-2">
+                             <lightning:inputField aura:id="barrelNumberId" fieldName="Tracking_Number__c"/>
+                        </div>     
+                    </div>
+                    
+                </div>
+                
+           </fieldset>
+           
+            </div>
+            
+        </aura:if>
+        
+            <footer class="slds-modal__footer">
+            	<lightning:button label="Cancel" class="slds-m-top--small" variant="neutral" onclick="{!c.CloseModel}"/>
+            	<lightning:button class = "slds-m-top--small" type="submit"  variant="brand" label="Save" />
+        	</footer>
+        
+    </lightning:recordEditForm>
+    
+    
+</aura:component>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Regional_Brand_House_2020_BI</fullName>
+    <booleanFilter>(1 OR 2 OR 3 OR 4 OR 5 OR 6 OR 7) AND 8</booleanFilter>
+    <columns>ParentMarketingPlan__c</columns>
+    <columns>Brand_Quality__c</columns>
+    <columns>NAME</columns>
+    <columns>PlannedCampaignSpend__c</columns>
+    <columns>CampaignBalance__c</columns>
+    <columns>CommittedCampaignSpend__c</columns>
+    <columns>IOCode__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ParentMarketingPlan__c</field>
+        <operation>startsWith</operation>
+        <value>Pinnacle Vodka-National Marketing</value>
+    </filters>
+    <filters>
+        <field>ParentMarketingPlan__c</field>
+        <operation>startsWith</operation>
+        <value>Pinnacle Vodka-National BTL</value>
+    </filters>
+    <filters>
+        <field>ParentMarketingPlan__c</field>
+        <operation>startsWith</operation>
+        <value>SQRRL Whiskey-National Marketing</value>
+    </filters>
+    <filters>
+        <field>ParentMarketingPlan__c</field>
+        <operation>startsWith</operation>
+        <value>Cruzan-National BTL</value>
+    </filters>
+    <filters>
+        <field>ParentMarketingPlan__c</field>
+        <operation>startsWith</operation>
+        <value>Cruzan-National Marketing</value>
+    </filters>
+    <filters>
+        <field>ParentMarketingPlan__c</field>
+        <operation>startsWith</operation>
+        <value>Dekuyper-National Marketing</value>
+    </filters>
+    <filters>
+        <field>ParentMarketingPlan__c</field>
+        <operation>startsWith</operation>
+        <value>Dekuyper-National BTL</value>
+    </filters>
+    <filters>
+        <field>Year__c</field>
+        <operation>equals</operation>
+        <value>2020</value>
+    </filters>
+    <label>Regional Brand House - 2020 BI</label>
+    <language>en_US</language>
+</ListView>

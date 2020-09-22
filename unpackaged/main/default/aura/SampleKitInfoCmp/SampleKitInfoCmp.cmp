@@ -1,0 +1,45 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" 
+                controller="SBP_SampleSelectionCmpCtrl">
+    
+    <aura:attribute name="recordId" type="String"/>
+    <aura:attribute name="recordIdLoaded" type="Boolean" default="false"/>
+    <aura:attribute name="sampleKitId" type="String"/>
+    <aura:attribute name="showSpinner" type="Boolean" default="false"/>
+    
+    <aura:handler name="init" action="{!c.doInit}" value="{!this}" />
+    
+    <lightning:card variant="Narrow" title="Sample Kit Info" iconName="utility:cart">     
+        <aura:if isTrue="{!v.showSpinner}">
+            <!--<lightning:spinner alternativeText="Loading" size="medium" variant="brand"/>-->
+            <aura:set attribute="else">
+                <aura:if isTrue="{!v.recordIdLoaded}">
+                    <p class="slds-p-horizontal_small">
+                        <lightning:recordViewForm recordId="{!v.sampleKitId}" objectApiName="Sample_Kit__c">
+                            <div class="slds-grid">
+                                <div class="slds-col slds-size_1-of-2">
+                                    <lightning:outputField fieldName="Name" />
+                                    <lightning:outputField fieldName="Tracking_Number__c" />
+                                    <lightning:outputField fieldName="Tracking_URL__c" />
+                                </div>
+                                <div class="slds-col slds-size_1-of-2">
+                                    <lightning:outputField fieldName="Tracking_Number_Creation_Date__c" />
+                                    <lightning:outputField fieldName="Kit_Selection_Last_Day__c" />
+                                    <lightning:outputField fieldName="Kit_Selection_Remaining_Days__c" />
+                                </div>
+                            </div>
+                        </lightning:recordViewForm>
+                        <div class="slds-box slds-box_xx-small slds-align_absolute-center">
+                        	<p><c:SampleKitSelectionCounterCmp recordId="{!v.sampleKitId}"/></p>
+                        </div>                        
+                    </p>
+                    <aura:set attribute="else">
+                        <div class="slds-text-align_center">
+                            <span><lightning:icon iconName="utility:info" variant="Brand" size="small"/></span>
+                            <span class="slds-text-heading_small">Sample-kit not available</span>
+                        </div>	                        
+                    </aura:set>
+                </aura:if>
+            </aura:set>
+        </aura:if>
+    </lightning:card>     
+</aura:component>

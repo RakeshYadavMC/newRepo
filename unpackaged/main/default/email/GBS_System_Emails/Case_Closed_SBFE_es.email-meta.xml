@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Case closed Spanish email template for GBS center SBFE</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Blank_Letterhead</letterhead>
+    <name>Case Closed (SBFE_es)</name>
+    <style>freeForm</style>
+    <subject>Case # {! Case.CaseNumber} has been resolved; see attached details</subject>
+    <textOnly>Hola,
+Su caso #{!Case.CaseNumber} ha sido cerrado, encuentre los detalles de la resolución a continuación: {!Case.Case_Resolution_Details__c}
+
+Por favor regálanos 5 segundos para la siguiente encuesta, es solo 1 pregunta.
+Como calificarías tu experiencia con GBS?
+
+
+         
+
+Gracias
+
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

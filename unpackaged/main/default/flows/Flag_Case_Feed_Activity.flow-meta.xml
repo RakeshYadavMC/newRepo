@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <interviewLabel>Flag Case Feed Activity {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Flag Case Feed Activity</label>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Set_Case_Activity_Flag</name>
+        <label>Set Case Activity Flag</label>
+        <locationX>265</locationX>
+        <locationY>173</locationY>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>FeedItem_ParentId</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>New_Activity__c</field>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <object>Case</object>
+    </recordUpdates>
+    <startElementReference>Set_Case_Activity_Flag</startElementReference>
+    <status>Draft</status>
+    <variables>
+        <name>FeedItem_ParentId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+</Flow>

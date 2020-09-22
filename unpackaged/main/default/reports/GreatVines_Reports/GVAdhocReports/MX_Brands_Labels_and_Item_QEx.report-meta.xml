@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>gvp__Brand__c$Name</field>
+    </columns>
+    <columns>
+        <field>gvp__Brand__c$gvp__Brand_Key__c</field>
+    </columns>
+    <columns>
+        <field>gvp__Brand__c.gvp__Labels__r$Name</field>
+    </columns>
+    <columns>
+        <field>gvp__Brand__c.gvp__Labels__r$gvp__Label_Key__c</field>
+    </columns>
+    <columns>
+        <field>gvp__Brand__c.gvp__Labels__r.gvp__Wines__r$Name</field>
+    </columns>
+    <columns>
+        <field>gvp__Brand__c.gvp__Labels__r.gvp__Wines__r$gvp__Item_Number__c</field>
+    </columns>
+    <currency>MXN</currency>
+    <filter>
+        <criteriaItems>
+            <column>gvp__Brand__c.gvp__Labels__r.gvp__Wines__r$gvp__Item_Number__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>startsWith</operator>
+            <value>MX</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>MX Brands Labels and Items</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Brands_with_Labels_with_Items_Customer__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>gvp__Brand__c$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

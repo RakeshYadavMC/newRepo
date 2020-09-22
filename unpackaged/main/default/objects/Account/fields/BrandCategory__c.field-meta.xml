@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BrandCategory__c</fullName>
+    <externalId>false</externalId>
+    <label>Brand Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>BrandPartnerType__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Bourbon</fullName>
+                <default>false</default>
+                <label>Bourbon</label>
+            </value>
+            <value>
+                <fullName>Cognac</fullName>
+                <default>false</default>
+                <label>Cognac</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Tequila</fullName>
+                <default>false</default>
+                <label>Tequila</label>
+            </value>
+            <value>
+                <fullName>Vodka</fullName>
+                <default>false</default>
+                <label>Vodka</label>
+            </value>
+            <value>
+                <fullName>World Whiskies</fullName>
+                <default>false</default>
+                <label>World Whiskies</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Standard &amp; Premium</controllingFieldValue>
+            <controllingFieldValue>Super Premium</controllingFieldValue>
+            <controllingFieldValue>Value</controllingFieldValue>
+            <valueName>Bourbon</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Standard &amp; Premium</controllingFieldValue>
+            <controllingFieldValue>Super Premium</controllingFieldValue>
+            <controllingFieldValue>Value</controllingFieldValue>
+            <valueName>Cognac</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Standard &amp; Premium</controllingFieldValue>
+            <controllingFieldValue>Super Premium</controllingFieldValue>
+            <controllingFieldValue>Value</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Standard &amp; Premium</controllingFieldValue>
+            <controllingFieldValue>Super Premium</controllingFieldValue>
+            <controllingFieldValue>Value</controllingFieldValue>
+            <valueName>Tequila</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Standard &amp; Premium</controllingFieldValue>
+            <controllingFieldValue>Super Premium</controllingFieldValue>
+            <controllingFieldValue>Value</controllingFieldValue>
+            <valueName>Vodka</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Standard &amp; Premium</controllingFieldValue>
+            <controllingFieldValue>Super Premium</controllingFieldValue>
+            <controllingFieldValue>Value</controllingFieldValue>
+            <valueName>World Whiskies</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

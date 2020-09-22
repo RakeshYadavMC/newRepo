@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Campaign__c$Id</field>
+    </columns>
+    <columns>
+        <field>Campaign__c$IOCode__c</field>
+    </columns>
+    <columns>
+        <field>Campaign__c$Name</field>
+    </columns>
+    <columns>
+        <field>Campaign__c$GL_Contact__c</field>
+    </columns>
+    <columns>
+        <field>Campaign__c$RequestStatus__c</field>
+    </columns>
+    <columns>
+        <field>Campaign__c$Request_Status_Message__c</field>
+    </columns>
+    <columns>
+        <field>Campaign__c$CreatedDate</field>
+    </columns>
+    <columns>
+        <field>Campaign__c$LastModifiedDate</field>
+    </columns>
+    <columns>
+        <field>Campaign__c$LastModifiedBy</field>
+    </columns>
+    <currency>USD</currency>
+    <description>IOs Stuck in Processing</description>
+    <filter>
+        <criteriaItems>
+            <column>Campaign__c$RequestStatus__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>IO Pending,IO Processing,IO Rejected</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Campaign__c$Year__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>2020</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>IOs Stuck in Processing SysAdmin</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Campaigns__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Campaign__c$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

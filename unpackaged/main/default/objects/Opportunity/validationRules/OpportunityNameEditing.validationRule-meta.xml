@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OpportunityNameEditing</fullName>
+    <active>true</active>
+    <description>Opportunity Names can only be edited by the System Admin Profile. This will ensure that opportunity names are only updated through the integration and not by any Sales 360 users without a System Admin Profile.</description>
+    <errorConditionFormula>ISCHANGED(Name)&amp;&amp; 
+NOT(OR(
+$Profile.Name = "System Administrator",
+$Profile.Name = "System Administrator with Bulk Hard Delete",
+$Profile.Name = "Commercial Services Management"
+))</errorConditionFormula>
+    <errorDisplayField>Name</errorDisplayField>
+    <errorMessage>Opportunity Name cannot be edited as Opportunity Name is controlled by Aperity.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validation_on_SAP_Reporting_Fields</fullName>
+    <active>true</active>
+    <description>Confirm values of Company Code and Controlling area.  If additional values are expected for either field, this validation rule should be updated with the new values</description>
+    <errorConditionFormula>or(
+and(
+SAP_Company_Code__c &lt;&gt; 'US30',
+SAP_Company_Code__c &lt;&gt; 'USC0',
+SAP_Company_Code__c &lt;&gt; 'MX10',
+SAP_Company_Code__c &lt;&gt; 'AU60',
+not(isblank(SAP_Company_Code__c))),
+and(
+SAP_Controlling_Area__c &lt;&gt; '2000',
+SAP_Controlling_Area__c &lt;&gt; '3000',
+SAP_Controlling_Area__c &lt;&gt; '6000',
+not(isblank(SAP_Controlling_Area__c))))</errorConditionFormula>
+    <errorMessage>You have entered an invalid Company Code or Controlling Area.  Valid Company Code values are US30, USC0, MX10, or AU60.  Valid Controlling Area values are 2000, 3000, and 6000</errorMessage>
+</ValidationRule>

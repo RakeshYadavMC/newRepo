@@ -1,0 +1,25 @@
+.THIS .slds-search{
+    width:12rem;
+}
+.THIS .slds-modal__container{
+    max-width: 75rem !important;
+    width:100% !important;
+}
+.THIS .slds-table_header-fixed_container{
+    border-top: 1px solid rgb(217, 219, 221)
+}
+.THIS input[type="search"]{
+    font-size:smaller;
+}
+.THIS lightning-input{
+    /*width:21.5rem; */
+}
+.THIS lightning-input_input{
+    border-radius: unset;
+}
+.THIS .padding-reset.slds-p-around_small{
+    padding: 0 0 .75rem 0.5rem;
+}
+.THIS .slds-search{
+    max-width:100% !important;
+}

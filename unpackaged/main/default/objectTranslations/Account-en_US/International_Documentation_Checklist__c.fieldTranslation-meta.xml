@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- International Documentation Checklist --></label>
+        <name>International_Documentation_Checklist__c</name>
+        <picklistValues>
+            <masterLabel>Annex VIII</masterLabel>
+            <translation><!-- Annex VIII --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bill of Lading</masterLabel>
+            <translation><!-- Bill of Lading --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Certificate of Age</masterLabel>
+            <translation><!-- Certificate of Age --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Certificate of Analysis</masterLabel>
+            <translation><!-- Certificate of Analysis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Certificate of Analysis with Lot Codes</masterLabel>
+            <translation><!-- Certificate of Analysis with Lot Codes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Certificate of Freesale</masterLabel>
+            <translation><!-- Certificate of Freesale --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Certificate of Freesale with Lot Codes</masterLabel>
+            <translation><!-- Certificate of Freesale with Lot Codes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Certificate of Origin</masterLabel>
+            <translation><!-- Certificate of Origin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Certificate of Origin with Lot Codes</masterLabel>
+            <translation><!-- Certificate of Origin with Lot Codes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice</masterLabel>
+            <translation><!-- Invoice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Packing List</masterLabel>
+            <translation><!-- Packing List --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Proforma</masterLabel>
+            <translation><!-- Proforma --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

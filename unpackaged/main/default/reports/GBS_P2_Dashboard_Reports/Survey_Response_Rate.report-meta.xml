@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <aggregates>
+        <acrossGroupingContext>BucketField_14897699</acrossGroupingContext>
+        <calculatedFormula>PARENTGROUPVAL(RowCount, Case.Type, BucketField_14897699)/PARENTGROUPVAL(RowCount, Case.Type, COLUMN_GRAND_SUMMARY)</calculatedFormula>
+        <datatype>percent</datatype>
+        <developerName>FORMULA1</developerName>
+        <downGroupingContext>Case$Type</downGroupingContext>
+        <isActive>true</isActive>
+        <isCrossBlock>false</isCrossBlock>
+        <masterLabel>Rate of Response</masterLabel>
+        <scale>2</scale>
+    </aggregates>
+    <buckets>
+        <bucketType>number</bucketType>
+        <developerName>BucketField_14897699</developerName>
+        <masterLabel>Response</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>Case$Satisfaction_Rating_Num__c</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <to>0</to>
+            </sourceValues>
+            <value>No Response Recieved</value>
+        </values>
+        <values>
+            <sourceValues>
+                <from>0</from>
+            </sourceValues>
+            <value>Response Recieved</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>Case$CaseNumber</field>
+    </columns>
+    <currency>USD</currency>
+    <description>The rate at which closed cases have their Satisfaction Survey taken</description>
+    <filter>
+        <criteriaItems>
+            <column>Case$Satisfaction_Rating__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>notEqual</operator>
+            <value></value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case$IsClosed</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>1</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case$BSI_Function__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>GBS</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case$Status</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Closed - Abandoned,Closed - No Action</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_14897699</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>Case$Satisfaction_Rating_Num__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Case$Type</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Case$Subject</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Survey Response Rate</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Cases__c</reportType>
+    <scope>organization</scope>
+    <showDetails>false</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Case$ClosedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

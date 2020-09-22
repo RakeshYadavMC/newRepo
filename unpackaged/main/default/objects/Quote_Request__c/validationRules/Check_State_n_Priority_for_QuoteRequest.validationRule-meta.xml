@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_State_n_Priority_for_QuoteRequest</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR
+(
+ ISPICKVAL(Case__r.State__c,''),
+ ISPICKVAL(Case__r.Priority,'')
+)</errorConditionFormula>
+    <errorMessage>Please enter State in the Parent Quote Request Case!</errorMessage>
+</ValidationRule>

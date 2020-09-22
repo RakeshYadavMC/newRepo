@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>Tipo de Cuenta Non-Premise</label>
+        <name>NonPremiseAccountType__c</name>
+        <picklistValues>
+            <masterLabel>Agency</masterLabel>
+            <translation>Agencia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Charity</masterLabel>
+            <translation>Caridad</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Event</masterLabel>
+            <translation>Evento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Industry Association</masterLabel>
+            <translation>Asociación Industrial</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Media</masterLabel>
+            <translation>Medios</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-Licensed Accounts</masterLabel>
+            <translation>Cuentas sin licencia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Organization</masterLabel>
+            <translation>Organización</translation>
+        </picklistValues>
+    </CustomFieldTranslation>

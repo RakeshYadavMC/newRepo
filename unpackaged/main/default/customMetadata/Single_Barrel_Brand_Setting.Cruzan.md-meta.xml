@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Cruzan</label>
+    <protected>false</protected>
+    <values>
+        <field>Brand__c</field>
+        <value xsi:type="xsd:string">Cruzan</value>
+    </values>
+    <values>
+        <field>Date_Hold__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>Distiller_s_Choice__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>Flavor__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Order__c</field>
+        <value xsi:type="xsd:double">4.0</value>
+    </values>
+    <values>
+        <field>Plant__c</field>
+        <value xsi:type="xsd:string">Clermont</value>
+    </values>
+    <values>
+        <field>Program_Types__c</field>
+        <value xsi:type="xsd:string">Sample Kit;Distiller&apos;s Choice</value>
+    </values>
+    <values>
+        <field>Recent_Recipes__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>Remote_Selection__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>Sample_Kit__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>Split_Barrel__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>Static_Resource_Name__c</field>
+        <value xsi:type="xsd:string">CruzanLogo</value>
+    </values>
+    <values>
+        <field>Trip_and_Tour__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>hasApplication__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>isActive__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+</CustomMetadata>

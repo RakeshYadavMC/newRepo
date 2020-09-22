@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Barrel_Order_Group__c</fullName>
+    <externalId>false</externalId>
+    <label>Barrel Order Group</label>
+    <referenceTo>Barrel_Order_Group__c</referenceTo>
+    <relationshipLabel>Sample Kits</relationshipLabel>
+    <relationshipName>Sample_Kits</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

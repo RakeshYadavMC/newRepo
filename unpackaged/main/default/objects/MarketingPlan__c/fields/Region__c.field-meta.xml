@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Region__c</fullName>
+    <externalId>false</externalId>
+    <label>Region</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Country__c</controllingField>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>__</fullName>
+                <default>false</default>
+                <label>__</label>
+            </value>
+            <value>
+                <fullName>8 Year Old Launch &amp; Refresh</fullName>
+                <default>false</default>
+                <label>8 Year Old Launch &amp; Refresh</label>
+            </value>
+            <value>
+                <fullName>8YO</fullName>
+                <default>false</default>
+                <label>8YO</label>
+            </value>
+            <value>
+                <fullName>AFL</fullName>
+                <default>false</default>
+                <label>AFL</label>
+            </value>
+            <value>
+                <fullName>Agency</fullName>
+                <default>false</default>
+                <label>Agency</label>
+            </value>
+            <value>
+                <fullName>Ardmore</fullName>
+                <default>false</default>
+                <label>Ardmore</label>
+            </value>
+            <value>
+                <fullName>ATL</fullName>
+                <default>false</default>
+                <label>ATL</label>
+            </value>
+            <value>
+                <fullName>Auctober</fullName>
+                <default>false</default>
+                <label>Auctober</label>
+            </value>
+            <value>
+                <fullName>Barrel List</fullName>
+                <default>false</default>
+                <label>Barrel List</label>
+            </value>
+            <value>
+                <fullName>Beer Festival</fullName>
+                <default>false</default>
+                <label>Beer Festival</label>
+            </value>
+            <value>
+                <fullName>Black Focus</fullName>
+                <default>false</default>
+                <label>Black Focus</label>
+            </value>
+            <value>
+                <fullName>Bowmore</fullName>
+                <default>false</default>
+                <label>Bowmore</label>
+            </value>
+            <value>
+                <fullName>Canada</fullName>
+                <default>false</default>
+                <label>Canada</label>
+            </value>
+            <value>
+                <fullName>Category</fullName>
+                <default>false</default>
+                <label>Category</label>
+            </value>
+            <value>
+                <fullName>Central Region</fullName>
+                <default>false</default>
+                <label>Central Region</label>
+            </value>
+            <value>
+                <fullName>Central Regional Programming</fullName>
+                <default>false</default>
+                <label>Central Regional Programming</label>
+            </value>
+            <value>
+                <fullName>Chita</fullName>
+                <default>false</default>
+                <label>Chita</label>
+            </value>
+            <value>
+                <fullName>Control State Region</fullName>
+                <default>false</default>
+                <label>Control State Region</label>
+            </value>
+            <value>
+                <fullName>Control States &amp; NA Region</fullName>
+                <default>false</default>
+                <label>Control States &amp; NA Region</label>
+            </value>
+            <value>
+                <fullName>Control States Region</fullName>
+                <default>false</default>
+                <label>Control States Region</label>
+            </value>
+            <value>
+                <fullName>Easter Program</fullName>
+                <default>false</default>
+                <label>Easter Program</label>
+            </value>
+            <value>
+                <fullName>East Region</fullName>
+                <default>false</default>
+                <label>East Region</label>
+            </value>
+            <value>
+                <fullName>Experimental Platform</fullName>
+                <default>false</default>
+                <label>Experimental Platform</label>
+            </value>
+            <value>
+                <fullName>FBS</fullName>
+                <default>false</default>
+                <label>FBS</label>
+            </value>
+            <value>
+                <fullName>Footy</fullName>
+                <default>false</default>
+                <label>Footy</label>
+            </value>
+            <value>
+                <fullName>Franchise Region</fullName>
+                <default>false</default>
+                <label>Franchise Region</label>
+            </value>
+            <value>
+                <fullName>Gifting</fullName>
+                <default>false</default>
+                <label>Gifting</label>
+            </value>
+            <value>
+                <fullName>Global Insights</fullName>
+                <default>false</default>
+                <label>Global Insights</label>
+            </value>
+            <value>
+                <fullName>Global Marketing</fullName>
+                <default>false</default>
+                <label>Global Marketing</label>
+            </value>
+            <value>
+                <fullName>Highball</fullName>
+                <default>false</default>
+                <label>Highball</label>
+            </value>
+            <value>
+                <fullName>Laphroaig</fullName>
+                <default>false</default>
+                <label>Laphroaig</label>
+            </value>
+            <value>
+                <fullName>Make History 2.0</fullName>
+                <default>false</default>
+                <label>Make History 2.0</label>
+            </value>
+            <value>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+                <label>Marketing</label>
+            </value>
+            <value>
+                <fullName>Marketing Services Region</fullName>
+                <default>false</default>
+                <label>Marketing Services Region</label>
+            </value>
+            <value>
+                <fullName>Media</fullName>
+                <default>false</default>
+                <label>Media</label>
+            </value>
+            <value>
+                <fullName>Mexico</fullName>
+                <default>false</default>
+                <label>Mexico</label>
+            </value>
+            <value>
+                <fullName>Midsouth Region</fullName>
+                <default>false</default>
+                <label>Midsouth Region</label>
+            </value>
+            <value>
+                <fullName>Misc</fullName>
+                <default>false</default>
+                <label>Misc</label>
+            </value>
+            <value>
+                <fullName>Must Win/Portfolio Programs Region</fullName>
+                <default>false</default>
+                <label>Must Win/Portfolio Programs Region</label>
+            </value>
+            <value>
+                <fullName>Must Win Region</fullName>
+                <default>false</default>
+                <label>Must Win Region</label>
+            </value>
+            <value>
+                <fullName>National BTL Region</fullName>
+                <default>false</default>
+                <label>National BTL Region</label>
+            </value>
+            <value>
+                <fullName>National Marketing</fullName>
+                <default>false</default>
+                <label>National Marketing</label>
+            </value>
+            <value>
+                <fullName>NPD</fullName>
+                <default>false</default>
+                <label>NPD</label>
+            </value>
+            <value>
+                <fullName>On Premise Advocacy</fullName>
+                <default>false</default>
+                <label>On Premise Advocacy</label>
+            </value>
+            <value>
+                <fullName>Packcentre</fullName>
+                <default>false</default>
+                <label>Packcentre</label>
+            </value>
+            <value>
+                <fullName>Peated Malts</fullName>
+                <default>false</default>
+                <label>Peated Malts</label>
+            </value>
+            <value>
+                <fullName>Pendulum</fullName>
+                <default>false</default>
+                <label>Pendulum</label>
+            </value>
+            <value>
+                <fullName>Proximity Media</fullName>
+                <default>false</default>
+                <label>Proximity Media</label>
+            </value>
+            <value>
+                <fullName>Refresh + Launch</fullName>
+                <default>false</default>
+                <label>Refresh + Launch</label>
+            </value>
+            <value>
+                <fullName>Research</fullName>
+                <default>false</default>
+                <label>Research</label>
+            </value>
+            <value>
+                <fullName>RNDC/Franchise Region</fullName>
+                <default>false</default>
+                <label>RNDC/Franchise Region</label>
+            </value>
+            <value>
+                <fullName>RTD</fullName>
+                <default>false</default>
+                <label>RTD</label>
+            </value>
+            <value>
+                <fullName>SGWS Region</fullName>
+                <default>false</default>
+                <label>SGWS Region</label>
+            </value>
+            <value>
+                <fullName>Summer</fullName>
+                <default>false</default>
+                <label>Summer</label>
+            </value>
+            <value>
+                <fullName>Tennis</fullName>
+                <default>false</default>
+                <label>Tennis</label>
+            </value>
+            <value>
+                <fullName>The Blend</fullName>
+                <default>false</default>
+                <label>The Blend</label>
+            </value>
+            <value>
+                <fullName>The Blend / Ambassadors</fullName>
+                <default>false</default>
+                <label>The Blend / Ambassadors</label>
+            </value>
+            <value>
+                <fullName>Third Party</fullName>
+                <default>false</default>
+                <label>Third Party</label>
+            </value>
+            <value>
+                <fullName>Trial (Horseracing)</fullName>
+                <default>false</default>
+                <label>Trial (Horseracing)</label>
+            </value>
+            <value>
+                <fullName>Turnkey Kits</fullName>
+                <default>false</default>
+                <label>Turnkey Kits</label>
+            </value>
+            <value>
+                <fullName>University Program</fullName>
+                <default>false</default>
+                <label>University Program</label>
+            </value>
+            <value>
+                <fullName>US Off-Premise Region</fullName>
+                <default>false</default>
+                <label>US Off-Premise Region</label>
+            </value>
+            <value>
+                <fullName>US On-Premise Region</fullName>
+                <default>false</default>
+                <label>US On-Premise Region</label>
+            </value>
+            <value>
+                <fullName>Visibility</fullName>
+                <default>false</default>
+                <label>Visibility</label>
+            </value>
+            <value>
+                <fullName>West Region</fullName>
+                <default>false</default>
+                <label>West Region</label>
+            </value>
+            <value>
+                <fullName>Winter</fullName>
+                <default>false</default>
+                <label>Winter</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>CAN</controllingFieldValue>
+            <controllingFieldValue>AUS</controllingFieldValue>
+            <valueName>Canada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MEX</controllingFieldValue>
+            <valueName>Mexico</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>US</controllingFieldValue>
+            <valueName>Central Region</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>US</controllingFieldValue>
+            <valueName>Central Regional Programming</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>US</controllingFieldValue>
+            <valueName>Control States &amp; NA Region</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>US</controllingFieldValue>
+            <valueName>Control States Region</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>US</controllingFieldValue>
+            <valueName>East Region</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>US</controllingFieldValue>
+            <valueName>Franchise Region</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>US</controllingFieldValue>
+            <controllingFieldValue>Global Marketing</controllingFieldValue>
+            <valueName>Global Marketing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>US</controllingFieldValue>
+            <valueName>Marketing Services Region</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>US</controllingFieldValue>
+            <valueName>Midsouth Region</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>US</controllingFieldValue>
+            <valueName>Must Win Region</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>US</controllingFieldValue>
+            <valueName>National BTL Region</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>US</controllingFieldValue>
+            <valueName>National Marketing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>US</controllingFieldValue>
+            <valueName>RNDC/Franchise Region</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>US</controllingFieldValue>
+            <valueName>SGWS Region</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>US</controllingFieldValue>
+            <valueName>US Off-Premise Region</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>US</controllingFieldValue>
+            <valueName>West Region</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUS</controllingFieldValue>
+            <valueName>8 Year Old Launch &amp; Refresh</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUS</controllingFieldValue>
+            <valueName>8YO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUS</controllingFieldValue>
+            <valueName>AFL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUS</controllingFieldValue>
+            <valueName>Agency</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUS</controllingFieldValue>
+            <valueName>Ardmore</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUS</controllingFieldValue>
+            <valueName>ATL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUS</controllingFieldValue>
+            <valueName>Auctober</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUS</controllingFieldValue>
+            <valueName>Barrel List</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUS</controllingFieldValue>
+            <valueName>Beer Festival</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUS</controllingFieldValue>
+            <valueName>Black Focus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUS</controllingFieldValue>
+            <valueName>Bowmore</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUS</controllingFieldValue>
+            <valueName>Category</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUS</controllingFieldValue>
+            <valueName>Chita</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUS</controllingFieldValue>
+            <valueName>Easter Program</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUS</controllingFieldValue>
+            <valueName>Experimental Platform</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUS</controllingFieldValue>
+            <valueName>FBS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUS</controllingFieldValue>
+            <valueName>Footy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUS</controllingFieldValue>
+            <valueName>Gifting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUS</controllingFieldValue>
+            <valueName>Highball</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUS</controllingFieldValue>
+            <valueName>Laphroaig</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUS</controllingFieldValue>
+            <valueName>Make History 2.0</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUS</controllingFieldValue>
+            <valueName>Marketing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUS</controllingFieldValue>
+            <valueName>Media</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUS</controllingFieldValue>
+            <valueName>Misc</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUS</controllingFieldValue>
+            <valueName>NPD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUS</controllingFieldValue>
+            <valueName>On Premise Advocacy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUS</controllingFieldValue>
+            <valueName>Packcentre</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUS</controllingFieldValue>
+            <valueName>Peated Malts</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUS</controllingFieldValue>
+            <valueName>Pendulum</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUS</controllingFieldValue>
+            <valueName>Proximity Media</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUS</controllingFieldValue>
+            <valueName>Refresh + Launch</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUS</controllingFieldValue>
+            <valueName>Research</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUS</controllingFieldValue>
+            <valueName>RTD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUS</controllingFieldValue>
+            <valueName>Summer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUS</controllingFieldValue>
+            <valueName>Tennis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUS</controllingFieldValue>
+            <valueName>The Blend</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUS</controllingFieldValue>
+            <valueName>The Blend / Ambassadors</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUS</controllingFieldValue>
+            <valueName>Third Party</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUS</controllingFieldValue>
+            <valueName>Trial (Horseracing)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUS</controllingFieldValue>
+            <valueName>Turnkey Kits</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUS</controllingFieldValue>
+            <valueName>University Program</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUS</controllingFieldValue>
+            <valueName>Visibility</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUS</controllingFieldValue>
+            <valueName>Winter</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

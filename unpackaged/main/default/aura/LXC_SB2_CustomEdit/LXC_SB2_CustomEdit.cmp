@@ -1,0 +1,198 @@
+<aura:component
+                implements="force:lightningQuickActionWithoutHeader,force:hasRecordId,force:hasSObjectName"
+                access="global"
+                controller="CNT_SB2_UpdateAllocationRecord"
+                >
+    <!-- Handler -->
+    <aura:handler event="aura:waiting" action="{!c.showSpinner}" />
+    <aura:handler event="aura:doneWaiting" action="{!c.hideSpinner}" />
+    
+    <!-- Attribute -->
+    <aura:attribute name="data" type="Object" />
+    <aura:attribute name="stateData" type="Object" />
+    <aura:attribute name="regionData" type="Object"/>
+    <aura:attribute name="countryData" type="Object"/>
+    <aura:attribute name="record" type="Object" />
+    <aura:attribute name="isParentLeafNode" type="Boolean" default="false" />
+    <aura:attribute name="isLoading" type="Boolean" default="true" />
+    <aura:attribute name="message" type="String" default="" />
+    <aura:attribute name="allocation" type="Integer" default="0"/>
+    <aura:attribute name="isAllocationProvided" type="Boolean" default="false"/>
+    <aura:attribute name="recordToUpdate" type="string" />
+    
+    
+    <lightning:notificationsLibrary aura:id="notifLib" />
+    
+    <!-- current record data -->
+
+    
+    <force:recordData
+                      aura:id="recordEditor3"
+                      recordId="{!v.recordId}"
+                      fields="['Name', 'Is_Leaf_Node__c', 'Allocations_Per_Interval__c', 'Is_Active__c','Is_Record_Copied__c']"
+                      targetFields="{!v.countryData}"
+                      recordUpdated="{!c.handleCountryRecordUpdated}"
+                      />
+    
+ <force:recordData aura:id="recordEditor"
+                   recordId="{!v.recordId}"
+                   targetFields="{!v.data}"
+                   recordUpdated="{!c.handleRecordUpdated}"
+                   fields="['Name', 'Is_Leaf_Node__c', 'Brand_Country_Region_State_Allocation__r.Is_Leaf_Node__c', 'Brand_Country_Region_State_Allocation__r.Brand_Country_Region_Allocation__r.Is_Leaf_Node__c','Brand_Country_Region_State_Allocation__r.Brand_Country_Region_Allocation__r.Brand_Country_Allocation__r.Is_Leaf_Node__c', 'Allocations_Per_Interval__c', 'Is_Active__c','Is_Record_Copied__c']"
+                   />
+    <force:recordData aura:id="recordEditor1" 
+                      recordId="{!v.recordId}"
+                      targetFields="{!v.stateData}"
+                      recordUpdated="{!c.handleStateRecordUpdated}"
+                      fields="['Name', 'Is_Leaf_Node__c', 'Allocations_Per_Interval__c', 'Is_Active__c','Is_Record_Copied__c']"
+                      />
+                      
+    
+    <force:recordData
+                      aura:id="recordEditor2"
+                      recordId="{!v.recordId}"
+                      fields="['Name', 'Is_Leaf_Node__c', 'Allocations_Per_Interval__c','Is_Record_Copied__c']"
+                      targetFields="{!v.regionData}"
+                      recordUpdated="{!c.handleRegionRecordUpdated}"
+                      />
+    <!-- Header -->
+    <header class="slds-modal__header side-margin header-position">
+        <h2 id="modal-heading-01" class="slds-text-heading_medium slds-hyphenate">
+            Edit {!v.recordToUpdate} 
+        </h2>
+    </header>
+    
+    <!-- Body -->
+    <div class="slds-p-around_medium slds-form">
+        <div class="slds-is-relative">
+            <aura:if isTrue="{!v.isLoading}">
+                <lightning:spinner alternativeText="Loading..." />
+            </aura:if>
+            <aura:if isTrue="{!v.sObjectName == 'Brand_Country_Region_State_Dist_Alloc__c'}">
+                <aura:if isTrue="{! and(v.data.Is_Active__c, and(v.data.Is_Leaf_Node__c,and(v.data.Is_Record_Copied__c, not(v.isAllocationProvided)))) }"> 
+                    <lightning:input
+                                     checked="true"
+                                     label="Is Leaf Node"
+                                     type="checkbox"
+                                     disabled="true"
+                                     />
+                    <lightning:input
+                                     aura:id="allocationPerInterval"
+                                     value="{!v.allocation}"
+                                     messageWhenValueMissing="Please fill this field."
+                                     messageWhenBadInput="Please provide a numberic value."
+                                     messageWhenRangeUnderflow="It should be more than 0."
+                                     type="number"
+                                     required="true"
+                                     min="1"
+                                     label="Allocations Per Interval"
+                                     />
+                    <aura:set attribute="else">
+                        <aura:if isTrue="{!or(or(v.isParentLeafNode, not(v.data.Is_Active__c)), v.data.Is_Leaf_Node__c)}">
+                            <p>{!v.message}</p>
+                            <aura:set attribute="else">
+                                <lightning:input
+                                                 checked="true"
+                                                 label="Is Leaf Node"
+                                                 type="checkbox"
+                                                 disabled="true"
+                                                 />
+                                <lightning:input
+                                                 aura:id="allocationPerInterval"
+                                                 value="{!v.allocation}"
+                                                 messageWhenValueMissing="Please fill this field."
+                                                 messageWhenBadInput="Please provide a numberic value."
+                                                 messageWhenRangeUnderflow="It should be more than 0."
+                                                 type="number"
+                                                 required="true"
+                                                 min="1"
+                                                 label="Allocations Per Interval"
+                                                 />
+                            </aura:set>
+                        </aura:if>
+                    </aura:set>
+                </aura:if>
+            </aura:if>
+            
+            <aura:if isTrue="{!v.sObjectName == 'Brand_Country_Region_State_Allocation__c'}">
+                <aura:if isTrue="{! and(v.stateData.Is_Leaf_Node__c ,and(v.stateData.Is_Active__c,and(v.stateData.Is_Record_Copied__c, not(v.isAllocationProvided))))}">
+                    <lightning:input
+                                     checked="true"
+                                     label="Is Leaf Node"
+                                     type="checkbox"
+                                     disabled="true"
+                                     />
+                    <lightning:input
+                                     aura:id="allocationPerInterval"
+                                     value="{!v.allocation}"
+                                     messageWhenValueMissing="Please fill this field."
+                                     messageWhenBadInput="Please provide a numberic value."
+                                     messageWhenRangeUnderflow="It should be more than 0."
+                                     type="number"
+                                     required="true"
+                                     min="1"
+                                     label="Allocations Per Interval"
+                                     />
+                    <aura:set attribute="else">
+                        <p>{!v.message}</p>
+                    </aura:set>
+                </aura:if>
+            </aura:if>
+            
+            <aura:if isTrue="{!v.sObjectName == 'Brand_Country_Region_Allocation__c'}">
+                <aura:if isTrue="{! and(v.regionData.Is_Leaf_Node__c ,and(v.regionData.Is_Record_Copied__c, not(v.isAllocationProvided)))}">
+                    <lightning:input
+                                     checked="true"
+                                     label="Is Leaf Node"
+                                     type="checkbox"
+                                     disabled="true"
+                                     />
+                    <lightning:input
+                                     aura:id="allocationPerInterval"
+                                     value="{!v.allocation}"
+                                     messageWhenValueMissing="Please fill this field."
+                                     messageWhenBadInput="Please provide a numberic value."
+                                     messageWhenRangeUnderflow="It should be more than 0."
+                                     type="number"
+                                     required="true"
+                                     min="1"
+                                     label="Allocations Per Interval"
+                                     />
+                    <aura:set attribute="else">
+                        <p>{!v.message}</p>
+                    </aura:set>
+                </aura:if>
+            </aura:if>
+            
+            <aura:if isTrue="{!v.sObjectName == 'Brand_Country_Allocation__c'}">
+                <aura:if isTrue="{! and(v.countryData.Is_Leaf_Node__c ,and(v.countryData.Is_Active__c,and(v.countryData.Is_Record_Copied__c, not(v.isAllocationProvided))))}">
+                    <lightning:input
+                                     checked="true"
+                                     label="Is Leaf Node"
+                                     type="checkbox"
+                                     disabled="true"
+                                     />
+                    <lightning:input
+                                     aura:id="allocationPerInterval"
+                                     value="{!v.allocation}"
+                                     messageWhenValueMissing="Please fill this field."
+                                     messageWhenBadInput="Please provide a numberic value."
+                                     messageWhenRangeUnderflow="It should be more than 0."
+                                     type="number"
+                                     required="true"
+                                     min="1"
+                                     label="Allocations Per Interval"
+                                     />
+                    <aura:set attribute="else">
+                        <p>{!v.message}</p>
+                    </aura:set>
+                </aura:if>
+            </aura:if>
+        </div>
+    </div>
+    
+    <div class="side-margin footer-position">
+        <lightning:button variant="neutral" label="Cancel" onclick="{!c.closeQuickAction}" />
+        <lightning:button variant="brand" label="Save" onclick="{!c.handleSaveRecord}" />
+    </div>
+</aura:component>

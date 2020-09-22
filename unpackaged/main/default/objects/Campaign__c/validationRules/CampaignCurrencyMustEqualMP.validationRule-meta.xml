@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CampaignCurrencyMustEqualMP</fullName>
+    <active>false</active>
+    <description>Campaign Currency must equal Marketing Plan Currency.</description>
+    <errorConditionFormula>text(CurrencyIsoCode)  &lt;&gt;  text(ParentMarketingPlan__r.CurrencyIsoCode)</errorConditionFormula>
+    <errorDisplayField>CurrencyIsoCode</errorDisplayField>
+    <errorMessage>Campaign Currency does not equal Marketing Plan Currency.</errorMessage>
+</ValidationRule>

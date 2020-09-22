@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Hakushu_MarketingPlan</fullName>
+    <columns>NAME</columns>
+    <columns>Year__c</columns>
+    <filterScope>Queue</filterScope>
+    <label>Haku</label>
+    <language>en_US</language>
+    <queue>Haku</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

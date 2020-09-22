@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CampaignCreatedInPriorYear</fullName>
+    <active>true</active>
+    <description>Campaigns cannot be created if the Master Marketing Plan is associated with a previous Year</description>
+    <errorConditionFormula>AND( 
+$Profile.Name &lt;&gt; "System Administrator", 
+$Profile.Name &lt;&gt; "Commercial Services Management", 
+$Profile.Name &lt;&gt; "System Administrator with Bulk Hard Delete",
+$Profile.Name &lt;&gt; "AUS Application Admin - Platform",
+$Profile.Name &lt;&gt; "AUS Commercial Services Management",
+$Profile.Name &lt;&gt; "AUS Finance - Platform",
+$Profile.Name &lt;&gt; "AUS Marketing - Platform", 
+VALUE(( Year__c )) &lt; YEAR( TODAY() ))</errorConditionFormula>
+    <errorMessage>Campaigns cannot be created if the Master Marketing Plan is associated with a previous Year</errorMessage>
+</ValidationRule>

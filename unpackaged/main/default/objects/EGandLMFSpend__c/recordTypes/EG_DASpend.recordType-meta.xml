@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EG_DASpend</fullName>
+    <active>true</active>
+    <description>EG / DA Spend.</description>
+    <label>EG / DA Spend</label>
+    <picklistValues>
+        <picklist>BudgetType__c</picklist>
+        <values>
+            <fullName>Events %2F Sponsorships</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Free Goods</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Local Materials %2F POS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Margin Enhancement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Menu Printing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Misc %28undefined%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Price Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SKI Goals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales Incentives</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales Programs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales Samples</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sampling %2F Tasting</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

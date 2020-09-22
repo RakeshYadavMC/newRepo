@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Has_Child_Campaigns__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>If Master campaign has a child</description>
+    <externalId>false</externalId>
+    <label>Has Child Campaigns</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

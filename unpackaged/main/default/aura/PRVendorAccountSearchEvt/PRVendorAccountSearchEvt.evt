@@ -1,0 +1,5 @@
+<aura:event type="Application" description="PR Account Search Event">
+    <aura:attribute name="AccountId" type="String" default="" />
+    <aura:attribute name="SAPCompanyCodeId" type="String" default="" />
+    <aura:attribute name="AccountRecord" type="Object" />
+</aura:event>

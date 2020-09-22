@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Mexico_Off_Premise_Accounts</fullName>
+    <booleanFilter>(1 OR 3) and 2</booleanFilter>
+    <columns>PARENT_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>StoreID__c</columns>
+    <columns>ACCOUNT.ADDRESS1_STREET</columns>
+    <columns>ACCOUNT.ADDRESS1_CITY</columns>
+    <columns>ACCOUNT.ADDRESS1_STATE</columns>
+    <columns>ACCOUNT.ADDRESS1_ZIP</columns>
+    <columns>ACCOUNT.ADDRESS1_COUNTRY</columns>
+    <columns>ACCOUNT.RECORDTYPE</columns>
+    <columns>SubChannel__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.ADDRESS1_COUNTRY</field>
+        <operation>equals</operation>
+        <value>Mexico</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.gvp__Off_Premise</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.ADDRESS1_COUNTRY</field>
+        <operation>equals</operation>
+        <value>MX</value>
+    </filters>
+    <label>All Mexico Off-Premise Accounts</label>
+    <language>es_MX</language>
+</ListView>

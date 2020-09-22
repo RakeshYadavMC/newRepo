@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Roasted_French_Mocha__c</fullName>
+    <externalId>false</externalId>
+    <label>Roasted French Mocha</label>
+    <summarizedField>Stave__c.Quantity__c</summarizedField>
+    <summaryFilterItems>
+        <field>Stave__c.Type__c</field>
+        <operation>equals</operation>
+        <value>Roasted French Mocha</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Stave__c.Barrel_Recipe__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

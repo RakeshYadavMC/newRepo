@@ -1,0 +1,5 @@
+<p>{!Case.OwnerFullName}<br />
+<strong>Maker's Mark Customer Care Representative</strong><br />
+<a href="http://www.makersmark.com/"><img src="{!$Label.SF_Base_URL_BrandLogo}Maker'sMark.png" alt=""  width="120px" /></a> <br />
+<a href="http://facebook.com/makersmark/"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}facebook.png" width="20" alt="" /></a>    <a href="http://twitter.com/makersmark/"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}twitter.png" width="20" alt="" /></a>    <a href="http://instagram.com/makersmark/"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}instagram.png" width="20" alt="" /></a>  <br />
+<a href="http://www.drinksmart.com"><img src="{!$Label.SF_Base_URL_BrandLogo}DrinkSmart.png" width="120" title="Drink Smart" alt="Drink Smart" /></a></p>

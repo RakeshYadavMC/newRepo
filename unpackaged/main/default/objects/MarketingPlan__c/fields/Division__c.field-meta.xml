@@ -1,0 +1,1480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Division__c</fullName>
+    <externalId>false</externalId>
+    <label>Division</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Region__c</controllingField>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>__</fullName>
+                <default>false</default>
+                <label>__</label>
+            </value>
+            <value>
+                <fullName>____</fullName>
+                <default>false</default>
+                <label>____</label>
+            </value>
+            <value>
+                <fullName>Activation</fullName>
+                <default>false</default>
+                <label>Activation</label>
+            </value>
+            <value>
+                <fullName>Activation Kits</fullName>
+                <default>false</default>
+                <label>Activation Kits</label>
+            </value>
+            <value>
+                <fullName>Advocacy</fullName>
+                <default>false</default>
+                <label>Advocacy</label>
+            </value>
+            <value>
+                <fullName>AFL</fullName>
+                <default>false</default>
+                <label>AFL</label>
+            </value>
+            <value>
+                <fullName>Agency</fullName>
+                <default>false</default>
+                <label>Agency</label>
+            </value>
+            <value>
+                <fullName>AGENCY FEES</fullName>
+                <default>false</default>
+                <label>AGENCY FEES</label>
+            </value>
+            <value>
+                <fullName>American Stillhouse</fullName>
+                <default>false</default>
+                <label>American Stillhouse</label>
+            </value>
+            <value>
+                <fullName>ATL</fullName>
+                <default>false</default>
+                <label>ATL</label>
+            </value>
+            <value>
+                <fullName>Auchentoshan &amp; Ale</fullName>
+                <default>false</default>
+                <label>Auchentoshan &amp; Ale</label>
+            </value>
+            <value>
+                <fullName>Bartender Engagement</fullName>
+                <default>false</default>
+                <label>Bartender Engagement</label>
+            </value>
+            <value>
+                <fullName>Bourbon Legends Division</fullName>
+                <default>false</default>
+                <label>Bourbon Legends Division</label>
+            </value>
+            <value>
+                <fullName>BOURBON OFF PREMISE GIFTING</fullName>
+                <default>false</default>
+                <label>BOURBON OFF PREMISE GIFTING</label>
+            </value>
+            <value>
+                <fullName>BOURBON OFF PREMISE GWP</fullName>
+                <default>false</default>
+                <label>BOURBON OFF PREMISE GWP</label>
+            </value>
+            <value>
+                <fullName>Brand Ambassadors</fullName>
+                <default>false</default>
+                <label>Brand Ambassadors</label>
+            </value>
+            <value>
+                <fullName>Brand BTL Focus</fullName>
+                <default>false</default>
+                <label>Brand BTL Focus</label>
+            </value>
+            <value>
+                <fullName>Brand Education</fullName>
+                <default>false</default>
+                <label>Brand Education</label>
+            </value>
+            <value>
+                <fullName>Brand experiential</fullName>
+                <default>false</default>
+                <label>Brand experiential</label>
+            </value>
+            <value>
+                <fullName>BSI TRADE EVENT</fullName>
+                <default>false</default>
+                <label>BSI TRADE EVENT</label>
+            </value>
+            <value>
+                <fullName>BTL</fullName>
+                <default>false</default>
+                <label>BTL</label>
+            </value>
+            <value>
+                <fullName>Canada</fullName>
+                <default>false</default>
+                <label>Canada</label>
+            </value>
+            <value>
+                <fullName>CC Summer</fullName>
+                <default>false</default>
+                <label>CC Summer</label>
+            </value>
+            <value>
+                <fullName>CC SUMMER/TENNIS</fullName>
+                <default>false</default>
+                <label>CC SUMMER/TENNIS</label>
+            </value>
+            <value>
+                <fullName>CC Winter</fullName>
+                <default>false</default>
+                <label>CC Winter</label>
+            </value>
+            <value>
+                <fullName>CC WINTER/BAD SWEATER</fullName>
+                <default>false</default>
+                <label>CC WINTER/BAD SWEATER</label>
+            </value>
+            <value>
+                <fullName>Central Division</fullName>
+                <default>false</default>
+                <label>Central Division</label>
+            </value>
+            <value>
+                <fullName>Central Regional Programming Division</fullName>
+                <default>false</default>
+                <label>Central Regional Programming Division</label>
+            </value>
+            <value>
+                <fullName>Cinco Division</fullName>
+                <default>false</default>
+                <label>Cinco Division</label>
+            </value>
+            <value>
+                <fullName>Cocktail Project</fullName>
+                <default>false</default>
+                <label>Cocktail Project</label>
+            </value>
+            <value>
+                <fullName>Commercial Capabilities</fullName>
+                <default>false</default>
+                <label>Commercial Capabilities</label>
+            </value>
+            <value>
+                <fullName>Consumer Insights Division</fullName>
+                <default>false</default>
+                <label>Consumer Insights Division</label>
+            </value>
+            <value>
+                <fullName>Digital Marketing Division</fullName>
+                <default>false</default>
+                <label>Digital Marketing Division</label>
+            </value>
+            <value>
+                <fullName>Draught</fullName>
+                <default>false</default>
+                <label>Draught</label>
+            </value>
+            <value>
+                <fullName>Drinks Strategy</fullName>
+                <default>false</default>
+                <label>Drinks Strategy</label>
+            </value>
+            <value>
+                <fullName>East Coast Division</fullName>
+                <default>false</default>
+                <label>East Coast Division</label>
+            </value>
+            <value>
+                <fullName>Eastern Control Division</fullName>
+                <default>false</default>
+                <label>Eastern Control Division</label>
+            </value>
+            <value>
+                <fullName>eCommerce</fullName>
+                <default>false</default>
+                <label>eCommerce</label>
+            </value>
+            <value>
+                <fullName>Edge</fullName>
+                <default>false</default>
+                <label>Edge</label>
+            </value>
+            <value>
+                <fullName>FBS</fullName>
+                <default>false</default>
+                <label>FBS</label>
+            </value>
+            <value>
+                <fullName>FBS LIGHTHOUSE VENUES</fullName>
+                <default>false</default>
+                <label>FBS LIGHTHOUSE VENUES</label>
+            </value>
+            <value>
+                <fullName>FBS OFF PREMISE NPD LAUNCH SUPPORT</fullName>
+                <default>false</default>
+                <label>FBS OFF PREMISE NPD LAUNCH SUPPORT</label>
+            </value>
+            <value>
+                <fullName>FBS OFF PREMISE TRIAL</fullName>
+                <default>false</default>
+                <label>FBS OFF PREMISE TRIAL</label>
+            </value>
+            <value>
+                <fullName>FBS ON PREMISE TRIAL</fullName>
+                <default>false</default>
+                <label>FBS ON PREMISE TRIAL</label>
+            </value>
+            <value>
+                <fullName>Florida Division</fullName>
+                <default>false</default>
+                <label>Florida Division</label>
+            </value>
+            <value>
+                <fullName>Franchise Division</fullName>
+                <default>false</default>
+                <label>Franchise Division</label>
+            </value>
+            <value>
+                <fullName>Gifting</fullName>
+                <default>false</default>
+                <label>Gifting</label>
+            </value>
+            <value>
+                <fullName>Gifts From The Still Division</fullName>
+                <default>false</default>
+                <label>Gifts From The Still Division</label>
+            </value>
+            <value>
+                <fullName>Global Insights</fullName>
+                <default>false</default>
+                <label>Global Insights</label>
+            </value>
+            <value>
+                <fullName>Global Marketing</fullName>
+                <default>false</default>
+                <label>Global Marketing</label>
+            </value>
+            <value>
+                <fullName>Global Marketing Central</fullName>
+                <default>false</default>
+                <label>Global Marketing Central</label>
+            </value>
+            <value>
+                <fullName>Global Marketing Communications Division</fullName>
+                <default>false</default>
+                <label>Global Marketing Communications Division</label>
+            </value>
+            <value>
+                <fullName>Highball</fullName>
+                <default>false</default>
+                <label>Highball</label>
+            </value>
+            <value>
+                <fullName>Innovation</fullName>
+                <default>false</default>
+                <label>Innovation</label>
+            </value>
+            <value>
+                <fullName>Innovations</fullName>
+                <default>false</default>
+                <label>Innovations</label>
+            </value>
+            <value>
+                <fullName>Innovation - Whiskey Division</fullName>
+                <default>false</default>
+                <label>Innovation - Whiskey Division</label>
+            </value>
+            <value>
+                <fullName>Innovation - White Spirits Division</fullName>
+                <default>false</default>
+                <label>Innovation - White Spirits Division</label>
+            </value>
+            <value>
+                <fullName>Insights (US)</fullName>
+                <default>false</default>
+                <label>Insights (US)</label>
+            </value>
+            <value>
+                <fullName>Instore</fullName>
+                <default>false</default>
+                <label>Instore</label>
+            </value>
+            <value>
+                <fullName>JBBDCo Portfolio</fullName>
+                <default>false</default>
+                <label>JBBDCo Portfolio</label>
+            </value>
+            <value>
+                <fullName>JBB FBS SPRING RACING</fullName>
+                <default>false</default>
+                <label>JBB FBS SPRING RACING</label>
+            </value>
+            <value>
+                <fullName>JBB RTD FEB/MARCH PROMOTION</fullName>
+                <default>false</default>
+                <label>JBB RTD FEB/MARCH PROMOTION</label>
+            </value>
+            <value>
+                <fullName>JB FBS TM</fullName>
+                <default>false</default>
+                <label>JB FBS TM</label>
+            </value>
+            <value>
+                <fullName>JB FOOTBALL ACTIVATION</fullName>
+                <default>false</default>
+                <label>JB FOOTBALL ACTIVATION</label>
+            </value>
+            <value>
+                <fullName>JB MUSIC ON TOUR</fullName>
+                <default>false</default>
+                <label>JB MUSIC ON TOUR</label>
+            </value>
+            <value>
+                <fullName>JB ON PREMISE VISIBILITY (PHOENIX)</fullName>
+                <default>false</default>
+                <label>JB ON PREMISE VISIBILITY (PHOENIX)</label>
+            </value>
+            <value>
+                <fullName>JB RTD SUMMER PROMOTION</fullName>
+                <default>false</default>
+                <label>JB RTD SUMMER PROMOTION</label>
+            </value>
+            <value>
+                <fullName>JB Sports Division</fullName>
+                <default>false</default>
+                <label>JB Sports Division</label>
+            </value>
+            <value>
+                <fullName>JB SUPERCARS</fullName>
+                <default>false</default>
+                <label>JB SUPERCARS</label>
+            </value>
+            <value>
+                <fullName>JBW High ABV Support</fullName>
+                <default>false</default>
+                <label>JBW High ABV Support</label>
+            </value>
+            <value>
+                <fullName>JBW RTD APRIL/MAY PROMOTION</fullName>
+                <default>false</default>
+                <label>JBW RTD APRIL/MAY PROMOTION</label>
+            </value>
+            <value>
+                <fullName>Jim Beam Black Focus</fullName>
+                <default>false</default>
+                <label>Jim Beam Black Focus</label>
+            </value>
+            <value>
+                <fullName>Key Account Activation</fullName>
+                <default>false</default>
+                <label>Key Account Activation</label>
+            </value>
+            <value>
+                <fullName>Key Customer Program</fullName>
+                <default>false</default>
+                <label>Key Customer Program</label>
+            </value>
+            <value>
+                <fullName>Luxury</fullName>
+                <default>false</default>
+                <label>Luxury</label>
+            </value>
+            <value>
+                <fullName>Make History 2.0</fullName>
+                <default>false</default>
+                <label>Make History 2.0</label>
+            </value>
+            <value>
+                <fullName>Marketing Capabilities Division</fullName>
+                <default>false</default>
+                <label>Marketing Capabilities Division</label>
+            </value>
+            <value>
+                <fullName>Marketing Operations Division</fullName>
+                <default>false</default>
+                <label>Marketing Operations Division</label>
+            </value>
+            <value>
+                <fullName>Marketing Services Division</fullName>
+                <default>false</default>
+                <label>Marketing Services Division</label>
+            </value>
+            <value>
+                <fullName>MarTech Division</fullName>
+                <default>false</default>
+                <label>MarTech Division</label>
+            </value>
+            <value>
+                <fullName>May Focus Period</fullName>
+                <default>false</default>
+                <label>May Focus Period</label>
+            </value>
+            <value>
+                <fullName>Media</fullName>
+                <default>false</default>
+                <label>Media</label>
+            </value>
+            <value>
+                <fullName>Mexico</fullName>
+                <default>false</default>
+                <label>Mexico</label>
+            </value>
+            <value>
+                <fullName>Michigan Control Division</fullName>
+                <default>false</default>
+                <label>Michigan Control Division</label>
+            </value>
+            <value>
+                <fullName>Mideast Division</fullName>
+                <default>false</default>
+                <label>Mideast Division</label>
+            </value>
+            <value>
+                <fullName>Midsouth Division</fullName>
+                <default>false</default>
+                <label>Midsouth Division</label>
+            </value>
+            <value>
+                <fullName>Midwest Division</fullName>
+                <default>false</default>
+                <label>Midwest Division</label>
+            </value>
+            <value>
+                <fullName>Military</fullName>
+                <default>false</default>
+                <label>Military</label>
+            </value>
+            <value>
+                <fullName>Misc</fullName>
+                <default>false</default>
+                <label>Misc</label>
+            </value>
+            <value>
+                <fullName>MM OLD FASHIONED</fullName>
+                <default>false</default>
+                <label>MM OLD FASHIONED</label>
+            </value>
+            <value>
+                <fullName>Mountain Division</fullName>
+                <default>false</default>
+                <label>Mountain Division</label>
+            </value>
+            <value>
+                <fullName>NAHQ Off Chains Division</fullName>
+                <default>false</default>
+                <label>NAHQ Off Chains Division</label>
+            </value>
+            <value>
+                <fullName>NAHQ Off-Premise</fullName>
+                <default>false</default>
+                <label>NAHQ Off-Premise</label>
+            </value>
+            <value>
+                <fullName>NAHQ Off Regional Division</fullName>
+                <default>false</default>
+                <label>NAHQ Off Regional Division</label>
+            </value>
+            <value>
+                <fullName>NAHQ On-Premise</fullName>
+                <default>false</default>
+                <label>NAHQ On-Premise</label>
+            </value>
+            <value>
+                <fullName>National Accounts</fullName>
+                <default>false</default>
+                <label>National Accounts</label>
+            </value>
+            <value>
+                <fullName>National BTL Commercial Marketing</fullName>
+                <default>false</default>
+                <label>National BTL Commercial Marketing</label>
+            </value>
+            <value>
+                <fullName>National BTL Must Win POS Division</fullName>
+                <default>false</default>
+                <label>National BTL Must Win POS Division</label>
+            </value>
+            <value>
+                <fullName>National BTL Must Win Regional</fullName>
+                <default>false</default>
+                <label>National BTL Must Win Regional</label>
+            </value>
+            <value>
+                <fullName>National Marketing</fullName>
+                <default>false</default>
+                <label>National Marketing</label>
+            </value>
+            <value>
+                <fullName>New England Control Division</fullName>
+                <default>false</default>
+                <label>New England Control Division</label>
+            </value>
+            <value>
+                <fullName>Non-working (Pendulum/other)</fullName>
+                <default>false</default>
+                <label>Non-working (Pendulum/other)</label>
+            </value>
+            <value>
+                <fullName>Nov Focus Period</fullName>
+                <default>false</default>
+                <label>Nov Focus Period</label>
+            </value>
+            <value>
+                <fullName>NPD</fullName>
+                <default>false</default>
+                <label>NPD</label>
+            </value>
+            <value>
+                <fullName>NPD Launch</fullName>
+                <default>false</default>
+                <label>NPD Launch</label>
+            </value>
+            <value>
+                <fullName>Off Premise</fullName>
+                <default>false</default>
+                <label>Off Premise</label>
+            </value>
+            <value>
+                <fullName>Ohio/Iowa Control Division</fullName>
+                <default>false</default>
+                <label>Ohio/Iowa Control Division</label>
+            </value>
+            <value>
+                <fullName>On Premise</fullName>
+                <default>false</default>
+                <label>On Premise</label>
+            </value>
+            <value>
+                <fullName>On Premise Advocacy</fullName>
+                <default>false</default>
+                <label>On Premise Advocacy</label>
+            </value>
+            <value>
+                <fullName>On-Premise Marketing Division</fullName>
+                <default>false</default>
+                <label>On-Premise Marketing Division</label>
+            </value>
+            <value>
+                <fullName>Opinions Welcome</fullName>
+                <default>false</default>
+                <label>Opinions Welcome</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Packcentre</fullName>
+                <default>false</default>
+                <label>Packcentre</label>
+            </value>
+            <value>
+                <fullName>Pendulum</fullName>
+                <default>false</default>
+                <label>Pendulum</label>
+            </value>
+            <value>
+                <fullName>Pennsylvania/Michigan Control Division</fullName>
+                <default>false</default>
+                <label>Pennsylvania/Michigan Control Division</label>
+            </value>
+            <value>
+                <fullName>Pennsylvania Control Division</fullName>
+                <default>false</default>
+                <label>Pennsylvania Control Division</label>
+            </value>
+            <value>
+                <fullName>PMOD</fullName>
+                <default>false</default>
+                <label>PMOD</label>
+            </value>
+            <value>
+                <fullName>POB Division</fullName>
+                <default>false</default>
+                <label>POB Division</label>
+            </value>
+            <value>
+                <fullName>POS STORAGE &amp; DISTRIBUTION</fullName>
+                <default>false</default>
+                <label>POS STORAGE &amp; DISTRIBUTION</label>
+            </value>
+            <value>
+                <fullName>PR</fullName>
+                <default>false</default>
+                <label>PR</label>
+            </value>
+            <value>
+                <fullName>Premiumization Division</fullName>
+                <default>false</default>
+                <label>Premiumization Division</label>
+            </value>
+            <value>
+                <fullName>PREMIUM WHISKEY RETAILER PROGRAM</fullName>
+                <default>false</default>
+                <label>PREMIUM WHISKEY RETAILER PROGRAM</label>
+            </value>
+            <value>
+                <fullName>Premium Whisky Programs</fullName>
+                <default>false</default>
+                <label>Premium Whisky Programs</label>
+            </value>
+            <value>
+                <fullName>Q1 Focus</fullName>
+                <default>false</default>
+                <label>Q1 Focus</label>
+            </value>
+            <value>
+                <fullName>Q4 Focus</fullName>
+                <default>false</default>
+                <label>Q4 Focus</label>
+            </value>
+            <value>
+                <fullName>Research</fullName>
+                <default>false</default>
+                <label>Research</label>
+            </value>
+            <value>
+                <fullName>Ring Fence</fullName>
+                <default>false</default>
+                <label>Ring Fence</label>
+            </value>
+            <value>
+                <fullName>RNDC East Division</fullName>
+                <default>false</default>
+                <label>RNDC East Division</label>
+            </value>
+            <value>
+                <fullName>RNDC North Division</fullName>
+                <default>false</default>
+                <label>RNDC North Division</label>
+            </value>
+            <value>
+                <fullName>RNDC South Division</fullName>
+                <default>false</default>
+                <label>RNDC South Division</label>
+            </value>
+            <value>
+                <fullName>RNDC West Division</fullName>
+                <default>false</default>
+                <label>RNDC West Division</label>
+            </value>
+            <value>
+                <fullName>RTD</fullName>
+                <default>false</default>
+                <label>RTD</label>
+            </value>
+            <value>
+                <fullName>RTD Coalition Division</fullName>
+                <default>false</default>
+                <label>RTD Coalition Division</label>
+            </value>
+            <value>
+                <fullName>RTD EVENT / NPD TRIAL PLATFORMS</fullName>
+                <default>false</default>
+                <label>RTD EVENT / NPD TRIAL PLATFORMS</label>
+            </value>
+            <value>
+                <fullName>RTD NPD PRODUCTION &amp; DEVELOPMENT</fullName>
+                <default>false</default>
+                <label>RTD NPD PRODUCTION &amp; DEVELOPMENT</label>
+            </value>
+            <value>
+                <fullName>RTD OFF PREMISE CORE VISIBILITY</fullName>
+                <default>false</default>
+                <label>RTD OFF PREMISE CORE VISIBILITY</label>
+            </value>
+            <value>
+                <fullName>RTD OFF PREMISE NPD LAUNCH SUPPORT</fullName>
+                <default>false</default>
+                <label>RTD OFF PREMISE NPD LAUNCH SUPPORT</label>
+            </value>
+            <value>
+                <fullName>RTD OFF PREMISE PERMANENT VISIBILITY</fullName>
+                <default>false</default>
+                <label>RTD OFF PREMISE PERMANENT VISIBILITY</label>
+            </value>
+            <value>
+                <fullName>RTD ON PREMISE CORE VISIBILTY</fullName>
+                <default>false</default>
+                <label>RTD ON PREMISE CORE VISIBILTY</label>
+            </value>
+            <value>
+                <fullName>RTD ON PREMISE RATE OF SALE TOOLKIT</fullName>
+                <default>false</default>
+                <label>RTD ON PREMISE RATE OF SALE TOOLKIT</label>
+            </value>
+            <value>
+                <fullName>RTD STADIUM PERMANENT VISIBILITY</fullName>
+                <default>false</default>
+                <label>RTD STADIUM PERMANENT VISIBILITY</label>
+            </value>
+            <value>
+                <fullName>RTD STADIUM SPONSORSHIPS</fullName>
+                <default>false</default>
+                <label>RTD STADIUM SPONSORSHIPS</label>
+            </value>
+            <value>
+                <fullName>Samples Division</fullName>
+                <default>false</default>
+                <label>Samples Division</label>
+            </value>
+            <value>
+                <fullName>SGWS CA/HI Division</fullName>
+                <default>false</default>
+                <label>SGWS CA/HI Division</label>
+            </value>
+            <value>
+                <fullName>SGWS Central Division</fullName>
+                <default>false</default>
+                <label>SGWS Central Division</label>
+            </value>
+            <value>
+                <fullName>SGWS East Division</fullName>
+                <default>false</default>
+                <label>SGWS East Division</label>
+            </value>
+            <value>
+                <fullName>SGWS FL Division</fullName>
+                <default>false</default>
+                <label>SGWS FL Division</label>
+            </value>
+            <value>
+                <fullName>SGWS NY Division</fullName>
+                <default>false</default>
+                <label>SGWS NY Division</label>
+            </value>
+            <value>
+                <fullName>SGWS West Division</fullName>
+                <default>false</default>
+                <label>SGWS West Division</label>
+            </value>
+            <value>
+                <fullName>Southeast Control Division</fullName>
+                <default>false</default>
+                <label>Southeast Control Division</label>
+            </value>
+            <value>
+                <fullName>Stock Up &amp; Save Division</fullName>
+                <default>false</default>
+                <label>Stock Up &amp; Save Division</label>
+            </value>
+            <value>
+                <fullName>Summer 2018</fullName>
+                <default>false</default>
+                <label>Summer 2018</label>
+            </value>
+            <value>
+                <fullName>Summer 2018 On Pack</fullName>
+                <default>false</default>
+                <label>Summer 2018 On Pack</label>
+            </value>
+            <value>
+                <fullName>Summer Division</fullName>
+                <default>false</default>
+                <label>Summer Division</label>
+            </value>
+            <value>
+                <fullName>Super Premium Gifting Division</fullName>
+                <default>false</default>
+                <label>Super Premium Gifting Division</label>
+            </value>
+            <value>
+                <fullName>The Blend</fullName>
+                <default>false</default>
+                <label>The Blend</label>
+            </value>
+            <value>
+                <fullName>TM Activity</fullName>
+                <default>false</default>
+                <label>TM Activity</label>
+            </value>
+            <value>
+                <fullName>Trade Media</fullName>
+                <default>false</default>
+                <label>Trade Media</label>
+            </value>
+            <value>
+                <fullName>Transportation &amp; Other</fullName>
+                <default>false</default>
+                <label>Transportation &amp; Other</label>
+            </value>
+            <value>
+                <fullName>Trial</fullName>
+                <default>false</default>
+                <label>Trial</label>
+            </value>
+            <value>
+                <fullName>Trial Platform</fullName>
+                <default>false</default>
+                <label>Trial Platform</label>
+            </value>
+            <value>
+                <fullName>US Field Central Division</fullName>
+                <default>false</default>
+                <label>US Field Central Division</label>
+            </value>
+            <value>
+                <fullName>Visibility</fullName>
+                <default>false</default>
+                <label>Visibility</label>
+            </value>
+            <value>
+                <fullName>West Coast Division</fullName>
+                <default>false</default>
+                <label>West Coast Division</label>
+            </value>
+            <value>
+                <fullName>Western Control Division</fullName>
+                <default>false</default>
+                <label>Western Control Division</label>
+            </value>
+            <value>
+                <fullName>Win In KY</fullName>
+                <default>false</default>
+                <label>Win In KY</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Media</controllingFieldValue>
+            <controllingFieldValue>Misc</controllingFieldValue>
+            <controllingFieldValue>NPD</controllingFieldValue>
+            <controllingFieldValue>On Premise Advocacy</controllingFieldValue>
+            <controllingFieldValue>Pendulum</controllingFieldValue>
+            <controllingFieldValue>Proximity Media</controllingFieldValue>
+            <controllingFieldValue>Refresh + Launch</controllingFieldValue>
+            <controllingFieldValue>Research</controllingFieldValue>
+            <controllingFieldValue>Summer</controllingFieldValue>
+            <controllingFieldValue>Tennis</controllingFieldValue>
+            <controllingFieldValue>The Blend</controllingFieldValue>
+            <controllingFieldValue>Third Party</controllingFieldValue>
+            <controllingFieldValue>Trial (Horseracing)</controllingFieldValue>
+            <controllingFieldValue>Turnkey Kits</controllingFieldValue>
+            <controllingFieldValue>Winter</controllingFieldValue>
+            <controllingFieldValue>FBS</controllingFieldValue>
+            <controllingFieldValue>RTD</controllingFieldValue>
+            <controllingFieldValue>8YO</controllingFieldValue>
+            <controllingFieldValue>AFL</controllingFieldValue>
+            <controllingFieldValue>Agency</controllingFieldValue>
+            <controllingFieldValue>ATL</controllingFieldValue>
+            <controllingFieldValue>Barrel List</controllingFieldValue>
+            <controllingFieldValue>Beer Festival</controllingFieldValue>
+            <controllingFieldValue>Black Focus</controllingFieldValue>
+            <controllingFieldValue>Experimental Platform</controllingFieldValue>
+            <controllingFieldValue>Footy</controllingFieldValue>
+            <controllingFieldValue>Gifting</controllingFieldValue>
+            <controllingFieldValue>Highball</controllingFieldValue>
+            <controllingFieldValue>Make History 2.0</controllingFieldValue>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <valueName>ATL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Media</controllingFieldValue>
+            <controllingFieldValue>Misc</controllingFieldValue>
+            <controllingFieldValue>NPD</controllingFieldValue>
+            <controllingFieldValue>On Premise Advocacy</controllingFieldValue>
+            <controllingFieldValue>Packcentre</controllingFieldValue>
+            <controllingFieldValue>Peated Malts</controllingFieldValue>
+            <controllingFieldValue>Pendulum</controllingFieldValue>
+            <controllingFieldValue>Refresh + Launch</controllingFieldValue>
+            <controllingFieldValue>Research</controllingFieldValue>
+            <controllingFieldValue>Summer</controllingFieldValue>
+            <controllingFieldValue>Tennis</controllingFieldValue>
+            <controllingFieldValue>The Blend</controllingFieldValue>
+            <controllingFieldValue>The Blend / Ambassadors</controllingFieldValue>
+            <controllingFieldValue>Third Party</controllingFieldValue>
+            <controllingFieldValue>Trial (Horseracing)</controllingFieldValue>
+            <controllingFieldValue>Turnkey Kits</controllingFieldValue>
+            <controllingFieldValue>University Program</controllingFieldValue>
+            <controllingFieldValue>Visibility</controllingFieldValue>
+            <controllingFieldValue>Winter</controllingFieldValue>
+            <controllingFieldValue>FBS</controllingFieldValue>
+            <controllingFieldValue>RTD</controllingFieldValue>
+            <controllingFieldValue>8 Year Old Launch &amp; Refresh</controllingFieldValue>
+            <controllingFieldValue>8YO</controllingFieldValue>
+            <controllingFieldValue>AFL</controllingFieldValue>
+            <controllingFieldValue>Agency</controllingFieldValue>
+            <controllingFieldValue>Ardmore</controllingFieldValue>
+            <controllingFieldValue>ATL</controllingFieldValue>
+            <controllingFieldValue>Auctober</controllingFieldValue>
+            <controllingFieldValue>Barrel List</controllingFieldValue>
+            <controllingFieldValue>Beer Festival</controllingFieldValue>
+            <controllingFieldValue>Black Focus</controllingFieldValue>
+            <controllingFieldValue>Bowmore</controllingFieldValue>
+            <controllingFieldValue>Chita</controllingFieldValue>
+            <controllingFieldValue>Easter Program</controllingFieldValue>
+            <controllingFieldValue>Footy</controllingFieldValue>
+            <controllingFieldValue>Gifting</controllingFieldValue>
+            <controllingFieldValue>Highball</controllingFieldValue>
+            <controllingFieldValue>Laphroaig</controllingFieldValue>
+            <controllingFieldValue>Make History 2.0</controllingFieldValue>
+            <valueName>BTL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Misc</controllingFieldValue>
+            <controllingFieldValue>On Premise Advocacy</controllingFieldValue>
+            <controllingFieldValue>Pendulum</controllingFieldValue>
+            <controllingFieldValue>Research</controllingFieldValue>
+            <controllingFieldValue>Summer</controllingFieldValue>
+            <controllingFieldValue>Tennis</controllingFieldValue>
+            <controllingFieldValue>The Blend</controllingFieldValue>
+            <controllingFieldValue>Trial (Horseracing)</controllingFieldValue>
+            <controllingFieldValue>Turnkey Kits</controllingFieldValue>
+            <controllingFieldValue>Winter</controllingFieldValue>
+            <controllingFieldValue>FBS</controllingFieldValue>
+            <controllingFieldValue>8YO</controllingFieldValue>
+            <controllingFieldValue>AFL</controllingFieldValue>
+            <controllingFieldValue>Agency</controllingFieldValue>
+            <controllingFieldValue>ATL</controllingFieldValue>
+            <controllingFieldValue>Barrel List</controllingFieldValue>
+            <controllingFieldValue>Footy</controllingFieldValue>
+            <controllingFieldValue>Gifting</controllingFieldValue>
+            <controllingFieldValue>Make History 2.0</controllingFieldValue>
+            <valueName>FBS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Misc</controllingFieldValue>
+            <controllingFieldValue>On Premise Advocacy</controllingFieldValue>
+            <controllingFieldValue>Pendulum</controllingFieldValue>
+            <controllingFieldValue>Research</controllingFieldValue>
+            <controllingFieldValue>Summer</controllingFieldValue>
+            <controllingFieldValue>Tennis</controllingFieldValue>
+            <controllingFieldValue>The Blend</controllingFieldValue>
+            <controllingFieldValue>Trial (Horseracing)</controllingFieldValue>
+            <controllingFieldValue>Turnkey Kits</controllingFieldValue>
+            <controllingFieldValue>Winter</controllingFieldValue>
+            <controllingFieldValue>8YO</controllingFieldValue>
+            <controllingFieldValue>AFL</controllingFieldValue>
+            <controllingFieldValue>Agency</controllingFieldValue>
+            <controllingFieldValue>ATL</controllingFieldValue>
+            <controllingFieldValue>Barrel List</controllingFieldValue>
+            <controllingFieldValue>Footy</controllingFieldValue>
+            <controllingFieldValue>Gifting</controllingFieldValue>
+            <controllingFieldValue>Highball</controllingFieldValue>
+            <controllingFieldValue>Make History 2.0</controllingFieldValue>
+            <valueName>RTD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NPD</controllingFieldValue>
+            <controllingFieldValue>RTD</controllingFieldValue>
+            <valueName>NPD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Global Marketing</controllingFieldValue>
+            <valueName>Commercial Capabilities</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Global Marketing</controllingFieldValue>
+            <valueName>Consumer Insights Division</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Global Marketing</controllingFieldValue>
+            <controllingFieldValue>Global Insights</controllingFieldValue>
+            <valueName>Global Insights</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Global Marketing</controllingFieldValue>
+            <controllingFieldValue>Global Insights</controllingFieldValue>
+            <valueName>Global Marketing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Global Marketing</controllingFieldValue>
+            <valueName>Global Marketing Communications Division</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Global Marketing</controllingFieldValue>
+            <valueName>Innovation - Whiskey Division</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Global Marketing</controllingFieldValue>
+            <valueName>Innovation - White Spirits Division</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Global Marketing</controllingFieldValue>
+            <valueName>Marketing Capabilities Division</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Global Marketing</controllingFieldValue>
+            <valueName>Marketing Operations Division</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Global Marketing</controllingFieldValue>
+            <valueName>MarTech Division</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Global Marketing</controllingFieldValue>
+            <valueName>POB Division</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Global Marketing</controllingFieldValue>
+            <valueName>Samples Division</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Global Marketing</controllingFieldValue>
+            <valueName>Win In KY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Control States Region</controllingFieldValue>
+            <controllingFieldValue>Control States &amp; NA Region</controllingFieldValue>
+            <valueName>Eastern Control Division</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Control States Region</controllingFieldValue>
+            <valueName>Ohio/Iowa Control Division</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Control States Region</controllingFieldValue>
+            <valueName>Pennsylvania/Michigan Control Division</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Control States Region</controllingFieldValue>
+            <valueName>Pennsylvania Control Division</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Control States Region</controllingFieldValue>
+            <controllingFieldValue>Control States &amp; NA Region</controllingFieldValue>
+            <valueName>Western Control Division</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>US Off-Premise Region</controllingFieldValue>
+            <valueName>NAHQ Off Chains Division</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>US Off-Premise Region</controllingFieldValue>
+            <valueName>NAHQ Off-Premise</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>US Off-Premise Region</controllingFieldValue>
+            <valueName>NAHQ Off Regional Division</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>National BTL Region</controllingFieldValue>
+            <valueName>National BTL Commercial Marketing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SGWS Region</controllingFieldValue>
+            <valueName>SGWS Central Division</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SGWS Region</controllingFieldValue>
+            <valueName>SGWS East Division</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SGWS Region</controllingFieldValue>
+            <valueName>SGWS West Division</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RNDC/Franchise Region</controllingFieldValue>
+            <controllingFieldValue>Franchise Region</controllingFieldValue>
+            <valueName>Franchise Division</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RNDC/Franchise Region</controllingFieldValue>
+            <valueName>RNDC North Division</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RNDC/Franchise Region</controllingFieldValue>
+            <valueName>RNDC South Division</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>National Marketing</controllingFieldValue>
+            <valueName>eCommerce</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>National Marketing</controllingFieldValue>
+            <valueName>Innovations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>National Marketing</controllingFieldValue>
+            <valueName>Insights (US)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>National Marketing</controllingFieldValue>
+            <valueName>National Marketing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>National Marketing</controllingFieldValue>
+            <valueName>Ring Fence</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mexico</controllingFieldValue>
+            <valueName>Mexico</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <valueName>Canada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>West Region</controllingFieldValue>
+            <valueName>Mountain Division</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>West Region</controllingFieldValue>
+            <valueName>West Coast Division</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>East Region</controllingFieldValue>
+            <valueName>Central Division</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>East Region</controllingFieldValue>
+            <valueName>East Coast Division</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>East Region</controllingFieldValue>
+            <valueName>Florida Division</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Midsouth Region</controllingFieldValue>
+            <valueName>Midsouth Division</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Central Region</controllingFieldValue>
+            <valueName>Mideast Division</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Central Region</controllingFieldValue>
+            <valueName>Midwest Division</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Control States &amp; NA Region</controllingFieldValue>
+            <valueName>National Accounts</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FBS</controllingFieldValue>
+            <valueName>Activation Kits</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FBS</controllingFieldValue>
+            <controllingFieldValue>RTD</controllingFieldValue>
+            <valueName>AFL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FBS</controllingFieldValue>
+            <controllingFieldValue>RTD</controllingFieldValue>
+            <valueName>Agency</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FBS</controllingFieldValue>
+            <valueName>Bartender Engagement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FBS</controllingFieldValue>
+            <valueName>BOURBON OFF PREMISE GIFTING</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FBS</controllingFieldValue>
+            <valueName>BOURBON OFF PREMISE GWP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FBS</controllingFieldValue>
+            <valueName>Brand BTL Focus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FBS</controllingFieldValue>
+            <valueName>Brand experiential</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FBS</controllingFieldValue>
+            <valueName>FBS LIGHTHOUSE VENUES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FBS</controllingFieldValue>
+            <valueName>FBS OFF PREMISE NPD LAUNCH SUPPORT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FBS</controllingFieldValue>
+            <valueName>FBS OFF PREMISE TRIAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FBS</controllingFieldValue>
+            <valueName>FBS ON PREMISE TRIAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FBS</controllingFieldValue>
+            <valueName>Gifting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FBS</controllingFieldValue>
+            <valueName>Highball</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FBS</controllingFieldValue>
+            <valueName>Instore</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FBS</controllingFieldValue>
+            <valueName>JBB FBS SPRING RACING</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FBS</controllingFieldValue>
+            <valueName>JB FBS TM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FBS</controllingFieldValue>
+            <valueName>JB ON PREMISE VISIBILITY (PHOENIX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FBS</controllingFieldValue>
+            <controllingFieldValue>RTD</controllingFieldValue>
+            <valueName>JB SUPERCARS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FBS</controllingFieldValue>
+            <controllingFieldValue>RTD</controllingFieldValue>
+            <valueName>Jim Beam Black Focus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FBS</controllingFieldValue>
+            <valueName>Key Customer Program</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FBS</controllingFieldValue>
+            <controllingFieldValue>RTD</controllingFieldValue>
+            <valueName>Make History 2.0</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FBS</controllingFieldValue>
+            <valueName>May Focus Period</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FBS</controllingFieldValue>
+            <controllingFieldValue>RTD</controllingFieldValue>
+            <valueName>Media</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FBS</controllingFieldValue>
+            <controllingFieldValue>RTD</controllingFieldValue>
+            <valueName>Misc</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FBS</controllingFieldValue>
+            <valueName>MM OLD FASHIONED</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FBS</controllingFieldValue>
+            <valueName>Non-working (Pendulum/other)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FBS</controllingFieldValue>
+            <valueName>Nov Focus Period</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FBS</controllingFieldValue>
+            <valueName>NPD Launch</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FBS</controllingFieldValue>
+            <controllingFieldValue>RTD</controllingFieldValue>
+            <valueName>On Premise Advocacy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FBS</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FBS</controllingFieldValue>
+            <controllingFieldValue>RTD</controllingFieldValue>
+            <valueName>Packcentre</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FBS</controllingFieldValue>
+            <controllingFieldValue>RTD</controllingFieldValue>
+            <valueName>Pendulum</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FBS</controllingFieldValue>
+            <valueName>PMOD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FBS</controllingFieldValue>
+            <valueName>PR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FBS</controllingFieldValue>
+            <valueName>PREMIUM WHISKEY RETAILER PROGRAM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FBS</controllingFieldValue>
+            <valueName>Q1 Focus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FBS</controllingFieldValue>
+            <valueName>Q4 Focus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FBS</controllingFieldValue>
+            <controllingFieldValue>RTD</controllingFieldValue>
+            <valueName>Research</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FBS</controllingFieldValue>
+            <valueName>The Blend</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FBS</controllingFieldValue>
+            <controllingFieldValue>RTD</controllingFieldValue>
+            <valueName>Trial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Must Win Region</controllingFieldValue>
+            <valueName>Bourbon Legends Division</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Must Win Region</controllingFieldValue>
+            <valueName>Cinco Division</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Must Win Region</controllingFieldValue>
+            <valueName>Gifts From The Still Division</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Must Win Region</controllingFieldValue>
+            <valueName>JB Sports Division</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Must Win Region</controllingFieldValue>
+            <valueName>Stock Up &amp; Save Division</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Must Win Region</controllingFieldValue>
+            <valueName>Summer Division</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RTD</controllingFieldValue>
+            <valueName>AGENCY FEES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RTD</controllingFieldValue>
+            <valueName>BSI TRADE EVENT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RTD</controllingFieldValue>
+            <valueName>CC Summer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RTD</controllingFieldValue>
+            <valueName>CC SUMMER/TENNIS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RTD</controllingFieldValue>
+            <valueName>CC Winter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RTD</controllingFieldValue>
+            <valueName>CC WINTER/BAD SWEATER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RTD</controllingFieldValue>
+            <valueName>Draught</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RTD</controllingFieldValue>
+            <valueName>JBB RTD FEB/MARCH PROMOTION</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RTD</controllingFieldValue>
+            <valueName>JB FOOTBALL ACTIVATION</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RTD</controllingFieldValue>
+            <valueName>JB MUSIC ON TOUR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RTD</controllingFieldValue>
+            <valueName>JB RTD SUMMER PROMOTION</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RTD</controllingFieldValue>
+            <valueName>JBW High ABV Support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RTD</controllingFieldValue>
+            <valueName>JBW RTD APRIL/MAY PROMOTION</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RTD</controllingFieldValue>
+            <valueName>POS STORAGE &amp; DISTRIBUTION</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RTD</controllingFieldValue>
+            <valueName>RTD EVENT / NPD TRIAL PLATFORMS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RTD</controllingFieldValue>
+            <valueName>RTD NPD PRODUCTION &amp; DEVELOPMENT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RTD</controllingFieldValue>
+            <valueName>RTD OFF PREMISE CORE VISIBILITY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RTD</controllingFieldValue>
+            <valueName>RTD OFF PREMISE NPD LAUNCH SUPPORT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RTD</controllingFieldValue>
+            <valueName>RTD OFF PREMISE PERMANENT VISIBILITY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RTD</controllingFieldValue>
+            <valueName>RTD ON PREMISE CORE VISIBILTY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RTD</controllingFieldValue>
+            <valueName>RTD ON PREMISE RATE OF SALE TOOLKIT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RTD</controllingFieldValue>
+            <valueName>RTD STADIUM PERMANENT VISIBILITY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RTD</controllingFieldValue>
+            <valueName>RTD STADIUM SPONSORSHIPS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RTD</controllingFieldValue>
+            <valueName>Summer 2018 On Pack</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RTD</controllingFieldValue>
+            <valueName>Visibility</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Services Region</controllingFieldValue>
+            <valueName>Marketing Services Division</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Services Region</controllingFieldValue>
+            <valueName>US Field Central Division</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>US On-Premise Region</controllingFieldValue>
+            <valueName>Advocacy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>US On-Premise Region</controllingFieldValue>
+            <valueName>NAHQ On-Premise</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>US On-Premise Region</controllingFieldValue>
+            <valueName>On-Premise Marketing Division</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Category</controllingFieldValue>
+            <valueName>Off Premise</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Category</controllingFieldValue>
+            <valueName>On Premise</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

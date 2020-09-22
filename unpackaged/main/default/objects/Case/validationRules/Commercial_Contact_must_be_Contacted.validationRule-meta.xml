@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Commercial_Contact_must_be_Contacted</fullName>
+    <active>true</active>
+    <description>Requires Coordinator to reach out to the Commercial Contact if the Tax Acceptability on the Account contains "Approval Required".</description>
+    <errorConditionFormula>AND( 
+ISPICKVAL(  Account.Accept_s_Tax_Paid__c, "Yes - Approval Required"), 
+OR ( 
+ISPICKVAL( Status, "Closed"), 
+ISPICKVAL( Status, "Closed - Approved"), 
+ISPICKVAL( Status, "Closed - Rejected") 
+), 
+ Commercial_Contact_Reached__c = FALSE 
+)</errorConditionFormula>
+    <errorDisplayField>Commercial_Contact_Reached__c</errorDisplayField>
+    <errorMessage>Did you reach out to the Commercial Contact to verify the product can be sold to this account?</errorMessage>
+</ValidationRule>

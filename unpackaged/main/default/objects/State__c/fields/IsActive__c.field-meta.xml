@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsActive__c</fullName>
+    <defaultValue>true</defaultValue>
+    <description>PS-MC-SB-25 It is use to represent is region is active/inactive</description>
+    <externalId>false</externalId>
+    <inlineHelpText>It should be checked while creating a state.</inlineHelpText>
+    <label>Is Active</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

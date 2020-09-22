@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FTB_Number_field_requirement</fullName>
+    <active>true</active>
+    <description>Requires FTB Number field if the Type is Market Alert</description>
+    <errorConditionFormula>AND(
+  ISPICKVAL( Type , "Market Alert"),
+  ISPICKVAL( Status , "Closed"), 
+  ISBLANK( FTB_Number__c ),
+OR(
+  RecordType.Name = "EDI Order",
+  RecordType.Name = "Inquiry",
+  RecordType.Name = "Inquiry (Internal)",
+  RecordType.Name = "Order Claim",
+  RecordType.Name = "Orders",
+  RecordType.Name = "Quality Claim",
+  RecordType.Name = "Third Party",
+  RecordType.Name = "Changes"
+ )
+)</errorConditionFormula>
+    <errorDisplayField>FTB_Number__c</errorDisplayField>
+    <errorMessage>Field is Required.</errorMessage>
+</ValidationRule>

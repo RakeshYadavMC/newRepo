@@ -1,0 +1,7 @@
+<messaging:emailTemplate subject="Account Call Summary for {!relatedTo.gvp__Account__r.Name} on {!relatedTo.gvp__Date_of_Call__c}" recipientType="User" relatedToType="gvp__Account_Call__c">
+    <messaging:htmlEmailBody >
+        <img src="{!$Resource.GVMobile_Logo_Tablet}" alt="Beam Suntory Mexico" />
+        <p style="font-family:Arial">Dear {!recipient.Name}, this is a summary of the Account Call details just entered into GreatVines.</p>
+       <gvp:Mega_Call_Summary MegaCallSummaryAccountCall="{!relatedTo}"/>
+    </messaging:htmlEmailBody>
+</messaging:emailTemplate>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This setting holds codes given out to the Innerworkings team to allow them to access a Salesforce site and upload a file that will update salesforce records</description>
+    <label>Single Barrel Verification Code</label>
+    <pluralLabel>Single Barrel Verification Codes</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

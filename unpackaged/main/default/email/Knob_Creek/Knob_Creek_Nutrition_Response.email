@@ -1,0 +1,9 @@
+<p>Dear {!Contact.FirstName},</p>
+<p>We love to find people who are as interested in the details of {!Case.Product_Type__c} as we are!<br />
+This chart should help you with the nutritional content of {!Case.Product_Type__c}, but if you require more information due to a medical need, please let us know.</p>
+<p>Please use the following link to find {!Case.Brand__c} Nutrition Information https://www.drinksmart.com/nutrition/view/knob-creek.</p>
+<p>{!Case.OwnerFullName}<br />
+<strong>Knob Creek® Customer Care Representative</strong><br />
+<img src="{!$Label.SF_Base_URL_BrandLogo}KnobCreek.png" alt=""  width="120px" /><br />
+<a href="https://www.facebook.com/KnobCreek"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}facebook.png" width="20" alt="" /></a> <a href="https://twitter.com/knobcreek"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}twitter.png" width="20" alt="" /></a> <a href="https://instagram.com/knobcreekbourbon"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}instagram.png" width="20" alt="" /></a> <a href="https://www.youtube.com/user/knobcreek"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}youtube.png" width="20" alt="" /></a> <br />
+<a href="http://www.drinksmart.com"><img src="{!$Label.SF_Base_URL_BrandLogo}DrinkSmart.png" style="display:block; width:15%; margin-left: auto; margin-right: auto" title="Drink Smart" alt="Drink Smart" /></a></p>

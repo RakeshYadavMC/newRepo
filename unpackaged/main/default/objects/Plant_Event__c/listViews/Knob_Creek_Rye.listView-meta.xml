@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Knob_Creek_Rye</fullName>
+    <columns>NAME</columns>
+    <columns>Status__c</columns>
+    <columns>Time_of_Day__c</columns>
+    <columns>Initiator__c</columns>
+    <columns>Number_of_Attendees__c</columns>
+    <columns>Tour__c</columns>
+    <columns>Scheduled_Date__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Brand__c</field>
+        <operation>equals</operation>
+        <value>Knob Creek</value>
+    </filters>
+    <filters>
+        <field>Product_Type__c</field>
+        <operation>equals</operation>
+        <value>Rye</value>
+    </filters>
+    <label>Knob Creek Rye</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>CS_Employees</group>
+        <group>Knob_Creek_Single_Barrel</group>
+    </sharedTo>
+</ListView>

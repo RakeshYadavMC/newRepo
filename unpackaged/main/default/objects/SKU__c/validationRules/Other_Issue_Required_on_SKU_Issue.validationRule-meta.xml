@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Other_Issue_Required_on_SKU_Issue</fullName>
+    <active>true</active>
+    <description>If SKU Issue is "Other", this requires "Other Issue" to be populated.</description>
+    <errorConditionFormula>AND (
+ INCLUDES( SKU_Issue__c , "Other"),
+ ISBLANK( Other_Issue__c )
+)</errorConditionFormula>
+    <errorDisplayField>Other_Issue__c</errorDisplayField>
+    <errorMessage>This field is required.</errorMessage>
+</ValidationRule>

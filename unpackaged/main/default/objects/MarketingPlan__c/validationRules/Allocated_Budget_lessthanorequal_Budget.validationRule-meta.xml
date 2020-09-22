@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Allocated_Budget_lessthanorequal_Budget</fullName>
+    <active>true</active>
+    <description>A Marketing Plan's Allocated Budget (or sum of direct child Marketing Plans' Budget) must not be greater than the Marketing Plan's Budget.</description>
+    <errorConditionFormula>ROUND(AllocatedBudget__c, 2) &gt;  ROUND(Budget__c, 2)</errorConditionFormula>
+    <errorDisplayField>AllocatedBudget__c</errorDisplayField>
+    <errorMessage>MP Allocated Budget cannot exceed MP Budget. Either increase the MP Budget value or decrease the budget value on any associated Marketing Plans.</errorMessage>
+</ValidationRule>

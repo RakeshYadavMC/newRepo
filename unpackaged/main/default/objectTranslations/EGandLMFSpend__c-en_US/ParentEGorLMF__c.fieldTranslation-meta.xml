@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Master EG or LMF --></label>
+        <name>ParentEGorLMF__c</name>
+        <relationshipLabel><!-- EG and LMF Spend --></relationshipLabel>
+    </CustomFieldTranslation>

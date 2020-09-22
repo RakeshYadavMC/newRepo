@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Mapped value from the Object&apos;s Field to the corresponding JSON existing standard field in the dhtmlxGantt code base --></help>
+        <label><!-- JSON --></label>
+        <name>JSON__c</name>
+    </CustomFieldTranslation>

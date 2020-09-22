@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Return_SAP_number_missing_from_sub_case</fullName>
+    <active>true</active>
+    <description>Certain fields are required on the CHILD record in or the close the PARENT case, but the fields on the CHILD case are not filled out until the PARENT case is ready to be closed.  Return SAP number is required for Damage and Shortage claims</description>
+    <errorConditionFormula>AND(
+  RecordType.DeveloperName = "Order_Claim",
+  Return_SAP_number_missing__c = true,
+  OR( 
+    ISPICKVAL(Status, 'Closed'), 
+    ISPICKVAL(Status, 'Closed - Approved'), 
+    ISPICKVAL(Status, 'Closed - Rejected') 
+  )
+)</errorConditionFormula>
+    <errorMessage>Return SAP Number is required on a child case of type "Damage Claim" or "Shortage Claim"</errorMessage>
+</ValidationRule>

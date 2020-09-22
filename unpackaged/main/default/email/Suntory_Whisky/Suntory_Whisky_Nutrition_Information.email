@@ -1,0 +1,4 @@
+<p>Dear {!Contact.FirstName},</p>
+<p>We love to find people who are as interested in the details of {!Case.Product_Type__c} as we are! This chart https://www.drinksmart.com/nutrition should help you with the nutritional content of {!Case.Product_Type__c}, but if you require more information due to a medical need, please let us know.</p>
+<p>Please use the following link to find the {!Case.Product_Type__c} Nutrition Information. 
+<br />Thank you for thinking of us,</p>

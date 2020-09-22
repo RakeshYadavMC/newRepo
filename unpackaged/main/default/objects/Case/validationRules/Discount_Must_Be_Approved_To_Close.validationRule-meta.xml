@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Discount_Must_Be_Approved_To_Close</fullName>
+    <active>false</active>
+    <description>Case must have the "Approved" field checked before it can be closed if the "Approval Needed" field is set to "Yes".</description>
+    <errorConditionFormula>AND(
+  RecordType.DeveloperName='Discount',
+  NOT(ISBLANK(TEXT(Approval_Needed__c))),
+  TEXT(Approval_Needed__c) = 'Yes',
+  Approved__c=FALSE,
+  IF(PRIORVALUE(Status)!="Closed" &amp;&amp; ISPICKVAL(Status, "Closed") ,TRUE,FALSE)
+)</errorConditionFormula>
+    <errorMessage>Case must be approved if needed and "Approval Needed" cannot be blank</errorMessage>
+</ValidationRule>

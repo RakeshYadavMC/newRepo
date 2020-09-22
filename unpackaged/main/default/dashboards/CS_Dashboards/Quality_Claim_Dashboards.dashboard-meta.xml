@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Dashboard xmlns="http://soap.sforce.com/2006/04/metadata">
+    <backgroundEndColor>#FFFFFF</backgroundEndColor>
+    <backgroundFadeDirection>Diagonal</backgroundFadeDirection>
+    <backgroundStartColor>#FFFFFF</backgroundStartColor>
+    <dashboardFilters>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Distributor</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Retail</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Consumer</values>
+        </dashboardFilterOptions>
+        <name>Complaint Source</name>
+    </dashboardFilters>
+    <dashboardFilters>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>ACCU-TEC</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>ADL</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Alepat Taylor</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Behror</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Blue Ocean</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Burlington</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Carolina Beer</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>CCA - AB Co.</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>CCA - Australia</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>CCA - Australia - HO</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>CCA - Australia - Kewdale</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>CCA - Australia - Moorabbin</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>CCA - Australia - Richlands</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>CCA - New Zealand</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>CCA - QLD Richlands</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>CCA - VIC Moorabbin</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>CCA - WA Perth</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Clermont</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Cooley</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Cott - Mexico</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Cott - Mississauga</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Cott - Viscount</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>DHL Macrocentro (BSI Mexico)</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>DIS</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>El Tesoro</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Frankfort</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Glenturner</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Global Quality</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Hooghoudt</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Jarnac</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Jerez</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>"LF Logistics, Singapore"</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Loretto</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>MacIntyre Scott (UK)</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Morrison Bowmore</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Ned Cargo</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Onsort</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>PR - Brazil</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Pri-Pack</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Salignac</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Sauza</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Segovia</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Sonoma County Wine Company</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>St. Croix</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Suntory - Japanese Whiskey</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Tri-Link</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Unknown</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Walkerville</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>WTDC</values>
+        </dashboardFilterOptions>
+        <name>Bottling Plant</name>
+    </dashboardFilters>
+    <dashboardGridLayout>
+        <dashboardGridComponents>
+            <colSpan>4</colSpan>
+            <columnIndex>0</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartAxisRange>Auto</chartAxisRange>
+                <chartSummary>
+                    <axisBinding>y</axisBinding>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Bar</componentType>
+                <dashboardFilterColumns>
+                    <column>Case$Complaint_Source__c</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>Case$Bottling_Plant__c</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>0</decimalPrecision>
+                <displayUnits>Auto</displayUnits>
+                <drillEnabled>false</drillEnabled>
+                <drillToDetailEnabled>false</drillToDetailEnabled>
+                <enableHover>false</enableHover>
+                <expandOthers>false</expandOthers>
+                <groupingColumn>Case$Bottling_Plant__c</groupingColumn>
+                <groupingSortProperties />
+                <legendPosition>Bottom</legendPosition>
+                <report>CS_Dashboard_Reports/Total_Quality_Complaints</report>
+                <showPercentage>false</showPercentage>
+                <showPicturesOnCharts>false</showPicturesOnCharts>
+                <showValues>false</showValues>
+                <sortBy>RowLabelAscending</sortBy>
+                <useReportChart>false</useReportChart>
+            </dashboardComponent>
+            <rowIndex>0</rowIndex>
+            <rowSpan>8</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>4</colSpan>
+            <columnIndex>4</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartAxisRange>Auto</chartAxisRange>
+                <chartSummary>
+                    <axisBinding>y</axisBinding>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Bar</componentType>
+                <dashboardFilterColumns>
+                    <column>Case$Complaint_Source__c</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>Case$Bottling_Plant__c</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>0</decimalPrecision>
+                <displayUnits>Auto</displayUnits>
+                <drillEnabled>false</drillEnabled>
+                <drillToDetailEnabled>false</drillToDetailEnabled>
+                <enableHover>false</enableHover>
+                <expandOthers>false</expandOthers>
+                <groupingColumn>Case$Brand__c</groupingColumn>
+                <groupingSortProperties />
+                <legendPosition>Bottom</legendPosition>
+                <report>CS_Dashboard_Reports/Total_Quality_Complaints_By_Brand</report>
+                <showPercentage>false</showPercentage>
+                <showPicturesOnCharts>false</showPicturesOnCharts>
+                <showValues>false</showValues>
+                <sortBy>RowLabelAscending</sortBy>
+                <useReportChart>false</useReportChart>
+            </dashboardComponent>
+            <rowIndex>0</rowIndex>
+            <rowSpan>8</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>4</colSpan>
+            <columnIndex>8</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartSummary>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentChartTheme>light</componentChartTheme>
+                <componentType>Metric</componentType>
+                <dashboardFilterColumns>
+                    <column>Case$Complaint_Source__c</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>Case$Bottling_Plant__c</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Auto</displayUnits>
+                <groupingSortProperties />
+                <header>Total Quality Complaints</header>
+                <indicatorBreakpoint1>33.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>67.0</indicatorBreakpoint2>
+                <indicatorHighColor>#FF0000</indicatorHighColor>
+                <indicatorLowColor>#00716B</indicatorLowColor>
+                <indicatorMiddleColor>#FFB75D</indicatorMiddleColor>
+                <report>CS_Dashboard_Reports/Total_Quality_Complaints</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>0</rowIndex>
+            <rowSpan>8</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>4</colSpan>
+            <columnIndex>4</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartAxisRange>Auto</chartAxisRange>
+                <chartSummary>
+                    <axisBinding>y</axisBinding>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>BarStacked</componentType>
+                <dashboardFilterColumns>
+                    <column>Case$Complaint_Source__c</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>Case$Bottling_Plant__c</column>
+                </dashboardFilterColumns>
+                <displayUnits>Auto</displayUnits>
+                <drillEnabled>false</drillEnabled>
+                <drillToDetailEnabled>false</drillToDetailEnabled>
+                <enableHover>false</enableHover>
+                <expandOthers>false</expandOthers>
+                <groupingColumn>Case$CreatedDate</groupingColumn>
+                <groupingColumn>Case$Issue__c</groupingColumn>
+                <groupingSortProperties />
+                <legendPosition>Bottom</legendPosition>
+                <report>CS_Dashboard_Reports/Total_Quality_Complaints_By_Month</report>
+                <showPercentage>false</showPercentage>
+                <showValues>false</showValues>
+                <sortBy>RowLabelAscending</sortBy>
+                <useReportChart>false</useReportChart>
+            </dashboardComponent>
+            <rowIndex>8</rowIndex>
+            <rowSpan>8</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>4</colSpan>
+            <columnIndex>8</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartAxisRange>Auto</chartAxisRange>
+                <chartSummary>
+                    <axisBinding>y</axisBinding>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>BarStacked</componentType>
+                <dashboardFilterColumns>
+                    <column>Case$Complaint_Source__c</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>Case$Bottling_Plant__c</column>
+                </dashboardFilterColumns>
+                <displayUnits>Auto</displayUnits>
+                <drillEnabled>false</drillEnabled>
+                <drillToDetailEnabled>false</drillToDetailEnabled>
+                <enableHover>false</enableHover>
+                <expandOthers>false</expandOthers>
+                <groupingColumn>BucketField_84223203</groupingColumn>
+                <groupingColumn>Case$Issue__c</groupingColumn>
+                <groupingSortProperties />
+                <legendPosition>Bottom</legendPosition>
+                <report>CS_Dashboard_Reports/Total_Quality_Complaints_By_Region</report>
+                <showPercentage>false</showPercentage>
+                <showValues>false</showValues>
+                <sortBy>RowLabelAscending</sortBy>
+                <useReportChart>false</useReportChart>
+            </dashboardComponent>
+            <rowIndex>8</rowIndex>
+            <rowSpan>8</rowSpan>
+        </dashboardGridComponents>
+        <numberOfColumns>12</numberOfColumns>
+        <rowHeight>36</rowHeight>
+    </dashboardGridLayout>
+    <dashboardType>LoggedInUser</dashboardType>
+    <isGridLayout>true</isGridLayout>
+    
+    <textColor>#000000</textColor>
+    <title>Quality Claim Dashboards</title>
+    <titleColor>#000000</titleColor>
+    <titleSize>12</titleSize>
+</Dashboard>

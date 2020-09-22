@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Internal_Change_Picklist__c</fullName>
+    <externalId>false</externalId>
+    <label>Internal Change Picklist</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Allocation</fullName>
+                <default>false</default>
+                <label>Allocation</label>
+            </value>
+            <value>
+                <fullName>Corp Change</fullName>
+                <default>false</default>
+                <label>Corp Change</label>
+            </value>
+            <value>
+                <fullName>Corporate Delay</fullName>
+                <default>false</default>
+                <label>Corporate Delay</label>
+            </value>
+            <value>
+                <fullName>DI Invoices</fullName>
+                <default>false</default>
+                <label>DI Invoices</label>
+            </value>
+            <value>
+                <fullName>Internal Reports</fullName>
+                <default>false</default>
+                <label>Internal Reports</label>
+            </value>
+            <value>
+                <fullName>Missing Pricing (MPT)</fullName>
+                <default>false</default>
+                <label>Missing Pricing (MPT)</label>
+            </value>
+            <value>
+                <fullName>Registration</fullName>
+                <default>false</default>
+                <label>Registration</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

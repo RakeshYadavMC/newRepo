@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This setting contains Business Hours that should be assigned to each GBS Center</description>
+    <label>GBS Business Hours Setting</label>
+    <pluralLabel>GBS Business Hours Settings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Objectives__c</fullName>
+    <externalId>false</externalId>
+    <label>Objectives</label>
+    <required>false</required>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Account Business Review</fullName>
+                <default>false</default>
+                <label>Account Business Review</label>
+            </value>
+            <value>
+                <fullName>Account Call</fullName>
+                <default>false</default>
+                <label>Account Call</label>
+            </value>
+            <value>
+                <fullName>Consumer Event/Promotion</fullName>
+                <default>false</default>
+                <label>Consumer Event/Promotion</label>
+            </value>
+            <value>
+                <fullName>Features</fullName>
+                <default>false</default>
+                <label>Features</label>
+            </value>
+            <value>
+                <fullName>GoSpotCheck Survey</fullName>
+                <default>false</default>
+                <label>GoSpotCheck Survey</label>
+            </value>
+            <value>
+                <fullName>Influencer Event</fullName>
+                <default>false</default>
+                <label>Influencer Event</label>
+            </value>
+            <value>
+                <fullName>Meet &amp; Greet</fullName>
+                <default>false</default>
+                <label>Meet &amp; Greet</label>
+            </value>
+            <value>
+                <fullName>Menu Placement</fullName>
+                <default>false</default>
+                <label>Menu Placement</label>
+            </value>
+            <value>
+                <fullName>New Product Introduction</fullName>
+                <default>false</default>
+                <label>New Product Introduction</label>
+            </value>
+            <value>
+                <fullName>POS/Display Installation</fullName>
+                <default>false</default>
+                <label>POS/Display Installation</label>
+            </value>
+            <value>
+                <fullName>Programming</fullName>
+                <default>false</default>
+                <label>Programming</label>
+            </value>
+            <value>
+                <fullName>PR Program/Special Event</fullName>
+                <default>false</default>
+                <label>PR Program/Special Event</label>
+            </value>
+            <value>
+                <fullName>Shelf Management</fullName>
+                <default>false</default>
+                <label>Shelf Management</label>
+            </value>
+            <value>
+                <fullName>Spirits List</fullName>
+                <default>false</default>
+                <label>Spirits List</label>
+            </value>
+            <value>
+                <fullName>Surveying</fullName>
+                <default>false</default>
+                <label>Surveying</label>
+            </value>
+            <value>
+                <fullName>Trade Training/Education</fullName>
+                <default>false</default>
+                <label>Trade Training/Education</label>
+            </value>
+            <value>
+                <fullName>Virtual Spirits</fullName>
+                <default>false</default>
+                <label>Virtual Spirits</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

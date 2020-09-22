@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>Tier de Escocés</label>
+        <name>Scotch_Tier__c</name>
+        <picklistValues>
+            <masterLabel>*TBD*</masterLabel>
+            <translation><!-- *TBD* --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bronze</masterLabel>
+            <translation><!-- Bronze --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gold</masterLabel>
+            <translation>Oro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Main Warehouse</masterLabel>
+            <translation>Bodega Principal</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>National</masterLabel>
+            <translation>Nacional</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New / Multiple accounts</masterLabel>
+            <translation>Nuevas / Cuentas Múltiples</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Platinum</masterLabel>
+            <translation>Platino</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regional Warehouse</masterLabel>
+            <translation>Bodega Regional</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Silver</masterLabel>
+            <translation>Plata</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warehouse</masterLabel>
+            <translation>Bodega</translation>
+        </picklistValues>
+    </CustomFieldTranslation>

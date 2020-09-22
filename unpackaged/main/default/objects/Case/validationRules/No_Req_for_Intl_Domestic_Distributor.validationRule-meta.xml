@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_Req_for_Intl_Domestic_Distributor</fullName>
+    <active>true</active>
+    <description>This is to not allow Int'l or Domestic Distributors to select Req as an Order Type</description>
+    <errorConditionFormula>AND(
+ ISPICKVAL( Type , "Requisition"), 
+OR ( $Profile.Name  = "Distributor Community",
+     $Profile.Name  = "International Distributor Community"
+)
+)</errorConditionFormula>
+    <errorDisplayField>Type</errorDisplayField>
+    <errorMessage>This order type cannot be selected.</errorMessage>
+</ValidationRule>

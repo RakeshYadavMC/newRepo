@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Jan_Budget__c</fullName>
+    <description>January Budget</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Planned Budget for January month</inlineHelpText>
+    <label>Jan Plan</label>
+    <precision>12</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

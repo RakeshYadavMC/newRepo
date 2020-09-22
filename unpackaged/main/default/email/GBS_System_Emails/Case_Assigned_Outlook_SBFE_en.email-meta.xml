@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Case Assigned Notification to Submitter of Outlook origin type English language</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Blank_Letterhead</letterhead>
+    <name>Case Assigned Outlook (SBFE_en)</name>
+    <style>freeForm</style>
+    <subject>Case has been assigned - {!Case.Subject}</subject>
+    <textOnly>Hi,
+
+Your case #{!Case.CaseNumber} has been assigned to an analyst in {!Case.Type}.You should be contacted shortly regarding your request.
+
+Thank you,
+
+ 
+
+
+
+
+
+
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

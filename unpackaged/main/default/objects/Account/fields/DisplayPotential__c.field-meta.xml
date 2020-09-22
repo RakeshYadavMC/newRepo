@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DisplayPotential__c</fullName>
+    <externalId>false</externalId>
+    <label>Display Potential</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Bin (1-3 phys cs)</fullName>
+                <default>false</default>
+                <label>Bin (1-3 phys cs)</label>
+            </value>
+            <value>
+                <fullName>Large (15+ phys cs)</fullName>
+                <default>false</default>
+                <label>Large (15+ phys cs)</label>
+            </value>
+            <value>
+                <fullName>Medium (5-15 phys cs)</fullName>
+                <default>false</default>
+                <label>Medium (5-15 phys cs)</label>
+            </value>
+            <value>
+                <fullName>Small (3-5 phys cs)</fullName>
+                <default>false</default>
+                <label>Small (3-5 phys cs)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

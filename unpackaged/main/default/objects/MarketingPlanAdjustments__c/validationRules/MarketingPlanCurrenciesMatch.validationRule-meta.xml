@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MarketingPlanCurrenciesMatch</fullName>
+    <active>false</active>
+    <description>Transferring and Receiving Marketing Plan currencies must match.</description>
+    <errorConditionFormula>text(TransferringMarketingPlan__r.CurrencyIsoCode) &lt;&gt;  text(ReceivingMarketingPlan__r.CurrencyIsoCode)</errorConditionFormula>
+    <errorDisplayField>CurrencyIsoCode</errorDisplayField>
+    <errorMessage>Transferring and Receiving Marketing Plan currencies must match.</errorMessage>
+</ValidationRule>

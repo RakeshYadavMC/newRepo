@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Case closed French email template for GBS center SBFE of Outlook origin type</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Blank_Letterhead</letterhead>
+    <name>Case Closed Outlook (SBFE_fr)</name>
+    <style>freeForm</style>
+    <subject>Case # {! Case.CaseNumber} has been resolved; see attached details</subject>
+    <textOnly>Bonjour, 
+
+Votre cas #{!Case.CaseNumber} a été résolu avec les suivant détails de résolution suivants: 
+
+{!Case.Case_Resolution_Details__c} 
+
+Prenez 5 secondes pour répondre à cette question : Êtes-vous satisfait de la ponctualité et de l’exactitude de la résolution ?
+
+         
+
+Merci.
+
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

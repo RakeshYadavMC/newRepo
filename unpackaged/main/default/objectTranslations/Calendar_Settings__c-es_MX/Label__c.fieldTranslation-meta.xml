@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Label for the setting the user sees while on the Program Calendar; this may be different than the field label on the field or record --></help>
+        <label><!-- Label --></label>
+        <name>Label__c</name>
+    </CustomFieldTranslation>

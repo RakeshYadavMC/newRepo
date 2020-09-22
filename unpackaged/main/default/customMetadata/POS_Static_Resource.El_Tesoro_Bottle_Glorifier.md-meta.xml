@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>El Tesoro Bottle Glorifier</label>
+    <protected>false</protected>
+    <values>
+        <field>Brand__c</field>
+        <value xsi:type="xsd:string">El Tesoro</value>
+    </values>
+    <values>
+        <field>Item_Text__c</field>
+        <value xsi:type="xsd:string">Bottle Glorifier</value>
+    </values>
+    <values>
+        <field>POS_Item__c</field>
+        <value xsi:type="xsd:string">Bottle_Glorifier</value>
+    </values>
+    <values>
+        <field>Static_Resource_Name__c</field>
+        <value xsi:type="xsd:string">elTesoroBottleGlorifier</value>
+    </values>
+</CustomMetadata>

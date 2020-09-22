@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Due_Date__c</fullName>
+    <defaultValue>IF($RecordType.Name = 'Brand Registration', TODAY()+14, NULL)</defaultValue>
+    <description>Date that the case must be completed by. This field is used by Compliance</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Date that the case must be completed by</inlineHelpText>
+    <label>Due Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

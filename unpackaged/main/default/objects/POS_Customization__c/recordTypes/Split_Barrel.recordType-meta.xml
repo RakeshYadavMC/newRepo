@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Split_Barrel</fullName>
+    <active>true</active>
+    <label>Split Barrel</label>
+    <picklistValues>
+        <picklist>Carrier__c</picklist>
+        <values>
+            <fullName>DHL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FedEx</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UPS</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Get_Insert_Text_From__c</picklist>
+        <values>
+            <fullName>Account Name</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bottle Label Text</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Item Received</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type__c</picklist>
+        <values>
+            <fullName>Barrel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Barrel Display</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Barrel Head Sign</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Barrel Plaque</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Barrel Plaque-INSERT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bottle Cradle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bottle Cradle-INSERT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bottle Glorifier</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bottle Necker</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bottle Plate Text</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commemorative Stave</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flight Tray</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Floor Display</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Floor Display-INSERT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Full Barrel Rack</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Half Barrel Rack</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hang Tag</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Menu Insert Card</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Menu Insert Card-INSERT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pour Spout</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ring</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Selection Frame</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shelf Glorifier</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shelf Glorifier-INSERT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Snifter Glassware</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wall Art</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

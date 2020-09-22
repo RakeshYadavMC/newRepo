@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Email_Sent_to_Esker__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This checkbox is checked once the attachments are sent from a case to Esker for processing.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This is checked if the attachments related to the case are sent to Esker for processing</inlineHelpText>
+    <label>Email Sent to Esker</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

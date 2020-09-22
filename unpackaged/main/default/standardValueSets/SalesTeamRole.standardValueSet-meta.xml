@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>State Manager</fullName>
+        <default>false</default>
+        <label>State Manager</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Channel Manager</fullName>
+        <default>false</default>
+        <label>Channel Manager</label>
+    </standardValue>
+    <standardValue>
+        <fullName>On Premise KAM</fullName>
+        <default>false</default>
+        <label>On Premise KAM</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Off Premise KAM</fullName>
+        <default>false</default>
+        <label>Off Premise KAM</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Luxury Specialist</fullName>
+        <default>false</default>
+        <label>Luxury Specialist</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Brand Ambassador</fullName>
+        <default>false</default>
+        <label>Brand Ambassador</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other Support</fullName>
+        <default>false</default>
+        <label>Other Support</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Field Marketing</fullName>
+        <default>false</default>
+        <label>Field Marketing</label>
+    </standardValue>
+    <standardValue>
+        <fullName>eCommerce</fullName>
+        <default>false</default>
+        <label>eCommerce</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Territory Manager</fullName>
+        <default>false</default>
+        <label>Territory Manager</label>
+    </standardValue>
+</StandardValueSet>

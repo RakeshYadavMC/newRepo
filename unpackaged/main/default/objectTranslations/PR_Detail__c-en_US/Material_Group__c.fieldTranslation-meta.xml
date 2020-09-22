@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Material Group --></label>
+        <name>Material_Group__c</name>
+        <picklistValues>
+            <masterLabel>32010000</masterLabel>
+            <translation><!-- 32010000 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>35010201</masterLabel>
+            <translation><!-- 35010201 --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

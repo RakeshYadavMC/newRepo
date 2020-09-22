@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Atributo (Si es Lista de Selección) tiene un código de color que dberá ser mostrado en la programación del Calendario y donde el color está definido en una lista de selección en la lista nativa de colores</help>
+        <label><!-- Color --></label>
+        <name>Color__c</name>
+    </CustomFieldTranslation>

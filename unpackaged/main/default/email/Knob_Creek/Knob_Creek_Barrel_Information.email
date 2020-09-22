@@ -1,0 +1,9 @@
+<p>Hi {!Contact.FirstName},</p>
+<p>Thank you for your Knob Creek barrel program inquiry. See below for information about your specific barrel pick:</p>
+<p>Date Barreled:<br />
+Date Selected:<br />
+Warehouse:<br />
+Floor:<br />
+Tier: </p>
+<p>Enjoy your selection!<br />
+{!Case.OwnerFullName}</p>

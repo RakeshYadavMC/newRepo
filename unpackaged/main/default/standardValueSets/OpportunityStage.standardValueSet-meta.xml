@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Closed - Lost Opportunity</fullName>
+        <default>false</default>
+        <label>Closed - Lost Opportunity</label>
+        <closed>true</closed>
+        <forecastCategory>Omitted</forecastCategory>
+        <probability>0</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed - Won Opportunity</fullName>
+        <default>false</default>
+        <label>Closed - Won Opportunity</label>
+        <closed>true</closed>
+        <forecastCategory>Closed</forecastCategory>
+        <probability>100</probability>
+        <won>true</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Open - Aperity Provided</fullName>
+        <default>false</default>
+        <label>Open - Aperity Provided</label>
+        <closed>false</closed>
+        <forecastCategory>Pipeline</forecastCategory>
+        <probability>100</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Open - Rep Created</fullName>
+        <default>false</default>
+        <label>Open - Rep Created</label>
+        <closed>false</closed>
+        <forecastCategory>Pipeline</forecastCategory>
+        <probability>100</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Prospect</fullName>
+        <default>false</default>
+        <label>Prospect</label>
+        <closed>false</closed>
+        <forecastCategory>Pipeline</forecastCategory>
+        <probability>10</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Contacted</fullName>
+        <default>false</default>
+        <label>Contacted</label>
+        <closed>false</closed>
+        <forecastCategory>Pipeline</forecastCategory>
+        <probability>20</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>In Negotiation</fullName>
+        <default>false</default>
+        <label>In Negotiation</label>
+        <closed>false</closed>
+        <forecastCategory>Pipeline</forecastCategory>
+        <probability>50</probability>
+        <won>false</won>
+    </standardValue>
+</StandardValueSet>

@@ -1,0 +1,10 @@
+<p>Dear {!Contact.FirstName},</p>
+<p>Thank you very much for reaching out to us. We always appreciate hearing from our supporters.</p>
+<p>Though we recently made the decision to change the top of the Knob Creek bottle, we've certainly heard our fans loud and clear. As a result of our friends' suggestions on social media and to our customer service department, we have decided to return to the original cork top. Throughout these conversations, one thing has remained constant”¦and that's the bourbon inside the bottle!</p>
+<p>When Booker Noe, master distiller and Jim Beam's grandson, created The Small Batch Bourbon Collection® more than two decades ago, his intention was to offer whiskey lovers the highest quality bourbons imaginable. As the #1 super-premium bourbon in the world, Knob Creek® remains true to Booker's vision: patiently aged for 9 years, bottled at 100 proof, and hand-crafted to produce a big flavor perfect for sipping, enjoying on the rocks or mixing into your favorite bourbon cocktail.</p>
+<p>Thank you again for contacting us, and if you haven't already, please try the newest members of the Knob Creek® family: Knob Creek® Smoked Maple, Knob Creek® Rye, and Knob Creek® Single Barrel Reserve.</p>
+<p>{!Case.OwnerFullName}<br />
+<strong>Knob Creek® Customer Care Representative</strong><br />
+<img src="{!$Label.SF_Base_URL_BrandLogo}KnobCreek.png" alt=""  width="120px" /><br />
+<a href="https://www.facebook.com/KnobCreek"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}facebook.png" width="20" alt="" /></a> <a href="https://twitter.com/knobcreek"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}twitter.png" width="20" alt="" /></a> <a href="https://instagram.com/knobcreekbourbon"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}instagram.png" width="20" alt="" /></a> <a href="https://www.youtube.com/user/knobcreek"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}youtube.png" width="20" alt="" /></a> <br />
+<a href="http://www.drinksmart.com"><img src="{!$Label.SF_Base_URL_BrandLogo}DrinkSmart.png" width="120" title="Drink Smart" alt="Drink Smart" /></a></p>

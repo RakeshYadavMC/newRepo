@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WBS_Segment_Length_Brand_Quality</fullName>
+    <active>true</active>
+    <description>Enforces field length requirements for the WBS Segment on the Brand Quality record type.</description>
+    <errorConditionFormula>IF(ISBLANK(WBSCodeSegment__c), false, AND(RecordType.DeveloperName='BrandQuality', LEN(WBSCodeSegment__c)!=3))</errorConditionFormula>
+    <errorMessage>A Brand Quality's WBS Code Segment must be exactly three characters long.</errorMessage>
+</ValidationRule>

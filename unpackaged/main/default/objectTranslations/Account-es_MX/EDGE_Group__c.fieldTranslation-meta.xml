@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>Grupo EDGE</label>
+        <name>EDGE_Group__c</name>
+        <picklistValues>
+            <masterLabel>KAM</masterLabel>
+            <translation><!-- KAM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LFL</masterLabel>
+            <translation><!-- LFL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LUX</masterLabel>
+            <translation><!-- LUX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MCS</masterLabel>
+            <translation><!-- MCS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NON-EDGE</masterLabel>
+            <translation><!-- NON-EDGE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NULL</masterLabel>
+            <translation><!-- NULL --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- SKU Issue --></label>
+        <name>SKU_Issue__c</name>
+        <picklistValues>
+            <masterLabel>Allocation</masterLabel>
+            <translation><!-- Allocation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Barrel SKU on multiple line PO</masterLabel>
+            <translation><!-- Barrel SKU on multiple line PO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CMIR</masterLabel>
+            <translation><!-- CMIR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carrier</masterLabel>
+            <translation><!-- Carrier --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Costing (YMTP)</masterLabel>
+            <translation><!-- Costing (YMTP) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Esker transmission error</masterLabel>
+            <translation><!-- Esker transmission error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incorrect Material Number Used</masterLabel>
+            <translation><!-- Incorrect Material Number Used --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incorrect SCC submitted</masterLabel>
+            <translation><!-- Incorrect SCC submitted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multiple items linked to SCC</masterLabel>
+            <translation><!-- Multiple items linked to SCC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Issue</masterLabel>
+            <translation><!-- No Issue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not a Beam Suntory Product</masterLabel>
+            <translation><!-- Not a Beam Suntory Product --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Obsolete Item</masterLabel>
+            <translation><!-- Obsolete Item --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Discontinuation</masterLabel>
+            <translation><!-- Pending Discontinuation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price Discrepancy</masterLabel>
+            <translation><!-- Price Discrepancy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pricing (YPOU)</masterLabel>
+            <translation><!-- Pricing (YPOU) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SCC transmission error</masterLabel>
+            <translation><!-- SCC transmission error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Promotion</masterLabel>
+            <translation><!-- Sales Promotion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wrong Plant</masterLabel>
+            <translation><!-- Wrong Plant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>item cannot be individually sold</masterLabel>
+            <translation><!-- item cannot be individually sold --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

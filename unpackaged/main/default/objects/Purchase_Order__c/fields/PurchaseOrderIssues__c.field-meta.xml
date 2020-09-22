@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PurchaseOrderIssues__c</fullName>
+    <externalId>false</externalId>
+    <label>Purchase Order Issues</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No Issue</fullName>
+                <default>false</default>
+                <label>No Issue</label>
+            </value>
+            <value>
+                <fullName>Overweight</fullName>
+                <default>false</default>
+                <label>Overweight</label>
+            </value>
+            <value>
+                <fullName>Missing Carrier</fullName>
+                <default>false</default>
+                <label>Missing Carrier</label>
+            </value>
+            <value>
+                <fullName>IT</fullName>
+                <default>false</default>
+                <label>IT</label>
+            </value>
+            <value>
+                <fullName>Incoterms</fullName>
+                <default>false</default>
+                <label>Incoterms</label>
+            </value>
+            <value>
+                <fullName>Wrong Plant</fullName>
+                <default>false</default>
+                <label>Wrong Plant</label>
+            </value>
+            <value>
+                <fullName>Under Weight</fullName>
+                <default>false</default>
+                <label>Under Weight</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>10</visibleLines>
+</CustomField>

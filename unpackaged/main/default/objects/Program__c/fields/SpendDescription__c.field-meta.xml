@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SpendDescription__c</fullName>
+    <externalId>false</externalId>
+    <label>Spend Description</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Funds__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Ad Production Costs</fullName>
+                <default>false</default>
+                <label>Ad Production Costs</label>
+            </value>
+            <value>
+                <fullName>Advanced TV Paid Advertising</fullName>
+                <default>false</default>
+                <label>Advanced TV Paid Advertising</label>
+            </value>
+            <value>
+                <fullName>Cinema Paid Advertising</fullName>
+                <default>false</default>
+                <label>Cinema Paid Advertising</label>
+            </value>
+            <value>
+                <fullName>Consumer Giveaways</fullName>
+                <default>false</default>
+                <label>Consumer Giveaways</label>
+            </value>
+            <value>
+                <fullName>Consumer Magazines Paid Advertising</fullName>
+                <default>false</default>
+                <label>Consumer Magazines Paid Advertising</label>
+            </value>
+            <value>
+                <fullName>Consumer Newspaper Paid Advertising</fullName>
+                <default>false</default>
+                <label>Consumer Newspaper Paid Advertising</label>
+            </value>
+            <value>
+                <fullName>Consumer Research</fullName>
+                <default>false</default>
+                <label>Consumer Research</label>
+            </value>
+            <value>
+                <fullName>Creative Agency Fees</fullName>
+                <default>false</default>
+                <label>Creative Agency Fees</label>
+            </value>
+            <value>
+                <fullName>Customer Relations Management</fullName>
+                <default>false</default>
+                <label>Customer Relations Management</label>
+            </value>
+            <value>
+                <fullName>Digital Display Paid Advertising</fullName>
+                <default>false</default>
+                <label>Digital Display Paid Advertising</label>
+            </value>
+            <value>
+                <fullName>Direct Mail</fullName>
+                <default>false</default>
+                <label>Direct Mail</label>
+            </value>
+            <value>
+                <fullName>Freight and Storage (National POS Only)</fullName>
+                <default>false</default>
+                <label>Freight and Storage (National POS Only)</label>
+            </value>
+            <value>
+                <fullName>Heritage Center</fullName>
+                <default>false</default>
+                <label>Heritage Center</label>
+            </value>
+            <value>
+                <fullName>Liscensing and Royalty</fullName>
+                <default>false</default>
+                <label>Liscensing and Royalty</label>
+            </value>
+            <value>
+                <fullName>Media Agency Fees</fullName>
+                <default>false</default>
+                <label>Media Agency Fees</label>
+            </value>
+            <value>
+                <fullName>Menu Printing</fullName>
+                <default>false</default>
+                <label>Menu Printing</label>
+            </value>
+            <value>
+                <fullName>Misc. (requires comment)</fullName>
+                <default>false</default>
+                <label>Misc. (requires comment)</label>
+            </value>
+            <value>
+                <fullName>Mobile Paid Advertising</fullName>
+                <default>false</default>
+                <label>Mobile Paid Advertising</label>
+            </value>
+            <value>
+                <fullName>Non-Standard Digital Units Paid Advertising</fullName>
+                <default>false</default>
+                <label>Non-Standard Digital Units Paid Advertising</label>
+            </value>
+            <value>
+                <fullName>Off Premise Consumer Promotion</fullName>
+                <default>false</default>
+                <label>Off Premise Consumer Promotion</label>
+            </value>
+            <value>
+                <fullName>Off Premise Display Installation</fullName>
+                <default>false</default>
+                <label>Off Premise Display Installation</label>
+            </value>
+            <value>
+                <fullName>Off Premise POS</fullName>
+                <default>false</default>
+                <label>Off Premise POS</label>
+            </value>
+            <value>
+                <fullName>Off Premise Sampling</fullName>
+                <default>false</default>
+                <label>Off Premise Sampling</label>
+            </value>
+            <value>
+                <fullName>Off Premise - Trade Event</fullName>
+                <default>false</default>
+                <label>Off Premise - Trade Event</label>
+            </value>
+            <value>
+                <fullName>Off Premise Value Added Packaging (VAP)</fullName>
+                <default>false</default>
+                <label>Off Premise Value Added Packaging (VAP)</label>
+            </value>
+            <value>
+                <fullName>Off Trade Incentive</fullName>
+                <default>false</default>
+                <label>Off Trade Incentive</label>
+            </value>
+            <value>
+                <fullName>Online Video Paid Advertising</fullName>
+                <default>false</default>
+                <label>Online Video Paid Advertising</label>
+            </value>
+            <value>
+                <fullName>On Premise Consumer Promotion</fullName>
+                <default>false</default>
+                <label>On Premise Consumer Promotion</label>
+            </value>
+            <value>
+                <fullName>On Premise Menus</fullName>
+                <default>false</default>
+                <label>On Premise Menus</label>
+            </value>
+            <value>
+                <fullName>On Premise POS</fullName>
+                <default>false</default>
+                <label>On Premise POS</label>
+            </value>
+            <value>
+                <fullName>On Premise Sampling</fullName>
+                <default>false</default>
+                <label>On Premise Sampling</label>
+            </value>
+            <value>
+                <fullName>On Premise - Trade Event</fullName>
+                <default>false</default>
+                <label>On Premise - Trade Event</label>
+            </value>
+            <value>
+                <fullName>On Trade Incentive</fullName>
+                <default>false</default>
+                <label>On Trade Incentive</label>
+            </value>
+            <value>
+                <fullName>Outdoor Paid Advertising</fullName>
+                <default>false</default>
+                <label>Outdoor Paid Advertising</label>
+            </value>
+            <value>
+                <fullName>Out of Home</fullName>
+                <default>false</default>
+                <label>Out of Home</label>
+            </value>
+            <value>
+                <fullName>Panel Research / Trade Data</fullName>
+                <default>false</default>
+                <label>Panel Research / Trade Data</label>
+            </value>
+            <value>
+                <fullName>PR Agency Fees</fullName>
+                <default>false</default>
+                <label>PR Agency Fees</label>
+            </value>
+            <value>
+                <fullName>PR Events</fullName>
+                <default>false</default>
+                <label>PR Events</label>
+            </value>
+            <value>
+                <fullName>Price Support</fullName>
+                <default>false</default>
+                <label>Price Support</label>
+            </value>
+            <value>
+                <fullName>PR Materials / Other Expenses</fullName>
+                <default>false</default>
+                <label>PR Materials / Other Expenses</label>
+            </value>
+            <value>
+                <fullName>Radio Paid Advertising</fullName>
+                <default>false</default>
+                <label>Radio Paid Advertising</label>
+            </value>
+            <value>
+                <fullName>Rebates Price Support</fullName>
+                <default>false</default>
+                <label>Rebates Price Support</label>
+            </value>
+            <value>
+                <fullName>Sales Programs</fullName>
+                <default>false</default>
+                <label>Sales Programs</label>
+            </value>
+            <value>
+                <fullName>Sales Samples</fullName>
+                <default>false</default>
+                <label>Sales Samples</label>
+            </value>
+            <value>
+                <fullName>Search Engine Optimization</fullName>
+                <default>false</default>
+                <label>Search Engine Optimization</label>
+            </value>
+            <value>
+                <fullName>Search Paid Advertising</fullName>
+                <default>false</default>
+                <label>Search Paid Advertising</label>
+            </value>
+            <value>
+                <fullName>Social Content Creation and Development</fullName>
+                <default>false</default>
+                <label>Social Content Creation and Development</label>
+            </value>
+            <value>
+                <fullName>Sponsorship Activation</fullName>
+                <default>false</default>
+                <label>Sponsorship Activation</label>
+            </value>
+            <value>
+                <fullName>Sponsorship Fees</fullName>
+                <default>false</default>
+                <label>Sponsorship Fees</label>
+            </value>
+            <value>
+                <fullName>Trade Digital Paid Advertising</fullName>
+                <default>false</default>
+                <label>Trade Digital Paid Advertising</label>
+            </value>
+            <value>
+                <fullName>Trade Print Paid Advertising</fullName>
+                <default>false</default>
+                <label>Trade Print Paid Advertising</label>
+            </value>
+            <value>
+                <fullName>TV Paid Advertising</fullName>
+                <default>false</default>
+                <label>TV Paid Advertising</label>
+            </value>
+            <value>
+                <fullName>Website Creation and Development</fullName>
+                <default>false</default>
+                <label>Website Creation and Development</label>
+            </value>
+            <value>
+                <fullName>Focus Calendar Priority</fullName>
+                <default>false</default>
+                <label>Focus Calendar Priority</label>
+            </value>
+            <value>
+                <fullName>Bourbon Legends</fullName>
+                <default>false</default>
+                <label>Bourbon Legends</label>
+            </value>
+            <value>
+                <fullName>Cinco</fullName>
+                <default>false</default>
+                <label>Cinco</label>
+            </value>
+            <value>
+                <fullName>Cocktail Platform</fullName>
+                <default>false</default>
+                <label>Cocktail Platform</label>
+            </value>
+            <value>
+                <fullName>Crafted for Sipping</fullName>
+                <default>false</default>
+                <label>Crafted for Sipping</label>
+            </value>
+            <value>
+                <fullName>Holiday</fullName>
+                <default>false</default>
+                <label>Holiday</label>
+            </value>
+            <value>
+                <fullName>Horseracing</fullName>
+                <default>false</default>
+                <label>Horseracing</label>
+            </value>
+            <value>
+                <fullName>Iconic Maker's</fullName>
+                <default>false</default>
+                <label>Iconic Maker's</label>
+            </value>
+            <value>
+                <fullName>M46 Gifting</fullName>
+                <default>false</default>
+                <label>M46 Gifting</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Sports</fullName>
+                <default>false</default>
+                <label>Sports</label>
+            </value>
+            <value>
+                <fullName>Spring</fullName>
+                <default>false</default>
+                <label>Spring</label>
+            </value>
+            <value>
+                <fullName>Stories from the Still</fullName>
+                <default>false</default>
+                <label>Stories from the Still</label>
+            </value>
+            <value>
+                <fullName>Summer</fullName>
+                <default>false</default>
+                <label>Summer</label>
+            </value>
+            <value>
+                <fullName>Summer Refreshment</fullName>
+                <default>false</default>
+                <label>Summer Refreshment</label>
+            </value>
+            <value>
+                <fullName>Tailgating</fullName>
+                <default>false</default>
+                <label>Tailgating</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>EG</controllingFieldValue>
+            <controllingFieldValue>LMF</controllingFieldValue>
+            <valueName>Misc. (requires comment)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EG</controllingFieldValue>
+            <controllingFieldValue>LMF</controllingFieldValue>
+            <controllingFieldValue>BI</controllingFieldValue>
+            <valueName>Off Premise Consumer Promotion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EG</controllingFieldValue>
+            <controllingFieldValue>LMF</controllingFieldValue>
+            <controllingFieldValue>BI</controllingFieldValue>
+            <valueName>Off Premise Display Installation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EG</controllingFieldValue>
+            <controllingFieldValue>LMF</controllingFieldValue>
+            <controllingFieldValue>BI</controllingFieldValue>
+            <valueName>Off Premise Sampling</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EG</controllingFieldValue>
+            <controllingFieldValue>LMF</controllingFieldValue>
+            <controllingFieldValue>BI</controllingFieldValue>
+            <valueName>Off Premise Value Added Packaging (VAP)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EG</controllingFieldValue>
+            <controllingFieldValue>LMF</controllingFieldValue>
+            <controllingFieldValue>BI</controllingFieldValue>
+            <valueName>Off Trade Incentive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EG</controllingFieldValue>
+            <controllingFieldValue>LMF</controllingFieldValue>
+            <controllingFieldValue>BI</controllingFieldValue>
+            <valueName>On Premise Consumer Promotion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EG</controllingFieldValue>
+            <controllingFieldValue>LMF</controllingFieldValue>
+            <controllingFieldValue>BI</controllingFieldValue>
+            <valueName>On Premise Menus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EG</controllingFieldValue>
+            <controllingFieldValue>LMF</controllingFieldValue>
+            <controllingFieldValue>BI</controllingFieldValue>
+            <valueName>On Premise Sampling</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EG</controllingFieldValue>
+            <controllingFieldValue>LMF</controllingFieldValue>
+            <controllingFieldValue>BI</controllingFieldValue>
+            <valueName>On Trade Incentive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EG</controllingFieldValue>
+            <controllingFieldValue>LMF</controllingFieldValue>
+            <valueName>Price Support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EG</controllingFieldValue>
+            <controllingFieldValue>LMF</controllingFieldValue>
+            <controllingFieldValue>BI</controllingFieldValue>
+            <valueName>Rebates Price Support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EG</controllingFieldValue>
+            <controllingFieldValue>LMF</controllingFieldValue>
+            <valueName>Sales Programs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EG</controllingFieldValue>
+            <controllingFieldValue>LMF</controllingFieldValue>
+            <valueName>Sales Samples</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LMF</controllingFieldValue>
+            <controllingFieldValue>BI</controllingFieldValue>
+            <valueName>Consumer Giveaways</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LMF</controllingFieldValue>
+            <controllingFieldValue>BI</controllingFieldValue>
+            <valueName>Consumer Magazines Paid Advertising</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LMF</controllingFieldValue>
+            <controllingFieldValue>BI</controllingFieldValue>
+            <valueName>Consumer Newspaper Paid Advertising</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LMF</controllingFieldValue>
+            <controllingFieldValue>BI</controllingFieldValue>
+            <valueName>Customer Relations Management</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LMF</controllingFieldValue>
+            <controllingFieldValue>BI</controllingFieldValue>
+            <valueName>Direct Mail</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LMF</controllingFieldValue>
+            <controllingFieldValue>BI</controllingFieldValue>
+            <valueName>Heritage Center</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LMF</controllingFieldValue>
+            <controllingFieldValue>BI</controllingFieldValue>
+            <valueName>Off Premise POS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LMF</controllingFieldValue>
+            <controllingFieldValue>BI</controllingFieldValue>
+            <valueName>Off Premise - Trade Event</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LMF</controllingFieldValue>
+            <controllingFieldValue>BI</controllingFieldValue>
+            <valueName>On Premise POS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LMF</controllingFieldValue>
+            <controllingFieldValue>BI</controllingFieldValue>
+            <valueName>On Premise - Trade Event</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LMF</controllingFieldValue>
+            <controllingFieldValue>BI</controllingFieldValue>
+            <valueName>Outdoor Paid Advertising</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LMF</controllingFieldValue>
+            <controllingFieldValue>BI</controllingFieldValue>
+            <valueName>Out of Home</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LMF</controllingFieldValue>
+            <controllingFieldValue>BI</controllingFieldValue>
+            <valueName>PR Events</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LMF</controllingFieldValue>
+            <controllingFieldValue>BI</controllingFieldValue>
+            <valueName>PR Materials / Other Expenses</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LMF</controllingFieldValue>
+            <controllingFieldValue>BI</controllingFieldValue>
+            <valueName>Sponsorship Activation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LMF</controllingFieldValue>
+            <controllingFieldValue>BI</controllingFieldValue>
+            <valueName>Sponsorship Fees</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BI</controllingFieldValue>
+            <valueName>Ad Production Costs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BI</controllingFieldValue>
+            <valueName>Advanced TV Paid Advertising</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BI</controllingFieldValue>
+            <valueName>Cinema Paid Advertising</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BI</controllingFieldValue>
+            <valueName>Consumer Research</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BI</controllingFieldValue>
+            <valueName>Creative Agency Fees</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BI</controllingFieldValue>
+            <valueName>Digital Display Paid Advertising</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BI</controllingFieldValue>
+            <valueName>Freight and Storage (National POS Only)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BI</controllingFieldValue>
+            <valueName>Liscensing and Royalty</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BI</controllingFieldValue>
+            <valueName>Media Agency Fees</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BI</controllingFieldValue>
+            <valueName>Mobile Paid Advertising</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BI</controllingFieldValue>
+            <valueName>Non-Standard Digital Units Paid Advertising</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BI</controllingFieldValue>
+            <valueName>Online Video Paid Advertising</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BI</controllingFieldValue>
+            <valueName>Panel Research / Trade Data</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BI</controllingFieldValue>
+            <valueName>PR Agency Fees</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BI</controllingFieldValue>
+            <valueName>Radio Paid Advertising</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BI</controllingFieldValue>
+            <valueName>Search Engine Optimization</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BI</controllingFieldValue>
+            <valueName>Search Paid Advertising</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BI</controllingFieldValue>
+            <valueName>Social Content Creation and Development</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BI</controllingFieldValue>
+            <valueName>Trade Digital Paid Advertising</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BI</controllingFieldValue>
+            <valueName>Trade Print Paid Advertising</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BI</controllingFieldValue>
+            <valueName>TV Paid Advertising</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BI</controllingFieldValue>
+            <valueName>Website Creation and Development</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Focus Calendar Priority</controllingFieldValue>
+            <valueName>Focus Calendar Priority</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Focus Calendar Priority</controllingFieldValue>
+            <valueName>Bourbon Legends</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Focus Calendar Priority</controllingFieldValue>
+            <valueName>Cinco</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Focus Calendar Priority</controllingFieldValue>
+            <valueName>Cocktail Platform</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Focus Calendar Priority</controllingFieldValue>
+            <valueName>Crafted for Sipping</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Focus Calendar Priority</controllingFieldValue>
+            <valueName>Holiday</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Focus Calendar Priority</controllingFieldValue>
+            <valueName>Horseracing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Focus Calendar Priority</controllingFieldValue>
+            <valueName>Iconic Maker's</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Focus Calendar Priority</controllingFieldValue>
+            <valueName>M46 Gifting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Focus Calendar Priority</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Focus Calendar Priority</controllingFieldValue>
+            <valueName>Sports</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Focus Calendar Priority</controllingFieldValue>
+            <valueName>Spring</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Focus Calendar Priority</controllingFieldValue>
+            <valueName>Stories from the Still</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Focus Calendar Priority</controllingFieldValue>
+            <valueName>Summer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Focus Calendar Priority</controllingFieldValue>
+            <valueName>Summer Refreshment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Focus Calendar Priority</controllingFieldValue>
+            <valueName>Tailgating</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MaxLargeBrandDisplayPotential__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>What is the maximum large brand display size potential?
+Large Brand = Jim Beam, Pinnacle, etc.
+Other Brand = Basil, Knob, etc
+.</inlineHelpText>
+    <label>Max Large Brand Display Potential</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Bin (1-3 phys cs)</fullName>
+                <default>false</default>
+                <label>Bin (1-3 phys cs)</label>
+            </value>
+            <value>
+                <fullName>Small (3-8 phys cs)</fullName>
+                <default>false</default>
+                <label>Small (3-8 phys cs)</label>
+            </value>
+            <value>
+                <fullName>Medium (8-20 phys cs)</fullName>
+                <default>false</default>
+                <label>Medium (8-20 phys cs)</label>
+            </value>
+            <value>
+                <fullName>Large (20-40 phys cs)</fullName>
+                <default>false</default>
+                <label>Large (20-40 phys cs)</label>
+            </value>
+            <value>
+                <fullName>X Large (40-80 phys cs)</fullName>
+                <default>false</default>
+                <label>X Large (40-80 phys cs)</label>
+            </value>
+            <value>
+                <fullName>Jumbo (80+ phys cs)</fullName>
+                <default>false</default>
+                <label>Jumbo (80+ phys cs)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

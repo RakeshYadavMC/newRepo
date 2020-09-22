@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApprovalProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <allowRecall>false</allowRecall>
+    <allowedSubmitters>
+        <type>creator</type>
+    </allowedSubmitters>
+    <allowedSubmitters>
+        <type>owner</type>
+    </allowedSubmitters>
+    <approvalPageFields>
+        <field>Name</field>
+        <field>TransferringMarketingPlan__c</field>
+        <field>ReceivingMarketingPlan__c</field>
+        <field>Amount__c</field>
+        <field>Brand_From__c</field>
+        <field>Brand_To__c</field>
+    </approvalPageFields>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>kylie.nolan@beamsuntory.com</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>US within Brand transfers shall be auto approved</description>
+        <entryCriteria>
+            <formula>false</formula>
+        </entryCriteria>
+        <ifCriteriaNotMet>ApproveRecord</ifCriteriaNotMet>
+        <label>Auto Approve within Brand</label>
+        <name>Auto_Approve_within_Brand</name>
+    </approvalStep>
+    <description>Auto Approve Within Brand/Brand group transfers for US</description>
+    <enableMobileDeviceAccess>true</enableMobileDeviceAccess>
+    <entryCriteria>
+        <formula>AND(
+Country_From__c = &quot;US&quot;, 
+!ISPICKVAL( Request_Status__c , &quot;Approved&quot;), 
+!ISPICKVAL( Request_Status__c , &quot;Rejected&quot;), 
+!ISPICKVAL( Request_Status__c , &quot;Failed&quot;), 
+!ISPICKVAL( Request_Status__c , &quot;Canceled&quot;),
+OR(
+Within_Same_Brand__c = &quot;Yes&quot;,
+AND(
+CONTAINS(
+&quot;El Tesoro, Hornitos, Sauza, Tres Gen, Bruxo&quot;,
+Brand_From__c
+),
+CONTAINS(
+&quot;El Tesoro, Hornitos, Sauza, Tres Gen, Bruxo&quot;,
+Brand_To__c
+)
+),
+AND(
+CONTAINS(
+&quot;Haku, Roku, Suntory Whiskey&quot;,
+Brand_From__c
+),
+CONTAINS(
+&quot;Haku, Roku, Suntory Whiskey&quot;,
+Brand_To__c
+)
+),
+AND(
+CONTAINS(
+&quot;Jim Beam Flavors, Jim Beam Premium, Jim Beam White&quot;,
+Brand_From__c
+),
+CONTAINS(
+&quot;Jim Beam Flavors, Jim Beam Premium, Jim Beam White&quot;,
+Brand_To__c
+)
+),
+AND(
+CONTAINS(
+&quot;Canadian Club, Cruzan, Dekuyper, Effen, Pinnacle Vodka&quot;,
+Brand_From__c
+),
+CONTAINS(
+&quot;Canadian Club, Cruzan, Dekuyper, Effen, Pinnacle Vodka&quot;,
+Brand_To__c
+)
+),
+AND(
+CONTAINS(
+&quot;Basil Hayden, Knob Creek, Legent, Old Overholt, Small Batch Bourbon&quot;,
+Brand_From__c
+),
+CONTAINS(
+&quot;Basil Hayden, Knob Creek, Legent, Old Overholt, Small Batch Bourbon&quot;,
+Brand_To__c
+)
+),
+AND(
+CONTAINS(
+&quot;Bowmore, Irish Whiskeys, Kessler Blend, Laphroaig&quot;,
+Brand_From__c
+),
+CONTAINS(
+&quot;Bowmore, Irish Whiskeys, Kessler Blend, Laphroaig&quot;,
+Brand_To__c
+)
+)
+)
+)</formula>
+    </entryCriteria>
+    <finalApprovalActions>
+        <action>
+            <name>Update_Request_Status_Approved</name>
+            <type>FieldUpdate</type>
+        </action>
+    </finalApprovalActions>
+    <finalApprovalRecordLock>true</finalApprovalRecordLock>
+    <finalRejectionActions>
+        <action>
+            <name>Update_Request_Status_Rejected</name>
+            <type>FieldUpdate</type>
+        </action>
+    </finalRejectionActions>
+    <finalRejectionRecordLock>false</finalRejectionRecordLock>
+    <initialSubmissionActions>
+        <action>
+            <name>Update_Request_Status</name>
+            <type>FieldUpdate</type>
+        </action>
+    </initialSubmissionActions>
+    <label>US Within Brand Transfers - Auto Approve</label>
+    <recordEditability>AdminOnly</recordEditability>
+    <showApprovalHistory>true</showApprovalHistory>
+</ApprovalProcess>

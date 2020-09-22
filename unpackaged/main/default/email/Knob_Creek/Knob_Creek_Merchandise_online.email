@@ -1,0 +1,4 @@
+<p>Hi {!Contact.FirstName},</p>
+<p>Thanks for your support! We don't currently have promotional items available to share with consumers. If you're interested, we do now have an online merchandise store where you can purchase Knob Creek items. https://store.knobcreek.com/merchandise/</p>
+<p>Cheers!<br />
+{!Case.OwnerFullName}</p>

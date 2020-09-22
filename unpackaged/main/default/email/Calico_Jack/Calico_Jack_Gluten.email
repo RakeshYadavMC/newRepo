@@ -1,0 +1,7 @@
+<p>Dear {!Contact.FirstName},</p>
+<p>The primary and secondary alcohol sources in Calico Jack® Rum  are produced from the fermentation and distillation of corn, rye, and wheat.  Gluten can be found in small grains such as rye, barley, oats, wheat, etc.  It is generally accepted that the process of distillation excludes gluten in the finished product. The other ingredients  are not produced from cereals containing gluten and do not contain gluten. </p>
+<p>Beam Suntory does not advise legal age adults whether to drink or not to drink; this is a decision you may want to discuss with your physician if you have any questions.  Your physician may be able to provide personalized advice about this issue based on the information provided above.</p>
+<p>{!Case.OwnerFullName}<br />
+*Calico Jack® Customer Care Representative*<br />
+<img src="{!$Label.SF_Base_URL_BrandLogo}CalicoJack.png" alt=""  width="120px" /><br />
+<a href="http://www.drinksmart.com"><img src="{!$Label.SF_Base_URL_BrandLogo}DrinkSmart.png" width="120" title="Drink Smart" alt="Drink Smart" /></a></p>

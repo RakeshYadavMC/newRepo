@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EDGE_Account_Growth_Stage__c</fullName>
+    <externalId>false</externalId>
+    <label>EDGE Account Growth Stage</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Build</fullName>
+                <default>false</default>
+                <label>Build</label>
+            </value>
+            <value>
+                <fullName>Maintain</fullName>
+                <default>false</default>
+                <label>Maintain</label>
+            </value>
+            <value>
+                <fullName>Hunt</fullName>
+                <default>false</default>
+                <label>Hunt</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

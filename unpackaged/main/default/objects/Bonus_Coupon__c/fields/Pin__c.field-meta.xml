@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pin__c</fullName>
+    <caseSensitive>false</caseSensitive>
+    <defaultValue>LEFT(TEXT(FLOOR(SQRT((value( 
+(left(right(text(now()),6),2))&amp; 
+text(DAY(DATEVALUE(now())))&amp; 
+text(Month(DATEVALUE(now())))&amp; 
+text(Year(DATEVALUE(now())))&amp; 
+(left(right(text(now()),9),2))) 
+)*100)) 
+),6)</defaultValue>
+    <description>Generate a 4 character pin code which allows the Account to select the Wholesaler and obtain the full Coupon code</description>
+    <externalId>false</externalId>
+    <label>Pin</label>
+    <length>6</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

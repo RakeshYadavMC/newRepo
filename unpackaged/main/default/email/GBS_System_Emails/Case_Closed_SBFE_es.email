@@ -1,0 +1,36 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<div style=""><font style="" face="Times New Roman, Times, serif"><br></font></div><div style=""><p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: 115%;"><font face="Times New Roman, Times, serif">Hola,<o:p></o:p></font></p>
+
+<p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: 115%;"><font face="Times New Roman, Times, serif">Su caso #{!Case.CaseNumber} ha sido
+cerrado, encuentre los detalles de la resolución a continuación:
+<i>{!Case.Case_Resolution_Details__c}&nbsp;</i><o:p></o:p></font></p>
+
+<p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: 115%;"><font face="Times New Roman, Times, serif">Por favor regálanos 5
+segundos para la siguiente encuesta, es solo 1 pregunta.</font></p>
+
+<span style="line-height: 107%;"><font style="" face="Times New Roman, Times, serif">Como
+calificarías tu experiencia con GBS?</font></span><table class="MsoNormalTable" border="0" cellspacing="5" cellpadding="0" width="600" style="width: 6.25in;"><tbody><tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes;height:225.0pt"><td valign="top" style="background:white;padding:3.75pt 3.75pt 3.75pt 3.75pt;
+  height:225.0pt">
+  <p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><font face="Times New Roman, Times, serif">&nbsp;<a href="{!$Label.Base_Company_Community_Survey_URL}?id={!Case.Id}&amp;rating=1"><img src="https://beamsuntory--c.na17.content.force.com/servlet/servlet.ImageServer?id=015o00000031I3k&amp;oid=00Do0000000cCkJ" border="0" align="center" alt=""></a>&nbsp;<a href="{!$Label.Base_Company_Community_Survey_URL}?id={!Case.Id}&amp;rating=2"><img src="https://beamsuntory--c.na17.content.force.com/servlet/servlet.ImageServer?id=015o00000031I3p&amp;oid=00Do0000000cCkJ" border="0" align="center" alt=""></a>&nbsp;<a href="{!$Label.Base_Company_Community_Survey_URL}?id={!Case.Id}&amp;rating=3"><img src="https://beamsuntory--c.na17.content.force.com/servlet/servlet.ImageServer?id=015o00000031I3u&amp;oid=00Do0000000cCkJ" border="0" align="center" alt=""></a>&nbsp;<a href="{!$Label.Base_Company_Community_Survey_URL}?id={!Case.Id}&amp;rating=4"><img src="https://beamsuntory--c.na17.content.force.com/servlet/servlet.ImageServer?id=015o00000031I49&amp;oid=00Do0000000cCkJ" border="0" align="center" alt=""></a>&nbsp;<a href="{!$Label.Base_Company_Community_Survey_URL}?id={!Case.Id}&amp;rating=5"><img src="https://beamsuntory--c.na17.content.force.com/servlet/servlet.ImageServer?id=015o00000031I4E&amp;oid=00Do0000000cCkJ" border="0" align="center" alt=""></a></font></p><p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-family: &quot;Times New Roman&quot;, Times, serif; font-size: 12pt;">Gracias</span></p>
+  <p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><span style="color: black;"><o:p><font face="Times New Roman, Times, serif">&nbsp;</font></o:p></span></p><p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><span style="color: black;"><o:p><font face="Times New Roman, Times, serif"><br></font></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><span style="color: black;"><o:p><font face="Times New Roman, Times, serif">&nbsp;</font></o:p></span></p><p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><span style="color: black;"><o:p><font face="Times New Roman, Times, serif"><br></font></o:p></span></p><p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><span style="color: black;"><o:p><font face="Times New Roman, Times, serif"><br></font></o:p></span></p><p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><span style="color: black;"><o:p><font face="Times New Roman, Times, serif"><br></font></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><span style="color: black;"><font face="Times New Roman, Times, serif">{!Case.Thread_Id}<o:p></o:p></font></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:1;mso-yfti-lastrow:yes;height:37.5pt">
+  <td style="padding:3.75pt 3.75pt 3.75pt 3.75pt;height:37.5pt"></td>
+ </tr>
+</tbody></table><br></div>]]></td>
+</tr>
+</table>

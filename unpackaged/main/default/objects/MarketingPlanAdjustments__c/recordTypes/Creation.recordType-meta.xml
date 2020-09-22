@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Creation</fullName>
+    <active>true</active>
+    <description>Record Type used for initial creation</description>
+    <label>Creation</label>
+    <picklistValues>
+        <picklist>Request_Status__c</picklist>
+        <values>
+            <fullName>Canceled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,6 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<font face="arial">您好 {!Case.OwnerFullName}，</font><div><font face="arial"><br></font></div><div><font face="arial">案例 #{!Case.CaseNumber}，您自己的案例，被重新打开了。 提交人对案例重新打开的解释如下： {!Case.Reopen_Explanation__c} 点击下面查看您的案例：</font></div><div><font face="arial">{!$Label.Base_Company_Community_URL}{!Case.Id}&nbsp;</font></div><div><font face="arial"><br></font></div><div><font face="arial">{!Case.Thread_Id}</font></div>]]></td>
+</tr>
+</table>

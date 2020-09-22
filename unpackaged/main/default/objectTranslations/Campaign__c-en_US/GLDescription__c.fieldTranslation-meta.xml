@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- GL Description --></label>
+        <name>GLDescription__c</name>
+        <picklistValues>
+            <masterLabel>Ad Production Costs</masterLabel>
+            <translation><!-- Ad Production Costs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Advanced TV Paid Advertising</masterLabel>
+            <translation><!-- Advanced TV Paid Advertising --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Agency Fee – Consultants</masterLabel>
+            <translation><!-- Agency Fee – Consultants --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Agency Fee – Design</masterLabel>
+            <translation><!-- Agency Fee – Design --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Agency Fee – Digital</masterLabel>
+            <translation><!-- Agency Fee – Digital --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Agency Fee – Experiential</masterLabel>
+            <translation><!-- Agency Fee – Experiential --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Agency Fee – Innovation</masterLabel>
+            <translation><!-- Agency Fee – Innovation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Agency Fee – Lead Creative</masterLabel>
+            <translation><!-- Agency Fee – Lead Creative --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Agency Fee – Media</masterLabel>
+            <translation><!-- Agency Fee – Media --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Agency Fee – PR</masterLabel>
+            <translation><!-- Agency Fee – PR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Agency Fee – Shopper</masterLabel>
+            <translation><!-- Agency Fee – Shopper --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Agency Fee – Talent</masterLabel>
+            <translation><!-- Agency Fee – Talent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Agency Fee – Technology Platform</masterLabel>
+            <translation><!-- Agency Fee – Technology Platform --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Analytics – Marketing Analytics</masterLabel>
+            <translation><!-- Analytics – Marketing Analytics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brand Education – Heritage Center and Distillery Visits</masterLabel>
+            <translation><!-- Brand Education – Heritage Center and Distillery Visits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cinema Paid Advertising</masterLabel>
+            <translation><!-- Cinema Paid Advertising --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer Giveaways</masterLabel>
+            <translation><!-- Consumer Giveaways --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer Magazines Paid Advertising</masterLabel>
+            <translation><!-- Consumer Magazines Paid Advertising --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer Newspaper Paid Advertising</masterLabel>
+            <translation><!-- Consumer Newspaper Paid Advertising --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer Research</masterLabel>
+            <translation><!-- Consumer Research --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Creative Agency Fees</masterLabel>
+            <translation><!-- Creative Agency Fees --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Relations Management</masterLabel>
+            <translation><!-- Customer Relations Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Digital Display Paid Advertising</masterLabel>
+            <translation><!-- Digital Display Paid Advertising --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Digital Rebates</masterLabel>
+            <translation><!-- Digital Rebates --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Direct Mail</masterLabel>
+            <translation><!-- Direct Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Execution – Consumer Experience &amp; Personalization</masterLabel>
+            <translation><!-- Execution – Consumer Experience &amp; Personalization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Execution – PR</masterLabel>
+            <translation><!-- Execution – PR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Freight and Storage (National POS Only)</masterLabel>
+            <translation><!-- Freight and Storage (National POS Only) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Heritage Center</masterLabel>
+            <translation><!-- Heritage Center --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Liscensing and Royalty</masterLabel>
+            <translation><!-- Liscensing and Royalty --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Media Agency Fees</masterLabel>
+            <translation><!-- Media Agency Fees --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Misc – POS Freight &amp; Storage</masterLabel>
+            <translation><!-- Misc – POS Freight &amp; Storage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mobile Paid Advertising</masterLabel>
+            <translation><!-- Mobile Paid Advertising --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-Premise – Consumer Influencer Program</masterLabel>
+            <translation><!-- Non-Premise – Consumer Influencer Program --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-Premise – Consumer Promotions - Experiential</masterLabel>
+            <translation><!-- Non-Premise – Consumer Promotions - Experiential --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-Premise – Consumer Promotions - POS Materials</masterLabel>
+            <translation><!-- Non-Premise – Consumer Promotions - POS Materials --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-Premise – Trade Influencer Program</masterLabel>
+            <translation><!-- Non-Premise – Trade Influencer Program --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-Premise – Trade Promotions</masterLabel>
+            <translation><!-- Non-Premise – Trade Promotions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-Standard Digital Units Paid Advertising</masterLabel>
+            <translation><!-- Non-Standard Digital Units Paid Advertising --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OOP – Consultants</masterLabel>
+            <translation><!-- OOP – Consultants --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OOP – Design</masterLabel>
+            <translation><!-- OOP – Design --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OOP – Digital</masterLabel>
+            <translation><!-- OOP – Digital --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OOP – Experiential</masterLabel>
+            <translation><!-- OOP – Experiential --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OOP – Innovation</masterLabel>
+            <translation><!-- OOP – Innovation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OOP – Lead Creative</masterLabel>
+            <translation><!-- OOP – Lead Creative --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OOP – Media</masterLabel>
+            <translation><!-- OOP – Media --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OOP – PR</masterLabel>
+            <translation><!-- OOP – PR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OOP – Shopper</masterLabel>
+            <translation><!-- OOP – Shopper --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OOP – Talent</masterLabel>
+            <translation><!-- OOP – Talent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OOP – Technology Platform</masterLabel>
+            <translation><!-- OOP – Technology Platform --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Off Premise - Trade Event</masterLabel>
+            <translation><!-- Off Premise - Trade Event --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Off Premise Consumer Promotion</masterLabel>
+            <translation><!-- Off Premise Consumer Promotion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Off Premise Display Installation</masterLabel>
+            <translation><!-- Off Premise Display Installation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Off Premise POS</masterLabel>
+            <translation><!-- Off Premise POS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Off Premise Sampling</masterLabel>
+            <translation><!-- Off Premise Sampling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Off Premise Value Added Packaging (VAP)</masterLabel>
+            <translation><!-- Off Premise Value Added Packaging (VAP) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Off Trade Incentive</masterLabel>
+            <translation><!-- Off Trade Incentive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Off-Trade - Digital Rebates</masterLabel>
+            <translation><!-- Off-Trade - Digital Rebates --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Off-Trade – Consumer Influencer Program</masterLabel>
+            <translation><!-- Off-Trade – Consumer Influencer Program --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Off-Trade – Consumer Promotions - Experiential</masterLabel>
+            <translation><!-- Off-Trade – Consumer Promotions - Experiential --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Off-Trade – Consumer Promotions - POS Materials</masterLabel>
+            <translation><!-- Off-Trade – Consumer Promotions - POS Materials --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Off-Trade – Consumer Promotions - Print, Digital POS and Fulfillment Services</masterLabel>
+            <translation><!-- Off-Trade – Consumer Promotions - Print, Digital POS and Fulfillment Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Off-Trade – Consumer Promotions - Redemption</masterLabel>
+            <translation><!-- Off-Trade – Consumer Promotions - Redemption --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Off-Trade – Consumer Promotions - Sampling</masterLabel>
+            <translation><!-- Off-Trade – Consumer Promotions - Sampling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Off-Trade – Consumer Promotions - Sweeps</masterLabel>
+            <translation><!-- Off-Trade – Consumer Promotions - Sweeps --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Off-Trade – Display Installations</masterLabel>
+            <translation><!-- Off-Trade – Display Installations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Off-Trade – Trade Influencer Program</masterLabel>
+            <translation><!-- Off-Trade – Trade Influencer Program --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Off-Trade – Trade Promotions</masterLabel>
+            <translation><!-- Off-Trade – Trade Promotions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Off-Trade – Value Added Packaging</masterLabel>
+            <translation><!-- Off-Trade – Value Added Packaging --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Premise - Trade Event</masterLabel>
+            <translation><!-- On Premise - Trade Event --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Premise Consumer Promotion</masterLabel>
+            <translation><!-- On Premise Consumer Promotion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Premise Menus</masterLabel>
+            <translation><!-- On Premise Menus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Premise POS</masterLabel>
+            <translation><!-- On Premise POS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Premise Sampling</masterLabel>
+            <translation><!-- On Premise Sampling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Trade Incentive</masterLabel>
+            <translation><!-- On Trade Incentive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On-Trade - Digital Rebates</masterLabel>
+            <translation><!-- On-Trade - Digital Rebates --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On-Trade – Consumer Influencer Program</masterLabel>
+            <translation><!-- On-Trade – Consumer Influencer Program --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On-Trade – Consumer Promotions - Experiential</masterLabel>
+            <translation><!-- On-Trade – Consumer Promotions - Experiential --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On-Trade – Consumer Promotions - POS Materials</masterLabel>
+            <translation><!-- On-Trade – Consumer Promotions - POS Materials --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On-Trade – Consumer Promotions - Print, Digital POS and Fulfillment Services</masterLabel>
+            <translation><!-- On-Trade – Consumer Promotions - Print, Digital POS and Fulfillment Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On-Trade – Consumer Promotions - Redemption</masterLabel>
+            <translation><!-- On-Trade – Consumer Promotions - Redemption --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On-Trade – Consumer Promotions - Sampling</masterLabel>
+            <translation><!-- On-Trade – Consumer Promotions - Sampling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On-Trade – Consumer Promotions - Sweeps</masterLabel>
+            <translation><!-- On-Trade – Consumer Promotions - Sweeps --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On-Trade – Display Installations</masterLabel>
+            <translation><!-- On-Trade – Display Installations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On-Trade – Drink machines</masterLabel>
+            <translation><!-- On-Trade – Drink machines --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On-Trade – Menus</masterLabel>
+            <translation><!-- On-Trade – Menus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On-Trade – Trade Influencer Program</masterLabel>
+            <translation><!-- On-Trade – Trade Influencer Program --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On-Trade – Trade Promotions</masterLabel>
+            <translation><!-- On-Trade – Trade Promotions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Online Video Paid Advertising</masterLabel>
+            <translation><!-- Online Video Paid Advertising --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Out of Home</masterLabel>
+            <translation><!-- Out of Home --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outdoor Paid Advertising</masterLabel>
+            <translation><!-- Outdoor Paid Advertising --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PR Agency Fees</masterLabel>
+            <translation><!-- PR Agency Fees --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PR Events</masterLabel>
+            <translation><!-- PR Events --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PR Materials / Other Expenses</masterLabel>
+            <translation><!-- PR Materials / Other Expenses --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paid Media – Cinema</masterLabel>
+            <translation><!-- Paid Media – Cinema --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paid Media – Consumer Print</masterLabel>
+            <translation><!-- Paid Media – Consumer Print --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paid Media – Digital OLA</masterLabel>
+            <translation><!-- Paid Media – Digital OLA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paid Media – Digital OLV</masterLabel>
+            <translation><!-- Paid Media – Digital OLV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paid Media – Direct Mail</masterLabel>
+            <translation><!-- Paid Media – Direct Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paid Media – Film</masterLabel>
+            <translation><!-- Paid Media – Film --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paid Media – Mobile</masterLabel>
+            <translation><!-- Paid Media – Mobile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paid Media – Out of Home</masterLabel>
+            <translation><!-- Paid Media – Out of Home --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paid Media – Radio</masterLabel>
+            <translation><!-- Paid Media – Radio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paid Media – Search Engine Marketing (SEM)</masterLabel>
+            <translation><!-- Paid Media – Search Engine Marketing (SEM) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paid Media – Search Engine Optimization (SEO)</masterLabel>
+            <translation><!-- Paid Media – Search Engine Optimization (SEO) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paid Media – Social</masterLabel>
+            <translation><!-- Paid Media – Social --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paid Media – Trade Print</masterLabel>
+            <translation><!-- Paid Media – Trade Print --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paid Media – eCommerce</masterLabel>
+            <translation><!-- Paid Media – eCommerce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Panel Research / Trade Data</masterLabel>
+            <translation><!-- Panel Research / Trade Data --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Production – Brand Asset Creation and Development</masterLabel>
+            <translation><!-- Production – Brand Asset Creation and Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Production – Brand Websites</masterLabel>
+            <translation><!-- Production – Brand Websites --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Production – Consumer Print</masterLabel>
+            <translation><!-- Production – Consumer Print --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Production – Customer Relations Management</masterLabel>
+            <translation><!-- Production – Customer Relations Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Production – Customer Samples</masterLabel>
+            <translation><!-- Production – Customer Samples --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Production – Digital Asset Production</masterLabel>
+            <translation><!-- Production – Digital Asset Production --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Production – Film</masterLabel>
+            <translation><!-- Production – Film --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Production – Licensing Royalty</masterLabel>
+            <translation><!-- Production – Licensing Royalty --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Production – Out of Home</masterLabel>
+            <translation><!-- Production – Out of Home --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Production – Social Media Asset Production</masterLabel>
+            <translation><!-- Production – Social Media Asset Production --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Production – Trade Print</masterLabel>
+            <translation><!-- Production – Trade Print --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Production – eCommerce</masterLabel>
+            <translation><!-- Production – eCommerce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Radio Paid Advertising</masterLabel>
+            <translation><!-- Radio Paid Advertising --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rebates</masterLabel>
+            <translation><!-- Rebates --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rebates Price Support</masterLabel>
+            <translation><!-- Rebates Price Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Research – Category</masterLabel>
+            <translation><!-- Research – Category --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Research – Consumer</masterLabel>
+            <translation><!-- Research – Consumer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Research – Creative</masterLabel>
+            <translation><!-- Research – Creative --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Research – In-Market Performance / Measurement</masterLabel>
+            <translation><!-- Research – In-Market Performance / Measurement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Research – Innovation</masterLabel>
+            <translation><!-- Research – Innovation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Research – Packaging</masterLabel>
+            <translation><!-- Research – Packaging --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Research – Shopper / Channel</masterLabel>
+            <translation><!-- Research – Shopper / Channel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Research – Syndicated / Subscriptions</masterLabel>
+            <translation><!-- Research – Syndicated / Subscriptions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Search Engine Optimization</masterLabel>
+            <translation><!-- Search Engine Optimization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Search Paid Advertising</masterLabel>
+            <translation><!-- Search Paid Advertising --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Social Content Creation and Development</masterLabel>
+            <translation><!-- Social Content Creation and Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sponsorship Activation</masterLabel>
+            <translation><!-- Sponsorship Activation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sponsorship Fees</masterLabel>
+            <translation><!-- Sponsorship Fees --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sponsorship – Attitudinal Sponsorship Contract Fee</masterLabel>
+            <translation><!-- Sponsorship – Attitudinal Sponsorship Contract Fee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sponsorship – Celebrity Partnerships</masterLabel>
+            <translation><!-- Sponsorship – Celebrity Partnerships --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sponsorship – Experiential Sponsorship Contract Fee</masterLabel>
+            <translation><!-- Sponsorship – Experiential Sponsorship Contract Fee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TV Paid Advertising</masterLabel>
+            <translation><!-- TV Paid Advertising --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trade Digital Paid Advertising</masterLabel>
+            <translation><!-- Trade Digital Paid Advertising --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trade Print Paid Advertising</masterLabel>
+            <translation><!-- Trade Print Paid Advertising --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Website Creation and Development</masterLabel>
+            <translation><!-- Website Creation and Development --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

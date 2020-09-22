@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>State_Manager_Email__c</fullName>
+    <description>Email address of the State Manager associated with this Case</description>
+    <externalId>false</externalId>
+    <inlineHelpText>State Manager's Email Address</inlineHelpText>
+    <label>State Manager Email</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Email</type>
+    <unique>false</unique>
+</CustomField>

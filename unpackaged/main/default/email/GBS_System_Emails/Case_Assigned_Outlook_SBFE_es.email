@@ -1,0 +1,39 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<div style="font-size: 12pt; font-family: arial;"><br></div><div style=""><p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal; background: white;"><font style="" face="Times New Roman, Times, serif">Hola,<o:p></o:p></font></p><p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal; background: white;"><font face="Times New Roman, Times, serif">Tu caso #{!Case.CaseNumber} ha sido asignado a un analista en: {!Case.Type}. Contactaremos con usted en breve para atender su consulta.</font></p><p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal; background: white;"><font style="" face="Times New Roman, Times, serif">Gracias</font></p><p class="MsoNormal" style="font-size: 12pt; font-family: arial; margin-bottom: 0.0001pt; line-height: normal; background: white;"><span style="font-family: Arial, sans-serif;">&nbsp;</span></p></div><div style="font-size: 12pt; font-family: arial;">
+
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal;background:white"><span style="font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif;
+mso-fareast-font-family:&quot;Times New Roman&quot;;color:black"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal;background:white"><span style="font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif;
+mso-fareast-font-family:&quot;Times New Roman&quot;;color:black"><o:p>&nbsp;</o:p></span></p><p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal;background:white"><span style="font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif;
+mso-fareast-font-family:&quot;Times New Roman&quot;;color:black"><o:p><br></o:p></span></p><p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal;background:white"><span style="font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif;
+mso-fareast-font-family:&quot;Times New Roman&quot;;color:black"><o:p><br></o:p></span></p><p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal;background:white"><span style="font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif;
+mso-fareast-font-family:&quot;Times New Roman&quot;;color:black"><o:p><br></o:p></span></p><p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal;background:white"><span style="font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif;
+mso-fareast-font-family:&quot;Times New Roman&quot;;color:black"><o:p><br></o:p></span></p><p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal;background:white"><span style="font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif;
+mso-fareast-font-family:&quot;Times New Roman&quot;;color:black"><o:p><br></o:p></span></p><p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal;background:white"><span style="font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif;
+mso-fareast-font-family:&quot;Times New Roman&quot;;color:black"><o:p><br></o:p></span></p><p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal;background:white"><span style="font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif;
+mso-fareast-font-family:&quot;Times New Roman&quot;;color:black"><o:p><br></o:p></span></p><p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal;background:white"><span style="font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif;
+mso-fareast-font-family:&quot;Times New Roman&quot;;color:black"><o:p><br></o:p></span></p><p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal;background:white"><span style="font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif;
+mso-fareast-font-family:&quot;Times New Roman&quot;;color:black"><o:p><br></o:p></span></p>
+
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal;background:white"><span style="font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif;
+mso-fareast-font-family:&quot;Times New Roman&quot;;color:black"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:8.0pt;line-height:107%;font-family:
+&quot;Arial&quot;,sans-serif;mso-fareast-font-family:&quot;Times New Roman&quot;;color:black">{!Case.Thread_Id}</span><span style="font-size:8.0pt;line-height:107%"><o:p></o:p></span></p><br></div>]]></td>
+</tr>
+</table>

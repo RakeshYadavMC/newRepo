@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_activities_on_Opportunities</fullName>
+    <active>true</active>
+    <errorConditionFormula>LEFT(WhatId,3)="006"</errorConditionFormula>
+    <errorMessage>Please relate your activities to accounts.  Activities should not be associated to opportunities.</errorMessage>
+</ValidationRule>

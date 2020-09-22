@@ -1,0 +1,84 @@
+<aura:component
+                implements="force:lightningQuickActionWithoutHeader,force:hasRecordId,force:appHostable,flexipage:availableForRecordHome,force:hasSObjectName"
+                access="global" controller="CNT_SB2_ManageLeafNode"
+                >
+    <aura:html tag="style">
+        .cuf-content {
+        padding: 0 0rem !important;
+        }
+        .slds-p-around--medium {
+        padding: 0rem !important;
+        }       
+        .slds-modal__content{
+        overflow-y:hidden !important;
+        height:unset !important;
+        max-height:unset !important;
+        }
+    </aura:html>
+    <!-- Handlers -->
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    <aura:handler event="aura:waiting" action="{!c.showSpinner}"/>
+    <aura:handler event="aura:doneWaiting" action="{!c.hideSpinner}"/>
+    
+    <!-- Attributes -->
+    <aura:attribute name="recordId" type="String" />
+    <aura:attribute name="isSpinner" type="boolean" default="false"/>
+    <aura:attribute name="isActiveRecord" type="Boolean" default="false"/>
+    <aura:attribute name="isLeafNodeRecord" type="Boolean" default="false"/>
+    <aura:attribute name="hasSibling" type="Boolean" default="false"/>
+    <aura:attribute name="brandAllocExpired" type="Boolean" default="false"/>
+    
+    <aura:if isTrue="{!v.isSpinner}">
+        <div aura:id="spinnerId" class="slds-spinner_container">
+            <div class="slds-spinner--brand  slds-spinner slds-spinner--large slds-is-relative" role="alert">
+                <span class="slds-assistive-text">Loading</span>
+                <div class="slds-spinner__dot-a"></div>
+                <div class="slds-spinner__dot-b"></div>
+            </div>
+        </div>
+    </aura:if>
+    
+    <div class="modal-header slds-modal__header slds-size_1-of-1">
+        <h4 class="title slds-text-heading--medium" >{!$Label.c.Sb2_Remove_Distributor_as_Leaf_Node}</h4>
+    </div>
+    <div class="slds-modal__content slds-p-around--x-small slds-align_absolute-center slds-size_1-of-1 slds-is-relative">
+        <aura:if isTrue="{!!v.brandAllocExpired}">
+            <aura:if isTrue="{!!v.isActiveRecord}">
+                <p>{!$Label.c.SB_Allocation_at_distributor_level_is_not_set_You_cannot_move_the_allocation_to}
+                </p>
+                <aura:set attribute="else">
+                    <aura:if isTrue="{!v.isLeafNodeRecord}">
+                        <aura:if isTrue="{!v.hasSibling}">
+                            <p> {!$Label.c.SB_If_you_will_remove_distributor_as_leaf_node_then_all_the_distributors_for_thi}
+                            </p>
+                            <aura:set attribute="else">
+                                <p> {{!$Label.c.SB_Do_you_want_to_move_the_allocations_to_state_level_and_mark_state_as_leaf_nod}
+                                </p>
+                            </aura:set>
+                        </aura:if>
+                        <aura:set attribute="else">
+                            <p> {!$Label.c.SB2_Brand_Country_Region_State_Distributor_Is_Already_Not_a_leaf_Node}
+                            </p>
+                        </aura:set>
+                    </aura:if>
+                </aura:set>
+            </aura:if>
+            <aura:set attribute="else">
+                <p> {!$Label.c.SB2_You_cannot_remove_the_leaf_node_of_this_record_as_the_record_time_interval_h}
+                </p>
+            </aura:set>
+        </aura:if>
+    </div>
+    <aura:if isTrue="{!and(!v.brandAllocExpired,and(v.isActiveRecord, v.isLeafNodeRecord))}">
+        <div class="modal-footer slds-modal__footer slds-size_1-of-1">
+            <lightning:button variant="Neutral" class="slds-button" label="Cancel" onclick="{!c.closeQuickAction}"/>
+            <lightning:button variant="Brand" class="slds-button" label="Submit" onclick="{!c.submitDetails}"/>
+        </div>
+    </aura:if>
+    <aura:if isTrue="{!v.brandAllocExpired}">
+        <div class="modal-footer slds-modal__footer slds-size_1-of-1">
+            <lightning:button variant="Neutral" class="slds-button" label="Ok" onclick="{!c.closeQuickAction}"/>
+        </div>
+    </aura:if>
+    <!--End of Modal Footer-->
+</aura:component>

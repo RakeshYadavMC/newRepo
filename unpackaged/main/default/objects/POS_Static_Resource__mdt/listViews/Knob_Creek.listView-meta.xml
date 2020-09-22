@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Knob_Creek</fullName>
+    <columns>MasterLabel</columns>
+    <columns>Brand__c</columns>
+    <columns>POS_Item__c</columns>
+    <columns>Item_Text__c</columns>
+    <columns>Static_Resource_Name__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Brand__c</field>
+        <operation>equals</operation>
+        <value>Knob Creek Bourbon,Knob Creek Rye</value>
+    </filters>
+    <label>Knob Creek</label>
+    <language>en_US</language>
+</ListView>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Used for the Calendar to values to populate the Program Calendar Settings on the Calendar</description>
+    <enableFeeds>false</enableFeeds>
+    <label>Calendar Values</label>
+    <visibility>Public</visibility>
+</CustomObject>

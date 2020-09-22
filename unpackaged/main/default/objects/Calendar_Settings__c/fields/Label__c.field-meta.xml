@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Label__c</fullName>
+    <description>Label for the setting the user sees while on the Program Calendar; this may be different than the field label on the field or record</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Label for the setting the user sees while on the Program Calendar; this may be different than the field label on the field or record</inlineHelpText>
+    <label>Label</label>
+    <length>255</length>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

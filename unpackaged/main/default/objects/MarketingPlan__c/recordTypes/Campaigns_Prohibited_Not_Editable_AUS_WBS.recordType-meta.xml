@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Campaigns_Prohibited_Not_Editable_AUS_WBS</fullName>
+    <active>true</active>
+    <description>Marketing Plan is NOT editable and DOES NOT allow for AUS WBS Campaigns.</description>
+    <label>Campaigns Prohibited - Not Editable (AUS WBS)</label>
+    <picklistValues>
+        <picklist>Country__c</picklist>
+        <values>
+            <fullName>AUS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MEX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Division__c</picklist>
+        <values>
+            <fullName>AFL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AGENCY FEES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ATL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Activation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Activation Kits</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Advocacy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Agency</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Auchentoshan %26 Ale</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BOURBON OFF PREMISE GIFTING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BOURBON OFF PREMISE GWP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BSI TRADE EVENT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BTL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bartender Engagement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brand Ambassadors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brand BTL Focus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brand Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brand experiential</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC SUMMER%2FTENNIS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC Summer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC WINTER%2FBAD SWEATER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC Winter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Central Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cocktail Project</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commercial Capabilities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Draught</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Drinks Strategy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>East Coast Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eastern Control Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Edge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FBS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FBS LIGHTHOUSE VENUES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FBS OFF PREMISE NPD LAUNCH SUPPORT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FBS OFF PREMISE TRIAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FBS ON PREMISE TRIAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Florida Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Franchise Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gifting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global Insights</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Highball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Innovations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instore</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JB FBS TM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JB FOOTBALL ACTIVATION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JB MUSIC ON TOUR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JB ON PREMISE VISIBILITY %28PHOENIX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JB RTD SUMMER PROMOTION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JB SUPERCARS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JBB FBS SPRING RACING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JBB RTD FEB%2FMARCH PROMOTION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JBW High ABV Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JBW RTD APRIL%2FMAY PROMOTION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jim Beam Black Focus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Key Account Activation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Key Customer Program</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Luxury</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MM OLD FASHIONED</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Make History 2%2E0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>May Focus Period</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mexico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mideast Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Midsouth Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Midwest Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Military</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Misc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mountain Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NPD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NPD Launch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>National Accounts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>National BTL Commercial Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>National BTL Must Win POS Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>National BTL Must Win Regional</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>National Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-working %28Pendulum%2Fother%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nov Focus Period</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Off Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Premise Advocacy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Opinions Welcome</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PMOD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>POS STORAGE %26 DISTRIBUTION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PREMIUM WHISKEY RETAILER PROGRAM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Packcentre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pendulum</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Premium Whisky Programs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Q1 Focus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Q4 Focus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RTD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RTD EVENT %2F NPD TRIAL PLATFORMS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RTD NPD PRODUCTION %26 DEVELOPMENT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RTD OFF PREMISE CORE VISIBILITY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RTD OFF PREMISE NPD LAUNCH SUPPORT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RTD OFF PREMISE PERMANENT VISIBILITY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RTD ON PREMISE CORE VISIBILTY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RTD ON PREMISE RATE OF SALE TOOLKIT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RTD STADIUM PERMANENT VISIBILITY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RTD STADIUM SPONSORSHIPS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Research</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ring Fence</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Summer 2018</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Summer 2018 On Pack</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TM Activity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The Blend</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trade Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transportation %26 Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trial Platform</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Visibility</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>West Coast Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Western Control Division</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Region__c</picklist>
+        <values>
+            <fullName>8 Year Old Launch %26 Refresh</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8YO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AFL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ATL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Agency</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ardmore</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Auctober</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Barrel List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Beer Festival</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Black Focus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bowmore</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Category</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Central Region</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Central Regional Programming</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chita</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Control States %26 NA Region</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Control States Region</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>East Region</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Easter Program</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Experimental Platform</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FBS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Footy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Franchise Region</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gifting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Highball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Laphroaig</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Make History 2%2E0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mexico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Midsouth Region</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Misc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NPD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>National BTL Region</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>National Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Premise Advocacy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Packcentre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Peated Malts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pendulum</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proximity Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RTD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Refresh %2B Launch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Research</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Summer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tennis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The Blend</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The Blend %2F Ambassadors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Third Party</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trial %28Horseracing%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Turnkey Kits</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US Off-Premise Region</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>University Program</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Visibility</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>West Region</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Winter</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Year__c</picklist>
+        <values>
+            <fullName>2016</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2017</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>2018</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2019</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2020</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

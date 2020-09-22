@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Balance_lessthan_Budget</fullName>
+    <active>true</active>
+    <description>Campaign Allocated Budget cannot exceed MP Budget.</description>
+    <errorConditionFormula>CampaignBalance__c &lt; 0</errorConditionFormula>
+    <errorDisplayField>Budget__c</errorDisplayField>
+    <errorMessage>Campaign Allocated Budget cannot exceed MP Budget. Either increase the MP Budget value or decrease the budget value on any associated Campaigns.</errorMessage>
+</ValidationRule>

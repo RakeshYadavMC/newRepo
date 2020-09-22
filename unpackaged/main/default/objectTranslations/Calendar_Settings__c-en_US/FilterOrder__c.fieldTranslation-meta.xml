@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Order of the Filters - set to 0 if there is no Filter --></help>
+        <label><!-- FilterOrder --></label>
+        <name>FilterOrder__c</name>
+    </CustomFieldTranslation>

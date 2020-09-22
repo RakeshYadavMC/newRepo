@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>Subtipo de cuenta Non-Premise</label>
+        <name>NonPremiseAccountSubType__c</name>
+        <picklistValues>
+            <masterLabel>Alumni Association</masterLabel>
+            <translation>Asociación de Alumnos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Banquet Hall</masterLabel>
+            <translation>Salón de Banquetes</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bar Academy / Bartending School</masterLabel>
+            <translation>Academia de Bar / Escuela de Cantineros</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Caterer</masterLabel>
+            <translation>Catador</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>College / Education</masterLabel>
+            <translation>Colegio / Educación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Convention Center</masterLabel>
+            <translation>Centro de Convenciones</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Custom POS</masterLabel>
+            <translation>Terminal Punto de Venta Personalizado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Festival</masterLabel>
+            <translation><!-- Festival --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IBA (International Bartender Association)</masterLabel>
+            <translation><!-- IBA (International Bartender Association) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Industry Event (e.g., Whiskey Fest, Cocktail Weeks)</masterLabel>
+            <translation>Evento Industrial (e.g. Festival de Whiskey Semanas de Cocktail)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Local Agency</masterLabel>
+            <translation>Agencia Local</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Local Print</masterLabel>
+            <translation>Impresión Local</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Local Radio</masterLabel>
+            <translation>Radio Local</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Local TV</masterLabel>
+            <translation>TV Local</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Music Center</masterLabel>
+            <translation>Centro de Música</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Off Premise Association</masterLabel>
+            <translation>Asociación Off Premise</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Premise Association</masterLabel>
+            <translation>Asociación On Premise</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAC Group</masterLabel>
+            <translation>Grupo PAC</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Restaurant without Liquor License</masterLabel>
+            <translation>Restarurante sin licencia de Licores</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salon/Spa</masterLabel>
+            <translation><!-- Salon/Spa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sampling (Off and On Premise)</masterLabel>
+            <translation>Muestras (Off y On Premise)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Social Media (e.g., Yelp Elite)</masterLabel>
+            <translation>Redes sociales (e.g. Yelp Elite)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USBG</masterLabel>
+            <translation><!-- USBG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Union</masterLabel>
+            <translation>Sindicato</translation>
+        </picklistValues>
+    </CustomFieldTranslation>

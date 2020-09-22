@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>FI Request</label>
+    <protected>false</protected>
+    <values>
+        <field>Business_Function__c</field>
+        <value xsi:type="xsd:string">OTC</value>
+    </values>
+    <values>
+        <field>Display_Text__c</field>
+        <value xsi:type="xsd:string">Financial Invoice request form</value>
+    </values>
+    <values>
+        <field>GBS_Flow_Picklist_Setting__c</field>
+        <value xsi:type="xsd:string">Financial_invoice_request</value>
+    </values>
+    <values>
+        <field>Link__c</field>
+        <value xsi:type="xsd:string">https://bgsw1.sharepoint.com/:w:/r/GBS-support/_layouts/15/WopiFrame.aspx?sourcedoc={981CC95F-D99F-4E16-96F7-86D3E8425051}&amp;file=Guide%20to%20Financial%20Invoice%20Request%20Form.docx&amp;action=default</value>
+    </values>
+</CustomMetadata>

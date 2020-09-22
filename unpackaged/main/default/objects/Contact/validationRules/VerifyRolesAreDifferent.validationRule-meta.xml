@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VerifyRolesAreDifferent</fullName>
+    <active>true</active>
+    <description>Verify that the Primary Role and Secondary Role have different values</description>
+    <errorConditionFormula>IF(TEXT( PrimaryRole__c ) = TEXT( SecondaryRole__c ), IF(ISBLANK(TEXT(PrimaryRole__c)), false, true), false)</errorConditionFormula>
+    <errorMessage>Please ensure you are selecting different values for primary and secondary roles.</errorMessage>
+</ValidationRule>

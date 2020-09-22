@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Australia Plants - Quality</name>
+    <queueMembers>
+        <publicGroups>
+            <publicGroup>CCA_AB_Co_Plant_Quality_Team</publicGroup>
+            <publicGroup>CCA_Australia_New_Zealand_Quality</publicGroup>
+            <publicGroup>CCA_SA_Thebarton_Plant_Quality_Team</publicGroup>
+            <publicGroup>CCA_VIC_Moorabbin_Plant_Quality_Team</publicGroup>
+            <publicGroup>CCA_WA_Perth_Plant_Quality_Team</publicGroup>
+            <publicGroup>CCA_WLD_Richlands_Plant_Quality_Team</publicGroup>
+        </publicGroups>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

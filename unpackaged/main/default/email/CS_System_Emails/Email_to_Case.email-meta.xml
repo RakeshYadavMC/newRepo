@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Template for emails that come in through the email boxes.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BeamSuntory_Letterhead</letterhead>
+    <name>Email-to-Case</name>
+    <style>freeForm</style>
+    <subject>A case has been created for you!</subject>
+    <textOnly>Thank you for contacting Beam Suntory!  This is an automated response.  Your email has been received and will be actioned as quickly as possible.  If you need to follow up on this request, please reference the following case number {!Case.CaseNumber}.
+
+
+
+RE: {!Case.Subject}
+
+
+
+Thank you,
+
+
+
+Beam Suntory Customer Service
+
+
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

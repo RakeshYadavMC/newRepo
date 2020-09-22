@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cruzan_Single_Barrel_POS_Customization</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Cruzan - Single Barrel</label>
+    <queue>Cruzan_Single_Barrel</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

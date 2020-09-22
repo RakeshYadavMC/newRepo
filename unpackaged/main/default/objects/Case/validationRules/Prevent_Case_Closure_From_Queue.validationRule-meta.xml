@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_Case_Closure_From_Queue</fullName>
+    <active>true</active>
+    <description>Prevents users from closing a GBS case without taking ownership of it.</description>
+    <errorConditionFormula>AND(LEFT(OwnerId, 3)!='005', OR(BSI_Function__c='GBS', BSI_Function__c='Compliance'), RecordType.Name != 'Compliance Sub Case', CONTAINS(TEXT(Status), 'Closed'), ISCHANGED(Status))</errorConditionFormula>
+    <errorMessage>Cases cannot be closed directly from their queue. Please pick up this case before closing.</errorMessage>
+</ValidationRule>

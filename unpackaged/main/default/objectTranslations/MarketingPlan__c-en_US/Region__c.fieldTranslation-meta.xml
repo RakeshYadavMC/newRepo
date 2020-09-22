@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Region --></label>
+        <name>Region__c</name>
+        <picklistValues>
+            <masterLabel>8 Year Old Launch &amp; Refresh</masterLabel>
+            <translation><!-- 8 Year Old Launch &amp; Refresh --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8YO</masterLabel>
+            <translation><!-- 8YO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AFL</masterLabel>
+            <translation><!-- AFL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATL</masterLabel>
+            <translation><!-- ATL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Agency</masterLabel>
+            <translation><!-- Agency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ardmore</masterLabel>
+            <translation><!-- Ardmore --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auctober</masterLabel>
+            <translation><!-- Auctober --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Barrel List</masterLabel>
+            <translation><!-- Barrel List --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beer Festival</masterLabel>
+            <translation><!-- Beer Festival --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Black Focus</masterLabel>
+            <translation><!-- Black Focus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bowmore</masterLabel>
+            <translation><!-- Bowmore --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canada</masterLabel>
+            <translation><!-- Canada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Category</masterLabel>
+            <translation><!-- Category --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Central Region</masterLabel>
+            <translation><!-- Central Region --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Central Regional Programming</masterLabel>
+            <translation><!-- Central Regional Programming --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chita</masterLabel>
+            <translation><!-- Chita --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Control State Region</masterLabel>
+            <translation><!-- Control State Region --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Control States &amp; NA Region</masterLabel>
+            <translation><!-- Control States &amp; NA Region --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Control States Region</masterLabel>
+            <translation><!-- Control States Region --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>East Region</masterLabel>
+            <translation><!-- East Region --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Easter Program</masterLabel>
+            <translation><!-- Easter Program --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Experimental Platform</masterLabel>
+            <translation><!-- Experimental Platform --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FBS</masterLabel>
+            <translation><!-- FBS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Footy</masterLabel>
+            <translation><!-- Footy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Franchise Region</masterLabel>
+            <translation><!-- Franchise Region --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gifting</masterLabel>
+            <translation><!-- Gifting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global Insights</masterLabel>
+            <translation><!-- Global Insights --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global Marketing</masterLabel>
+            <translation><!-- Global Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Highball</masterLabel>
+            <translation><!-- Highball --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Laphroaig</masterLabel>
+            <translation><!-- Laphroaig --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Make History 2.0</masterLabel>
+            <translation><!-- Make History 2.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing</masterLabel>
+            <translation><!-- Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing Services Region</masterLabel>
+            <translation><!-- Marketing Services Region --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Media</masterLabel>
+            <translation><!-- Media --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mexico</masterLabel>
+            <translation><!-- Mexico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Midsouth Region</masterLabel>
+            <translation><!-- Midsouth Region --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Misc</masterLabel>
+            <translation><!-- Misc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Must Win Region</masterLabel>
+            <translation><!-- Must Win Region --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Must Win/Portfolio Programs Region</masterLabel>
+            <translation><!-- Must Win/Portfolio Programs Region --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NPD</masterLabel>
+            <translation><!-- NPD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>National BTL Region</masterLabel>
+            <translation><!-- National BTL Region --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>National Marketing</masterLabel>
+            <translation><!-- National Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Premise Advocacy</masterLabel>
+            <translation><!-- On Premise Advocacy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Packcentre</masterLabel>
+            <translation><!-- Packcentre --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Peated Malts</masterLabel>
+            <translation><!-- Peated Malts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pendulum</masterLabel>
+            <translation><!-- Pendulum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Proximity Media</masterLabel>
+            <translation><!-- Proximity Media --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RNDC/Franchise Region</masterLabel>
+            <translation><!-- RNDC/Franchise Region --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RTD</masterLabel>
+            <translation><!-- RTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Refresh + Launch</masterLabel>
+            <translation><!-- Refresh + Launch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Research</masterLabel>
+            <translation><!-- Research --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SGWS Region</masterLabel>
+            <translation><!-- SGWS Region --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Summer</masterLabel>
+            <translation><!-- Summer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tennis</masterLabel>
+            <translation><!-- Tennis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Blend</masterLabel>
+            <translation><!-- The Blend --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Blend / Ambassadors</masterLabel>
+            <translation><!-- The Blend / Ambassadors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Third Party</masterLabel>
+            <translation><!-- Third Party --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trial (Horseracing)</masterLabel>
+            <translation><!-- Trial (Horseracing) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Turnkey Kits</masterLabel>
+            <translation><!-- Turnkey Kits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Off-Premise Region</masterLabel>
+            <translation><!-- US Off-Premise Region --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US On-Premise Region</masterLabel>
+            <translation><!-- US On-Premise Region --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>University Program</masterLabel>
+            <translation><!-- University Program --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Visibility</masterLabel>
+            <translation><!-- Visibility --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West Region</masterLabel>
+            <translation><!-- West Region --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Winter</masterLabel>
+            <translation><!-- Winter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>__</masterLabel>
+            <translation><!-- __ --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

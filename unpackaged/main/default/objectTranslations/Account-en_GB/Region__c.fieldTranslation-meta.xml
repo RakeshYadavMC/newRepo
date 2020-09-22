@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Region --></label>
+        <name>Region__c</name>
+        <picklistValues>
+            <masterLabel>America</masterLabel>
+            <translation><!-- America --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asia Pacific</masterLabel>
+            <translation><!-- Asia Pacific --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Central Region</masterLabel>
+            <translation><!-- Central Region --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Control States &amp; Na Region</masterLabel>
+            <translation><!-- Control States &amp; Na Region --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>East Region</masterLabel>
+            <translation><!-- East Region --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Europe</masterLabel>
+            <translation><!-- Europe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Franchise Region</masterLabel>
+            <translation><!-- Franchise Region --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GTR HQ</masterLabel>
+            <translation><!-- GTR HQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Midsouth Region</masterLabel>
+            <translation><!-- Midsouth Region --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oceania</masterLabel>
+            <translation><!-- Oceania --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West Region</masterLabel>
+            <translation><!-- West Region --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

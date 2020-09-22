@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>¿Se permiten racks y Copetes?</help>
+        <label>Racks / Copetes</label>
+        <name>RacksEndCaps__c</name>
+        <picklistValues>
+            <masterLabel>Both</masterLabel>
+            <translation>Ambos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>End Caps</masterLabel>
+            <translation>Copetes</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation>Ninguno</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Racks</masterLabel>
+            <translation><!-- Racks --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

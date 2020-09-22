@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BeamSuntory_Letterhead</letterhead>
+    <name>Candidate Acceptance Template</name>
+    <style>freeForm</style>
+    <subject>Case #{!Case.CaseNumber} - HR Candidate Acceptance Case</subject>
+    <textOnly>Thank you for contacting Global Business Services.  The background check and drug screen process has been started for this candidate.
+
+Thank You,
+The GBS HR Team</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

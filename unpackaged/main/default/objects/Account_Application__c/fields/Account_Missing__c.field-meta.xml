@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Missing__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>International Accounts for the Single Barrel program do not exist in Salesforce as of 8/20/2018, this field indicates that</description>
+    <externalId>false</externalId>
+    <label>Account Missing</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

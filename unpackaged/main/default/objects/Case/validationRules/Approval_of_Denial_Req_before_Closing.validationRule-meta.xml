@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Approval_of_Denial_Req_before_Closing</fullName>
+    <active>false</active>
+    <description>Requires approval of Claim amount before closing.</description>
+    <errorConditionFormula>AND (
+   ISPICKVAL(CPro_Approval__c, ""),
+   RecordType.Name = "Order Claim",
+OR(
+ ISPICKVAL (Status, "Closed"),
+ ISPICKVAL (Status, "Closed - Approved"),
+ ISPICKVAL (Status, "Closed - Rejected")
+),
+OR(
+ ISPICKVAL(Type, "Overage Claim") ,
+ ISPICKVAL(Type, "Shortage Claim") ,
+ ISPICKVAL(Type, "Mis-Shipment Claim")
+)
+)</errorConditionFormula>
+    <errorMessage>This record must be contain a value for CPro Approval. Please mark "Yes" or "No".</errorMessage>
+</ValidationRule>

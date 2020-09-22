@@ -1,0 +1,2887 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>10 YEAR</fullName>
+        <default>false</default>
+        <label>10 YEAR</label>
+    </customValue>
+    <customValue>
+        <fullName>10 YEAR SINGLE MALT</fullName>
+        <default>false</default>
+        <label>10 YEAR SINGLE MALT</label>
+    </customValue>
+    <customValue>
+        <fullName>12 YEAR</fullName>
+        <default>false</default>
+        <label>12 YEAR</label>
+    </customValue>
+    <customValue>
+        <fullName>15 YEAR</fullName>
+        <default>false</default>
+        <label>15 YEAR</label>
+    </customValue>
+    <customValue>
+        <fullName>15 YEAR SINGLE MALT</fullName>
+        <default>false</default>
+        <label>15 YEAR SINGLE MALT</label>
+    </customValue>
+    <customValue>
+        <fullName>17 YEAR</fullName>
+        <default>false</default>
+        <label>17 YEAR</label>
+    </customValue>
+    <customValue>
+        <fullName>18 YEAR</fullName>
+        <default>false</default>
+        <label>18 YEAR</label>
+    </customValue>
+    <customValue>
+        <fullName>18 YEAR SINGLE MALT</fullName>
+        <default>false</default>
+        <label>18 YEAR SINGLE MALT</label>
+    </customValue>
+    <customValue>
+        <fullName>1961 50 YEAR</fullName>
+        <default>false</default>
+        <label>1961 50 YEAR</label>
+    </customValue>
+    <customValue>
+        <fullName>1965</fullName>
+        <default>false</default>
+        <label>1965</label>
+    </customValue>
+    <customValue>
+        <fullName>1988</fullName>
+        <default>false</default>
+        <label>1988</label>
+    </customValue>
+    <customValue>
+        <fullName>21 YEAR</fullName>
+        <default>false</default>
+        <label>21 YEAR</label>
+    </customValue>
+    <customValue>
+        <fullName>23 YEAR</fullName>
+        <default>false</default>
+        <label>23 YEAR</label>
+    </customValue>
+    <customValue>
+        <fullName>25TH ANNIVERSARY</fullName>
+        <default>false</default>
+        <label>25TH ANNIVERSARY</label>
+    </customValue>
+    <customValue>
+        <fullName>25 YEAR</fullName>
+        <default>false</default>
+        <label>25 YEAR</label>
+    </customValue>
+    <customValue>
+        <fullName>27 YEAR</fullName>
+        <default>false</default>
+        <label>27 YEAR</label>
+    </customValue>
+    <customValue>
+        <fullName>28 YEAR</fullName>
+        <default>false</default>
+        <label>28 YEAR</label>
+    </customValue>
+    <customValue>
+        <fullName>30 YEAR</fullName>
+        <default>false</default>
+        <label>30 YEAR</label>
+    </customValue>
+    <customValue>
+        <fullName>3 WOOD</fullName>
+        <default>false</default>
+        <label>3 WOOD</label>
+    </customValue>
+    <customValue>
+        <fullName>3 YEAR</fullName>
+        <default>false</default>
+        <label>3 YEAR</label>
+    </customValue>
+    <customValue>
+        <fullName>46</fullName>
+        <default>false</default>
+        <label>46</label>
+    </customValue>
+    <customValue>
+        <fullName>50</fullName>
+        <default>false</default>
+        <label>50</label>
+    </customValue>
+    <customValue>
+        <fullName>ADDITIONAL NOTES</fullName>
+        <default>false</default>
+        <label>ADDITIONAL NOTES</label>
+    </customValue>
+    <customValue>
+        <fullName>AGUA FUERTE</fullName>
+        <default>false</default>
+        <label>AGUA FUERTE</label>
+    </customValue>
+    <customValue>
+        <fullName>AMERICAN OAK</fullName>
+        <default>false</default>
+        <label>AMERICAN OAK</label>
+    </customValue>
+    <customValue>
+        <fullName>ANEJO</fullName>
+        <default>false</default>
+        <label>ANEJO</label>
+    </customValue>
+    <customValue>
+        <fullName>ANEJO CRISTALINO</fullName>
+        <default>false</default>
+        <label>ANEJO CRISTALINO</label>
+    </customValue>
+    <customValue>
+        <fullName>APPLE</fullName>
+        <default>false</default>
+        <label>APPLE</label>
+    </customValue>
+    <customValue>
+        <fullName>BARENAKED VODKA</fullName>
+        <default>false</default>
+        <label>BARENAKED VODKA</label>
+    </customValue>
+    <customValue>
+        <fullName>BARTENDER&apos;S MALT</fullName>
+        <default>false</default>
+        <label>BARTENDER&apos;S MALT</label>
+    </customValue>
+    <customValue>
+        <fullName>BLACK</fullName>
+        <default>false</default>
+        <label>BLACK</label>
+    </customValue>
+    <customValue>
+        <fullName>BLACK 1964 50 YEAR</fullName>
+        <default>false</default>
+        <label>BLACK 1964 50 YEAR</label>
+    </customValue>
+    <customValue>
+        <fullName>BLACK BARREL</fullName>
+        <default>false</default>
+        <label>BLACK BARREL</label>
+    </customValue>
+    <customValue>
+        <fullName>BLACK CHERRY</fullName>
+        <default>false</default>
+        <label>BLACK CHERRY</label>
+    </customValue>
+    <customValue>
+        <fullName>BLACKSTRAP</fullName>
+        <default>false</default>
+        <label>BLACKSTRAP</label>
+    </customValue>
+    <customValue>
+        <fullName>BLANCO/PLATA/SILVER</fullName>
+        <default>false</default>
+        <label>BLANCO/PLATA/SILVER</label>
+    </customValue>
+    <customValue>
+        <fullName>BLOOD ORANGE</fullName>
+        <default>false</default>
+        <label>BLOOD ORANGE</label>
+    </customValue>
+    <customValue>
+        <fullName>BLUE</fullName>
+        <default>false</default>
+        <label>BLUE</label>
+    </customValue>
+    <customValue>
+        <fullName>BLUE REPOSADO</fullName>
+        <default>false</default>
+        <label>BLUE REPOSADO</label>
+    </customValue>
+    <customValue>
+        <fullName>BLUE SILVER</fullName>
+        <default>false</default>
+        <label>BLUE SILVER</label>
+    </customValue>
+    <customValue>
+        <fullName>BONDED</fullName>
+        <default>false</default>
+        <label>BONDED</label>
+    </customValue>
+    <customValue>
+        <fullName>Bourbon</fullName>
+        <default>false</default>
+        <label>Bourbon</label>
+    </customValue>
+    <customValue>
+        <fullName>CABERNET SAUVINGON</fullName>
+        <default>false</default>
+        <label>CABERNET SAUVINGON</label>
+    </customValue>
+    <customValue>
+        <fullName>CAIRDEAS</fullName>
+        <default>false</default>
+        <label>CAIRDEAS</label>
+    </customValue>
+    <customValue>
+        <fullName>CANADIAN CLUB &amp; COLA 4.8%</fullName>
+        <default>false</default>
+        <label>CANADIAN CLUB &amp; COLA 4.8%</label>
+    </customValue>
+    <customValue>
+        <fullName>CANADIAN CLUB &amp; DRY 3.5%</fullName>
+        <default>false</default>
+        <label>CANADIAN CLUB &amp; DRY 3.5%</label>
+    </customValue>
+    <customValue>
+        <fullName>CANADIAN CLUB &amp; DRY 4.8%</fullName>
+        <default>false</default>
+        <label>CANADIAN CLUB &amp; DRY 4.8%</label>
+    </customValue>
+    <customValue>
+        <fullName>CANADIAN CLUB &amp; DRY PREMIUM 6.0%</fullName>
+        <default>false</default>
+        <label>CANADIAN CLUB &amp; DRY PREMIUM 6.0%</label>
+    </customValue>
+    <customValue>
+        <fullName>CANADIAN CLUB &amp; DRY PREMIUM 9.0%</fullName>
+        <default>false</default>
+        <label>CANADIAN CLUB &amp; DRY PREMIUM 9.0%</label>
+    </customValue>
+    <customValue>
+        <fullName>CANADIAN CLUB &amp; DRY ZERO 4.8%</fullName>
+        <default>false</default>
+        <label>CANADIAN CLUB &amp; DRY ZERO 4.8%</label>
+    </customValue>
+    <customValue>
+        <fullName>CANADIAN CLUB SUMMER CRISP 4.2%</fullName>
+        <default>false</default>
+        <label>CANADIAN CLUB SUMMER CRISP 4.2%</label>
+    </customValue>
+    <customValue>
+        <fullName>CASK STRENGTH</fullName>
+        <default>false</default>
+        <label>CASK STRENGTH</label>
+    </customValue>
+    <customValue>
+        <fullName>CHARDONNAY</fullName>
+        <default>false</default>
+        <label>CHARDONNAY</label>
+    </customValue>
+    <customValue>
+        <fullName>CITRUS</fullName>
+        <default>false</default>
+        <label>CITRUS</label>
+    </customValue>
+    <customValue>
+        <fullName>CITRUS VODKA</fullName>
+        <default>false</default>
+        <label>CITRUS VODKA</label>
+    </customValue>
+    <customValue>
+        <fullName>CLASSIC</fullName>
+        <default>false</default>
+        <label>CLASSIC</label>
+    </customValue>
+    <customValue>
+        <fullName>CLIPPER SPICED RUM</fullName>
+        <default>false</default>
+        <label>CLIPPER SPICED RUM</label>
+    </customValue>
+    <customValue>
+        <fullName>CONNEMARA ORIGINAL</fullName>
+        <default>false</default>
+        <label>CONNEMARA ORIGINAL</label>
+    </customValue>
+    <customValue>
+        <fullName>CRYSTAL</fullName>
+        <default>false</default>
+        <label>CRYSTAL</label>
+    </customValue>
+    <customValue>
+        <fullName>CUCUMBER</fullName>
+        <default>false</default>
+        <label>CUCUMBER</label>
+    </customValue>
+    <customValue>
+        <fullName>CUCUMBER CHILI</fullName>
+        <default>false</default>
+        <label>CUCUMBER CHILI</label>
+    </customValue>
+    <customValue>
+        <fullName>CUCUMBER VODKA</fullName>
+        <default>false</default>
+        <label>CUCUMBER VODKA</label>
+    </customValue>
+    <customValue>
+        <fullName>DARK</fullName>
+        <default>false</default>
+        <label>DARK</label>
+    </customValue>
+    <customValue>
+        <fullName>DARK 151</fullName>
+        <default>false</default>
+        <label>DARK 151</label>
+    </customValue>
+    <customValue>
+        <fullName>DARK BATCH</fullName>
+        <default>false</default>
+        <label>DARK BATCH</label>
+    </customValue>
+    <customValue>
+        <fullName>DARK RYE</fullName>
+        <default>false</default>
+        <label>DARK RYE</label>
+    </customValue>
+    <customValue>
+        <fullName>DEVIL&apos;S CUT</fullName>
+        <default>false</default>
+        <label>DEVIL&apos;S CUT</label>
+    </customValue>
+    <customValue>
+        <fullName>DEVILS CUT &amp; COLA 6.66%</fullName>
+        <default>false</default>
+        <label>DEVILS CUT &amp; COLA 6.66%</label>
+    </customValue>
+    <customValue>
+        <fullName>DISTILLER&apos;S CUT</fullName>
+        <default>false</default>
+        <label>DISTILLER&apos;S CUT</label>
+    </customValue>
+    <customValue>
+        <fullName>DOUBLE OAK</fullName>
+        <default>false</default>
+        <label>DOUBLE OAK</label>
+    </customValue>
+    <customValue>
+        <fullName>ESTATE DIAMOND DARK</fullName>
+        <default>false</default>
+        <label>ESTATE DIAMOND DARK</label>
+    </customValue>
+    <customValue>
+        <fullName>ESTATE DIAMOND LIGHT</fullName>
+        <default>false</default>
+        <label>ESTATE DIAMOND LIGHT</label>
+    </customValue>
+    <customValue>
+        <fullName>FIRE</fullName>
+        <default>false</default>
+        <label>FIRE</label>
+    </customValue>
+    <customValue>
+        <fullName>FLAVORED</fullName>
+        <default>false</default>
+        <label>FLAVORED</label>
+    </customValue>
+    <customValue>
+        <fullName>FLAVORED BRANDY</fullName>
+        <default>false</default>
+        <label>FLAVORED BRANDY</label>
+    </customValue>
+    <customValue>
+        <fullName>FLAVORED CORDIAL</fullName>
+        <default>false</default>
+        <label>FLAVORED CORDIAL</label>
+    </customValue>
+    <customValue>
+        <fullName>Four Oak</fullName>
+        <default>false</default>
+        <label>Four Oak</label>
+    </customValue>
+    <customValue>
+        <fullName>FRENCH ORIGINAL</fullName>
+        <default>false</default>
+        <label>FRENCH ORIGINAL</label>
+    </customValue>
+    <customValue>
+        <fullName>Full Barrel</fullName>
+        <default>false</default>
+        <label>Full Barrel</label>
+    </customValue>
+    <customValue>
+        <fullName>GIN</fullName>
+        <default>false</default>
+        <label>GIN</label>
+    </customValue>
+    <customValue>
+        <fullName>GOLD</fullName>
+        <default>false</default>
+        <label>GOLD</label>
+    </customValue>
+    <customValue>
+        <fullName>GOLDEN THISTLE 12 YEAR</fullName>
+        <default>false</default>
+        <label>GOLDEN THISTLE 12 YEAR</label>
+    </customValue>
+    <customValue>
+        <fullName>GRAPEFRUIT MARGARITA</fullName>
+        <default>false</default>
+        <label>GRAPEFRUIT MARGARITA</label>
+    </customValue>
+    <customValue>
+        <fullName>GREEN APPLE</fullName>
+        <default>false</default>
+        <label>GREEN APPLE</label>
+    </customValue>
+    <customValue>
+        <fullName>Half Barrel</fullName>
+        <default>false</default>
+        <label>Half Barrel</label>
+    </customValue>
+    <customValue>
+        <fullName>HARMONY</fullName>
+        <default>false</default>
+        <label>HARMONY</label>
+    </customValue>
+    <customValue>
+        <fullName>HIGHLAND</fullName>
+        <default>false</default>
+        <label>HIGHLAND</label>
+    </customValue>
+    <customValue>
+        <fullName>HIGHLAND CREAM</fullName>
+        <default>false</default>
+        <label>HIGHLAND CREAM</label>
+    </customValue>
+    <customValue>
+        <fullName>HONEY</fullName>
+        <default>false</default>
+        <label>HONEY</label>
+    </customValue>
+    <customValue>
+        <fullName>HOT TODDY</fullName>
+        <default>false</default>
+        <label>HOT TODDY</label>
+    </customValue>
+    <customValue>
+        <fullName>House of Commons</fullName>
+        <default>false</default>
+        <label>House of Commons</label>
+    </customValue>
+    <customValue>
+        <fullName>ISLAY</fullName>
+        <default>false</default>
+        <label>ISLAY</label>
+    </customValue>
+    <customValue>
+        <fullName>JIM BEAM &amp; COLA</fullName>
+        <default>false</default>
+        <label>JIM BEAM &amp; COLA</label>
+    </customValue>
+    <customValue>
+        <fullName>JIM BEAM &amp; GINGER</fullName>
+        <default>false</default>
+        <label>JIM BEAM &amp; GINGER</label>
+    </customValue>
+    <customValue>
+        <fullName>JIM BEAM BLACK &amp; COLA 5.0%</fullName>
+        <default>false</default>
+        <label>JIM BEAM BLACK &amp; COLA 5.0%</label>
+    </customValue>
+    <customValue>
+        <fullName>JIM BEAM BLACK &amp; COLA DS 7.0%</fullName>
+        <default>false</default>
+        <label>JIM BEAM BLACK &amp; COLA DS 7.0%</label>
+    </customValue>
+    <customValue>
+        <fullName>JIM BEAM GOLD &amp; COLA 7.0% (NZ)</fullName>
+        <default>false</default>
+        <label>JIM BEAM GOLD &amp; COLA 7.0% (NZ)</label>
+    </customValue>
+    <customValue>
+        <fullName>JIM BEAM LONG BLACK &amp; COLA 7.0%</fullName>
+        <default>false</default>
+        <label>JIM BEAM LONG BLACK &amp; COLA 7.0%</label>
+    </customValue>
+    <customValue>
+        <fullName>JIM BEAM WHITE &amp; COLA 3.5%</fullName>
+        <default>false</default>
+        <label>JIM BEAM WHITE &amp; COLA 3.5%</label>
+    </customValue>
+    <customValue>
+        <fullName>JIM BEAM WHITE &amp; COLA 4.8%</fullName>
+        <default>false</default>
+        <label>JIM BEAM WHITE &amp; COLA 4.8%</label>
+    </customValue>
+    <customValue>
+        <fullName>JIM BEAM WHITE &amp; COLA DS 6.7%</fullName>
+        <default>false</default>
+        <label>JIM BEAM WHITE &amp; COLA DS 6.7%</label>
+    </customValue>
+    <customValue>
+        <fullName>JIM BEAM WHITE &amp; COLA KS 9.0%</fullName>
+        <default>false</default>
+        <label>JIM BEAM WHITE &amp; COLA KS 9.0%</label>
+    </customValue>
+    <customValue>
+        <fullName>JIM BEAM WHITE &amp; COLA ZERO 4.8%</fullName>
+        <default>false</default>
+        <label>JIM BEAM WHITE &amp; COLA ZERO 4.8%</label>
+    </customValue>
+    <customValue>
+        <fullName>JIM BEAM WHITE &amp; DRY 4.8%</fullName>
+        <default>false</default>
+        <label>JIM BEAM WHITE &amp; DRY 4.8%</label>
+    </customValue>
+    <customValue>
+        <fullName>KOYOMI HIGHBALL BLOOD ORANGE &amp; BITTERS 4.2%</fullName>
+        <default>false</default>
+        <label>KOYOMI HIGHBALL BLOOD ORANGE &amp; BITTERS 4.2%</label>
+    </customValue>
+    <customValue>
+        <fullName>KOYOMI HIGHBALL MANDARIN &amp; GRAPEFRUIT 4.2%</fullName>
+        <default>false</default>
+        <label>KOYOMI HIGHBALL MANDARIN &amp; GRAPEFRUIT 4.2%</label>
+    </customValue>
+    <customValue>
+        <fullName>KOYOMI HIGHBALL YUZU &amp; LIME 4.2%</fullName>
+        <default>false</default>
+        <label>KOYOMI HIGHBALL YUZU &amp; LIME 4.2%</label>
+    </customValue>
+    <customValue>
+        <fullName>LEGACY</fullName>
+        <default>false</default>
+        <label>LEGACY</label>
+    </customValue>
+    <customValue>
+        <fullName>LEGEND</fullName>
+        <default>false</default>
+        <label>LEGEND</label>
+    </customValue>
+    <customValue>
+        <fullName>LEMON DRIZZLE</fullName>
+        <default>false</default>
+        <label>LEMON DRIZZLE</label>
+    </customValue>
+    <customValue>
+        <fullName>LIGHT</fullName>
+        <default>false</default>
+        <label>LIGHT</label>
+    </customValue>
+    <customValue>
+        <fullName>LIME SHOT</fullName>
+        <default>false</default>
+        <label>LIME SHOT</label>
+    </customValue>
+    <customValue>
+        <fullName>LIQUEUR GOLD</fullName>
+        <default>false</default>
+        <label>LIQUEUR GOLD</label>
+    </customValue>
+    <customValue>
+        <fullName>LIQUEUR SILVER</fullName>
+        <default>false</default>
+        <label>LIQUEUR SILVER</label>
+    </customValue>
+    <customValue>
+        <fullName>London Cup</fullName>
+        <default>false</default>
+        <label>London Cup</label>
+    </customValue>
+    <customValue>
+        <fullName>LONDON DRY</fullName>
+        <default>false</default>
+        <label>LONDON DRY</label>
+    </customValue>
+    <customValue>
+        <fullName>LORE</fullName>
+        <default>false</default>
+        <label>LORE</label>
+    </customValue>
+    <customValue>
+        <fullName>LOWLAND</fullName>
+        <default>false</default>
+        <label>LOWLAND</label>
+    </customValue>
+    <customValue>
+        <fullName>MADEIRA CASK</fullName>
+        <default>false</default>
+        <label>MADEIRA CASK</label>
+    </customValue>
+    <customValue>
+        <fullName>MALT</fullName>
+        <default>false</default>
+        <label>MALT</label>
+    </customValue>
+    <customValue>
+        <fullName>MAPLE</fullName>
+        <default>false</default>
+        <label>MAPLE</label>
+    </customValue>
+    <customValue>
+        <fullName>MARGARITA MIX</fullName>
+        <default>false</default>
+        <label>MARGARITA MIX</label>
+    </customValue>
+    <customValue>
+        <fullName>MIDORI ILLUSION 4.5%</fullName>
+        <default>false</default>
+        <label>MIDORI ILLUSION 4.5%</label>
+    </customValue>
+    <customValue>
+        <fullName>MIDORI SPLICE 4.5%</fullName>
+        <default>false</default>
+        <label>MIDORI SPLICE 4.5%</label>
+    </customValue>
+    <customValue>
+        <fullName>MINT JULEP</fullName>
+        <default>false</default>
+        <label>MINT JULEP</label>
+    </customValue>
+    <customValue>
+        <fullName>MOSCATO</fullName>
+        <default>false</default>
+        <label>MOSCATO</label>
+    </customValue>
+    <customValue>
+        <fullName>No.1</fullName>
+        <default>false</default>
+        <label>No.1</label>
+    </customValue>
+    <customValue>
+        <fullName>Orange and Cacao</fullName>
+        <default>false</default>
+        <label>Orange and Cacao</label>
+    </customValue>
+    <customValue>
+        <fullName>ORIGIN</fullName>
+        <default>false</default>
+        <label>ORIGIN</label>
+    </customValue>
+    <customValue>
+        <fullName>ORIGINAL</fullName>
+        <default>false</default>
+        <label>ORIGINAL</label>
+    </customValue>
+    <customValue>
+        <fullName>ORIGINAL/7 YEAR</fullName>
+        <default>false</default>
+        <label>ORIGINAL/7 YEAR</label>
+    </customValue>
+    <customValue>
+        <fullName>ORIGINAL/RED TOP</fullName>
+        <default>false</default>
+        <label>ORIGINAL/RED TOP</label>
+    </customValue>
+    <customValue>
+        <fullName>ORIGINAL/WHITE</fullName>
+        <default>false</default>
+        <label>ORIGINAL/WHITE</label>
+    </customValue>
+    <customValue>
+        <fullName>ORIGINAL WHISKY</fullName>
+        <default>false</default>
+        <label>ORIGINAL WHISKY</label>
+    </customValue>
+    <customValue>
+        <fullName>OTHER</fullName>
+        <default>false</default>
+        <label>OTHER</label>
+    </customValue>
+    <customValue>
+        <fullName>PARADISO</fullName>
+        <default>false</default>
+        <label>PARADISO</label>
+    </customValue>
+    <customValue>
+        <fullName>PINEAPPLE COCONUT</fullName>
+        <default>false</default>
+        <label>PINEAPPLE COCONUT</label>
+    </customValue>
+    <customValue>
+        <fullName>PINOT GRIGIO</fullName>
+        <default>false</default>
+        <label>PINOT GRIGIO</label>
+    </customValue>
+    <customValue>
+        <fullName>PINOT NOIR</fullName>
+        <default>false</default>
+        <label>PINOT NOIR</label>
+    </customValue>
+    <customValue>
+        <fullName>PORT CASK</fullName>
+        <default>false</default>
+        <label>PORT CASK</label>
+    </customValue>
+    <customValue>
+        <fullName>PORTWOOD</fullName>
+        <default>false</default>
+        <label>PORTWOOD</label>
+    </customValue>
+    <customValue>
+        <fullName>PREMIUM</fullName>
+        <default>false</default>
+        <label>PREMIUM</label>
+    </customValue>
+    <customValue>
+        <fullName>PRIVATE SELECT</fullName>
+        <default>false</default>
+        <label>PRIVATE SELECT</label>
+    </customValue>
+    <customValue>
+        <fullName>PUCKER CORDIALS</fullName>
+        <default>false</default>
+        <label>PUCKER CORDIALS</label>
+    </customValue>
+    <customValue>
+        <fullName>QUARTER CASK</fullName>
+        <default>false</default>
+        <label>QUARTER CASK</label>
+    </customValue>
+    <customValue>
+        <fullName>RASPBERRY</fullName>
+        <default>false</default>
+        <label>RASPBERRY</label>
+    </customValue>
+    <customValue>
+        <fullName>RASPBERRY VODKA</fullName>
+        <default>false</default>
+        <label>RASPBERRY VODKA</label>
+    </customValue>
+    <customValue>
+        <fullName>RED</fullName>
+        <default>false</default>
+        <label>RED</label>
+    </customValue>
+    <customValue>
+        <fullName>Red Stag Black Cherry</fullName>
+        <default>false</default>
+        <label>Red Stag Black Cherry</label>
+    </customValue>
+    <customValue>
+        <fullName>RED WINE</fullName>
+        <default>false</default>
+        <label>RED WINE</label>
+    </customValue>
+    <customValue>
+        <fullName>REPEAL</fullName>
+        <default>false</default>
+        <label>REPEAL</label>
+    </customValue>
+    <customValue>
+        <fullName>REPOSADO</fullName>
+        <default>false</default>
+        <label>REPOSADO</label>
+    </customValue>
+    <customValue>
+        <fullName>RESERVE</fullName>
+        <default>false</default>
+        <label>RESERVE</label>
+    </customValue>
+    <customValue>
+        <fullName>ROSE</fullName>
+        <default>false</default>
+        <label>ROSE</label>
+    </customValue>
+    <customValue>
+        <fullName>Rye</fullName>
+        <default>false</default>
+        <label>Rye</label>
+    </customValue>
+    <customValue>
+        <fullName>RYE BONDED</fullName>
+        <default>false</default>
+        <label>RYE BONDED</label>
+    </customValue>
+    <customValue>
+        <fullName>SELECT CASK</fullName>
+        <default>false</default>
+        <label>SELECT CASK</label>
+    </customValue>
+    <customValue>
+        <fullName>SHERRY CASK</fullName>
+        <default>false</default>
+        <label>SHERRY CASK</label>
+    </customValue>
+    <customValue>
+        <fullName>SILVER</fullName>
+        <default>false</default>
+        <label>SILVER</label>
+    </customValue>
+    <customValue>
+        <fullName>SINGLE BARREL</fullName>
+        <default>false</default>
+        <label>SINGLE BARREL</label>
+    </customValue>
+    <customValue>
+        <fullName>SINGLE BARREL RYE</fullName>
+        <default>false</default>
+        <label>SINGLE BARREL RYE</label>
+    </customValue>
+    <customValue>
+        <fullName>SINGLE CASK</fullName>
+        <default>false</default>
+        <label>SINGLE CASK</label>
+    </customValue>
+    <customValue>
+        <fullName>SINGLE GRAIN</fullName>
+        <default>false</default>
+        <label>SINGLE GRAIN</label>
+    </customValue>
+    <customValue>
+        <fullName>Single Malt Whisky</fullName>
+        <default>false</default>
+        <label>Single Malt Whisky</label>
+    </customValue>
+    <customValue>
+        <fullName>SLOE</fullName>
+        <default>false</default>
+        <label>SLOE</label>
+    </customValue>
+    <customValue>
+        <fullName>SMALL BATCH</fullName>
+        <default>false</default>
+        <label>SMALL BATCH</label>
+    </customValue>
+    <customValue>
+        <fullName>SPEYSIDE</fullName>
+        <default>false</default>
+        <label>SPEYSIDE</label>
+    </customValue>
+    <customValue>
+        <fullName>SPICED</fullName>
+        <default>false</default>
+        <label>SPICED</label>
+    </customValue>
+    <customValue>
+        <fullName>SPICED RUM</fullName>
+        <default>false</default>
+        <label>SPICED RUM</label>
+    </customValue>
+    <customValue>
+        <fullName>SWEETARITA MARGARITA</fullName>
+        <default>false</default>
+        <label>SWEETARITA MARGARITA</label>
+    </customValue>
+    <customValue>
+        <fullName>TANGERINE VODKA</fullName>
+        <default>false</default>
+        <label>TANGERINE VODKA</label>
+    </customValue>
+    <customValue>
+        <fullName>TRADITIONAL PEATED</fullName>
+        <default>false</default>
+        <label>TRADITIONAL PEATED</label>
+    </customValue>
+    <customValue>
+        <fullName>TRIPLE SEC</fullName>
+        <default>false</default>
+        <label>TRIPLE SEC</label>
+    </customValue>
+    <customValue>
+        <fullName>TRIPLE WOOD</fullName>
+        <default>false</default>
+        <label>TRIPLE WOOD</label>
+    </customValue>
+    <customValue>
+        <fullName>TWO BY TWO RYE</fullName>
+        <default>false</default>
+        <label>TWO BY TWO RYE</label>
+    </customValue>
+    <customValue>
+        <fullName>VANILLA</fullName>
+        <default>false</default>
+        <label>VANILLA</label>
+    </customValue>
+    <customValue>
+        <fullName>VAULTS 1ST RELEASE</fullName>
+        <default>false</default>
+        <label>VAULTS 1ST RELEASE</label>
+    </customValue>
+    <customValue>
+        <fullName>VINTAGE</fullName>
+        <default>false</default>
+        <label>VINTAGE</label>
+    </customValue>
+    <customValue>
+        <fullName>VIRGIN OAK</fullName>
+        <default>false</default>
+        <label>VIRGIN OAK</label>
+    </customValue>
+    <customValue>
+        <fullName>VJOP</fullName>
+        <default>false</default>
+        <label>VJOP</label>
+    </customValue>
+    <customValue>
+        <fullName>VODKA</fullName>
+        <default>false</default>
+        <label>VODKA</label>
+    </customValue>
+    <customValue>
+        <fullName>VS</fullName>
+        <default>false</default>
+        <label>VS</label>
+    </customValue>
+    <customValue>
+        <fullName>VSOP</fullName>
+        <default>false</default>
+        <label>VSOP</label>
+    </customValue>
+    <customValue>
+        <fullName>WATERMELON LIME MARGARITA</fullName>
+        <default>false</default>
+        <label>WATERMELON LIME MARGARITA</label>
+    </customValue>
+    <customValue>
+        <fullName>WHITE CRANBERRY COSMO</fullName>
+        <default>false</default>
+        <label>WHITE CRANBERRY COSMO</label>
+    </customValue>
+    <customValue>
+        <fullName>WHITE PEACH MARGARITA</fullName>
+        <default>false</default>
+        <label>WHITE PEACH MARGARITA</label>
+    </customValue>
+    <customValue>
+        <fullName>WHITE WINE</fullName>
+        <default>false</default>
+        <label>WHITE WINE</label>
+    </customValue>
+    <customValue>
+        <fullName>XO</fullName>
+        <default>false</default>
+        <label>XO</label>
+    </customValue>
+    <customValue>
+        <fullName>YUZU</fullName>
+        <default>false</default>
+        <label>YUZU</label>
+    </customValue>
+    <customValue>
+        <fullName>16 YEAR</fullName>
+        <default>false</default>
+        <label>16 YEAR</label>
+    </customValue>
+    <customValue>
+        <fullName>JIM BEAM WHITE &amp; COLA 4.5%</fullName>
+        <default>false</default>
+        <label>JIM BEAM WHITE &amp; COLA 4.5%</label>
+    </customValue>
+    <customValue>
+        <fullName>JIM BEAM WHITE &amp; COLA 10%</fullName>
+        <default>false</default>
+        <label>JIM BEAM WHITE &amp; COLA 10%</label>
+    </customValue>
+    <customValue>
+        <fullName>SURF</fullName>
+        <default>false</default>
+        <label>SURF</label>
+    </customValue>
+    <customValue>
+        <fullName>1973 43YEAR</fullName>
+        <default>false</default>
+        <label>1973 43YEAR</label>
+    </customValue>
+    <customValue>
+        <fullName>TROPICAL</fullName>
+        <default>false</default>
+        <label>TROPICAL</label>
+    </customValue>
+    <customValue>
+        <fullName>BLACKCURRANT</fullName>
+        <default>false</default>
+        <label>BLACKCURRANT</label>
+    </customValue>
+    <customValue>
+        <fullName>MANGO</fullName>
+        <default>false</default>
+        <label>MANGO</label>
+    </customValue>
+    <customValue>
+        <fullName>PASSIONFRUIT</fullName>
+        <default>false</default>
+        <label>PASSIONFRUIT</label>
+    </customValue>
+    <customValue>
+        <fullName>RAINBOW ICE</fullName>
+        <default>false</default>
+        <label>RAINBOW ICE</label>
+    </customValue>
+    <customValue>
+        <fullName>RED BERRY</fullName>
+        <default>false</default>
+        <label>RED BERRY</label>
+    </customValue>
+    <customValue>
+        <fullName>Sipsmith Gin &amp; Tonic</fullName>
+        <default>false</default>
+        <label>Sipsmith Gin &amp; Tonic</label>
+    </customValue>
+    <customValue>
+        <fullName>Sipsmith Gin &amp; Tonic Light</fullName>
+        <default>false</default>
+        <label>Sipsmith Gin &amp; Tonic Light</label>
+    </customValue>
+    <customValue>
+        <fullName>OAKSMITH GOLD</fullName>
+        <default>false</default>
+        <label>OAKSMITH GOLD</label>
+    </customValue>
+    <customValue>
+        <fullName>OAKSMITH ORIGINAL</fullName>
+        <default>false</default>
+        <label>OAKSMITH ORIGINAL</label>
+    </customValue>
+    <customValue>
+        <fullName>LONDON DRY GIN</fullName>
+        <default>false</default>
+        <label>LONDON DRY GIN</label>
+    </customValue>
+    <customValue>
+        <fullName>CITRUS GIN</fullName>
+        <default>false</default>
+        <label>CITRUS GIN</label>
+    </customValue>
+    <customValue>
+        <fullName>ROSE GIN</fullName>
+        <default>false</default>
+        <label>ROSE GIN</label>
+    </customValue>
+    <customValue>
+        <fullName>12 GIN</fullName>
+        <default>false</default>
+        <label>12 GIN</label>
+    </customValue>
+    <customValue>
+        <fullName>Beam Suntory Corporate - 2 Gingers Original</fullName>
+        <default>false</default>
+        <label>Beam Suntory Corporate - 2 Gingers Original</label>
+    </customValue>
+    <customValue>
+        <fullName>Beam Suntory Corporate - Aftershock</fullName>
+        <default>false</default>
+        <label>Beam Suntory Corporate - Aftershock</label>
+    </customValue>
+    <customValue>
+        <fullName>Beam Suntory Corporate - Alberta Premium</fullName>
+        <default>false</default>
+        <label>Beam Suntory Corporate - Alberta Premium</label>
+    </customValue>
+    <customValue>
+        <fullName>Beam Suntory Corporate - Alberta Pure Vodka</fullName>
+        <default>false</default>
+        <label>Beam Suntory Corporate - Alberta Pure Vodka</label>
+    </customValue>
+    <customValue>
+        <fullName>Beam Suntory Corporate - Alberta Rye Whisky</fullName>
+        <default>false</default>
+        <label>Beam Suntory Corporate - Alberta Rye Whisky</label>
+    </customValue>
+    <customValue>
+        <fullName>Beam Suntory Corporate - Alberta Springs</fullName>
+        <default>false</default>
+        <label>Beam Suntory Corporate - Alberta Springs</label>
+    </customValue>
+    <customValue>
+        <fullName>Beam Suntory Corporate - AO Vodka</fullName>
+        <default>false</default>
+        <label>Beam Suntory Corporate - AO Vodka</label>
+    </customValue>
+    <customValue>
+        <fullName>Beam Suntory Corporate - Ardmore</fullName>
+        <default>false</default>
+        <label>Beam Suntory Corporate - Ardmore</label>
+    </customValue>
+    <customValue>
+        <fullName>Beam Suntory Corporate - Auchentoshan</fullName>
+        <default>false</default>
+        <label>Beam Suntory Corporate - Auchentoshan</label>
+    </customValue>
+    <customValue>
+        <fullName>Beam Suntory Corporate - Baker&apos;s</fullName>
+        <default>false</default>
+        <label>Beam Suntory Corporate - Baker&apos;s</label>
+    </customValue>
+    <customValue>
+        <fullName>Beam Suntory Corporate - Banff Ice Vodka</fullName>
+        <default>false</default>
+        <label>Beam Suntory Corporate - Banff Ice Vodka</label>
+    </customValue>
+    <customValue>
+        <fullName>Beam Suntory Corporate - Basil Hayden Original</fullName>
+        <default>false</default>
+        <label>Beam Suntory Corporate - Basil Hayden Original</label>
+    </customValue>
+    <customValue>
+        <fullName>Beam Suntory Corporate - Bookers</fullName>
+        <default>false</default>
+        <label>Beam Suntory Corporate - Bookers</label>
+    </customValue>
+    <customValue>
+        <fullName>Beam Suntory Corporate - Bowmore</fullName>
+        <default>false</default>
+        <label>Beam Suntory Corporate - Bowmore</label>
+    </customValue>
+    <customValue>
+        <fullName>Beam Suntory Corporate - Calico Jack</fullName>
+        <default>false</default>
+        <label>Beam Suntory Corporate - Calico Jack</label>
+    </customValue>
+    <customValue>
+        <fullName>Beam Suntory Corporate - Canadian Club</fullName>
+        <default>false</default>
+        <label>Beam Suntory Corporate - Canadian Club</label>
+    </customValue>
+    <customValue>
+        <fullName>Beam Suntory Corporate - Connemara</fullName>
+        <default>false</default>
+        <label>Beam Suntory Corporate - Connemara</label>
+    </customValue>
+    <customValue>
+        <fullName>Beam Suntory Corporate - Courvoisier</fullName>
+        <default>false</default>
+        <label>Beam Suntory Corporate - Courvoisier</label>
+    </customValue>
+    <customValue>
+        <fullName>Beam Suntory Corporate - Cruzan</fullName>
+        <default>false</default>
+        <label>Beam Suntory Corporate - Cruzan</label>
+    </customValue>
+    <customValue>
+        <fullName>Beam Suntory Corporate - DeKuyper</fullName>
+        <default>false</default>
+        <label>Beam Suntory Corporate - DeKuyper</label>
+    </customValue>
+    <customValue>
+        <fullName>Beam Suntory Corporate - Effen Vodka</fullName>
+        <default>false</default>
+        <label>Beam Suntory Corporate - Effen Vodka</label>
+    </customValue>
+    <customValue>
+        <fullName>Beam Suntory Corporate - El Tesoro</fullName>
+        <default>false</default>
+        <label>Beam Suntory Corporate - El Tesoro</label>
+    </customValue>
+    <customValue>
+        <fullName>Beam Suntory Corporate - Gilbey&apos;s</fullName>
+        <default>false</default>
+        <label>Beam Suntory Corporate - Gilbey&apos;s</label>
+    </customValue>
+    <customValue>
+        <fullName>Beam Suntory Corporate - Glen Garioch</fullName>
+        <default>false</default>
+        <label>Beam Suntory Corporate - Glen Garioch</label>
+    </customValue>
+    <customValue>
+        <fullName>Beam Suntory Corporate - Haku Vodka</fullName>
+        <default>false</default>
+        <label>Beam Suntory Corporate - Haku Vodka</label>
+    </customValue>
+    <customValue>
+        <fullName>Beam Suntory Corporate - Hakushu Whisky</fullName>
+        <default>false</default>
+        <label>Beam Suntory Corporate - Hakushu Whisky</label>
+    </customValue>
+    <customValue>
+        <fullName>Beam Suntory Corporate - Hibiki Whisky</fullName>
+        <default>false</default>
+        <label>Beam Suntory Corporate - Hibiki Whisky</label>
+    </customValue>
+    <customValue>
+        <fullName>Beam Suntory Corporate - Hornitos</fullName>
+        <default>false</default>
+        <label>Beam Suntory Corporate - Hornitos</label>
+    </customValue>
+    <customValue>
+        <fullName>Beam Suntory Corporate - Ice Surge</fullName>
+        <default>false</default>
+        <label>Beam Suntory Corporate - Ice Surge</label>
+    </customValue>
+    <customValue>
+        <fullName>Beam Suntory Corporate - Jim Beam</fullName>
+        <default>false</default>
+        <label>Beam Suntory Corporate - Jim Beam</label>
+    </customValue>
+    <customValue>
+        <fullName>Beam Suntory Corporate - Kamchatka</fullName>
+        <default>false</default>
+        <label>Beam Suntory Corporate - Kamchatka</label>
+    </customValue>
+    <customValue>
+        <fullName>Beam Suntory Corporate - Kamora Liqueur</fullName>
+        <default>false</default>
+        <label>Beam Suntory Corporate - Kamora Liqueur</label>
+    </customValue>
+    <customValue>
+        <fullName>Beam Suntory Corporate - Kessler</fullName>
+        <default>false</default>
+        <label>Beam Suntory Corporate - Kessler</label>
+    </customValue>
+    <customValue>
+        <fullName>Beam Suntory Corporate - Knob Creek</fullName>
+        <default>false</default>
+        <label>Beam Suntory Corporate - Knob Creek</label>
+    </customValue>
+    <customValue>
+        <fullName>Beam Suntory Corporate - Laphroaig</fullName>
+        <default>false</default>
+        <label>Beam Suntory Corporate - Laphroaig</label>
+    </customValue>
+    <customValue>
+        <fullName>Beam Suntory Corporate - Legent</fullName>
+        <default>false</default>
+        <label>Beam Suntory Corporate - Legent</label>
+    </customValue>
+    <customValue>
+        <fullName>Beam Suntory Corporate - Makers Mark</fullName>
+        <default>false</default>
+        <label>Beam Suntory Corporate - Makers Mark</label>
+    </customValue>
+    <customValue>
+        <fullName>Beam Suntory Corporate - McClelland&apos;s</fullName>
+        <default>false</default>
+        <label>Beam Suntory Corporate - McClelland&apos;s</label>
+    </customValue>
+    <customValue>
+        <fullName>Beam Suntory Corporate - Midori</fullName>
+        <default>false</default>
+        <label>Beam Suntory Corporate - Midori</label>
+    </customValue>
+    <customValue>
+        <fullName>Beam Suntory Corporate - Mozart</fullName>
+        <default>false</default>
+        <label>Beam Suntory Corporate - Mozart</label>
+    </customValue>
+    <customValue>
+        <fullName>Beam Suntory Corporate - Old Crow</fullName>
+        <default>false</default>
+        <label>Beam Suntory Corporate - Old Crow</label>
+    </customValue>
+    <customValue>
+        <fullName>Beam Suntory Corporate - Old Grand Dad</fullName>
+        <default>false</default>
+        <label>Beam Suntory Corporate - Old Grand Dad</label>
+    </customValue>
+    <customValue>
+        <fullName>Beam Suntory Corporate - Old Overholt</fullName>
+        <default>false</default>
+        <label>Beam Suntory Corporate - Old Overholt</label>
+    </customValue>
+    <customValue>
+        <fullName>Beam Suntory Corporate - Pavan Liqueurs</fullName>
+        <default>false</default>
+        <label>Beam Suntory Corporate - Pavan Liqueurs</label>
+    </customValue>
+    <customValue>
+        <fullName>Beam Suntory Corporate - Pinnacle Vodka</fullName>
+        <default>false</default>
+        <label>Beam Suntory Corporate - Pinnacle Vodka</label>
+    </customValue>
+    <customValue>
+        <fullName>Beam Suntory Corporate - Pucker Vodka</fullName>
+        <default>false</default>
+        <label>Beam Suntory Corporate - Pucker Vodka</label>
+    </customValue>
+    <customValue>
+        <fullName>Beam Suntory Corporate - Roku Gin</fullName>
+        <default>false</default>
+        <label>Beam Suntory Corporate - Roku Gin</label>
+    </customValue>
+    <customValue>
+        <fullName>Beam Suntory Corporate - Sauza</fullName>
+        <default>false</default>
+        <label>Beam Suntory Corporate - Sauza</label>
+    </customValue>
+    <customValue>
+        <fullName>Beam Suntory Corporate - Sipsmith</fullName>
+        <default>false</default>
+        <label>Beam Suntory Corporate - Sipsmith</label>
+    </customValue>
+    <customValue>
+        <fullName>Beam Suntory Corporate - Skinnygirl</fullName>
+        <default>false</default>
+        <label>Beam Suntory Corporate - Skinnygirl</label>
+    </customValue>
+    <customValue>
+        <fullName>Beam Suntory Corporate - Teachers</fullName>
+        <default>false</default>
+        <label>Beam Suntory Corporate - Teachers</label>
+    </customValue>
+    <customValue>
+        <fullName>Beam Suntory Corporate - Toki</fullName>
+        <default>false</default>
+        <label>Beam Suntory Corporate - Toki</label>
+    </customValue>
+    <customValue>
+        <fullName>Beam Suntory Corporate - Tres Generaciones</fullName>
+        <default>false</default>
+        <label>Beam Suntory Corporate - Tres Generaciones</label>
+    </customValue>
+    <customValue>
+        <fullName>Beam Suntory Corporate - Vox</fullName>
+        <default>false</default>
+        <label>Beam Suntory Corporate - Vox</label>
+    </customValue>
+    <customValue>
+        <fullName>Beam Suntory Corporate - Windsor Canadian</fullName>
+        <default>false</default>
+        <label>Beam Suntory Corporate - Windsor Canadian</label>
+    </customValue>
+    <customValue>
+        <fullName>Beam Suntory Corporate - Yamazaki Whisky</fullName>
+        <default>false</default>
+        <label>Beam Suntory Corporate - Yamazaki Whisky</label>
+    </customValue>
+    <customValue>
+        <fullName>Beam Suntory Corporate - Other product</fullName>
+        <default>false</default>
+        <label>Beam Suntory Corporate - Other product</label>
+    </customValue>
+    <customValue>
+        <fullName>Haku Vodka</fullName>
+        <default>false</default>
+        <label>Haku Vodka</label>
+    </customValue>
+    <customValue>
+        <fullName>Roku Gin</fullName>
+        <default>false</default>
+        <label>Roku Gin</label>
+    </customValue>
+    <customValue>
+        <fullName>Hibiki Whisky 12YO</fullName>
+        <default>false</default>
+        <label>Hibiki Whisky 12YO</label>
+    </customValue>
+    <customValue>
+        <fullName>Hibiki Whisky 17YO</fullName>
+        <default>false</default>
+        <label>Hibiki Whisky 17YO</label>
+    </customValue>
+    <customValue>
+        <fullName>Hibiki Whisky 21YO</fullName>
+        <default>false</default>
+        <label>Hibiki Whisky 21YO</label>
+    </customValue>
+    <customValue>
+        <fullName>Hibiki Whisky 30YO</fullName>
+        <default>false</default>
+        <label>Hibiki Whisky 30YO</label>
+    </customValue>
+    <customValue>
+        <fullName>Hibiki Whisky 35YO</fullName>
+        <default>false</default>
+        <label>Hibiki Whisky 35YO</label>
+    </customValue>
+    <customValue>
+        <fullName>Hibiki Harmony Whisky</fullName>
+        <default>false</default>
+        <label>Hibiki Harmony Whisky</label>
+    </customValue>
+    <customValue>
+        <fullName>Yamazaki Whisky 12YO</fullName>
+        <default>false</default>
+        <label>Yamazaki Whisky 12YO</label>
+    </customValue>
+    <customValue>
+        <fullName>Yamazaki Whisky 18YO</fullName>
+        <default>false</default>
+        <label>Yamazaki Whisky 18YO</label>
+    </customValue>
+    <customValue>
+        <fullName>Yamazaki Whisky 25YO</fullName>
+        <default>false</default>
+        <label>Yamazaki Whisky 25YO</label>
+    </customValue>
+    <customValue>
+        <fullName>Yamazaki Whisky 50YO</fullName>
+        <default>false</default>
+        <label>Yamazaki Whisky 50YO</label>
+    </customValue>
+    <customValue>
+        <fullName>Yamazaki Whisky Distillers Reserve</fullName>
+        <default>false</default>
+        <label>Yamazaki Whisky Distillers Reserve</label>
+    </customValue>
+    <customValue>
+        <fullName>Hakushu The Essence of Suntory</fullName>
+        <default>false</default>
+        <label>Hakushu The Essence of Suntory</label>
+    </customValue>
+    <customValue>
+        <fullName>Hakushu Whisky 10YO</fullName>
+        <default>false</default>
+        <label>Hakushu Whisky 10YO</label>
+    </customValue>
+    <customValue>
+        <fullName>Hakushu Whisky 12YO</fullName>
+        <default>false</default>
+        <label>Hakushu Whisky 12YO</label>
+    </customValue>
+    <customValue>
+        <fullName>Hakushu Whisky 18YO</fullName>
+        <default>false</default>
+        <label>Hakushu Whisky 18YO</label>
+    </customValue>
+    <customValue>
+        <fullName>Hakushu Whisky 25YO</fullName>
+        <default>false</default>
+        <label>Hakushu Whisky 25YO</label>
+    </customValue>
+    <customValue>
+        <fullName>Hakushu Whisky Heavily Peated</fullName>
+        <default>false</default>
+        <label>Hakushu Whisky Heavily Peated</label>
+    </customValue>
+    <customValue>
+        <fullName>Hakushu Whisky Distillers Reserve</fullName>
+        <default>false</default>
+        <label>Hakushu Whisky Distillers Reserve</label>
+    </customValue>
+    <customValue>
+        <fullName>Connemara Peated Single Malt</fullName>
+        <default>false</default>
+        <label>Connemara Peated Single Malt</label>
+    </customValue>
+    <customValue>
+        <fullName>Connemara Cask Strength</fullName>
+        <default>false</default>
+        <label>Connemara Cask Strength</label>
+    </customValue>
+    <customValue>
+        <fullName>Connemara 12</fullName>
+        <default>false</default>
+        <label>Connemara 12</label>
+    </customValue>
+    <customValue>
+        <fullName>Connemara Single Cask</fullName>
+        <default>false</default>
+        <label>Connemara Single Cask</label>
+    </customValue>
+    <customValue>
+        <fullName>Connemara Turf Mòr</fullName>
+        <default>false</default>
+        <label>Connemara Turf Mòr</label>
+    </customValue>
+    <customValue>
+        <fullName>Toki</fullName>
+        <default>false</default>
+        <label>Toki</label>
+    </customValue>
+    <customValue>
+        <fullName>Legent</fullName>
+        <default>false</default>
+        <label>Legent</label>
+    </customValue>
+    <customValue>
+        <fullName>Little Book</fullName>
+        <default>false</default>
+        <label>Little Book</label>
+    </customValue>
+    <customValue>
+        <fullName>Distillers Masterpiece</fullName>
+        <default>false</default>
+        <label>Distillers Masterpiece</label>
+    </customValue>
+    <customValue>
+        <fullName>Flavored Kentucky Fire</fullName>
+        <default>false</default>
+        <label>Flavored Kentucky Fire</label>
+    </customValue>
+    <customValue>
+        <fullName>Peach</fullName>
+        <default>false</default>
+        <label>Peach</label>
+    </customValue>
+    <customValue>
+        <fullName>Red Stag Apple Cider</fullName>
+        <default>false</default>
+        <label>Red Stag Apple Cider</label>
+    </customValue>
+    <customValue>
+        <fullName>Red Stag Cinnamon</fullName>
+        <default>false</default>
+        <label>Red Stag Cinnamon</label>
+    </customValue>
+    <customValue>
+        <fullName>Red Stag Honey Tea</fullName>
+        <default>false</default>
+        <label>Red Stag Honey Tea</label>
+    </customValue>
+    <customValue>
+        <fullName>Repeal Batch</fullName>
+        <default>false</default>
+        <label>Repeal Batch</label>
+    </customValue>
+    <customValue>
+        <fullName>Signature Craft Harvest Barley</fullName>
+        <default>false</default>
+        <label>Signature Craft Harvest Barley</label>
+    </customValue>
+    <customValue>
+        <fullName>Signature Craft Harvest Brown Rice</fullName>
+        <default>false</default>
+        <label>Signature Craft Harvest Brown Rice</label>
+    </customValue>
+    <customValue>
+        <fullName>Signature Craft Harvest TRITI</fullName>
+        <default>false</default>
+        <label>Signature Craft Harvest TRITI</label>
+    </customValue>
+    <customValue>
+        <fullName>Signature Craft Quarter Cask</fullName>
+        <default>false</default>
+        <label>Signature Craft Quarter Cask</label>
+    </customValue>
+    <customValue>
+        <fullName>White RTD Cola</fullName>
+        <default>false</default>
+        <label>White RTD Cola</label>
+    </customValue>
+    <customValue>
+        <fullName>White RTD Dry</fullName>
+        <default>false</default>
+        <label>White RTD Dry</label>
+    </customValue>
+    <customValue>
+        <fullName>White RTD Ginger</fullName>
+        <default>false</default>
+        <label>White RTD Ginger</label>
+    </customValue>
+    <customValue>
+        <fullName>PX</fullName>
+        <default>false</default>
+        <label>PX</label>
+    </customValue>
+    <customValue>
+        <fullName>CASK STRENGTH RYE</fullName>
+        <default>false</default>
+        <label>CASK STRENGTH RYE</label>
+    </customValue>
+    <customValue>
+        <fullName>SMOKED MAPLE</fullName>
+        <default>false</default>
+        <label>SMOKED MAPLE</label>
+    </customValue>
+    <customValue>
+        <fullName>TWICE BARRELED RYE</fullName>
+        <default>false</default>
+        <label>TWICE BARRELED RYE</label>
+    </customValue>
+    <customValue>
+        <fullName>PLATA</fullName>
+        <default>false</default>
+        <label>PLATA</label>
+    </customValue>
+    <customValue>
+        <fullName>CRISTALINO</fullName>
+        <default>false</default>
+        <label>CRISTALINO</label>
+    </customValue>
+    <customValue>
+        <fullName>SPICED HONEY</fullName>
+        <default>false</default>
+        <label>SPICED HONEY</label>
+    </customValue>
+    <customValue>
+        <fullName>AMARETTO</fullName>
+        <default>false</default>
+        <label>AMARETTO</label>
+    </customValue>
+    <customValue>
+        <fullName>APPLE BARREL</fullName>
+        <default>false</default>
+        <label>APPLE BARREL</label>
+    </customValue>
+    <customValue>
+        <fullName>APRICOT BRANDY</fullName>
+        <default>false</default>
+        <label>APRICOT BRANDY</label>
+    </customValue>
+    <customValue>
+        <fullName>BLACKBERRY BRANDY</fullName>
+        <default>false</default>
+        <label>BLACKBERRY BRANDY</label>
+    </customValue>
+    <customValue>
+        <fullName>CHERRY BRANDY</fullName>
+        <default>false</default>
+        <label>CHERRY BRANDY</label>
+    </customValue>
+    <customValue>
+        <fullName>COFFEE BRANDY</fullName>
+        <default>false</default>
+        <label>COFFEE BRANDY</label>
+    </customValue>
+    <customValue>
+        <fullName>GINGER BRANDY</fullName>
+        <default>false</default>
+        <label>GINGER BRANDY</label>
+    </customValue>
+    <customValue>
+        <fullName>CHOCOLATE CHERRY</fullName>
+        <default>false</default>
+        <label>CHOCOLATE CHERRY</label>
+    </customValue>
+    <customValue>
+        <fullName>CHOCOLATE CHILI</fullName>
+        <default>false</default>
+        <label>CHOCOLATE CHILI</label>
+    </customValue>
+    <customValue>
+        <fullName>CHOCOLATE PEPPERMINT</fullName>
+        <default>false</default>
+        <label>CHOCOLATE PEPPERMINT</label>
+    </customValue>
+    <customValue>
+        <fullName>CHOCOLATE TRUFFLE</fullName>
+        <default>false</default>
+        <label>CHOCOLATE TRUFFLE</label>
+    </customValue>
+    <customValue>
+        <fullName>PEACH BRANDY</fullName>
+        <default>false</default>
+        <label>PEACH BRANDY</label>
+    </customValue>
+    <customValue>
+        <fullName>ANISETTE</fullName>
+        <default>false</default>
+        <label>ANISETTE</label>
+    </customValue>
+    <customValue>
+        <fullName>BANANA</fullName>
+        <default>false</default>
+        <label>BANANA</label>
+    </customValue>
+    <customValue>
+        <fullName>BLUE CURACAO</fullName>
+        <default>false</default>
+        <label>BLUE CURACAO</label>
+    </customValue>
+    <customValue>
+        <fullName>COFFEE / ESPRESSO</fullName>
+        <default>false</default>
+        <label>COFFEE / ESPRESSO</label>
+    </customValue>
+    <customValue>
+        <fullName>CREME DE ALMOND</fullName>
+        <default>false</default>
+        <label>CREME DE ALMOND</label>
+    </customValue>
+    <customValue>
+        <fullName>CREME DE BANANA</fullName>
+        <default>false</default>
+        <label>CREME DE BANANA</label>
+    </customValue>
+    <customValue>
+        <fullName>CREME DE CACAO DARK</fullName>
+        <default>false</default>
+        <label>CREME DE CACAO DARK</label>
+    </customValue>
+    <customValue>
+        <fullName>CREME DE CACAO WHITE</fullName>
+        <default>false</default>
+        <label>CREME DE CACAO WHITE</label>
+    </customValue>
+    <customValue>
+        <fullName>CREME DE CASSIS</fullName>
+        <default>false</default>
+        <label>CREME DE CASSIS</label>
+    </customValue>
+    <customValue>
+        <fullName>CREME DE MENTHE GREEN</fullName>
+        <default>false</default>
+        <label>CREME DE MENTHE GREEN</label>
+    </customValue>
+    <customValue>
+        <fullName>CREME DE MENTHE WHITE</fullName>
+        <default>false</default>
+        <label>CREME DE MENTHE WHITE</label>
+    </customValue>
+    <customValue>
+        <fullName>ORANGE CURACAO</fullName>
+        <default>false</default>
+        <label>ORANGE CURACAO</label>
+    </customValue>
+    <customValue>
+        <fullName>SLOE GIN</fullName>
+        <default>false</default>
+        <label>SLOE GIN</label>
+    </customValue>
+    <customValue>
+        <fullName>ELDERFLOWER</fullName>
+        <default>false</default>
+        <label>ELDERFLOWER</label>
+    </customValue>
+    <customValue>
+        <fullName>HOT DAMN</fullName>
+        <default>false</default>
+        <label>HOT DAMN</label>
+    </customValue>
+    <customValue>
+        <fullName>KIRSCHWASSER</fullName>
+        <default>false</default>
+        <label>KIRSCHWASSER</label>
+    </customValue>
+    <customValue>
+        <fullName>PEPPERMINT</fullName>
+        <default>false</default>
+        <label>PEPPERMINT</label>
+    </customValue>
+    <customValue>
+        <fullName>BERRY BLIZZARD</fullName>
+        <default>false</default>
+        <label>BERRY BLIZZARD</label>
+    </customValue>
+    <customValue>
+        <fullName>TROPICAL FREEZE</fullName>
+        <default>false</default>
+        <label>TROPICAL FREEZE</label>
+    </customValue>
+    <customValue>
+        <fullName>JDK &amp; SONS ROUGE</fullName>
+        <default>false</default>
+        <label>JDK &amp; SONS ROUGE</label>
+    </customValue>
+    <customValue>
+        <fullName>O3 PREMIUM ORANGE</fullName>
+        <default>false</default>
+        <label>O3 PREMIUM ORANGE</label>
+    </customValue>
+    <customValue>
+        <fullName>PECHE WHITE PEACH</fullName>
+        <default>false</default>
+        <label>PECHE WHITE PEACH</label>
+    </customValue>
+    <customValue>
+        <fullName>MIXOLOGIST COLLECTION BASIL</fullName>
+        <default>false</default>
+        <label>MIXOLOGIST COLLECTION BASIL</label>
+    </customValue>
+    <customValue>
+        <fullName>MIXOLOGIST COLLECTION BLOOD ORANGE</fullName>
+        <default>false</default>
+        <label>MIXOLOGIST COLLECTION BLOOD ORANGE</label>
+    </customValue>
+    <customValue>
+        <fullName>MIXOLOGIST COLLECTION CUCUMBER</fullName>
+        <default>false</default>
+        <label>MIXOLOGIST COLLECTION CUCUMBER</label>
+    </customValue>
+    <customValue>
+        <fullName>MIXOLOGIST COLLECTION GINGER</fullName>
+        <default>false</default>
+        <label>MIXOLOGIST COLLECTION GINGER</label>
+    </customValue>
+    <customValue>
+        <fullName>MIXOLOGIST COLLECTION MUDDLED MINT</fullName>
+        <default>false</default>
+        <label>MIXOLOGIST COLLECTION MUDDLED MINT</label>
+    </customValue>
+    <customValue>
+        <fullName>BERRY FUSION</fullName>
+        <default>false</default>
+        <label>BERRY FUSION</label>
+    </customValue>
+    <customValue>
+        <fullName>CHERI BERI</fullName>
+        <default>false</default>
+        <label>CHERI BERI</label>
+    </customValue>
+    <customValue>
+        <fullName>GRAPE / WHITE GRAPE</fullName>
+        <default>false</default>
+        <label>GRAPE / WHITE GRAPE</label>
+    </customValue>
+    <customValue>
+        <fullName>ISLAND PUNCH</fullName>
+        <default>false</default>
+        <label>ISLAND PUNCH</label>
+    </customValue>
+    <customValue>
+        <fullName>SOUR APPLE</fullName>
+        <default>false</default>
+        <label>SOUR APPLE</label>
+    </customValue>
+    <customValue>
+        <fullName>STRAWBERRY PASSION</fullName>
+        <default>false</default>
+        <label>STRAWBERRY PASSION</label>
+    </customValue>
+    <customValue>
+        <fullName>STRAWBERRY</fullName>
+        <default>false</default>
+        <label>STRAWBERRY</label>
+    </customValue>
+    <customValue>
+        <fullName>WATERMELON</fullName>
+        <default>false</default>
+        <label>WATERMELON</label>
+    </customValue>
+    <customValue>
+        <fullName>ALABAMA SLAMMER</fullName>
+        <default>false</default>
+        <label>ALABAMA SLAMMER</label>
+    </customValue>
+    <customValue>
+        <fullName>BLUEBERRY</fullName>
+        <default>false</default>
+        <label>BLUEBERRY</label>
+    </customValue>
+    <customValue>
+        <fullName>BUTTERSHOTS</fullName>
+        <default>false</default>
+        <label>BUTTERSHOTS</label>
+    </customValue>
+    <customValue>
+        <fullName>CACTUS JUICE</fullName>
+        <default>false</default>
+        <label>CACTUS JUICE</label>
+    </customValue>
+    <customValue>
+        <fullName>CINNAMON</fullName>
+        <default>false</default>
+        <label>CINNAMON</label>
+    </customValue>
+    <customValue>
+        <fullName>CRANBERRY</fullName>
+        <default>false</default>
+        <label>CRANBERRY</label>
+    </customValue>
+    <customValue>
+        <fullName>HAZELNUT</fullName>
+        <default>false</default>
+        <label>HAZELNUT</label>
+    </customValue>
+    <customValue>
+        <fullName>KAMIKAZE</fullName>
+        <default>false</default>
+        <label>KAMIKAZE</label>
+    </customValue>
+    <customValue>
+        <fullName>KEY LARGO</fullName>
+        <default>false</default>
+        <label>KEY LARGO</label>
+    </customValue>
+    <customValue>
+        <fullName>LEMON DROP</fullName>
+        <default>false</default>
+        <label>LEMON DROP</label>
+    </customValue>
+    <customValue>
+        <fullName>MAD MELON</fullName>
+        <default>false</default>
+        <label>MAD MELON</label>
+    </customValue>
+    <customValue>
+        <fullName>MELON</fullName>
+        <default>false</default>
+        <label>MELON</label>
+    </customValue>
+    <customValue>
+        <fullName>MICHIGAN CHERRY</fullName>
+        <default>false</default>
+        <label>MICHIGAN CHERRY</label>
+    </customValue>
+    <customValue>
+        <fullName>MINT</fullName>
+        <default>false</default>
+        <label>MINT</label>
+    </customValue>
+    <customValue>
+        <fullName>MOUNTAIN STRAWBERRY</fullName>
+        <default>false</default>
+        <label>MOUNTAIN STRAWBERRY</label>
+    </customValue>
+    <customValue>
+        <fullName>PEACHTREE</fullName>
+        <default>false</default>
+        <label>PEACHTREE</label>
+    </customValue>
+    <customValue>
+        <fullName>POMEGRANATE</fullName>
+        <default>false</default>
+        <label>POMEGRANATE</label>
+    </customValue>
+    <customValue>
+        <fullName>RED APPLE</fullName>
+        <default>false</default>
+        <label>RED APPLE</label>
+    </customValue>
+    <customValue>
+        <fullName>RED HEADED</fullName>
+        <default>false</default>
+        <label>RED HEADED</label>
+    </customValue>
+    <customValue>
+        <fullName>ROOT BEER</fullName>
+        <default>false</default>
+        <label>ROOT BEER</label>
+    </customValue>
+    <customValue>
+        <fullName>SEX ON THE BEACH</fullName>
+        <default>false</default>
+        <label>SEX ON THE BEACH</label>
+    </customValue>
+    <customValue>
+        <fullName>SPEARMINT</fullName>
+        <default>false</default>
+        <label>SPEARMINT</label>
+    </customValue>
+    <customValue>
+        <fullName>STRAWBERRY PATCH</fullName>
+        <default>false</default>
+        <label>STRAWBERRY PATCH</label>
+    </customValue>
+    <customValue>
+        <fullName>SUMMER</fullName>
+        <default>false</default>
+        <label>SUMMER</label>
+    </customValue>
+    <customValue>
+        <fullName>TROPICAL COCONUT</fullName>
+        <default>false</default>
+        <label>TROPICAL COCONUT</label>
+    </customValue>
+    <customValue>
+        <fullName>TROPICAL MANGO</fullName>
+        <default>false</default>
+        <label>TROPICAL MANGO</label>
+    </customValue>
+    <customValue>
+        <fullName>TROPICAL PAPYA</fullName>
+        <default>false</default>
+        <label>TROPICAL PAPYA</label>
+    </customValue>
+    <customValue>
+        <fullName>TROPICAL PINEAPPLE</fullName>
+        <default>false</default>
+        <label>TROPICAL PINEAPPLE</label>
+    </customValue>
+    <customValue>
+        <fullName>TROPICAL PINEAPPLE COCONUT</fullName>
+        <default>false</default>
+        <label>TROPICAL PINEAPPLE COCONUT</label>
+    </customValue>
+    <customValue>
+        <fullName>RAZZMATAZZ</fullName>
+        <default>false</default>
+        <label>RAZZMATAZZ</label>
+    </customValue>
+    <customValue>
+        <fullName>MIXED BERRY</fullName>
+        <default>false</default>
+        <label>MIXED BERRY</label>
+    </customValue>
+    <customValue>
+        <fullName>TROPICAL PUNCH</fullName>
+        <default>false</default>
+        <label>TROPICAL PUNCH</label>
+    </customValue>
+    <customValue>
+        <fullName>WASHINGTON APPLE</fullName>
+        <default>false</default>
+        <label>WASHINGTON APPLE</label>
+    </customValue>
+    <customValue>
+        <fullName>WATERMELON SQUEEZE</fullName>
+        <default>false</default>
+        <label>WATERMELON SQUEEZE</label>
+    </customValue>
+    <customValue>
+        <fullName>AGED DARK</fullName>
+        <default>false</default>
+        <label>AGED DARK</label>
+    </customValue>
+    <customValue>
+        <fullName>CREAM</fullName>
+        <default>false</default>
+        <label>CREAM</label>
+    </customValue>
+    <customValue>
+        <fullName>HURRICANE</fullName>
+        <default>false</default>
+        <label>HURRICANE</label>
+    </customValue>
+    <customValue>
+        <fullName>MOJITO</fullName>
+        <default>false</default>
+        <label>MOJITO</label>
+    </customValue>
+    <customValue>
+        <fullName>COCONUT</fullName>
+        <default>false</default>
+        <label>COCONUT</label>
+    </customValue>
+    <customValue>
+        <fullName>GUAVA</fullName>
+        <default>false</default>
+        <label>GUAVA</label>
+    </customValue>
+    <customValue>
+        <fullName>KEY LIME</fullName>
+        <default>false</default>
+        <label>KEY LIME</label>
+    </customValue>
+    <customValue>
+        <fullName>ORANGE MANDARIN</fullName>
+        <default>false</default>
+        <label>ORANGE MANDARIN</label>
+    </customValue>
+    <customValue>
+        <fullName>PASSION FRUIT</fullName>
+        <default>false</default>
+        <label>PASSION FRUIT</label>
+    </customValue>
+    <customValue>
+        <fullName>PINEAPPLE</fullName>
+        <default>false</default>
+        <label>PINEAPPLE</label>
+    </customValue>
+    <customValue>
+        <fullName>TROPICAL FRUIT</fullName>
+        <default>false</default>
+        <label>TROPICAL FRUIT</label>
+    </customValue>
+    <customValue>
+        <fullName>VELVET CINN</fullName>
+        <default>false</default>
+        <label>VELVET CINN</label>
+    </customValue>
+    <customValue>
+        <fullName>5 YEAR</fullName>
+        <default>false</default>
+        <label>5 YEAR</label>
+    </customValue>
+    <customValue>
+        <fullName>6 YEAR</fullName>
+        <default>false</default>
+        <label>6 YEAR</label>
+    </customValue>
+    <customValue>
+        <fullName>20 YEAR</fullName>
+        <default>false</default>
+        <label>20 YEAR</label>
+    </customValue>
+    <customValue>
+        <fullName>BLACK 8YO</fullName>
+        <default>false</default>
+        <label>BLACK 8YO</label>
+    </customValue>
+    <customValue>
+        <fullName>BLACKBERRY</fullName>
+        <default>false</default>
+        <label>BLACKBERRY</label>
+    </customValue>
+    <customValue>
+        <fullName>ORIGINAL RTD COLA</fullName>
+        <default>false</default>
+        <label>ORIGINAL RTD COLA</label>
+    </customValue>
+    <customValue>
+        <fullName>ORIGINAL RTD DRY</fullName>
+        <default>false</default>
+        <label>ORIGINAL RTD DRY</label>
+    </customValue>
+    <customValue>
+        <fullName>ORIGINAL RTD GINGER</fullName>
+        <default>false</default>
+        <label>ORIGINAL RTD GINGER</label>
+    </customValue>
+    <customValue>
+        <fullName>PREMIUM 1858</fullName>
+        <default>false</default>
+        <label>PREMIUM 1858</label>
+    </customValue>
+    <customValue>
+        <fullName>PREMIUM RTD COLA</fullName>
+        <default>false</default>
+        <label>PREMIUM RTD COLA</label>
+    </customValue>
+    <customValue>
+        <fullName>PREMIUM RTD DRY</fullName>
+        <default>false</default>
+        <label>PREMIUM RTD DRY</label>
+    </customValue>
+    <customValue>
+        <fullName>100% RYE</fullName>
+        <default>false</default>
+        <label>100% RYE</label>
+    </customValue>
+    <customValue>
+        <fullName>SPICED DOCK 57</fullName>
+        <default>false</default>
+        <label>SPICED DOCK 57</label>
+    </customValue>
+    <customValue>
+        <fullName>DOCK 57 BLACKBERRY</fullName>
+        <default>false</default>
+        <label>DOCK 57 BLACKBERRY</label>
+    </customValue>
+    <customValue>
+        <fullName>CHRONICLES 41 YEAR</fullName>
+        <default>false</default>
+        <label>CHRONICLES 41 YEAR</label>
+    </customValue>
+    <customValue>
+        <fullName>AGUA FUERTE GRAPEFRUIT</fullName>
+        <default>false</default>
+        <label>AGUA FUERTE GRAPEFRUIT</label>
+    </customValue>
+    <customValue>
+        <fullName>AGUA FUERTE LIME</fullName>
+        <default>false</default>
+        <label>AGUA FUERTE LIME</label>
+    </customValue>
+    <customValue>
+        <fullName>AGUA FUERTE MANGO</fullName>
+        <default>false</default>
+        <label>AGUA FUERTE MANGO</label>
+    </customValue>
+    <customValue>
+        <fullName>CONMEMORATIVO</fullName>
+        <default>false</default>
+        <label>CONMEMORATIVO</label>
+    </customValue>
+    <customValue>
+        <fullName>SPARKLING MARGARITA MANGO PEACH</fullName>
+        <default>false</default>
+        <label>SPARKLING MARGARITA MANGO PEACH</label>
+    </customValue>
+    <customValue>
+        <fullName>SPARKLING MARGARITA ORIGINAL LIME</fullName>
+        <default>false</default>
+        <label>SPARKLING MARGARITA ORIGINAL LIME</label>
+    </customValue>
+    <customValue>
+        <fullName>SPARKLING MARGARITA WATERMELON</fullName>
+        <default>false</default>
+        <label>SPARKLING MARGARITA WATERMELON</label>
+    </customValue>
+    <customValue>
+        <fullName>SPARKLING MARGARITA WILD BERRY</fullName>
+        <default>false</default>
+        <label>SPARKLING MARGARITA WILD BERRY</label>
+    </customValue>
+    <customValue>
+        <fullName>SPECIAL RESERVE</fullName>
+        <default>false</default>
+        <label>SPECIAL RESERVE</label>
+    </customValue>
+    <customValue>
+        <fullName>COSMOPOLITAN WHITE CRANBERRY</fullName>
+        <default>false</default>
+        <label>COSMOPOLITAN WHITE CRANBERRY</label>
+    </customValue>
+    <customValue>
+        <fullName>MARGARITA GRAPEFRUIT</fullName>
+        <default>false</default>
+        <label>MARGARITA GRAPEFRUIT</label>
+    </customValue>
+    <customValue>
+        <fullName>MARGARITA SPARKLING LIME</fullName>
+        <default>false</default>
+        <label>MARGARITA SPARKLING LIME</label>
+    </customValue>
+    <customValue>
+        <fullName>MARGARITA SWEETARITA</fullName>
+        <default>false</default>
+        <label>MARGARITA SWEETARITA</label>
+    </customValue>
+    <customValue>
+        <fullName>MARGARITA WHITE PEACH</fullName>
+        <default>false</default>
+        <label>MARGARITA WHITE PEACH</label>
+    </customValue>
+    <customValue>
+        <fullName>MARGARITA</fullName>
+        <default>false</default>
+        <label>MARGARITA</label>
+    </customValue>
+    <customValue>
+        <fullName>PINA COLADA</fullName>
+        <default>false</default>
+        <label>PINA COLADA</label>
+    </customValue>
+    <customValue>
+        <fullName>SANGRIA</fullName>
+        <default>false</default>
+        <label>SANGRIA</label>
+    </customValue>
+    <customValue>
+        <fullName>BARENAKED</fullName>
+        <default>false</default>
+        <label>BARENAKED</label>
+    </customValue>
+    <customValue>
+        <fullName>ISLAND COCONUT</fullName>
+        <default>false</default>
+        <label>ISLAND COCONUT</label>
+    </customValue>
+    <customValue>
+        <fullName>LEMON</fullName>
+        <default>false</default>
+        <label>LEMON</label>
+    </customValue>
+    <customValue>
+        <fullName>TANGERINE</fullName>
+        <default>false</default>
+        <label>TANGERINE</label>
+    </customValue>
+    <customValue>
+        <fullName>WHITE CHERRY</fullName>
+        <default>false</default>
+        <label>WHITE CHERRY</label>
+    </customValue>
+    <customValue>
+        <fullName>RED BLEND</fullName>
+        <default>false</default>
+        <label>RED BLEND</label>
+    </customValue>
+    <customValue>
+        <fullName>CABERNET SAVIGNON</fullName>
+        <default>false</default>
+        <label>CABERNET SAVIGNON</label>
+    </customValue>
+    <customValue>
+        <fullName>SPARKLING PROSECCO</fullName>
+        <default>false</default>
+        <label>SPARKLING PROSECCO</label>
+    </customValue>
+    <customValue>
+        <fullName>WHITE BLEND</fullName>
+        <default>false</default>
+        <label>WHITE BLEND</label>
+    </customValue>
+    <customValue>
+        <fullName>KILBEGGAN</fullName>
+        <default>false</default>
+        <label>KILBEGGAN</label>
+    </customValue>
+    <customValue>
+        <fullName>18 YEAR IRISH WHISKEY</fullName>
+        <default>false</default>
+        <label>18 YEAR IRISH WHISKEY</label>
+    </customValue>
+    <customValue>
+        <fullName>YUZU CITRUS</fullName>
+        <default>false</default>
+        <label>YUZU CITRUS</label>
+    </customValue>
+    <customValue>
+        <fullName>FLAVORED BLACK CHERRY</fullName>
+        <default>false</default>
+        <label>FLAVORED BLACK CHERRY</label>
+    </customValue>
+    <customValue>
+        <fullName>FLAVORED BLOOD ORANGE</fullName>
+        <default>false</default>
+        <label>FLAVORED BLOOD ORANGE</label>
+    </customValue>
+    <customValue>
+        <fullName>FLAVORED CUCUMBER</fullName>
+        <default>false</default>
+        <label>FLAVORED CUCUMBER</label>
+    </customValue>
+    <customValue>
+        <fullName>FLAVORED RASPBERRY</fullName>
+        <default>false</default>
+        <label>FLAVORED RASPBERRY</label>
+    </customValue>
+    <customValue>
+        <fullName>CUCUMBER WITH TAJIN SEASONING</fullName>
+        <default>false</default>
+        <label>CUCUMBER WITH TAJIN SEASONING</label>
+    </customValue>
+    <customValue>
+        <fullName>CARIBBEAN RESERVE RYE</fullName>
+        <default>false</default>
+        <label>CARIBBEAN RESERVE RYE</label>
+    </customValue>
+    <customValue>
+        <fullName>TWO BY TWO</fullName>
+        <default>false</default>
+        <label>TWO BY TWO</label>
+    </customValue>
+    <customValue>
+        <fullName>REPOSADO TEQUILA</fullName>
+        <default>false</default>
+        <label>REPOSADO TEQUILA</label>
+    </customValue>
+    <customValue>
+        <fullName>ANEJO TEQUILA</fullName>
+        <default>false</default>
+        <label>ANEJO TEQUILA</label>
+    </customValue>
+    <customValue>
+        <fullName>SINGLE BARREL REPOSADO TEQUILA</fullName>
+        <default>false</default>
+        <label>SINGLE BARREL REPOSADO TEQUILA</label>
+    </customValue>
+    <customValue>
+        <fullName>BLANCO TEQUILA</fullName>
+        <default>false</default>
+        <label>BLANCO TEQUILA</label>
+    </customValue>
+    <customValue>
+        <fullName>PLATINUM</fullName>
+        <default>false</default>
+        <label>PLATINUM</label>
+    </customValue>
+    <customValue>
+        <fullName>CAKE</fullName>
+        <default>false</default>
+        <label>CAKE</label>
+    </customValue>
+    <customValue>
+        <fullName>CHOCOLATE COCONUT</fullName>
+        <default>false</default>
+        <label>CHOCOLATE COCONUT</label>
+    </customValue>
+    <customValue>
+        <fullName>WHITE GRAPE</fullName>
+        <default>false</default>
+        <label>WHITE GRAPE</label>
+    </customValue>
+    <customValue>
+        <fullName>KEY LIME PIE</fullName>
+        <default>false</default>
+        <label>KEY LIME PIE</label>
+    </customValue>
+    <customValue>
+        <fullName>WHIPPED CREAM</fullName>
+        <default>false</default>
+        <label>WHIPPED CREAM</label>
+    </customValue>
+    <customValue>
+        <fullName>94 PROOF</fullName>
+        <default>false</default>
+        <label>94 PROOF</label>
+    </customValue>
+    <customValue>
+        <fullName>CHERRY SPICED</fullName>
+        <default>false</default>
+        <label>CHERRY SPICED</label>
+    </customValue>
+    <customValue>
+        <fullName>PREMIUM BLACK SPICED</fullName>
+        <default>false</default>
+        <label>PREMIUM BLACK SPICED</label>
+    </customValue>
+    <customValue>
+        <fullName>BURST</fullName>
+        <default>false</default>
+        <label>BURST</label>
+    </customValue>
+    <customValue>
+        <fullName>ILLUSION</fullName>
+        <default>false</default>
+        <label>ILLUSION</label>
+    </customValue>
+    <customValue>
+        <fullName>LEMONADE</fullName>
+        <default>false</default>
+        <label>LEMONADE</label>
+    </customValue>
+    <customValue>
+        <fullName>LENA BANANA LIQUEUR</fullName>
+        <default>false</default>
+        <label>LENA BANANA LIQUEUR</label>
+    </customValue>
+    <customValue>
+        <fullName>MELON LIQUEUR</fullName>
+        <default>false</default>
+        <label>MELON LIQUEUR</label>
+    </customValue>
+    <customValue>
+        <fullName>MOHALA MANGO LIQUEUR</fullName>
+        <default>false</default>
+        <label>MOHALA MANGO LIQUEUR</label>
+    </customValue>
+    <customValue>
+        <fullName>PUNCH</fullName>
+        <default>false</default>
+        <label>PUNCH</label>
+    </customValue>
+    <customValue>
+        <fullName>RUBIS STRAWBERRY LIQUEUR</fullName>
+        <default>false</default>
+        <label>RUBIS STRAWBERRY LIQUEUR</label>
+    </customValue>
+    <customValue>
+        <fullName>SPLICE</fullName>
+        <default>false</default>
+        <label>SPLICE</label>
+    </customValue>
+    <customValue>
+        <fullName>THE BLUE LIQUEUR</fullName>
+        <default>false</default>
+        <label>THE BLUE LIQUEUR</label>
+    </customValue>
+    <customValue>
+        <fullName>MADEIRA CASK FINISH</fullName>
+        <default>false</default>
+        <label>MADEIRA CASK FINISH</label>
+    </customValue>
+    <customValue>
+        <fullName>PORT CASK FINISH</fullName>
+        <default>false</default>
+        <label>PORT CASK FINISH</label>
+    </customValue>
+    <customValue>
+        <fullName>SHERRY CASK FINISH</fullName>
+        <default>false</default>
+        <label>SHERRY CASK FINISH</label>
+    </customValue>
+    <customValue>
+        <fullName>ATOMIC HOT</fullName>
+        <default>false</default>
+        <label>ATOMIC HOT</label>
+    </customValue>
+    <customValue>
+        <fullName>BERRY</fullName>
+        <default>false</default>
+        <label>BERRY</label>
+    </customValue>
+    <customValue>
+        <fullName>CARAMEL APPLE</fullName>
+        <default>false</default>
+        <label>CARAMEL APPLE</label>
+    </customValue>
+    <customValue>
+        <fullName>CHERRY LEMONADE</fullName>
+        <default>false</default>
+        <label>CHERRY LEMONADE</label>
+    </customValue>
+    <customValue>
+        <fullName>CINNABON</fullName>
+        <default>false</default>
+        <label>CINNABON</label>
+    </customValue>
+    <customValue>
+        <fullName>COOKIE DOUGH</fullName>
+        <default>false</default>
+        <label>COOKIE DOUGH</label>
+    </customValue>
+    <customValue>
+        <fullName>COUNTY FAIR COTTON</fullName>
+        <default>false</default>
+        <label>COUNTY FAIR COTTON</label>
+    </customValue>
+    <customValue>
+        <fullName>CRANAPPLE</fullName>
+        <default>false</default>
+        <label>CRANAPPLE</label>
+    </customValue>
+    <customValue>
+        <fullName>CUCUMBER WATERMELON</fullName>
+        <default>false</default>
+        <label>CUCUMBER WATERMELON</label>
+    </customValue>
+    <customValue>
+        <fullName>CHERRY</fullName>
+        <default>false</default>
+        <label>CHERRY</label>
+    </customValue>
+    <customValue>
+        <fullName>GRAPE</fullName>
+        <default>false</default>
+        <label>GRAPE</label>
+    </customValue>
+    <customValue>
+        <fullName>KING CAKE</fullName>
+        <default>false</default>
+        <label>KING CAKE</label>
+    </customValue>
+    <customValue>
+        <fullName>LE DOUBLE ESPRESSO</fullName>
+        <default>false</default>
+        <label>LE DOUBLE ESPRESSO</label>
+    </customValue>
+    <customValue>
+        <fullName>MARSHMALLOW</fullName>
+        <default>false</default>
+        <label>MARSHMALLOW</label>
+    </customValue>
+    <customValue>
+        <fullName>MIMOSA</fullName>
+        <default>false</default>
+        <label>MIMOSA</label>
+    </customValue>
+    <customValue>
+        <fullName>ORANGE</fullName>
+        <default>false</default>
+        <label>ORANGE</label>
+    </customValue>
+    <customValue>
+        <fullName>PEACHBERRY COBBLER</fullName>
+        <default>false</default>
+        <label>PEACHBERRY COBBLER</label>
+    </customValue>
+    <customValue>
+        <fullName>PEAR</fullName>
+        <default>false</default>
+        <label>PEAR</label>
+    </customValue>
+    <customValue>
+        <fullName>PECAN PIE</fullName>
+        <default>false</default>
+        <label>PECAN PIE</label>
+    </customValue>
+    <customValue>
+        <fullName>PEPPERMINT BARK</fullName>
+        <default>false</default>
+        <label>PEPPERMINT BARK</label>
+    </customValue>
+    <customValue>
+        <fullName>PUMKIN PIE</fullName>
+        <default>false</default>
+        <label>PUMKIN PIE</label>
+    </customValue>
+    <customValue>
+        <fullName>RAINBOW SHERBERT</fullName>
+        <default>false</default>
+        <label>RAINBOW SHERBERT</label>
+    </customValue>
+    <customValue>
+        <fullName>RED LIQUORICE</fullName>
+        <default>false</default>
+        <label>RED LIQUORICE</label>
+    </customValue>
+    <customValue>
+        <fullName>RUBY REDE GRAPEFRUIT</fullName>
+        <default>false</default>
+        <label>RUBY REDE GRAPEFRUIT</label>
+    </customValue>
+    <customValue>
+        <fullName>SALTED CARAMEL</fullName>
+        <default>false</default>
+        <label>SALTED CARAMEL</label>
+    </customValue>
+    <customValue>
+        <fullName>STRAWBERRY KIWI</fullName>
+        <default>false</default>
+        <label>STRAWBERRY KIWI</label>
+    </customValue>
+    <customValue>
+        <fullName>STRAWBERRY SHORTCAKE</fullName>
+        <default>false</default>
+        <label>STRAWBERRY SHORTCAKE</label>
+    </customValue>
+    <customValue>
+        <fullName>WHIPPED CHERRY WHIP</fullName>
+        <default>false</default>
+        <label>WHIPPED CHERRY WHIP</label>
+    </customValue>
+    <customValue>
+        <fullName>WHIPPED ORIGINAL</fullName>
+        <default>false</default>
+        <label>WHIPPED ORIGINAL</label>
+    </customValue>
+    <customValue>
+        <fullName>WHIPPED CHOCOLATE WHIP</fullName>
+        <default>false</default>
+        <label>WHIPPED CHOCOLATE WHIP</label>
+    </customValue>
+    <customValue>
+        <fullName>WHIPPED KEY LIME WHIP</fullName>
+        <default>false</default>
+        <label>WHIPPED KEY LIME WHIP</label>
+    </customValue>
+    <customValue>
+        <fullName>WHIPPED ORANGE WHIP</fullName>
+        <default>false</default>
+        <label>WHIPPED ORANGE WHIP</label>
+    </customValue>
+    <customValue>
+        <fullName>SPICED CRANBERRY</fullName>
+        <default>false</default>
+        <label>SPICED CRANBERRY</label>
+    </customValue>
+    <customValue>
+        <fullName>COCONUT AMARETTO</fullName>
+        <default>false</default>
+        <label>COCONUT AMARETTO</label>
+    </customValue>
+    <customValue>
+        <fullName>ORIGINAL 100 PROOF</fullName>
+        <default>false</default>
+        <label>ORIGINAL 100 PROOF</label>
+    </customValue>
+    <customValue>
+        <fullName>WHITE</fullName>
+        <default>false</default>
+        <label>WHITE</label>
+    </customValue>
+    <customValue>
+        <fullName>Old Crow Original</fullName>
+        <default>false</default>
+        <label>Old Crow Original</label>
+    </customValue>
+    <customValue>
+        <fullName>Old Crow Original COLA</fullName>
+        <default>false</default>
+        <label>Old Crow Original COLA</label>
+    </customValue>
+    <customValue>
+        <fullName>Old Crow Original RTD COLA</fullName>
+        <default>false</default>
+        <label>Old Crow Original RTD COLA</label>
+    </customValue>
+    <customValue>
+        <fullName>Old Crow Reserve</fullName>
+        <default>false</default>
+        <label>Old Crow Reserve</label>
+    </customValue>
+    <customValue>
+        <fullName>Old Grand Dad Original</fullName>
+        <default>false</default>
+        <label>Old Grand Dad Original</label>
+    </customValue>
+    <customValue>
+        <fullName>Old Overholt Original</fullName>
+        <default>false</default>
+        <label>Old Overholt Original</label>
+    </customValue>
+    <customValue>
+        <fullName>Old Grand Dad 114</fullName>
+        <default>false</default>
+        <label>Old Grand Dad 114</label>
+    </customValue>
+    <customValue>
+        <fullName>Old Grand Dad BIB</fullName>
+        <default>false</default>
+        <label>Old Grand Dad BIB</label>
+    </customValue>
+    <customValue>
+        <fullName>Dark Horse</fullName>
+        <default>false</default>
+        <label>Dark Horse</label>
+    </customValue>
+    <customValue>
+        <fullName>L&apos;Esprit</fullName>
+        <default>false</default>
+        <label>L&apos;Esprit</label>
+    </customValue>
+    <customValue>
+        <fullName>L&apos;Essence</fullName>
+        <default>false</default>
+        <label>L&apos;Essence</label>
+    </customValue>
+    <customValue>
+        <fullName>Napoleon</fullName>
+        <default>false</default>
+        <label>Napoleon</label>
+    </customValue>
+    <customValue>
+        <fullName>C</fullName>
+        <default>false</default>
+        <label>C</label>
+    </customValue>
+    <customValue>
+        <fullName>VSOP EXCLUSIF</fullName>
+        <default>false</default>
+        <label>VSOP EXCLUSIF</label>
+    </customValue>
+    <customValue>
+        <fullName>7 YEAR</fullName>
+        <default>false</default>
+        <label>7 YEAR</label>
+    </customValue>
+    <customValue>
+        <fullName>Choice</fullName>
+        <default>false</default>
+        <label>Choice</label>
+    </customValue>
+    <customValue>
+        <fullName>Extra Anejo</fullName>
+        <default>false</default>
+        <label>Extra Anejo</label>
+    </customValue>
+    <customValue>
+        <fullName>Flavored Dutch Raspberry</fullName>
+        <default>false</default>
+        <label>Flavored Dutch Raspberry</label>
+    </customValue>
+    <customValue>
+        <fullName>Flavored Salted Caramel</fullName>
+        <default>false</default>
+        <label>Flavored Salted Caramel</label>
+    </customValue>
+    <customValue>
+        <fullName>Jacob&apos;s Ghost White Whiskey</fullName>
+        <default>false</default>
+        <label>Jacob&apos;s Ghost White Whiskey</label>
+    </customValue>
+    <customValue>
+        <fullName>Signature Craft 12 YEAR</fullName>
+        <default>false</default>
+        <label>Signature Craft 12 YEAR</label>
+    </customValue>
+    <customValue>
+        <fullName>Signature Craft Harvest Wheat</fullName>
+        <default>false</default>
+        <label>Signature Craft Harvest Wheat</label>
+    </customValue>
+    <customValue>
+        <fullName>American Blended</fullName>
+        <default>false</default>
+        <label>American Blended</label>
+    </customValue>
+    <customValue>
+        <fullName>Polish Blackberry Brandy</fullName>
+        <default>false</default>
+        <label>Polish Blackberry Brandy</label>
+    </customValue>
+    <customValue>
+        <fullName>COLA</fullName>
+        <default>false</default>
+        <label>COLA</label>
+    </customValue>
+    <customValue>
+        <fullName>BIB</fullName>
+        <default>false</default>
+        <label>BIB</label>
+    </customValue>
+    <customValue>
+        <fullName>114</fullName>
+        <default>false</default>
+        <label>114</label>
+    </customValue>
+    <customValue>
+        <fullName>Cherry Tease</fullName>
+        <default>false</default>
+        <label>Cherry Tease</label>
+    </customValue>
+    <customValue>
+        <fullName>Sour Apple Sass</fullName>
+        <default>false</default>
+        <label>Sour Apple Sass</label>
+    </customValue>
+    <customValue>
+        <fullName>Copper Dog</fullName>
+        <default>false</default>
+        <label>Copper Dog</label>
+    </customValue>
+    <customValue>
+        <fullName>Initiale</fullName>
+        <default>false</default>
+        <label>Initiale</label>
+    </customValue>
+    <customValue>
+        <fullName>Blended</fullName>
+        <default>false</default>
+        <label>Blended</label>
+    </customValue>
+    <customValue>
+        <fullName>Signature Craft Harvest Oat</fullName>
+        <default>false</default>
+        <label>Signature Craft Harvest Oat</label>
+    </customValue>
+    <customValue>
+        <fullName>Signature Craft Harvest Rye</fullName>
+        <default>false</default>
+        <label>Signature Craft Harvest Rye</label>
+    </customValue>
+    <customValue>
+        <fullName>CITRUS SQUEEZE</fullName>
+        <default>false</default>
+        <label>CITRUS SQUEEZE</label>
+    </customValue>
+    <customValue>
+        <fullName>Grape Gone Wild</fullName>
+        <default>false</default>
+        <label>Grape Gone Wild</label>
+    </customValue>
+    <customValue>
+        <fullName>Lemonade Lust</fullName>
+        <default>false</default>
+        <label>Lemonade Lust</label>
+    </customValue>
+    <customValue>
+        <fullName>ORIGINAL COLA</fullName>
+        <default>false</default>
+        <label>ORIGINAL COLA</label>
+    </customValue>
+    <customValue>
+        <fullName>RASPBERRY RAVE</fullName>
+        <default>false</default>
+        <label>RASPBERRY RAVE</label>
+    </customValue>
+    <customValue>
+        <fullName>Beam Suntory Corporate - Leroux</fullName>
+        <default>false</default>
+        <label>Beam Suntory Corporate - Leroux</label>
+    </customValue>
+    <customValue>
+        <fullName>DRAGON</fullName>
+        <default>false</default>
+        <label>DRAGON</label>
+    </customValue>
+    <customValue>
+        <fullName>BLACK RTD COLA</fullName>
+        <default>false</default>
+        <label>BLACK RTD COLA</label>
+    </customValue>
+    <customValue>
+        <fullName>10YR Rye LTO</fullName>
+        <default>false</default>
+        <label>10YR Rye LTO</label>
+    </customValue>
+    <customValue>
+        <fullName>RTD WHITE GRAPE</fullName>
+        <default>false</default>
+        <label>RTD WHITE GRAPE</label>
+    </customValue>
+    <customValue>
+        <fullName>RTD WHITE SOUR</fullName>
+        <default>false</default>
+        <label>RTD WHITE SOUR</label>
+    </customValue>
+    <customValue>
+        <fullName>Chilli and Lime</fullName>
+        <default>false</default>
+        <label>Chilli and Lime</label>
+    </customValue>
+    <customValue>
+        <fullName>GOLD RTD COLA</fullName>
+        <default>false</default>
+        <label>GOLD RTD COLA</label>
+    </customValue>
+    <customValue>
+        <fullName>DEVILS CUT RTD COLA</fullName>
+        <default>false</default>
+        <label>DEVILS CUT RTD COLA</label>
+    </customValue>
+    <customValue>
+        <fullName>RTD LIME&amp;YUZU</fullName>
+        <default>false</default>
+        <label>RTD LIME&amp;YUZU</label>
+    </customValue>
+    <customValue>
+        <fullName>RTD RASPBERRY</fullName>
+        <default>false</default>
+        <label>RTD RASPBERRY</label>
+    </customValue>
+    <customValue>
+        <fullName>RTD BLOOD ORANGE</fullName>
+        <default>false</default>
+        <label>RTD BLOOD ORANGE</label>
+    </customValue>
+    <customValue>
+        <fullName>Suntory Old Whisky</fullName>
+        <default>false</default>
+        <label>Suntory Old Whisky</label>
+    </customValue>
+    <customValue>
+        <fullName>HIGHGROVE</fullName>
+        <default>false</default>
+        <label>HIGHGROVE</label>
+    </customValue>
+    <customValue>
+        <fullName>HEARTWOOD</fullName>
+        <default>false</default>
+        <label>HEARTWOOD</label>
+    </customValue>
+    <customValue>
+        <fullName>8YO</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>8YO</label>
+    </customValue>
+    <customValue>
+        <fullName>ENGIMA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ENGIMA</label>
+    </customValue>
+    <masterLabel>Product Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

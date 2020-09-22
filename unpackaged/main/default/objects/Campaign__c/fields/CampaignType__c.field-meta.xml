@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CampaignType__c</fullName>
+    <externalId>false</externalId>
+    <label>Campaign Type</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Rebates</fullName>
+                <default>false</default>
+                <label>Rebates</label>
+            </value>
+            <value>
+                <fullName>Incentives</fullName>
+                <default>false</default>
+                <label>Incentives</label>
+            </value>
+            <value>
+                <fullName>Other Programming</fullName>
+                <default>false</default>
+                <label>Other Programming</label>
+            </value>
+            <value>
+                <fullName>Sponsorship</fullName>
+                <default>false</default>
+                <label>Sponsorship</label>
+            </value>
+            <value>
+                <fullName>Brand Investment</fullName>
+                <default>false</default>
+                <label>Brand Investment</label>
+            </value>
+            <value>
+                <fullName>National POS (Finance Only)</fullName>
+                <default>false</default>
+                <label>National POS (Finance Only)</label>
+            </value>
+            <value>
+                <fullName>National POS-COGS (Finance Only)</fullName>
+                <default>false</default>
+                <label>National POS-COGS (Finance Only)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>Date de demande des données financières</label>
+        <name>Date_Financials_Requested__c</name>
+    </CustomFieldTranslation>

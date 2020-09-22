@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GBS_GMDM_Require_Approval_for_Close</fullName>
+    <active>true</active>
+    <description>Checks to see if certain cases that require approval have been approved prior to an attempt to close the case.</description>
+    <errorConditionFormula>AND(
+  IsClosed = TRUE,
+  Approved__c = FALSE,
+  (
+    OR(
+      Secondary_Category__c = "EDW Mapping Maintenance",
+      Secondary_Category__c = "Cost Center Create",
+      Secondary_Category__c = "GL Account Create"
+    )
+  )
+)</errorConditionFormula>
+    <errorMessage>This case must be submitted for approval to close.</errorMessage>
+</ValidationRule>

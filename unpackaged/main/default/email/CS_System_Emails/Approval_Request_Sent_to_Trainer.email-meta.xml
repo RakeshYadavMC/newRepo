@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email sent to required approver of a Trainee</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BeamSuntory_Letterhead</letterhead>
+    <name>Approval Request - Sent to Trainer</name>
+    <style>freeForm</style>
+    <subject>Action Required - Training Approval Request</subject>
+    <textOnly>The following Case has been submitted for your approval as a Trainer by a Customer Service coordinator currently in training for {!Case.RecordType} Cases:
+
+Case Number:  {!Case.CaseNumber}
+Case Owner: {!Case.OwnerFullName}
+Case Created:  {!Case.CreatedDate}
+
+Link to Case Record requiring your approval on behalf of trainee:
+{!Case.Link}
+
+
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

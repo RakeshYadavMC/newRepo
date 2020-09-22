@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GLAccountType__c</fullName>
+    <externalId>false</externalId>
+    <label>GL Account Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>3rd Party Brand Investment</fullName>
+                <default>false</default>
+                <label>3rd Party Brand Investment</label>
+            </value>
+            <value>
+                <fullName>Ad Production</fullName>
+                <default>false</default>
+                <label>Ad Production</label>
+            </value>
+            <value>
+                <fullName>Agency Fees</fullName>
+                <default>false</default>
+                <label>Agency Fees</label>
+            </value>
+            <value>
+                <fullName>Agency OOP</fullName>
+                <default>false</default>
+                <label>Agency OOP</label>
+            </value>
+            <value>
+                <fullName>BI - FX</fullName>
+                <default>false</default>
+                <label>BI - FX</label>
+            </value>
+            <value>
+                <fullName>BI - I/C Rebill</fullName>
+                <default>false</default>
+                <label>BI - I/C Rebill</label>
+            </value>
+            <value>
+                <fullName>Brand Education</fullName>
+                <default>false</default>
+                <label>Brand Education</label>
+            </value>
+            <value>
+                <fullName>Execution</fullName>
+                <default>false</default>
+                <label>Execution</label>
+            </value>
+            <value>
+                <fullName>Media</fullName>
+                <default>false</default>
+                <label>Media</label>
+            </value>
+            <value>
+                <fullName>Off-Trade</fullName>
+                <default>false</default>
+                <label>Off-Trade</label>
+            </value>
+            <value>
+                <fullName>On-Trade</fullName>
+                <default>false</default>
+                <label>On-Trade</label>
+            </value>
+            <value>
+                <fullName>Other Brand Investment</fullName>
+                <default>false</default>
+                <label>Other Brand Investment</label>
+            </value>
+            <value>
+                <fullName>Rebates</fullName>
+                <default>false</default>
+                <label>Rebates</label>
+            </value>
+            <value>
+                <fullName>Research</fullName>
+                <default>false</default>
+                <label>Research</label>
+            </value>
+            <value>
+                <fullName>Sponsorship</fullName>
+                <default>false</default>
+                <label>Sponsorship</label>
+            </value>
+            <value>
+                <fullName>Non-Premise</fullName>
+                <default>false</default>
+                <label>Non-Premise</label>
+            </value>
+            <value>
+                <fullName>Digital Rebates</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Digital Rebates</label>
+            </value>
+            <value>
+                <fullName>Incentives</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Incentives</label>
+            </value>
+            <value>
+                <fullName>Misc</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Misc</label>
+            </value>
+            <value>
+                <fullName>Non Working</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Non Working</label>
+            </value>
+            <value>
+                <fullName>Off Premise</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Off Premise</label>
+            </value>
+            <value>
+                <fullName>On Premise</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>On Premise</label>
+            </value>
+            <value>
+                <fullName>Working</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Working</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

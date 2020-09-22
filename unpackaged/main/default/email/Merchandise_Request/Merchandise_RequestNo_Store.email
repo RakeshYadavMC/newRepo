@@ -1,0 +1,4 @@
+<p>Dear {!Contact.FirstName},</p>
+<p>Thank you for contacting {!Case.Product_Type__c} We love hearing form fans like you.</p>
+<p>We apologize, but we do not offer {!Case.Product_Type__c} merchandise at this time.</p>
+<p>Thank you for being a {!Case.Product_Type__c} fan!</p>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ship_Date_Change</fullName>
+    <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>SAP_Number__c</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.TYPE</columns>
+    <columns>Brand__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>SAP_Number__c</field>
+        <operation>equals</operation>
+        <value>1022355546,4501884258,4501884294,1022357344,1022357345,1022357347,1022356042</value>
+    </filters>
+    <filters>
+        <field>SAP_Number__c</field>
+        <operation>equals</operation>
+        <value>1022356043,1022356044,1022356045,1022356046,1022356052,1022356008,1022356540</value>
+    </filters>
+    <filters>
+        <field>SAP_Number__c</field>
+        <operation>equals</operation>
+        <value>1022357387</value>
+    </filters>
+    <filters>
+        <field>SAP_Number__c</field>
+        <operation>equals</operation>
+        <value>1022357354</value>
+    </filters>
+    <filters>
+        <field>SAP_Number__c</field>
+        <operation>equals</operation>
+        <value>1022357351</value>
+    </filters>
+    <label>Ship Date Change</label>
+    <language>en_US</language>
+</ListView>

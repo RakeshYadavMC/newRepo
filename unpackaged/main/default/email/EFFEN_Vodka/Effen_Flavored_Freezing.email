@@ -1,0 +1,5 @@
+<p>Dear {!Contact.FirstName},</p>
+<p>Thank you for taking the time to contact us regarding <span class="caps">EFFEN</span> Flavored Vodka.</p>
+<p>When freezers are set to a very low temperature, below 5° Fahrenheit, <span class="caps">EFFEN</span> Vodka can freeze.  It's important to know that the quality of the liquid is not impacted if the product does freeze. However, we do not recommend exposing <span class="caps">EFFEN</span> Flavored Vodka to extremely low temperatures.</p>
+<p>Thanks again for contacting us. We hope you continue to enjoy <span class="caps">EFFEN</span> Flavored Cocktails responsibly for your everyday social occasions.</p>
+<p>{!Case.OwnerFullName}</p>

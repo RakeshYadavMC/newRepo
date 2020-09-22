@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Update_Z2_Status_on_Customer_data_case</fullName>
+    <active>true</active>
+    <description>Z2 Status need to be checked to true before closing the Customer data case which has Brand Registration parent case</description>
+    <errorConditionFormula>AND (
+RecordType.Name = "Brand Registration",
+ISPICKVAL( Status , "Closed"),
+NOT(Item_in_Z2_status__c),
+NOT(ISBLANK(In_field_Date__c)),
+ISPICKVAL(Z2_Reasons__c,'' )
+)</errorConditionFormula>
+    <errorMessage>Please select the Z2 reasons before closing the case</errorMessage>
+</ValidationRule>

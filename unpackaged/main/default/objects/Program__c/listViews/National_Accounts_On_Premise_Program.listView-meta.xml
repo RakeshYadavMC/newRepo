@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>National_Accounts_On_Premise_Program</fullName>
+    <filterScope>Queue</filterScope>
+    <label>National Accounts On-Premise</label>
+    <queue>National_Accounts_On_Premise</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

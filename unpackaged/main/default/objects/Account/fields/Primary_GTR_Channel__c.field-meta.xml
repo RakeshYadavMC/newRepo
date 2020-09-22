@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Primary_GTR_Channel__c</fullName>
+    <externalId>false</externalId>
+    <label>Primary GTR Channel</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Airport</fullName>
+                <default>false</default>
+                <label>Airport</label>
+            </value>
+            <value>
+                <fullName>Border</fullName>
+                <default>false</default>
+                <label>Border Store</label>
+            </value>
+            <value>
+                <fullName>Cruise</fullName>
+                <default>false</default>
+                <label>Cruise</label>
+            </value>
+            <value>
+                <fullName>Inflight</fullName>
+                <default>false</default>
+                <label>Inflight</label>
+            </value>
+            <value>
+                <fullName>Downtown</fullName>
+                <default>false</default>
+                <label>Downtown</label>
+            </value>
+            <value>
+                <fullName>Embassy</fullName>
+                <default>false</default>
+                <label>Embassy</label>
+            </value>
+            <value>
+                <fullName>Port</fullName>
+                <default>false</default>
+                <label>Port</label>
+            </value>
+            <value>
+                <fullName>Airline</fullName>
+                <default>false</default>
+                <label>Airline</label>
+            </value>
+            <value>
+                <fullName>Crew Shop</fullName>
+                <default>false</default>
+                <label>Crew Shop</label>
+            </value>
+            <value>
+                <fullName>Diplomates</fullName>
+                <default>false</default>
+                <label>Diplomates</label>
+            </value>
+            <value>
+                <fullName>Distributor</fullName>
+                <default>false</default>
+                <label>Distributor</label>
+            </value>
+            <value>
+                <fullName>Ferry</fullName>
+                <default>false</default>
+                <label>Ferry</label>
+            </value>
+            <value>
+                <fullName>Free Zone</fullName>
+                <default>false</default>
+                <label>Free Zone</label>
+            </value>
+            <value>
+                <fullName>Military</fullName>
+                <default>false</default>
+                <label>Military</label>
+            </value>
+            <value>
+                <fullName>Ship Chandlers</fullName>
+                <default>false</default>
+                <label>Ship Chandlers</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

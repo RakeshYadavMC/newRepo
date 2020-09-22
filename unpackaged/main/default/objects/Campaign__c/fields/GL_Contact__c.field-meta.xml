@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GL_Contact__c</fullName>
+    <externalId>false</externalId>
+    <label>Contact</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>GLCode__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Bottle packed with gift (for example: pack with glasses, mini bottles, or other accessories)</fullName>
+                <default>false</default>
+                <label>Bottle packed with gift (for example: pack with glasses, mini bottles, or other accessories)</label>
+            </value>
+            <value>
+                <fullName>Brand's official website</fullName>
+                <default>false</default>
+                <label>Brand's official website</label>
+            </value>
+            <value>
+                <fullName>Brand activities/parties in bars, restaurants or nightclubs (for example: sampling, promo girls, tasting events, food matching, etc.)</fullName>
+                <default>false</default>
+                <label>Brand activities/parties in bars, restaurants or nightclubs (for example: sampling, promo girls, tasting events, food matching, etc.)</label>
+            </value>
+            <value>
+                <fullName>Brand advertising on websites, apps and mobile sites excluding social media</fullName>
+                <default>false</default>
+                <label>Brand advertising on websites, apps and mobile sites excluding social media</label>
+            </value>
+            <value>
+                <fullName>Brand advertising videos on YouTube</fullName>
+                <default>false</default>
+                <label>Brand advertising videos on YouTube</label>
+            </value>
+            <value>
+                <fullName>Branded items in bars, restaurants or nightclubs (ice buckets, branded glasses and napkins)</fullName>
+                <default>false</default>
+                <label>Branded items in bars, restaurants or nightclubs (ice buckets, branded glasses and napkins)</label>
+            </value>
+            <value>
+                <fullName>Brand endorsement by celebrities</fullName>
+                <default>false</default>
+                <label>Brand endorsement by celebrities</label>
+            </value>
+            <value>
+                <fullName>Brand found on search engines (for example: Google, Bing, Yahoo, etc.)</fullName>
+                <default>false</default>
+                <label>Brand found on search engines (for example: Google, Bing, Yahoo, etc.)</label>
+            </value>
+            <value>
+                <fullName>Brand gets named or recognized in editorials, articles or reviews by an independent, third party</fullName>
+                <default>false</default>
+                <label>Brand gets named or recognized in editorials, articles or reviews by an independent, third party</label>
+            </value>
+            <value>
+                <fullName>Brand hosted events (ticketed event run by the brand or event that requires RSVP)</fullName>
+                <default>false</default>
+                <label>Brand hosted events (ticketed event run by the brand or event that requires RSVP)</label>
+            </value>
+            <value>
+                <fullName>Brand listed on the menus of bars, restaurants or nightclubs</fullName>
+                <default>false</default>
+                <label>Brand listed on the menus of bars, restaurants or nightclubs</label>
+            </value>
+            <value>
+                <fullName>Brand materials in the store (for example: at shelf recipe card or info like product awards, window or floor decals, posters, in-store circular)</fullName>
+                <default>false</default>
+                <label>Brand materials in the store (for example: at shelf recipe card or info like product awards, window or floor decals, posters, in-store circular)</label>
+            </value>
+            <value>
+                <fullName>Brand on retailers' websites or apps, including ratings and reviews (for example: Amazon, Walmart)</fullName>
+                <default>false</default>
+                <label>Brand on retailers' websites or apps, including ratings and reviews (for example: Amazon, Walmart)</label>
+            </value>
+            <value>
+                <fullName>Brand sponsorship or presence at food or drink events (for example: gourmet festival, food &amp; fine, etc.)</fullName>
+                <default>false</default>
+                <label>Brand sponsorship or presence at food or drink events (for example: gourmet festival, food &amp; fine, etc.)</label>
+            </value>
+            <value>
+                <fullName>Brand sponsorship or presence at music/sport events or festivals</fullName>
+                <default>false</default>
+                <label>Brand sponsorship or presence at music/sport events or festivals</label>
+            </value>
+            <value>
+                <fullName>In store brand displays (for example: freestanding cardboard cut outs or end caps)</fullName>
+                <default>false</default>
+                <label>In store brand displays (for example: freestanding cardboard cut outs or end caps)</label>
+            </value>
+            <value>
+                <fullName>In store price reduction (for example: sales, price promotions, coupons)</fullName>
+                <default>false</default>
+                <label>In store price reduction (for example: sales, price promotions, coupons)</label>
+            </value>
+            <value>
+                <fullName>In store tasting or sampling events</fullName>
+                <default>false</default>
+                <label>In store tasting or sampling events</label>
+            </value>
+            <value>
+                <fullName>Magazines/newspapers advertising</fullName>
+                <default>false</default>
+                <label>Magazines/newspapers advertising</label>
+            </value>
+            <value>
+                <fullName>Non-Working Agency</fullName>
+                <default>false</default>
+                <label>Non-Working Agency</label>
+            </value>
+            <value>
+                <fullName>Non-Working Capability Building</fullName>
+                <default>false</default>
+                <label>Non-Working Capability Building</label>
+            </value>
+            <value>
+                <fullName>Non-Working OOP</fullName>
+                <default>false</default>
+                <label>Non-Working OOP</label>
+            </value>
+            <value>
+                <fullName>Non-Working Other</fullName>
+                <default>false</default>
+                <label>Non-Working Other</label>
+            </value>
+            <value>
+                <fullName>Non-Working Production</fullName>
+                <default>false</default>
+                <label>Non-Working Production</label>
+            </value>
+            <value>
+                <fullName>Non-Working Research</fullName>
+                <default>false</default>
+                <label>Non-Working Research</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Outdoor advertising (for example: billboards, bus shelters, trains, taxis, etc.)</fullName>
+                <default>false</default>
+                <label>Outdoor advertising (for example: billboards, bus shelters, trains, taxis, etc.)</label>
+            </value>
+            <value>
+                <fullName>Radio advertising, includes streaming services and podcasts</fullName>
+                <default>false</default>
+                <label>Radio advertising, includes streaming services and podcasts</label>
+            </value>
+            <value>
+                <fullName>Recommendation from bartenders or waiters in bars, restaurants or nightclubs</fullName>
+                <default>false</default>
+                <label>Recommendation from bartenders or waiters in bars, restaurants or nightclubs</label>
+            </value>
+            <value>
+                <fullName>Recommendation from family, friends, acquaintances, colleagues</fullName>
+                <default>false</default>
+                <label>Recommendation from family, friends, acquaintances, colleagues</label>
+            </value>
+            <value>
+                <fullName>Recommendation from store staff, brand spokesperson or specialist in store</fullName>
+                <default>false</default>
+                <label>Recommendation from store staff, brand spokesperson or specialist in store</label>
+            </value>
+            <value>
+                <fullName>Removed as a touchpoint for 2019</fullName>
+                <default>false</default>
+                <label>Removed as a touchpoint for 2019</label>
+            </value>
+            <value>
+                <fullName>Special price-offers in bars, restaurants, nightclubs</fullName>
+                <default>false</default>
+                <label>Special price-offers in bars, restaurants, nightclubs</label>
+            </value>
+            <value>
+                <fullName>Sponsored brand advertising on social media (for example: Facebook, Instagram)</fullName>
+                <default>false</default>
+                <label>Sponsored brand advertising on social media (for example: Facebook, Instagram)</label>
+            </value>
+            <value>
+                <fullName>TV advertising, includes streaming services</fullName>
+                <default>false</default>
+                <label>TV advertising, includes streaming services</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>15328</controllingFieldValue>
+            <controllingFieldValue>15327</controllingFieldValue>
+            <valueName>Special price-offers in bars, restaurants, nightclubs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>15329</controllingFieldValue>
+            <controllingFieldValue>15330</controllingFieldValue>
+            <controllingFieldValue>15388</controllingFieldValue>
+            <valueName>Brand activities/parties in bars, restaurants or nightclubs (for example: sampling, promo girls, tasting events, food matching, etc.)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>15351</controllingFieldValue>
+            <controllingFieldValue>15352</controllingFieldValue>
+            <controllingFieldValue>15353</controllingFieldValue>
+            <controllingFieldValue>15354</controllingFieldValue>
+            <controllingFieldValue>15355</controllingFieldValue>
+            <controllingFieldValue>15356</controllingFieldValue>
+            <controllingFieldValue>15357</controllingFieldValue>
+            <controllingFieldValue>15358</controllingFieldValue>
+            <controllingFieldValue>15359</controllingFieldValue>
+            <controllingFieldValue>15360</controllingFieldValue>
+            <controllingFieldValue>15361</controllingFieldValue>
+            <valueName>Non-Working Agency</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>15331</controllingFieldValue>
+            <controllingFieldValue>15332</controllingFieldValue>
+            <controllingFieldValue>15326</controllingFieldValue>
+            <valueName>Branded items in bars, restaurants or nightclubs (ice buckets, branded glasses and napkins)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>15333</controllingFieldValue>
+            <valueName>Brand listed on the menus of bars, restaurants or nightclubs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>15334</controllingFieldValue>
+            <controllingFieldValue>15394</controllingFieldValue>
+            <controllingFieldValue>15396</controllingFieldValue>
+            <valueName>Recommendation from bartenders or waiters in bars, restaurants or nightclubs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>15336</controllingFieldValue>
+            <controllingFieldValue>15348</controllingFieldValue>
+            <valueName>Magazines/newspapers advertising</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>15337</controllingFieldValue>
+            <controllingFieldValue>15342</controllingFieldValue>
+            <valueName>Brand advertising on websites, apps and mobile sites excluding social media</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>15338</controllingFieldValue>
+            <valueName>Brand advertising videos on YouTube</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>15339</controllingFieldValue>
+            <controllingFieldValue>15372</controllingFieldValue>
+            <controllingFieldValue>15391</controllingFieldValue>
+            <controllingFieldValue>15392</controllingFieldValue>
+            <controllingFieldValue>15393</controllingFieldValue>
+            <valueName>Recommendation from family, friends, acquaintances, colleagues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>15362</controllingFieldValue>
+            <controllingFieldValue>15375</controllingFieldValue>
+            <controllingFieldValue>15376</controllingFieldValue>
+            <controllingFieldValue>15377</controllingFieldValue>
+            <controllingFieldValue>15379</controllingFieldValue>
+            <controllingFieldValue>15380</controllingFieldValue>
+            <controllingFieldValue>15381</controllingFieldValue>
+            <controllingFieldValue>15385</controllingFieldValue>
+            <valueName>Non-Working Research</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>15363</controllingFieldValue>
+            <controllingFieldValue>15364</controllingFieldValue>
+            <controllingFieldValue>15365</controllingFieldValue>
+            <controllingFieldValue>15366</controllingFieldValue>
+            <controllingFieldValue>15367</controllingFieldValue>
+            <controllingFieldValue>15368</controllingFieldValue>
+            <controllingFieldValue>15369</controllingFieldValue>
+            <controllingFieldValue>15370</controllingFieldValue>
+            <valueName>Non-Working Production</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>15371</controllingFieldValue>
+            <valueName>Brand's official website</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>15373</controllingFieldValue>
+            <controllingFieldValue>15395</controllingFieldValue>
+            <controllingFieldValue>15324</controllingFieldValue>
+            <valueName>Recommendation from store staff, brand spokesperson or specialist in store</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>15374</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>15382</controllingFieldValue>
+            <valueName>Brand sponsorship or presence at music/sport events or festivals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>15383</controllingFieldValue>
+            <valueName>Brand sponsorship or presence at food or drink events (for example: gourmet festival, food &amp; fine, etc.)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>15384</controllingFieldValue>
+            <valueName>Brand gets named or recognized in editorials, articles or reviews by an independent, third party</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>15386</controllingFieldValue>
+            <valueName>Brand endorsement by celebrities</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>15389</controllingFieldValue>
+            <controllingFieldValue>15321</controllingFieldValue>
+            <valueName>In store tasting or sampling events</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>15390</controllingFieldValue>
+            <controllingFieldValue>15397</controllingFieldValue>
+            <controllingFieldValue>15398</controllingFieldValue>
+            <valueName>Brand hosted events (ticketed event run by the brand or event that requires RSVP)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>15301</controllingFieldValue>
+            <controllingFieldValue>15302</controllingFieldValue>
+            <controllingFieldValue>15303</controllingFieldValue>
+            <controllingFieldValue>15304</controllingFieldValue>
+            <controllingFieldValue>15305</controllingFieldValue>
+            <controllingFieldValue>15306</controllingFieldValue>
+            <controllingFieldValue>15307</controllingFieldValue>
+            <controllingFieldValue>15308</controllingFieldValue>
+            <controllingFieldValue>15309</controllingFieldValue>
+            <controllingFieldValue>15310</controllingFieldValue>
+            <controllingFieldValue>15311</controllingFieldValue>
+            <valueName>Non-Working OOP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>15312</controllingFieldValue>
+            <valueName>Removed as a touchpoint for 2019</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>15313</controllingFieldValue>
+            <valueName>Non-Working Capability Building</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>15317</controllingFieldValue>
+            <valueName>Non-Working Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>15318</controllingFieldValue>
+            <controllingFieldValue>15320</controllingFieldValue>
+            <valueName>In store price reduction (for example: sales, price promotions, coupons)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>15319</controllingFieldValue>
+            <controllingFieldValue>15322</controllingFieldValue>
+            <valueName>Brand materials in the store (for example: at shelf recipe card or info like product awards, window or floor decals, posters, in-store circular)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>15340</controllingFieldValue>
+            <valueName>Brand on retailers' websites or apps, including ratings and reviews (for example: Amazon, Walmart)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>15341</controllingFieldValue>
+            <valueName>TV advertising, includes streaming services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>15343</controllingFieldValue>
+            <valueName>Outdoor advertising (for example: billboards, bus shelters, trains, taxis, etc.)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>15344</controllingFieldValue>
+            <valueName>Radio advertising, includes streaming services and podcasts</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>15345</controllingFieldValue>
+            <controllingFieldValue>15346</controllingFieldValue>
+            <valueName>Brand found on search engines (for example: Google, Bing, Yahoo, etc.)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>15347</controllingFieldValue>
+            <valueName>Sponsored brand advertising on social media (for example: Facebook, Instagram)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>15323</controllingFieldValue>
+            <valueName>In store brand displays (for example: freestanding cardboard cut outs or end caps)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>15325</controllingFieldValue>
+            <valueName>Bottle packed with gift (for example: pack with glasses, mini bottles, or other accessories)</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

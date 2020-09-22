@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Secondary_GTR_Customer__c</fullName>
+    <externalId>false</externalId>
+    <label>Secondary GTR Customer</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AER RIANTA</fullName>
+                <default>false</default>
+                <label>AER RIANTA</label>
+            </value>
+            <value>
+                <fullName>ANWAY</fullName>
+                <default>false</default>
+                <label>ANWAY</label>
+            </value>
+            <value>
+                <fullName>ASIAEURO</fullName>
+                <default>false</default>
+                <label>ASIAEURO</label>
+            </value>
+            <value>
+                <fullName>CARIBBEAN</fullName>
+                <default>false</default>
+                <label>CARIBBEAN</label>
+            </value>
+            <value>
+                <fullName>CDFG</fullName>
+                <default>false</default>
+                <label>CDFG</label>
+            </value>
+            <value>
+                <fullName>CDFL</fullName>
+                <default>false</default>
+                <label>CDFL</label>
+            </value>
+            <value>
+                <fullName>CHINA AIRLINES</fullName>
+                <default>false</default>
+                <label>CHINA AIRLINES</label>
+            </value>
+            <value>
+                <fullName>DELHI DUTY FREE PVT LTD</fullName>
+                <default>false</default>
+                <label>DELHI DUTY FREE PVT LTD</label>
+            </value>
+            <value>
+                <fullName>DFA</fullName>
+                <default>false</default>
+                <label>DFA</label>
+            </value>
+            <value>
+                <fullName>DFASS</fullName>
+                <default>false</default>
+                <label>DFASS</label>
+            </value>
+            <value>
+                <fullName>DFP</fullName>
+                <default>false</default>
+                <label>DFP</label>
+            </value>
+            <value>
+                <fullName>DFS</fullName>
+                <default>false</default>
+                <label>DFS</label>
+            </value>
+            <value>
+                <fullName>DF STORE LTD</fullName>
+                <default>false</default>
+                <label>DF STORE LTD</label>
+            </value>
+            <value>
+                <fullName>DUBAI DUTY FREE</fullName>
+                <default>false</default>
+                <label>DUBAI DF</label>
+            </value>
+            <value>
+                <fullName>DUFRY</fullName>
+                <default>false</default>
+                <label>DUFRY</label>
+            </value>
+            <value>
+                <fullName>EVER RICH</fullName>
+                <default>false</default>
+                <label>EVER RICH</label>
+            </value>
+            <value>
+                <fullName>FLEMINGO</fullName>
+                <default>false</default>
+                <label>FLEMINGO</label>
+            </value>
+            <value>
+                <fullName>FORTIER</fullName>
+                <default>false</default>
+                <label>FORTIER</label>
+            </value>
+            <value>
+                <fullName>GTR HQ</fullName>
+                <default>false</default>
+                <label>GTR HQ</label>
+            </value>
+            <value>
+                <fullName>HEINEMANN</fullName>
+                <default>false</default>
+                <label>HEINEMANN</label>
+            </value>
+            <value>
+                <fullName>HYDERABAD DUTY FREE</fullName>
+                <default>false</default>
+                <label>HYDERABAD DF</label>
+            </value>
+            <value>
+                <fullName>IDF</fullName>
+                <default>false</default>
+                <label>IDF</label>
+            </value>
+            <value>
+                <fullName>INTERNATIONAL SHOPPES</fullName>
+                <default>false</default>
+                <label>INTERNATIONAL SHOPPES</label>
+            </value>
+            <value>
+                <fullName>JDC</fullName>
+                <default>false</default>
+                <label>JDC</label>
+            </value>
+            <value>
+                <fullName>JR</fullName>
+                <default>false</default>
+                <label>JR</label>
+            </value>
+            <value>
+                <fullName>KING POWER</fullName>
+                <default>false</default>
+                <label>KING POWER</label>
+            </value>
+            <value>
+                <fullName>LAGARDERE ETR</fullName>
+                <default>false</default>
+                <label>LAGARDERE ETR</label>
+            </value>
+            <value>
+                <fullName>LONDON SUPPLY</fullName>
+                <default>false</default>
+                <label>LONDON SUPPLY</label>
+            </value>
+            <value>
+                <fullName>LOTTE</fullName>
+                <default>false</default>
+                <label>LOTTE</label>
+            </value>
+            <value>
+                <fullName>LSTR</fullName>
+                <default>false</default>
+                <label>LSTR</label>
+            </value>
+            <value>
+                <fullName>MACINTYRE SCOTT</fullName>
+                <default>false</default>
+                <label>MACINTYRE SCOTT</label>
+            </value>
+            <value>
+                <fullName>MALDVIES DUTY FREE</fullName>
+                <default>false</default>
+                <label>MALDVIES DUTY FREE</label>
+            </value>
+            <value>
+                <fullName>MEA DF [DUBAI]</fullName>
+                <default>false</default>
+                <label>MEA DF [DUBAI]</label>
+            </value>
+            <value>
+                <fullName>MOTTA</fullName>
+                <default>false</default>
+                <label>MOTTA</label>
+            </value>
+            <value>
+                <fullName>NEPAL DUTY FREE</fullName>
+                <default>false</default>
+                <label>NEPAL DUTY FREE</label>
+            </value>
+            <value>
+                <fullName>NORDICS</fullName>
+                <default>false</default>
+                <label>NORDICS</label>
+            </value>
+            <value>
+                <fullName>OTHER</fullName>
+                <default>false</default>
+                <label>OTHER</label>
+            </value>
+            <value>
+                <fullName>OTHER - DUMMY</fullName>
+                <default>false</default>
+                <label>OTHER - DUMMY</label>
+            </value>
+            <value>
+                <fullName>PLUS MAX DUTY FREE</fullName>
+                <default>false</default>
+                <label>PLUS MAX DUTY FREE</label>
+            </value>
+            <value>
+                <fullName>PREMIER</fullName>
+                <default>false</default>
+                <label>PREMIER</label>
+            </value>
+            <value>
+                <fullName>RTM</fullName>
+                <default>false</default>
+                <label>RTM</label>
+            </value>
+            <value>
+                <fullName>SHILLA</fullName>
+                <default>false</default>
+                <label>SHILLA</label>
+            </value>
+            <value>
+                <fullName>Sunrise</fullName>
+                <default>false</default>
+                <label>Sunrise</label>
+            </value>
+            <value>
+                <fullName>SZDF</fullName>
+                <default>false</default>
+                <label>SZDF</label>
+            </value>
+            <value>
+                <fullName>TAIWAN TOBACCO AND LIQUOR CORP.</fullName>
+                <default>false</default>
+                <label>TAIWAN TOBACCO AND LIQUOR CORP.</label>
+            </value>
+            <value>
+                <fullName>TASA MENG</fullName>
+                <default>false</default>
+                <label>TASA MENG</label>
+            </value>
+            <value>
+                <fullName>TOP BRANDS</fullName>
+                <default>false</default>
+                <label>TOP BRANDS</label>
+            </value>
+            <value>
+                <fullName>UETA</fullName>
+                <default>false</default>
+                <label>UETA</label>
+            </value>
+            <value>
+                <fullName>QATAR DF</fullName>
+                <default>false</default>
+                <label>QATAR DF</label>
+            </value>
+            <value>
+                <fullName>FLEMINGO COLOMBO</fullName>
+                <default>false</default>
+                <label>FLEMINGO COLOMBO</label>
+            </value>
+            <value>
+                <fullName>FLEMINGO INDIA</fullName>
+                <default>false</default>
+                <label>FLEMINGO INDIA</label>
+            </value>
+            <value>
+                <fullName>MCM-ST DORAS</fullName>
+                <default>false</default>
+                <label>MCM-ST DORAS</label>
+            </value>
+            <value>
+                <fullName>KAIMAY</fullName>
+                <default>false</default>
+                <label>KAIMAY</label>
+            </value>
+            <value>
+                <fullName>MUSCAT DF</fullName>
+                <default>false</default>
+                <label>MUSCAT DF</label>
+            </value>
+            <value>
+                <fullName>EMPIRE SPIRITS</fullName>
+                <default>false</default>
+                <label>EMPIRE SPIRITS</label>
+            </value>
+            <value>
+                <fullName>AIR INDIA</fullName>
+                <default>false</default>
+                <label>AIR INDIA</label>
+            </value>
+            <value>
+                <fullName>ITDC</fullName>
+                <default>false</default>
+                <label>ITDC</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

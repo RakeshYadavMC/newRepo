@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email template sent to the user that submitted the Marketing Plan Transfer request.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Marketing Plan Transfer Approval Response</name>
+    <style>none</style>
+    <subject>Marketing Plan Transfer Request Needs Approved (Salesforce)</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Billing_SAP_number_missing_from_sub_case</fullName>
+    <active>true</active>
+    <description>Certain fields are required on the CHILD record in or the close the PARENT case, but the fields on the CHILD case are not filled out until the PARENT case is ready to be closed. Billing SAP number is required for Mis Shipment and Overage claims</description>
+    <errorConditionFormula>AND( 
+RecordType.DeveloperName = "Order_Claim", 
+Billing_SAP_number_missing__c = true, 
+OR( 
+ISPICKVAL(Status, 'Closed'), 
+ISPICKVAL(Status, 'Closed - Approved'), 
+ISPICKVAL(Status, 'Closed - Rejected') 
+) 
+)</errorConditionFormula>
+    <errorMessage>Billing SAP Number and Financial Disposition are required on a child case of type "Mis-Shipment Claim" or "Overage Claim"</errorMessage>
+</ValidationRule>

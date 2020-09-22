@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bottle_Consumer</fullName>
+    <columns>MasterLabel</columns>
+    <columns>Access_Groups__c</columns>
+    <columns>Countries__c</columns>
+    <columns>CS_Flow_Picklist_Setting__c</columns>
+    <columns>CS_Flow_Secondary_Category_Setting__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CS_Flow_Secondary_Category_Setting__c</field>
+        <operation>equals</operation>
+        <value>Bottle_Consumer</value>
+    </filters>
+    <label>Bottle - Consumer</label>
+    <language>en_US</language>
+</ListView>

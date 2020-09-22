@@ -1,0 +1,13 @@
+<p>Dear {!Contact.FirstName},</p>
+<p>Thank you for contacting Jim Beam®!</p>
+<p>We love sharing our family's legacy with fans like you. To learn more about your item's history, we suggest that you contact the Oscar Getz Whiskey Museum, the Jim Beam Bottle &amp; Specialties Club, or the Heartland of Kentucky for more information regarding bottle value. You can reach these sources below:</p>
+Oscar Getz Whiskey Museum 114 North 5th Street Bardstown, KY 40004 Phone: 502-348-2999
+Heartland of Kentucky P.O. Box 428 1413 Pine Tavern Rd. Lebanon Junction, KY 40150 All correspondence must include 2 stamps for reply. Phone: (502) 215-5105 or (502) 777-0238 Email: heartland@decantersandsteins.com Website: www.decantersandsteins.com
+Jim Beam Bottle &amp; Specialties Club 519 NE 165th Street #<span class="caps">E12</span> Seattle, WA  98155 Email: beamclub@aol.com www.jimbeamclub.com
+<p>If you write, please enclose a self-addressed, stamped envelope to ensure a reply.</p>
+<p>Thank you for being a {!Case.Product_Type__c} fan!</p>
+<p>{!Case.OwnerFullName}<br />
+<strong>Jim Beam® Customer Care Representative</strong><br />
+<img src="{!$Label.SF_Base_URL_BrandLogo}JimBeam.png" alt=""  width="120px" /> <br />
+<a href="https://www.facebook.com/JimBeamUS"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}facebook.png" width="20" alt="" /></a> <a href="https://twitter.com/JimBeam"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}twitter.png" width="20" alt="" /></a> <a href="https://instagram.com/Jimbeamofficial"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}instagram.png" width="20" alt="" /></a> <a href="http://www.pinterest.com/jimbeamofficial/"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}pinterest.png" width="20" alt="" /></a> <a href="https://www.youtube.com/JimBeam"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}youtube.png" width="20" alt="" /></a> <br />
+<a href="http://www.drinksmart.com"><img src="{!$Label.SF_Base_URL_BrandLogo}DrinkSmart.png" width="120" title="Drink Smart" alt="Drink Smart" /></a></p>

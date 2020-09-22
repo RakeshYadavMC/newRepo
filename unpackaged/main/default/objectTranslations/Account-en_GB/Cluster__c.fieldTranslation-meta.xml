@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Cluster --></label>
+        <name>Cluster__c</name>
+        <picklistValues>
+            <masterLabel>Americas</masterLabel>
+            <translation><!-- Americas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asia Pacific</masterLabel>
+            <translation><!-- Asia Pacific --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Europe</masterLabel>
+            <translation><!-- Europe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GTR HQ</masterLabel>
+            <translation><!-- GTR HQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oceania</masterLabel>
+            <translation><!-- Oceania --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

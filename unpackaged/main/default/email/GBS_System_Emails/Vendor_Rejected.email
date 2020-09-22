@@ -1,0 +1,10 @@
+<messaging:emailTemplate subject="{!$Label.Registration_Request_Rejected}" recipientType="Contact" relatedToType="Case" Language="{!relatedTo.Case_Language__c}">
+
+    <messaging:htmlEmailBody >
+        <c:GBSMultipleLanguageEmail WhatId="{!relatedTo.Id}" WhoId="{!recipient.Id}" TemplateDeveloperName="{!$Label.Vendor_Rejected}" HTML="true"/>
+    </messaging:htmlEmailBody>
+    <messaging:plainTextEmailBody >
+        <c:GBSMultipleLanguageEmail WhatId="{!relatedTo.Id}" WhoId="{!recipient.Id}" TemplateDeveloperName="{!$Label.Vendor_Rejected}" HTML="false"/>
+    </messaging:plainTextEmailBody>
+
+</messaging:emailTemplate>

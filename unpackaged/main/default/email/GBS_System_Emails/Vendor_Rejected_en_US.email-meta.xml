@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Vendor has been rejected</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Blank_Letterhead</letterhead>
+    <name>Vendor Rejected (en_US)</name>
+    <style>freeForm</style>
+    <subject>Registration Rejected</subject>
+    <textOnly>Dear {!Contact.Name},
+
+Thank you for initiating registration with the Beam Suntory Company Community. Unfortunately, we need more information to validate your vendor account. Please check with your Beam Suntory contact to ensure that the vendor and/or correct information is in our database and resubmit your registration request.
+
+Thank you,
+Beam Suntory
+
+
+
+
+
+
+
+
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

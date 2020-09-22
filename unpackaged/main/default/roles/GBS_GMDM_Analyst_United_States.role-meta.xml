@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>Edit</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <description>GBS GMDM Analyst - United States</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>GBS GMDM Analyst - United States</name>
+    <opportunityAccessLevel>None</opportunityAccessLevel>
+    <parentRole>GBS_GMDM_Management_United_States</parentRole>
+</Role>

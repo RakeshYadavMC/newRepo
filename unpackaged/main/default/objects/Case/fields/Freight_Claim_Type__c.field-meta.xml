@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Freight_Claim_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Compliance Claim Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Light Load</fullName>
+                <default>false</default>
+                <label>Light Load</label>
+            </value>
+            <value>
+                <fullName>Non-Compliance</fullName>
+                <default>false</default>
+                <label>Non-Compliance</label>
+            </value>
+            <value>
+                <fullName>Missed RDD</fullName>
+                <default>false</default>
+                <label>Missed RDD</label>
+            </value>
+            <value>
+                <fullName>Missed Delivery Appointment</fullName>
+                <default>false</default>
+                <label>Missed Delivery Appointment</label>
+            </value>
+            <value>
+                <fullName>Incorrect BoL</fullName>
+                <default>false</default>
+                <label>Incorrect BoL</label>
+            </value>
+            <value>
+                <fullName>ASN Error</fullName>
+                <default>false</default>
+                <label>ASN Error</label>
+            </value>
+            <value>
+                <fullName>Weight Variance</fullName>
+                <default>false</default>
+                <label>Weight Variance</label>
+            </value>
+            <value>
+                <fullName>UPS Misbilling</fullName>
+                <default>false</default>
+                <label>UPS Misbilling</label>
+            </value>
+            <value>
+                <fullName>Labelling Errors</fullName>
+                <default>false</default>
+                <label>Labelling Errors</label>
+            </value>
+            <value>
+                <fullName>Others</fullName>
+                <default>false</default>
+                <label>Others</label>
+            </value>
+            <value>
+                <fullName>Demurrage Charges</fullName>
+                <default>false</default>
+                <label>Demurrage Charges</label>
+            </value>
+            <value>
+                <fullName>Lot Code Discrepancy</fullName>
+                <default>false</default>
+                <label>Lot Code Discrepancy</label>
+            </value>
+            <value>
+                <fullName>Unscheduled Delivery</fullName>
+                <default>false</default>
+                <label>Unscheduled Delivery</label>
+            </value>
+            <value>
+                <fullName>Missing/Incorrect Paperwork</fullName>
+                <default>false</default>
+                <label>Missing/Incorrect Paperwork</label>
+            </value>
+            <value>
+                <fullName>Pallet Concern</fullName>
+                <default>false</default>
+                <label>Pallet Concern</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,8 @@
+<p>Dear {!Contact.FirstName},</p>
+<p>Unopened, this product will maintain an acceptable quality for at least 13 months when stored under ambient conditions and out of direct sunlight. Once opened, it will maintain an acceptable quality for at least 1 month when stored under similar conditions. If consumed later than the above recommendations, product taste may vary.</p>
+<p>It is recommended that storage temperature be between 10°C - 25°C, in a cool clean location.</p>
+<p>{!Case.OwnerFullName}<br />
+<strong>Dekuyper® Customer Care Representative</strong><br />
+<img src="{!$Label.SF_Base_URL_BrandLogo}Dekuyper.png" alt=""  width="120px" /><br />
+<a href="https://www.facebook.com/DekuyperUSA"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}facebook.png" width="20" alt="" /></a> <a href="http://www.pinterest.com/DekuyperUSA/"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}pinterest.png" width="20" alt="" /></a> <br />
+<a href="http://www.drinksmart.com"><img src="{!$Label.SF_Base_URL_BrandLogo}DrinkSmart.png" width="120" title="Drink Smart" alt="Drink Smart" /></a></p>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Posting_Date__c</fullName>
+    <description>Date that the case was posted on. This field is used by Compliance on Price Posting states</description>
+    <externalId>false</externalId>
+    <label>Posting Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

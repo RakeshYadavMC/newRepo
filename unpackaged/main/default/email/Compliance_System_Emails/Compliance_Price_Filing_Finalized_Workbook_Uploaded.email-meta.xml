@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>An email template sent when a Price Filing case&apos;s Finalized Workbook is attached.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BeamSuntory_Letterhead</letterhead>
+    <name>Price Filing Finalized Workbook Uploaded</name>
+    <style>freeForm</style>
+    <subject>{!Case.Subject} - Finalized Workbook Uploaded - Waiting for Approval</subject>
+    <textOnly>{!Case.State__c}&apos;s finalized {!Case.Related_Month__c} {!Case.Year__c} workbook has been uploaded for this Price Filing Case in Salesforce and is attached to this email.
+
+The Price Filing is due by {!Case.State_Manager_Due_Date__c}. Please navigate to the Filing Approval tab to Approve or Reject the price changes.
+
+
+Click the link below to view this Case in Salesforce
+{!Case.Link}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

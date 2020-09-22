@@ -1,0 +1,8 @@
+<p>Dear {!Contact.FirstName},</p>
+<p>Thanks for your inquiry. Cruzan Rum does have a store located at our distillery located in St. Croix. To order, please call: (340) 692-2280.</p>
+<p>I hope this information will help you find the items you're trying to locate.</p>
+<p>{!Case.OwnerFullName}<br />
+<strong>Cruzan® Customer Care Representative</strong><br />
+<img src="{!$Label.SF_Base_URL_BrandLogo}Cruzan.png" alt=""  width="120px" /><br />
+<a href="https://www.facebook.com/CruzanRum"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}facebook.png" width="20" alt="" /></a> <a href="https://twitter.com/CruzanRum"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}twitter.png" width="20" alt="" /></a> <a href="https://www.youtube.com/user/OfficialCruzanRum"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}youtube.png" width="20" alt="" /></a> <br />
+<a href="http://www.drinksmart.com"><img src="{!$Label.SF_Base_URL_BrandLogo}DrinkSmart.png" width="120" title="Drink Smart" alt="Drink Smart" /></a></p>

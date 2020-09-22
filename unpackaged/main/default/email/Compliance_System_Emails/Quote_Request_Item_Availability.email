@@ -1,0 +1,11 @@
+<messaging:emailTemplate subject="{!relatedTo.Subject} - Item Availability [ {!relatedTo.Thread__c} ]" recipientType="User" relatedToType="Case">
+<messaging:htmlEmailBody >
+Hello {!relatedTo.Submitter__r.FirstName},
+<br></br>
+<br></br>
+<c:ItemAvailabilityTemplateComponent itemCaseId="{!relatedTo.Id}"/>
+<br></br>
+<br></br>
+{!relatedTo.Thread__c}
+</messaging:htmlEmailBody>
+</messaging:emailTemplate>

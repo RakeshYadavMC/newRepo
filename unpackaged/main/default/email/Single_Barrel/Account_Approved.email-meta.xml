@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Account Application has been approved</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BeamSuntory_Letterhead</letterhead>
+    <name>Account Approved</name>
+    <style>freeForm</style>
+    <subject>Single Barrel Application Approved!</subject>
+    <textOnly>Hi,
+
+Your recent Application for the {!Account_Application__c.Brand__c} Single Barrel Program has been approved!  Finish completing your barrel order in the Salesforce Community.
+
+
+Case Number: {!Account_Application__c.Case__c}
+
+
+Thank You,
+
+Beam Suntory Customer Service</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

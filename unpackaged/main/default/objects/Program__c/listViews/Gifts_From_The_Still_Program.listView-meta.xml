@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Gifts_From_The_Still_Program</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Gifts From The Still</label>
+    <queue>Gifts_From_The_Still</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Comp_BR_Date_Changed_No_Explanation</fullName>
+    <active>true</active>
+    <description>If a Brand Registration Case has already been Kicked Off, we require a reason for the change. This rule will not fire if the Case is being created or if it has not yet been kicked off.</description>
+    <errorConditionFormula>AND(
+RecordType.DeveloperName = 'Brand_Registration',
+OR(ISCHANGED(Due_Date__c), ISCHANGED(In_field_Date__c)),
+ISBLANK(Explanation_of_Change__c),
+NOT(ISCHANGED(Kick_Off_Brand_Registration__c)),
+Kick_Off_Brand_Registration__c=TRUE,
+ISNEW()=FALSE
+)</errorConditionFormula>
+    <errorMessage>An explanation is required to change the Date. Please enter an explanation and try again.</errorMessage>
+</ValidationRule>

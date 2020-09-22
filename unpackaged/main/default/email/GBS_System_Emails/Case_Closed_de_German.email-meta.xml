@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Case Closed Notification to Submitter in German</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Blank_Letterhead</letterhead>
+    <name>Case Closed (de_German)</name>
+    <style>freeForm</style>
+    <subject>El caso #{!Case.CaseNumber} ha sido resuelto;  ver detalles adjuntos</subject>
+    <textOnly>Hallo {! Case.Submitter_First_Name__c},
+Ihr Fall # {! Case.CaseNumber} wurde mit den folgenden Auflösungsdetails geschlossen:
+{! Case.Case_Resolution_Details__c}
+Bitte nehmen Sie sich 5 Sekunden Zeit, um diese Umfrage mit einer Frage zu beantworten:
+Wie zufrieden waren Sie mit der Dauer und Genauigkeit der Falllösung?
+
+
+
+
+Wenn Sie diesen Fall erneut eröffnen möchten, antworten Sie einfach innerhalb von 5 Tagen mit REOPEN CASE in dem Betreff. Bitte geben Sie den Grund an, warum dieser Fall erneut geöffnet werden sollte.
+
+Anleitung zur Wiedereröffnung eines Falls:
+Um Ihren Fall über die Community erneut zu öffnen, melden Sie sich an und klicken Sie auf die Registerkarte Meine Fälle&quot;, wählen Sie die Ansicht &quot;Meine geschlossenen Fälle&quot; und klicken Sie auf die Auswahlleiste &quot;Fall erneut öffnen&quot;. Wenn Sie auf die Auswahlleiste Erneut öffnen klicken, geben Sie im Popup-Fenster den Grund der Wiedereröffnung an. Bitte beachten Sie: Die Schaltfläche ist nur für fünf Kalendertage verfügbar. Danach wird sie deaktiviert und nicht verfügbar sein.
+
+{!$Label.Base_Company_Community_URL}{!Case.Id}
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

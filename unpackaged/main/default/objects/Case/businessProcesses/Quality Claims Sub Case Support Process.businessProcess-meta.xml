@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quality Claims Sub Case Support Process</fullName>
+    <description>Support Process for Quality Claims Sub Case</description>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Closed - Approved</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed - Rejected</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>DUP - No Action</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>New</fullName>
+        <default>true</default>
+    </values>
+    <values>
+        <fullName>Reviewing Details</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Working</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

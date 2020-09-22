@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Remittance_Detail__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Case - Remittance Detail</label>
+    <referenceTo>Case</referenceTo>
+    <relationshipLabel>Remittance Details</relationshipLabel>
+    <relationshipName>Remittance_Details</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

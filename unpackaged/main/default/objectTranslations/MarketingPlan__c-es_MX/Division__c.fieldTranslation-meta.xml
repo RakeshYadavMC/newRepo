@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Division --></label>
+        <name>Division__c</name>
+        <picklistValues>
+            <masterLabel>AFL</masterLabel>
+            <translation><!-- AFL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AGENCY FEES</masterLabel>
+            <translation><!-- AGENCY FEES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATL</masterLabel>
+            <translation><!-- ATL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Activation</masterLabel>
+            <translation><!-- Activation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Activation Kits</masterLabel>
+            <translation><!-- Activation Kits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Advocacy</masterLabel>
+            <translation><!-- Advocacy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Agency</masterLabel>
+            <translation><!-- Agency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>American Stillhouse</masterLabel>
+            <translation><!-- American Stillhouse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auchentoshan &amp; Ale</masterLabel>
+            <translation><!-- Auchentoshan &amp; Ale --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOURBON OFF PREMISE GIFTING</masterLabel>
+            <translation><!-- BOURBON OFF PREMISE GIFTING --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOURBON OFF PREMISE GWP</masterLabel>
+            <translation><!-- BOURBON OFF PREMISE GWP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BSI TRADE EVENT</masterLabel>
+            <translation><!-- BSI TRADE EVENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BTL</masterLabel>
+            <translation><!-- BTL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bartender Engagement</masterLabel>
+            <translation><!-- Bartender Engagement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bourbon Legends Division</masterLabel>
+            <translation><!-- Bourbon Legends Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brand Ambassadors</masterLabel>
+            <translation><!-- Brand Ambassadors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brand BTL Focus</masterLabel>
+            <translation><!-- Brand BTL Focus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brand Education</masterLabel>
+            <translation><!-- Brand Education --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brand experiential</masterLabel>
+            <translation><!-- Brand experiential --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CC SUMMER/TENNIS</masterLabel>
+            <translation><!-- CC SUMMER/TENNIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CC Summer</masterLabel>
+            <translation><!-- CC Summer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CC WINTER/BAD SWEATER</masterLabel>
+            <translation><!-- CC WINTER/BAD SWEATER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CC Winter</masterLabel>
+            <translation><!-- CC Winter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canada</masterLabel>
+            <translation><!-- Canada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Central Division</masterLabel>
+            <translation><!-- Central Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Central Regional Programming Division</masterLabel>
+            <translation><!-- Central Regional Programming Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cinco Division</masterLabel>
+            <translation><!-- Cinco Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cocktail Project</masterLabel>
+            <translation><!-- Cocktail Project --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commercial Capabilities</masterLabel>
+            <translation><!-- Commercial Capabilities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer Insights Division</masterLabel>
+            <translation><!-- Consumer Insights Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Digital Marketing Division</masterLabel>
+            <translation><!-- Digital Marketing Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draught</masterLabel>
+            <translation><!-- Draught --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Drinks Strategy</masterLabel>
+            <translation><!-- Drinks Strategy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>East Coast Division</masterLabel>
+            <translation><!-- East Coast Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eastern Control Division</masterLabel>
+            <translation><!-- Eastern Control Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Edge</masterLabel>
+            <translation><!-- Edge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FBS</masterLabel>
+            <translation><!-- FBS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FBS LIGHTHOUSE VENUES</masterLabel>
+            <translation><!-- FBS LIGHTHOUSE VENUES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FBS OFF PREMISE NPD LAUNCH SUPPORT</masterLabel>
+            <translation><!-- FBS OFF PREMISE NPD LAUNCH SUPPORT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FBS OFF PREMISE TRIAL</masterLabel>
+            <translation><!-- FBS OFF PREMISE TRIAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FBS ON PREMISE TRIAL</masterLabel>
+            <translation><!-- FBS ON PREMISE TRIAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Florida Division</masterLabel>
+            <translation><!-- Florida Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Franchise Division</masterLabel>
+            <translation><!-- Franchise Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gifting</masterLabel>
+            <translation><!-- Gifting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gifts From The Still Division</masterLabel>
+            <translation><!-- Gifts From The Still Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global Insights</masterLabel>
+            <translation><!-- Global Insights --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global Marketing</masterLabel>
+            <translation><!-- Global Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global Marketing Central</masterLabel>
+            <translation><!-- Global Marketing Central --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global Marketing Communications Division</masterLabel>
+            <translation><!-- Global Marketing Communications Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Highball</masterLabel>
+            <translation><!-- Highball --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Innovation</masterLabel>
+            <translation><!-- Innovation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Innovation - Whiskey Division</masterLabel>
+            <translation><!-- Innovation - Whiskey Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Innovation - White Spirits Division</masterLabel>
+            <translation><!-- Innovation - White Spirits Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Innovations</masterLabel>
+            <translation><!-- Innovations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insights (US)</masterLabel>
+            <translation><!-- Insights (US) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Instore</masterLabel>
+            <translation><!-- Instore --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JB FBS TM</masterLabel>
+            <translation><!-- JB FBS TM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JB FOOTBALL ACTIVATION</masterLabel>
+            <translation><!-- JB FOOTBALL ACTIVATION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JB MUSIC ON TOUR</masterLabel>
+            <translation><!-- JB MUSIC ON TOUR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JB ON PREMISE VISIBILITY (PHOENIX)</masterLabel>
+            <translation><!-- JB ON PREMISE VISIBILITY (PHOENIX) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JB RTD SUMMER PROMOTION</masterLabel>
+            <translation><!-- JB RTD SUMMER PROMOTION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JB SUPERCARS</masterLabel>
+            <translation><!-- JB SUPERCARS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JB Sports Division</masterLabel>
+            <translation><!-- JB Sports Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JBB FBS SPRING RACING</masterLabel>
+            <translation><!-- JBB FBS SPRING RACING --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JBB RTD FEB/MARCH PROMOTION</masterLabel>
+            <translation><!-- JBB RTD FEB/MARCH PROMOTION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JBBDCo Portfolio</masterLabel>
+            <translation><!-- JBBDCo Portfolio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JBW High ABV Support</masterLabel>
+            <translation><!-- JBW High ABV Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JBW RTD APRIL/MAY PROMOTION</masterLabel>
+            <translation><!-- JBW RTD APRIL/MAY PROMOTION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jim Beam Black Focus</masterLabel>
+            <translation><!-- Jim Beam Black Focus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Key Account Activation</masterLabel>
+            <translation><!-- Key Account Activation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Key Customer Program</masterLabel>
+            <translation><!-- Key Customer Program --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Luxury</masterLabel>
+            <translation><!-- Luxury --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MM OLD FASHIONED</masterLabel>
+            <translation><!-- MM OLD FASHIONED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Make History 2.0</masterLabel>
+            <translation><!-- Make History 2.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MarTech Division</masterLabel>
+            <translation><!-- MarTech Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing Capabilities Division</masterLabel>
+            <translation><!-- Marketing Capabilities Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing Operations Division</masterLabel>
+            <translation><!-- Marketing Operations Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing Services Division</masterLabel>
+            <translation><!-- Marketing Services Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>May Focus Period</masterLabel>
+            <translation><!-- May Focus Period --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Media</masterLabel>
+            <translation><!-- Media --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mexico</masterLabel>
+            <translation><!-- Mexico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Michigan Control Division</masterLabel>
+            <translation><!-- Michigan Control Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mideast Division</masterLabel>
+            <translation><!-- Mideast Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Midsouth Division</masterLabel>
+            <translation><!-- Midsouth Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Midwest Division</masterLabel>
+            <translation><!-- Midwest Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Military</masterLabel>
+            <translation><!-- Military --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Misc</masterLabel>
+            <translation><!-- Misc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mountain Division</masterLabel>
+            <translation><!-- Mountain Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NAHQ Off Chains Division</masterLabel>
+            <translation><!-- NAHQ Off Chains Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NAHQ Off Regional Division</masterLabel>
+            <translation><!-- NAHQ Off Regional Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NAHQ Off-Premise</masterLabel>
+            <translation><!-- NAHQ Off-Premise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NAHQ On-Premise</masterLabel>
+            <translation><!-- NAHQ On-Premise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NPD</masterLabel>
+            <translation><!-- NPD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NPD Launch</masterLabel>
+            <translation><!-- NPD Launch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>National Accounts</masterLabel>
+            <translation><!-- National Accounts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>National BTL Commercial Marketing</masterLabel>
+            <translation><!-- National BTL Commercial Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>National BTL Must Win POS Division</masterLabel>
+            <translation><!-- National BTL Must Win POS Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>National BTL Must Win Regional</masterLabel>
+            <translation><!-- National BTL Must Win Regional --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>National Marketing</masterLabel>
+            <translation><!-- National Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New England Control Division</masterLabel>
+            <translation><!-- New England Control Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-working (Pendulum/other)</masterLabel>
+            <translation><!-- Non-working (Pendulum/other) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nov Focus Period</masterLabel>
+            <translation><!-- Nov Focus Period --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Off Premise</masterLabel>
+            <translation><!-- Off Premise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ohio/Iowa Control Division</masterLabel>
+            <translation><!-- Ohio/Iowa Control Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Premise</masterLabel>
+            <translation><!-- On Premise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Premise Advocacy</masterLabel>
+            <translation><!-- On Premise Advocacy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On-Premise Marketing Division</masterLabel>
+            <translation><!-- On-Premise Marketing Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opinions Welcome</masterLabel>
+            <translation><!-- Opinions Welcome --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMOD</masterLabel>
+            <translation><!-- PMOD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>POB Division</masterLabel>
+            <translation><!-- POB Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>POS STORAGE &amp; DISTRIBUTION</masterLabel>
+            <translation><!-- POS STORAGE &amp; DISTRIBUTION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PR</masterLabel>
+            <translation><!-- PR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PREMIUM WHISKEY RETAILER PROGRAM</masterLabel>
+            <translation><!-- PREMIUM WHISKEY RETAILER PROGRAM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Packcentre</masterLabel>
+            <translation><!-- Packcentre --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pendulum</masterLabel>
+            <translation><!-- Pendulum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pennsylvania Control Division</masterLabel>
+            <translation><!-- Pennsylvania Control Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pennsylvania/Michigan Control Division</masterLabel>
+            <translation><!-- Pennsylvania/Michigan Control Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Premium Whisky Programs</masterLabel>
+            <translation><!-- Premium Whisky Programs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Premiumization Division</masterLabel>
+            <translation><!-- Premiumization Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Q1 Focus</masterLabel>
+            <translation><!-- Q1 Focus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Q4 Focus</masterLabel>
+            <translation><!-- Q4 Focus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RNDC East Division</masterLabel>
+            <translation><!-- RNDC East Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RNDC North Division</masterLabel>
+            <translation><!-- RNDC North Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RNDC South Division</masterLabel>
+            <translation><!-- RNDC South Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RNDC West Division</masterLabel>
+            <translation><!-- RNDC West Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RTD</masterLabel>
+            <translation><!-- RTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RTD Coalition Division</masterLabel>
+            <translation><!-- RTD Coalition Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RTD EVENT / NPD TRIAL PLATFORMS</masterLabel>
+            <translation><!-- RTD EVENT / NPD TRIAL PLATFORMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RTD NPD PRODUCTION &amp; DEVELOPMENT</masterLabel>
+            <translation><!-- RTD NPD PRODUCTION &amp; DEVELOPMENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RTD OFF PREMISE CORE VISIBILITY</masterLabel>
+            <translation><!-- RTD OFF PREMISE CORE VISIBILITY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RTD OFF PREMISE NPD LAUNCH SUPPORT</masterLabel>
+            <translation><!-- RTD OFF PREMISE NPD LAUNCH SUPPORT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RTD OFF PREMISE PERMANENT VISIBILITY</masterLabel>
+            <translation><!-- RTD OFF PREMISE PERMANENT VISIBILITY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RTD ON PREMISE CORE VISIBILTY</masterLabel>
+            <translation><!-- RTD ON PREMISE CORE VISIBILTY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RTD ON PREMISE RATE OF SALE TOOLKIT</masterLabel>
+            <translation><!-- RTD ON PREMISE RATE OF SALE TOOLKIT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RTD STADIUM PERMANENT VISIBILITY</masterLabel>
+            <translation><!-- RTD STADIUM PERMANENT VISIBILITY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RTD STADIUM SPONSORSHIPS</masterLabel>
+            <translation><!-- RTD STADIUM SPONSORSHIPS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Research</masterLabel>
+            <translation><!-- Research --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ring Fence</masterLabel>
+            <translation><!-- Ring Fence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SGWS CA/HI Division</masterLabel>
+            <translation><!-- SGWS CA/HI Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SGWS Central Division</masterLabel>
+            <translation><!-- SGWS Central Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SGWS East Division</masterLabel>
+            <translation><!-- SGWS East Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SGWS FL Division</masterLabel>
+            <translation><!-- SGWS FL Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SGWS NY Division</masterLabel>
+            <translation><!-- SGWS NY Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SGWS West Division</masterLabel>
+            <translation><!-- SGWS West Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Samples Division</masterLabel>
+            <translation><!-- Samples Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southeast Control Division</masterLabel>
+            <translation><!-- Southeast Control Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stock Up &amp; Save Division</masterLabel>
+            <translation><!-- Stock Up &amp; Save Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Summer 2018</masterLabel>
+            <translation><!-- Summer 2018 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Summer 2018 On Pack</masterLabel>
+            <translation><!-- Summer 2018 On Pack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Summer Division</masterLabel>
+            <translation><!-- Summer Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Super Premium Gifting Division</masterLabel>
+            <translation><!-- Super Premium Gifting Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TM Activity</masterLabel>
+            <translation><!-- TM Activity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Blend</masterLabel>
+            <translation><!-- The Blend --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trade Media</masterLabel>
+            <translation><!-- Trade Media --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transportation &amp; Other</masterLabel>
+            <translation><!-- Transportation &amp; Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trial</masterLabel>
+            <translation><!-- Trial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trial Platform</masterLabel>
+            <translation><!-- Trial Platform --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Field Central Division</masterLabel>
+            <translation><!-- US Field Central Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Visibility</masterLabel>
+            <translation><!-- Visibility --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West Coast Division</masterLabel>
+            <translation><!-- West Coast Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Western Control Division</masterLabel>
+            <translation><!-- Western Control Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Win In KY</masterLabel>
+            <translation><!-- Win In KY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>__</masterLabel>
+            <translation><!-- __ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>____</masterLabel>
+            <translation><!-- ____ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>eCommerce</masterLabel>
+            <translation><!-- eCommerce --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

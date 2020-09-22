@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Number_of_Times_in_3rd_Party__c</fullName>
+    <defaultValue>0</defaultValue>
+    <description>Number of times that a case went into any of the 3rd party statuses.</description>
+    <externalId>false</externalId>
+    <label>Number of Times in 3rd Party</label>
+    <precision>8</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

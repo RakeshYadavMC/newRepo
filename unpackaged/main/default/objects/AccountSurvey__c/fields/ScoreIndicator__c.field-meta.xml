@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ScoreIndicator__c</fullName>
+    <externalId>false</externalId>
+    <formula>IMAGE( 
+IF(ScoreValue__c=0, "/img/samples/stars_000.gif", 
+IF(ScoreValue__c&lt;0.20, "/img/samples/stars_100.gif", 
+IF(ScoreValue__c&lt;0.40, "/img/samples/stars_200.gif", 
+IF(ScoreValue__c&lt;0.60, "/img/samples/stars_300.gif", 
+IF(ScoreValue__c&lt;0.80, "/img/samples/stars_400.gif",
+IF(ScoreValue__c &lt;= 1, "/img/samples/stars_500.gif", 
+"/img/samples/stars_000.gif"
+)))))), 
+"")</formula>
+    <label>Score Indicator</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Within_Same_Division__c</fullName>
+    <description>Are the Divisions of the Transferring Marketing Plan and Receiving Marketing Plan the Same</description>
+    <externalId>false</externalId>
+    <formula>IF(TEXT(TransferringMarketingPlan__r.Division__c ) = TEXT(ReceivingMarketingPlan__r.Division__c),"Yes","No")</formula>
+    <label>Within Same Division?</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

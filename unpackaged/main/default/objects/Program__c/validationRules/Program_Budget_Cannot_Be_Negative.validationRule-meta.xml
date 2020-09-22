@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Program_Budget_Cannot_Be_Negative</fullName>
+    <active>true</active>
+    <description>Budget cannot be less than zero dollars.</description>
+    <errorConditionFormula>Budget__c &lt; 0  &amp;&amp;  BrandName__c  &lt;&gt; 'Multibrand'</errorConditionFormula>
+    <errorDisplayField>Budget__c</errorDisplayField>
+    <errorMessage>Budget cannot be less than zero dollars for this Brand. Please update the Budget.</errorMessage>
+</ValidationRule>

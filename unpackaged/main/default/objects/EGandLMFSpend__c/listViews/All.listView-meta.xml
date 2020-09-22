@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>ParentEGorLMF__c</columns>
+    <columns>RECORDTYPE</columns>
+    <columns>Brand__c</columns>
+    <columns>BrandQuality__c</columns>
+    <columns>Budget__c</columns>
+    <columns>ActualSpend__c</columns>
+    <columns>Balance__c</columns>
+    <columns>BudgetType__c</columns>
+    <columns>Comments__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

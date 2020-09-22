@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>User_Driven_Snapshot_Description__c</fullName>
+    <description>Text field to hold description for user driven snapshot records created by the Snapshot button on the Forecast Snapshot tab</description>
+    <externalId>false</externalId>
+    <label>User Driven Snapshot Description</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

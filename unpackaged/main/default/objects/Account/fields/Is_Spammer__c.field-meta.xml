@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Spammer__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This field is used to check the consumer is Spammer or not.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This field is used to check the consumer is Spammer or not.</inlineHelpText>
+    <label>Is Spammer</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

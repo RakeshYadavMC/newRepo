@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Must_Be_Uploaded_To_STIR_To_Close</fullName>
+    <active>false</active>
+    <description>Price Filing Case must have "Uploaded To STIR" checked to be closed</description>
+    <errorConditionFormula>IF(AND(RecordType.DeveloperName='Price_Filing', PRIORVALUE(Status)!="Closed", TEXT(Status)="Closed", NOT(Uploaded_to_STIR__c)), TRUE, FALSE)</errorConditionFormula>
+    <errorMessage>The Case cannot be closed until the Approved Workbook is uploaded to STIR and the "Uploaded to STIR" checkbox has been checked.</errorMessage>
+</ValidationRule>

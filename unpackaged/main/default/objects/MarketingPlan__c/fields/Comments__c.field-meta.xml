@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Comments__c</fullName>
+    <description>Free form text field to allow for comments on any updates made to the Marketing Plan budgets</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Comment field for any updates made to budget.</inlineHelpText>
+    <label>Comments</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

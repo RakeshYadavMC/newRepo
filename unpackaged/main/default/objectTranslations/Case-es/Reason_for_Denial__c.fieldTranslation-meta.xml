@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Reason for Denial --></label>
+        <name>Reason_for_Denial__c</name>
+        <picklistValues>
+            <masterLabel>Caused by Carrier</masterLabel>
+            <translation><!-- Caused by Carrier --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer Illness not justified</masterLabel>
+            <translation><!-- Consumer Illness not justified --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Damaged During Transit/At Retail</masterLabel>
+            <translation><!-- Damaged During Transit/At Retail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Defective cork/closure</masterLabel>
+            <translation><!-- Defective cork/closure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Duplicate Claim</masterLabel>
+            <translation><!-- Duplicate Claim --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>First Time User Did Not Like</masterLabel>
+            <translation><!-- First Time User Did Not Like --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Health/Injury case</masterLabel>
+            <translation><!-- Health/Injury case --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incorrect Shipping Plant</masterLabel>
+            <translation><!-- Incorrect Shipping Plant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incorrect State Code in SAP</masterLabel>
+            <translation><!-- Incorrect State Code in SAP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Known Issue</masterLabel>
+            <translation><!-- Known Issue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loaded Based off Existing Shipping Requirements</masterLabel>
+            <translation><!-- Loaded Based off Existing Shipping Requirements --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maker's Mark Previous Wax</masterLabel>
+            <translation><!-- Maker&apos;s Mark Previous Wax --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missing Lot Code Information</masterLabel>
+            <translation><!-- Missing Lot Code Information --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Natural Cork Aged</masterLabel>
+            <translation><!-- Natural Cork Aged --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Inventory Discrepancies – Shipped Complete</masterLabel>
+            <translation><!-- No Inventory Discrepancies – Shipped Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Pictures Provided to Support Claim</masterLabel>
+            <translation><!-- No Pictures Provided to Support Claim --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Response from Consumer/Customer</masterLabel>
+            <translation><!-- No Response from Consumer/Customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No State Code in SAP</masterLabel>
+            <translation><!-- No State Code in SAP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Package Redesign/Change</masterLabel>
+            <translation><!-- Package Redesign/Change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Frozen/Freezer</masterLabel>
+            <translation><!-- Product Frozen/Freezer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Is Conforming</masterLabel>
+            <translation><!-- Product Is Conforming --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Reformulation/% ABV Change</masterLabel>
+            <translation><!-- Product Reformulation/% ABV Change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Shelf Life Exceeded</masterLabel>
+            <translation><!-- Product Shelf Life Exceeded --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Shelf Life Exceeded – Flavoured Products</masterLabel>
+            <translation><!-- Product Shelf Life Exceeded – Flavoured Products --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sample Unavailable</masterLabel>
+            <translation><!-- Sample Unavailable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sample/Retain Conforms To Standard</masterLabel>
+            <translation><!-- Sample/Retain Conforms To Standard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Storage Conditions Not As Recommended</masterLabel>
+            <translation><!-- Storage Conditions Not As Recommended --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tampered Seal</masterLabel>
+            <translation><!-- Tampered Seal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tampering/Adulteration</masterLabel>
+            <translation><!-- Tampering/Adulteration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unable To Investigate (No Sample, Lot Code Or Photos Provided)</masterLabel>
+            <translation><!-- Unable To Investigate (No Sample, Lot Code Or Photos Provided) --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

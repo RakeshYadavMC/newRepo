@@ -1,0 +1,6 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[Hello,<div><br></div><div>Please provide a Carrier for the following order;</div><div><br></div><div>PO:</div><div>OriginDoc.:</div><div>Customer Name:&nbsp;{!Case.Account}</div><div>Ship-to-City:</div><div>Plant Name:</div><div>Ship Date:</div><div><br></div><div>Thank you,</div><div><br></div><div>Beam Suntory Customer Service</div><div><br></div><div><br></div><div><span style="font-size: x-small;">{!Case.Thread_Id}</span></div><div><br></div>]]></td>
+</tr>
+</table>

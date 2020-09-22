@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Bonus Coupon</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Bonus Coupons</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Bonus Check Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Coupon ID --></nameFieldLabel>
+    <quickActions>
+        <label>Email de Cupón</label>
+        <name>Send_Email</name>
+    </quickActions>
+    <webLinks>
+        <label><!-- Print --></label>
+        <name>Print</name>
+    </webLinks>
+    <webLinks>
+        <label>Enviar Correo Electrónico</label>
+        <name>Send_Email</name>
+    </webLinks>
+</CustomObjectTranslation>

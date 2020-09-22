@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Change_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Change Type</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Add Item</fullName>
+                <default>false</default>
+                <label>Add Item</label>
+            </value>
+            <value>
+                <fullName>Remove Item</fullName>
+                <default>false</default>
+                <label>Remove Item</label>
+            </value>
+            <value>
+                <fullName>Cancel</fullName>
+                <default>false</default>
+                <label>Cancel</label>
+            </value>
+            <value>
+                <fullName>Expediting</fullName>
+                <default>false</default>
+                <label>Expediting</label>
+            </value>
+            <value>
+                <fullName>Changing Carrier</fullName>
+                <default>false</default>
+                <label>Changing Carrier</label>
+            </value>
+            <value>
+                <fullName>Ship Date Change</fullName>
+                <default>false</default>
+                <label>Ship Date Change</label>
+            </value>
+            <value>
+                <fullName>Account Update</fullName>
+                <default>false</default>
+                <label>Account Update</label>
+            </value>
+            <value>
+                <fullName>New or Existing Item Setup</fullName>
+                <default>false</default>
+                <label>New or Existing Item Setup</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

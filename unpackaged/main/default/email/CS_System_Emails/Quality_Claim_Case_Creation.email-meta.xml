@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>An email is sent using this once a case is created via the CS community if case type is Quality Claim</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BeamSuntory_Letterhead</letterhead>
+    <name>Quality Claim Case Creation</name>
+    <style>freeForm</style>
+    <subject>A Quality Claim Case has been submitted: {!Case.CaseNumber} [{!Case.Thread_Id}]</subject>
+    <textOnly>A Quality Claim form has been submitted by {!Case.CreatedBy}. The case number is: {!Case.CaseNumber}.
+
+Details:
+
+{!Case.Subject}
+{!Case.Description}
+
+
+Product Description:          {!Case.Product_Description__c}
+Product Size:                   {!Case.Product_Size__c}
+Sample Available:             {!Case.Sample_Available__c}
+Lot Code:                        {!Case.Lot_Code__c}
+Quantity Known:               {!Case.Quantity_Known__c}
+Quantity:                         {!Case.Quantity_Bottles_or_Cases__c}
+Quantity Type:                  {!Case.Quantity_Type__c}
+Purchase Order Number:    {!Case.Purchase_Order_Number__c}
+Shipping Plant:                  {!Case.Shipping_Plant__c}
+Issue Definition:                {!Case.Issue__c}
+Other Issue:                     {!Case.Other_Issue__c}
+
+
+
+
+Thank you,
+
+Beam Suntory Customer Service
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

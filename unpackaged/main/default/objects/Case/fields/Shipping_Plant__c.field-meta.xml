@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Shipping_Plant__c</fullName>
+    <externalId>false</externalId>
+    <label>Shipping Plant</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>N/A</fullName>
+                <default>true</default>
+                <label>N/A</label>
+            </value>
+            <value>
+                <fullName>ACCU-TEC</fullName>
+                <default>false</default>
+                <label>ACCU-TEC</label>
+            </value>
+            <value>
+                <fullName>ADL</fullName>
+                <default>false</default>
+                <label>ADL</label>
+            </value>
+            <value>
+                <fullName>Australia Bedfords</fullName>
+                <default>false</default>
+                <label>Australia Bedfords</label>
+            </value>
+            <value>
+                <fullName>Australia CCA</fullName>
+                <default>false</default>
+                <label>Australia CCA</label>
+            </value>
+            <value>
+                <fullName>Australia Pendulum</fullName>
+                <default>false</default>
+                <label>Australia Pendulum</label>
+            </value>
+            <value>
+                <fullName>Behror</fullName>
+                <default>false</default>
+                <label>Behror</label>
+            </value>
+            <value>
+                <fullName>Blue Ocean</fullName>
+                <default>false</default>
+                <label>Blue Ocean</label>
+            </value>
+            <value>
+                <fullName>Carolina Beer</fullName>
+                <default>false</default>
+                <label>Carolina Beer</label>
+            </value>
+            <value>
+                <fullName>Clermont</fullName>
+                <default>false</default>
+                <label>Clermont</label>
+            </value>
+            <value>
+                <fullName>Cooleys</fullName>
+                <default>false</default>
+                <label>Cooleys</label>
+            </value>
+            <value>
+                <fullName>Cott - Calgary</fullName>
+                <default>false</default>
+                <label>Cott - Calgary</label>
+            </value>
+            <value>
+                <fullName>Cott - Mexico</fullName>
+                <default>false</default>
+                <label>Cott - Mexico</label>
+            </value>
+            <value>
+                <fullName>Cott - Mississauga</fullName>
+                <default>false</default>
+                <label>Cott - Mississauga</label>
+            </value>
+            <value>
+                <fullName>Cott - Viscount</fullName>
+                <default>false</default>
+                <label>Cott - Viscount</label>
+            </value>
+            <value>
+                <fullName>CRS</fullName>
+                <default>false</default>
+                <label>CRS</label>
+            </value>
+            <value>
+                <fullName>DB Schenker</fullName>
+                <default>false</default>
+                <label>DB Schenker</label>
+            </value>
+            <value>
+                <fullName>DIS</fullName>
+                <default>false</default>
+                <label>DIS</label>
+            </value>
+            <value>
+                <fullName>Dominion</fullName>
+                <default>false</default>
+                <label>Dominion</label>
+            </value>
+            <value>
+                <fullName>Frankfort</fullName>
+                <default>false</default>
+                <label>Frankfort</label>
+            </value>
+            <value>
+                <fullName>Frankfort-DHL</fullName>
+                <default>false</default>
+                <label>Frankfort-DHL</label>
+            </value>
+            <value>
+                <fullName>Fundador</fullName>
+                <default>false</default>
+                <label>Fundador</label>
+            </value>
+            <value>
+                <fullName>Germany BSI</fullName>
+                <default>false</default>
+                <label>Germany BSI</label>
+            </value>
+            <value>
+                <fullName>Glenturner</fullName>
+                <default>false</default>
+                <label>Glenturner</label>
+            </value>
+            <value>
+                <fullName>Glen Turner</fullName>
+                <default>false</default>
+                <label>Glen Turner</label>
+            </value>
+            <value>
+                <fullName>Hooghoudt</fullName>
+                <default>false</default>
+                <label>Hooghoudt</label>
+            </value>
+            <value>
+                <fullName>Jarnac</fullName>
+                <default>false</default>
+                <label>Jarnac</label>
+            </value>
+            <value>
+                <fullName>Jerez</fullName>
+                <default>false</default>
+                <label>Jerez</label>
+            </value>
+            <value>
+                <fullName>Loretto</fullName>
+                <default>false</default>
+                <label>Loretto</label>
+            </value>
+            <value>
+                <fullName>Mexico – DHL</fullName>
+                <default>false</default>
+                <label>Mexico – DHL</label>
+            </value>
+            <value>
+                <fullName>BSUK-Springburn</fullName>
+                <default>false</default>
+                <label>BSUK-Springburn</label>
+            </value>
+            <value>
+                <fullName>Ned Cargo</fullName>
+                <default>false</default>
+                <label>Ned Cargo</label>
+            </value>
+            <value>
+                <fullName>New Zealand CCA</fullName>
+                <default>false</default>
+                <label>New Zealand CCA</label>
+            </value>
+            <value>
+                <fullName>Onsort</fullName>
+                <default>false</default>
+                <label>Onsort</label>
+            </value>
+            <value>
+                <fullName>PR - Brazil</fullName>
+                <default>false</default>
+                <label>PR - Brazil</label>
+            </value>
+            <value>
+                <fullName>Pri-Pack</fullName>
+                <default>false</default>
+                <label>Pri-Pack</label>
+            </value>
+            <value>
+                <fullName>Sabia - Argentina</fullName>
+                <default>false</default>
+                <label>Sabia - Argentina</label>
+            </value>
+            <value>
+                <fullName>Sauza</fullName>
+                <default>false</default>
+                <label>Sauza</label>
+            </value>
+            <value>
+                <fullName>Segovia</fullName>
+                <default>false</default>
+                <label>Segovia</label>
+            </value>
+            <value>
+                <fullName>Singapore BSI</fullName>
+                <default>false</default>
+                <label>Singapore BSI</label>
+            </value>
+            <value>
+                <fullName>St. Croix</fullName>
+                <default>false</default>
+                <label>St. Croix</label>
+            </value>
+            <value>
+                <fullName>Suntory - Japanese Whiskey</fullName>
+                <default>false</default>
+                <label>Suntory - Japanese Whiskey</label>
+            </value>
+            <value>
+                <fullName>Tri-Link</fullName>
+                <default>false</default>
+                <label>Tri-Link</label>
+            </value>
+            <value>
+                <fullName>UK MacIntyre Scott</fullName>
+                <default>false</default>
+                <label>UK MacIntyre Scott</label>
+            </value>
+            <value>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+                <label>Unknown</label>
+            </value>
+            <value>
+                <fullName>USBB</fullName>
+                <default>false</default>
+                <label>USBB</label>
+            </value>
+            <value>
+                <fullName>Van Uden</fullName>
+                <default>false</default>
+                <label>Van Uden</label>
+            </value>
+            <value>
+                <fullName>Walkerville</fullName>
+                <default>false</default>
+                <label>Walkerville</label>
+            </value>
+            <value>
+                <fullName>Western Wine Services</fullName>
+                <default>false</default>
+                <label>Western Wine Services</label>
+            </value>
+            <value>
+                <fullName>WTDC</fullName>
+                <default>false</default>
+                <label>WTDC</label>
+            </value>
+            <value>
+                <fullName>Sipsmith</fullName>
+                <default>false</default>
+                <label>Sipsmith</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

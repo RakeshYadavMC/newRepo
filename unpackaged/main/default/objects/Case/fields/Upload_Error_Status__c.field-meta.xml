@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Upload_Error_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Error Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Error_Type__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>VAP/Repack</fullName>
+                <default>false</default>
+                <label>VAP/Repack</label>
+            </value>
+            <value>
+                <fullName>Shortage on STO</fullName>
+                <default>false</default>
+                <label>Shortage on STO</label>
+            </value>
+            <value>
+                <fullName>Transfer/Warehouse</fullName>
+                <default>false</default>
+                <label>Transfer/Warehouse</label>
+            </value>
+            <value>
+                <fullName>PGI</fullName>
+                <default>false</default>
+                <label>PGI</label>
+            </value>
+            <value>
+                <fullName>CMIR Sweep</fullName>
+                <default>false</default>
+                <label>CMIR Sweep</label>
+            </value>
+            <value>
+                <fullName>State Error on PO</fullName>
+                <default>false</default>
+                <label>State Error on PO</label>
+            </value>
+            <value>
+                <fullName>Bottles per Case</fullName>
+                <default>false</default>
+                <label>Bottles per Case</label>
+            </value>
+            <value>
+                <fullName>SKU Sweep MD Error</fullName>
+                <default>false</default>
+                <label>SKU Sweep MD Error</label>
+            </value>
+            <value>
+                <fullName>GBS Routing Error</fullName>
+                <default>false</default>
+                <label>GBS Routing Error</label>
+            </value>
+            <value>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+                <label>Unknown</label>
+            </value>
+            <value>
+                <fullName>Pricing not loaded</fullName>
+                <default>false</default>
+                <label>Pricing not loaded</label>
+            </value>
+            <value>
+                <fullName>Missed Special Order</fullName>
+                <default>false</default>
+                <label>Missed Special Order</label>
+            </value>
+            <value>
+                <fullName>Missed Pricing Filing</fullName>
+                <default>false</default>
+                <label>Missed Pricing Filing</label>
+            </value>
+            <value>
+                <fullName>Data Entry Error</fullName>
+                <default>false</default>
+                <label>Data Entry Error</label>
+            </value>
+            <value>
+                <fullName>PO Date Error</fullName>
+                <default>false</default>
+                <label>PO Date Error</label>
+            </value>
+            <value>
+                <fullName>State PO Error</fullName>
+                <default>false</default>
+                <label>State PO Error</label>
+            </value>
+            <value>
+                <fullName>Trade Show Item</fullName>
+                <default>false</default>
+                <label>Trade Show Item</label>
+            </value>
+            <value>
+                <fullName>Costing not loaded</fullName>
+                <default>false</default>
+                <label>Costing not loaded</label>
+            </value>
+            <value>
+                <fullName>Costing obsolete</fullName>
+                <default>false</default>
+                <label>Costing obsolete</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Upload Error</controllingFieldValue>
+            <controllingFieldValue>PGI Error</controllingFieldValue>
+            <controllingFieldValue>Removal Approval</controllingFieldValue>
+            <valueName>VAP/Repack</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Upload Error</controllingFieldValue>
+            <controllingFieldValue>PGI Error</controllingFieldValue>
+            <controllingFieldValue>Removal Approval</controllingFieldValue>
+            <valueName>Shortage on STO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Upload Error</controllingFieldValue>
+            <controllingFieldValue>PGI Error</controllingFieldValue>
+            <controllingFieldValue>Removal Approval</controllingFieldValue>
+            <valueName>Transfer/Warehouse</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Upload Error</controllingFieldValue>
+            <controllingFieldValue>PGI Error</controllingFieldValue>
+            <controllingFieldValue>Removal Approval</controllingFieldValue>
+            <valueName>PGI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Upload Error</controllingFieldValue>
+            <controllingFieldValue>PGI Error</controllingFieldValue>
+            <controllingFieldValue>Removal Approval</controllingFieldValue>
+            <valueName>CMIR Sweep</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Upload Error</controllingFieldValue>
+            <controllingFieldValue>PGI Error</controllingFieldValue>
+            <controllingFieldValue>Removal Approval</controllingFieldValue>
+            <valueName>State Error on PO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Upload Error</controllingFieldValue>
+            <controllingFieldValue>PGI Error</controllingFieldValue>
+            <controllingFieldValue>Removal Approval</controllingFieldValue>
+            <valueName>Bottles per Case</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Upload Error</controllingFieldValue>
+            <controllingFieldValue>PGI Error</controllingFieldValue>
+            <controllingFieldValue>Removal Approval</controllingFieldValue>
+            <valueName>SKU Sweep MD Error</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Upload Error</controllingFieldValue>
+            <controllingFieldValue>Pricing Error</controllingFieldValue>
+            <controllingFieldValue>PGI Error</controllingFieldValue>
+            <controllingFieldValue>Costing Error</controllingFieldValue>
+            <controllingFieldValue>Removal Approval</controllingFieldValue>
+            <valueName>GBS Routing Error</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Upload Error</controllingFieldValue>
+            <controllingFieldValue>Pricing Error</controllingFieldValue>
+            <controllingFieldValue>PGI Error</controllingFieldValue>
+            <controllingFieldValue>Costing Error</controllingFieldValue>
+            <controllingFieldValue>Removal Approval</controllingFieldValue>
+            <valueName>Unknown</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pricing Error</controllingFieldValue>
+            <valueName>Pricing not loaded</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pricing Error</controllingFieldValue>
+            <valueName>Missed Special Order</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pricing Error</controllingFieldValue>
+            <valueName>Missed Pricing Filing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pricing Error</controllingFieldValue>
+            <valueName>Data Entry Error</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pricing Error</controllingFieldValue>
+            <valueName>PO Date Error</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pricing Error</controllingFieldValue>
+            <valueName>State PO Error</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pricing Error</controllingFieldValue>
+            <valueName>Trade Show Item</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Costing Error</controllingFieldValue>
+            <valueName>Costing not loaded</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Costing Error</controllingFieldValue>
+            <valueName>Costing obsolete</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

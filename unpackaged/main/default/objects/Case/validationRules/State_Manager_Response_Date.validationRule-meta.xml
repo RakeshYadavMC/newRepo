@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>State_Manager_Response_Date</fullName>
+    <active>true</active>
+    <description>State Manager Response Date is required in order to close a Price Filing case.</description>
+    <errorConditionFormula>AND(
+Case_Record_Type__c == 'Price Filing',
+OR(
+ISPICKVAL(Status, 'Closed' ), 
+ISPICKVAL(Status, 'Close Pending' )
+),
+ISBLANK(State_Manager_Response_Date__c)
+)</errorConditionFormula>
+    <errorMessage>State Manager Response Date is required in order to close a Price Filing case!</errorMessage>
+</ValidationRule>

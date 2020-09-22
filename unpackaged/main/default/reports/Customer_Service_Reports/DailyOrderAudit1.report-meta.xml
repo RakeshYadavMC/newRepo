@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Case$CaseNumber</field>
+    </columns>
+    <columns>
+        <field>Case$Beam_Suntory_Order_Number__c</field>
+    </columns>
+    <columns>
+        <field>Case$Owner</field>
+    </columns>
+    <columns>
+        <field>Case$RecordType</field>
+    </columns>
+    <columns>
+        <field>Case$ClosedDate</field>
+    </columns>
+    <columns>
+        <field>Case$Customer_Name__c</field>
+    </columns>
+    <columns>
+        <field>Case$CreatedDate</field>
+    </columns>
+    <currency>USD</currency>
+    <description>Daily Orders Team Audit Report</description>
+    <format>Tabular</format>
+    <name>DailyOrderAudit</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Cases__c</reportType>
+    <scope>useronly</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Case$CreatedDate</dateColumn>
+        <endDate>2016-04-30</endDate>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2016-04-01</startDate>
+    </timeFrameFilter>
+</Report>

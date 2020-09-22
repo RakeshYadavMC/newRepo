@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <description>Type of Stave</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Type of Stave</inlineHelpText>
+    <label>Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Baked American Pure 2</fullName>
+                <default>false</default>
+                <label>Baked American Pure 2</label>
+            </value>
+            <value>
+                <fullName>Seared French Cuvee</fullName>
+                <default>false</default>
+                <label>Seared French Cuvee</label>
+            </value>
+            <value>
+                <fullName>Maker's 46</fullName>
+                <default>false</default>
+                <label>Maker's 46</label>
+            </value>
+            <value>
+                <fullName>Roasted French Mocha</fullName>
+                <default>false</default>
+                <label>Roasted French Mocha</label>
+            </value>
+            <value>
+                <fullName>Toasted French Spice</fullName>
+                <default>false</default>
+                <label>Toasted French Spice</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

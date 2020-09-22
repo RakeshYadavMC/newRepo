@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>PR_Header__c.Status__c</field>
+    </columns>
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>PR_Header__c.PR_Details_Records_Count__c</field>
+    </columns>
+    <columns>
+        <field>PR_Header__c.Finance_Reviewer__c</field>
+    </columns>
+    <columns>
+        <field>CUST_LAST_UPDATE_NAME</field>
+    </columns>
+    <columns>
+        <field>CUST_LAST_UPDATE</field>
+    </columns>
+    <currency>USD</currency>
+    <description>This report provides the PR Headers &amp; PR Details for completed PRs with the Finance Reviewer</description>
+    <filter>
+        <criteriaItems>
+            <column>PR_Header__c.Status__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Completed,Submitted,Approved By Procurement,Approved By Finance</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <name>PR Header &amp; PR Details - Reviewers</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntityCustomEntity$PR_Header__c$PR_Detail__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>CUST_NAME</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>PR_Header__c.Date_Time_Approval_Submission__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

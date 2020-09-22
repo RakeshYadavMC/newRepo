@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer Data</fullName>
+    <description>(Customer Service and Compliance) Support process for Customer Data cases</description>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Closed</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>DUP - No Action</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>New</fullName>
+        <default>true</default>
+    </values>
+    <values>
+        <fullName>Pending Activity</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Pending Sub-Case</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Ready to Load</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Working</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

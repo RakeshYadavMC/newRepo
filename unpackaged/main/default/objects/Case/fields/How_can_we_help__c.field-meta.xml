@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>How_can_we_help__c</fullName>
+    <externalId>false</externalId>
+    <label>How can we help you?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Product or Packaging issue</fullName>
+                <default>false</default>
+                <label>Product or Packaging issue</label>
+            </value>
+            <value>
+                <fullName>Where to Buy Product</fullName>
+                <default>false</default>
+                <label>Where to Buy Product</label>
+            </value>
+            <value>
+                <fullName>Visiting the Distillery</fullName>
+                <default>false</default>
+                <label>Visiting the Distillery</label>
+            </value>
+            <value>
+                <fullName>PR or Media Inquiry</fullName>
+                <default>false</default>
+                <label>PR or Media Inquiry</label>
+            </value>
+            <value>
+                <fullName>Sponsorship or Charity</fullName>
+                <default>false</default>
+                <label>Sponsorship or Charity</label>
+            </value>
+            <value>
+                <fullName>Our Online store</fullName>
+                <default>false</default>
+                <label>Our Online store</label>
+            </value>
+            <value>
+                <fullName>Product Information</fullName>
+                <default>false</default>
+                <label>Product Information</label>
+            </value>
+            <value>
+                <fullName>Other Inquiry</fullName>
+                <default>false</default>
+                <label>Other Inquiry</label>
+            </value>
+            <value>
+                <fullName>Friends of Laphroaig</fullName>
+                <default>false</default>
+                <label>Friends of Laphroaig</label>
+            </value>
+            <value>
+                <fullName>Makers Mark Program</fullName>
+                <default>false</default>
+                <label>Makers Mark Program</label>
+            </value>
+            <value>
+                <fullName>Charity</fullName>
+                <default>false</default>
+                <label>Charity</label>
+            </value>
+            <value>
+                <fullName>I'm having a problem with one of your products</fullName>
+                <default>false</default>
+                <label>I'm having a problem with one of your products</label>
+            </value>
+            <value>
+                <fullName>Decanter Inquiry</fullName>
+                <default>false</default>
+                <label>Decanter Inquiry</label>
+            </value>
+            <value>
+                <fullName>Public Relations</fullName>
+                <default>false</default>
+                <label>Public Relations</label>
+            </value>
+            <value>
+                <fullName>Distillery Tours</fullName>
+                <default>false</default>
+                <label>Distillery Tours</label>
+            </value>
+            <value>
+                <fullName>What's the value of my bottle?</fullName>
+                <default>false</default>
+                <label>What's the value of my bottle?</label>
+            </value>
+            <value>
+                <fullName>Merchandise Request</fullName>
+                <default>false</default>
+                <label>Merchandise Request</label>
+            </value>
+            <value>
+                <fullName>Nutrition Information</fullName>
+                <default>false</default>
+                <label>Nutrition Information</label>
+            </value>
+            <value>
+                <fullName>Questions about our Products</fullName>
+                <default>false</default>
+                <label>Questions about our Products</label>
+            </value>
+            <value>
+                <fullName>General Inquiries</fullName>
+                <default>false</default>
+                <label>General Inquiries</label>
+            </value>
+            <value>
+                <fullName>Website Enquiry</fullName>
+                <default>false</default>
+                <label>Website Enquiry</label>
+            </value>
+            <value>
+                <fullName>Point Redemption</fullName>
+                <default>false</default>
+                <label>Point Redemption</label>
+            </value>
+            <value>
+                <fullName>FOL Plot of Land Enquiry</fullName>
+                <default>false</default>
+                <label>FOL Plot of Land Enquiry</label>
+            </value>
+            <value>
+                <fullName>Laphroaig Whisky Questions</fullName>
+                <default>false</default>
+                <label>Laphroaig Whisky Questions</label>
+            </value>
+            <value>
+                <fullName>Visiting Islay</fullName>
+                <default>false</default>
+                <label>Visiting Islay</label>
+            </value>
+            <value>
+                <fullName>Product Issue</fullName>
+                <default>false</default>
+                <label>Product Issue</label>
+            </value>
+            <value>
+                <fullName>Package Issue/Cork</fullName>
+                <default>false</default>
+                <label>Package Issue/Cork</label>
+            </value>
+            <value>
+                <fullName>Package Issue/Other Inquiry</fullName>
+                <default>false</default>
+                <label>Package Issue/Other Inquiry</label>
+            </value>
+            <value>
+                <fullName>Courvoisier - Chateau Tours</fullName>
+                <default>false</default>
+                <label>Courvoisier - Chateau Tours</label>
+            </value>
+            <value>
+                <fullName>Brand Ambassador</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Brand Ambassador</label>
+            </value>
+            <value>
+                <fullName>Coupons</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Coupons</label>
+            </value>
+            <value>
+                <fullName>Distributions</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Distributions</label>
+            </value>
+            <value>
+                <fullName>Employment/Careers</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Employment/Careers</label>
+            </value>
+            <value>
+                <fullName>Free Product/Free Merchandise</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Free Product/Free Merchandise</label>
+            </value>
+            <value>
+                <fullName>Influencers</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Influencers</label>
+            </value>
+            <value>
+                <fullName>Ingredients</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Ingredients</label>
+            </value>
+            <value>
+                <fullName>Licencing</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Licencing</label>
+            </value>
+            <value>
+                <fullName>Merchandise Request / Online store</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Merchandise Request / Online store</label>
+            </value>
+            <value>
+                <fullName>Nutritional Information</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Nutritional Information</label>
+            </value>
+            <value>
+                <fullName>Others</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Others</label>
+            </value>
+            <value>
+                <fullName>Product / Packaging issue</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Product / Packaging issue</label>
+            </value>
+            <value>
+                <fullName>Rebates</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Rebates</label>
+            </value>
+            <value>
+                <fullName>Shelf life</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Shelf life</label>
+            </value>
+            <value>
+                <fullName>Sponsorship</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Sponsorship</label>
+            </value>
+            <value>
+                <fullName>Value of my bottle</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Value of my bottle</label>
+            </value>
+            <value>
+                <fullName>Where can I buy?</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Where can I buy?</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

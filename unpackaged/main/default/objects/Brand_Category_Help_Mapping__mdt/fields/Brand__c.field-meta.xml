@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Brand__c</fullName>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Brand</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>2 Gingers</fullName>
+                <default>false</default>
+                <label>2 Gingers</label>
+            </value>
+            <value>
+                <fullName>Alberta Rye</fullName>
+                <default>false</default>
+                <label>Alberta Rye</label>
+            </value>
+            <value>
+                <fullName>Ardmore</fullName>
+                <default>false</default>
+                <label>Ardmore</label>
+            </value>
+            <value>
+                <fullName>Auchentoshan</fullName>
+                <default>false</default>
+                <label>Auchentoshan</label>
+            </value>
+            <value>
+                <fullName>Baker's</fullName>
+                <default>false</default>
+                <label>Baker's</label>
+            </value>
+            <value>
+                <fullName>Basil Hayden's</fullName>
+                <default>false</default>
+                <label>Basil Hayden's</label>
+            </value>
+            <value>
+                <fullName>Beam Suntory Corporate</fullName>
+                <default>false</default>
+                <label>Beam Suntory Corporate</label>
+            </value>
+            <value>
+                <fullName>Booker's</fullName>
+                <default>false</default>
+                <label>Booker's</label>
+            </value>
+            <value>
+                <fullName>Bowmore</fullName>
+                <default>false</default>
+                <label>Bowmore</label>
+            </value>
+            <value>
+                <fullName>Calico Jack</fullName>
+                <default>false</default>
+                <label>Calico Jack</label>
+            </value>
+            <value>
+                <fullName>Canadian Club</fullName>
+                <default>false</default>
+                <label>Canadian Club</label>
+            </value>
+            <value>
+                <fullName>Connemara</fullName>
+                <default>false</default>
+                <label>Connemara</label>
+            </value>
+            <value>
+                <fullName>Courvoisier</fullName>
+                <default>false</default>
+                <label>Courvoisier</label>
+            </value>
+            <value>
+                <fullName>Cruzan</fullName>
+                <default>false</default>
+                <label>Cruzan</label>
+            </value>
+            <value>
+                <fullName>DeKuyper</fullName>
+                <default>false</default>
+                <label>DeKuyper</label>
+            </value>
+            <value>
+                <fullName>Drink Smart</fullName>
+                <default>false</default>
+                <label>Drink Smart</label>
+            </value>
+            <value>
+                <fullName>EFFEN</fullName>
+                <default>false</default>
+                <label>EFFEN</label>
+            </value>
+            <value>
+                <fullName>El Tesoro</fullName>
+                <default>false</default>
+                <label>El Tesoro</label>
+            </value>
+            <value>
+                <fullName>Glen Garioch</fullName>
+                <default>false</default>
+                <label>Glen Garioch</label>
+            </value>
+            <value>
+                <fullName>Green Ore Wiskey</fullName>
+                <default>false</default>
+                <label>Green Ore Wiskey</label>
+            </value>
+            <value>
+                <fullName>Hornitos</fullName>
+                <default>false</default>
+                <label>Hornitos</label>
+            </value>
+            <value>
+                <fullName>House of Suntory</fullName>
+                <default>false</default>
+                <label>House of Suntory</label>
+            </value>
+            <value>
+                <fullName>Jim Beam</fullName>
+                <default>false</default>
+                <label>Jim Beam</label>
+            </value>
+            <value>
+                <fullName>Jim Beam Global</fullName>
+                <default>false</default>
+                <label>Jim Beam Global</label>
+            </value>
+            <value>
+                <fullName>Kamora</fullName>
+                <default>false</default>
+                <label>Kamora</label>
+            </value>
+            <value>
+                <fullName>Kilbeggan</fullName>
+                <default>false</default>
+                <label>Kilbeggan</label>
+            </value>
+            <value>
+                <fullName>Kilbeggan Distillery</fullName>
+                <default>false</default>
+                <label>Kilbeggan Distillery</label>
+            </value>
+            <value>
+                <fullName>Knob Creek</fullName>
+                <default>false</default>
+                <label>Knob Creek</label>
+            </value>
+            <value>
+                <fullName>Laphroaig</fullName>
+                <default>false</default>
+                <label>Laphroaig</label>
+            </value>
+            <value>
+                <fullName>Legent</fullName>
+                <default>false</default>
+                <label>Legent</label>
+            </value>
+            <value>
+                <fullName>Little Book</fullName>
+                <default>false</default>
+                <label>Little Book</label>
+            </value>
+            <value>
+                <fullName>Makers Mark</fullName>
+                <default>false</default>
+                <label>Makers Mark</label>
+            </value>
+            <value>
+                <fullName>Midori</fullName>
+                <default>false</default>
+                <label>Midori</label>
+            </value>
+            <value>
+                <fullName>Old Whiskeys</fullName>
+                <default>false</default>
+                <label>Old Whiskeys</label>
+            </value>
+            <value>
+                <fullName>Pavan</fullName>
+                <default>false</default>
+                <label>Pavan</label>
+            </value>
+            <value>
+                <fullName>Peated Malts of Distinction</fullName>
+                <default>false</default>
+                <label>Peated Malts of Distinction</label>
+            </value>
+            <value>
+                <fullName>Pinnacle</fullName>
+                <default>false</default>
+                <label>Pinnacle</label>
+            </value>
+            <value>
+                <fullName>Sauza</fullName>
+                <default>false</default>
+                <label>Sauza</label>
+            </value>
+            <value>
+                <fullName>Sauza 901</fullName>
+                <default>false</default>
+                <label>Sauza 901</label>
+            </value>
+            <value>
+                <fullName>Sipsmith</fullName>
+                <default>false</default>
+                <label>Sipsmith</label>
+            </value>
+            <value>
+                <fullName>Skinnygirl</fullName>
+                <default>false</default>
+                <label>Skinnygirl</label>
+            </value>
+            <value>
+                <fullName>Teacher's</fullName>
+                <default>false</default>
+                <label>Teacher's</label>
+            </value>
+            <value>
+                <fullName>Teachers origin</fullName>
+                <default>false</default>
+                <label>Teachers origin</label>
+            </value>
+            <value>
+                <fullName>The Cocktail Project</fullName>
+                <default>false</default>
+                <label>The Cocktail Project</label>
+            </value>
+            <value>
+                <fullName>The Olds</fullName>
+                <default>false</default>
+                <label>The Olds</label>
+            </value>
+            <value>
+                <fullName>Tokitime</fullName>
+                <default>false</default>
+                <label>Tokitime</label>
+            </value>
+            <value>
+                <fullName>Tres Generaciones</fullName>
+                <default>false</default>
+                <label>Tres Generaciones</label>
+            </value>
+            <value>
+                <fullName>Tyrconnell</fullName>
+                <default>false</default>
+                <label>Tyrconnell</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Custom Store Group --></label>
+        <name>Custom_Store_Group__c</name>
+        <relationshipLabel><!-- AccountStoreGroups --></relationshipLabel>
+    </CustomFieldTranslation>

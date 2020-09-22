@@ -1,0 +1,2 @@
+<p>Dear {!Contact.FirstName},</p>
+<p>Thanks for your email. {!Case.Product_Type__c} does not product decanters. If you own a decanter featuring the {!Case.Product_Type__c} logo, we recommend contacting the store where you purchased the piece for further information.</p>

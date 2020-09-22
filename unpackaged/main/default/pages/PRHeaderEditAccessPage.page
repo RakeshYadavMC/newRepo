@@ -1,0 +1,1 @@
+<apex:page id="editId" standardController="PR_Header__c" extensions="PRHeaderEdit" showheader="true" action="{!redirectEdit}" />

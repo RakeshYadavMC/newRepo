@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ReasonWonorLost__c</fullName>
+    <externalId>false</externalId>
+    <label>Reason Won or Lost</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>StageName</controllingField>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Aperity Driven</fullName>
+                <default>false</default>
+                <label>Aperity Driven</label>
+            </value>
+            <value>
+                <fullName>Competitor</fullName>
+                <default>false</default>
+                <label>Competitor</label>
+            </value>
+            <value>
+                <fullName>Customer Request</fullName>
+                <default>false</default>
+                <label>Customer Request</label>
+            </value>
+            <value>
+                <fullName>Customer Strategy</fullName>
+                <default>false</default>
+                <label>Customer Strategy</label>
+            </value>
+            <value>
+                <fullName>Didn't Sell Before</fullName>
+                <default>false</default>
+                <label>Didn't Sell Before</label>
+            </value>
+            <value>
+                <fullName>Distribution Deal</fullName>
+                <default>false</default>
+                <label>Distribution Deal</label>
+            </value>
+            <value>
+                <fullName>Never Responded</fullName>
+                <default>false</default>
+                <label>Never Responded</label>
+            </value>
+            <value>
+                <fullName>No Space</fullName>
+                <default>false</default>
+                <label>No Space</label>
+            </value>
+            <value>
+                <fullName>Not on Cocktail Menu</fullName>
+                <default>false</default>
+                <label>Not on Cocktail Menu</label>
+            </value>
+            <value>
+                <fullName>Not Relevant for Customers</fullName>
+                <default>false</default>
+                <label>Not Relevant for Customers</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Popular Demand</fullName>
+                <default>false</default>
+                <label>Popular Demand</label>
+            </value>
+            <value>
+                <fullName>Price</fullName>
+                <default>false</default>
+                <label>Price</label>
+            </value>
+            <value>
+                <fullName>Product Availability</fullName>
+                <default>false</default>
+                <label>Product Availability</label>
+            </value>
+            <value>
+                <fullName>Quality Improvements</fullName>
+                <default>false</default>
+                <label>Quality Improvements</label>
+            </value>
+            <value>
+                <fullName>Relationship</fullName>
+                <default>false</default>
+                <label>Relationship</label>
+            </value>
+            <value>
+                <fullName>Taste</fullName>
+                <default>false</default>
+                <label>Taste</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Closed - Won Opportunity</controllingFieldValue>
+            <valueName>Customer Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed - Won Opportunity</controllingFieldValue>
+            <valueName>Customer Strategy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed - Won Opportunity</controllingFieldValue>
+            <valueName>Distribution Deal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed - Won Opportunity</controllingFieldValue>
+            <controllingFieldValue>Closed - Lost Opportunity</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed - Won Opportunity</controllingFieldValue>
+            <valueName>Popular Demand</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed - Won Opportunity</controllingFieldValue>
+            <controllingFieldValue>Closed - Lost Opportunity</controllingFieldValue>
+            <valueName>Price</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed - Won Opportunity</controllingFieldValue>
+            <controllingFieldValue>Closed - Lost Opportunity</controllingFieldValue>
+            <valueName>Product Availability</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed - Won Opportunity</controllingFieldValue>
+            <valueName>Quality Improvements</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed - Won Opportunity</controllingFieldValue>
+            <valueName>Relationship</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed - Won Opportunity</controllingFieldValue>
+            <valueName>Taste</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed - Lost Opportunity</controllingFieldValue>
+            <valueName>Competitor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed - Lost Opportunity</controllingFieldValue>
+            <valueName>Didn't Sell Before</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed - Lost Opportunity</controllingFieldValue>
+            <valueName>Never Responded</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed - Lost Opportunity</controllingFieldValue>
+            <valueName>No Space</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed - Lost Opportunity</controllingFieldValue>
+            <valueName>Not on Cocktail Menu</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed - Lost Opportunity</controllingFieldValue>
+            <valueName>Not Relevant for Customers</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

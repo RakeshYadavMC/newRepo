@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RequestStatus__c</fullName>
+    <description>Field used to view the current status of the IO generation.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Field used to view the current status of the IO generation.</inlineHelpText>
+    <label>Request Status</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>IO Not Requested</fullName>
+                <default>true</default>
+                <label>IO Not Requested</label>
+            </value>
+            <value>
+                <fullName>IO Pending</fullName>
+                <default>false</default>
+                <label>IO Pending</label>
+            </value>
+            <value>
+                <fullName>IO Processing</fullName>
+                <default>false</default>
+                <label>IO Processing</label>
+            </value>
+            <value>
+                <fullName>IO Created</fullName>
+                <default>false</default>
+                <label>IO Created</label>
+            </value>
+            <value>
+                <fullName>IO Rejected</fullName>
+                <default>false</default>
+                <label>IO Rejected</label>
+            </value>
+            <value>
+                <fullName>WBS Not Requested</fullName>
+                <default>false</default>
+                <label>WBS Not Requested</label>
+            </value>
+            <value>
+                <fullName>WBS Pending</fullName>
+                <default>false</default>
+                <label>WBS Pending</label>
+            </value>
+            <value>
+                <fullName>WBS Processing</fullName>
+                <default>false</default>
+                <label>WBS Processing</label>
+            </value>
+            <value>
+                <fullName>WBS Created</fullName>
+                <default>false</default>
+                <label>WBS Created</label>
+            </value>
+            <value>
+                <fullName>WBS Rejected</fullName>
+                <default>false</default>
+                <label>WBS Rejected</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

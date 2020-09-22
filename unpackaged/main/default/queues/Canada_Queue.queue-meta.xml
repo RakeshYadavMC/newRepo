@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <email>cs_canada@beamsuntory.com</email>
+    <name>Canada Queue</name>
+    <queueMembers>
+        <roles>
+            <role>Compliance_Coordinator</role>
+            <role>Customer_Service_Coordinator</role>
+            <role>Customer_Service_Management</role>
+        </roles>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

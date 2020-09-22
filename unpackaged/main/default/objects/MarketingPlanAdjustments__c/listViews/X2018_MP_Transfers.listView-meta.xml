@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X2018_MP_Transfers</fullName>
+    <columns>NAME</columns>
+    <columns>TransferringMarketingPlan__c</columns>
+    <columns>ReceivingMarketingPlan__c</columns>
+    <columns>Amount__c</columns>
+    <columns>Request_Status__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>UPDATEDBY_USER</columns>
+    <columns>Within_Same_Brand__c</columns>
+    <columns>Within_Same_Region__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>TransferringMPYearHidden__c</field>
+        <operation>equals</operation>
+        <value>2018</value>
+    </filters>
+    <label>2018 MP Transfers</label>
+    <language>en_US</language>
+</ListView>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pinnacle_Vodka_Commercial_MarketingPlan</fullName>
+    <columns>NAME</columns>
+    <columns>Year__c</columns>
+    <filterScope>Queue</filterScope>
+    <label>Pinnacle Vodka - Commercial</label>
+    <language>en_US</language>
+    <queue>Pinnacle_Vodka_Commercial</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

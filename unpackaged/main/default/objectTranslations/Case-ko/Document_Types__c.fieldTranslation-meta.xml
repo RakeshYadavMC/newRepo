@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Document Types --></label>
+        <name>Document_Types__c</name>
+        <picklistValues>
+            <masterLabel>Annex VIII</masterLabel>
+            <translation><!-- Annex VIII --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOL</masterLabel>
+            <translation><!-- BOL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bill of Lading</masterLabel>
+            <translation><!-- Bill of Lading --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Certificate of Age</masterLabel>
+            <translation><!-- Certificate of Age --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Certificate of Analysis</masterLabel>
+            <translation><!-- Certificate of Analysis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Certificate of Freesale</masterLabel>
+            <translation><!-- Certificate of Freesale --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Certificate of Origin</masterLabel>
+            <translation><!-- Certificate of Origin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Custom Clearing Document</masterLabel>
+            <translation><!-- Custom Clearing Document --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Direct Import Invoice</masterLabel>
+            <translation><!-- Direct Import Invoice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice</masterLabel>
+            <translation><!-- Invoice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Order Acknowledgement</masterLabel>
+            <translation><!-- Order Acknowledgement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Packing List</masterLabel>
+            <translation><!-- Packing List --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Packing Slip</masterLabel>
+            <translation><!-- Packing Slip --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Proforma</masterLabel>
+            <translation><!-- Proforma --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

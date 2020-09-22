@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GBS_Resolution_Required</fullName>
+    <active>true</active>
+    <description>Case Resolution Details Field is required to close any GBS Case</description>
+    <errorConditionFormula>AND(
+  ISBLANK(Case_Resolution_Details__c),
+  NOT(CONTAINS(TEXT(PRIORVALUE(Status)),'Closed')),
+  CONTAINS(TEXT(Status),'Closed'),
+  OR(
+    RecordType.DeveloperName = "GMDM",
+    RecordType.DeveloperName = "HR",
+    CONTAINS(RecordType.DeveloperName, "OTC"),
+    RecordType.DeveloperName = "PTP_AP_PR_PO",
+    RecordType.DeveloperName = "PTP_AP",
+    RecordType.DeveloperName = "GMDM_Center_Change",
+    RecordType.DeveloperName = "GMDM_Center_Account_Create",
+    RecordType.DeveloperName = "GMDM_Customer_Hierarchy",
+    RecordType.DeveloperName = "GMDM_Customer_Maintenance",
+    RecordType.DeveloperName = "GMDM_EDW_Mapping",
+    RecordType.DeveloperName = "GMDM_Account_Change_Extend",
+    RecordType.DeveloperName = "GMDM_Materials",
+    RecordType.DeveloperName = "GMDM_Rebates",
+    RecordType.DeveloperName = "GMDM_Simple_Request",
+    RecordType.DeveloperName = "GMDM_Vendor_Maintenance",
+    RecordType.DeveloperName = "RTR",
+    RecordType.DeveloperName = "T_E",
+    RecordType.DeveloperName = "Payroll",
+    RecordType.DeveloperName = "Tax",
+    RecordType.DeveloperName = "Claims"
+  )
+)</errorConditionFormula>
+    <errorDisplayField>Case_Resolution_Details__c</errorDisplayField>
+    <errorMessage>Case Resolution Details are required</errorMessage>
+</ValidationRule>

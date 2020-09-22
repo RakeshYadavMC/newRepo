@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>State_Manager__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>PS-MC-SB-25 It is use to manage State manager of state</description>
+    <externalId>false</externalId>
+    <label>State Manager</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>User.IsActive</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>User</referenceTo>
+    <relationshipName>States</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ParentProgram__c</fullName>
+    <description>Parent marketing plans program</description>
+    <externalId>false</externalId>
+    <formula>ParentMarketingPlan__r.Related_Program__c</formula>
+    <label>ParentProgram</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

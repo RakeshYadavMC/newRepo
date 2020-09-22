@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Composite_Rating__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(Tour__c,(
+Case(Tour_Guide_Rating__c,
+"1",1,
+"2",2,
+"3",3,
+"4",4,
+"5",5,0) +
+Case(Tour_Content_Rating__c,
+"1",1,
+"2",2,
+"3",3,
+"4",4,
+"5",5,0) +
+Case(Tasting_Rating__c,
+"1",1,
+"2",2,
+"3",3,
+"4",4,
+"5",5,0) +
+Case(Gift_Shop_Rating__c,
+"1",1,
+"2",2,
+"3",3,
+"4",4,
+"5",5,0) +
+Case(Food_Rating__c,
+"1",1,
+"2",2,
+"3",3,
+"4",4,
+"5",5,0))/5
+,(
+Case(Gift_Shop_Rating__c,
+"1",1,
+"2",2,
+"3",3,
+"4",4,
+"5",5,0) +
+Case(Food_Rating__c,
+"1",1,
+"2",2,
+"3",3,
+"4",4,
+"5",5,0))/2)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Average of Tour and Stillhouse Ratings or just the Sthillhouse Ratings if a Tour wasn't taken</inlineHelpText>
+    <label>Composite Rating</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

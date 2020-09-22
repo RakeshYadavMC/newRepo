@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CommittedCampaignSpend__c</fullName>
+    <description>Sum of Committed Spend sent from SAP.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Sum of Committed Spend sent from SAP.</inlineHelpText>
+    <label>Committed Campaign Spend</label>
+    <summarizedField>Campaign_Spend__c.Amount__c</summarizedField>
+    <summaryFilterItems>
+        <field>Campaign_Spend__c.RecordTypeId</field>
+        <operation>equals</operation>
+        <value>Committed_AUS, Committed</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Campaign_Spend__c.ParentCampaign__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

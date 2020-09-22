@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Represented_States__c</fullName>
+    <description>(Compliance) A location to assign a user to one or more states for representing Compliance cases, such as Quote Requests assignment, Quote Request submission, Brand Registration Sub Cases, and more.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Assigned state in the Compliance workflow</inlineHelpText>
+    <label>Represented States</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>States</valueSetName>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

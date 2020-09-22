@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ParentCase__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>A custom lookup to Case for use in reporting. Mirrors the "Parent" relationship on Case using trigger logic.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The Parent of this Case</inlineHelpText>
+    <label>Parent</label>
+    <referenceTo>Case</referenceTo>
+    <relationshipLabel>Child Cases</relationshipLabel>
+    <relationshipName>ChildCases</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

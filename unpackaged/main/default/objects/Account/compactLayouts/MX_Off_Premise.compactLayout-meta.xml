@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MX_Off_Premise</fullName>
+    <fields>Name</fields>
+    <fields>gvp__Account_Key__c</fields>
+    <fields>gvp__BDN_Trade_Channel__c</fields>
+    <fields>gvp__Credit_Status__c</fields>
+    <fields>gvp__Credit_Limit__c</fields>
+    <label>MX Off-Premise</label>
+</CompactLayout>

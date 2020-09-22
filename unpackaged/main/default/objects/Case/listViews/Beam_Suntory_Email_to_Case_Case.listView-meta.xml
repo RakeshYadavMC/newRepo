@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Beam_Suntory_Email_to_Case_Case</fullName>
+    <columns>VIP_Check__c</columns>
+    <filterScope>Queue</filterScope>
+    <label>Beam Suntory Email-to-Case</label>
+    <language>en_US</language>
+    <queue>Beam_Suntory_Email_to_Case</queue>
+    <sharedTo>
+        <group>CS_Employees</group>
+        <group>GBS_Employees_All</group>
+    </sharedTo>
+</ListView>

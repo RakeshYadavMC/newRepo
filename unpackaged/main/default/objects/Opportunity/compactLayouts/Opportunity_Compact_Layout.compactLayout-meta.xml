@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opportunity_Compact_Layout</fullName>
+    <fields>BrandVariety__c</fields>
+    <fields>SizeDescription__c</fields>
+    <fields>Rank__c</fields>
+    <label>Opportunity Compact Layout</label>
+</CompactLayout>

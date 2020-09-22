@@ -1,0 +1,6 @@
+Hi {!Case.OwnerFullName}
+
+{!Case.Priority} Case # {!Case.CaseNumber} - {!Case.How_can_we_help__c} - '{!Case.AdditionalInformation__c}' is created on {!DATETIMEVALUE(Case.CreatedDate)} and needs to be reviewed.
+
+Thank You
+Beam Suntory

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Louisiana_MarketingPlan</fullName>
+    <columns>NAME</columns>
+    <columns>Brand__c</columns>
+    <columns>Territory__c</columns>
+    <columns>Region__c</columns>
+    <columns>Division__c</columns>
+    <columns>Budget__c</columns>
+    <columns>CampaignBudget__c</columns>
+    <columns>CampaignBalance__c</columns>
+    <columns>Year__c</columns>
+    <filterScope>Queue</filterScope>
+    <filters>
+        <field>Year__c</field>
+        <operation>equals</operation>
+        <value>2020</value>
+    </filters>
+    <label>Louisiana</label>
+    <language>en_US</language>
+    <queue>Louisiana</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

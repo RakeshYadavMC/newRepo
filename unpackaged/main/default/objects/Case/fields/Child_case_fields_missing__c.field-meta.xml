@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Child_case_fields_missing__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Financial Disposition and Return SAP Number are required to close the parent case, this field will be set to true if either of those fields are missing from the child cases for recordtype of "Order Claim Sub Case"</description>
+    <externalId>false</externalId>
+    <label>Child case fields missing</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

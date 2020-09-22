@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SamlSsoConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <identityLocation>SubjectNameId</identityLocation>
+    <identityMapping>FederationId</identityMapping>
+    <issuer>http://beamso.beamsuntory.com/adfs/services/trust</issuer>
+    <loginUrl>https://beamso.beamsuntory.com/adfs/ls/</loginUrl>
+    <logoutUrl>http://stir.beamsuntory.com</logoutUrl>
+    <name>Beam Suntory</name>
+    <oauthTokenEndpoint>https://beamsuntory.my.salesforce.com/services/oauth2/token?so=00Do0000000cCkJ</oauthTokenEndpoint>
+    <redirectBinding>true</redirectBinding>
+    <requestSignatureMethod>1</requestSignatureMethod>
+    <requestSigningCertId>0P11J000000Z6AO</requestSigningCertId>
+    <salesforceLoginUrl>https://beamsuntory.my.salesforce.com?so=00Do0000000cCkJ</salesforceLoginUrl>
+    <samlEntityId>https://beamsuntory.my.salesforce.com</samlEntityId>
+    <samlVersion>SAML2_0</samlVersion>
+    <useConfigRequestMethod>true</useConfigRequestMethod>
+    <userProvisioning>false</userProvisioning>
+    <validationCert>MIIC6DCCAdCgAwIBAgIQNFojv+uc84xKI4XCvdsyxTANBgkqhkiG9w0BAQsFADAwMS4wLAYDVQQDEyVBREZTIFNpZ25pbmcgLSBiZWFtc28uYmVhbXN1bnRvcnkuY29tMB4XDTIwMDIyOTAzNDgzOFoXDTIzMDIyODAzNDgzOFowMDEuMCwGA1UEAxMlQURGUyBTaWduaW5nIC0gYmVhbXNvLmJlYW1zdW50b3J5LmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAK20634kxeC/cUPquvfWdLSbANUEH97sxhtyrOGJAy4cG0EfGmQFqVQbYSr9xOifAPHAKmkCrrfeBNt7rWx6HdKWQ9bEamTmDbRJgG+Or9VOb6WpLjTu6D4dm8BfvZj2cooef/TOHnrI/tZr/AI8TnwVkANaJTZBdA+1OM+EAHB5zQcQ4+NaCXdG5Cepcx+y+a13JBYFWLAVHBO9NhgUROQhSEjr5jTwe063dZwawuNmcTWot1iJR5tvIxxm1SnltO64om/r5LevP9Jh13IOeFMAG8wl7/JJX6bMr0Aeru35ihCZ3WIffW39k4MCsVWCt1gnCgp7ZQs8+zw92FopNHsCAwEAATANBgkqhkiG9w0BAQsFAAOCAQEASDwcw+BJsHKxFd01JoKdBRPipDMrxiI4mEA6jHgIMOjMof8aWGN+Mf5figcwfEVRsbYwjoiwjSUoNB3W2Y9Km+1MO7sPKZrLofjTkBCM9XAEi+su3ShXAOrTxql+6tv0oxGPqjhPuotLXi9WFajd0YXeSekgN4GroJRCYiHFhIrHFIhdtxLOC1ssvIV+XMx2hCwFCPPCbLU4XH/abuUfdY+Jc6X/GPcvr5OqrJajTYORWONv85i7j+xTsuKlz+9wTGmPEdKyLF6a4Qv8mn2eQ/GnlCEA47dLMf4Nz1AGRJL+YFoRz5mnxiu9wPmAPClNbO3purB7E+E/3xjodadnbA==</validationCert>
+</SamlSsoConfig>

@@ -1,0 +1,12 @@
+Hello {!Contact.FirstName},
+
+We recently reached out to you to obtain additional information/details in order to proceed with the investigation of your claim. Your response would be greatly appreciated in order for us to continue with this conversation.
+
+If you no longer need assistance, kindly let us know at your earliest convenience. Please be advised that if no further correspondence is received, this case will be resolved within 3 business days.
+
+Looking forward to hearing from you!
+
+Thank you,
+Beam Suntory
+
+{!Case.Thread_Id}

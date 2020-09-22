@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AdditionalInformation__c</fullName>
+    <externalId>false</externalId>
+    <label>Additional Information</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>How_can_we_help__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Sponsorship</fullName>
+                <default>false</default>
+                <label>Sponsorship</label>
+            </value>
+            <value>
+                <fullName>Charity</fullName>
+                <default>false</default>
+                <label>Charity</label>
+            </value>
+            <value>
+                <fullName>Free Product</fullName>
+                <default>false</default>
+                <label>Free Product</label>
+            </value>
+            <value>
+                <fullName>Free Merchandise</fullName>
+                <default>false</default>
+                <label>Free Merchandise</label>
+            </value>
+            <value>
+                <fullName>Product Availability</fullName>
+                <default>false</default>
+                <label>Product Availability</label>
+            </value>
+            <value>
+                <fullName>Problem with my Order</fullName>
+                <default>false</default>
+                <label>Problem with my Order</label>
+            </value>
+            <value>
+                <fullName>Nutritional Information</fullName>
+                <default>false</default>
+                <label>Nutritional Information</label>
+            </value>
+            <value>
+                <fullName>Value of my bottle</fullName>
+                <default>false</default>
+                <label>Value of my bottle</label>
+            </value>
+            <value>
+                <fullName>Product Ingredients</fullName>
+                <default>false</default>
+                <label>Product Ingredients</label>
+            </value>
+            <value>
+                <fullName>Product Shelf life</fullName>
+                <default>false</default>
+                <label>Product Shelf life</label>
+            </value>
+            <value>
+                <fullName>Decanter Inquiry</fullName>
+                <default>false</default>
+                <label>Decanter Inquiry</label>
+            </value>
+            <value>
+                <fullName>Distributions</fullName>
+                <default>false</default>
+                <label>Distributions</label>
+            </value>
+            <value>
+                <fullName>Work for us</fullName>
+                <default>false</default>
+                <label>Work for us</label>
+            </value>
+            <value>
+                <fullName>Be a Brand Influencer</fullName>
+                <default>false</default>
+                <label>Be a Brand Influencer</label>
+            </value>
+            <value>
+                <fullName>License our Brand</fullName>
+                <default>false</default>
+                <label>License our Brand</label>
+            </value>
+            <value>
+                <fullName>Suppliers</fullName>
+                <default>false</default>
+                <label>Suppliers</label>
+            </value>
+            <value>
+                <fullName>Rebates</fullName>
+                <default>false</default>
+                <label>Rebates</label>
+            </value>
+            <value>
+                <fullName>Coupons</fullName>
+                <default>false</default>
+                <label>Coupons</label>
+            </value>
+            <value>
+                <fullName>Website Question/Issue</fullName>
+                <default>false</default>
+                <label>Website Question/Issue</label>
+            </value>
+            <value>
+                <fullName>Login</fullName>
+                <default>false</default>
+                <label>Login</label>
+            </value>
+            <value>
+                <fullName>Points</fullName>
+                <default>false</default>
+                <label>Points</label>
+            </value>
+            <value>
+                <fullName>Plots</fullName>
+                <default>false</default>
+                <label>Plots</label>
+            </value>
+            <value>
+                <fullName>Used Barrels</fullName>
+                <default>false</default>
+                <label>Used Barrels</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>General Inquiry</fullName>
+                <default>false</default>
+                <label>General Inquiry</label>
+            </value>
+            <value>
+                <fullName>Others</fullName>
+                <default>false</default>
+                <label>Others</label>
+            </value>
+            <value>
+                <fullName>Liquid</fullName>
+                <default>false</default>
+                <label>Liquid</label>
+            </value>
+            <value>
+                <fullName>Bottle</fullName>
+                <default>false</default>
+                <label>Bottle</label>
+            </value>
+            <value>
+                <fullName>Can</fullName>
+                <default>false</default>
+                <label>Can</label>
+            </value>
+            <value>
+                <fullName>Gluten</fullName>
+                <default>false</default>
+                <label>Gluten</label>
+            </value>
+            <value>
+                <fullName>Caramel</fullName>
+                <default>false</default>
+                <label>Caramel</label>
+            </value>
+            <value>
+                <fullName>Other Inquiry</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Other Inquiry</label>
+            </value>
+            <value>
+                <fullName>Product Information</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Product Information</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Sponsorship or Charity</controllingFieldValue>
+            <valueName>Sponsorship</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sponsorship or Charity</controllingFieldValue>
+            <valueName>Charity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sponsorship or Charity</controllingFieldValue>
+            <controllingFieldValue>Our Online store</controllingFieldValue>
+            <controllingFieldValue>Product Information</controllingFieldValue>
+            <controllingFieldValue>Other Inquiry</controllingFieldValue>
+            <controllingFieldValue>Friends of Laphroaig</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Our Online store</controllingFieldValue>
+            <controllingFieldValue>Other Inquiry</controllingFieldValue>
+            <valueName>Free Merchandise</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Our Online store</controllingFieldValue>
+            <valueName>Product Availability</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Our Online store</controllingFieldValue>
+            <valueName>Problem with my Order</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Information</controllingFieldValue>
+            <valueName>Free Product</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Information</controllingFieldValue>
+            <valueName>Nutritional Information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Information</controllingFieldValue>
+            <valueName>Value of my bottle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Information</controllingFieldValue>
+            <valueName>Product Ingredients</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Information</controllingFieldValue>
+            <valueName>Product Shelf life</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Information</controllingFieldValue>
+            <valueName>Decanter Inquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Inquiry</controllingFieldValue>
+            <valueName>Distributions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Inquiry</controllingFieldValue>
+            <valueName>Work for us</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Inquiry</controllingFieldValue>
+            <valueName>Be a Brand Influencer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Inquiry</controllingFieldValue>
+            <valueName>License our Brand</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Inquiry</controllingFieldValue>
+            <valueName>Suppliers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Inquiry</controllingFieldValue>
+            <valueName>Rebates</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Inquiry</controllingFieldValue>
+            <valueName>Coupons</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Inquiry</controllingFieldValue>
+            <valueName>Website Question/Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Inquiry</controllingFieldValue>
+            <valueName>Used Barrels</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Friends of Laphroaig</controllingFieldValue>
+            <valueName>Login</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Friends of Laphroaig</controllingFieldValue>
+            <valueName>Points</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Friends of Laphroaig</controllingFieldValue>
+            <valueName>Plots</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

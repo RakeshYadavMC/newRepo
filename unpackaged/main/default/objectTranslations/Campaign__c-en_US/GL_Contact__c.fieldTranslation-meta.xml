@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Contact --></label>
+        <name>GL_Contact__c</name>
+        <picklistValues>
+            <masterLabel>Bottle packed with gift (for example: pack with glasses, mini bottles, or other accessories)</masterLabel>
+            <translation><!-- Bottle packed with gift (for example: pack with glasses, mini bottles, or other accessories) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brand activities/parties in bars, restaurants or nightclubs (for example: sampling, promo girls, tasting events, food matching, etc.)</masterLabel>
+            <translation><!-- Brand activities/parties in bars, restaurants or nightclubs (for example: sampling, promo girls, tasting events, food matching, etc.) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brand advertising on websites, apps and mobile sites excluding social media</masterLabel>
+            <translation><!-- Brand advertising on websites, apps and mobile sites excluding social media --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brand advertising videos on YouTube</masterLabel>
+            <translation><!-- Brand advertising videos on YouTube --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brand endorsement by celebrities</masterLabel>
+            <translation><!-- Brand endorsement by celebrities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brand found on search engines (for example: Google, Bing, Yahoo, etc.)</masterLabel>
+            <translation><!-- Brand found on search engines (for example: Google, Bing, Yahoo, etc.) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brand gets named or recognized in editorials, articles or reviews by an independent, third party</masterLabel>
+            <translation><!-- Brand gets named or recognized in editorials, articles or reviews by an independent, third party --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brand hosted events (ticketed event run by the brand or event that requires RSVP)</masterLabel>
+            <translation><!-- Brand hosted events (ticketed event run by the brand or event that requires RSVP) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brand listed on the menus of bars, restaurants or nightclubs</masterLabel>
+            <translation><!-- Brand listed on the menus of bars, restaurants or nightclubs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brand materials in the store (for example: at shelf recipe card or info like product awards, window or floor decals, posters, in-store circular)</masterLabel>
+            <translation><!-- Brand materials in the store (for example: at shelf recipe card or info like product awards, window or floor decals, posters, in-store circular) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brand on retailers' websites or apps, including ratings and reviews (for example: Amazon, Walmart)</masterLabel>
+            <translation><!-- Brand on retailers&apos; websites or apps, including ratings and reviews (for example: Amazon, Walmart) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brand sponsorship or presence at food or drink events (for example: gourmet festival, food &amp; fine, etc.)</masterLabel>
+            <translation><!-- Brand sponsorship or presence at food or drink events (for example: gourmet festival, food &amp; fine, etc.) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brand sponsorship or presence at music/sport events or festivals</masterLabel>
+            <translation><!-- Brand sponsorship or presence at music/sport events or festivals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brand's official website</masterLabel>
+            <translation><!-- Brand&apos;s official website --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Branded items in bars, restaurants or nightclubs (ice buckets, branded glasses and napkins)</masterLabel>
+            <translation><!-- Branded items in bars, restaurants or nightclubs (ice buckets, branded glasses and napkins) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In store brand displays (for example: freestanding cardboard cut outs or end caps)</masterLabel>
+            <translation><!-- In store brand displays (for example: freestanding cardboard cut outs or end caps) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In store price reduction (for example: sales, price promotions, coupons)</masterLabel>
+            <translation><!-- In store price reduction (for example: sales, price promotions, coupons) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In store tasting or sampling events</masterLabel>
+            <translation><!-- In store tasting or sampling events --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Magazines/newspapers advertising</masterLabel>
+            <translation><!-- Magazines/newspapers advertising --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-Working Agency</masterLabel>
+            <translation><!-- Non-Working Agency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-Working Capability Building</masterLabel>
+            <translation><!-- Non-Working Capability Building --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-Working OOP</masterLabel>
+            <translation><!-- Non-Working OOP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-Working Other</masterLabel>
+            <translation><!-- Non-Working Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-Working Production</masterLabel>
+            <translation><!-- Non-Working Production --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-Working Research</masterLabel>
+            <translation><!-- Non-Working Research --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outdoor advertising (for example: billboards, bus shelters, trains, taxis, etc.)</masterLabel>
+            <translation><!-- Outdoor advertising (for example: billboards, bus shelters, trains, taxis, etc.) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Radio advertising, includes streaming services and podcasts</masterLabel>
+            <translation><!-- Radio advertising, includes streaming services and podcasts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recommendation from bartenders or waiters in bars, restaurants or nightclubs</masterLabel>
+            <translation><!-- Recommendation from bartenders or waiters in bars, restaurants or nightclubs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recommendation from family, friends, acquaintances, colleagues</masterLabel>
+            <translation><!-- Recommendation from family, friends, acquaintances, colleagues --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recommendation from store staff, brand spokesperson or specialist in store</masterLabel>
+            <translation><!-- Recommendation from store staff, brand spokesperson or specialist in store --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Removed as a touchpoint for 2019</masterLabel>
+            <translation><!-- Removed as a touchpoint for 2019 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Special price-offers in bars, restaurants, nightclubs</masterLabel>
+            <translation><!-- Special price-offers in bars, restaurants, nightclubs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sponsored brand advertising on social media (for example: Facebook, Instagram)</masterLabel>
+            <translation><!-- Sponsored brand advertising on social media (for example: Facebook, Instagram) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TV advertising, includes streaming services</masterLabel>
+            <translation><!-- TV advertising, includes streaming services --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Require_Reason_Detail_if_Other_Selected</fullName>
+    <active>true</active>
+    <description>Require a value within the "Reason Detail" field if "Other" is selected as the "Reason Won or Lost"</description>
+    <errorConditionFormula>IF( ISPICKVAL(ReasonWonorLost__c, 'Other'), If( ISBLANK( Reason_Detail__c ), true, false), false)</errorConditionFormula>
+    <errorMessage>Please explain why the opportunity was won or lost in the Reason Detail field.</errorMessage>
+</ValidationRule>

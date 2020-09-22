@@ -1,0 +1,17 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<div style="font-size: 12pt;"><table border="0" cellpadding="0" cellspacing="0" width="454" style="border-collapse:
+ collapse;width:340pt"><tbody><tr height="192" style="height:144.0pt">
+  <td height="192" class="xl65" width="454" style="height:144.0pt;width:340pt">Hola
+  {!Case.OwnerFirstName},<br><br>
+    Tu caso #{!Case.CaseNumber} ha sido escalado ya que podría estar en riesgo
+  de violar o ha violado SLA.<br><br>
+    Este caso está {!Case.Status} y ha sido abierto por tener
+  {!Case.Case_Time_Elapsed__c} desde esta notificación. ¡Por favor procese el
+  caso cuanto antes!<br><br>
+    Haga clic abajo para ver su caso: <br>
+    {!Case.Link}<br>
+    </td></tr></tbody></table></div><div style="font-size: 12pt;"><font face="Verdana, Helvetica, sans-serif"><br></font></div><div style="font-size: 12pt;"><br></div><div style="font-size: 12pt;"><br></div><div style="font-size: 12pt;"><br></div><div style="font-size: 12pt;"><br></div><div style="font-size: 12pt;"><br></div><div style="font-size: 12pt;"><br></div><div style="font-size: 12pt;"><br></div><div style="font-family: arial;"><font size="1">{!Case.Thread_Id}</font></div>]]></td>
+</tr>
+</table>

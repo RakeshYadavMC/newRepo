@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Custom_Store_Group__c</fullName>
+    <externalId>false</externalId>
+    <label>Custom Store Group</label>
+    <referenceTo>CustomStoreGroup__c</referenceTo>
+    <relationshipLabel>AccountStoreGroups</relationshipLabel>
+    <relationshipName>AccountStoreGroups</relationshipName>
+    <relationshipOrder>1</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

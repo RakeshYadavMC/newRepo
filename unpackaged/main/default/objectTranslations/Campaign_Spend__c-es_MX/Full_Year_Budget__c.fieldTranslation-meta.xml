@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Full Year Budget --></label>
+        <name>Full_Year_Budget__c</name>
+    </CustomFieldTranslation>

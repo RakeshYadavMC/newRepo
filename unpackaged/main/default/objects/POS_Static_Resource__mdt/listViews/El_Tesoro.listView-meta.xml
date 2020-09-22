@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>El_Tesoro</fullName>
+    <columns>MasterLabel</columns>
+    <columns>DeveloperName</columns>
+    <columns>Brand__c</columns>
+    <columns>Item_Text__c</columns>
+    <columns>POS_Item__c</columns>
+    <columns>Static_Resource_Name__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Brand__c</field>
+        <operation>equals</operation>
+        <value>El Tesoro</value>
+    </filters>
+    <label>El Tesoro</label>
+    <language>en_US</language>
+</ListView>

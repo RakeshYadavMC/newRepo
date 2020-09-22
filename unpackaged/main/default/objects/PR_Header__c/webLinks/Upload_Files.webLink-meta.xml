@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Upload_Files</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Upload Files</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>(function() {
+var width = 600;
+var height = 300;
+var title = "{!PR_Header__c.Name}";
+
+var box = new SimpleDialog("salesforce" + Math.random(), true);
+box.setTitle(title);
+box.displayX = true;
+box.isMovable = false;
+box.createDialog();
+box.setWidth(width);
+// set your html content here
+box.setContentInnerHTML(
+'&lt;iframe src="/apex/BS_PR_FileUploader_VF?id={!PR_Header__c.Id}" style="border:none;" width="100%" height="'+ (height - 30)+'px" /&gt;'
+);
+//set the height of the modal
+box.dialog.children[1].style.height = height + 'px';
+box.show();
+
+//if displayX is set to true, then override standard close event by this code
+box.dialog.getElementsByClassName('dialogClose')[0].onclick = function() {
+box.hide();
+location.reload();
+// you can add code to reload the page or redirect to another page
+};
+//optional : add this to close the modal onclick of the overlay background
+box.background.addEventListener('click', function() {
+box.hide();
+location.reload();
+});
+
+// if you want to be able to close the modal from the Visualforce page
+window.addEventListener('message', function(event){
+if (event.data === 'close'){
+box.hide();
+location.reload();
+}
+});
+})();</url>
+</WebLink>

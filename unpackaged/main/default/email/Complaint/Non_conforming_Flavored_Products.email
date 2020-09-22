@@ -1,0 +1,7 @@
+<p>Thanks for contacting us regarding {!Case.Template_Product_Name__c}.</p>
+
+<p>Our flavored products are best enjoyed with thirteen months of production. After this time, {!Case.Template_Product_Name__c} becomes more delicate; the product will begin to oxidize and may look or taste different. Based on the lot code/ information you provided, this product was bottle in DATE (L6 = 2016.)</p>
+
+<p>We would like to offer you a reimbursement for this product. Please provide a copy of your receipt or the amount you paid. Once we receive this information please allow 2-3 weeks for processing.</p>
+
+<p>We certainly value you as a key customer and sincerely hope that you will continue to enjoy all our Beam Suntory products responsibly.</p>

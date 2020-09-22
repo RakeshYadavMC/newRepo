@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Document_Types__c</fullName>
+    <externalId>false</externalId>
+    <label>Document Types</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>BOL</fullName>
+                <default>false</default>
+                <label>BOL</label>
+            </value>
+            <value>
+                <fullName>Packing Slip</fullName>
+                <default>false</default>
+                <label>Packing Slip</label>
+            </value>
+            <value>
+                <fullName>Order Acknowledgement</fullName>
+                <default>false</default>
+                <label>Order Acknowledgement</label>
+            </value>
+            <value>
+                <fullName>Direct Import Invoice</fullName>
+                <default>false</default>
+                <label>Direct Import Invoice</label>
+            </value>
+            <value>
+                <fullName>Custom Clearing Document</fullName>
+                <default>false</default>
+                <label>Custom Clearing Document</label>
+            </value>
+            <value>
+                <fullName>Invoice</fullName>
+                <default>false</default>
+                <label>Invoice</label>
+            </value>
+            <value>
+                <fullName>Proforma</fullName>
+                <default>false</default>
+                <label>Proforma</label>
+            </value>
+            <value>
+                <fullName>Certificate of Analysis</fullName>
+                <default>false</default>
+                <label>Certificate of Analysis</label>
+            </value>
+            <value>
+                <fullName>Certificate of Origin</fullName>
+                <default>false</default>
+                <label>Certificate of Origin</label>
+            </value>
+            <value>
+                <fullName>Packing List</fullName>
+                <default>false</default>
+                <label>Packing List</label>
+            </value>
+            <value>
+                <fullName>Certificate of Freesale</fullName>
+                <default>false</default>
+                <label>Certificate of Freesale</label>
+            </value>
+            <value>
+                <fullName>Bill of Lading</fullName>
+                <default>false</default>
+                <label>Bill of Lading</label>
+            </value>
+            <value>
+                <fullName>Certificate of Age</fullName>
+                <default>false</default>
+                <label>Certificate of Age</label>
+            </value>
+            <value>
+                <fullName>Annex VIII</fullName>
+                <default>false</default>
+                <label>Annex VIII</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

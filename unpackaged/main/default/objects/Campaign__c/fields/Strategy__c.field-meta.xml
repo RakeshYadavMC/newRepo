@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Strategy__c</fullName>
+    <externalId>false</externalId>
+    <label>Strategy(JTBD)</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>CampaignBrand__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Acquire Lda Millennials</fullName>
+                <default>false</default>
+                <label>Acquire Lda Millennials</label>
+            </value>
+            <value>
+                <fullName>Build Awareness</fullName>
+                <default>false</default>
+                <label>Build Awareness</label>
+            </value>
+            <value>
+                <fullName>Build Top Of Mind Awareness</fullName>
+                <default>false</default>
+                <label>Build Top Of Mind Awareness</label>
+            </value>
+            <value>
+                <fullName>Communicate Authenticity &amp; Quality</fullName>
+                <default>false</default>
+                <label>Communicate Authenticity &amp; Quality</label>
+            </value>
+            <value>
+                <fullName>Drive 901 Awareness</fullName>
+                <default>false</default>
+                <label>Drive 901 Awareness</label>
+            </value>
+            <value>
+                <fullName>Drive Awareness (Off)</fullName>
+                <default>false</default>
+                <label>Drive Awareness (Off)</label>
+            </value>
+            <value>
+                <fullName>Drive Brand Advocacy</fullName>
+                <default>false</default>
+                <label>Drive Brand Advocacy</label>
+            </value>
+            <value>
+                <fullName>Drive Consideration &amp; Trial</fullName>
+                <default>false</default>
+                <label>Drive Consideration &amp; Trial</label>
+            </value>
+            <value>
+                <fullName>Drive Sauza Awareness</fullName>
+                <default>false</default>
+                <label>Drive Sauza Awareness</label>
+            </value>
+            <value>
+                <fullName>Drive Successful Innovation</fullName>
+                <default>false</default>
+                <label>Drive Successful Innovation</label>
+            </value>
+            <value>
+                <fullName>Drive The On-Premise</fullName>
+                <default>false</default>
+                <label>Drive The On-Premise</label>
+            </value>
+            <value>
+                <fullName>Drive The On-Premise (Basil Hayden)</fullName>
+                <default>false</default>
+                <label>Drive The On-Premise (Basil Hayden)</label>
+            </value>
+            <value>
+                <fullName>Establish Belief In Quality</fullName>
+                <default>false</default>
+                <label>Establish Belief In Quality</label>
+            </value>
+            <value>
+                <fullName>Expand Distribution (Off)</fullName>
+                <default>false</default>
+                <label>Expand Distribution (Off)</label>
+            </value>
+            <value>
+                <fullName>Get Millennial Males To Consider Jim Beam Again</fullName>
+                <default>false</default>
+                <label>Get Millennial Males To Consider Jim Beam Again</label>
+            </value>
+            <value>
+                <fullName>Grow Distribution On Plata</fullName>
+                <default>false</default>
+                <label>Grow Distribution On Plata</label>
+            </value>
+            <value>
+                <fullName>Grow Pinnacle Original</fullName>
+                <default>false</default>
+                <label>Grow Pinnacle Original</label>
+            </value>
+            <value>
+                <fullName>Grow Wine And Vodka</fullName>
+                <default>false</default>
+                <label>Grow Wine And Vodka</label>
+            </value>
+            <value>
+                <fullName>Implement Join The Club</fullName>
+                <default>false</default>
+                <label>Implement Join The Club</label>
+            </value>
+            <value>
+                <fullName>Increase Awareness And Relevance</fullName>
+                <default>false</default>
+                <label>Increase Awareness And Relevance</label>
+            </value>
+            <value>
+                <fullName>Interrupt Bacardi</fullName>
+                <default>false</default>
+                <label>Interrupt Bacardi</label>
+            </value>
+            <value>
+                <fullName>Make 901 Accessible</fullName>
+                <default>false</default>
+                <label>Make 901 Accessible</label>
+            </value>
+            <value>
+                <fullName>Make Pinnacle Available</fullName>
+                <default>false</default>
+                <label>Make Pinnacle Available</label>
+            </value>
+            <value>
+                <fullName>One More Drink Per Month</fullName>
+                <default>false</default>
+                <label>One More Drink Per Month</label>
+            </value>
+            <value>
+                <fullName>Premiumize And Trade Up</fullName>
+                <default>false</default>
+                <label>Premiumize And Trade Up</label>
+            </value>
+            <value>
+                <fullName>Recruit Consumers</fullName>
+                <default>false</default>
+                <label>Recruit Consumers</label>
+            </value>
+            <value>
+                <fullName>Recruit Consumers From Outside Beam/Bourbon Category</fullName>
+                <default>false</default>
+                <label>Recruit Consumers From Outside Beam/Bourbon Category</label>
+            </value>
+            <value>
+                <fullName>Recruit New Consumers</fullName>
+                <default>false</default>
+                <label>Recruit New Consumers</label>
+            </value>
+            <value>
+                <fullName>Recruit “Whiskey Women”</fullName>
+                <default>false</default>
+                <label>Recruit “Whiskey Women”</label>
+            </value>
+            <value>
+                <fullName>Reestablish Sauza Brand</fullName>
+                <default>false</default>
+                <label>Reestablish Sauza Brand</label>
+            </value>
+            <value>
+                <fullName>Regain/Increase Distribution</fullName>
+                <default>false</default>
+                <label>Regain/Increase Distribution</label>
+            </value>
+            <value>
+                <fullName>Steal Share Of Drinking Occasions</fullName>
+                <default>false</default>
+                <label>Steal Share Of Drinking Occasions</label>
+            </value>
+            <value>
+                <fullName>Steal Spiced Share At Shelf (Calico)</fullName>
+                <default>false</default>
+                <label>Steal Spiced Share At Shelf (Calico)</label>
+            </value>
+            <value>
+                <fullName>Trade Up</fullName>
+                <default>false</default>
+                <label>Trade Up</label>
+            </value>
+            <value>
+                <fullName>Win At Retail</fullName>
+                <default>false</default>
+                <label>Win At Retail</label>
+            </value>
+            <value>
+                <fullName>Win With Flavors</fullName>
+                <default>false</default>
+                <label>Win With Flavors</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Knob Creek</controllingFieldValue>
+            <valueName>Drive Awareness (Off)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Knob Creek</controllingFieldValue>
+            <valueName>Drive The On-Premise</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Knob Creek</controllingFieldValue>
+            <valueName>Expand Distribution (Off)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Laphroaig</controllingFieldValue>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>Drive Brand Advocacy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Laphroaig</controllingFieldValue>
+            <valueName>Recruit New Consumers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Makers Mark</controllingFieldValue>
+            <valueName>One More Drink Per Month</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Makers Mark</controllingFieldValue>
+            <valueName>Recruit “Whiskey Women”</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Makers Mark</controllingFieldValue>
+            <valueName>Trade Up</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cruzan</controllingFieldValue>
+            <valueName>Interrupt Bacardi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cruzan</controllingFieldValue>
+            <valueName>Premiumize And Trade Up</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pinnacle Vodka</controllingFieldValue>
+            <valueName>Grow Pinnacle Original</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pinnacle Vodka</controllingFieldValue>
+            <valueName>Make Pinnacle Available</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pinnacle Vodka</controllingFieldValue>
+            <valueName>Win With Flavors</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>Acquire Lda Millennials</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sauza</controllingFieldValue>
+            <valueName>Drive Sauza Awareness</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sauza</controllingFieldValue>
+            <valueName>Reestablish Sauza Brand</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sauza</controllingFieldValue>
+            <valueName>Win At Retail</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sauza 901</controllingFieldValue>
+            <valueName>Drive 901 Awareness</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sauza 901</controllingFieldValue>
+            <valueName>Make 901 Accessible</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Skinny Girl</controllingFieldValue>
+            <valueName>Establish Belief In Quality</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Skinny Girl</controllingFieldValue>
+            <valueName>Grow Wine And Vodka</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hornitos</controllingFieldValue>
+            <valueName>Drive Successful Innovation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hornitos</controllingFieldValue>
+            <valueName>Grow Distribution On Plata</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hornitos</controllingFieldValue>
+            <valueName>Increase Awareness And Relevance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Irish Whiskeys</controllingFieldValue>
+            <valueName>Build Top Of Mind Awareness</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Irish Whiskeys</controllingFieldValue>
+            <valueName>Drive Consideration &amp; Trial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam Devils Cut</controllingFieldValue>
+            <valueName>Communicate Authenticity &amp; Quality</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam Devils Cut</controllingFieldValue>
+            <valueName>Get Millennial Males To Consider Jim Beam Again</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam Devils Cut</controllingFieldValue>
+            <valueName>Recruit Consumers From Outside Beam/Bourbon Category</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basil Hayden</controllingFieldValue>
+            <valueName>Build Awareness</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basil Hayden</controllingFieldValue>
+            <valueName>Drive The On-Premise (Basil Hayden)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Calico Jack</controllingFieldValue>
+            <valueName>Steal Spiced Share At Shelf (Calico)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canadian Club</controllingFieldValue>
+            <valueName>Implement Join The Club</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canadian Club</controllingFieldValue>
+            <valueName>Regain/Increase Distribution</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Courvoisier</controllingFieldValue>
+            <valueName>Recruit Consumers</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

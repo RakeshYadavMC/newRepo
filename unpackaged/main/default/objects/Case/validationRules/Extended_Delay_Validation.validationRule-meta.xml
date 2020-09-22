@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Extended_Delay_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND (
+ Extended_Delay__c = TRUE,
+OR (
+ ISPICKVAL( Was_case_cloned_for_DA_Queue__c ,"" ),
+ ISPICKVAL( Was_case_cloned_for_DA_Queue__c ,"No" )
+),
+ OR (
+ ISPICKVAL(  Status ,"Closed"),
+ ISPICKVAL(  Status ,"Closed - Approved"),
+ ISPICKVAL(  Status ,"Closed - Rejected")
+)
+)</errorConditionFormula>
+    <errorMessage>Please clone this case and assign to the Distributor Advocate Queue, this is an extended delay.</errorMessage>
+</ValidationRule>

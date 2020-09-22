@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GLAccountType__c</fullName>
+    <externalId>false</externalId>
+    <label>GL Account Type</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>CampaignType__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Ad Production</fullName>
+                <default>false</default>
+                <label>Ad Production</label>
+            </value>
+            <value>
+                <fullName>Agency Fees</fullName>
+                <default>false</default>
+                <label>Agency Fees</label>
+            </value>
+            <value>
+                <fullName>Agency OOP</fullName>
+                <default>false</default>
+                <label>Agency OOP</label>
+            </value>
+            <value>
+                <fullName>Brand Education</fullName>
+                <default>false</default>
+                <label>Brand Education</label>
+            </value>
+            <value>
+                <fullName>Digital Rebates</fullName>
+                <default>false</default>
+                <label>Digital Rebates</label>
+            </value>
+            <value>
+                <fullName>Execution</fullName>
+                <default>false</default>
+                <label>Execution</label>
+            </value>
+            <value>
+                <fullName>Incentives</fullName>
+                <default>false</default>
+                <label>Incentives</label>
+            </value>
+            <value>
+                <fullName>Media</fullName>
+                <default>false</default>
+                <label>Media</label>
+            </value>
+            <value>
+                <fullName>Misc</fullName>
+                <default>false</default>
+                <label>Misc</label>
+            </value>
+            <value>
+                <fullName>Non Working</fullName>
+                <default>false</default>
+                <label>Non Working</label>
+            </value>
+            <value>
+                <fullName>Off Premise</fullName>
+                <default>false</default>
+                <label>Off Premise</label>
+            </value>
+            <value>
+                <fullName>Off-Trade</fullName>
+                <default>false</default>
+                <label>Off-Trade</label>
+            </value>
+            <value>
+                <fullName>On Premise</fullName>
+                <default>false</default>
+                <label>On Premise</label>
+            </value>
+            <value>
+                <fullName>On-Trade</fullName>
+                <default>false</default>
+                <label>On-Trade</label>
+            </value>
+            <value>
+                <fullName>Other Brand Investment</fullName>
+                <default>false</default>
+                <label>Other Brand Investment</label>
+            </value>
+            <value>
+                <fullName>Rebates</fullName>
+                <default>false</default>
+                <label>Rebates</label>
+            </value>
+            <value>
+                <fullName>Research</fullName>
+                <default>false</default>
+                <label>Research</label>
+            </value>
+            <value>
+                <fullName>Sponsorship</fullName>
+                <default>false</default>
+                <label>Sponsorship</label>
+            </value>
+            <value>
+                <fullName>Working</fullName>
+                <default>false</default>
+                <label>Working</label>
+            </value>
+            <value>
+                <fullName>Non-Premise</fullName>
+                <default>false</default>
+                <label>Non-Premise</label>
+            </value>
+            <value>
+                <fullName>3rd Party Brand Investment</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>3rd Party Brand Investment</label>
+            </value>
+            <value>
+                <fullName>AdProduction</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>AdProduction</label>
+            </value>
+            <value>
+                <fullName>BI - FX</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BI - FX</label>
+            </value>
+            <value>
+                <fullName>BI - I/C Rebill</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BI - I/C Rebill</label>
+            </value>
+            <value>
+                <fullName>BrandEducation</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BrandEducation</label>
+            </value>
+            <value>
+                <fullName>Miscellaneous</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Miscellaneous</label>
+            </value>
+            <value>
+                <fullName>Non_Working</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Non_Working</label>
+            </value>
+            <value>
+                <fullName>OffTrade</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>OffTrade</label>
+            </value>
+            <value>
+                <fullName>Off_Premise</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Off_Premise</label>
+            </value>
+            <value>
+                <fullName>OnTrade</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>OnTrade</label>
+            </value>
+            <value>
+                <fullName>On_Premise</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>On_Premise</label>
+            </value>
+            <value>
+                <fullName>Rebates_</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Rebates_</label>
+            </value>
+            <value>
+                <fullName>Sponsorship_</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Sponsorship_</label>
+            </value>
+            <value>
+                <fullName>__</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>__</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Brand Investment</controllingFieldValue>
+            <controllingFieldValue>National POS (Finance Only)</controllingFieldValue>
+            <controllingFieldValue>National POS-COGS (Finance Only)</controllingFieldValue>
+            <valueName>Ad Production</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Brand Investment</controllingFieldValue>
+            <controllingFieldValue>National POS (Finance Only)</controllingFieldValue>
+            <controllingFieldValue>National POS-COGS (Finance Only)</controllingFieldValue>
+            <valueName>Agency Fees</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Brand Investment</controllingFieldValue>
+            <controllingFieldValue>National POS (Finance Only)</controllingFieldValue>
+            <controllingFieldValue>National POS-COGS (Finance Only)</controllingFieldValue>
+            <valueName>Agency OOP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Brand Investment</controllingFieldValue>
+            <controllingFieldValue>National POS (Finance Only)</controllingFieldValue>
+            <controllingFieldValue>National POS-COGS (Finance Only)</controllingFieldValue>
+            <valueName>Brand Education</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Brand Investment</controllingFieldValue>
+            <controllingFieldValue>National POS (Finance Only)</controllingFieldValue>
+            <controllingFieldValue>National POS-COGS (Finance Only)</controllingFieldValue>
+            <valueName>Execution</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Brand Investment</controllingFieldValue>
+            <controllingFieldValue>National POS (Finance Only)</controllingFieldValue>
+            <controllingFieldValue>National POS-COGS (Finance Only)</controllingFieldValue>
+            <valueName>Media</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Brand Investment</controllingFieldValue>
+            <controllingFieldValue>National POS (Finance Only)</controllingFieldValue>
+            <controllingFieldValue>National POS-COGS (Finance Only)</controllingFieldValue>
+            <valueName>Off-Trade</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Brand Investment</controllingFieldValue>
+            <controllingFieldValue>National POS (Finance Only)</controllingFieldValue>
+            <controllingFieldValue>National POS-COGS (Finance Only)</controllingFieldValue>
+            <valueName>On-Trade</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Brand Investment</controllingFieldValue>
+            <valueName>Other Brand Investment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Brand Investment</controllingFieldValue>
+            <controllingFieldValue>Rebates</controllingFieldValue>
+            <controllingFieldValue>National POS (Finance Only)</controllingFieldValue>
+            <controllingFieldValue>National POS-COGS (Finance Only)</controllingFieldValue>
+            <valueName>Rebates</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Brand Investment</controllingFieldValue>
+            <controllingFieldValue>National POS (Finance Only)</controllingFieldValue>
+            <controllingFieldValue>National POS-COGS (Finance Only)</controllingFieldValue>
+            <controllingFieldValue>Other Programming</controllingFieldValue>
+            <valueName>Research</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Brand Investment</controllingFieldValue>
+            <controllingFieldValue>National POS (Finance Only)</controllingFieldValue>
+            <controllingFieldValue>National POS-COGS (Finance Only)</controllingFieldValue>
+            <controllingFieldValue>Sponsorship</controllingFieldValue>
+            <valueName>Sponsorship</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Brand Investment</controllingFieldValue>
+            <controllingFieldValue>National POS (Finance Only)</controllingFieldValue>
+            <controllingFieldValue>National POS-COGS (Finance Only)</controllingFieldValue>
+            <valueName>Non-Premise</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rebates</controllingFieldValue>
+            <valueName>Digital Rebates</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incentives</controllingFieldValue>
+            <valueName>Incentives</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Programming</controllingFieldValue>
+            <valueName>Misc</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Programming</controllingFieldValue>
+            <valueName>Non Working</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Programming</controllingFieldValue>
+            <valueName>Off Premise</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Programming</controllingFieldValue>
+            <valueName>On Premise</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Programming</controllingFieldValue>
+            <valueName>Working</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

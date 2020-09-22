@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Active_Brands</fullName>
+    <columns>NAME</columns>
+    <columns>Is_Active__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Is_Active__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Active Brands</label>
+</ListView>

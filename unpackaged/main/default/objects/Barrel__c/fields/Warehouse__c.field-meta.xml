@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Warehouse__c</fullName>
+    <externalId>false</externalId>
+    <label>Warehouse</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Brand__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Warehouse</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <controllingFieldValue>Knob Creek</controllingFieldValue>
+            <valueName>1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <controllingFieldValue>Knob Creek</controllingFieldValue>
+            <valueName>A</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <controllingFieldValue>Knob Creek</controllingFieldValue>
+            <valueName>B</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <controllingFieldValue>Knob Creek</controllingFieldValue>
+            <valueName>C</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <controllingFieldValue>Knob Creek</controllingFieldValue>
+            <valueName>D</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <controllingFieldValue>Knob Creek</controllingFieldValue>
+            <valueName>E</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <controllingFieldValue>Knob Creek</controllingFieldValue>
+            <valueName>F</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <controllingFieldValue>Knob Creek</controllingFieldValue>
+            <valueName>G</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <controllingFieldValue>Knob Creek</controllingFieldValue>
+            <valueName>H</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <controllingFieldValue>Knob Creek</controllingFieldValue>
+            <valueName>I</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <controllingFieldValue>Knob Creek</controllingFieldValue>
+            <valueName>J</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <controllingFieldValue>Knob Creek</controllingFieldValue>
+            <valueName>K</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <controllingFieldValue>Knob Creek</controllingFieldValue>
+            <valueName>L</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <controllingFieldValue>Knob Creek</controllingFieldValue>
+            <valueName>M</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <controllingFieldValue>Knob Creek</controllingFieldValue>
+            <valueName>N</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <controllingFieldValue>Knob Creek</controllingFieldValue>
+            <valueName>O</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <controllingFieldValue>Knob Creek</controllingFieldValue>
+            <valueName>P</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <controllingFieldValue>Knob Creek</controllingFieldValue>
+            <valueName>Q</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <controllingFieldValue>Knob Creek</controllingFieldValue>
+            <valueName>R</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <controllingFieldValue>Knob Creek</controllingFieldValue>
+            <valueName>S</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <controllingFieldValue>Knob Creek</controllingFieldValue>
+            <valueName>T</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <controllingFieldValue>Knob Creek</controllingFieldValue>
+            <valueName>U</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <controllingFieldValue>Knob Creek</controllingFieldValue>
+            <valueName>V</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <controllingFieldValue>Knob Creek</controllingFieldValue>
+            <valueName>W</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <controllingFieldValue>Knob Creek</controllingFieldValue>
+            <valueName>X</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <valueName>Y</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <controllingFieldValue>Knob Creek</controllingFieldValue>
+            <valueName>Z</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

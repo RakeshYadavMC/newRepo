@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GBS_OTC_Recommended_Limit</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( OR (
+ISPICKVAL( Status , "Closed"),
+ISPICKVAL( Status , "Closed - No Action")), Case_Record_Type__c == 'OTC Billing', ISPICKVAL( Category_1__c, "Credit limit/payment terms change"),ISPICKVAL(  Type , "Order to Cash / Billing"), ISBLANK(   Proposed_Limit__c   ))</errorConditionFormula>
+    <errorMessage>Case cannot be closed if Recommended Limit is Blank</errorMessage>
+</ValidationRule>

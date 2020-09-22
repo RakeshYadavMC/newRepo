@@ -1,0 +1,6 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<div>Please reference Credit Review Case #{!Case.CaseNumber} for the {!Case.Review_Type__c} Credit Review for {!Case.Customer_Name__c}.</div><div><br></div><div>The proposed credit limit is {!Case.Proposed_Limit__c}&nbsp;with a<span style="font-size: 12pt;">&nbsp;risk rating of "</span><span style="font-size: 12pt;">{!Case.Proposed_Risk_Rating__c}"</span><span style="font-size: 12pt;">&nbsp;and a next review date of {!Case.Next_Proposed_Review__c}.</span></div><div><br></div><div>This credit request requires your review and approval. &nbsp;Please follow the link below to review further details and approve. &nbsp;Alternatively, please reply to this notification with "yes" to approve; you may enter comments, if applicable, on the second line.</div><div><br></div><div>Thanks and Best Regards,</div><div>GBS Global Credit</div><div><br></div><div>Case Approval Link:</div><div>{!ApprovalRequest.Internal_URL}</div><div><br></div><div>Case Detail Link:</div><div><span style="background-color: rgb(255, 255, 255);">{!Case.Link}</span></div>]]></td>
+</tr>
+</table>

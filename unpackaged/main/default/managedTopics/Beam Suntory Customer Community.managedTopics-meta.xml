@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ManagedTopics xmlns="http://soap.sforce.com/2006/04/metadata">
+    <managedTopic>
+        <fullName>Beam Suntory Customer Community.Featured:Active Items</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Active Items</name>
+        <parentName></parentName>
+        <position>4</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Beam Suntory Customer Community.Featured:Claim Policy</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Claim Policy</name>
+        <parentName></parentName>
+        <position>3</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Beam Suntory Customer Community.Featured:Lot Code Examples</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Lot Code Examples</name>
+        <parentName></parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Beam Suntory Customer Community.Featured:Newsletter</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Newsletter</name>
+        <parentName></parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Beam Suntory Customer Community.Featured:Product Specs</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Product Specs</name>
+        <parentName></parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+</ManagedTopics>

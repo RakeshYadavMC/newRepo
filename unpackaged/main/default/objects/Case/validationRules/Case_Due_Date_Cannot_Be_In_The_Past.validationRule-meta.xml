@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Due_Date_Cannot_Be_In_The_Past</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+  IF(CASE(RecordType.DeveloperName,
+    "Brand_Registration", 1, 
+    "Compliance_Sub_Case", 1,
+    "Price_Posting", 1,
+    "Price_Filing", 1,
+    "Discount", 1,
+    0)=1, TRUE, FALSE),
+  OR(ISNEW(), ISCHANGED(Due_Date__c)),
+  NOT(ISBLANK(Due_Date__c)),
+  Due_Date__c &lt; TODAY()
+)</errorConditionFormula>
+    <errorDisplayField>Due_Date__c</errorDisplayField>
+    <errorMessage>Due Date cannot be set to a date before today</errorMessage>
+</ValidationRule>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Campaign Spend</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Campaign Spend</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Actuals Layout</layout>
+        <sections>
+            <label><!-- Actual Spend Detail --></label>
+            <section>Actual Spend Detail</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Campaign Planning</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Committed Layout</layout>
+        <sections>
+            <label><!-- Committed Spend Detail --></label>
+            <section>Committed Spend Detail</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Forecast Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Forecast Detail --></label>
+            <section>Forecast Detail</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Campaign Spend</nameFieldLabel>
+    <recordTypes>
+        <description><!-- Actual Spend from SAP. --></description>
+        <label><!-- Actual --></label>
+        <name>Actual</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Actual Australia --></description>
+        <label><!-- Actual_AUS --></label>
+        <name>Actual_AUS</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This record type shall be used for the Campaign Planning &amp; Forecast for Australia --></description>
+        <label><!-- Campaign Planning &amp; Forecasting --></label>
+        <name>Campaign_Planning_Forecasting</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Committed Spend from SAP. --></description>
+        <label><!-- Committed --></label>
+        <name>Committed</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Committed Australia --></description>
+        <label><!-- Committed_AUS --></label>
+        <name>Committed_AUS</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Monthly Forecast allocations. --></description>
+        <label><!-- Forecast --></label>
+        <name>Forecast</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Monthly_Budget_AUS --></label>
+        <name>Monthly_Budget_AUS</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This record type shall be used for Campaign Planning Monthly Australia --></description>
+        <label><!-- Monthly_Plan_AUS --></label>
+        <name>Monthly_Plan_AUS</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- To hold the campaign balance for PR Creation --></description>
+        <label><!-- Pending --></label>
+        <name>Pending</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Forecast Currency does not equal Campaign Currency. --></errorMessage>
+        <name>ForecastCurrencyEqualsCampaign</name>
+    </validationRules>
+</CustomObjectTranslation>

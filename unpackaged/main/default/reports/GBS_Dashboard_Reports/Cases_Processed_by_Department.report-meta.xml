@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <aggregates>
+        <acrossGroupingContext>BucketField_77163611</acrossGroupingContext>
+        <calculatedFormula>PARENTGROUPVAL(RowCount, ROW_GRAND_SUMMARY, BucketField_77163611)/PARENTGROUPVAL(RowCount, ROW_GRAND_SUMMARY, COLUMN_GRAND_SUMMARY)</calculatedFormula>
+        <datatype>percent</datatype>
+        <developerName>FORMULA1</developerName>
+        <downGroupingContext>GRAND_SUMMARY</downGroupingContext>
+        <isActive>true</isActive>
+        <isCrossBlock>false</isCrossBlock>
+        <masterLabel>% of Cases (Dept)</masterLabel>
+        <scale>2</scale>
+    </aggregates>
+    <buckets>
+        <bucketType>picklist</bucketType>
+        <developerName>BucketField_77163611</developerName>
+        <masterLabel>Department</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <otherBucketLabel>Other</otherBucketLabel>
+        <sourceColumnName>Case$Type</sourceColumnName>
+        <useOther>true</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Global Master Data Management</sourceValue>
+            </sourceValues>
+            <value>GMDM</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Travel &amp; Entertainment</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Procure to Pay / Accounts Payable</sourceValue>
+            </sourceValues>
+            <value>PTP</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Order to Cash / Billing</sourceValue>
+            </sourceValues>
+            <value>OTC</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Record to Report</sourceValue>
+            </sourceValues>
+            <value>RTR</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Payroll</sourceValue>
+            </sourceValues>
+            <value>Payroll</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Human Resources</sourceValue>
+            </sourceValues>
+            <value>HR</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>Case$CaseNumber</field>
+    </columns>
+    <currency>USD</currency>
+    <filter>
+        <criteriaItems>
+            <column>Case$BSI_Function__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>GBS</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_77163611</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Case$Owner</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Case$Case_Record_Type__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>% Cases Processed by Department</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Cases__c</reportType>
+    <scope>organization</scope>
+    <showDetails>false</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Case$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

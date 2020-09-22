@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Planned budget for March --></help>
+        <label><!-- Mar Plan --></label>
+        <name>Mar_Budget__c</name>
+    </CustomFieldTranslation>

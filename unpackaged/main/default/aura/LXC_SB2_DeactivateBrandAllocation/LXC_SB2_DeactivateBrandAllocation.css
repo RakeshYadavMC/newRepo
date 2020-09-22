@@ -1,0 +1,26 @@
+.THIS {
+    
+}
+
+.THIS p {
+    font-size: 20px;
+}
+
+.THIS.side-margin {
+    margin: 0 -2rem;
+}
+
+.THIS.header-position {
+    margin-top: -1rem;
+}
+
+.THIS.footer-position {
+    text-align: right;
+    border-top: 2px solid rgb(221, 219, 218);
+    padding-top: 0.9rem;
+    padding-right: 1rem;
+}
+
+.THIS.message {
+    margin: 2rem 0;
+}

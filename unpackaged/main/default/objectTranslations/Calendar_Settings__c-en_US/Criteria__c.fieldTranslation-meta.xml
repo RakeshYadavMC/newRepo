@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- SOQL filter criteria for selecting metadata API values or record values --></help>
+        <label><!-- Criteria --></label>
+        <name>Criteria__c</name>
+    </CustomFieldTranslation>

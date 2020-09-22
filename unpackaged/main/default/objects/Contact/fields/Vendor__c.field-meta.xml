@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vendor__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This field is used to verify if a self-registering user is a vendor</description>
+    <externalId>false</externalId>
+    <label>Vendor</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

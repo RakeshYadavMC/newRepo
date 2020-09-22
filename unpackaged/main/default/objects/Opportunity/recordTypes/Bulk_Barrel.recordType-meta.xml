@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bulk_Barrel</fullName>
+    <active>true</active>
+    <businessProcess>BS%26C Salesprocess</businessProcess>
+    <label>Bulk &amp; Barrels</label>
+    <picklistValues>
+        <picklist>Bottle_Size__c</picklist>
+        <values>
+            <fullName>1 L</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1%2E75 L</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>100 ML</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>200 ML</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>375 ML</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>50 ML</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>750 ML</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FocusBrandTypes__c</picklist>
+        <values>
+            <fullName>Pillar Brand</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ForecastCategoryName</picklist>
+        <values>
+            <fullName>Best Case</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Omitted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pipeline</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LeadSource</picklist>
+        <values>
+            <fullName>Advertisement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cold Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employee Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>External Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public Relations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seminar - Internal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seminar - Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trade Show</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Word of mouth</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>QuantityTypeDescription__c</picklist>
+        <values>
+            <fullName>Bottles</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Rank__c</picklist>
+        <values>
+            <fullName>1</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ReasonWonorLost__c</picklist>
+        <values>
+            <fullName>Competitor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Strategy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Never Responded</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Relevant for Customers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Price</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Availability</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quality Improvements</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Relationship</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Source__c</picklist>
+        <values>
+            <fullName>Account Segmentation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Distribution Cluster</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rep Created</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>StatusKey__c</picklist>
+        <values>
+            <fullName>TBD</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>TBD</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Casks -Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ex- Rye Casks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ex-Bourbon Barrels</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ex-Rum Casks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ex-Scotch Casks</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

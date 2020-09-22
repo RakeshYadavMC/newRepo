@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CPro_Number_Requirement</fullName>
+    <active>false</active>
+    <description>Compliant Pro number is required to close the ticket.</description>
+    <errorConditionFormula>AND (
+ ISPICKVAL( Status , "Closed"),
+ ISBLANK( Compliant_Pro_Number__c ),  
+ RecordType.Name = "Order Claim"
+)</errorConditionFormula>
+    <errorDisplayField>Compliant_Pro_Number__c</errorDisplayField>
+    <errorMessage>Compliant Pro Number is required to close the ticket.</errorMessage>
+</ValidationRule>

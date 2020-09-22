@@ -1,0 +1,40 @@
+.THIS {
+}
+
+.THIS.slds-card {
+    margin: 0% 20%;
+}
+
+.THIS .slds-card__footer {
+    text-align: right;
+}
+
+.THIS .slds-card__header {
+    border-bottom: 1px solid rgb(221, 219, 218);
+}
+
+.THIS .title {
+    padding-bottom: 0.75rem;
+}
+
+.THIS .errorsList {
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+.THIS .genericNotification {
+    border-radius: 0.25rem;
+}
+.THIS .slds-form-element__help {
+    display: none;
+}
+.THIS .slds-has-error .slds-input {
+    border-color: rgb(221, 219, 218);
+    box-shadow: none;
+}
+
+.THIS .forcePageError {
+    border-bottom: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}

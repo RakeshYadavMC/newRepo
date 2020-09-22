@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Close_Case_GBS</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <height>600</height>
+    <linkType>page</linkType>
+    <masterLabel>Close Case</masterLabel>
+    <openType>sidebar</openType>
+    <page>CaseCloseWithAttachmentPage</page>
+    <protected>false</protected>
+</WebLink>

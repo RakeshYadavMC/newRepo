@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This metadata contains the Brand, Additional Information(Category) and How can we help data with sorting order.</description>
+    <label>Brand Category Help Mapping</label>
+    <pluralLabel>Brand Category Help Mappings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

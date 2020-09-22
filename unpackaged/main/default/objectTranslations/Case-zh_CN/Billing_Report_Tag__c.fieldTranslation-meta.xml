@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>报告标签</label>
+        <name>Billing_Report_Tag__c</name>
+        <picklistValues>
+            <masterLabel>1099/1042 inquiries</masterLabel>
+            <translation><!-- 1099/1042 inquiries --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>401k/Retirement</masterLabel>
+            <translation>401k/退休</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6th7th Day</masterLabel>
+            <translation>第六第七天</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ADL</masterLabel>
+            <translation><!-- ADL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATI/PA request</masterLabel>
+            <translation><!-- ATI/PA request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Accounting</masterLabel>
+            <translation>会计</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Add Output</masterLabel>
+            <translation>添加输出</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Address Inquiry/Issue</masterLabel>
+            <translation>地址问询/问题</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Adhoc Report</masterLabel>
+            <translation>特定报告</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Adoption</masterLabel>
+            <translation>采用</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aires</masterLabel>
+            <translation><!-- Aires --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Annual Bonus (AIP, SIP)</masterLabel>
+            <translation><!-- Annual Bonus (AIP, SIP) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Attendees Required/Missing</masterLabel>
+            <translation>必要/缺席的与会者</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auto Allowance</masterLabel>
+            <translation>交通补贴</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Available Expense/Import Inquiries</masterLabel>
+            <translation><!-- Available Expense/Import Inquiries --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Awards</masterLabel>
+            <translation>奖励</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BCD Travel Rate Inquiry</masterLabel>
+            <translation><!-- BCD Travel Rate Inquiry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BCD requested vendor/merchant not available</masterLabel>
+            <translation><!-- BCD requested vendor/merchant not available --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BI Review/Questions/Inquiries</masterLabel>
+            <translation><!-- BI Review/Questions/Inquiries --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bad Pin/Pin Reset</masterLabel>
+            <translation><!-- Bad Pin/Pin Reset --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Banking</masterLabel>
+            <translation>银行业务</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Banking Details update</masterLabel>
+            <translation><!-- Banking Details update --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beam Global</masterLabel>
+            <translation><!-- Beam Global --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beam Pac</masterLabel>
+            <translation><!-- Beam Pac --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Benefit Focus</masterLabel>
+            <translation>福利重点</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Benefits</masterLabel>
+            <translation>福利</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bonus (Sign-On, )</masterLabel>
+            <translation><!-- Bonus (Sign-On, ) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brand Ambassador</masterLabel>
+            <translation>品牌大使</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brokerage</masterLabel>
+            <translation>佣金</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA Adjustment</masterLabel>
+            <translation><!-- CA Adjustment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COE/TR</masterLabel>
+            <translation><!-- COE/TR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canada</masterLabel>
+            <translation><!-- Canada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancel Invoice - Customer Master Error</masterLabel>
+            <translation>取消账单 —— 客户主要数据错误</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancel Invoice - Delivery Error</masterLabel>
+            <translation>取消账单 —— 交付错误</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancel Invoice - FI/CO interface Error</masterLabel>
+            <translation>取消账单 —— FI/CO 界面错误</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancel Invoice - IT Issue</masterLabel>
+            <translation>取消账单 —— IT 错误</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancel Invoice - Missing Conditions</masterLabel>
+            <translation>取消账单 —— 条款缺失</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancel Invoice - Other</masterLabel>
+            <translation>取消账单 —— 其它</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancel Invoice - Pricing</masterLabel>
+            <translation>取消账单 —— 定价</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancel Invoice - Split Invoice</masterLabel>
+            <translation>取消账单 —— 拆分账单</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancel invoice - Accounting Error</masterLabel>
+            <translation>取消账单 —— 会计差错</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ceridian Dayforce</masterLabel>
+            <translation>实时 Dayforce</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Champions Club</masterLabel>
+            <translation>冠军俱乐部</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CitiManager profile update requests</masterLabel>
+            <translation><!-- CitiManager profile update requests --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clermont</masterLabel>
+            <translation><!-- Clermont --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Close requests</masterLabel>
+            <translation><!-- Close requests --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commuter</masterLabel>
+            <translation>通勤者</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Company Car Fuel</masterLabel>
+            <translation>公司车辆燃油</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Configuration Enhancement</masterLabel>
+            <translation><!-- Configuration Enhancement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corp Tax</masterLabel>
+            <translation>公司税务</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Correct Invoice  - Pricing</masterLabel>
+            <translation>修正账单 —— 定价</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Correct Invoice - Currency</masterLabel>
+            <translation>修正账单 —— 货币</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Correct Invoice - Freight</masterLabel>
+            <translation>修正账单 —— 运送</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Correct Invoice - IT Issue</masterLabel>
+            <translation>修正账单 —— IT 问题</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Correct Invoice - Other</masterLabel>
+            <translation>修正账单 —— 其它</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Correct Invoice - Pallets</masterLabel>
+            <translation>修正账单 —— 货盘</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Correct Invoice - Partner Function</masterLabel>
+            <translation>修正账单 —— 合作伙伴的职能</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Correct Invoice - Service Charge</masterLabel>
+            <translation>修正账单 —— 服务收费</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Correct Invoice - Tax</masterLabel>
+            <translation>修正账单 —— 税务</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Correct Invoice - Trans SKU</masterLabel>
+            <translation>修正账单 —— 运输 SKU</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cost of Living</masterLabel>
+            <translation>生活费用</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Create Canada Commissions</masterLabel>
+            <translation>建立加拿大佣金</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Create Canada TPM</masterLabel>
+            <translation>建立加拿大 TPM</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Create D2D Transfer</masterLabel>
+            <translation>建立 D2D 转移</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Create EDI Failure Notification</masterLabel>
+            <translation>建立 EDI 失败通知</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Create Financial Invoice</masterLabel>
+            <translation>建立财务账单</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cruzan</masterLabel>
+            <translation><!-- Cruzan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deductions Adjustments</masterLabel>
+            <translation>扣减调整</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Destruction Adjustment</masterLabel>
+            <translation><!-- Destruction Adjustment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Direct Deposit Rejections</masterLabel>
+            <translation>直接薪资存入拒绝</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Discrepancy Investigation</masterLabel>
+            <translation><!-- Discrepancy Investigation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Duplicate Payment Review</masterLabel>
+            <translation><!-- Duplicate Payment Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Duplicate Receipt Inquiries</masterLabel>
+            <translation><!-- Duplicate Receipt Inquiries --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Duplicate Request</masterLabel>
+            <translation>重复请求</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EDI Retransmission</masterLabel>
+            <translation>EDI 传输</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMEA Adjustment</masterLabel>
+            <translation><!-- EMEA Adjustment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EY</masterLabel>
+            <translation><!-- EY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Emkay</masterLabel>
+            <translation><!-- Emkay --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee Referral</masterLabel>
+            <translation>员工推荐</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee Transfer</masterLabel>
+            <translation>员工转移</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exception Approval/Non-reimbursable expense</masterLabel>
+            <translation>例外情况审批/非报销费用</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exception Message/Audit Rule Inquiry</masterLabel>
+            <translation><!-- Exception Message/Audit Rule Inquiry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Executive Benefits</masterLabel>
+            <translation>行政福利</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exit Notification</masterLabel>
+            <translation>退出通知</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expense entry does not match receipt</masterLabel>
+            <translation>费用入账与收据不符</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expired Card Inquiry</masterLabel>
+            <translation><!-- Expired Card Inquiry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fidelity</masterLabel>
+            <translation>忠诚</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Final Pay</masterLabel>
+            <translation>最终付款</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Frankfort</masterLabel>
+            <translation><!-- Frankfort --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fraud/Suspicious activity Inquiry</masterLabel>
+            <translation><!-- Fraud/Suspicious activity Inquiry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Frequent Flier Status</masterLabel>
+            <translation><!-- Frequent Flier Status --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GBS</masterLabel>
+            <translation><!-- GBS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Garnishment, Support, Levy</masterLabel>
+            <translation><!-- Garnishment, Support, Levy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General Query</masterLabel>
+            <translation>通用查询</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gift Card</masterLabel>
+            <translation>礼品卡</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global Mobility</masterLabel>
+            <translation>全球流动性</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR Ops</masterLabel>
+            <translation>人力资源运营</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HRBP</masterLabel>
+            <translation><!-- HRBP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hourly</masterLabel>
+            <translation>小时</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IT</masterLabel>
+            <translation><!-- IT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incorrect Expense Type</masterLabel>
+            <translation><!-- Incorrect Expense Type --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Increase</masterLabel>
+            <translation>增加</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Informational</masterLabel>
+            <translation>信息性</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intercompany</masterLabel>
+            <translation><!-- Intercompany --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interface Inquiry/Issues</masterLabel>
+            <translation>界面问询/问题</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal order requests</masterLabel>
+            <translation><!-- Internal order requests --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Itemization of hotel needed</masterLabel>
+            <translation>酒店所需项目</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MCC unblock request</masterLabel>
+            <translation><!-- MCC unblock request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MR11</masterLabel>
+            <translation><!-- MR11 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MRBR</masterLabel>
+            <translation><!-- MRBR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MX Adjustment</masterLabel>
+            <translation><!-- MX Adjustment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Makers Mark</masterLabel>
+            <translation><!-- Makers Mark --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manual Invoice Request</masterLabel>
+            <translation>手写账单请求</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Merit/Lump Sum</masterLabel>
+            <translation>功绩/总额</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missing/Incorrect Receipt</masterLabel>
+            <translation>缺失/错误的收据</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North Carolina Billing</masterLabel>
+            <translation>北卡罗来纳州记账</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Notification</masterLabel>
+            <translation>通知</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Offboarding</masterLabel>
+            <translation><!-- Offboarding --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Offboarding former/terminated employees</masterLabel>
+            <translation><!-- Offboarding former/terminated employees --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Order confirmation</masterLabel>
+            <translation><!-- Order confirmation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Bailment request</masterLabel>
+            <translation><!-- Other Bailment request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PGI Adjustment</masterLabel>
+            <translation><!-- PGI Adjustment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PTO</masterLabel>
+            <translation><!-- PTO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Password Reset</masterLabel>
+            <translation>密码重置</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pay Changes Reports</masterLabel>
+            <translation>付款变化报告</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personal Charge Repayments</masterLabel>
+            <translation><!-- Personal Charge Repayments --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personal Travel Inquiry</masterLabel>
+            <translation><!-- Personal Travel Inquiry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Positive Pay</masterLabel>
+            <translation>先对账单，再付款</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Print Invoice Copy</masterLabel>
+            <translation>打印账单</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Profit Sharing</masterLabel>
+            <translation>利润分摊</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Redirected Request</masterLabel>
+            <translation>重定向请求</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regular Pay</masterLabel>
+            <translation>固定工资</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Relocation</masterLabel>
+            <translation>再定位</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repack Adjustment</masterLabel>
+            <translation><!-- Repack Adjustment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resend through Ship Compliant</masterLabel>
+            <translation>因运输合规性而再次发送</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retention Bonus</masterLabel>
+            <translation>留任奖金</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retro Pay</masterLabel>
+            <translation>追溯付款</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SSO/Concur mobile app issues</masterLabel>
+            <translation><!-- SSO/Concur mobile app issues --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Severance</masterLabel>
+            <translation>分离</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shipping Tracking</masterLabel>
+            <translation>货物追踪</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sign-On Bonus</masterLabel>
+            <translation>入职奖金</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Splitting Charges</masterLabel>
+            <translation><!-- Splitting Charges --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spot Bonus</masterLabel>
+            <translation>即时奖金</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SuccessFactors</masterLabel>
+            <translation>签核</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Taste Panel</masterLabel>
+            <translation>品尝小组</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Taxi</masterLabel>
+            <translation><!-- Taxi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Timekeeping</masterLabel>
+            <translation><!-- Timekeeping --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Treasury</masterLabel>
+            <translation>金库</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tuition</masterLabel>
+            <translation>学费</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tungsten inquiry</masterLabel>
+            <translation><!-- Tungsten inquiry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Adjustment</masterLabel>
+            <translation><!-- US Adjustment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unclaimed property inquiries</masterLabel>
+            <translation><!-- Unclaimed property inquiries --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>United Way</masterLabel>
+            <translation>公益金</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>W2 Issues</masterLabel>
+            <translation>W2 问题</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wires</masterLabel>
+            <translation>线路</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>other</masterLabel>
+            <translation>其它</translation>
+        </picklistValues>
+    </CustomFieldTranslation>

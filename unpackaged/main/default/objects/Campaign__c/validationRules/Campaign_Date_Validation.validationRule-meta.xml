@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Campaign_Date_Validation</fullName>
+    <active>true</active>
+    <description>Campaign Start Date must be less than End Date.</description>
+    <errorConditionFormula>InitialStartDate__c   &gt;   InitialEndDate__c</errorConditionFormula>
+    <errorDisplayField>InitialStartDate__c</errorDisplayField>
+    <errorMessage>Start Date must be prior or equal to End Date.</errorMessage>
+</ValidationRule>

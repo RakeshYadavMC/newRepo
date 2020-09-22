@@ -1,0 +1,58 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+    <aura:attribute name="recordId" type="String"/>
+    <aura:attribute name="record" type="Object"/>
+    <aura:attribute name="simpleRecord" type="Object" />
+    <aura:attribute name="doneRendering" type="Boolean" default="false"/>
+    <aura:attribute name="noOfDaysLeft" type="Integer" default="0"/>
+    <aura:attribute name="showSpinner" type="boolean" default="true"/>
+    <aura:attribute name="message" type="String"/>
+    <force:recordData recordId="{!v.recordId}"
+                      targetRecord ="{!v.record}"
+                      targetFields ="{!v.simpleRecord}"
+                      fields="Name, Kit_Selection_Last_Day__c,Sample_Selected__c"
+                      recordUpdated="{!c.recordLoaded}"/>
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    <lightning:layout>
+        <lightning:layoutItem padding="around-small">
+            <lightning:card variant="Narrow" title="Sample Selection Deadline" iconName="custom:custom95" class="c-container">
+                <aura:if isTrue="{!v.showSpinner}">
+                    <lightning:spinner alternativeText="Loading" size="medium" variant="brand"/>
+                    <aura:set attribute="else">
+                        <aura:if isTrue="{!v.simpleRecord.Kit_Selection_Last_Day__c != null}">
+                            <aura:if isTrue="{!v.simpleRecord.Sample_Selected__c}"> 
+                                <div class="slds-text-align_center">
+                                    <span><lightning:icon iconName="utility:success" variant="Success" title="Sample Selected" size="small"/></span>
+                                    <span class="slds-text-heading_small">Sample Selected</span>
+                                </div>
+                                <aura:set attribute="else">
+                                    <aura:if isTrue="{!v.noOfDaysLeft > 0}">
+                                        <aura:if isTrue="{!v.noOfDaysLeft == 1}">
+                                            <div class="slds-text-heading_large slds-text-align_center"><h1>{!v.noOfDaysLeft}</h1></div>
+                                            <div class="slds-text-heading_small slds-text-align_center">Day Left</div>
+                                        </aura:if>
+                                        <aura:if isTrue="{!v.noOfDaysLeft > 1}">
+                                            <div class="slds-text-heading_large slds-text-align_center">{!v.noOfDaysLeft}</div>
+                                            <div class="slds-text-heading_small slds-text-align_center">Days Left</div>
+                                        </aura:if>
+                                        <aura:set attribute="else">
+                                            <div class="slds-text-align_center">
+                                                <span><lightning:icon iconName="utility:error" variant="Error" size="small"/></span>
+                                                <span class="slds-text-heading_small">Deadline past</span>
+                                            </div>
+                                        </aura:set>
+                                    </aura:if>
+                                </aura:set>
+                            </aura:if>
+                            <aura:set attribute="else">
+                                <div class="slds-text-align_center">
+                                    <span><lightning:icon iconName="utility:info" variant="Brand" size="small"/></span>
+                                    <span class="slds-text-heading_small">Sample not ready for selection</span>
+                                </div>	
+                            </aura:set> 
+                        </aura:if>
+                    </aura:set>
+                </aura:if>               
+            </lightning:card>
+        </lightning:layoutItem>
+    </lightning:layout>
+</aura:component>

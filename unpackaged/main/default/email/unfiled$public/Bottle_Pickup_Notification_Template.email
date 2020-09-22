@@ -1,0 +1,7 @@
+Hi,
+
+A request for bottle pickup has been raised for #{!Case.CaseNumber}.
+
+Thanks
+
+{!Case.Thread_Id}

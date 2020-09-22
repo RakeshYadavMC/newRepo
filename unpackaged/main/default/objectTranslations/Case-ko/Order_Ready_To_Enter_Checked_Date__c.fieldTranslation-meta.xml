@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Order Ready To Enter Checked Date --></label>
+        <name>Order_Ready_To_Enter_Checked_Date__c</name>
+    </CustomFieldTranslation>

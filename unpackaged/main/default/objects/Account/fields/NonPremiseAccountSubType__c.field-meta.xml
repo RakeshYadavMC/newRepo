@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NonPremiseAccountSubType__c</fullName>
+    <externalId>false</externalId>
+    <label>Non-Premise Account Sub-Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>NonPremiseAccountType__c</controllingField>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Alumni Association</fullName>
+                <default>false</default>
+                <label>Alumni Association</label>
+            </value>
+            <value>
+                <fullName>Banquet Hall</fullName>
+                <default>false</default>
+                <label>Banquet Hall</label>
+            </value>
+            <value>
+                <fullName>Bar Academy / Bartending School</fullName>
+                <default>false</default>
+                <label>Bar Academy / Bartending School</label>
+            </value>
+            <value>
+                <fullName>Caterer</fullName>
+                <default>false</default>
+                <label>Caterer</label>
+            </value>
+            <value>
+                <fullName>College / Education</fullName>
+                <default>false</default>
+                <label>College / Education</label>
+            </value>
+            <value>
+                <fullName>Convention Center</fullName>
+                <default>false</default>
+                <label>Convention Center</label>
+            </value>
+            <value>
+                <fullName>Custom POS</fullName>
+                <default>false</default>
+                <label>Custom POS</label>
+            </value>
+            <value>
+                <fullName>Festival</fullName>
+                <default>false</default>
+                <label>Festival</label>
+            </value>
+            <value>
+                <fullName>IBA (International Bartender Association)</fullName>
+                <default>false</default>
+                <label>IBA (International Bartender Association)</label>
+            </value>
+            <value>
+                <fullName>Industry Event (e.g., Whiskey Fest, Cocktail Weeks)</fullName>
+                <default>false</default>
+                <label>Industry Event (e.g., Whiskey Fest, Cocktail Weeks)</label>
+            </value>
+            <value>
+                <fullName>Local Agency</fullName>
+                <default>false</default>
+                <label>Local Agency</label>
+            </value>
+            <value>
+                <fullName>Local Print</fullName>
+                <default>false</default>
+                <label>Local Print</label>
+            </value>
+            <value>
+                <fullName>Local Radio</fullName>
+                <default>false</default>
+                <label>Local Radio</label>
+            </value>
+            <value>
+                <fullName>Local TV</fullName>
+                <default>false</default>
+                <label>Local TV</label>
+            </value>
+            <value>
+                <fullName>Music Center</fullName>
+                <default>false</default>
+                <label>Music Center</label>
+            </value>
+            <value>
+                <fullName>Off Premise Association</fullName>
+                <default>false</default>
+                <label>Off Premise Association</label>
+            </value>
+            <value>
+                <fullName>On Premise Association</fullName>
+                <default>false</default>
+                <label>On Premise Association</label>
+            </value>
+            <value>
+                <fullName>PAC Group</fullName>
+                <default>false</default>
+                <label>PAC Group</label>
+            </value>
+            <value>
+                <fullName>Restaurant without Liquor License</fullName>
+                <default>false</default>
+                <label>Restaurant without Liquor License</label>
+            </value>
+            <value>
+                <fullName>Salon/Spa</fullName>
+                <default>false</default>
+                <label>Salon/Spa</label>
+            </value>
+            <value>
+                <fullName>Sampling (Off and On Premise)</fullName>
+                <default>false</default>
+                <label>Sampling (Off and On Premise)</label>
+            </value>
+            <value>
+                <fullName>Social Media (e.g., Yelp Elite)</fullName>
+                <default>false</default>
+                <label>Social Media (e.g., Yelp Elite)</label>
+            </value>
+            <value>
+                <fullName>Union</fullName>
+                <default>false</default>
+                <label>Union</label>
+            </value>
+            <value>
+                <fullName>USBG</fullName>
+                <default>false</default>
+                <label>USBG</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Media</controllingFieldValue>
+            <valueName>Local Print</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Media</controllingFieldValue>
+            <valueName>Local Radio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Media</controllingFieldValue>
+            <valueName>Local TV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Media</controllingFieldValue>
+            <valueName>Social Media (e.g., Yelp Elite)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Event</controllingFieldValue>
+            <valueName>Festival</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Event</controllingFieldValue>
+            <valueName>Industry Event (e.g., Whiskey Fest, Cocktail Weeks)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-Licensed Accounts</controllingFieldValue>
+            <valueName>Banquet Hall</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-Licensed Accounts</controllingFieldValue>
+            <valueName>Caterer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-Licensed Accounts</controllingFieldValue>
+            <valueName>Convention Center</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-Licensed Accounts</controllingFieldValue>
+            <valueName>Music Center</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-Licensed Accounts</controllingFieldValue>
+            <valueName>Restaurant without Liquor License</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-Licensed Accounts</controllingFieldValue>
+            <valueName>Salon/Spa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Industry Association</controllingFieldValue>
+            <valueName>Off Premise Association</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Industry Association</controllingFieldValue>
+            <valueName>On Premise Association</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agency</controllingFieldValue>
+            <valueName>Custom POS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agency</controllingFieldValue>
+            <valueName>Local Agency</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agency</controllingFieldValue>
+            <valueName>Sampling (Off and On Premise)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Organization</controllingFieldValue>
+            <valueName>Alumni Association</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Organization</controllingFieldValue>
+            <valueName>Bar Academy / Bartending School</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Organization</controllingFieldValue>
+            <valueName>College / Education</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Organization</controllingFieldValue>
+            <valueName>IBA (International Bartender Association)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Organization</controllingFieldValue>
+            <valueName>PAC Group</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Organization</controllingFieldValue>
+            <valueName>Union</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Organization</controllingFieldValue>
+            <valueName>USBG</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

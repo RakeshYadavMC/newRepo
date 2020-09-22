@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MP_Type__c</fullName>
+    <description>Field used for complex approvals across teams.</description>
+    <externalId>false</externalId>
+    <formula>if(
+and( ispickval(Region__c,"National Accounts"), NOT(ISBLANK(Territory__c))),"TERRITORY - NATL ACCTS",
+if(
+and( ispickval(Region__c,"National Accounts"),(ISBLANK(Territory__c))),"REGION - NATL ACCTS",
+if(
+and( ispickval(Region__c,"National Marketing"), NOT(ISBLANK(Territory__c))),"TERRITORY - NATL MKTG",
+if(
+and( ispickval(Region__c,"National Marketing"),(ISBLANK(Territory__c))),"REGION - NATL MKTG",
+if(
+NOT(ISBLANK(Territory__c)),"TERRITORY - FIELD",
+if(
+NOT(ISPICKVAL(Division__c,"")),"DIVISION - FIELD",
+if(
+NOT(ispickval(Region__c,"")) ,"REGION - FIELD",
+if(
+NOT(isBLANK(Brand__c)) ,"BRAND",
+if(
+NOT(ispickval( Country__c ,"")) ,"COUNTRY",
+"GLOBAL")))))))))</formula>
+    <label>MP Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

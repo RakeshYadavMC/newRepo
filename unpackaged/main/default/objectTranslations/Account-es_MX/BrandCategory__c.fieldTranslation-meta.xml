@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>Categoría de Marca</label>
+        <name>BrandCategory__c</name>
+        <picklistValues>
+            <masterLabel>Bourbon</masterLabel>
+            <translation><!-- Bourbon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cognac</masterLabel>
+            <translation><!-- Cognac --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Otro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tequila</masterLabel>
+            <translation><!-- Tequila --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vodka</masterLabel>
+            <translation><!-- Vodka --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>World Whiskies</masterLabel>
+            <translation>Whiskeis Mundiales</translation>
+        </picklistValues>
+    </CustomFieldTranslation>

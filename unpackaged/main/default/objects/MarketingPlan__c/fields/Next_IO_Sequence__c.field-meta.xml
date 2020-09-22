@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Next_IO_Sequence__c</fullName>
+    <description>Stores the next available IO ending sequence for all the campaigns under this Marketing Plan. Used by system to auto-generate IO Codes on Campaigns.</description>
+    <externalId>false</externalId>
+    <label>Next IO Sequence</label>
+    <precision>3</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

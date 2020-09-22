@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Case Closed Notification to Submitter in Chinese</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Blank_Letterhead</letterhead>
+    <name>Case Closed (zh_CN)</name>
+    <style>freeForm</style>
+    <subject>案例#{!Case.CaseNumber}已解决。</subject>
+    <textOnly>您好{!Case.Submitter_First_Name__c}，
+
+您的案例#{!Case.CaseNumber}已经关闭并得出以下决议详细： {!Case.Case_Resolution_Details__c} 请用5秒钟的时间来回答这个问题: 您对决议及时性和准确性的满意程度？ 如果您希望重新打开此案例，请在 5 天内在主题中回复“重新打开案例”。 请说明重新打开此案例的原因。 重新打开案例的说明： 如欲从社区重新打开您的案例，请登入并单击“我的案例”标签，选择“我的已关闭的案例”视图，然后单击“重新打开案例”按钮。 单击“重新打开案例”按钮后，请在弹出窗口中添加重新打开案例的原因。请注意：该按钮将只在 5 个日历日内可用，之后将被“禁用”并显示为灰色。 点击下方以便查看您的案例：
+{!$Label.Base_Company_Community_URL}{!Case.Id}
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

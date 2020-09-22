@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Time_Interval__c</fullName>
+    <description>SB-MC-SB-10 To maintain for which time Interval we are providing allocation in Single Barrel</description>
+    <externalId>false</externalId>
+    <label>Time Interval</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Time_Period__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>January</fullName>
+                <default>false</default>
+                <label>January</label>
+            </value>
+            <value>
+                <fullName>February</fullName>
+                <default>false</default>
+                <label>February</label>
+            </value>
+            <value>
+                <fullName>March</fullName>
+                <default>false</default>
+                <label>March</label>
+            </value>
+            <value>
+                <fullName>April</fullName>
+                <default>false</default>
+                <label>April</label>
+            </value>
+            <value>
+                <fullName>May</fullName>
+                <default>false</default>
+                <label>May</label>
+            </value>
+            <value>
+                <fullName>June</fullName>
+                <default>false</default>
+                <label>June</label>
+            </value>
+            <value>
+                <fullName>July</fullName>
+                <default>false</default>
+                <label>July</label>
+            </value>
+            <value>
+                <fullName>August</fullName>
+                <default>false</default>
+                <label>August</label>
+            </value>
+            <value>
+                <fullName>September</fullName>
+                <default>false</default>
+                <label>September</label>
+            </value>
+            <value>
+                <fullName>October</fullName>
+                <default>false</default>
+                <label>October</label>
+            </value>
+            <value>
+                <fullName>November</fullName>
+                <default>false</default>
+                <label>November</label>
+            </value>
+            <value>
+                <fullName>December</fullName>
+                <default>false</default>
+                <label>December</label>
+            </value>
+            <value>
+                <fullName>Quarter 1</fullName>
+                <default>false</default>
+                <label>Quarter 1</label>
+            </value>
+            <value>
+                <fullName>Quarter 2</fullName>
+                <default>false</default>
+                <label>Quarter 2</label>
+            </value>
+            <value>
+                <fullName>Quarter 3</fullName>
+                <default>false</default>
+                <label>Quarter 3</label>
+            </value>
+            <value>
+                <fullName>Quarter 4</fullName>
+                <default>false</default>
+                <label>Quarter 4</label>
+            </value>
+            <value>
+                <fullName>year</fullName>
+                <default>false</default>
+                <label>year</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Monthly</controllingFieldValue>
+            <valueName>January</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Monthly</controllingFieldValue>
+            <valueName>February</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Monthly</controllingFieldValue>
+            <valueName>March</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Monthly</controllingFieldValue>
+            <valueName>April</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Monthly</controllingFieldValue>
+            <valueName>May</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Monthly</controllingFieldValue>
+            <valueName>June</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Monthly</controllingFieldValue>
+            <valueName>July</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Monthly</controllingFieldValue>
+            <valueName>August</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Monthly</controllingFieldValue>
+            <valueName>September</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Monthly</controllingFieldValue>
+            <valueName>October</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Monthly</controllingFieldValue>
+            <valueName>November</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Monthly</controllingFieldValue>
+            <valueName>December</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quarterly</controllingFieldValue>
+            <valueName>Quarter 1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quarterly</controllingFieldValue>
+            <valueName>Quarter 2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quarterly</controllingFieldValue>
+            <valueName>Quarter 3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quarterly</controllingFieldValue>
+            <valueName>Quarter 4</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yearly</controllingFieldValue>
+            <valueName>year</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

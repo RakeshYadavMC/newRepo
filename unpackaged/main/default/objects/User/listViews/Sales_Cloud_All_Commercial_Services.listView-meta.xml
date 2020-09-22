@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_Cloud_All_Commercial_Services</fullName>
+    <booleanFilter>1 AND 2 AND 3 AND 4 AND 4 AND 5</booleanFilter>
+    <columns>CORE.USERS.FIRST_NAME</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <columns>CORE.USERS.USERNAME</columns>
+    <columns>CORE.PROFILE.NAME</columns>
+    <columns>CORE.USER_ROLE.NAME</columns>
+    <columns>CORE.USERS.LAST_LOGIN</columns>
+    <columns>CORE.USERS.ACTIVE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CORE.PROFILE.NAME</field>
+        <operation>notContain</operation>
+        <value>American Stillhouse,Application Admin,Community</value>
+    </filters>
+    <filters>
+        <field>CORE.PROFILE.NAME</field>
+        <operation>notContain</operation>
+        <value>CS Coordinator,CS Management,GBS,Read Only - Customer Service,System Adminis</value>
+    </filters>
+    <filters>
+        <field>CORE.PROFILE.NAME</field>
+        <operation>notContain</operation>
+        <value>Chatter,Commercial Services Management,Communities</value>
+    </filters>
+    <filters>
+        <field>CORE.PROFILE.NAME</field>
+        <operation>notContain</operation>
+        <value>Company Employee,Read Only - Customer Service,System Administrator</value>
+    </filters>
+    <filters>
+        <field>CORE.PROFILE.NAME</field>
+        <operation>notContain</operation>
+        <value>Beam Suntory,Urban Stillhouse,Vendor</value>
+    </filters>
+    <label>Sales Cloud - All Commercial Services</label>
+    <language>en_US</language>
+</ListView>

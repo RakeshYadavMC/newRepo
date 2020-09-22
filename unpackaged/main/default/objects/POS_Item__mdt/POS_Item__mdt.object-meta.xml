@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This setting applies to the Single Barrel Program and defines the name of the POS Item and any necessary help text</description>
+    <label>POS Item</label>
+    <pluralLabel>POS Items</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

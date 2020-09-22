@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Restricts_SubcaseClosure_Parent_SAP_Null</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF( ParentId &lt;&gt; Null,IF(AND (
+NOT(ISNEW()),
+$RecordType.Name = "Barrel Ready to Enter",
+ISBLANK(Parent.SAP_Number__c),
+ISCHANGED(Status) ,
+ISPICKVAL(Status , "Closed")
+),true, false), false)</errorConditionFormula>
+    <errorMessage>Subcase can only be closed if its parent case has SAP Number filled.</errorMessage>
+</ValidationRule>

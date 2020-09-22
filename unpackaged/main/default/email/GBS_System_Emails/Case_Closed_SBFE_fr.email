@@ -1,0 +1,34 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<div style=""><font face="Arial, sans-serif" style="" size="2"><br></font></div><div style="font-size: 12pt; font-family: arial;"><table class="MsoNormalTable" border="0" cellspacing="5" cellpadding="0" width="600" style="width:6.25in;mso-cellspacing:3.7pt;mso-yfti-tbllook:1184;mso-padding-alt:
+ 3.75pt 3.75pt 3.75pt 3.75pt">
+ <tbody><tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes;
+  height:225.0pt">
+  <td valign="top" style="background:white;padding:3.75pt 3.75pt 3.75pt 3.75pt;
+  height:225.0pt">
+  <p class="MsoNormal"><span style="background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><font face="Times New Roman, Times, serif">Bonjour, <o:p></o:p></font></span></p><p class="MsoNormal"><span style="background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><font face="Times New Roman, Times, serif">Votre requête no {!Case.CaseNumber} a
+été fermée avec les détails de résolution suivants: <o:p></o:p></font></span></p><p class="MsoNormal"><span style="background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><font face="Times New Roman, Times, serif"><i>{!Case.Case_Resolution_Details__c} </i><o:p></o:p></font></span></p><p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal">
+
+
+
+
+
+</p><p class="MsoNormal"><font face="Times New Roman, Times, serif"><span style="background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">Prenez 5 secondes pour répondre à
+cette question : Êtes-vous satisfait de la ponctualité et de l’exactitude de la
+résolution ?</span><o:p></o:p></font></p>
+  <p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><span style="color: black;"><o:p><font face="Times New Roman, Times, serif">&nbsp;</font></o:p></span><font face="Times New Roman, Times, serif"><span style="font-size: 12pt;"><a href="{!$Label.Base_Company_Community_Survey_URL}?id={!Case.Id}&amp;rating=1"><img src="https://beamsuntory--c.na17.content.force.com/servlet/servlet.ImageServer?id=015o00000031I3k&amp;oid=00Do0000000cCkJ" border="0" align="center" alt=""></a></span></font><span style="font-family: &quot;Times New Roman&quot;, Times, serif; font-size: 12pt;">&nbsp;</span><font face="Times New Roman, Times, serif"><span style="font-size: 12pt;"><a href="{!$Label.Base_Company_Community_Survey_URL}?id={!Case.Id}&amp;rating=2"><img src="https://beamsuntory--c.na17.content.force.com/servlet/servlet.ImageServer?id=015o00000031I3p&amp;oid=00Do0000000cCkJ" border="0" align="center" alt=""></a></span></font><span style="font-family: &quot;Times New Roman&quot;, Times, serif; font-size: 12pt;">&nbsp;</span><font face="Times New Roman, Times, serif"><span style="font-size: 12pt;"><a href="{!$Label.Base_Company_Community_Survey_URL}?id={!Case.Id}&amp;rating=3"><img src="https://beamsuntory--c.na17.content.force.com/servlet/servlet.ImageServer?id=015o00000031I3u&amp;oid=00Do0000000cCkJ" border="0" align="center" alt=""></a></span></font><span style="font-family: &quot;Times New Roman&quot;, Times, serif; font-size: 12pt;">&nbsp;</span><font face="Times New Roman, Times, serif"><span style="font-size: 12pt;"><a href="{!$Label.Base_Company_Community_Survey_URL}?id={!Case.Id}&amp;rating=4"><img src="https://beamsuntory--c.na17.content.force.com/servlet/servlet.ImageServer?id=015o00000031I49&amp;oid=00Do0000000cCkJ" border="0" align="center" alt=""></a></span></font><span style="font-family: &quot;Times New Roman&quot;, Times, serif; font-size: 12pt;">&nbsp;</span><font face="Times New Roman, Times, serif"><span style="font-size: 12pt;"><a href="{!$Label.Base_Company_Community_Survey_URL}?id={!Case.Id}&amp;rating=5"><img src="https://beamsuntory--c.na17.content.force.com/servlet/servlet.ImageServer?id=015o00000031I4E&amp;oid=00Do0000000cCkJ" border="0" align="center" alt=""></a></span></font></p><p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"></p><div style=""></div><p></p><div style="color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;"><span style="font-size: 12pt;"><o:p><font face="Times New Roman, Times, serif">&nbsp;</font></o:p></span><span style="font-size: 12pt; font-family: &quot;Times New Roman&quot;, Times, serif;">Merci</span></div>
+  <p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><span style="color: black;"><o:p><font face="Arial, sans-serif" size="2">&nbsp;</font></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><span style="color: black;"><o:p><font face="Arial, sans-serif" size="2">&nbsp;</font></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><span style="color: black;"><font face="Arial, sans-serif" style=""><font size="2">{!Case.Thread_Id}</font><span style="font-size: 8pt;"><o:p></o:p></span></font></span></p>
+  </td>
+ </tr>
+</tbody></table><br></div>]]></td>
+</tr>
+</table>

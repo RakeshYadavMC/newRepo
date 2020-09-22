@@ -1,0 +1,20 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<p class="MsoNormal" style=""><font style="" face="Times New Roman, Times, serif">Hallo {! Case.OwnerFullName},<o:p></o:p></font></p>
+
+<p class="MsoNormal" style=""><font face="Times New Roman, Times, serif">Fall # {! Case.CaseNumber}, ein Ihnen zugewiesener Fall,
+wurde erneut geöffnet. Die Erläuterung des Einreichers für die Wiedereröffnung
+lautet wie folgt:</font></p><p class="MsoNormal" style=""><span style="font-family: &quot;Times New Roman&quot;, Times, serif;">{!Case.Reopen_Explanation__c}</span></p><p class="MsoNormal" style=""><font face="Times New Roman, Times, serif"><o:p></o:p></font></p>
+
+<p class="MsoNormal" style=""><font face="Times New Roman, Times, serif">Klicken Sie unten, um Ihren Fall zu sehen:</font></p><p class="MsoNormal" style=""><font face="Times New Roman, Times, serif"><o:p></o:p></font></p>
+
+<a href="https://beamsuntory--bsicm--c.documentforce.com/email/{!$Label.Base_Company_Community_URL}{!Case.Id}" style="background-color: rgb(255, 255, 255);"><font style="" face="Times New Roman, Times, serif">{!$Label.Base_Company_Community_URL}{!Case.Id}</font></a><br>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial;"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial;"><o:p>&nbsp;</o:p></p><p class="MsoNormal" style="font-size: 12pt; font-family: arial;"><o:p><br></o:p></p><p class="MsoNormal" style="font-size: 12pt; font-family: arial;"><o:p><br></o:p></p><p class="MsoNormal" style="font-size: 12pt; font-family: arial;"><o:p><br></o:p></p><p class="MsoNormal" style="font-size: 12pt; font-family: arial;"><o:p><br></o:p></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial;">{! Case.Thread_Id}<o:p></o:p></p>]]></td>
+</tr>
+</table>

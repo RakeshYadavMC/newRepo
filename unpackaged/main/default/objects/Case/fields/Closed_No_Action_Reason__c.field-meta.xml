@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Closed_No_Action_Reason__c</fullName>
+    <description>Closed-No Action Reason is a custom field that is required for a Compliance Sub-Case Record Type that has the following Status: Closed - No Action</description>
+    <externalId>false</externalId>
+    <inlineHelpText>A Reason for setting the Compliance Sub-Case Record Type status to Closed-No Action.</inlineHelpText>
+    <label>Closed-No Action Reason</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

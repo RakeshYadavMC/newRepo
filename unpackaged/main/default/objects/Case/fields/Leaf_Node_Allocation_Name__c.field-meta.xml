@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Leaf_Node_Allocation_Name__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+    Allocation_Allocated_From__c = 'Region',
+    Region_Allocation_From__r.Name,
+    IF(
+        Allocation_Allocated_From__c = 'State',
+        State_Allocation_From__r.Name,
+								Distributor_Allocation_From__r.Name
+    )
+)</formula>
+    <label>Leaf Node Allocation Name</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,41 @@
+<messaging:emailTemplate subject="Barrel Requires Registration" recipientType="User" relatedToType="Barrel__c">
+<messaging:htmlEmailBody >
+<html>
+<body>
+<apex:image id="Campaign_email_template_1_header" value="https://beamsuntory--c.na74.content.force.com/servlet/servlet.ImageServer?id=015o0000001Dyoa&oid=00Do0000000cCkJ" style="display: block; margin-left: auto;margin-right: auto; width:50%" />
+<div style="content:' '; display:block; border:.5px solid black; margin-top:10px; border-color: #999999;"></div>
+
+
+<p>Hi,</p>
+
+<p>This barrel is ready for State registration. When registration is complete please navigate to Salesforce to approve this barrel.</p>
+
+<p>Case Number: {!relatedTo.Case__r.CaseNumber}</p>
+
+<p>SAP Number: {!relatedTo.Case__r.SAP_Number__c}</p>
+
+<p>SKU: {!relatedTo.SKU__c}</p>
+
+<p>Number of Cases: {!relatedTo.Quantity__c}</p>
+
+<p>Proof: {!relatedTo.Proof__c}</p>
+
+<p>Purchase Order Number: {!relatedTo.PO_Number__c}</p>
+
+<p>Account Name: {!relatedTo.Account_Name__c}</p>
+
+<p>Retail Account Name: {!relatedTo.Case__r.Retail_Account__r.Name}</p>
+
+<p>State: {!relatedTo.State__c}</p>
+
+
+<p>Thank you,</p>
+<p>Beam Suntory Customer Service</p>
+
+</body>
+</html>
+
+
+
+</messaging:htmlEmailBody>
+</messaging:emailTemplate>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>It contains information regarding email signature like image url, social url etc.</description>
+    <label>Email Signature Information</label>
+    <pluralLabel>Email Signature Informations</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Missing_PO__c</fullName>
+    <externalId>false</externalId>
+    <formula>AND(
+CASE( Brand__c,
+"Knob Creek",
+IF(!Purchase_Order_Uploaded__c,
+1, 0),
+"Makers Mark",
+IF(
+AND(!Purchase_Order_Uploaded__c, !ISBLANK ( SKU_from_Barrel__c )),
+1, 0),
+"El Tesoro",
+IF(
+AND(!Purchase_Order_Uploaded__c, !ISBLANK ( SKU_from_Barrel__c )),
+1, 0),
+0) == 1
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Missing PO?</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

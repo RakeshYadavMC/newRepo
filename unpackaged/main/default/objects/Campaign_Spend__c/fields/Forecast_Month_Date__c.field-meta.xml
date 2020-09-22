@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Forecast_Month_Date__c</fullName>
+    <externalId>false</externalId>
+    <formula>DATE(VALUE( ParentCampaign__r.Year__c ),
+CASE(Forecast_Month__c, 
+'Jan',1,
+'Feb',2,
+'Mar',3,
+'Apr',4,
+'May',5,
+'Jun',6,
+'Jul',7,
+'Aug',8,
+'Sep',9,
+'Oct',10,
+'Nov',11,
+'Dec',12,1)
+,1)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Forecast Date</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

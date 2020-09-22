@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Primary_Business__c</fullName>
+    <externalId>false</externalId>
+    <label>Primary Business</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Beam Suntory</fullName>
+                <default>false</default>
+                <label>Beam Suntory</label>
+            </value>
+            <value>
+                <fullName>Suntory Beverage Food Europe</fullName>
+                <default>false</default>
+                <label>Suntory Beverage Food Europe</label>
+            </value>
+            <value>
+                <fullName>I am an employee of one of these companies</fullName>
+                <default>false</default>
+                <label>I am an employee of one of these companies</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

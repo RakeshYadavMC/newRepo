@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Campaign_Spend_Actual_Committed_Outdated</fullName>
+    <columns>NAME</columns>
+    <columns>Amount__c</columns>
+    <columns>Campaign_Year__c</columns>
+    <columns>RECORDTYPE</columns>
+    <columns>IOCode__c</columns>
+    <columns>ParentCampaign__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Campaign_Spend__c.Actual,Campaign_Spend__c.Committed</value>
+    </filters>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>lessThan</operation>
+        <value>TODAY</value>
+    </filters>
+    <label>Campaign Spend-Actual/Committed-Outdated</label>
+    <sharedTo>
+        <role>Application_Admin</role>
+    </sharedTo>
+</ListView>

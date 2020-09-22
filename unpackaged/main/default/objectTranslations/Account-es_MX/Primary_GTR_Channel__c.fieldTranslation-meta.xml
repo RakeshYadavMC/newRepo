@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Primary GTR Channel --></label>
+        <name>Primary_GTR_Channel__c</name>
+        <picklistValues>
+            <masterLabel>Airline</masterLabel>
+            <translation><!-- Airline --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Airport</masterLabel>
+            <translation><!-- Airport --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Border Store</masterLabel>
+            <translation><!-- Border Store --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Crew Shop</masterLabel>
+            <translation><!-- Crew Shop --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cruise</masterLabel>
+            <translation><!-- Cruise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diplomates</masterLabel>
+            <translation><!-- Diplomates --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distributor</masterLabel>
+            <translation><!-- Distributor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Downtown</masterLabel>
+            <translation><!-- Downtown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Embassy</masterLabel>
+            <translation><!-- Embassy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ferry</masterLabel>
+            <translation><!-- Ferry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Free Zone</masterLabel>
+            <translation><!-- Free Zone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inflight</masterLabel>
+            <translation><!-- Inflight --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Military</masterLabel>
+            <translation><!-- Military --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Port</masterLabel>
+            <translation><!-- Port --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ship Chandlers</masterLabel>
+            <translation><!-- Ship Chandlers --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

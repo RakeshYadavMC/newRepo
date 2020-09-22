@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Dashboard xmlns="http://soap.sforce.com/2006/04/metadata">
+    <backgroundEndColor>#FFFFFF</backgroundEndColor>
+    <backgroundFadeDirection>Diagonal</backgroundFadeDirection>
+    <backgroundStartColor>#FFFFFF</backgroundStartColor>
+    <dashboardType>SpecifiedUser</dashboardType>
+    <description>North America's Open Claims report
+
+A Violation means that the cases have breached SLA</description>
+    <isGridLayout>false</isGridLayout>
+    <leftSection>
+        <columnSize>Wide</columnSize>
+        <components>
+            <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <chartSummary>
+                <axisBinding>y</axisBinding>
+                <column>RowCount</column>
+            </chartSummary>
+            <componentType>ColumnStacked</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>false</enableHover>
+            <expandOthers>false</expandOthers>
+            <groupingColumn>FK_$Case.Case_Owner_Manager__c</groupingColumn>
+            <groupingColumn>Cloned_Milestone__c.Violation__c</groupingColumn>
+            <groupingSortProperties />
+            <header>Cases Owned by the Business</header>
+            <legendPosition>Bottom</legendPosition>
+            <report>CS_Dashboard_Reports/America_s_SLA_Report_by_Manager</report>
+            <showPercentage>false</showPercentage>
+            <showValues>false</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>Open Cases by Case Owner Manager</title>
+            <useReportChart>false</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <chartSummary>
+                <axisBinding>y</axisBinding>
+                <column>RowCount</column>
+            </chartSummary>
+            <componentType>ColumnStacked</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>false</enableHover>
+            <expandOthers>false</expandOthers>
+            <groupingColumn>FK_CASE_OWNER_NAME</groupingColumn>
+            <groupingColumn>Cloned_Milestone__c.Violation__c</groupingColumn>
+            <groupingSortProperties />
+            <legendPosition>Bottom</legendPosition>
+            <report>Global_Claims_Reports/Mexico_RTM_s_SLA_report_by_user</report>
+            <showPercentage>false</showPercentage>
+            <showValues>false</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>Mexico RTM Open Cases</title>
+            <useReportChart>false</useReportChart>
+        </components>
+    </leftSection>
+    <middleSection>
+        <columnSize>Wide</columnSize>
+        <components>
+            <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <chartSummary>
+                <axisBinding>y</axisBinding>
+                <column>RowCount</column>
+            </chartSummary>
+            <componentType>ColumnStacked</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>false</enableHover>
+            <expandOthers>false</expandOthers>
+            <groupingColumn>FK_CASE_OWNER_NAME</groupingColumn>
+            <groupingColumn>Cloned_Milestone__c.Violation__c</groupingColumn>
+            <groupingSortProperties />
+            <header>Cases Owned by the Business</header>
+            <legendPosition>Bottom</legendPosition>
+            <report>CS_Dashboard_Reports/America_s_SLA_report_by_queue</report>
+            <showPercentage>false</showPercentage>
+            <showValues>false</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>Open Cases by Queue</title>
+            <useReportChart>false</useReportChart>
+        </components>
+    </middleSection>
+    <rightSection>
+        <columnSize>Wide</columnSize>
+        <components>
+            <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <chartSummary>
+                <axisBinding>y</axisBinding>
+                <column>RowCount</column>
+            </chartSummary>
+            <componentType>ColumnStacked</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>false</enableHover>
+            <expandOthers>false</expandOthers>
+            <groupingColumn>FK_$Case.Shipping_Plant__c</groupingColumn>
+            <groupingColumn>Cloned_Milestone__c.Violation__c</groupingColumn>
+            <groupingSortProperties />
+            <header>Cases Owned by the Plants</header>
+            <legendPosition>Bottom</legendPosition>
+            <report>CS_Dashboard_Reports/America_s_SLA_Report_Plant_Cases</report>
+            <showPercentage>false</showPercentage>
+            <showValues>false</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>Open Cases by Plants</title>
+            <useReportChart>false</useReportChart>
+        </components>
+    </rightSection>
+    
+    <textColor>#000000</textColor>
+    <title>America's Open Exception Claim Report</title>
+    <titleColor>#000000</titleColor>
+    <titleSize>12</titleSize>
+</Dashboard>

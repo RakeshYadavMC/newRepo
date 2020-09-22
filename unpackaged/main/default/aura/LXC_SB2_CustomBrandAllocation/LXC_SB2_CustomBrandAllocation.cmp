@@ -1,0 +1,147 @@
+<aura:component
+                implements="lightning:actionOverride,force:hasRecordId,force:hasSObjectName"
+                controller="CNT_SB2_ManageBrand"
+                >
+    <!-- Handlers -->
+    <!-- Lightning APIs -->
+    <lightning:workspaceAPI aura:id="workspace" />
+    
+    <!-- Attributes -->
+    <aura:attribute name="headerTitle" type="String" default="New Brand Allocation"/>
+    <aura:attribute name="showLeafNode" type="Boolean" default="false" />
+    <aura:attribute name="hasError" type="boolean" default="false" />
+    <aura:attribute name="errors" type="String[]" default="[]" />
+    <aura:attribute name="isLoading" type="boolean" default="false" />
+    <aura:attribute name="brandId" type="String" default=""/>
+    <aura:attribute name="openModal" type="Boolean" default="false"/>
+    <aura:attribute name="lstExistingBrandAlloc" type="String[]" default="[]"/>
+    <aura:handler name="sendFieldValue" event="c:LXC_SB2_GenericEvent" action="{!c.handleComponentEvent}"/>
+    <aura:handler name="init" value="{!this}" action="{!c.loadOptions}" />
+    
+    <aura:attribute
+                    name="newBrandAllocation"
+                    type="Brand_Allocation__c"
+                    default="{ 
+                             'sobjectType': 'Brand_Allocation__c',
+                             'Brand__c': '',
+                             'Is_Carry_Forward__c': false,
+                             'Program_Type__c': '',
+                             'Time_Interval__c': '',
+                             'Time_Period__c' : '',
+                             'Year_Of_Allocation__c' : ''
+                             }"
+                    />
+    
+    <lightning:card>
+        <!-- Card Title -->
+        <aura:set attribute="title">
+            <p class="title">{!v.headerTitle}</p>
+            
+            <!-- Validation Error Messages -->
+            <aura:if isTrue="{!v.hasError}">
+                <div class="pageLevelErrors">
+                    <div class="forcePageError">
+                        <div class="genericNotification">
+                            <span class="genericError uiOutputText">
+                                {!$Label.c.SB2_Review_the_errors_on_this_page}
+                            </span>
+                        </div>
+                        <ul class="errorsList">
+                            <aura:iteration items="{!v.errors}" var="error">
+                                <li>{!error}</li>
+                            </aura:iteration>
+                        </ul>
+                    </div>
+                </div>
+            </aura:if>
+        </aura:set>
+        
+        <!-- Card Body -->
+        <div class="slds-form slds-p-horizontal_medium">
+            <!-- Loader -->
+            <aura:if isTrue="{!v.isLoading}">
+                <lightning:spinner alternativeText="Loading..." />
+            </aura:if>
+            
+            <!-- Brand Allocation Record Creation View -->
+            <c:LXC_SB2_DynamicPicklist 
+                                       recordType="Master" 
+                                       objectApiName="Brand_Allocation__c" 
+                                       fieldApiName="Brand__c"
+                                       fieldLabel = "{!$Label.c.SB2_Select_Brand}"
+                                       required = "true" 
+                                       picklistValue = "{!v.brandId}"
+                                       aura:id="fieldId"/>
+            <c:LXC_SB2_DynamicPicklist 
+                                       recordType="Master" 
+                                       objectApiName="Brand_Allocation__c" 
+                                       fieldApiName="Program_Type__c"
+                                       fieldLabel = "{!$Label.c.SB2_Select_Program_Type}"
+                                       required="true"
+                                       aura:id="fieldId"/>
+            <c:LXC_SB2_DynamicPicklist 
+                                       recordType="Master" 
+                                       objectApiName="Brand_Allocation__c" 
+                                       fieldApiName="Year_Of_Allocation__c"
+                                       fieldLabel = '{!$Label.c.SB2_Select_Year_of_Allocation}'
+                                       required="true" aura:id="fieldId"/>	
+            <c:LXC_SB2_DependentPickList 
+                                         showDefaultOption="true"
+                                         required = "true" aura:id="dynamicField"/>
+            <lightning:input
+                             class="slds-form-element"
+                             aura:id="isLeafNode"
+                             type="checkbox"
+                             label="{!$Label.c.SB2_Is_Carry_Forward}"
+                             name="isCarryForward"
+                             checked="{!v.newBrandAllocation.Is_Carry_Forward__c}"
+                             
+                             />
+        </div>
+        
+        <!-- Cancel & Submit Button -->
+        <aura:set attribute="footer">
+            <lightning:button
+                              variant="neutral"
+                              type="cancel"
+                              name="Cancel"
+                              label="Cancel"
+                              onclick="{!c.handleCancel}"
+                              />
+            <lightning:button variant="brand" type="submit" name="Submit" label="Submit" onclick="{!c.handleSubmit}" />
+        </aura:set>
+        <aura:if isTrue="{!v.openModal}">
+            <!--Modal Box Start-->
+            <div role="dialog" class="slds-modal slds-fade-in-open ">
+                <div class="slds-modal__container">
+                    <div class="slds-modal__header">
+                        <button class="slds-button slds-modal__close slds-button--icon-inverse" title="Close" onclick="{!c.handleCloseModal}">
+                            X
+                            <span class="slds-assistive-text">Close</span>
+                        </button>
+                        <h1 class="slds-text-heading--medium">{!$Label.c.SB2_Brand_Allocation_Error}</h1>
+                    </div>
+                    
+                    <!--Modal Box Header-->
+                    <div class="slds-modal__content slds-p-around--medium">
+                        <center> <p><b>
+                            {!$Label.c.SB2_Below_is_the_list_of_all_active_Brand_allocation_for_this_year}
+                            <aura:iteration items="{!v.lstExistingBrandAlloc}" var="brandAlloc">
+                                <br/>{!brandAlloc}
+                            </aura:iteration>
+                            </b><br/>
+                            {!$Label.c.SB2_If_you_want_to_collapse_all_active_Brand_Allocation_for_this_year_click_OK}
+                            {!$Label.c.SB2_If_you_want_only_to_create_record_for_current_Brand_Allocation_click_CONTINU}
+                            </p></center>
+                    </div>
+                    <!--Modal Box Button-->
+                    <div class="slds-modal__footer">
+                        <button class="slds-button slds-button--brand" onclick="{!c.handleOkModal}">Ok</button>
+                        <button class="slds-button slds-button--brand" onclick="{!c.handleContinueModal}">Continue</button>
+                    </div>
+                </div>
+            </div>
+            <div class="slds-backdrop slds-backdrop--open"></div>            
+        </aura:if>
+    </lightning:card>
+</aura:component>

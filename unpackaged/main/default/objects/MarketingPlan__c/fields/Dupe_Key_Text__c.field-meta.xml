@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dupe_Key_Text__c</fullName>
+    <caseSensitive>false</caseSensitive>
+    <externalId>false</externalId>
+    <inlineHelpText>Used to check uniqueness of record.</inlineHelpText>
+    <label>Dupe Key - Text</label>
+    <length>200</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

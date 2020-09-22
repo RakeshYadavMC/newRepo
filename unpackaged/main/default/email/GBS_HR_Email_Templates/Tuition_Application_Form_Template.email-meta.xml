@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BeamSuntory_Letterhead</letterhead>
+    <name>Tuition Application Form Template</name>
+    <style>freeForm</style>
+    <subject>Case #{!Case.CaseNumber} - HR Tuition Application Form Template</subject>
+    <textOnly>Thank you for contacting Global Business Services.  Your Tuition Application form has been placed in your file and we have forwarded a copy to Payroll.
+
+Upon completion of the course(s), please submit a case with Payroll and submit your receipts and grade report along with a completed Tuition Reimbursement form.
+
+
+Thank You,
+The GBS HR Team</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

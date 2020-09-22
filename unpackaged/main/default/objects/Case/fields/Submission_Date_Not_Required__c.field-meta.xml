@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Submission_Date_Not_Required__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Tell the user whether a submission date is required or not.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check this checkbox if Submission is not required for the case.</inlineHelpText>
+    <label>Submission Date Not Required</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

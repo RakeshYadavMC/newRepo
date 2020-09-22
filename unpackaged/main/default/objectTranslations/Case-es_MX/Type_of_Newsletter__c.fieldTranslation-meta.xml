@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Type of Newsletter --></label>
+        <name>Type_of_Newsletter__c</name>
+        <picklistValues>
+            <masterLabel>Customer Service (process communication)</masterLabel>
+            <translation><!-- Customer Service (process communication) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Discontinue</masterLabel>
+            <translation><!-- Discontinue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Innovation</masterLabel>
+            <translation><!-- Innovation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Introduction</masterLabel>
+            <translation><!-- Introduction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Miscellaneous</masterLabel>
+            <translation><!-- Miscellaneous --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plant Calendar / Closure</masterLabel>
+            <translation><!-- Plant Calendar / Closure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product (Package Changes)</masterLabel>
+            <translation><!-- Product (Package Changes) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Availability (Outage)</masterLabel>
+            <translation><!-- Product Availability (Outage) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shipping Point</masterLabel>
+            <translation><!-- Shipping Point --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spec Sheet</masterLabel>
+            <translation><!-- Spec Sheet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VAP</masterLabel>
+            <translation><!-- VAP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VAP Discontinue</masterLabel>
+            <translation><!-- VAP Discontinue --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

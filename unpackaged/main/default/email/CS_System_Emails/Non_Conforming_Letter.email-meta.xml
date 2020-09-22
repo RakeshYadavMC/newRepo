@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BeamSuntory_Letterhead</letterhead>
+    <name>Non- Conforming Letter</name>
+    <style>freeForm</style>
+    <subject>Non-Conforming Letter</subject>
+    <textOnly>Date: {!Today}
+
+
+
+Dear Valued Beam Suntory Customer:
+
+
+Here at Beam Suntory we take the quality of our products very seriously and have a robust set of quality assurance processes in place to make certain our products meet only the highest standards.  We have recently identified certain product lots of (Product Description) that fall short of our high standards. [NOTE:  Add the following if relevant: All cases from these lots that we had in our warehouses have been destroyed. However, some cases from these lots were shipped before we made this quality determination, and we are presently working to address those affected cases.]
+
+
+Our records indicate that you may have received a shipment of (Product Description).  We wanted to share some information with you on how we plan to address the affected cases.
+
+
+NOTE: Choose one of the options below depending on Beam’s course of action.
+
+Option 1: Return/Replacement: For your convenience, we will arrange for you to return and replace any unopened and unused product that you received from these specific lots.  Your Beam Suntory Distributor Advocate Coordinator or Demand Analyst will contact you with carrier and shipping instructions to ensure replacement product is received at no charge.  Please note that all product return and replacement will be conducted in accordance with state regulations.
+
+
+Option 2: Destruction/Reimbursement: We have attached the lots codes of the (Product Description) to this letter and ask that you destroy all identified inventory of these products.  Beam will reimburse you for the expenses incurred in destroying your on-hand inventory of (Product Description) with the lot codes identified on the attachment to this letter.  We will issue a credit to your account for the product cost as well as any related shipping costs. Invoices for product destruction costs should be sent (Provide Contact Info).   Please note that all product destruction should be conducted in accordance with state regulations.
+
+
+We are not planning any action for product that has already shipped to the retail level.  If retailers complain about the taste of bottles from these lots, please follow Beam Suntory’s standard customer service complaint process so we can act appropriately. [Add the following if relevant: From this time on, we will not ship any cases from the lots concerned.] Please note that Beam Suntory sends this letter as a quality control measure only and that we are NOT instituting a recall as to this product.
+
+We are sorry for any inconvenience this may have caused.  Thanks for your ongoing patience and understanding.
+
+
+If you have any questions, please contact your customer service representative,
+
+
+Sincerely,
+
+
+
+Beam Suntory Quality Team
+
+
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

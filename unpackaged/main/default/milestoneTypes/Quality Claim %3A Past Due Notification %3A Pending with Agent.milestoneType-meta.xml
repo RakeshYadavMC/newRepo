@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MilestoneType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Notification will be sent to the agent and direct manager if a response to the consumer is not proivded within 48 hours.</description>
+    <recurrenceType>none</recurrenceType>
+</MilestoneType>

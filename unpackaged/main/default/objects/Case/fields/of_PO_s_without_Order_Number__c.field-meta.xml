@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>of_PO_s_without_Order_Number__c</fullName>
+    <description>Count of PO's on a related case that do not have an order number associated to them.</description>
+    <externalId>false</externalId>
+    <label># of PO's without Order Number</label>
+    <summaryFilterItems>
+        <field>Purchase_Order__c.SAP_Number__c</field>
+        <operation>equals</operation>
+        <value></value>
+    </summaryFilterItems>
+    <summaryForeignKey>Purchase_Order__c.Case__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

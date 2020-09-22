@@ -1,0 +1,19 @@
+<apex:page standardController="PR_Header__c" lightningStylesheets="true">
+    <apex:includeLightning />
+    <apex:slds />
+    <apex:includeScript value="/lightning/lightning.out.js"/>
+    <div id="lightning"></div>
+    <script>
+        $Lightning.use("c:CreatePRHeaderApp", function() {
+          $Lightning.createComponent("c:CreatePRHeaderCmp",
+          { 
+             
+          },
+          "lightning", 
+          function(cmp) {
+              
+          });
+        });
+    </script>
+    <!--<flow:interview name="PR_Header_Flow"/>-->
+</apex:page>

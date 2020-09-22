@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Sub_Cases_Closed__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Indicates that all sub cases of recordtype "Order claim sub case" are closed.</description>
+    <externalId>false</externalId>
+    <label>All Sub Cases Closed</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,9 @@
+<p>Dear {!Contact.FirstName},</p>
+<p>Thank you for taking the time to contact us regarding {!Case.Brand__c}®.</p>
+<p>When freezers are set to a very low temperature, below 5° Fahrenheit, {!Case.Brand__c}® can freeze.  It's important to know that the quality of the liquid is not impacted if the product does freeze. However, we do not recommend exposing {!Case.Brand__c}® to extremely low temperatures.</p>
+<p>Thanks again for contacting us. We hope you continue to enjoy {!Case.Brand__c}® responsibly for your everyday social occasions.</p>
+<p>{!Case.OwnerFullName}<br />
+<strong>Cruzan® Customer Care Representative</strong><br />
+<img src="{!$Label.SF_Base_URL_BrandLogo}Cruzan.png" alt=""  width="120px" /><br />
+<a href="https://www.facebook.com/CruzanRum"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}facebook.png" width="20" alt="" /></a> <a href="https://twitter.com/CruzanRum"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}twitter.png" width="20" alt="" /></a> <a href="https://www.youtube.com/user/OfficialCruzanRum"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}youtube.png" width="20" alt="" /></a> <br />
+<a href="http://www.drinksmart.com"><img src="{!$Label.SF_Base_URL_BrandLogo}DrinkSmart.png" width="120" title="Drink Smart" alt="Drink Smart" /></a></p>

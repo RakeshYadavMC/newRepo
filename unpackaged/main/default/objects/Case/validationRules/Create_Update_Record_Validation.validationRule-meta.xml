@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Create_Update_Record_Validation</fullName>
+    <active>false</active>
+    <description>Stops submitter from editing record after creation</description>
+    <errorConditionFormula>AND (
+ OR ($Profile.Name = "Distributor Community",
+     $Profile.Name = "International Distributor Community",
+     $Profile.Name = "Company Employee"
+),
+ Flow__c = FALSE,
+ NOT ( ISPICKVAL(Origin, "Email") 
+),
+ NOT(ISCHANGED(  New_Activity_Flag__c  )),
+ NOT(ISCHANGED(   New_Activity__c   )),
+ NOT(ISCHANGED( Flow__c )),
+ NOT(ISCHANGED( Escalation_1__c )),
+ NOT(ISCHANGED( Escalation_2__c )),
+ NOT(ISCHANGED( Submitter__c )),
+ OR(
+   RecordType.Name = "Inquiry",
+   RecordType.Name = "Order Claim",
+   RecordType.Name = "Quality Claim",
+   RecordType.Name = "Changes",
+   RecordType.Name = "Orders",
+   RecordType.Name = "EDI Order",
+   RecordType.Name = "Inquiry (Internal)",
+   RecordType.Name = "Escalated Form"
+ )
+)</errorConditionFormula>
+    <errorMessage>If you are attempting to create a new case, please visit the Customer Service Portal. If you wish to make an update to an existing case, please leave a comment on the ticket.</errorMessage>
+</ValidationRule>

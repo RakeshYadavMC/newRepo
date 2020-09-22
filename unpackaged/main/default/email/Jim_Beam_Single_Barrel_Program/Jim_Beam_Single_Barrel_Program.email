@@ -1,0 +1,10 @@
+<p>Dear {!Contact.FirstName},</p>
+<p>Thank you for contacting us about your interest in the Jim Beam Single Barrel American Stillhouse Select barrel program! We're glad to hear from loyal fans like you. </p>
+<p>Jim Beam Single Barrel is some of our finest bourbon. It is hand selected, uniquely crafted and always unique. In fact, less than 1% of Jim Beam® barrels are chosen for Jim Beam® Single Barrel.</p>
+<p>Your inquiry about our barrels has been forwarded to the appropriate state manager who will shortly reach back out to you directly with more information.</p>
+<p>Cheers,<br />
+{!Case.OwnerFullName}<br />
+<strong>Jim Beam® Customer Care Representative</strong><br />
+<img src="{!$Label.SF_Base_URL_BrandLogo}JimBeam.png" alt=""  width="120px" /> <br />
+<a href="https://www.facebook.com/JimBeamUS"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}facebook.png" width="20" alt="" /></a> <a href="https://twitter.com/JimBeam"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}twitter.png" width="20" alt="" /></a> <a href="https://instagram.com/Jimbeamofficial"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}instagram.png" width="20" alt="" /></a> <a href="http://www.pinterest.com/jimbeamofficial/"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}pinterest.png" width="20" alt="" /></a> <a href="https://www.youtube.com/JimBeam"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}youtube.png" width="20" alt="" /></a> <br />
+<a href="http://www.drinksmart.com"><img src="{!$Label.SF_Base_URL_BrandLogo}DrinkSmart.png" width="120" title="Drink Smart" alt="Drink Smart" /></a></p>

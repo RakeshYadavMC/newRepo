@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Active__c</fullName>
+    <description>Is the Account active? The output is Boolean. The calculation to true or false will be updated on this Formula. Initially set to all 'true'. Currently used for SplashThat Account exports.</description>
+    <externalId>false</externalId>
+    <formula>true</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Is the Account active?</inlineHelpText>
+    <label>Active</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

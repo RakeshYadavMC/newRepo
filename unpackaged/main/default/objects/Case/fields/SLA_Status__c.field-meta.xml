@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SLA_Status__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( Running_Case_Time__c &gt; Escalation_2__c, "3_Red", 
+IF( AND(Running_Case_Time__c &lt; Escalation_2__c, Running_Case_Time__c &gt; Escalation_1__c), "1_Yellow", "2_Green") 
+)</formula>
+    <label>SLA Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

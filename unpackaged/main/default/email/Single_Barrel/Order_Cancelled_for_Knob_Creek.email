@@ -1,0 +1,18 @@
+<messaging:emailTemplate subject="A Single Barrel Order has been Canceled #{!relatedTo.CaseNumber} for {!relatedTo.Brand__c}" recipientType="User" relatedToType="Case">
+<messaging:htmlEmailBody >
+<html>
+<body>
+<apex:image id="Campaign_email_template_1_header" value="https://beamsuntory--c.na74.content.force.com/servlet/servlet.ImageServer?id=015o0000001Dyoa&oid=00Do0000000cCkJ" style="display: block; margin-left: auto;margin-right: auto; width:50%" />
+<div style="content:' '; display:block; border:.5px solid black; margin-top:10px; border-color: #999999;"></div>
+
+<p>Please note that the barrel for {!relatedTo.Retail_Account__r.Name} on {!relatedTo.CaseNumber} has been Cancelled by {!relatedTo.LastModifiedBy.Name} at &nbsp;<c:VFEmailDateTimeConvertComp date_time_value="{!relatedTo.LastModifiedDate}" date_time_format=" MM/dd/yyyy kk:mm a" />.</p>
+
+<p>This will release the liquid from Barrel(<apex:repeat value="{!relatedTo.Barrels__r}" var="barrel"><apex:outputField value=" {!barrel.Name}"/></apex:repeat>) to be used for another {!relatedTo.Product_Type__c} barrel order.</p>
+
+<p>Please contact {!relatedTo.LastModifiedBy.Name} with any questions.</p>
+
+
+</body>
+</html>
+</messaging:htmlEmailBody>
+</messaging:emailTemplate>

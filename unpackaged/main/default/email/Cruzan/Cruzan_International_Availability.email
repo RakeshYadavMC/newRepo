@@ -1,0 +1,16 @@
+<p>Dear {!Contact.FirstName},</p>
+<p>Thank you for contacting Cruzan Rum. We always like to hear from our consumers.</p>
+<p>The global distribution is not very large at this time. We plan on expanding the distribution of Cruzan Rum in the coming years.</p>
+<p>Cruzan Rum is only available in the following countries:<br />
+• Spain<br />
+• Scandinavia<br />
+• Canada<br />
+• The Caribbean<br />
+• <span class="caps">USA</span><br />
+• New Zealand</p>
+<p>Feel free to contact us anytime you have any questions or concerns.</p>
+<p>{!Case.OwnerFullName}<br />
+<strong>Cruzan® Customer Care Representative</strong><br />
+<img src="{!$Label.SF_Base_URL_BrandLogo}Cruzan.png" alt=""  width="120px" /><br />
+<a href="https://www.facebook.com/CruzanRum"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}facebook.png" width="20" alt="" /></a> <a href="https://twitter.com/CruzanRum"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}twitter.png" width="20" alt="" /></a> <a href="https://www.youtube.com/user/OfficialCruzanRum"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}youtube.png" width="20" alt="" /></a> <br />
+<a href="http://www.drinksmart.com"><img src="{!$Label.SF_Base_URL_BrandLogo}DrinkSmart.png" width="120" title="Drink Smart" alt="Drink Smart" /></a></p>

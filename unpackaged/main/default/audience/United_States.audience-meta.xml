@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Audience xmlns="http://soap.sforce.com/2006/04/metadata">
+    <audienceName>United States</audienceName>
+    <container>Beam Suntory Company Community</container>
+    <criteria>
+        <criterion>
+            <criteriaNumber>1</criteriaNumber>
+            <criterionValue>
+                <entityField>$User.GBS_Centers__c</entityField>
+                <entityType>User</entityType>
+                <fieldValue>US</fieldValue>
+            </criterionValue>
+            <operator>Includes</operator>
+            <type>FieldBased</type>
+        </criterion>
+        <criterion>
+            <criteriaNumber>2</criteriaNumber>
+            <criterionValue>
+                <entityField>Country</entityField>
+                <entityType>User</entityType>
+                <fieldValue>United States</fieldValue>
+            </criterionValue>
+            <operator>Equal</operator>
+            <type>FieldBased</type>
+        </criterion>
+        <criterion>
+            <criteriaNumber>2</criteriaNumber>
+            <criterionValue>
+                <entityField>Country</entityField>
+                <entityType>User</entityType>
+                <fieldValue>US</fieldValue>
+            </criterionValue>
+            <operator>Equal</operator>
+            <type>FieldBased</type>
+        </criterion>
+        <criterion>
+            <criteriaNumber>3</criteriaNumber>
+            <criterionValue>
+                <entityField>Contact.Account.BillingCountry</entityField>
+                <entityType>User</entityType>
+                <fieldValue>US</fieldValue>
+            </criterionValue>
+            <operator>Equal</operator>
+            <type>FieldBased</type>
+        </criterion>
+        <criterion>
+            <criteriaNumber>3</criteriaNumber>
+            <criterionValue>
+                <entityField>Contact.Account.BillingCountry</entityField>
+                <entityType>User</entityType>
+                <fieldValue>United States</fieldValue>
+            </criterionValue>
+            <operator>Equal</operator>
+            <type>FieldBased</type>
+        </criterion>
+        <criterion>
+            <criteriaNumber>4</criteriaNumber>
+            <criterionValue>
+                <entityField>Contact.Account.ShippingCountry</entityField>
+                <entityType>User</entityType>
+                <fieldValue>United States</fieldValue>
+            </criterionValue>
+            <operator>Equal</operator>
+            <type>FieldBased</type>
+        </criterion>
+        <criterion>
+            <criteriaNumber>4</criteriaNumber>
+            <criterionValue>
+                <entityField>Contact.Account.ShippingCountry</entityField>
+                <entityType>User</entityType>
+                <fieldValue>US</fieldValue>
+            </criterionValue>
+            <operator>Equal</operator>
+            <type>FieldBased</type>
+        </criterion>
+    </criteria>
+    <formulaFilterType>AnyCriterionMatches</formulaFilterType>
+    <isDefaultAudience>false</isDefaultAudience>
+    <targets>
+        <target>
+            <groupName>011b962d-16f9-4a91-bef3-f63748069f7d$#$a3e075f7-4877-4d29-8153-fb0aa170d873</groupName>
+            <priority>1</priority>
+            <targetType>ExperienceVariation</targetType>
+            <targetValue>Home_Tabs_1_Component</targetValue>
+        </target>
+    </targets>
+</Audience>

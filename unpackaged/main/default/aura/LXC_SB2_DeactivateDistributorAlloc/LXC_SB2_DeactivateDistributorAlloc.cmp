@@ -1,0 +1,60 @@
+<aura:component
+                implements="force:lightningQuickActionWithoutHeader,force:hasRecordId,force:appHostable,flexipage:availableForRecordHome,force:hasSObjectName"
+                access="global" controller="CNT_SB2_DeactivateStateAllocation"
+                >
+    <aura:html tag="style">
+        .slds-modal__container{
+        height : auto;
+        width: 70%;
+        max-width: 70rem;
+        }
+        .modal-body{
+        height : 200px !important;
+        max-height: 200px !important;
+        }
+        
+        .customFooter{
+        display: inline !important;
+        }
+    </aura:html> 
+    <!-- Handlers -->
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    <aura:handler event="aura:waiting" action="{!c.showSpinner}"/>
+    <aura:handler event="aura:doneWaiting" action="{!c.hideSpinner}"/>
+    
+    <!-- Attributes -->
+    <aura:attribute name="recordId" type="String" />
+    <aura:attribute name="Spinner" type="boolean" default="false"/>
+    <aura:attribute name="recordIsActive" type="Boolean" default="false"/>
+    
+    <aura:if isTrue="{!v.Spinner}">
+        <div aura:id="spinnerId" class="slds-spinner_container">
+            <div class="slds-spinner--brand  slds-spinner slds-spinner--large slds-is-relative" role="alert">
+                <span class="slds-assistive-text">Loading</span>
+                <div class="slds-spinner__dot-a"></div>
+                <div class="slds-spinner__dot-b"></div>
+            </div>
+        </div>
+    </aura:if>
+    
+    <div class="modal-header slds-docked-form-header slds-modal__header ">
+        <h4 class="title slds-text-heading--medium" >{!$Label.c.SB2_Deactivate_Brand_Region_State_Distribuor_Allocation}</h4>
+    </div>
+
+    <aura:if isTrue="{!v.recordIsActive}">
+        <p> {!$Label.c.SB2_Brand_Country_Region_State_Distributor_Deactivation_Warning_Message} 
+        </p>
+        <aura:set attribute="else">
+            <p> {!$Label.c.SB2_Brand_Country_Region_State_Distributor_Deactivation_Error_Message}
+            </p>
+        </aura:set>
+        <div class="slds-m-top_medium">
+            <div class="slds-docked-form-footer slds-modal__footer customFooter" style="height:55px;">
+                <div style="float:right;">
+                    <lightning:button label="Cancel"  onclick="{!c.closeQuickAction}" /> 
+                    <lightning:button variant="brand" name="save" label="Save" onclick="{! c.submitDetails }"/>
+                </div> 
+            </div>          
+        </div>
+    </aura:if>
+</aura:component>

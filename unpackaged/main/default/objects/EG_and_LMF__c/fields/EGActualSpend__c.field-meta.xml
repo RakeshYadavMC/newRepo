@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EGActualSpend__c</fullName>
+    <externalId>false</externalId>
+    <label>EG Actual Spend</label>
+    <summarizedField>EGandLMFSpend__c.ActualSpend__c</summarizedField>
+    <summaryFilterItems>
+        <field>EGandLMFSpend__c.RecordTypeId</field>
+        <operation>equals</operation>
+        <value>EG / DA Spend</value>
+    </summaryFilterItems>
+    <summaryForeignKey>EGandLMFSpend__c.ParentEGorLMF__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

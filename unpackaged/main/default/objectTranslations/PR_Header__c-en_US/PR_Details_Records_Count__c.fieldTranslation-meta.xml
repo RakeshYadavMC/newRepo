@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Count of all PR Details created under this PR header --></help>
+        <label><!-- # PR Details Records Count --></label>
+        <name>PR_Details_Records_Count__c</name>
+    </CustomFieldTranslation>

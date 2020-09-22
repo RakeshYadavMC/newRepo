@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Late_Kickoff__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+  AND(
+    RecordType.DeveloperName="Brand_Registration",
+    In_field_Date__c - Kick_Off_Date__c &lt;= 75
+  ),
+  TRUE,
+  FALSE
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Late Kickoff</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

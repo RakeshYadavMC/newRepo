@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Date_Submitted_to_Billing__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>This is the date that an Order Claim was submitted to Billing via a Third Party Sub-Case</inlineHelpText>
+    <label>Date Submitted to Billing</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

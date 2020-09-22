@@ -1,0 +1,19 @@
+.THIS .hide {
+    display: none;
+}
+
+.THIS {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 99999;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-size: 110%;
+}
+
+.THIS > .uiMessage {
+    width: 80% !important;
+    font-size: 16px !important;
+}

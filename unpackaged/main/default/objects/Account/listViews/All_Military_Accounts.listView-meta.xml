@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Military_Accounts</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.RECORDTYPE</columns>
+    <columns>ACCOUNT.ADDRESS1_STATE</columns>
+    <columns>ACCOUNT.ADDRESS1_CITY</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>ACCOUNT.LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Military__c</field>
+        <operation>equals</operation>
+        <value>Military,Military Export</value>
+    </filters>
+    <label>All Military Accounts</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>CS_Employees</group>
+    </sharedTo>
+</ListView>

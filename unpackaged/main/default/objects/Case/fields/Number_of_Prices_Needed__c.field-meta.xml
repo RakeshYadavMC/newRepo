@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Number_of_Prices_Needed__c</fullName>
+    <description>The number of Quote Requests that are marked "Price Needed" as "Yes"</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Number of Quote Requests that need pricing</inlineHelpText>
+    <label>Number of Prices Needed</label>
+    <summaryFilterItems>
+        <field>Quote_Request__c.Price_Needed__c</field>
+        <operation>equals</operation>
+        <value>Yes</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Quote_Request__c.Case__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

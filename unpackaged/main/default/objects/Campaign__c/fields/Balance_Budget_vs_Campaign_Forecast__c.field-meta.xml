@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Balance_Budget_vs_Campaign_Forecast__c</fullName>
+    <description>Campaign Budget - (Actual Campaign Spend + Committed Campaign Spend)</description>
+    <externalId>false</externalId>
+    <formula>PlannedCampaignSpend__c -  ( ActualCampaignSpend__c +  CommittedCampaignSpend__c )</formula>
+    <inlineHelpText>Campaign Budget - (Actual Campaign Spend + Committed Campaign Spend)</inlineHelpText>
+    <label>Balance (Budget vs Actual + Committed)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

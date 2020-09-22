@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Used in the Single Barrel Program visual flow to display the names and images for each stave for a particular brand</description>
+    <label>Single Barrel Stave Setting</label>
+    <pluralLabel>Single Barrel Stave Settings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

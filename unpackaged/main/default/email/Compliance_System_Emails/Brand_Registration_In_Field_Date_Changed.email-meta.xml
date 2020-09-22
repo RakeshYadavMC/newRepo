@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email Template used when the Brand Registration In-Field Date is changed.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BeamSuntory_Letterhead</letterhead>
+    <name>Brand Registration In-Field Date Changed</name>
+    <style>freeForm</style>
+    <subject>{!Case.Subject} - In-field Date changed to {!Case.In_field_Date__c}</subject>
+    <textOnly>Notice - In-Field Date Change
+
+The In-Field Date for Project Number {!Case.Project_Number__c} has changed.
+
+New In-Field Date: {!Case.In_field_Date__c}
+
+Explanation of this change is below:
+{!Case.Explanation_of_Change__c}
+
+States affected by this change:
+{!Case.Available_States__c}
+
+Click the link below to view this Case in Salesforce.
+{!Case.Link}
+
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

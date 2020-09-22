@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Past_Due__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(RecordType.DeveloperName,
+  "Brand_Registration",      IF(Submitted_Compliance__c,
+                                             IF(Due_Date__c &lt; Submission_Date__c, "True", "False"),
+                                             IF(Due_Date__c &lt; TODAY(), "True", "False")
+                                           ),
+  "Compliance_Sub_Case",     IF(Submitted_Compliance__c,
+                                             IF(AND(TEXT(Type)='Brand Registration', Parent.Due_Date__c &lt; Submission_Date__c), "True", "False"),
+                                             IF(Parent.Due_Date__c &lt; TODAY(), "True", "False")
+                                           ),
+  "Quote_Request",           IF(IsClosed, 
+                                             IF(Due_Date__c &lt; DATEVALUE(ClosedDate), "True", "False"),
+                                             IF(Due_Date__c &lt; TODAY(), "True", "False")
+                                           ),
+  "Price_Posting",           IF(IsClosed,
+                                             IF(Due_Date__c &lt; DATEVALUE(ClosedDate), "True", "False"),
+                                             IF(Due_Date__c &lt; TODAY(), "True", "False")
+                                           ),
+  "Price Filing",            IF(IsClosed,
+                                            IF(Due_Date__c &lt; DATEVALUE(ClosedDate), "True", "False"),
+                                            IF(Due_Date__c &lt; TODAY(), "True", "False")
+                                           ),
+  "Discount",                IF(IsClosed, 
+                                            IF(Due_Date__c &lt; DATEVALUE(ClosedDate), "True", "False"),
+                                            IF(Due_Date__c &lt; TODAY(), "True", "False")
+                                           ),
+  "False"
+)="True"</formula>
+    <label>Past Due</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

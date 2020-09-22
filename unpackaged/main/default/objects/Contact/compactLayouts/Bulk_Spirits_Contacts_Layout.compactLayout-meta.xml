@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bulk_Spirits_Contacts_Layout</fullName>
+    <fields>AccountId</fields>
+    <fields>Title</fields>
+    <fields>gvp__WorkPhone__c</fields>
+    <fields>Email</fields>
+    <label>Bulk Spirits Contacts Layout</label>
+</CompactLayout>

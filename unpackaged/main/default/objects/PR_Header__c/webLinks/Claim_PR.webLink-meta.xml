@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Claim_PR</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Claim PR</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>{!REQUIRESCRIPT("/soap/ajax/45.0/connection.js")} 
+{!REQUIRESCRIPT("/soap/ajax/45.0/apex.js")}
+
+var prh = new sforce.SObject("PR_Header__c");
+prh.Id = '{!PR_Header__c.Id}';
+prh.Finance_Reviewer__c = '{!User.Id}';
+var r = confirm("Please confirm to self assign this PR for review?");
+if (r == true) {
+    var result = sforce.connection.update([prh]);
+    if (result[0].getBoolean("success")) {        
+        window.location.reload();
+    } else {
+        alert('Error : ' + result);
+    }
+}</url>
+</WebLink>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GTR_Depletion_Dummy</fullName>
+    <columns>Auto_Account_Key__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>PARENT_NAME</columns>
+    <columns>ACCOUNT.ADDRESS1_CITY</columns>
+    <columns>ACCOUNT.ADDRESS1_COUNTRY</columns>
+    <columns>Primary_GTR_Customer__c</columns>
+    <columns>Terminal_Type__c</columns>
+    <columns>Shipment_Source__c</columns>
+    <columns>Account_Manager__c</columns>
+    <columns>CASESAFEID__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.GTR</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.TYPE</field>
+        <operation>equals</operation>
+        <value>GTR Depletion Dummy Account</value>
+    </filters>
+    <label>GTR - Depletion Dummy</label>
+    <sharedTo>
+        <role>AUS_Brand_Manager</role>
+        <role>AUS_Category_Director</role>
+        <role>AUS_Category_Manager</role>
+        <role>AUS_Finance_Manager</role>
+        <role>AUS_Financial_Controller</role>
+        <role>AUS_Group_Category_Manager</role>
+        <role>AUS_Management_Director</role>
+        <role>AUS_Marketing_Director</role>
+        <role>AUS_Marketing_Manager</role>
+        <role>Application_Admin</role>
+        <role>Commercial_Services_Management</role>
+    </sharedTo>
+</ListView>

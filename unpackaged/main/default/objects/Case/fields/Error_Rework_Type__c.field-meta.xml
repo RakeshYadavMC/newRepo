@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Error_Rework_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Error Rework Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Original Upload Error not Fixed 1st time</fullName>
+                <default>false</default>
+                <label>Original Upload Error not Fixed 1st time</label>
+            </value>
+            <value>
+                <fullName>Original Pricing Error not Fixed 1st time</fullName>
+                <default>false</default>
+                <label>Original Pricing Error not Fixed 1st time</label>
+            </value>
+            <value>
+                <fullName>Original PGI Error not Fixed 1st time</fullName>
+                <default>false</default>
+                <label>Original PGI Error not Fixed 1st time</label>
+            </value>
+            <value>
+                <fullName>Original Costing Error not Fixed 1st time</fullName>
+                <default>false</default>
+                <label>Original Costing Error not Fixed 1st time</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

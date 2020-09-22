@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cruzan_Dekuyper_Campaigns</fullName>
+    <columns>Brand__c</columns>
+    <columns>IOCode__c</columns>
+    <columns>NAME</columns>
+    <columns>PlannedCampaignSpend__c</columns>
+    <columns>ActualCampaignSpend__c</columns>
+    <columns>CommittedCampaignSpend__c</columns>
+    <columns>SFPR_Campaign_Spend__c</columns>
+    <columns>CampaignBalance__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Brand__c</field>
+        <operation>equals</operation>
+        <value>Cruzan,Dekuyper,SQRRL Whiskey</value>
+    </filters>
+    <filters>
+        <field>Region__c</field>
+        <operation>equals</operation>
+        <value>National Marketing Region,National BTL Region</value>
+    </filters>
+    <filters>
+        <field>Year__c</field>
+        <operation>equals</operation>
+        <value>2020</value>
+    </filters>
+    <filters>
+        <field>CampaignType__c</field>
+        <operation>equals</operation>
+        <value>Brand Investment</value>
+    </filters>
+    <label>Cruzan, Dekuyper &amp; SQRRL Campaigns</label>
+    <language>en_US</language>
+</ListView>

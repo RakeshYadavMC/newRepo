@@ -1,0 +1,98 @@
+<messaging:emailTemplate subject="Subject A Single Barrel Order has been placed #{!relatedTo.CaseNumber}" recipientType="User" relatedToType="Case">
+<messaging:htmlEmailBody >
+<html>
+
+ <style type="text/css">
+                p,#order{
+                font-size:1.0em;
+                font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+                }
+                
+                table td{
+                word-wrap:break-word;
+                }
+                
+                #order,#order td, #order th,.tableHead, .tRowOdd,.tRowEven
+                {
+                border-collapse:separate;
+                border-color:gray;
+                border-spacing:0px;
+                border-width:1px;
+                border-style:outset;
+                background-color: white;
+                font-size:1.0em;
+                }
+                #order td, #order th,.tableHead, .tRowOdd,.tRowEven
+                {
+                padding:3px;
+                border-style:inset;
+                -moz-border-radius:3px;
+                text-align:left;
+                height: auto;
+                }
+                .tRowEven
+                {
+                background-color:#FFF8DC;
+                }
+                #order th,.tableHead
+                {
+                background-color:#F7921E;
+                }
+                #order .orderName
+                {
+                text-align:center;
+                }
+                .order{
+                width:500px;
+                }
+            </style>
+            
+<body>
+
+<apex:image id="Campaign_email_template_1_header" value="https://beamsuntory--c.na74.content.force.com/servlet/servlet.ImageServer?id=015o0000001Dyoa&oid=00Do0000000cCkJ" style="display: block; margin-left: auto;margin-right: auto; width:50%" />
+<div style="content:' '; display:block; border:.5px solid black; margin-top:10px; border-color: #999999;"></div>
+
+<p>Hi,</p>
+
+<p> A Single Barrel order of type {!relatedTo.Type} for the {!relatedTo.Brand__c} brand has been created. </p>
+
+<p>Case Number        : {!relatedTo.CaseNumber} </p>
+
+<p>Type               : {!relatedTo.Type} </p>
+  
+<p>Brand              : {!relatedTo.Brand__c} {!relatedTo.Product_Type__c}</p>
+
+<p>Submitter          : {!relatedTo.Submitter__r.Name}</p>
+
+<p>Distributor Account: {!relatedTo.Account.Name}</p>
+
+<p>Retail Account     : {!relatedTo.Retail_Account__r.Name}</p>
+
+<p>SAP Number         : {!relatedTo.SAP_Number__c} </p>
+
+<apex:outputPanel >
+                    <p>The following Barrel is attached to this case:</p>            
+                    <p>
+                        <apex:dataTable value="{!relatedTo.Barrels__r}" rowClasses="tRowOdd, tRowEven" headerClass="tableHead" var="o" cellpadding="5" border="1">
+                            <apex:column >
+                                <apex:facet name="header">Barrel Number </apex:facet>
+                                {!o.Barrel_Number__c}
+                            </apex:column>
+                        </apex:dataTable>
+                    </p>
+                    
+ </apex:outputPanel>
+
+<p> For any questions regarding distillery trips or remote selection, please contact <apex:outputlink >ElTesoro@whitelabelus.com</apex:outputlink></p>
+
+<p> <apex:outputlink value="{!$Label.Domain_URL+relatedTo.Id}">Go to Case</apex:outputlink> </p>
+
+
+<p>Thank You,</p> 
+
+<p>Beam Suntory Customer Service</p>
+
+ </body>
+ </html>
+</messaging:htmlEmailBody>
+</messaging:emailTemplate>

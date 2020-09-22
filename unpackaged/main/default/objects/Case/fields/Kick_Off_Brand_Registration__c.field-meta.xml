@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Kick_Off_Brand_Registration__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>A flag to indicate that a Brand Registration Case should be initiated/kicked off.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This flag marks that a Brand Registration has been or will be kicked off.</inlineHelpText>
+    <label>Kick Off Brand Registration</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

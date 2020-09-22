@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Plant --></label>
+        <name>Plant__c</name>
+        <picklistValues>
+            <masterLabel>ACCU-TEC</masterLabel>
+            <translation><!-- ACCU-TEC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ADL</masterLabel>
+            <translation><!-- ADL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alepat Taylor</masterLabel>
+            <translation><!-- Alepat Taylor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Australia Bedfords</masterLabel>
+            <translation><!-- Australia Bedfords --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Australia CCA</masterLabel>
+            <translation><!-- Australia CCA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Australia Pendulum</masterLabel>
+            <translation><!-- Australia Pendulum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BSUK-Springburn</masterLabel>
+            <translation><!-- BSUK-Springburn --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Behror</masterLabel>
+            <translation><!-- Behror --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blue Ocean</masterLabel>
+            <translation><!-- Blue Ocean --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Burlington</masterLabel>
+            <translation><!-- Burlington --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CRS</masterLabel>
+            <translation><!-- CRS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carolina Beer</masterLabel>
+            <translation><!-- Carolina Beer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clermont</masterLabel>
+            <translation><!-- Clermont --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cooleys</masterLabel>
+            <translation><!-- Cooleys --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corporate Quality</masterLabel>
+            <translation><!-- Corporate Quality --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cott - Mexico</masterLabel>
+            <translation><!-- Cott - Mexico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cott - Mississauga</masterLabel>
+            <translation><!-- Cott - Mississauga --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cott - Viscount</masterLabel>
+            <translation><!-- Cott - Viscount --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DIS</masterLabel>
+            <translation><!-- DIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dominion</masterLabel>
+            <translation><!-- Dominion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>El Tesoro</masterLabel>
+            <translation><!-- El Tesoro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Frankfort-DHL</masterLabel>
+            <translation><!-- Frankfort-DHL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fundador</masterLabel>
+            <translation><!-- Fundador --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Germany BSI</masterLabel>
+            <translation><!-- Germany BSI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Glenturner</masterLabel>
+            <translation><!-- Glenturner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hooghoudt</masterLabel>
+            <translation><!-- Hooghoudt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jarnac</masterLabel>
+            <translation><!-- Jarnac --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jerez</masterLabel>
+            <translation><!-- Jerez --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LF Logistics, Singapore</masterLabel>
+            <translation><!-- LF Logistics, Singapore --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loretto</masterLabel>
+            <translation><!-- Loretto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MacIntyre Scott</masterLabel>
+            <translation><!-- MacIntyre Scott --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mexico – DHL</masterLabel>
+            <translation><!-- Mexico – DHL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Morrison Bowmore</masterLabel>
+            <translation><!-- Morrison Bowmore --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ned Cargo</masterLabel>
+            <translation><!-- Ned Cargo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Zealand CCA</masterLabel>
+            <translation><!-- New Zealand CCA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Onsort</masterLabel>
+            <translation><!-- Onsort --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PR - Brazil</masterLabel>
+            <translation><!-- PR - Brazil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pri-Pack</masterLabel>
+            <translation><!-- Pri-Pack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salignac</masterLabel>
+            <translation><!-- Salignac --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sauza</masterLabel>
+            <translation><!-- Sauza --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Segovia</masterLabel>
+            <translation><!-- Segovia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Singapore BSI</masterLabel>
+            <translation><!-- Singapore BSI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sipsmith</masterLabel>
+            <translation><!-- Sipsmith --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sonoma County Wine Company</masterLabel>
+            <translation><!-- Sonoma County Wine Company --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>St. Croix</masterLabel>
+            <translation><!-- St. Croix --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suntory-Japanese Whiskey</masterLabel>
+            <translation><!-- Suntory-Japanese Whiskey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tri-Link</masterLabel>
+            <translation><!-- Tri-Link --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USBB</masterLabel>
+            <translation><!-- USBB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USMS</masterLabel>
+            <translation><!-- USMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Van Uden</masterLabel>
+            <translation><!-- Van Uden --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WTDC</masterLabel>
+            <translation><!-- WTDC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Walkerville</masterLabel>
+            <translation><!-- Walkerville --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Western Wine Services</masterLabel>
+            <translation><!-- Western Wine Services --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

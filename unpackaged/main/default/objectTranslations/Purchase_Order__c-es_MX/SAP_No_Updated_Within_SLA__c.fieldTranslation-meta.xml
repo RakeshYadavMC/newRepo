@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>SAP No actualizado en el SLA</label>
+        <name>SAP_No_Updated_Within_SLA__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Campaigns_Prohibited_Not_Editable</fullName>
+    <active>true</active>
+    <description>Marketing Plan is NOT editable and DOES NOT allow for Campaigns.</description>
+    <label>Campaigns Prohibited - Not Editable</label>
+    <picklistValues>
+        <picklist>Country__c</picklist>
+        <values>
+            <fullName>CAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MEX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Division__c</picklist>
+        <values>
+            <fullName>Activation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Advocacy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>American Stillhouse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bourbon Legends Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brand Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Central Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cinco Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cocktail Project</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commercial Capabilities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consumer Insights Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Digital Marketing Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>East Coast Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eastern Control Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Edge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Florida Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Franchise Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gifts From The Still Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global Insights</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global Marketing Central</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global Marketing Communications Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Innovation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Innovation - Whiskey Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Innovation - White Spirits Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Innovations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insights %28US%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JB Sports Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JBBDCo Portfolio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Luxury</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MarTech Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing Capabilities Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing Operations Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing Services Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mexico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Michigan Control Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mideast Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Midsouth Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Midwest Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Military</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mountain Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NAHQ Off Chains Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NAHQ Off Regional Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NAHQ Off-Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NAHQ On-Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>National Accounts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>National BTL Commercial Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>National BTL Must Win POS Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>National BTL Must Win Regional</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>National Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New England Control Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ohio%2FIowa Control Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On-Premise Marketing Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>POB Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pennsylvania Control Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pennsylvania%2FMichigan Control Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Premiumization Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RNDC East Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RNDC North Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RNDC South Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RNDC West Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RTD Coalition Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ring Fence</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SGWS CA%2FHI Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SGWS Central Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SGWS East Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SGWS FL Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SGWS NY Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SGWS West Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Samples Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Southeast Control Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stock Up %26 Save Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Summer Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Super Premium Gifting Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trade Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transportation %26 Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US Field Central Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>West Coast Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Western Control Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Win In KY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>eCommerce</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Region__c</picklist>
+        <values>
+            <fullName>Canada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Central Region</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Central Regional Programming</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Control States %26 NA Region</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Control States Region</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>East Region</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Franchise Region</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing Services Region</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mexico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Midsouth Region</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Must Win Region</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Must Win%2FPortfolio Programs Region</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>National BTL Region</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>National Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RNDC%2FFranchise Region</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SGWS Region</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US Off-Premise Region</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US On-Premise Region</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>West Region</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Year__c</picklist>
+        <values>
+            <fullName>2016</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2017</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2018</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2019</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

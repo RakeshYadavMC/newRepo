@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TypesofDisplay__c</fullName>
+    <externalId>false</externalId>
+    <label>Types of Display</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Bins</fullName>
+                <default>true</default>
+                <label>Bins</label>
+            </value>
+            <value>
+                <fullName>End Caps</fullName>
+                <default>false</default>
+                <label>End Caps</label>
+            </value>
+            <value>
+                <fullName>Floor stackings</fullName>
+                <default>false</default>
+                <label>Floor stackings</label>
+            </value>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>Racks</fullName>
+                <default>false</default>
+                <label>Racks</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

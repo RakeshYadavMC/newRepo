@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Campaign_Spend__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Campaign Spend</label>
+    <referenceTo>Campaign_Spend__c</referenceTo>
+    <relationshipLabel>PR Phasings</relationshipLabel>
+    <relationshipName>PR_Phasings</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

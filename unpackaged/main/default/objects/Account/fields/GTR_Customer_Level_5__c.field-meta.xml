@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GTR_Customer_Level_5__c</fullName>
+    <description>GTR SAP Level 5 Hierarchy Value</description>
+    <externalId>false</externalId>
+    <label>GTR Customer Level 5</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>APTR</fullName>
+                <default>false</default>
+                <label>APTR</label>
+            </value>
+            <value>
+                <fullName>ATR</fullName>
+                <default>false</default>
+                <label>ATR</label>
+            </value>
+            <value>
+                <fullName>ETR</fullName>
+                <default>false</default>
+                <label>ETR</label>
+            </value>
+            <value>
+                <fullName>GTR HQ</fullName>
+                <default>false</default>
+                <label>GTR HQ</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

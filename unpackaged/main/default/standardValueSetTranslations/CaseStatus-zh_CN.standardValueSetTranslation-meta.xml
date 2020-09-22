@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Active</masterLabel>
+        <translation>有效的</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Canceled</masterLabel>
+        <translation><!-- Canceled --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cancelled - Kit Not Selected</masterLabel>
+        <translation><!-- Cancelled - Kit Not Selected --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cancelled-Allocation</masterLabel>
+        <translation><!-- Cancelled-Allocation --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Close Pending</masterLabel>
+        <translation><!-- Close Pending --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Closed</masterLabel>
+        <translation>已关闭</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Closed - Abandoned</masterLabel>
+        <translation><!-- Closed - Abandoned --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Closed - Approved</masterLabel>
+        <translation><!-- Closed - Approved --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Closed - No Action</masterLabel>
+        <translation>已关闭 — 无操作。</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Closed - Rejected</masterLabel>
+        <translation><!-- Closed - Rejected --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Closed, No Action – State Manager said No</masterLabel>
+        <translation><!-- Closed, No Action – State Manager said No --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Closed, No Action, State Manager didn’t respond</masterLabel>
+        <translation><!-- Closed, No Action, State Manager didn’t respond --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DUP - No Action</masterLabel>
+        <translation><!-- DUP - No Action --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Error Resolved</masterLabel>
+        <translation><!-- Error Resolved --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Escalated</masterLabel>
+        <translation><!-- Escalated --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>In Progress</masterLabel>
+        <translation>进行中</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Logged</masterLabel>
+        <translation>已登录</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>New</masterLabel>
+        <translation><!-- New --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Not Submitted</masterLabel>
+        <translation><!-- Not Submitted --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>On Hold</masterLabel>
+        <translation><!-- On Hold --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Open</masterLabel>
+        <translation><!-- Open --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Order Shipped</masterLabel>
+        <translation><!-- Order Shipped --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pending Activity</masterLabel>
+        <translation><!-- Pending Activity --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pending Approval</masterLabel>
+        <translation><!-- Pending Approval --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pending CRC Approval</masterLabel>
+        <translation><!-- Pending CRC Approval --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pending Credit Hold</masterLabel>
+        <translation><!-- Pending Credit Hold --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pending Date Selection</masterLabel>
+        <translation><!-- Pending Date Selection --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pending Dispute</masterLabel>
+        <translation><!-- Pending Dispute --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pending Documentation</masterLabel>
+        <translation><!-- Pending Documentation --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pending Error Resolution</masterLabel>
+        <translation><!-- Pending Error Resolution --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pending Final Details</masterLabel>
+        <translation><!-- Pending Final Details --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pending Invoice</masterLabel>
+        <translation><!-- Pending Invoice --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pending Purchase Order</masterLabel>
+        <translation><!-- Pending Purchase Order --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pending Selection</masterLabel>
+        <translation><!-- Pending Selection --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pending Ship Date</masterLabel>
+        <translation><!-- Pending Ship Date --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pending Shipment</masterLabel>
+        <translation><!-- Pending Shipment --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pending Sub-Case</masterLabel>
+        <translation><!-- Pending Sub-Case --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pending – MISC</masterLabel>
+        <translation><!-- Pending – MISC --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Preparing Barrel</masterLabel>
+        <translation><!-- Preparing Barrel --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Ready for Audit</masterLabel>
+        <translation><!-- Ready for Audit --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Ready to Load</masterLabel>
+        <translation><!-- Ready to Load --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Ready to be Validated</masterLabel>
+        <translation><!-- Ready to be Validated --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Rejected / Waiting for Resubmission</masterLabel>
+        <translation><!-- Rejected / Waiting for Resubmission --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Resolved</masterLabel>
+        <translation><!-- Resolved --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Reviewing Details</masterLabel>
+        <translation><!-- Reviewing Details --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Submitted</masterLabel>
+        <translation><!-- Submitted --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Waiting for Approval</masterLabel>
+        <translation><!-- Waiting for Approval --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Waiting for Kickoff</masterLabel>
+        <translation><!-- Waiting for Kickoff --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Waiting for Posting</masterLabel>
+        <translation><!-- Waiting for Posting --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Waiting for Requestor</masterLabel>
+        <translation><!-- Waiting for Requestor --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Waiting for State Manager</masterLabel>
+        <translation><!-- Waiting for State Manager --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Waiting for Sub Cases</masterLabel>
+        <translation><!-- Waiting for Sub Cases --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Waiting for Submission</masterLabel>
+        <translation><!-- Waiting for Submission --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Waiting on 3rd Party</masterLabel>
+        <translation>等待第三方</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Waiting on Allocation</masterLabel>
+        <translation><!-- Waiting on Allocation --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Waiting on Commercial</masterLabel>
+        <translation><!-- Waiting on Commercial --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Waiting on Corp/Consolidations</masterLabel>
+        <translation><!-- Waiting on Corp/Consolidations --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Waiting on Customer</masterLabel>
+        <translation><!-- Waiting on Customer --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Waiting on Customer Service</masterLabel>
+        <translation><!-- Waiting on Customer Service --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Waiting on DSC</masterLabel>
+        <translation><!-- Waiting on DSC --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Waiting on EUR1</masterLabel>
+        <translation><!-- Waiting on EUR1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Waiting on Employee</masterLabel>
+        <translation><!-- Waiting on Employee --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Waiting on Final PO (Argentina)</masterLabel>
+        <translation><!-- Waiting on Final PO (Argentina) --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Waiting on Freight Forwarder</masterLabel>
+        <translation><!-- Waiting on Freight Forwarder --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Waiting on GPC</masterLabel>
+        <translation><!-- Waiting on GPC --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Waiting on GTR</masterLabel>
+        <translation><!-- Waiting on GTR --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Waiting on Gov. Records</masterLabel>
+        <translation><!-- Waiting on Gov. Records --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Waiting on HR</masterLabel>
+        <translation><!-- Waiting on HR --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Waiting on IT</masterLabel>
+        <translation><!-- Waiting on IT --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Waiting on Legal</masterLabel>
+        <translation><!-- Waiting on Legal --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Waiting on OPS/Supply Chain</masterLabel>
+        <translation><!-- Waiting on OPS/Supply Chain --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Waiting on Other</masterLabel>
+        <translation><!-- Waiting on Other --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Waiting on PGI</masterLabel>
+        <translation><!-- Waiting on PGI --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Waiting on Plant</masterLabel>
+        <translation><!-- Waiting on Plant --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Waiting on Pricing</masterLabel>
+        <translation><!-- Waiting on Pricing --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Waiting on Pricing Approval</masterLabel>
+        <translation><!-- Waiting on Pricing Approval --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Waiting on Regulatory</masterLabel>
+        <translation><!-- Waiting on Regulatory --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Waiting on Strip Stamps</masterLabel>
+        <translation><!-- Waiting on Strip Stamps --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Waiting on Upload</masterLabel>
+        <translation><!-- Waiting on Upload --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Waiting on Vendor</masterLabel>
+        <translation><!-- Waiting on Vendor --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Working</masterLabel>
+        <translation><!-- Working --></translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

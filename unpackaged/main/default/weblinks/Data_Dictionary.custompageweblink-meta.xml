@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomPageWebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <availability>online</availability>
+    <description>Initial Brand Investment data dictionary, this will be updated in accordance with any process and configuration updates</description>
+    <displayType>link</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <hasMenubar>false</hasMenubar>
+    <hasScrollbars>true</hasScrollbars>
+    <hasToolbar>false</hasToolbar>
+    <height>600</height>
+    <isResizable>true</isResizable>
+    <linkType>url</linkType>
+    <masterLabel>BI Data Dictionary</masterLabel>
+    <openType>newWindow</openType>
+    <position>none</position>
+    <protected>false</protected>
+    <showsLocation>false</showsLocation>
+    <showsStatus>false</showsStatus>
+    <url>https://bgsw1-my.sharepoint.com/personal/nadia_wilson_beamsuntory_com/_layouts/15/WopiFrame.aspx?sourcedoc=%7B7FD91A67-3292-47C1-8B43-7B22403E028C%7D&amp;file=Salesforce_DataDictionary.docx&amp;action=default</url>
+</CustomPageWebLink>

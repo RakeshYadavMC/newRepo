@@ -1,0 +1,923 @@
+<messaging:emailTemplate recipientType="Contact"
+    relatedToType="Case"
+    subject="{!relatedTo.Brand__c}: {!relatedTo.How_can_we_help__c} :- [ {!relatedTo.Thread_Id__c} ]" renderUsingSystemContextWithoutSharing="True">
+
+    <messaging:htmlEmailBody >
+    <html>
+    <head>
+           <apex:outputText escape="false" value="<style>img.brandLogo{min-width: 50px; max-width:100px; width:20%}img.drinkSmartLogo{width: 20% ;min-width: 50px; max-width: 150px; margin-bottom: 2px}div.legalStatements{margin-top: 5px; margin-bottom: 5px}.legalStatements .textsize{width:100%; margin-top:0px; margin-bottom:0px}.privacyStatements .textsize{margin-top:10px}p.textsize{width: calc(100% - 80px);font-size: calc(10px + (14 - 10) * ((100vw - 300px) / 1300))}</style>" />
+           
+    </head>
+    <body>
+        <!-- Start Changes for ticket DSC-405 13/05/2020 contains Header Logo-->
+         <p>
+            <c:VFC_BrandLogo brand="{!relatedTo.Brand__c}" />
+        </p>
+        <!-- End Changes for ticket DSC-405 13/05/2020 -->
+        <!-- Start changes ticket DSC-657 12/05/2020 -->
+        <apex:outputPanel layout="block" rendered="{!OR(UPPER(relatedTo.How_can_we_help__c) == 'WHERE TO BUY PRODUCT', UPPER(relatedTo.How_can_we_help__c) == 'SPONSORSHIP OR CHARITY', UPPER(relatedTo.How_can_we_help__c) == 'OTHER INQUIRY', UPPER(relatedTo.How_can_we_help__c) == 'PRODUCT INFORMATION') && OR(UPPER(relatedTo.AdditionalInformation__c) == 'DISTRIBUTIONS', UPPER(relatedTo.AdditionalInformation__c) == 'SPONSORSHIP', UPPER(relatedTo.AdditionalInformation__c) == 'FREE PRODUCT', UPPER(relatedTo.AdditionalInformation__c) == 'FREE MERCHANDISE', UPPER(relatedTo.AdditionalInformation__c) == 'CHARITY', ISBLANK(relatedTo.AdditionalInformation__c)) && UPPER(relatedTo.Contact.MailingCountry) != 'UNITED STATES' && UPPER(relatedTo.Brand__c) == 'EL TESORO'}">
+            <p>
+                Thank you for contacting us and for your interest in our products.​<br/>
+                Unfortunately, these variants were developed for the US, and we have no plans to introduce it to other parts of the world. However I will advise the brand team of your interest and hope its there in the future.<br/>
+            </p>
+        </apex:outputPanel>
+        <!-- End changes ticket DSC-657 12/05/2020 -->
+        
+        <apex:outputPanel layout="block" rendered="{!UPPER(relatedTo.How_can_we_help__c) == 'WHERE TO BUY PRODUCT' && UPPER(relatedTo.Contact.MailingCountry) == 'UNITED STATES' && AND(UPPER(relatedTo.Brand__c) != 'PAVAN', UPPER(JSENCODE(relatedTo.Brand__c)) != 'TEACHER\'S')}">
+                <p>Hi {!relatedTo.Account.FirstName},</p>
+                <p>We love hearing from fans like yourself! Luckily, we can help you find {!relatedTo.Brand__c}. Please click the product locator link <a href='https://locator.beamsuntory.com/#/locator'>here</a>, choose the {!relatedTo.Brand__c} product you’d like to find, and enter your ZIP code for a list of bars, restaurants, and stores that carry  {!relatedTo.Brand__c}. Be sure to #DrinkSmart!</p>
+                <p>Thank you for being a {!relatedTo.Brand__c} fan!</p>
+        </apex:outputPanel>
+        <apex:outputPanel layout="block" rendered="{!UPPER(relatedTo.How_can_we_help__c) == 'WHERE TO BUY PRODUCT' && UPPER(relatedTo.Contact.MailingCountry) == 'UNITED STATES' && OR(UPPER(relatedTo.Brand__c) == 'PAVAN', UPPER(JSENCODE(relatedTo.Brand__c)) == 'TEACHER\'S')}">
+            <p>Hi {!relatedTo.Account.FirstName},</p>
+            <p>Thank you so much for reaching out to {!relatedTo.Brand__c}. I’m glad to hear you have interest in {!relatedTo.Brand__c} but unfortunately we don’t sell it in the US. If you are ever traveling internationally, be sure to check your airport duty free store as sometimes you can find {!relatedTo.Brand__c} there.</p>
+            <p>Thanks,<br/>Beam Suntory Executive</p>
+        </apex:outputPanel>
+        
+        <!-- for Laphroaig -->
+        <apex:outputPanel layout="block" rendered="{!UPPER(relatedTo.How_can_we_help__c) == 'VISITING THE DISTILLERY' && UPPER(relatedTo.Brand__c) == 'LAPHROAIG'}">
+            <p>We regret to inform you that unfortunately due to the COVID-19 Coronavirus outbreak in the UK we have taken the decision to cancel all public tours to our Distillery as of immediate effect.
+             Consistent with guidance from public health authorities to limit large gatherings, and given that our public tours include elements that bring groups together in relatively restricted spaces, we will be suspending all tours and visits to the Laphroaig Distillery in Islay - until further notice.</p>
+
+            <p>At this time, if you have reservations, your tour tickets will be automatically refunded.  If you have any questions or comments, please contact tourbookings@laphroaig.com.</p>
+
+            <p>We understand that this may be disappointing and we apologize for any inconvenience. Please be assured that we are taking this action out of an abundance of caution 
+            because the health and wellbeing of our employees and loyal brand fans is paramount.</p>
+            <!-- <p>
+                Thank you for contacting Laphroaig Distillery.<br/><br/>
+                It&apos;s great to hear you are planning a trip over to Islay.<br/><br/>
+                You will be able to check availability and book online using the link below, or by giving us a call.<br/><br/>
+                https://tourbooking.laphroaig.com/index.php<br/>
+                Phone: (0044) 01496302418<br/><br/>               
+                Any further questions about visiting the distillery please contact:<br/>
+                tourbookings@laphroaig.com<br/>
+            </p>
+             -->
+        </apex:outputPanel>   
+        
+        <!-- for Cruzan -->
+        <apex:outputPanel layout="block" rendered="{!UPPER(relatedTo.How_can_we_help__c) == 'VISITING THE DISTILLERY' && UPPER(relatedTo.Brand__c) == 'KILBEGGAN'}">
+            
+            <p>In line with the Irish Government’s Roadmap for Reopening Business, we are happy to confirm that Kilbeggan Distillery Brand Home plan to re-open in the coming weeks.</p>
+            <p>As always, the health &amp; safety of our teams, visitors and our community is our priority.</p>
+            <p>We are currently implementing thorough measures to ensure all our guests and staff will have a safe and enjoyable experience throughout their visit to Irelands oldest licensed distillery.</p> 
+            <p>Full details of this plan will be made available in advance of our reopening.</p> 
+            <p>Our booking system will re-open in the coming weeks and online booking is strongly advised, as we will be operating at a lower tour capacity.</p>
+            <p>We look forward to welcoming you.</p>
+            
+            
+            <!--<p>Kilbeggan Distilling Co. is actively managing its response to the rapidly evolving COVID-19 pandemic, and we’re determined to do our part to support our communities and help contain the spread of the virus.</p> 
+            <p>Consistent with guidance from public health authorities to limit large gatherings, and given that our public tours include elements that bring groups together in relatively restricted spaces, we will be suspending all tours and visits to the Kilbeggan Distillery in Ireland - beginning March 16th until further notice.</p>
+            <p>We understand that this may be disappointing and we apologize for any inconvenience.  Please be assured that we are taking this action out of an abundance of caution because the health and wellbeing of our employees and loyal brand fans is paramount.</p>
+            <p>At this time, if you have reservations through the end of March 2020, your tour tickets will be automatically refunded.  If you have any questions or comments, please contact bookings@kilbeggandistillery.com.</p>
+            <p>We look forward to resuming tours and gift shop operations - and welcoming you for the full experience in the future.</p>-->
+            <!--<p>Hi {!relatedTo.Account.FirstName},</p>
+            <p>Thank you for contacting the Kilbeggan Distillery, we are located on Lower Main St, Aghamore, Kilbeggan, County Westmeanth, Ireland</p>
+            <p>To take part in a guided tour, you can make a reservation online, or by calling the distillery. All availability is shown online.<br/>
+                https://tourbooking.kilbegganwhiskey.com/list.php<br/>
+                Phone: +353 57 933 2134
+            </p>
+            <p>Any further questions about the tours please contact:<br/>
+                bookings@kilbeggandistillery.com
+            </p> -->
+        </apex:outputPanel>
+        <apex:outputPanel layout="block" rendered="{!UPPER(relatedTo.How_can_we_help__c) == 'VISITING THE DISTILLERY' && UPPER(relatedTo.Brand__c) == 'JIM BEAM'}">
+            <p>Jim Beam is actively managing its response to the rapidly evolving COVID-19 pandemic, and we’re determined to do our part to support our communities and help contain the spread of the virus.</p>
+            <p>Consistent with guidance from public health authorities to limit large gatherings, and given that our public tours include elements that bring groups together in relatively restricted spaces, we will be suspending all tours and visits to the Jim Beam American Stillhouse in Clermont, KY and the Jim Beam Urban Stillhouse in Louisville, KY - beginning March 16th until further notice.</p>
+            <p>We understand that this may be disappointing and we apologize for any inconvenience.  Please be assured that we are taking this action out of an abundance of caution because the health and wellbeing of our employees and loyal brand fans is paramount.</p>
+            <p>At this time, if you have reservations through the end of March 2020, your tour tickets will be automatically refunded.  If you have any questions or comments, please contact consumerinquiries@beamsuntory.com or by phone - American Stillhouse (502-543-9877) or Urban Stillhouse (502-855-8392).</p>
+            <p>Check JimBeam.com or our social channels - as we monitor the status of future reservations.</p>
+            <p>We look forward to resuming tours and gift shop operations - and welcoming you for the full experience in the future.</p>
+           <!-- <p>Hi {!relatedTo.Account.FirstName},</p>
+            <p>We&apos;re excited you&apos;d like to visit the home of our distillery! For more information or to order your tickets online, visit the American Stillhouse at www.americanstillhouse.com.</p>
+            <p>Directions:<br/>Jim Beam, located at the Jim Beam American Stillhouse, is only 22 miles south of Louisville off I-65. From Louisville, take I-65 south. Take Exit 112 (KY 245) east toward Clermont/Bardstown. Drive 1.8 miles, turn left onto Happy Hollow Road. From Lexington, take Bluegrass Parkway West. Take Exit 25 (US 150). Drive north toward Bardstown and turn right onto KY 245. Drive 13.5 miles, turn right onto Happy Hollow Road.</p>
+            <p>Open:<br/>Monday – Saturday – 9:00 AM to 5:30 PM EST. Guided Tours every half hour starting at 9:30 a.m. until 3:30 p.m. No Tour at 12:30 p.m.</p>
+            <p>Sunday – Noon until 4:30 PM EST. Guided Tours every half hour starting at 12:30 p.m. until 3 p.m.<br/><br/>Our Kentucky distillery offers bourbon tastings and sales daily. Must be 21+ to participate. We are closed on Sundays in January and February, as well as New Year&apos;s Day, Easter, Thanksgiving Day, Christmas Eve, and Christmas Day.</p>
+            <p>Contact Info:<br/>526 Happy Hollow Road<br/>Clermont, Kentucky 40110<br/>502-543-9877</p> -->
+        </apex:outputPanel>
+        <apex:outputPanel layout="block" rendered="{!UPPER(relatedTo.How_can_we_help__c) == 'VISITING THE DISTILLERY' && UPPER(relatedTo.Brand__c) == 'CRUZAN'}">
+            <p>Cruzan Distillery is actively managing its response to the rapidly evolving COVID-19 pandemic, and we&rsquo;re determined to do our part to support our communities and help contain the spread of the virus.</p>
+
+            <p>Consistent with guidance from public health authorities to limit large gatherings, and given that our public tours include elements that bring groups together in relatively restricted spaces, we will be suspending all tours and visits to Cruzan Rum Distillery until further notice.</p>
+
+            <p>We understand that this may be disappointing and we apologize for any inconvenience. Please be assured that we are taking this action out of an abundance of caution because the health and wellbeing of our employees and loyal brand fans is paramount.</p>
+
+            <p>At this time, if you have reservations, your tour tickets will be automatically refunded. If you have any questions or comments, please contact consumerinquiries@beamsuntory.com.</p>
+
+            <p>We look forward to resuming tours and gift shop operations - and welcoming you for the full experience in the future.</p>
+            <!-- <p>Hi {!relatedTo.Account.FirstName},</p>
+            <p>
+                Thank you for contacting us and for your interest in our distillery Cruzan Viril, LTD is located in CRUZAN VIRIL, LTD.<br/> 
+                Frederiksted, ST. Croix, V.I. 00841-0218 , 3 &amp; 3A Estate Diamond<br/>
+                Tel: Office (340) 712-2723<br/>
+                Our tours leave every half hour on the hour. So, our first tour leaves at 10:00 am and the next tour at 10:30 am. And so on until 2:00 pm. Will be the last tour.
+            </p>
+            <p>
+                Tour fee: ($8.00/adult 18 years and up) ($2.00/minor 6 to 17 yrs.) - (5 yrs. and under - free Admission)<br/><br/>
+                Walking through Cruzan Rum distillery with a tour guide is estimated to be about 30 minutes long. It entails is walking through the Mixing tanks, Fermenter, by the still house, Ware House then to the filter room. (Please ware flat comfortable shoes while conducting the walking tour). Guests should be prepared to climb some stairs and stand for short periods of time.<br/><br/>
+                The Pavilion Visitors Center houses the Gift Shop and our famous Don&apos;t Hurry Tasting Room where guests are invited to sample our award-winning rums. The guests have an opportunity to learn how to create our fun cocktails and relax island style! This is also where our tour begins and ends. Our gift store has many neat items for sale including hats, T-shirts, shot glasses, Tervis tumblers and of course RUM! We do not accept cash, but we do accept Credit cards (MC- Visa- Discover - Amex). PLEASE DRINK RESPONSIBLY and please do not forget we drive on the left side of the road.<br/><br/>
+                All Taxi drivers know where Cruzan Rum Distillery is located. All you need to say is Cruzan Rum. The drive from the Cruise Ship port to the Distillery is about 10 minutes. The Taxi fare is estimate $10.00 for one-person round trip. To receive this fare, you would go to the blue tent on the dock before you go through the main gates. The taxi drivers wear tropic shirts.<br/><br/>
+            </p> -->
+        </apex:outputPanel>
+        <apex:outputPanel layout="block" rendered="{!UPPER(relatedTo.How_can_we_help__c) == 'VISITING THE DISTILLERY' && UPPER(relatedTo.Brand__c) == 'SAUZA'}">
+            <p>Hornitos and Sauza is actively managing its response to the rapidly evolving COVID-19 pandemic, and we’re determined to do our part to support our communities and help contain the spread of the virus.</p>
+            <p>Consistent with guidance from public health authorities to limit large gatherings, and given that our public tours include elements that bring groups together in relatively restricted spaces, we will be suspending all tours and visits to Casa Sauza in Tequila Jalisco - beginning March 16th until further notice.</p>
+            <p>We understand that this may be disappointing and we apologize for any inconvenience.  Please be assured that we are taking this action out of an abundance of caution because the health and wellbeing of our employees and loyal brand fans is paramount.</p>
+            <p>At this time, if you have reservations through the end of March 2020, your tour tickets will be automatically refunded.  If you have any questions or comments, please contact consumerinquiries@beamsuntory.com.</p>
+            <p>We look forward to resuming tours and gift shop operations - and welcoming you for the full experience in the future.</p>
+            <!--<p>Thank you for contacting Sauza Tequila!</p>
+            <p>We invite you to visit Casa Sauza, one of the most ancient distilleries in the town of Tequila, Mexico. Here, you may tour through La Perseverancia distillery, visit La Constancia aging warehouse, sample cooked agave juice, sip ultra-aged tequila directly from the barrel, and visit the hacienda Quinta Sauza.</p>
+            <p>For more information on visiting Casa Sauza or booking a tour, visit www.casasauza.com or contact the Casa Sauza Heritage Center:</p>
+            <p>Heritage Center<br />
+            Guadalajara, Jalisco +52 333 679 06 00 Ext. 627<br />
+            Tequila, Jalisco +52 374 742 71 00 Ext. 193<br />
+            Toll free from Mexico: 1 800 <span class="caps">SAUZA</span> TQ (7289287)<br />
+            Toll free from the U.S.: 1 866 510 2250<br />
+            Other countries: 52 (374) 742 4140<br />
+            Email: tourstequilasauza@beamsuntory.com</p>
+            <p>Thank you for being a Suntory Whisky &#8211; Hakushu Whisky 18YO fan and we hope to see you at Casa Sauza!</p>-->
+        </apex:outputPanel>
+        
+        <!-- <apex:outputPanel layout="block" rendered="{!UPPER(relatedTo.How_can_we_help__c) == 'VISITING THE DISTILLERY' && UPPER(relatedTo.Brand__c) == 'YAMAZAKI'}">
+            <p>Thank you for contacting Yamazaki® Whisky!</p>
+            <p>The Yamazaki Distillery in Shimamoto, Osaka, Japan is open 7 days week, with the exception of some special holidays. Guided tours are conducted 5 times a day, from 9:50 a.m. – 2:50 p.m. each day. The tour is approximately 80 minutes.</p>
+            <p>To take part in a guided tour, you can make a reservation online, or by calling the distillery. All availability is shown online. In the event that no slots are available at your desired time, we still encourage you to visit the Yamazaki Distillery and enjoy the on-site Whisky Museum—detailing the history of the House of Suntory and the Yamazaki Distillery— and the Tasting Counter (paid)—where you can taste many of our award-winning whiskies from the House of Suntory portfolio, as well as rare component whiskies only available at the distillery. Please also feel free to visit the Gift Shop! </p>
+            <p>Please find contact information for reservations below:</p>
+            <p><span class="caps">URL</span>: https://webapl.suntory.co.jp/factory/yamazaki/?lang=en</p>
+            <p>Phone:<br />
+            +81-75-962-1423</p>
+            <p>Operator hours:<br />
+            9:30 am to 5:00 pm<br />
+            (except plant shutdowns)</p>
+            <p>Please visit our website for more details:<br />
+            http://www.suntory.com/factory/yamazaki/inspection/index.html (http://www.suntory.com/factory/yamazaki/inspection/index.html)</p>
+        </apex:outputPanel>
+        
+        <apex:outputPanel layout="block" rendered="{!UPPER(relatedTo.How_can_we_help__c) == 'VISITING THE DISTILLERY' && UPPER(relatedTo.Brand__c) == 'SUNTORY - HAKUSHU'}">
+            <p>Thank you for contacting Hakushu® Whisky!</p>
+            <p>The Hakushu Distillery in the Yamanashi prefecture, Chūbu region, Japan is open 7 days week, with the exception of some special holidays. Guided tours are conducted from 10:00 a.m.- 3:00 p.m. each day. The tour is approximately 30 minutes. You may also visit the Suntory Whisky Museum, White Terrace Restaurant, Hakushu Bar, Gift Shop and Bird Sanctuary during your visit to the distillery.</p>
+            <p>To take part in a guided tour, make a reservation by calling the distillery. Please find contact information below:</p>
+            <p>Phone:<br />
+            +81-551-35-2211</p>
+            <p>Operator hours:<br />
+            9:30 am to 4:30 pm<br />
+            (except plant shutdowns)</p>
+            <p>Please visit our website for more details:<br />
+            http://www.suntory.com/factory/hakushu/inspection/index.html</p>
+        </apex:outputPanel> -->
+        
+        <apex:outputPanel layout="block" rendered="{!UPPER(relatedTo.How_can_we_help__c) == 'VISITING THE DISTILLERY' && UPPER(relatedTo.Brand__c) == 'KNOB CREEK'}">
+            <p>Jim Beam is actively managing its response to the rapidly evolving COVID-19 pandemic, and we’re determined to do our part to support our communities and help contain the spread of the virus.</p>
+            <p>Consistent with guidance from public health authorities to limit large gatherings, and given that our public tours include elements that bring groups together in relatively restricted spaces, we will be suspending all tours and visits to the Jim Beam American Stillhouse in Clermont, KY and the Jim Beam Urban Stillhouse in Louisville, KY - beginning March 16th until further notice.</p>
+            <p>We understand that this may be disappointing and we apologize for any inconvenience.  Please be assured that we are taking this action out of an abundance of caution because the health and wellbeing of our employees and loyal brand fans is paramount.</p>
+            <p>At this time, if you have reservations through the end of March 2020, your tour tickets will be automatically refunded.  If you have any questions or comments, please contact consumerinquiries@beamsuntory.com or by phone - American Stillhouse (502-543-9877) or Urban Stillhouse (502-855-8392).</p>
+            <p>Check JimBeam.com or our social channels - as we monitor the status of future reservations.</p>
+            <p>We look forward to resuming tours and gift shop operations - and welcoming you for the full experience in the future.</p>
+            <!--<p>Thank you for contacting Knob Creek®! We&#8217;d love to host you at the American Stillhouse in Clermont, Kentucky.</p>
+            <p>Here you will learn more about the small batch bourbon process while experiencing the sights, sounds, and smells of the distillery. You tour will last approximately 1 hour and will conclude with a tasting. Tours start every 30 minutes and cost $8. Active members of the United States Military tour for free with military ID.</p>
+            <p>For more information or to order your tickets online, visit the American Stillhouse at www.americanstillhouse.com. </p>
+            <p>Directions:<br />
+            Knob Creek is only 22 miles south of Louisville off I-65. From Louisville, take I-65 south. Take Exit 112 (KY 245) east toward Clermont/Bardstown. Drive 1.8 miles, turn left onto Happy Hollow Road. From Lexington, take Bluegrass Parkway West. Take Exit 25 (US 150). Drive north toward Bardstown and turn right onto KY 245. Drive 13.5 miles, turn right onto Happy Hollow Road.</p>
+            <p>Open:<br />
+            Monday – Saturday – 9:00 AM to 5:30 PM <span class="caps">EST</span>. Guided Tours every half hour starting at 9:30 a.m. until 3:30 p.m.  No Tour at 12:30 p.m.</p>
+            <p>Sunday – Noon until 4:30 PM <span class="caps">EST</span>. Guided Tours every half hour starting at 12:30 p.m. until 3 p.m.</p>
+            <p>Our Kentucky distillery offers bourbon tastings and sales daily. Must be 21+ to participate. We are closed on Sundays in January and February, as well as New Year&#8217;s Day, Easter, Thanksgiving Day, Christmas Eve, and Christmas Day.</p>
+            <p>Contact Info:<br />
+            526 Happy Hollow Road<br />
+            Clermont, Kentucky 40110<br />
+            502-543-9877</p>-->
+        </apex:outputPanel>
+        
+        <apex:outputPanel layout="block" rendered="{!UPPER(relatedTo.How_can_we_help__c) == 'VISITING THE DISTILLERY' && UPPER(JSENCODE(relatedTo.Brand__c)) == 'BASIL HAYDEN\'S'}">
+            <p>Jim Beam is actively managing its response to the rapidly evolving COVID-19 pandemic, and we’re determined to do our part to support our communities and help contain the spread of the virus.</p>
+            <p>Consistent with guidance from public health authorities to limit large gatherings, and given that our public tours include elements that bring groups together in relatively restricted spaces, we will be suspending all tours and visits to the Jim Beam American Stillhouse in Clermont, KY and the Jim Beam Urban Stillhouse in Louisville, KY - beginning March 16th until further notice.</p>
+            <p>We understand that this may be disappointing and we apologize for any inconvenience.  Please be assured that we are taking this action out of an abundance of caution because the health and wellbeing of our employees and loyal brand fans is paramount.</p>
+            <p>At this time, if you have reservations through the end of March 2020, your tour tickets will be automatically refunded.  If you have any questions or comments, please contact consumerinquiries@beamsuntory.com or by phone - American Stillhouse (502-543-9877) or Urban Stillhouse (502-855-8392).</p>
+            <p>Check JimBeam.com or our social channels - as we monitor the status of future reservations.</p>
+            <p>We look forward to resuming tours and gift shop operations - and welcoming you for the full experience in the future.</p>
+            <!--<p>Thank you for contacting Knob Creek®! We&#8217;d love to host you at the American Stillhouse in Clermont, Kentucky.</p>
+            <p>Here you will learn more about the small batch bourbon process while experiencing the sights, sounds, and smells of the distillery. You tour will last approximately 1 hour and will conclude with a tasting. Tours start every 30 minutes and cost $8. Active members of the United States Military tour for free with military ID.</p>
+            <p>For more information or to order your tickets online, visit the American Stillhouse at www.americanstillhouse.com. </p>
+            <p>Directions:<br />
+            Knob Creek is only 22 miles south of Louisville off I-65. From Louisville, take I-65 south. Take Exit 112 (KY 245) east toward Clermont/Bardstown. Drive 1.8 miles, turn left onto Happy Hollow Road. From Lexington, take Bluegrass Parkway West. Take Exit 25 (US 150). Drive north toward Bardstown and turn right onto KY 245. Drive 13.5 miles, turn right onto Happy Hollow Road.</p>
+            <p>Open:<br />
+            Monday – Saturday – 9:00 AM to 5:30 PM <span class="caps">EST</span>. Guided Tours every half hour starting at 9:30 a.m. until 3:30 p.m.  No Tour at 12:30 p.m.</p>
+            <p>Sunday – Noon until 4:30 PM <span class="caps">EST</span>. Guided Tours every half hour starting at 12:30 p.m. until 3 p.m.</p>
+            <p>Our Kentucky distillery offers bourbon tastings and sales daily. Must be 21+ to participate. We are closed on Sundays in January and February, as well as New Year&#8217;s Day, Easter, Thanksgiving Day, Christmas Eve, and Christmas Day.</p>
+            <p>Contact Info:<br />
+            526 Happy Hollow Road<br />
+            Clermont, Kentucky 40110<br />
+            502-543-9877</p>-->
+        </apex:outputPanel>
+        
+        <apex:outputPanel layout="block" rendered="{!UPPER(relatedTo.How_can_we_help__c) == 'VISITING THE DISTILLERY' && UPPER(relatedTo.Brand__c) == 'EL TESORO'}">
+            <p>El Tesoro is actively managing its response to the rapidly evolving COVID-19 pandemic, and we’re determined to do our part to support our communities and help contain the spread of the virus.</p>
+            <p>Consistent with guidance from public health authorities to limit large gatherings, and given that our public tours include elements that bring groups together in relatively restricted spaces, we will be suspending all tours and visits to La Altena in Jalisco - beginning March 16th until further notice.</p>
+            <p>We understand that this may be disappointing and we apologize for any inconvenience.  Please be assured that we are taking this action out of an abundance of caution because the health and wellbeing of our employees and loyal brand fans is paramount.</p>
+            <p>At this time, if you have reservations through the end of March 2020, your tour tickets will be automatically refunded.  If you have any questions or comments, please contact consumerinquiries@beamsuntory.com.</p>
+            <p>We look forward to resuming tours operations - and welcoming you for the full experience in the future.</p>
+           <!-- <p>Our distillery is open to visitors Monday to Friday, from 10 a.m. to 11 a.m., and Saturday, at 10 a.m. Tickets for tours and tastings must be purchased in advance here: https://www.eltesorotequila.com/about-us. Guests must be over the age of 12 to tour the distillery, and over the age of 18 to participate in the tastings.</p>-->
+        </apex:outputPanel>
+        
+        <apex:outputPanel layout="block" rendered="{!UPPER(relatedTo.How_can_we_help__c) == 'VISITING THE DISTILLERY' && UPPER(relatedTo.Brand__c) == 'TYRCONNELL'}">
+            <p>Kilbeggan Distilling Co. is actively managing its response to the rapidly evolving COVID-19 pandemic, and we’re determined to do our part to support our communities and help contain the spread of the virus.</p> 
+            <p>Consistent with guidance from public health authorities to limit large gatherings, and given that our public tours include elements that bring groups together in relatively restricted spaces, we will be suspending all tours and visits to the Kilbeggan Distillery in Ireland - beginning March 16th until further notice.</p>
+            <p>We understand that this may be disappointing and we apologize for any inconvenience.  Please be assured that we are taking this action out of an abundance of caution because the health and wellbeing of our employees and loyal brand fans is paramount.</p>
+            <p>At this time, if you have reservations through the end of March 2020, your tour tickets will be automatically refunded.  If you have any questions or comments, please contact bookings@kilbeggandistillery.com.</p>
+            <p>We look forward to resuming tours and gift shop operations - and welcoming you for the full experience in the future.</p>
+           <!-- <p>Hi {!relatedTo.Account.FirstName},</p>
+            <p>Thank you for contacting the Kilbeggan Distillery, we are located on Lower Main St, Aghamore, Kilbeggan, County Westmeanth, Ireland</p>
+            <p>To take part in a guided tour, you can make a reservation online, or by calling the distillery. All availability is shown online.<br />
+            https://tourbooking.kilbegganwhiskey.com/list.php<br />
+            Phone: +353 57 933 2134</p>
+            <p>Any further questions about the tours please contact:<br />
+            bookings@kilbeggandistillery.com</p> -->
+        </apex:outputPanel>
+        
+        <apex:outputPanel layout="block" rendered="{!UPPER(relatedTo.How_can_we_help__c) == 'VISITING THE DISTILLERY' && UPPER(relatedTo.Brand__c) == 'CONNEMARA'}">
+            <p>Kilbeggan Distilling Co. is actively managing its response to the rapidly evolving COVID-19 pandemic, and we’re determined to do our part to support our communities and help contain the spread of the virus.</p> 
+            <p>Consistent with guidance from public health authorities to limit large gatherings, and given that our public tours include elements that bring groups together in relatively restricted spaces, we will be suspending all tours and visits to the Kilbeggan Distillery in Ireland - beginning March 16th until further notice.</p>
+            <p>We understand that this may be disappointing and we apologize for any inconvenience.  Please be assured that we are taking this action out of an abundance of caution because the health and wellbeing of our employees and loyal brand fans is paramount.</p>
+            <p>At this time, if you have reservations through the end of March 2020, your tour tickets will be automatically refunded.  If you have any questions or comments, please contact bookings@kilbeggandistillery.com.</p>
+            <p>We look forward to resuming tours and gift shop operations - and welcoming you for the full experience in the future.</p>
+            <!--<p>Hi {!relatedTo.Account.FirstName},</p>
+            <p>Thank you for contacting the Kilbeggan Distillery, we are located on Lower Main St, Aghamore, Kilbeggan, County Westmeanth, Ireland</p>
+            <p>To take part in a guided tour, you can make a reservation online, or by calling the distillery. All availability is shown online.<br />
+            https://tourbooking.kilbegganwhiskey.com/list.php<br />
+            Phone: +353 57 933 2134</p>
+            <p>Any further questions about the tours please contact:<br />
+            bookings@kilbeggandistillery.com</p>-->
+        </apex:outputPanel>
+        
+        <apex:outputPanel layout="block" rendered="{!UPPER(relatedTo.How_can_we_help__c) == 'VISITING THE DISTILLERY' && UPPER(relatedTo.Brand__c) == 'AUCHENTOSHAN'}">
+            <p>If you&#8217;re down our way, or feel like coming <br />
+            up our way, then why not drop in and see <br />
+            us for a drop.</p>
+            <p>We&#8217;re open 7 days a week from 10am to 5pm.</p>
+            <p>Last tour at 3pm.</p>
+            <p>It’s really the best way of experiencing a number of our Auchentoshan malts. How deep into the taste experience you go is entirely up to you and there are a number of unique opportunities to take advantage of.</p>
+            <p>Take a look and we’ll see you when<br />
+            you get here.</p>
+            <p>Or if you want to speak to us, we&#8217;re just at the end of the phone: 01389 878561</p>
+        </apex:outputPanel>
+        
+        <apex:outputPanel layout="block" rendered="{!UPPER(relatedTo.How_can_we_help__c) == 'VISITING THE DISTILLERY' && UPPER(relatedTo.Brand__c) == 'BOWMORE'}">
+            <p>We are thrilled to hear from you! Bowmore may be a little off the beaten track, but it&#8217;s well worth a visit. Bowmore is known for its whitewashed houses, tiny stone built harbor and pier. We recommend visiting our website for details on the different tours we offer, hours of operation, pricing and contact details. To call and book directly, please dial the distillery at +44 (0)1496 810 441 or shoot us a note at mbd.bowmoredistillery@beamsuntory.com. We hope to see you soon!</p>
+        </apex:outputPanel>
+        
+        <apex:outputPanel layout="block" rendered="{!UPPER(relatedTo.How_can_we_help__c) == 'VISITING THE DISTILLERY' && UPPER(relatedTo.Brand__c) == 'COURVOISIER'}">
+            <!--<p>Thank you for contacting Courvoisier®. The Courvoisier distillery in Jarnac, France is open for tours. Please contact Beatrice Bernard (beatrice.bernard@beamsuntory.com) for more information on visiting the distillery.</p>-->
+            <p><strong><u>English</u></strong></p>
+            <p>Courvoisier is actively managing its response to the rapidly evolving COVID-19 pandemic, and we’re determined to do our part to support our communities and help contain the spread of the virus.</p>
+            <p>Consistent with guidance from public health authorities to limit large gatherings, we will be suspending all  Courvoisier tours in Jarnac, France - beginning March 16th until further notice.</p>
+            <p>We understand that this may be disappointing and we apologize for any inconvenience.  Please be assured that we are taking this action out of an abundance of caution because the health and wellbeing of our employees and loyal brand fans is paramount.</p>
+            <p>If you have any questions or comments, please contact visites.courvoisier@beamsuntory.com.</p>
+            <p>We look forward to resuming tours and welcoming you for the full experience in the future.</p>
+            <p><strong><u>French</u></strong></p>
+            <p>Courvoisier gère activement sa réponse à la pandémie du COVID-19 et nous sommes déterminés  à soutenir les mesures mises en place par le gouvernement et aider à contenir la propagation du virus.</p>
+            <p>Conformément aux directives des autorités de santé publique pour limiter les grands rassemblements, nous suspendons toutes les visites  chez Courvoisier à Jarnac, France, à compter du 16 mars et jusqu’à nouvel ordre.</p>
+            <p>Nous comprenons que cela puisse être décevant et nous nous excusons pour tout inconvénient. Soyez assurés que nous prenons cette mesure par précaution, car la santé et le bien-être de nos employés et de nos visiteurs sont primordiaux.</p>
+            <p>Si vous avez des questions ou des commentaires, veuillez nous  contacter  à l’adresse suivante : visites.courvoisier@beamsuntory.com.</p>
+            <p>Nous sommes impatients de reprendre les visites et de vous accueillir.</p>
+        </apex:outputPanel>
+        
+        <!-- Start changes made for ticket DSC-441 30/03/2020 -->
+        <!-- for Booker's -->
+        <apex:outputPanel layout="block" rendered="{!UPPER(relatedTo.How_can_we_help__c) == 'VISITING THE DISTILLERY' && UPPER(JSENCODE(relatedTo.Brand__c)) == 'BOOKER\'S'}">
+            <p>Jim Beam is actively managing its response to the rapidly evolving COVID-19 pandemic, and we&rsquo;re determined to do our part to support our communities and help contain the spread of the virus.<br />
+                <br />
+                Consistent with guidance from public health authorities to limit large gatherings, and given that our public tours include elements that bring groups together in relatively restricted spaces, we will be suspending all tours and visits to the Jim Beam American Stillhouse in Clermont, KY and the Jim Beam Urban Stillhouse in Louisville, KY - beginning March 16th until further notice.<br />
+                <br />
+                We understand that this may be disappointing and we apologize for any inconvenience. Please be assured that we are taking this action out of an abundance of caution because the health and wellbeing of our employees and loyal brand fans is paramount.<br />
+                <br />
+                At this time, if you have reservations through the end of March 2020, your tour tickets will be automatically refunded. If you have any questions or comments, please contact <a href="mailto:consumerinquiries@beamsuntory.com" target="_blank">consumerinquiries@beamsuntory.<wbr />com</a>or by phone - American Stillhouse (502-543-9877) or Urban Stillhouse (502-855-8392).<br />
+                <br />
+                Check JimBeam.com or our social channels - as we monitor the status of future reservations.<br />
+                <br />
+                We look forward to resuming tours and gift shop operations - and welcoming you for the full experience in the future.
+            </p>
+        </apex:outputPanel>
+        
+        <!-- for HORNITOS -->
+        <apex:outputPanel layout="block" rendered="{!UPPER(relatedTo.How_can_we_help__c) == 'VISITING THE DISTILLERY' && UPPER(relatedTo.Brand__c) == 'HORNITOS'}">
+            <p>Hornitos and Sauza is actively managing its response to the rapidly evolving COVID-19 pandemic, and we&rsquo;re determined to do our part to support our communities and help contain the spread of the virus.<br />
+                <br/>
+                Consistent with guidance from public health authorities to limit large gatherings, and given that our public tours include elements that bring groups together in relatively restricted spaces, we will be suspending all tours and visits to Casa Sauza in Tequila Jalisco - beginning March 16th until further notice.<br />
+                <br />
+                We understand that this may be disappointing and we apologize for any inconvenience. Please be assured that we are taking this action out of an abundance of caution because the health and wellbeing of our employees and loyal brand fans is paramount.<br />
+                <br />
+                At this time, if you have reservations through the end of March 2020, your tour tickets will be automatically refunded. If you have any questions or comments, please contact <a href="mailto:consumerinquiries@beamsuntory.com" target="_blank">consumerinquiries@<wbr />beamsuntory.com</a>.<br />
+                <br />
+                We look forward to resuming tours and gift shop operations - and welcoming you for the full experience in the future.
+            </p>
+         </apex:outputPanel>
+         
+         <!-- for HOUSE OF SUNTORY -->
+         <apex:outputPanel layout="block" rendered="{!UPPER(relatedTo.How_can_we_help__c) == 'VISITING THE DISTILLERY' && UPPER(relatedTo.Brand__c) == 'HOUSE OF SUNTORY'}">
+           <p>The House of Suntory is actively managing its response to the rapidly evolving COVID-19 pandemic, and we&rsquo;re determined to do our part to support our communities and help contain the spread of the virus.<br />
+                <br />
+                Consistent with guidance from public health authorities to limit large gatherings, and given that our public tours include elements that bring groups together in relatively restricted spaces, we will be suspending all tours and visits to the Yamazaki Distillery in Osaka and the Hakushu distillery in Yamanashi - beginning February 29th until further notice.<br />
+                <br />
+                We understand that this may be disappointing and we apologize for any inconvenience. Please be assured that we are taking this action out of an abundance of caution because the health and wellbeing of our employees and loyal brand fans is paramount.<br />
+                <br />
+                The reopening schedule will be listed on the top page of our distillery website, once decided. To cancel reservations, please click on &ldquo;confirm or cancel reservation&rdquo; provided on the bottom of the distillery page. If you have any questions or comments, please contact <a href="mailto:consumerinquiries@beamsuntory.com" target="_blank">consumerinquiries@<wbr />beamsuntory.com</a>.<br />
+                <br />
+                We look forward to resuming tours and gift shop operations - and welcoming you for the full experience in the future.
+            </p>
+         </apex:outputPanel>
+         
+         <!-- for SIP SMITH -->
+         <apex:outputPanel layout="block" rendered="{!UPPER(relatedTo.How_can_we_help__c) == 'VISITING THE DISTILLERY' && UPPER(relatedTo.Brand__c) == 'SIPSMITH'}">
+            <p>We regret to inform you that unfortunately due to the COVID-19 Coronavirus outbreak in the UK we have taken the decision to cancel all public tours to our Distillery as of immediate effect. Consistent with guidance from public health authorities to 
+                limit large gatherings, and given that our public tours include elements that bring groups together in relatively restricted spaces, we will be suspending 
+                all tours and visits to the Sipsmith Distillery in London - until further notice.<br />
+                <br />
+                Rest assured that you will not miss out on your Sipsmith Distillery tour experience and we will honour your booking free of charge for a future date that suits you 
+                and we will be in touch as soon as our Distillery doors open again to the public. We wish you all the best during this difficult time.<br />
+                <br />
+                We understand that this may be disappointing and we apologize for any inconvenience. Please be assured that we are taking this action out of an 
+                abundance of caution because the health and wellbeing of our employees and loyal brand fans is paramount. We&#39;re proud of every drop of gin we produce 
+                here at the Sipsmith Distillery, the first of its kind to open since 1820, and we&#39;d love for you to join us to discover how we make it.
+            </p>
+         </apex:outputPanel>
+         
+         <!-- Makers Mark -->
+         <apex:outputPanel layout="block" rendered="{!UPPER(relatedTo.How_can_we_help__c) == 'VISITING THE DISTILLERY' && UPPER(relatedTo.Brand__c) == 'MAKERS MARK'}">
+            <p>Due to ongoing concerns about public health and safety created by COVID-19, we think it&rsquo;s in everyone&rsquo;s best interest to temporarily suspend 
+               distillery visits by the general public. So as of Monday, March 16 we&rsquo;ve closed to visitors until further notice -- although rest assured, we&rsquo;ll still be making your whisky. Just without an audience.
+            </p>
+
+            <p>We deeply apologize for any inconvenience this may cause, but your wellbeing, as well as that of our distillery team, 
+               is of the utmost importance.
+            </p>
+
+            <p>We hope to reopen again as soon as possible, and we&rsquo;ll be in touch when that time comes. We look forward to welcoming you at our homeplace again in the near future.</p>
+
+         </apex:outputPanel>
+         
+         
+         <!-- Added condition for Booker's, Hornitos, House of Suntory, Sip Smith for ticket DSC-441 on 30/03/2020 -->   
+         <!-- One more added condition for Makers Mark for ticket DSC-441 on 13/04/2020 --> 
+         <apex:outputPanel layout="block" rendered="{!UPPER(relatedTo.How_can_we_help__c) == 'VISITING THE DISTILLERY' && AND(UPPER(relatedTo.Brand__c) != 'LAPHROAIG', UPPER(relatedTo.Brand__c) != 'KILBEGGAN', UPPER(relatedTo.Brand__c) != 'JIM BEAM', UPPER(relatedTo.Brand__c) != 'CRUZAN', UPPER(relatedTo.Brand__c) != 'SAUZA', UPPER(relatedTo.Brand__c) != 'COURVOISIER', UPPER(relatedTo.Brand__c) != 'BOWMORE', UPPER(relatedTo.Brand__c) != 'AUCHENTOSHAN', UPPER(relatedTo.Brand__c) != 'CONNEMARA', UPPER(relatedTo.Brand__c) != 'TYRCONNELL', UPPER(relatedTo.Brand__c) != 'EL TESORO', UPPER(JSENCODE(relatedTo.Brand__c)) != 'BASIL HAYDEN\'S', UPPER(relatedTo.Brand__c) != 'KNOB CREEK'
+                                                    , UPPER(JSENCODE(relatedTo.Brand__c)) != 'BOOKER\'S', UPPER(relatedTo.Brand__c) !='HORNITOS', UPPER(relatedTo.Brand__c) !='HOUSE OF SUNTORY', UPPER(relatedTo.Brand__c) !='SIPSMITH', UPPER(relatedTo.Brand__c) !='MAKERS MARK')}">
+            <p>Hi {!relatedTo.Account.FirstName},</p>
+            <p>
+                Thank you for contacting {!relatedTo.Brand__c}! Unfortunately, we do not host tours at the {!relatedTo.Brand__c} distillery. You can learn more about {!relatedTo.Brand__c} and how to enjoy it on our social pages – please click the links below to follow us.
+            </p>
+            <p>
+                Thank you for being a {!relatedTo.Brand__c} fan! 
+            </p>
+        </apex:outputPanel>
+        <!-- End of changes made for ticket DSC-441 on 30/03/2020 -->
+        
+        <!-- Start of changes made for ticket DSC-444 on 12/05/2020 -->
+        <apex:outputPanel layout="block" rendered="{!UPPER(relatedTo.How_can_we_help__c) == 'WHERE TO BUY PRODUCT' && UPPER(relatedTo.Contact.MailingCountry) == 'AUSTRALIA' &&
+                                                    OR(UPPER(relatedTo.Brand__c) == 'PINNACLE', UPPER(relatedTo.Brand__c) == 'SKINNYGIRL',
+                                                        AND(UPPER(relatedTo.Brand__c) == 'CANADIAN CLUB', UPPER(relatedTo.Product_Type__c) == 'SPICED'),
+                                                        AND(UPPER(relatedTo.Brand__c) == 'JIM BEAM', OR(UPPER(relatedTo.Product_Type__c) == 'VANILLA', UPPER(relatedTo.Product_Type__c) == 'APPLE', UPPER(relatedTo.Product_Type__c) == 'BONDED', UPPER(relatedTo.Product_Type__c) == 'RED STAG BLACK CHERRY', UPPER(relatedTo.Product_Type__c) == 'RED STAG HONEY TEA', UPPER(relatedTo.Product_Type__c) == 'RED STAG CINNAMON', UPPER(relatedTo.Product_Type__c) == 'RED STAG APPLE CIDER')),
+                                                       
+                                                        AND(UPPER(relatedTo.Brand__c) == 'EFFEN', NOT(UPPER(relatedTo.Product_Type__c) == 'ORIGINAL')),
+                                                        AND(UPPER(relatedTo.Brand__c) == 'HOUSE OF SUNTORY', UPPER(relatedTo.Product_Type__c) == 'SUNTORY OLD WHISKY'),
+                                                        AND(UPPER(relatedTo.Brand__c) == 'OLD WHISKEYS', OR(UPPER(relatedTo.Product_Type__c) == 'OLD GRAND DAD ORIGINAL', UPPER(relatedTo.Product_Type__c) == 'OLD GRAND DAD BIB', UPPER(relatedTo.Product_Type__c) == 'OLD GRAND DAD 114')), 
+                                                        UPPER(relatedTo.Brand__c) == 'TRES GENERACIONES',
+                                                        AND(UPPER(relatedTo.Brand__c) == 'HORNITOS', UPPER(relatedTo.Product_Type__c) == 'BLACK BARREL'),
+                                                        AND(UPPER(JSENCODE(relatedTo.Brand__c)) == 'BASIL HAYDEN\'S', UPPER(relatedTo.Product_Type__c) == 'CARIBBEAN RESERVE RYE'),
+                                                        AND(UPPER(JSENCODE(relatedTo.Brand__c)) == 'BASIL HAYDEN\'S', UPPER(relatedTo.Product_Type__c) == 'DARK RYE'),
+                                                        AND(UPPER(relatedTo.Brand__c) == 'CRUZAN', UPPER(relatedTo.Product_Type__c) == 'BLACKSTRAP')
+                                                    )&& UPPER(relatedTo.Brand__c) != 'EL TESORO'}">
+        
+            <p>Thank you for contacting us and for your interest in our products.</p>
+
+            <p>Unfortunately, we do not import {!relatedTo.Product_Type__c} into Australia anymore, and we have no plans to introduce it again in the future. To purchase any of our other products, please contact our distributor directly:</p>
+
+            <p>Coca-Cola Amatil (Australia) Ltd<br/>
+
+            Tel: 1800 025 123<br/>
+
+            Tel: (+61 2) 9436 8818<br/>
+            Email: consumer_information@ccamatil.com<br/>
+
+            Website: https://www.ccamatil.com/en/our-businesses-and-brands/our-brands</p>
+        </apex:outputPanel>
+        <!-- End of changes made for ticket DSC-444 on 12/05/2020 -->
+        
+        
+        
+        <apex:outputPanel layout="block" rendered="{!UPPER(relatedTo.How_can_we_help__c) == 'SPONSORSHIP OR CHARITY' && UPPER(relatedTo.AdditionalInformation__c) == 'CHARITY' && UPPER(relatedTo.Contact.MailingCountry) == 'UNITED STATES'}">
+            <p>Hi {!relatedTo.Account.FirstName},</p>
+            <p>
+                Thank you for contacting us about {!relatedTo.Brand__c}! We&apos;re excited to hear from brand fans like yourself and we know great ideas come from all around. For charity opportunities, please reach out to marketinginquiry@beamglobal.com
+            </p>
+            <p>
+                Thank you for thinking of {!relatedTo.Brand__c}! 
+            </p>
+        </apex:outputPanel>
+        <apex:outputPanel layout="block" rendered="{!UPPER(relatedTo.How_can_we_help__c) == 'SPONSORSHIP OR CHARITY' && UPPER(relatedTo.AdditionalInformation__c) == 'CHARITY' && UPPER(relatedTo.Contact.MailingCountry) != 'UNITED STATES' && UPPER(relatedTo.Brand__c) != 'EL TESORO'}">
+            <p>
+                Thank you for contacting us and for your interest in our products. We get an abundance of requests for donations each year, so we instead give and fundraise to our nominated charities.​<br/><br/>
+                Thank you for understanding.​<br/><br/>
+                Best Regards
+            </p>
+        </apex:outputPanel>
+        <apex:outputPanel layout="block" rendered="{!UPPER(relatedTo.How_can_we_help__c) == 'PRODUCT INFORMATION' && UPPER(relatedTo.AdditionalInformation__c) == 'VALUE OF MY BOTTLE'}">
+            <p>
+                Thank you for contacting us and for your interest in our products. Unfortunately we do not have this ​information available, please contact your local auction houses for more information.
+            </p>
+        </apex:outputPanel>
+        <apex:outputPanel layout="block" rendered="{!UPPER(relatedTo.How_can_we_help__c) == 'PRODUCT INFORMATION' && UPPER(relatedTo.AdditionalInformation__c) == 'PRODUCT INGREDIENTS' && UPPER(relatedTo.Contact.MailingCountry) == 'UNITED STATES'}">
+            <p>Hi {!relatedTo.Account.FirstName},</p>
+            <p>
+                Thank you for your inquiry. As a matter of policy, we don&apos;t share specific information regarding our formulas or ingredients; however, we can provide information on ingredients as they pertain to potential allergenic / sensitivity responses.<br/><br/>
+                Beam Suntory does not advise legal age adults whether to drink or not to drink; this is a decision you may want to discuss with your physician if you have any questions. Your physician may be able to provide personalized advice about this issue based on the information provided above.
+            </p>
+        </apex:outputPanel>
+        <apex:outputPanel layout="block" rendered="{!UPPER(relatedTo.How_can_we_help__c) == 'PRODUCT INFORMATION' && UPPER(relatedTo.AdditionalInformation__c) == 'PRODUCT SHELF LIFE' && UPPER(relatedTo.Contact.MailingCountry) == 'UNITED STATES'}">
+            <p>Hi {!relatedTo.Account.FirstName},</p>
+            <p>
+                Due to the fact that this product is a mixture of water and alcohol, shelf life is undefined and in excess of 5 years. The product will maintain an acceptable quality for at least 5 years for un-flavored alcohol and 13 months for flavored alcohol, when stored under ambient conditions and out of direct sunlight. Once opened, it will maintain an acceptable quality for at least 1 year for un-flavored alcohol and 1 month for flavored alcohol when stored under similar conditions. If consumed later than the above recommendations, product taste may vary.<br/><br/>
+                It is recommended that storage temperature be between 10°C - 25°C, in a cool clean location.
+            </p>
+        </apex:outputPanel>
+        <apex:outputPanel layout="block" rendered="{!UPPER(relatedTo.How_can_we_help__c) == 'PRODUCT INFORMATION' && UPPER(relatedTo.AdditionalInformation__c) == 'DECANTER INQUIRY' && UPPER(relatedTo.Brand__c) == 'JIM BEAM'}">
+            <p>Hi {!relatedTo.Account.FirstName},</p>
+            <p>
+                Thanks for your email about your Jim Beam® decanter.<br/><br/>
+                We suggest that you contact the Oscar Getz Museum of Whiskey History for more information regarding decanter value and sales. You can reach the museum below:<br/><br/>
+                Oscar Getz Museum of Whiskey History<br/>
+                114 North 5th Street<br/>
+                Bardstown, KY 40004<br/>
+                Phone: 502-348-2999<br/>
+                Website: https://www.oscargetzwhiskeymuseum.com 
+            </p>
+        </apex:outputPanel>
+        <apex:outputPanel layout="block" rendered="{!UPPER(relatedTo.How_can_we_help__c) == 'PRODUCT INFORMATION' && UPPER(relatedTo.AdditionalInformation__c) == 'DECANTER INQUIRY' && UPPER(relatedTo.Brand__c) != 'JIM BEAM'}">
+            <p>Hi {!relatedTo.Account.FirstName},</p>
+            <p>
+                Thanks for your email! {!relatedTo.Brand__c} does not produce decanters. If you own a decanter featuring the {!relatedTo.Brand__c} logo, we recommend contacting the store where you purchased the piece for further information.
+            </p>
+        </apex:outputPanel>
+        <apex:outputPanel layout="block" rendered="{!UPPER(relatedTo.How_can_we_help__c) == 'OTHER INQUIRY' && UPPER(relatedTo.AdditionalInformation__c) == 'WORK FOR US' && UPPER(relatedTo.Contact.MailingCountry) != 'UNITED STATES'}">
+            <p>
+                Thank you for your interest in Beam Suntory as a potential employer. Details of our open vacancies can be found on our website, you can search and apply for open job opportunities by visiting the following link: https://www.beamsuntory.com/careers or from our Linkedin site: https://www.linkedin.com/company/beamsuntory/jobs/​<br/><br/>
+                <u>Internship - Suntory​</u><br/>
+                Thank you for contacting Suntory.<br/>​
+                Regarding your inquiry, we do not offer an internship of your desired field.​<br/>
+                Our internship programs are specifically targeting at students enrolled in electricity, electronics, machinery, or chemical engineering only.​<br/>
+                You can view our internship programs in the below site (in Japanese only).​<br/>
+                https://www.suntory.co.jp/recruit/challenge/<br/>
+                Separately, our overseas group companies conduct their recruitment activities independently.​<br/>
+                You might want to check their available internship if the area of our business is of interest to you.<br/>
+                http://www.suntorybeverageandfood-europe.com/talents.html​<br/>
+                Please contact the respective company directly for further information.<br/>
+                We wish all the best to your academic career.​<br/><br/>
+                <u>Internship – Jim Beam​</u><br/>
+                Thank you for your interest in Beam Suntory.​<br/>
+                If you&apos;re interested in an internship with us please contact careers@beamsuntory.com with your resume and location information. Best of luck to you in your search!
+            </p>
+        </apex:outputPanel>
+        <apex:outputPanel layout="block" rendered="{!UPPER(relatedTo.How_can_we_help__c) == 'OTHER INQUIRY' && UPPER(relatedTo.AdditionalInformation__c) == 'WORK FOR US' && UPPER(relatedTo.Contact.MailingCountry) == 'UNITED STATES'}">
+            <p>Hi {!relatedTo.Account.FirstName},</p>
+            <p>
+                Thank you for your interest in Beam Suntory.<br/><br/>
+                If you&apos;re interested in working with us, please visit our corporate website at beamsuntory.com (select the "Working At Beam" link at the top of the page and then select the "Career Opportunities (Job Listings)" link) OR contact our headquarters at:<br/><br/>
+                Beam Suntory<br/>
+                Attention: Department of Human Resources<br/>
+                222 Merchandise Mart Plaza<br/>
+                Suite 1600<br/>
+                Chicago, IL 60654<br/><br/>
+                No phone calls, please.<br/><br/>
+                Best of luck to you in your job search and we hope you continue to enjoy {!relatedTo.Brand__c} and all our fine Beam Suntory products for many more years to come.
+            </p>
+        </apex:outputPanel>
+        <apex:outputPanel layout="block" rendered="{!UPPER(relatedTo.How_can_we_help__c) == 'OTHER INQUIRY' && UPPER(relatedTo.AdditionalInformation__c) == 'LICENSE OUR BRAND'}">
+            <p>
+                The use of Jim Beam product and/or our brand mark with other products/brands/services would be considered under the scope of licensing and we would need to have a legally binding contract in order to proceed.​<br/>
+                You will need to contact our licencing agency of record, Three Licensing (contact details below). You MUST work through this channel and should be aware that the use of our marks (if approved) will require financial inputs on their behalf.​<br/>
+                If you use without our permission we will have to refer the case to our Legal team for unauthorized use of our marks.​<br/>
+                Jeff Christensen​<br/>
+                jchristensen@threelicensing.com​<br/>
+                (630)809-1101​<br/>
+                Any further questions, please let us know.​<br/><br/>
+                Please find below our culinary distributor in the UK, please contact them directly and they will be able to help you with request.​<br/>
+                Lesley Johnson<br/>
+                General Manager – Thomas Lowndes &amp; Co.<br/>
+                +44 (0)1786 430571 +44 (0)7899 063963<br/>
+                lesley.johnson@edrington-beamsuntoryuk.com<br/> ​
+                www.thomaslowndes.com<br/>
+                Thomas Lowndes &amp; Co. is a company registered in Scotland (registered number SC203623) with its registered office at: 191 West George Street, Glasgow, G2 2LD.
+            </p>
+        </apex:outputPanel>
+        <apex:outputPanel layout="block" rendered="{!UPPER(relatedTo.How_can_we_help__c) == 'OTHER INQUIRY' && UPPER(relatedTo.AdditionalInformation__c) == 'SUPPLIERS'}">
+            <p>
+                <!-- DSC-407 | 08/04/2020 | Changes START-->
+                Thank you for contacting us and for your interest in our products.​<br/><br/>
+                We already have dedicated suppliers for our products. I have passed on your details to our team who will contact you should there be any opportunities in the future.​<br/><br/>
+                This is an automated mail please do not reply to this mail.<br/><br/>
+                <!-- DSC-407 | 08/04/2020 | Changes END -->
+            </p>
+        </apex:outputPanel>
+        <apex:outputPanel layout="block" rendered="{!UPPER(relatedTo.How_can_we_help__c) == 'OTHER INQUIRY' && UPPER(relatedTo.AdditionalInformation__c) == 'REBATES'}">
+            <p>
+                Thank you for contacting us regarding your rebate. As a valued customer, we are pleased to provide you with up-to-date information on your rebate status by going to https://beam.inmarrebates.com or by calling 877-819-4280 between the hours of 8:00a and 6:00p ET. If you are requesting the rebate form you may call the above phone number.
+            </p>
+        </apex:outputPanel>
+        <apex:outputPanel layout="block" rendered="{!UPPER(relatedTo.How_can_we_help__c) == 'OTHER INQUIRY' && UPPER(relatedTo.AdditionalInformation__c) == 'COUPONS'}">
+            <p>Hi {!relatedTo.Account.FirstName},</p>
+            <p>
+                Thank you for connecting with us and for being such a {!relatedTo.Brand__c} fan! Unfortunately, due to legal restrictions, we are unable to directly offer our fans coupons.
+            </p>
+        </apex:outputPanel>
+        <apex:outputPanel layout="block" rendered="{!(UPPER(relatedTo.How_can_we_help__c) == 'OTHER INQUIRY') && (UPPER(relatedTo.AdditionalInformation__c) == 'WEBSITE QUESTION/ISSUE') && (UPPER(relatedTo.Contact.MailingCountry) == 'UNITED STATES')}">
+            <p>Hi {!relatedTo.Account.FirstName},</p>
+            <p>
+                WEBSITE QUESTION/ISSUE
+            </p>
+        </apex:outputPanel>
+        
+        <!-- Start of changes made for ticket DSC-444 on 12/05/2020 -->
+        <apex:outputPanel layout="block" rendered="{!OR(UPPER(relatedTo.How_can_we_help__c) == 'OTHER INQUIRY', UPPER(relatedTo.How_can_we_help__c) == 'OUR ONLINE STORE',UPPER(relatedTo.How_can_we_help__c) == 'PRODUCT INFORMATION', UPPER(relatedTo.How_can_we_help__c) == 'SPONSORSHIP OR CHARITY', UPPER(relatedTo.How_can_we_help__c) == 'WHERE TO BUY PRODUCT') && OR(UPPER(relatedTo.AdditionalInformation__c) == 'DISTRIBUTIONS', UPPER(relatedTo.AdditionalInformation__c) == 'SPONSORSHIP', OR(UPPER(relatedTo.AdditionalInformation__c) == 'FREE PRODUCT', UPPER(relatedTo.AdditionalInformation__c) == 'FREE MERCHANDISE'), ISBLANK(relatedTo.AdditionalInformation__c)) && UPPER(relatedTo.Contact.MailingCountry) == 'AUSTRALIA' &&
+                                                NOT(OR(UPPER(relatedTo.Brand__c) == 'PINNACLE', UPPER(relatedTo.Brand__c) == 'SKINNYGIRL',
+                                                        AND(UPPER(relatedTo.Brand__c) == 'CANADIAN CLUB', UPPER(relatedTo.Product_Type__c) == 'SPICED'),
+                                                        AND(UPPER(relatedTo.Brand__c) == 'JIM BEAM', OR(UPPER(relatedTo.Product_Type__c) == 'VANILLA', UPPER(relatedTo.Product_Type__c) == 'APPLE', UPPER(relatedTo.Product_Type__c) == 'BONDED', UPPER(relatedTo.Product_Type__c) == 'RED STAG BLACK CHERRY', UPPER(relatedTo.Product_Type__c) == 'RED STAG HONEY TEA', UPPER(relatedTo.Product_Type__c) == 'RED STAG CINNAMON', UPPER(relatedTo.Product_Type__c) == 'RED STAG APPLE CIDER')),
+                                                       
+                                                        AND(UPPER(relatedTo.Brand__c) == 'EFFEN', NOT(UPPER(relatedTo.Product_Type__c) == 'ORIGINAL')),
+                                                        AND(UPPER(relatedTo.Brand__c) == 'HOUSE OF SUNTORY', UPPER(relatedTo.Product_Type__c) == 'SUNTORY OLD WHISKY'),
+                                                        AND(UPPER(relatedTo.Brand__c) == 'OLD WHISKEYS', OR(UPPER(relatedTo.Product_Type__c) == 'OLD GRAND DAD ORIGINAL', UPPER(relatedTo.Product_Type__c) == 'OLD GRAND DAD BIB', UPPER(relatedTo.Product_Type__c) == 'OLD GRAND DAD 114')), 
+                                                        UPPER(relatedTo.Brand__c) == 'TRES GENERACIONES',
+                                                        AND(UPPER(relatedTo.Brand__c) == 'HORNITOS', UPPER(relatedTo.Product_Type__c) == 'BLACK BARREL'),
+                                                        AND(UPPER(JSENCODE(relatedTo.Brand__c)) == 'BASIL HAYDEN\'S', UPPER(relatedTo.Product_Type__c) == 'CARIBBEAN RESERVE RYE'),
+                                                        AND(UPPER(JSENCODE(relatedTo.Brand__c)) == 'BASIL HAYDEN\'S', UPPER(relatedTo.Product_Type__c) == 'DARK RYE'),
+                                                        AND(UPPER(relatedTo.Brand__c) == 'CRUZAN', UPPER(relatedTo.Product_Type__c) == 'BLACKSTRAP')
+                                                    ) ) && UPPER(relatedTo.Brand__c) != 'EL TESORO'}">
+            <p>
+                Thank you for contacting us and for your interest in our company and products. Beam Suntory operates on a strict route – to – market structure. Namely, we are partnering with one distributor per country, which is serving as our official distributor supplying all channels and customers.<br/><br/>
+                Our distributor in your market will be able to answer and action your question, please contact them directly.​<br/>
+                <p>Coca-Cola Amatil (Australia) Ltd<br/>
+
+                Tel: 1800 025 123<br/>
+
+                Tel: (+61 2) 9436 8818<br/>
+                Email: consumer_information@ccamatil.com<br/>
+
+                Website: https://www.ccamatil.com/en/our-businesses-and-brands/our-brands</p>
+            </p>
+        </apex:outputPanel>
+        <!-- End of changes made for ticket DSC-444 on 12/05/2020 -->
+        
+        <apex:outputPanel layout="block" rendered="{!OR(UPPER(relatedTo.How_can_we_help__c) == 'OTHER INQUIRY', UPPER(relatedTo.How_can_we_help__c) == 'OUR ONLINE STORE',UPPER(relatedTo.How_can_we_help__c) == 'PRODUCT INFORMATION', UPPER(relatedTo.How_can_we_help__c) == 'SPONSORSHIP OR CHARITY', UPPER(relatedTo.How_can_we_help__c) == 'WHERE TO BUY PRODUCT') && OR(UPPER(relatedTo.AdditionalInformation__c) == 'DISTRIBUTIONS', UPPER(relatedTo.AdditionalInformation__c) == 'SPONSORSHIP', UPPER(relatedTo.AdditionalInformation__c) == 'FREE PRODUCT',UPPER(relatedTo.AdditionalInformation__c) == 'FREE MERCHANDISE', ISBLANK(relatedTo.AdditionalInformation__c)) && UPPER(relatedTo.Contact.MailingCountry) == 'NEW ZEALAND' && UPPER(relatedTo.Brand__c) != 'EL TESORO'}">
+            <p>
+                Thank you for contacting us and for your interest in our company and products. Beam Suntory operates on a strict route – to – market structure. Namely, we are partnering with one distributor per country, which is serving as our official distributor supplying all channels and customers.<br/><br/>
+                Our distributor in your market will be able to answer and action your question, please contact them directly.​<br/>
+                <p>Coca-Cola Amatil (NZ) Ltd<br/>
+
+                Tel: 0800 262 226<br/>
+
+                Tel: (+64 0) 9570 3000<br/>
+                Email: nzl.coke@ccamatil.com<br/></p>
+            </p>
+        </apex:outputPanel>
+        <apex:outputPanel layout="block" rendered="{!OR(UPPER(relatedTo.How_can_we_help__c) == 'OTHER INQUIRY', UPPER(relatedTo.How_can_we_help__c) == 'OUR ONLINE STORE',UPPER(relatedTo.How_can_we_help__c) == 'PRODUCT INFORMATION', UPPER(relatedTo.How_can_we_help__c) == 'SPONSORSHIP OR CHARITY', UPPER(relatedTo.How_can_we_help__c) == 'WHERE TO BUY PRODUCT') && OR(UPPER(relatedTo.AdditionalInformation__c) == 'DISTRIBUTIONS', UPPER(relatedTo.AdditionalInformation__c) == 'SPONSORSHIP', UPPER(relatedTo.AdditionalInformation__c) == 'FREE PRODUCT',UPPER(relatedTo.AdditionalInformation__c) == 'FREE MERCHANDISE', ISBLANK(relatedTo.AdditionalInformation__c)) && UPPER(relatedTo.Contact.MailingCountry) == 'UNITED KINGDOM' && UPPER(relatedTo.Brand__c) != 'EL TESORO'}">
+            
+                <p>
+                Thank you for contacting us and for your interest in our company and products. Beam Suntory operates on a strict route – to – market structure. Namely, we are partnering with one distributor per country, which is serving as our official distributor supplying all channels and customers.</p>
+                <p>Our distributor in your market will be able to answer and action your question, please contact them directly. Edrington-Beam Suntory UK Distribution Limited</p>
+                <p>191 West George Street<br/>
+                GLASGOW<br/>
+                G2 2LD<br/>
+                T +44(0) 333 016 1910</p>
+                <p>http://edrington-beamsuntoryuk.com/<br/>
+                contactus@edrington-beamsuntoryuk.com</p>
+                
+        </apex:outputPanel>
+        <apex:outputPanel layout="block" rendered="{!OR(UPPER(relatedTo.How_can_we_help__c) == 'OTHER INQUIRY', UPPER(relatedTo.How_can_we_help__c) == 'OUR ONLINE STORE',UPPER(relatedTo.How_can_we_help__c) == 'PRODUCT INFORMATION', UPPER(relatedTo.How_can_we_help__c) == 'SPONSORSHIP OR CHARITY', UPPER(relatedTo.How_can_we_help__c) == 'WHERE TO BUY PRODUCT') && OR(UPPER(relatedTo.AdditionalInformation__c) == 'DISTRIBUTIONS', UPPER(relatedTo.AdditionalInformation__c) == 'SPONSORSHIP', UPPER(relatedTo.AdditionalInformation__c) == 'FREE PRODUCT',UPPER(relatedTo.AdditionalInformation__c) == 'FREE MERCHANDISE', ISBLANK(relatedTo.AdditionalInformation__c)) && UPPER(relatedTo.Contact.MailingCountry) == 'CHINA' && UPPER(relatedTo.Brand__c) != 'EL TESORO'}">
+           
+            <p>
+                Thank you for contacting us and for your interest in our company and products. Beam Suntory operates on a strict route – to – market structure. Namely, we are partnering with one distributor per country, which is serving as our official distributor supplying all channels and customers.<br/>
+                Our distributor in your market will be able to answer and action your question, please contact them directly.​<br/>
+                Beam Suntory Spirits Trading (Shanghai) Co., Ltd Company Address: Unit 4901-6 and unit 4901-7, Floor 49, B.M. Inter-Continental Business Center, No.100 Yutong Road, Jing’an District, Shanghai 企业名称：宾三得利洋酒贸易（上海）有限公司 住所（地址）：上海市静安区裕通路100​<br/>
+                号宝矿洲际商务中心49楼4901-6室、4901-7​<br/>
+                We also have an official flagshop on line, here is our address: http://beamsuntory.tmall.com
+            </p>
+        </apex:outputPanel>
+        <apex:outputPanel layout="block" rendered="{!OR(UPPER(relatedTo.How_can_we_help__c) == 'OTHER INQUIRY', UPPER(relatedTo.How_can_we_help__c) == 'OUR ONLINE STORE',UPPER(relatedTo.How_can_we_help__c) == 'PRODUCT INFORMATION', UPPER(relatedTo.How_can_we_help__c) == 'SPONSORSHIP OR CHARITY', UPPER(relatedTo.How_can_we_help__c) == 'WHERE TO BUY PRODUCT') && OR(UPPER(relatedTo.AdditionalInformation__c) == 'DISTRIBUTIONS', UPPER(relatedTo.AdditionalInformation__c) == 'SPONSORSHIP', UPPER(relatedTo.AdditionalInformation__c) == 'FREE PRODUCT',UPPER(relatedTo.AdditionalInformation__c) == 'FREE MERCHANDISE', ISBLANK(relatedTo.AdditionalInformation__c)) && UPPER(relatedTo.Contact.MailingCountry) == 'NETHERLANDS' && UPPER(relatedTo.Brand__c) != 'EL TESORO'}">
+            
+            <p>
+                Thank you for contacting us and for your interest in our company and products. Beam Suntory operates on a strict route – to – market structure. Namely, we are partnering with one distributor per country, which is serving as our official distributor supplying all channels and customers.<br/>
+                Our distributor in your market will be able to answer and action your question, please contact them directly.​<br/><br/>
+                De Kuyper Royal Distillers​<br/>
+                Buitenhavenweg 98​<br/>
+                3113 BE Schiedam​<br/>
+                The Netherlands​<br/>
+                T: +31 (0)10 42 79 700<br/>
+                https://www.dekuyper.com/contact
+            </p>
+        </apex:outputPanel>
+        <apex:outputPanel layout="block" rendered="{!OR(UPPER(relatedTo.How_can_we_help__c) == 'OTHER INQUIRY', UPPER(relatedTo.How_can_we_help__c) == 'OUR ONLINE STORE',UPPER(relatedTo.How_can_we_help__c) == 'PRODUCT INFORMATION', UPPER(relatedTo.How_can_we_help__c) == 'SPONSORSHIP OR CHARITY', UPPER(relatedTo.How_can_we_help__c) == 'WHERE TO BUY PRODUCT') && OR(UPPER(relatedTo.AdditionalInformation__c) == 'DISTRIBUTIONS', UPPER(relatedTo.AdditionalInformation__c) == 'SPONSORSHIP', UPPER(relatedTo.AdditionalInformation__c) == 'FREE PRODUCT',UPPER(relatedTo.AdditionalInformation__c) == 'FREE MERCHANDISE', ISBLANK(relatedTo.AdditionalInformation__c)) && UPPER(relatedTo.Contact.MailingCountry) == 'BELGIUM' && UPPER(relatedTo.Brand__c) != 'EL TESORO'}">
+            
+            <p>
+                Thank you for contacting us and for your interest in our company and products. Beam Suntory operates on a strict route – to – market structure. Namely, we are partnering with one distributor per country, which is serving as our official distributor supplying all channels and customers.<br/>
+                Our distributor in your market will be able to answer and action your question, please contact them directly.​<br/><br/>
+                Alcobrands BELUX​<br/>
+                Edward Pecherstraat 1​<br/>
+                2000 Antwerpen​<br/>
+                Belgium​<br/>
+                Tel : +32 (0)3/ 336 30 22​<br/>
+                Fax : +32 (0)3/ 336 30 23​<br/>
+                E-mail : info@alcobrands.be
+            </p>
+        </apex:outputPanel>
+        <apex:outputPanel layout="block" rendered="{!OR(UPPER(relatedTo.How_can_we_help__c) == 'OTHER INQUIRY', UPPER(relatedTo.How_can_we_help__c) == 'OUR ONLINE STORE',UPPER(relatedTo.How_can_we_help__c) == 'PRODUCT INFORMATION', UPPER(relatedTo.How_can_we_help__c) == 'SPONSORSHIP OR CHARITY', UPPER(relatedTo.How_can_we_help__c) == 'WHERE TO BUY PRODUCT') && OR(UPPER(relatedTo.AdditionalInformation__c) == 'DISTRIBUTIONS', UPPER(relatedTo.AdditionalInformation__c) == 'SPONSORSHIP', UPPER(relatedTo.AdditionalInformation__c) == 'FREE PRODUCT',UPPER(relatedTo.AdditionalInformation__c) == 'FREE MERCHANDISE', ISBLANK(relatedTo.AdditionalInformation__c)) && UPPER(relatedTo.Contact.MailingCountry) == 'SPAIN' && UPPER(relatedTo.Brand__c) != 'EL TESORO'}">
+            
+            <p>
+                Thank you for contacting us and for your interest in our company and products. Beam Suntory operates on a strict route – to – market structure. Namely, we are partnering with one distributor per country, which is serving as our official distributor supplying all channels and customers.<br/>
+                Our distributor in your market will be able to answer and action your question, please contact them directly.​<br/>
+                Maxxium Spain​<br/>
+                Address: Calle Mahonia No2, Edificio Portico – 2 planta, 28043 Madrid, Spain​<br/>
+                Phone: +34 913 53 46 00​<br/>
+                Website: www.maxxium.es<br/>
+            </p>
+        </apex:outputPanel>
+        <apex:outputPanel layout="block" rendered="{!OR(UPPER(relatedTo.How_can_we_help__c) == 'OTHER INQUIRY', UPPER(relatedTo.How_can_we_help__c) == 'OUR ONLINE STORE',UPPER(relatedTo.How_can_we_help__c) == 'PRODUCT INFORMATION', UPPER(relatedTo.How_can_we_help__c) == 'SPONSORSHIP OR CHARITY', UPPER(relatedTo.How_can_we_help__c) == 'WHERE TO BUY PRODUCT') && OR(UPPER(relatedTo.AdditionalInformation__c) == 'DISTRIBUTIONS', UPPER(relatedTo.AdditionalInformation__c) == 'SPONSORSHIP', UPPER(relatedTo.AdditionalInformation__c) == 'FREE PRODUCT',UPPER(relatedTo.AdditionalInformation__c) == 'FREE MERCHANDISE', ISBLANK(relatedTo.AdditionalInformation__c)) && UPPER(relatedTo.Contact.MailingCountry) == 'IRELAND' && UPPER(relatedTo.Brand__c) != 'EL TESORO'}">
+            
+            <p>Thank you for contacting us and for your interest in our company and products. Beam Suntory operates on a strict route-to-market structure. Namely, we are partnering with one distributor per country, which is serving as our official distributor supplying all channels and customers.<br/>
+                Our distributor in your market will be able to answer and action your question, please contact them directly.<br/>
+                Lucozade Ribena Suntory LTD<br/>
+                7th floor, Chase Building <br/>
+                Carmanhall Road<br/>
+                Sandyford<br/>
+                Dublin 18<br/>
+                Ireland<br/>
+                Tel 02037272420<br/>
+                Contact us: https://www.lrsuntory.com/contact/
+            </p>
+        </apex:outputPanel>
+        <apex:outputPanel layout="block" rendered="{!OR(UPPER(relatedTo.How_can_we_help__c) == 'OTHER INQUIRY', UPPER(relatedTo.How_can_we_help__c) == 'OUR ONLINE STORE',UPPER(relatedTo.How_can_we_help__c) == 'PRODUCT INFORMATION', UPPER(relatedTo.How_can_we_help__c) == 'SPONSORSHIP OR CHARITY', UPPER(relatedTo.How_can_we_help__c) == 'WHERE TO BUY PRODUCT') && OR(UPPER(relatedTo.AdditionalInformation__c) == 'DISTRIBUTIONS', UPPER(relatedTo.AdditionalInformation__c) == 'SPONSORSHIP', UPPER(relatedTo.AdditionalInformation__c) == 'FREE PRODUCT',UPPER(relatedTo.AdditionalInformation__c) == 'FREE MERCHANDISE', ISBLANK(relatedTo.AdditionalInformation__c)) && UPPER(relatedTo.Contact.MailingCountry) == 'SWEDEN' && UPPER(relatedTo.Brand__c) != 'EL TESORO'}">
+            
+            <p>
+                Thank you for contacting us and for your interest in our company and products. Beam Suntory operates on a strict route – to – market structure. Namely, we are partnering with one distributor per country, which is serving as our official distributor supplying all channels and customers.<br/>
+                Our distributor in your market will be able to answer and action your question, please contact them directly.​<br/>
+                Edrington Sweden AB​<br/>
+                Address: Luntmakargatan 46, 111 37 Stockholm, Sweden​<br/>
+                Phone: +46 8 440 83 00​<br/>
+                https://www.edrington.se/om-oss/kontakt/
+            </p>
+        </apex:outputPanel>
+        <apex:outputPanel layout="block" rendered="{!OR(UPPER(relatedTo.How_can_we_help__c) == 'OTHER INQUIRY', UPPER(relatedTo.How_can_we_help__c) == 'OUR ONLINE STORE',UPPER(relatedTo.How_can_we_help__c) == 'PRODUCT INFORMATION', UPPER(relatedTo.How_can_we_help__c) == 'SPONSORSHIP OR CHARITY', UPPER(relatedTo.How_can_we_help__c) == 'WHERE TO BUY PRODUCT') && OR(UPPER(relatedTo.AdditionalInformation__c) == 'DISTRIBUTIONS', UPPER(relatedTo.AdditionalInformation__c) == 'SPONSORSHIP', UPPER(relatedTo.AdditionalInformation__c) == 'FREE PRODUCT',UPPER(relatedTo.AdditionalInformation__c) == 'FREE MERCHANDISE', ISBLANK(relatedTo.AdditionalInformation__c)) && UPPER(relatedTo.Contact.MailingCountry) == 'NORWAY' && UPPER(relatedTo.Brand__c) != 'EL TESORO'}">
+            
+            <p>
+                Thank you for contacting us and for your interest in our company and products. Beam Suntory operates on a strict route – to – market structure. Namely, we are partnering with one distributor per country, which is serving as our official distributor supplying all channels and customers.<br/>
+                Our distributor in your market will be able to answer and action your question, please contact them directly.​<br/>
+                Edrington Norway AS​<br/>
+                Address: Rådhusgata 30B, 0151 Oslo, Norway​<br/>
+                Phone: +47 913 70 433​<br/>
+                https://www.edrington.no/om-oss/kontakt/<br/>
+            </p>
+        </apex:outputPanel>
+        <apex:outputPanel layout="block" rendered="{!OR(UPPER(relatedTo.How_can_we_help__c) == 'OTHER INQUIRY', UPPER(relatedTo.How_can_we_help__c) == 'OUR ONLINE STORE',UPPER(relatedTo.How_can_we_help__c) == 'PRODUCT INFORMATION', UPPER(relatedTo.How_can_we_help__c) == 'SPONSORSHIP OR CHARITY', UPPER(relatedTo.How_can_we_help__c) == 'WHERE TO BUY PRODUCT') && OR(UPPER(relatedTo.AdditionalInformation__c) == 'DISTRIBUTIONS', UPPER(relatedTo.AdditionalInformation__c) == 'SPONSORSHIP', UPPER(relatedTo.AdditionalInformation__c) == 'FREE PRODUCT',UPPER(relatedTo.AdditionalInformation__c) == 'FREE MERCHANDISE', ISBLANK(relatedTo.AdditionalInformation__c)) && UPPER(relatedTo.Contact.MailingCountry) == 'DENMARK' && UPPER(relatedTo.Brand__c) != 'EL TESORO'}">
+            
+            <p>
+                Thank you for contacting us and for your interest in our company and products. Beam Suntory operates on a strict route – to – market structure. Namely, we are partnering with one distributor per country, which is serving as our official distributor supplying all channels and customers.<br/>
+                Our distributor in your market will be able to answer and action your question, please contact them directly.​<br/>
+                Edrington Denmark A/S​<br/>
+                Address: Dronningens Tværgade 9, 1302 København, Denmark​<br/>
+                Phone: +45 43 22 55 00​<br/>
+                Website: https://www.edrington.dk/om-os/kontakt/
+            </p>
+        </apex:outputPanel>
+        <apex:outputPanel layout="block" rendered="{!OR(UPPER(relatedTo.How_can_we_help__c) == 'OTHER INQUIRY', UPPER(relatedTo.How_can_we_help__c) == 'OUR ONLINE STORE',UPPER(relatedTo.How_can_we_help__c) == 'PRODUCT INFORMATION', UPPER(relatedTo.How_can_we_help__c) == 'SPONSORSHIP OR CHARITY', UPPER(relatedTo.How_can_we_help__c) == 'WHERE TO BUY PRODUCT') && OR(UPPER(relatedTo.AdditionalInformation__c) == 'DISTRIBUTIONS', UPPER(relatedTo.AdditionalInformation__c) == 'SPONSORSHIP', UPPER(relatedTo.AdditionalInformation__c) == 'FREE PRODUCT',UPPER(relatedTo.AdditionalInformation__c) == 'FREE MERCHANDISE', ISBLANK(relatedTo.AdditionalInformation__c)) && UPPER(relatedTo.Contact.MailingCountry) == 'FINLAND' && UPPER(relatedTo.Brand__c) != 'EL TESORO'}">
+            
+            <p>
+                Thank you for contacting us and for your interest in our company and products. Beam Suntory operates on a strict route – to – market structure. Namely, we are partnering with one distributor per country, which is serving as our official distributor supplying all channels and customers.<br/>
+                Our distributor in your market will be able to answer and action your question, please contact them directly.​<br/>
+                Edrington Finland Oy​<br/>
+                Address: Vuorikatu 14, 00100 Helsinki, Finland​<br/>
+                Phone: +358 20 7981520​<br/>
+                Website: https://www.edrington.fi/tietoa-meistae/yhteystiedot/
+            </p>
+        </apex:outputPanel>
+        <apex:outputPanel layout="block" rendered="{!OR(UPPER(relatedTo.How_can_we_help__c) == 'OTHER INQUIRY', UPPER(relatedTo.How_can_we_help__c) == 'OUR ONLINE STORE',UPPER(relatedTo.How_can_we_help__c) == 'PRODUCT INFORMATION', UPPER(relatedTo.How_can_we_help__c) == 'SPONSORSHIP OR CHARITY', UPPER(relatedTo.How_can_we_help__c) == 'WHERE TO BUY PRODUCT') && OR(UPPER(relatedTo.AdditionalInformation__c) == 'DISTRIBUTIONS', UPPER(relatedTo.AdditionalInformation__c) == 'SPONSORSHIP',OR(UPPER(relatedTo.AdditionalInformation__c) == 'FREE PRODUCT', UPPER(relatedTo.AdditionalInformation__c) == 'FREE MERCHANDISE'), ISBLANK(relatedTo.AdditionalInformation__c)) && UPPER(relatedTo.Contact.MailingCountry) == 'POLAND' && UPPER(relatedTo.Brand__c) != 'EL TESORO'}">
+            
+            <p>
+                Thank you for contacting us and for your interest in our company and products. Beam Suntory operates on a strict route – to – market structure. Namely, we are partnering with one distributor per country, which is serving as our official distributor supplying all channels and customers.<br/>
+                Our distributor in your market will be able to answer and action your question, please contact them directly.<br/>
+                STOCK POLSKA SP. Z O.O.<br/>
+                UI. Franciszka Nullo 2,​<br/>
+                00-486 Warsaw,<br/>
+                Poland​<br/>
+                Tel: +48 22 541 73 00​<br/>
+                Fax: +48 22 541 73 9​<br/>
+                https://www.stock-polska.pl/en
+            </p>
+        </apex:outputPanel>
+        <apex:outputPanel layout="block" rendered="{!OR(UPPER(relatedTo.How_can_we_help__c) == 'OTHER INQUIRY', UPPER(relatedTo.How_can_we_help__c) == 'OUR ONLINE STORE',UPPER(relatedTo.How_can_we_help__c) == 'PRODUCT INFORMATION', UPPER(relatedTo.How_can_we_help__c) == 'SPONSORSHIP OR CHARITY', UPPER(relatedTo.How_can_we_help__c) == 'WHERE TO BUY PRODUCT') && OR(UPPER(relatedTo.AdditionalInformation__c) == 'DISTRIBUTIONS', UPPER(relatedTo.AdditionalInformation__c) == 'SPONSORSHIP', UPPER(relatedTo.AdditionalInformation__c) == 'FREE PRODUCT',UPPER(relatedTo.AdditionalInformation__c) == 'FREE MERCHANDISE', ISBLANK(relatedTo.AdditionalInformation__c)) && UPPER(relatedTo.Contact.MailingCountry) == 'SOUTH AFRICA' && UPPER(relatedTo.Brand__c) != 'EL TESORO'}">
+           
+            <p>
+                Thank you for contacting us and for your interest in our company and products. Beam Suntory operates on a strict route – to – market structure. Namely, we are partnering with one distributor per country, which is serving as our official distributor supplying all channels and customers.<br/>
+                Our distributor in your market will be able to answer and action your question, please contact them directly.​<br/><br/>
+                <strong>Beam Suntory South Africa</strong><br/>
+                4th Floor, Letterstedt House,<br/>
+                Newlands on Main​<br/>
+                Cnr Main and Campground Road​<br/>
+                Newlands​<br/>
+                7700​<br/>
+                +27(0) 21 801 6181
+            </p>
+        </apex:outputPanel>
+        <apex:outputPanel layout="block" rendered="{!OR(UPPER(relatedTo.How_can_we_help__c) == 'OTHER INQUIRY', UPPER(relatedTo.How_can_we_help__c) == 'OUR ONLINE STORE',UPPER(relatedTo.How_can_we_help__c) == 'PRODUCT INFORMATION', UPPER(relatedTo.How_can_we_help__c) == 'SPONSORSHIP OR CHARITY', UPPER(relatedTo.How_can_we_help__c) == 'WHERE TO BUY PRODUCT') && OR(UPPER(relatedTo.AdditionalInformation__c) == 'DISTRIBUTIONS', UPPER(relatedTo.AdditionalInformation__c) == 'SPONSORSHIP', UPPER(relatedTo.AdditionalInformation__c) == 'FREE PRODUCT',UPPER(relatedTo.AdditionalInformation__c) == 'FREE MERCHANDISE', ISBLANK(relatedTo.AdditionalInformation__c)) && UPPER(relatedTo.Contact.MailingCountry) == 'CROATIA' && UPPER(relatedTo.Brand__c) != 'EL TESORO'}">
+            
+            <p>
+                Thank you for contacting us and for your interest in our company and products. Beam Suntory operates on a strict route – to – market structure. Namely, we are partnering with one distributor per country, which is serving as our official distributor supplying all channels and customers.<br/>
+                Our distributor in your market will be able to answer and action your question, please contact them directly.​<br/>
+                STOCK D.O.O​<br/>
+                Josipa Lončara 3,<br/>​
+                10090 Zagreb,​<br/>
+                Hrvatska​<br/>
+                Tel: +385 1 3839 400​<br/>
+                Fax: +385 1 3839 401​<br/>
+                http://www.stockspirits.com/contact.aspx
+            </p>
+        </apex:outputPanel>
+        <apex:outputPanel layout="block" rendered="{!OR(UPPER(relatedTo.How_can_we_help__c) == 'OTHER INQUIRY', UPPER(relatedTo.How_can_we_help__c) == 'OUR ONLINE STORE',UPPER(relatedTo.How_can_we_help__c) == 'PRODUCT INFORMATION', UPPER(relatedTo.How_can_we_help__c) == 'SPONSORSHIP OR CHARITY', UPPER(relatedTo.How_can_we_help__c) == 'WHERE TO BUY PRODUCT') && OR(UPPER(relatedTo.AdditionalInformation__c) == 'DISTRIBUTIONS', UPPER(relatedTo.AdditionalInformation__c) == 'SPONSORSHIP', UPPER(relatedTo.AdditionalInformation__c) == 'FREE PRODUCT',UPPER(relatedTo.AdditionalInformation__c) == 'FREE MERCHANDISE', ISBLANK(relatedTo.AdditionalInformation__c)) && UPPER(relatedTo.Contact.MailingCountry) == 'CZECH REPUBLIC' && UPPER(relatedTo.Brand__c) != 'EL TESORO'}">
+            
+            <p>
+                Thank you for contacting us and for your interest in our company and products. Beam Suntory operates on a strict route – to – market structure. Namely, we are partnering with one distributor per country, which is serving as our official distributor supplying all channels and customers.<br/>
+                Our distributor in your market will be able to answer and action your question, please contact them directly.​<br/>
+                STOCK PLZEŇ – BOŽKOV S.R.O.​<br/>
+                Palírenská 641/2,​<br/>
+                326 00, Plzeň – Božkov,<br/>​
+                Česká Republika​<br/>
+                Tel Plzeň: +420 378 081 241​<br/>
+                Tel Praha: +420 251 553 800​<br/>
+                Fax: +420 377 419 497​<br/>
+                Website: https://www.stock.cz/en/contact.aspx
+            </p>
+        </apex:outputPanel>
+        <apex:outputPanel layout="block" rendered="{!OR(UPPER(relatedTo.How_can_we_help__c) == 'OTHER INQUIRY', UPPER(relatedTo.How_can_we_help__c) == 'OUR ONLINE STORE',UPPER(relatedTo.How_can_we_help__c) == 'PRODUCT INFORMATION', UPPER(relatedTo.How_can_we_help__c) == 'SPONSORSHIP OR CHARITY', UPPER(relatedTo.How_can_we_help__c) == 'WHERE TO BUY PRODUCT') && OR(UPPER(relatedTo.AdditionalInformation__c) == 'DISTRIBUTIONS', UPPER(relatedTo.AdditionalInformation__c) == 'SPONSORSHIP', UPPER(relatedTo.AdditionalInformation__c) == 'FREE PRODUCT',UPPER(relatedTo.AdditionalInformation__c) == 'FREE MERCHANDISE', ISBLANK(relatedTo.AdditionalInformation__c)) && UPPER(relatedTo.Contact.MailingCountry) == 'SLOVAKIA' && UPPER(relatedTo.Brand__c) != 'EL TESORO'}">
+            
+            <p>
+                Thank you for contacting us and for your interest in our company and products. Beam Suntory operates on a strict route – to – market structure. Namely, we are partnering with one distributor per country, which is serving as our official distributor supplying all channels and customers.<br/>
+                Our distributor in your market will be able to answer and action your question, please contact them directly.​<br/>
+                STOCK Slovensko, s.r.o.​<br/>
+                Galvaniho 7/A​<br/>
+                821 04 Bratislava​<br/>
+                Slovensko​<br/>
+                Tel: +421 2 4463 3294​<br/>
+                Fax: +421 2 4463 3298​<br/>
+                Website: https://www.stock.sk/en/contact.aspx
+            </p>
+        </apex:outputPanel>
+        
+<!-- Start changes FREE MERCHANDISE and first 2 new for FREE PRODUCT added for DSC-406 04/04/2020 -->
+
+        <apex:outputPanel layout="block" rendered="{!UPPER(relatedTo.How_can_we_help__c) == 'PRODUCT INFORMATION' && UPPER(relatedTo.AdditionalInformation__c) == 'FREE PRODUCT' && UPPER(relatedTo.Contact.MailingCountry) == 'UNITED STATES' && UPPER(relatedTo.Brand__c) != 'PAVAN'}">
+            <p>Hi {!relatedTo.Account.FirstName},</p>
+            <p>Thank you for connecting with us and for being such a {!relatedTo.Brand__c} fan! Unfortunately, due to legal concerns, we are unable to directly offer consumers free product.
+               We&#39;d be happy to help you find product in your location though! Please click the product locator link <a href="https://locator.beamsuntory.com/#/locator">here</a>, 
+               choose the {!relatedTo.Brand__c} product you&rsquo;d like to find, and enter your ZIP code for a list of bars, restaurants and liquore stores in your area.
+            </p>
+        </apex:outputPanel>
+        <apex:outputPanel layout="block" rendered="{!UPPER(relatedTo.How_can_we_help__c) == 'PRODUCT INFORMATION' && UPPER(relatedTo.AdditionalInformation__c) == 'FREE PRODUCT' && UPPER(relatedTo.Contact.MailingCountry) == 'UNITED STATES' && UPPER(relatedTo.Brand__c) == 'PAVAN'}">           
+            <p>Hi {!relatedTo.Account.FirstName},</p>
+            <p>
+                Thank you for contacting us and for your interest in our products.
+                Unfortunately we do not currently import {!relatedTo.Brand__c} and at the moment, we don&#39;t have plans to introduce this in the future.<br/>
+                Thank you for understanding!
+            </p>
+                
+        </apex:outputPanel> 
+         
+        <!-- Start changes DSC-744 on 22/06/2020 -->      
+        <apex:outputPanel layout="block" rendered="{!UPPER(relatedTo.How_can_we_help__c) == 'OUR ONLINE STORE' && UPPER(relatedTo.AdditionalInformation__c) == 'FREE MERCHANDISE' && UPPER(relatedTo.Contact.MailingCountry) == 'UNITED STATES' && OR(UPPER(relatedTo.Brand__c) == 'SIPSMITH', UPPER(relatedTo.Brand__c) == 'MAKERS MARK', UPPER(relatedTo.Brand__c) == 'JIM BEAM', UPPER(relatedTo.Brand__c) == 'LAPHROAIG')}">
+            <p>Hi {!relatedTo.Account.FirstName},</p>
+            <p>
+                We love hearing from fans like you and we know how hard it can be to find the perfect {!relatedTo.Brand__c} accessories for the kitchen, home bar, or just to wear around town. To help, here&apos;s our online store: 
+                <apex:outputPanel rendered="{!UPPER(relatedTo.Brand__c) != 'LAPHROAIG'}"> http://store.americanstillhouse.com</apex:outputPanel>
+                <apex:outputPanel rendered="{!UPPER(relatedTo.Brand__c) == 'LAPHROAIG'}"> https://www.laphroaig.com/en/product-category</apex:outputPanel>
+                 where you can purchase our merchandise.
+            </p>
+        </apex:outputPanel>
+        <!-- End changes DSC-744 on 22/06/2020 -->
+        
+        <!-- Start changes DSC-657 12/05/2020 -->
+        <apex:outputPanel layout="block" rendered="{!OR(UPPER(relatedTo.How_can_we_help__c) == 'OTHER INQUIRY') && UPPER(relatedTo.AdditionalInformation__c) == 'FREE MERCHANDISE' && UPPER(relatedTo.Contact.MailingCountry) == 'UNITED STATES' && AND(UPPER(relatedTo.Brand__c) != 'SIPSMITH', UPPER(relatedTo.Brand__c) != 'MAKERS MARK', UPPER(relatedTo.Brand__c) != 'JIM BEAM', UPPER(relatedTo.Brand__c) != 'LAPHROAIG')}">
+            <p>Hi {!relatedTo.Account.FirstName},</p>
+            <p>
+                Thanks for reaching out to {!relatedTo.Brand__c}! Finding the perfect {!relatedTo.Brand__c} item can be tough, unfortunately we don’t have a store or merchandise we can offer right now. If anything should change, our fans will be the first to find out. Cheers
+            </p>
+        </apex:outputPanel>
+        <!-- End changes DSC-657 12/05/2020 -->
+        
+<!-- END CHANGES DSC-406 -->
+        
+        <apex:outputPanel layout="block" rendered="{!(UPPER(relatedTo.How_can_we_help__c) == 'OTHER INQUIRY') && (UPPER(relatedTo.AdditionalInformation__c) == 'DISTRIBUTIONS') && (UPPER(relatedTo.Contact.MailingCountry) == 'UNITED STATES')}">
+           
+            <p>
+                Thank you for your email and interest in {!relatedTo.Brand__c}. Distribution arrangements for our products are in place and we do not foresee any openings for the future.<br/><br/>
+                Thank you again for the compliment of wanting to distribute {!relatedTo.Brand__c} and for your enthusiasm towards our products.
+            </p>
+        </apex:outputPanel>
+        <apex:outputPanel layout="block" rendered="{!UPPER(relatedTo.How_can_we_help__c) == 'OUR ONLINE STORE' && UPPER(relatedTo.AdditionalInformation__c) == 'PRODUCT AVAILABILITY' && UPPER(relatedTo.Contact.MailingCountry) == 'UNITED STATES' && OR(UPPER(relatedTo.Brand__c) == 'JIM BEAM', UPPER(relatedTo.Brand__c) == 'MAKERS MARK', UPPER(relatedTo.Brand__c) == 'LAPHROAIG', UPPER(relatedTo.Brand__c) == 'SIPSMITH')}">
+            <p>Hi {!relatedTo.Account.FirstName},</p>
+            <p>
+                We love hearing from fans like you and we know how hard it can be to find the perfect {!relatedTo.Brand__c} accessories for the kitchen, home bar, or just to wear around town. To help, here&apos;s our online store: [INSERT ONLINE STORE LINK] where you can purchase our merchandise.
+            </p>
+        </apex:outputPanel>
+        
+        <!-- Start changes made for ticket DSC-408 02/04/2020 -->
+        <apex:outputPanel layout="block" rendered="{!UPPER(relatedTo.How_can_we_help__c) == 'OTHER INQUIRY' &&  UPPER(relatedTo.Contact.MailingCountry) == 'UNITED STATES' && UPPER(relatedTo.AdditionalInformation__c) == 'USED BARRELS'}">
+            <p>Thank you for your email. At this time, we are not selling barrels to the general public. There are distributors available who do sell used barrels to individuals and may have what you are looking for. I am listing the distributors and their information below. We wish you the best in your search.</p>
+            
+            <p>Barrels Unlimited<br />
+            13455 S. Bryan Flats Road<br />
+            Jackson, WY 83001<br />
+            Telephone: (307) 733-1993<br />
+            <a href="http://www.barrelsunlimited.com">www.barrelsunlimited.com</a></p>
+            
+            <p>Kelvin Cooperage<br />
+            1103 Outer Loop<br />
+            Louisville, Kentucky 40219<br />
+            Telephone: (502) 366-5757<br />
+            <a href="http://www.kelvincooperage.com">www.kelvincooperage.com</a></p>
+            
+            <p>Speyside Cooperage<br />
+            805 North Buckman Road<br />
+            Shepherdsville, KY 40165<br />
+            Telephone: (502) 543-3101<br />
+            <a href="http://www.speysidecooperageky.com">www.speysidecooperageky.com</a></p>
+            
+        </apex:outputPanel>
+        
+        <!-- for Canada -->
+        <apex:outputPanel layout="block" rendered="{!UPPER(relatedTo.How_can_we_help__c) == 'OTHER INQUIRY' &&  UPPER(relatedTo.Contact.MailingCountry) == 'CANADA' && UPPER(relatedTo.AdditionalInformation__c) == 'USED BARRELS'}">
+            <p>
+              Thank you for contacting us and for your interest in our products. We do not sell used barrels within Canada, it is not a service we offer at this time.
+            </p>
+            
+        </apex:outputPanel>
+        <!--End changes for ticket DSC-408 02/04/2020 -->
+        
+        <!-- Start changes DSC-657 on 12/06/2020 -->
+  
+        <apex:outputPanel layout="block" rendered="{!OR(UPPER(relatedTo.How_can_we_help__c) == 'OTHER INQUIRY', UPPER(relatedTo.How_can_we_help__c) == 'OUR ONLINE STORE') && UPPER(relatedTo.AdditionalInformation__c) == 'FREE MERCHANDISE'
+                                                    && AND(UPPER(relatedTo.Contact.MailingCountry) != 'UNITED STATES', UPPER(relatedTo.Contact.MailingCountry) != 'AUSTRALIA', 
+                                                        UPPER(relatedTo.Contact.MailingCountry) != 'NEW ZEALAND', UPPER(relatedTo.Contact.MailingCountry) != 'UNITED KINGDOM', UPPER(relatedTo.Contact.MailingCountry) != 'CHINA',UPPER(relatedTo.Contact.MailingCountry) != 'NETHERLANDS', 
+                                                        UPPER(relatedTo.Contact.MailingCountry) != 'BELGIUM', UPPER(relatedTo.Contact.MailingCountry) != 'SPAIN', UPPER(relatedTo.Contact.MailingCountry) != 'IRELAND',UPPER(relatedTo.Contact.MailingCountry) != 'SWEDEN', 
+                                                        UPPER(relatedTo.Contact.MailingCountry) != 'NORWAY', UPPER(relatedTo.Contact.MailingCountry) != 'DENMARK', UPPER(relatedTo.Contact.MailingCountry) != 'FINLAND', UPPER(relatedTo.Contact.MailingCountry) != 'POLAND', 
+                                                        UPPER(relatedTo.Contact.MailingCountry) != 'SOUTH AFRICA', UPPER(relatedTo.Contact.MailingCountry) != 'CROATIA', UPPER(relatedTo.Contact.MailingCountry) != 'CZECH REPUBLIC', UPPER(relatedTo.Contact.MailingCountry) != 'SLOVAKIA', 
+                                                        UPPER(relatedTo.Contact.MailingCountry) != 'ITALY') && UPPER(relatedTo.Brand__c) != 'EL TESORO' }">
+                       
+            <apex:outputPanel layout="block" rendered="{!UPPER(relatedTo.How_can_we_help__c) == 'OTHER INQUIRY'}">                                       
+                Hi {!relatedTo.Account.FirstName},<br/><br/>
+                
+                Thanks for reaching out to {!relatedTo.Brand__c}! Finding the perfect {!relatedTo.Brand__c} item can be tough, unfortunately we don’t have a store or merchandise we can offer right now. If anything should change, our fans will be the first to find out. Cheers
+                    
+            </apex:outputPanel>
+            
+            <apex:outputPanel layout="block" rendered="{!UPPER(relatedTo.How_can_we_help__c) == 'OUR ONLINE STORE' && UPPER(relatedTo.Brand__c) == 'LAPHROAIG'}">
+                Hi {!relatedTo.Account.FirstName},<br/><br/>
+
+                Thanks for reaching out to Laphroaig! We unfortunately do not have any free merchandise we can provide to you at this time, most of our marketing and promotions are handled by our distributors in each specific market.<br/><br/>
+
+                However our merchandise can be purchased from our online store www.laphroaig.com.<br/>
+            </apex:outputPanel>
+            <apex:outputPanel layout="block" rendered="{!UPPER(relatedTo.How_can_we_help__c) == 'OUR ONLINE STORE' && UPPER(relatedTo.Brand__c) == 'JIM BEAM'}">
+                Hi {!relatedTo.Account.FirstName},<br/><br/>
+            
+                We love hearing from fans like you and we know how hard it can be to find the perfect {!relatedTo.Brand__c} accessories for the kitchen, home bar, or just to wear around town. To help, here&apos;s our online store: http://store.americanstillhouse.com where you can purchase our merchandise.
+            
+            </apex:outputPanel>
+            
+        </apex:outputPanel>
+        
+        <apex:outputPanel layout="block" rendered="{!OR(UPPER(relatedTo.How_can_we_help__c) == 'OTHER INQUIRY', UPPER(relatedTo.How_can_we_help__c) == 'OUR ONLINE STORE'  ) && UPPER(relatedTo.AdditionalInformation__c) == 'FREE MERCHANDISE'  && UPPER(relatedTo.Contact.MailingCountry) == 'ITALY' && UPPER(relatedTo.Brand__c) != 'EL TESORO'}">
+            <p>
+                Thank you for contacting us and for your interest in our company and products. Beam Suntory operates on a strict route – to – market structure.  Namely, we are partnering with one distributor per country, which is serving as our official distributor supplying all channels and customers.<br/> 
+                Our distributor in your market will be able to answer and action your question, please contact them directly.<br/><br/>
+
+                STOCK SRL.<br/>
+                Via Tucidide, 56 bis - Torre 2,<br/>
+                20134 Milano,<br/>
+                Italia<br/>
+                Tel: +39 02 4968 1201<br/>
+                https://www.stock-spa.it/en
+            </p>
+        </apex:outputPanel>
+        <!-- End changes DSC-657 on 12/06/2020 -->
+
+        <!-- Start of Changes for ticket DSC-656 12/05/2020 -->
+        <br/>Description :<br/>
+        {!relatedTo.Description}
+        <!-- End of Changes for ticket DSC-656 12/05/2020 -->
+        
+        <!-- Start Changes for ticket DSC-405 13/05/2020 contains Footer part -->
+        
+        
+            <c:VFC_EmailSignature brand="{!relatedTo.Brand__c}" caseId="{!relatedTo.Id}" />
+         
+        <!-- End of Changes for ticket DSC-405 13/05/2020 Footer part-->
+        </body>
+        
+      </html>
+        
+    </messaging:htmlEmailBody>
+</messaging:emailTemplate>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Code_Created_Date</fullName>
+    <active>true</active>
+    <description>This field throws an error when the code status is blank and date is already stamped</description>
+    <errorConditionFormula>AND(NOT(ISBLANK(Code_Created_Date__c)),ISBLANK(TEXT(RequestStatus__c)))</errorConditionFormula>
+    <errorDisplayField>Code_Created_Date__c</errorDisplayField>
+    <errorMessage>Please clear the Code Created Date</errorMessage>
+</ValidationRule>

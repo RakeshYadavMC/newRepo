@@ -1,0 +1,2437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Product Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Brand__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Product_Type</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Old Tub</controllingFieldValue>
+            <controllingFieldValue>Pavan</controllingFieldValue>
+            <controllingFieldValue>Pinnacle</controllingFieldValue>
+            <controllingFieldValue>Basil Hayden's</controllingFieldValue>
+            <controllingFieldValue>Tangle Ridge</controllingFieldValue>
+            <controllingFieldValue>Toki</controllingFieldValue>
+            <controllingFieldValue>Canadian Club</controllingFieldValue>
+            <controllingFieldValue>Tyrconnell</controllingFieldValue>
+            <controllingFieldValue>EFFEN</controllingFieldValue>
+            <controllingFieldValue>2 Gingers</controllingFieldValue>
+            <controllingFieldValue>Vox</controllingFieldValue>
+            <controllingFieldValue>Sunnybrook</controllingFieldValue>
+            <controllingFieldValue>Trave Amaretto</controllingFieldValue>
+            <controllingFieldValue>Kamora</controllingFieldValue>
+            <controllingFieldValue>Kessler</controllingFieldValue>
+            <controllingFieldValue>CHITA</controllingFieldValue>
+            <controllingFieldValue>Kilbeggan</controllingFieldValue>
+            <controllingFieldValue>Knob Creek</controllingFieldValue>
+            <controllingFieldValue>Midori</controllingFieldValue>
+            <controllingFieldValue>Old Crow</controllingFieldValue>
+            <controllingFieldValue>Old Grand Dad</controllingFieldValue>
+            <controllingFieldValue>Old Overholt</controllingFieldValue>
+            <valueName>ORIGINAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pavan</controllingFieldValue>
+            <controllingFieldValue>Pinnacle</controllingFieldValue>
+            <valueName>ORIGINAL 100 PROOF</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beam Suntory Corporate</controllingFieldValue>
+            <valueName>Beam Suntory Corporate - 2 Gingers Original</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beam Suntory Corporate</controllingFieldValue>
+            <valueName>Beam Suntory Corporate - Aftershock</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beam Suntory Corporate</controllingFieldValue>
+            <valueName>Beam Suntory Corporate - Alberta Premium</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beam Suntory Corporate</controllingFieldValue>
+            <valueName>Beam Suntory Corporate - Alberta Pure Vodka</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beam Suntory Corporate</controllingFieldValue>
+            <valueName>Beam Suntory Corporate - Alberta Rye Whisky</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beam Suntory Corporate</controllingFieldValue>
+            <valueName>Beam Suntory Corporate - Alberta Springs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beam Suntory Corporate</controllingFieldValue>
+            <valueName>Beam Suntory Corporate - AO Vodka</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beam Suntory Corporate</controllingFieldValue>
+            <valueName>Beam Suntory Corporate - Ardmore</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beam Suntory Corporate</controllingFieldValue>
+            <valueName>Beam Suntory Corporate - Auchentoshan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beam Suntory Corporate</controllingFieldValue>
+            <valueName>Beam Suntory Corporate - Baker's</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beam Suntory Corporate</controllingFieldValue>
+            <valueName>Beam Suntory Corporate - Banff Ice Vodka</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beam Suntory Corporate</controllingFieldValue>
+            <valueName>Beam Suntory Corporate - Basil Hayden Original</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beam Suntory Corporate</controllingFieldValue>
+            <valueName>Beam Suntory Corporate - Bookers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beam Suntory Corporate</controllingFieldValue>
+            <valueName>Beam Suntory Corporate - Bowmore</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beam Suntory Corporate</controllingFieldValue>
+            <valueName>Beam Suntory Corporate - Calico Jack</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beam Suntory Corporate</controllingFieldValue>
+            <valueName>Beam Suntory Corporate - Canadian Club</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beam Suntory Corporate</controllingFieldValue>
+            <valueName>Beam Suntory Corporate - Connemara</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beam Suntory Corporate</controllingFieldValue>
+            <valueName>Beam Suntory Corporate - Courvoisier</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beam Suntory Corporate</controllingFieldValue>
+            <valueName>Beam Suntory Corporate - Cruzan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beam Suntory Corporate</controllingFieldValue>
+            <valueName>Beam Suntory Corporate - DeKuyper</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beam Suntory Corporate</controllingFieldValue>
+            <valueName>Beam Suntory Corporate - Effen Vodka</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beam Suntory Corporate</controllingFieldValue>
+            <valueName>Beam Suntory Corporate - El Tesoro</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beam Suntory Corporate</controllingFieldValue>
+            <valueName>Beam Suntory Corporate - Gilbey's</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beam Suntory Corporate</controllingFieldValue>
+            <valueName>Beam Suntory Corporate - Glen Garioch</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beam Suntory Corporate</controllingFieldValue>
+            <valueName>Beam Suntory Corporate - Haku Vodka</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beam Suntory Corporate</controllingFieldValue>
+            <valueName>Beam Suntory Corporate - Hakushu Whisky</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beam Suntory Corporate</controllingFieldValue>
+            <valueName>Beam Suntory Corporate - Hibiki Whisky</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beam Suntory Corporate</controllingFieldValue>
+            <valueName>Beam Suntory Corporate - Hornitos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beam Suntory Corporate</controllingFieldValue>
+            <valueName>Beam Suntory Corporate - Ice Surge</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beam Suntory Corporate</controllingFieldValue>
+            <valueName>Beam Suntory Corporate - Jim Beam</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beam Suntory Corporate</controllingFieldValue>
+            <valueName>Beam Suntory Corporate - Kamchatka</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beam Suntory Corporate</controllingFieldValue>
+            <valueName>Beam Suntory Corporate - Kamora Liqueur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beam Suntory Corporate</controllingFieldValue>
+            <valueName>Beam Suntory Corporate - Kessler</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beam Suntory Corporate</controllingFieldValue>
+            <valueName>Beam Suntory Corporate - Knob Creek</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beam Suntory Corporate</controllingFieldValue>
+            <valueName>Beam Suntory Corporate - Laphroaig</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beam Suntory Corporate</controllingFieldValue>
+            <valueName>Beam Suntory Corporate - Legent</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beam Suntory Corporate</controllingFieldValue>
+            <valueName>Beam Suntory Corporate - Makers Mark</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beam Suntory Corporate</controllingFieldValue>
+            <valueName>Beam Suntory Corporate - McClelland's</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beam Suntory Corporate</controllingFieldValue>
+            <valueName>Beam Suntory Corporate - Midori</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beam Suntory Corporate</controllingFieldValue>
+            <valueName>Beam Suntory Corporate - Mozart</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beam Suntory Corporate</controllingFieldValue>
+            <valueName>Beam Suntory Corporate - Old Crow</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beam Suntory Corporate</controllingFieldValue>
+            <valueName>Beam Suntory Corporate - Old Grand Dad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beam Suntory Corporate</controllingFieldValue>
+            <valueName>Beam Suntory Corporate - Old Overholt</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beam Suntory Corporate</controllingFieldValue>
+            <valueName>Beam Suntory Corporate - Pavan Liqueurs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beam Suntory Corporate</controllingFieldValue>
+            <valueName>Beam Suntory Corporate - Pinnacle Vodka</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beam Suntory Corporate</controllingFieldValue>
+            <valueName>Beam Suntory Corporate - Pucker Vodka</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beam Suntory Corporate</controllingFieldValue>
+            <valueName>Beam Suntory Corporate - Roku Gin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beam Suntory Corporate</controllingFieldValue>
+            <valueName>Beam Suntory Corporate - Sauza</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beam Suntory Corporate</controllingFieldValue>
+            <valueName>Beam Suntory Corporate - Sipsmith</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beam Suntory Corporate</controllingFieldValue>
+            <valueName>Beam Suntory Corporate - Skinnygirl</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beam Suntory Corporate</controllingFieldValue>
+            <valueName>Beam Suntory Corporate - Teachers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beam Suntory Corporate</controllingFieldValue>
+            <valueName>Beam Suntory Corporate - Toki</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beam Suntory Corporate</controllingFieldValue>
+            <valueName>Beam Suntory Corporate - Tres Generaciones</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beam Suntory Corporate</controllingFieldValue>
+            <valueName>Beam Suntory Corporate - Vox</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beam Suntory Corporate</controllingFieldValue>
+            <valueName>Beam Suntory Corporate - Windsor Canadian</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beam Suntory Corporate</controllingFieldValue>
+            <valueName>Beam Suntory Corporate - Yamazaki Whisky</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beam Suntory Corporate</controllingFieldValue>
+            <valueName>Beam Suntory Corporate - Other product</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beam Suntory Corporate</controllingFieldValue>
+            <valueName>Beam Suntory Corporate - Leroux</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pinnacle</controllingFieldValue>
+            <controllingFieldValue>Calico Jack</controllingFieldValue>
+            <controllingFieldValue>Cruzan</controllingFieldValue>
+            <controllingFieldValue>Kamchatka</controllingFieldValue>
+            <valueName>CITRUS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pinnacle</controllingFieldValue>
+            <controllingFieldValue>Calico Jack</controllingFieldValue>
+            <controllingFieldValue>Cruzan</controllingFieldValue>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>FLAVORED</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pinnacle</controllingFieldValue>
+            <valueName>FRENCH ORIGINAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pinnacle</controllingFieldValue>
+            <controllingFieldValue>Gilbey's</controllingFieldValue>
+            <controllingFieldValue>Kamchatka</controllingFieldValue>
+            <valueName>GIN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pinnacle</controllingFieldValue>
+            <controllingFieldValue>Cruzan</controllingFieldValue>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <controllingFieldValue>EFFEN</controllingFieldValue>
+            <controllingFieldValue>Sourz</controllingFieldValue>
+            <valueName>RASPBERRY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pinnacle</controllingFieldValue>
+            <controllingFieldValue>Cruzan</controllingFieldValue>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <valueName>VANILLA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pinnacle</controllingFieldValue>
+            <controllingFieldValue>Calico Jack</controllingFieldValue>
+            <controllingFieldValue>Cruzan</controllingFieldValue>
+            <controllingFieldValue>Sourz</controllingFieldValue>
+            <valueName>MANGO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pinnacle</controllingFieldValue>
+            <controllingFieldValue>Sourz</controllingFieldValue>
+            <valueName>RED BERRY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pinnacle</controllingFieldValue>
+            <controllingFieldValue>Cruzan</controllingFieldValue>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <valueName>Peach</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pinnacle</controllingFieldValue>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>AMARETTO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pinnacle</controllingFieldValue>
+            <controllingFieldValue>Cruzan</controllingFieldValue>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <valueName>STRAWBERRY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pinnacle</controllingFieldValue>
+            <controllingFieldValue>Cruzan</controllingFieldValue>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>WATERMELON</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pinnacle</controllingFieldValue>
+            <controllingFieldValue>Cruzan</controllingFieldValue>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>BLUEBERRY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pinnacle</controllingFieldValue>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>POMEGRANATE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pinnacle</controllingFieldValue>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>TROPICAL PUNCH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pinnacle</controllingFieldValue>
+            <controllingFieldValue>Calico Jack</controllingFieldValue>
+            <controllingFieldValue>Cruzan</controllingFieldValue>
+            <valueName>COCONUT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pinnacle</controllingFieldValue>
+            <controllingFieldValue>Calico Jack</controllingFieldValue>
+            <controllingFieldValue>Cruzan</controllingFieldValue>
+            <controllingFieldValue>Midori</controllingFieldValue>
+            <valueName>PINEAPPLE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pinnacle</controllingFieldValue>
+            <controllingFieldValue>Canadian Club</controllingFieldValue>
+            <controllingFieldValue>Leroux</controllingFieldValue>
+            <valueName>BLACKBERRY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pinnacle</controllingFieldValue>
+            <controllingFieldValue>Calico Jack</controllingFieldValue>
+            <valueName>CAKE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pinnacle</controllingFieldValue>
+            <controllingFieldValue>Midori</controllingFieldValue>
+            <valueName>LEMONADE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pinnacle</controllingFieldValue>
+            <valueName>ATOMIC HOT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pinnacle</controllingFieldValue>
+            <valueName>BERRY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pinnacle</controllingFieldValue>
+            <valueName>CARAMEL APPLE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pinnacle</controllingFieldValue>
+            <valueName>CHERRY LEMONADE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pinnacle</controllingFieldValue>
+            <valueName>CINNABON</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pinnacle</controllingFieldValue>
+            <valueName>COOKIE DOUGH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pinnacle</controllingFieldValue>
+            <valueName>COUNTY FAIR COTTON</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pinnacle</controllingFieldValue>
+            <valueName>CRANAPPLE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pinnacle</controllingFieldValue>
+            <valueName>CUCUMBER WATERMELON</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pinnacle</controllingFieldValue>
+            <valueName>CHERRY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pinnacle</controllingFieldValue>
+            <valueName>GRAPE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pinnacle</controllingFieldValue>
+            <valueName>KING CAKE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pinnacle</controllingFieldValue>
+            <valueName>LE DOUBLE ESPRESSO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pinnacle</controllingFieldValue>
+            <valueName>MARSHMALLOW</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pinnacle</controllingFieldValue>
+            <valueName>MIMOSA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pinnacle</controllingFieldValue>
+            <valueName>ORANGE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pinnacle</controllingFieldValue>
+            <valueName>PEACHBERRY COBBLER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pinnacle</controllingFieldValue>
+            <valueName>PEAR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pinnacle</controllingFieldValue>
+            <valueName>PECAN PIE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pinnacle</controllingFieldValue>
+            <valueName>PEPPERMINT BARK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pinnacle</controllingFieldValue>
+            <valueName>PUMKIN PIE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pinnacle</controllingFieldValue>
+            <valueName>RAINBOW SHERBERT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pinnacle</controllingFieldValue>
+            <valueName>RED LIQUORICE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pinnacle</controllingFieldValue>
+            <valueName>RUBY REDE GRAPEFRUIT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pinnacle</controllingFieldValue>
+            <valueName>SALTED CARAMEL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pinnacle</controllingFieldValue>
+            <valueName>STRAWBERRY KIWI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pinnacle</controllingFieldValue>
+            <valueName>STRAWBERRY SHORTCAKE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pinnacle</controllingFieldValue>
+            <valueName>WHIPPED CHERRY WHIP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pinnacle</controllingFieldValue>
+            <valueName>WHIPPED ORIGINAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pinnacle</controllingFieldValue>
+            <valueName>WHIPPED CHOCOLATE WHIP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pinnacle</controllingFieldValue>
+            <valueName>WHIPPED KEY LIME WHIP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pinnacle</controllingFieldValue>
+            <valueName>WHIPPED ORANGE WHIP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pinnacle</controllingFieldValue>
+            <valueName>SPICED CRANBERRY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pinnacle</controllingFieldValue>
+            <controllingFieldValue>Pucker</controllingFieldValue>
+            <valueName>Cherry Tease</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pinnacle</controllingFieldValue>
+            <controllingFieldValue>Pucker</controllingFieldValue>
+            <valueName>Sour Apple Sass</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pinnacle</controllingFieldValue>
+            <controllingFieldValue>Pucker</controllingFieldValue>
+            <valueName>CITRUS SQUEEZE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pinnacle</controllingFieldValue>
+            <valueName>Grape Gone Wild</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pinnacle</controllingFieldValue>
+            <valueName>Lemonade Lust</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pinnacle</controllingFieldValue>
+            <valueName>RASPBERRY RAVE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ronrico</controllingFieldValue>
+            <controllingFieldValue>Sauza</controllingFieldValue>
+            <controllingFieldValue>Tres Generaciones</controllingFieldValue>
+            <controllingFieldValue>100 Anos</controllingFieldValue>
+            <controllingFieldValue>El Tesoro</controllingFieldValue>
+            <controllingFieldValue>Giro</controllingFieldValue>
+            <controllingFieldValue>Hornitos</controllingFieldValue>
+            <valueName>BLANCO/PLATA/SILVER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ronrico</controllingFieldValue>
+            <valueName>CLIPPER SPICED RUM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ronrico</controllingFieldValue>
+            <controllingFieldValue>Sauza</controllingFieldValue>
+            <controllingFieldValue>Courvoisier</controllingFieldValue>
+            <controllingFieldValue>Giro</controllingFieldValue>
+            <valueName>GOLD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ronrico</controllingFieldValue>
+            <controllingFieldValue>Calico Jack</controllingFieldValue>
+            <controllingFieldValue>Midori</controllingFieldValue>
+            <valueName>PINEAPPLE COCONUT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>House of Suntory</controllingFieldValue>
+            <valueName>Haku Vodka</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>House of Suntory</controllingFieldValue>
+            <valueName>Roku Gin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>House of Suntory</controllingFieldValue>
+            <valueName>Hibiki Whisky 12YO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>House of Suntory</controllingFieldValue>
+            <valueName>Hibiki Whisky 17YO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>House of Suntory</controllingFieldValue>
+            <valueName>Hibiki Whisky 21YO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>House of Suntory</controllingFieldValue>
+            <valueName>Hibiki Whisky 30YO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>House of Suntory</controllingFieldValue>
+            <valueName>Hibiki Whisky 35YO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>House of Suntory</controllingFieldValue>
+            <valueName>Hibiki Harmony Whisky</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>House of Suntory</controllingFieldValue>
+            <valueName>Yamazaki Whisky 12YO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>House of Suntory</controllingFieldValue>
+            <valueName>Yamazaki Whisky 18YO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>House of Suntory</controllingFieldValue>
+            <valueName>Yamazaki Whisky 25YO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>House of Suntory</controllingFieldValue>
+            <valueName>Yamazaki Whisky 50YO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>House of Suntory</controllingFieldValue>
+            <valueName>Yamazaki Whisky Distillers Reserve</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>House of Suntory</controllingFieldValue>
+            <valueName>Hakushu The Essence of Suntory</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>House of Suntory</controllingFieldValue>
+            <valueName>Hakushu Whisky 10YO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>House of Suntory</controllingFieldValue>
+            <valueName>Hakushu Whisky 12YO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>House of Suntory</controllingFieldValue>
+            <valueName>Hakushu Whisky 18YO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>House of Suntory</controllingFieldValue>
+            <valueName>Hakushu Whisky 25YO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>House of Suntory</controllingFieldValue>
+            <valueName>Hakushu Whisky Heavily Peated</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>House of Suntory</controllingFieldValue>
+            <valueName>Hakushu Whisky Distillers Reserve</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>House of Suntory</controllingFieldValue>
+            <valueName>Toki</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>House of Suntory</controllingFieldValue>
+            <valueName>Suntory Old Whisky</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Salignac</controllingFieldValue>
+            <controllingFieldValue>Courvoisier</controllingFieldValue>
+            <valueName>VS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sauza</controllingFieldValue>
+            <valueName>AGUA FUERTE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sauza</controllingFieldValue>
+            <valueName>BLUE REPOSADO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sauza</controllingFieldValue>
+            <valueName>BLUE SILVER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sauza</controllingFieldValue>
+            <valueName>CUCUMBER CHILI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sauza</controllingFieldValue>
+            <valueName>MARGARITA MIX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sauza</controllingFieldValue>
+            <controllingFieldValue>Tres Generaciones</controllingFieldValue>
+            <controllingFieldValue>100 Anos</controllingFieldValue>
+            <controllingFieldValue>El Tesoro</controllingFieldValue>
+            <controllingFieldValue>Hornitos</controllingFieldValue>
+            <valueName>REPOSADO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sauza</controllingFieldValue>
+            <controllingFieldValue>Calico Jack</controllingFieldValue>
+            <controllingFieldValue>Tres Generaciones</controllingFieldValue>
+            <valueName>SILVER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sauza</controllingFieldValue>
+            <valueName>AGUA FUERTE GRAPEFRUIT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sauza</controllingFieldValue>
+            <valueName>AGUA FUERTE LIME</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sauza</controllingFieldValue>
+            <valueName>AGUA FUERTE MANGO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sauza</controllingFieldValue>
+            <valueName>CONMEMORATIVO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sauza</controllingFieldValue>
+            <valueName>SPARKLING MARGARITA MANGO PEACH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sauza</controllingFieldValue>
+            <valueName>SPARKLING MARGARITA ORIGINAL LIME</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sauza</controllingFieldValue>
+            <valueName>SPARKLING MARGARITA WATERMELON</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sauza</controllingFieldValue>
+            <valueName>SPARKLING MARGARITA WILD BERRY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sipsmith</controllingFieldValue>
+            <valueName>House of Commons</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sipsmith</controllingFieldValue>
+            <valueName>LEMON DRIZZLE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sipsmith</controllingFieldValue>
+            <valueName>London Cup</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sipsmith</controllingFieldValue>
+            <valueName>LONDON DRY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sipsmith</controllingFieldValue>
+            <valueName>Orange and Cacao</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sipsmith</controllingFieldValue>
+            <valueName>SLOE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sipsmith</controllingFieldValue>
+            <valueName>VJOP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sipsmith</controllingFieldValue>
+            <controllingFieldValue>Alberta Rye</controllingFieldValue>
+            <controllingFieldValue>AO</controllingFieldValue>
+            <controllingFieldValue>Gilbey's</controllingFieldValue>
+            <controllingFieldValue>Kamchatka</controllingFieldValue>
+            <controllingFieldValue>Alberta Pure</controllingFieldValue>
+            <controllingFieldValue>Banff Ice</controllingFieldValue>
+            <valueName>VODKA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sipsmith</controllingFieldValue>
+            <valueName>Sipsmith Gin &amp; Tonic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sipsmith</controllingFieldValue>
+            <valueName>Sipsmith Gin &amp; Tonic Light</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sipsmith</controllingFieldValue>
+            <valueName>Chilli and Lime</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Old Whiskeys</controllingFieldValue>
+            <valueName>Old Crow Original</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Old Whiskeys</controllingFieldValue>
+            <valueName>Old Crow Original COLA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Old Whiskeys</controllingFieldValue>
+            <valueName>Old Crow Original RTD COLA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Old Whiskeys</controllingFieldValue>
+            <valueName>Old Crow Reserve</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Old Whiskeys</controllingFieldValue>
+            <valueName>Old Grand Dad Original</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Old Whiskeys</controllingFieldValue>
+            <valueName>Old Overholt Original</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Old Whiskeys</controllingFieldValue>
+            <valueName>Old Grand Dad 114</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Old Whiskeys</controllingFieldValue>
+            <valueName>Old Grand Dad BIB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Skinnygirl</controllingFieldValue>
+            <valueName>BARENAKED VODKA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Skinnygirl</controllingFieldValue>
+            <valueName>CABERNET SAUVINGON</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Skinnygirl</controllingFieldValue>
+            <valueName>CHARDONNAY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Skinnygirl</controllingFieldValue>
+            <controllingFieldValue>EFFEN</controllingFieldValue>
+            <valueName>CUCUMBER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Skinnygirl</controllingFieldValue>
+            <valueName>CUCUMBER VODKA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Skinnygirl</controllingFieldValue>
+            <valueName>GRAPEFRUIT MARGARITA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Skinnygirl</controllingFieldValue>
+            <valueName>MOSCATO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Skinnygirl</controllingFieldValue>
+            <valueName>PINOT GRIGIO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Skinnygirl</controllingFieldValue>
+            <valueName>PINOT NOIR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Skinnygirl</controllingFieldValue>
+            <valueName>RED WINE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Skinnygirl</controllingFieldValue>
+            <controllingFieldValue>Courvoisier</controllingFieldValue>
+            <controllingFieldValue>EFFEN</controllingFieldValue>
+            <valueName>ROSE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Skinnygirl</controllingFieldValue>
+            <valueName>SWEETARITA MARGARITA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Skinnygirl</controllingFieldValue>
+            <valueName>TANGERINE VODKA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Skinnygirl</controllingFieldValue>
+            <valueName>WATERMELON LIME MARGARITA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Skinnygirl</controllingFieldValue>
+            <valueName>WHITE CRANBERRY COSMO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Skinnygirl</controllingFieldValue>
+            <valueName>WHITE PEACH MARGARITA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Skinnygirl</controllingFieldValue>
+            <valueName>WHITE WINE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Skinnygirl</controllingFieldValue>
+            <controllingFieldValue>Cruzan</controllingFieldValue>
+            <valueName>MOJITO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Skinnygirl</controllingFieldValue>
+            <valueName>COSMOPOLITAN WHITE CRANBERRY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Skinnygirl</controllingFieldValue>
+            <valueName>MARGARITA GRAPEFRUIT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Skinnygirl</controllingFieldValue>
+            <valueName>MARGARITA SPARKLING LIME</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Skinnygirl</controllingFieldValue>
+            <valueName>MARGARITA SWEETARITA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Skinnygirl</controllingFieldValue>
+            <valueName>MARGARITA WHITE PEACH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Skinnygirl</controllingFieldValue>
+            <valueName>MARGARITA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Skinnygirl</controllingFieldValue>
+            <valueName>PINA COLADA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Skinnygirl</controllingFieldValue>
+            <valueName>SANGRIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Skinnygirl</controllingFieldValue>
+            <valueName>BARENAKED</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Skinnygirl</controllingFieldValue>
+            <valueName>ISLAND COCONUT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Skinnygirl</controllingFieldValue>
+            <valueName>LEMON</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Skinnygirl</controllingFieldValue>
+            <valueName>TANGERINE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Skinnygirl</controllingFieldValue>
+            <valueName>WHITE CHERRY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Skinnygirl</controllingFieldValue>
+            <valueName>RED BLEND</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Skinnygirl</controllingFieldValue>
+            <valueName>CABERNET SAVIGNON</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Skinnygirl</controllingFieldValue>
+            <valueName>SPARKLING PROSECCO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Skinnygirl</controllingFieldValue>
+            <valueName>WHITE BLEND</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HOROYOI</controllingFieldValue>
+            <valueName>RTD WHITE GRAPE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HOROYOI</controllingFieldValue>
+            <valueName>RTD WHITE SOUR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basil Hayden's</controllingFieldValue>
+            <controllingFieldValue>Auchentoshan</controllingFieldValue>
+            <controllingFieldValue>Glen Garioch</controllingFieldValue>
+            <controllingFieldValue>Laphroaig</controllingFieldValue>
+            <valueName>10 YEAR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basil Hayden's</controllingFieldValue>
+            <valueName>DARK RYE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basil Hayden's</controllingFieldValue>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <controllingFieldValue>Kilbeggan</controllingFieldValue>
+            <controllingFieldValue>Knob Creek</controllingFieldValue>
+            <controllingFieldValue>Old Overholt</controllingFieldValue>
+            <valueName>Rye</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basil Hayden's</controllingFieldValue>
+            <valueName>TWO BY TWO RYE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basil Hayden's</controllingFieldValue>
+            <valueName>CARIBBEAN RESERVE RYE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basil Hayden's</controllingFieldValue>
+            <valueName>TWO BY TWO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basil Hayden's</controllingFieldValue>
+            <valueName>10YR Rye LTO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Booker's</controllingFieldValue>
+            <controllingFieldValue>Bowmore</controllingFieldValue>
+            <valueName>SPECIAL RESERVE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Teacher's</controllingFieldValue>
+            <controllingFieldValue>Bowmore</controllingFieldValue>
+            <controllingFieldValue>Yamazaki</controllingFieldValue>
+            <controllingFieldValue>Hakushu</controllingFieldValue>
+            <controllingFieldValue>Laphroaig</controllingFieldValue>
+            <valueName>25 YEAR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Teacher's</controllingFieldValue>
+            <valueName>50</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Teacher's</controllingFieldValue>
+            <valueName>GOLDEN THISTLE 12 YEAR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Teacher's</controllingFieldValue>
+            <valueName>HIGHLAND CREAM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Teacher's</controllingFieldValue>
+            <valueName>ORIGIN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bowmore</controllingFieldValue>
+            <valueName>10 YEAR SINGLE MALT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bowmore</controllingFieldValue>
+            <controllingFieldValue>Courvoisier</controllingFieldValue>
+            <controllingFieldValue>Auchentoshan</controllingFieldValue>
+            <controllingFieldValue>Yamazaki</controllingFieldValue>
+            <controllingFieldValue>Glen Garioch</controllingFieldValue>
+            <controllingFieldValue>Hakushu</controllingFieldValue>
+            <controllingFieldValue>Hibiki</controllingFieldValue>
+            <valueName>12 YEAR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bowmore</controllingFieldValue>
+            <controllingFieldValue>Canadian Club</controllingFieldValue>
+            <controllingFieldValue>Glen Garioch</controllingFieldValue>
+            <controllingFieldValue>Laphroaig</controllingFieldValue>
+            <valueName>15 YEAR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bowmore</controllingFieldValue>
+            <valueName>15 YEAR SINGLE MALT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bowmore</controllingFieldValue>
+            <controllingFieldValue>Auchentoshan</controllingFieldValue>
+            <controllingFieldValue>Yamazaki</controllingFieldValue>
+            <controllingFieldValue>Hakushu</controllingFieldValue>
+            <controllingFieldValue>Kilbeggan</controllingFieldValue>
+            <controllingFieldValue>Laphroaig</controllingFieldValue>
+            <valueName>18 YEAR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bowmore</controllingFieldValue>
+            <valueName>18 YEAR SINGLE MALT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bowmore</controllingFieldValue>
+            <valueName>1961 50 YEAR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bowmore</controllingFieldValue>
+            <valueName>23 YEAR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bowmore</controllingFieldValue>
+            <controllingFieldValue>Canadian Club</controllingFieldValue>
+            <controllingFieldValue>Hibiki</controllingFieldValue>
+            <controllingFieldValue>Alberta Premium</controllingFieldValue>
+            <controllingFieldValue>Laphroaig</controllingFieldValue>
+            <valueName>30 YEAR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bowmore</controllingFieldValue>
+            <valueName>BLACK 1964 50 YEAR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bowmore</controllingFieldValue>
+            <valueName>LEGEND</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bowmore</controllingFieldValue>
+            <valueName>No.1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bowmore</controllingFieldValue>
+            <valueName>SMALL BATCH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bowmore</controllingFieldValue>
+            <valueName>VAULTS 1ST RELEASE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bowmore</controllingFieldValue>
+            <valueName>SURF</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bowmore</controllingFieldValue>
+            <valueName>1973 43YEAR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Calico Jack</controllingFieldValue>
+            <controllingFieldValue>Cruzan</controllingFieldValue>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <controllingFieldValue>EFFEN</controllingFieldValue>
+            <controllingFieldValue>Aftershock</controllingFieldValue>
+            <controllingFieldValue>Windsor Canadian</controllingFieldValue>
+            <valueName>BLACK CHERRY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Calico Jack</controllingFieldValue>
+            <controllingFieldValue>Canadian Club</controllingFieldValue>
+            <controllingFieldValue>Cruzan</controllingFieldValue>
+            <valueName>SPICED</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Calico Jack</controllingFieldValue>
+            <controllingFieldValue>Canadian Club RTD</controllingFieldValue>
+            <valueName>SPICED RUM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Calico Jack</controllingFieldValue>
+            <controllingFieldValue>Sourz</controllingFieldValue>
+            <valueName>TROPICAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Calico Jack</controllingFieldValue>
+            <controllingFieldValue>Cruzan</controllingFieldValue>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>BANANA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Calico Jack</controllingFieldValue>
+            <controllingFieldValue>Cruzan</controllingFieldValue>
+            <valueName>ORANGE MANDARIN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Calico Jack</controllingFieldValue>
+            <valueName>CHOCOLATE COCONUT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Calico Jack</controllingFieldValue>
+            <valueName>WHITE GRAPE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Calico Jack</controllingFieldValue>
+            <valueName>KEY LIME PIE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Calico Jack</controllingFieldValue>
+            <valueName>WHIPPED CREAM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Calico Jack</controllingFieldValue>
+            <valueName>94 PROOF</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Calico Jack</controllingFieldValue>
+            <valueName>CHERRY SPICED</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Calico Jack</controllingFieldValue>
+            <valueName>PREMIUM BLACK SPICED</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canadian Club</controllingFieldValue>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <controllingFieldValue>Sourz</controllingFieldValue>
+            <valueName>APPLE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canadian Club</controllingFieldValue>
+            <controllingFieldValue>Auchentoshan</controllingFieldValue>
+            <valueName>CLASSIC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canadian Club</controllingFieldValue>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <valueName>MAPLE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canadian Club</controllingFieldValue>
+            <controllingFieldValue>Alberta Premium</controllingFieldValue>
+            <valueName>PREMIUM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canadian Club</controllingFieldValue>
+            <controllingFieldValue>Glen Garioch</controllingFieldValue>
+            <controllingFieldValue>Old Crow</controllingFieldValue>
+            <valueName>RESERVE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canadian Club</controllingFieldValue>
+            <controllingFieldValue>Tyrconnell</controllingFieldValue>
+            <valueName>SHERRY CASK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canadian Club</controllingFieldValue>
+            <valueName>5 YEAR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canadian Club</controllingFieldValue>
+            <valueName>6 YEAR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canadian Club</controllingFieldValue>
+            <valueName>20 YEAR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canadian Club</controllingFieldValue>
+            <valueName>BLACK 8YO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canadian Club</controllingFieldValue>
+            <controllingFieldValue>Old Crow</controllingFieldValue>
+            <valueName>ORIGINAL RTD COLA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canadian Club</controllingFieldValue>
+            <valueName>ORIGINAL RTD DRY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canadian Club</controllingFieldValue>
+            <valueName>ORIGINAL RTD GINGER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canadian Club</controllingFieldValue>
+            <valueName>PREMIUM 1858</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canadian Club</controllingFieldValue>
+            <valueName>PREMIUM RTD COLA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canadian Club</controllingFieldValue>
+            <valueName>PREMIUM RTD DRY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canadian Club</controllingFieldValue>
+            <valueName>100% RYE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canadian Club</controllingFieldValue>
+            <valueName>SPICED DOCK 57</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canadian Club</controllingFieldValue>
+            <valueName>DOCK 57 BLACKBERRY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canadian Club</controllingFieldValue>
+            <valueName>CHRONICLES 41 YEAR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tres Generaciones</controllingFieldValue>
+            <controllingFieldValue>100 Anos</controllingFieldValue>
+            <controllingFieldValue>El Tesoro</controllingFieldValue>
+            <controllingFieldValue>Hornitos</controllingFieldValue>
+            <valueName>ANEJO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Connemara</controllingFieldValue>
+            <valueName>CONNEMARA ORIGINAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Connemara</controllingFieldValue>
+            <valueName>Connemara Peated Single Malt</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Connemara</controllingFieldValue>
+            <valueName>Connemara Cask Strength</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Connemara</controllingFieldValue>
+            <valueName>Connemara 12</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Connemara</controllingFieldValue>
+            <valueName>Connemara Single Cask</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Connemara</controllingFieldValue>
+            <valueName>Connemara Turf Mòr</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tyrconnell</controllingFieldValue>
+            <valueName>MADEIRA CASK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tyrconnell</controllingFieldValue>
+            <valueName>PORT CASK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tyrconnell</controllingFieldValue>
+            <valueName>SINGLE CASK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tyrconnell</controllingFieldValue>
+            <controllingFieldValue>Vox</controllingFieldValue>
+            <controllingFieldValue>Laphroaig</controllingFieldValue>
+            <valueName>16 YEAR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Courvoisier</controllingFieldValue>
+            <controllingFieldValue>Auchentoshan</controllingFieldValue>
+            <controllingFieldValue>Hibiki</controllingFieldValue>
+            <controllingFieldValue>Laphroaig</controllingFieldValue>
+            <valueName>21 YEAR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Courvoisier</controllingFieldValue>
+            <valueName>VSOP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Courvoisier</controllingFieldValue>
+            <valueName>XO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Courvoisier</controllingFieldValue>
+            <valueName>L'Esprit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Courvoisier</controllingFieldValue>
+            <valueName>L'Essence</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Courvoisier</controllingFieldValue>
+            <valueName>Napoleon</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Courvoisier</controllingFieldValue>
+            <valueName>C</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Courvoisier</controllingFieldValue>
+            <valueName>VSOP EXCLUSIF</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Courvoisier</controllingFieldValue>
+            <valueName>Initiale</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Courvoisier</controllingFieldValue>
+            <valueName>DRAGON</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cruzan</controllingFieldValue>
+            <valueName>BLACKSTRAP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cruzan</controllingFieldValue>
+            <controllingFieldValue>Conch</controllingFieldValue>
+            <valueName>DARK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cruzan</controllingFieldValue>
+            <valueName>DARK 151</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cruzan</controllingFieldValue>
+            <valueName>ESTATE DIAMOND DARK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cruzan</controllingFieldValue>
+            <valueName>ESTATE DIAMOND LIGHT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cruzan</controllingFieldValue>
+            <valueName>Full Barrel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cruzan</controllingFieldValue>
+            <valueName>Half Barrel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cruzan</controllingFieldValue>
+            <controllingFieldValue>Conch</controllingFieldValue>
+            <valueName>LIGHT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cruzan</controllingFieldValue>
+            <controllingFieldValue>El Tesoro</controllingFieldValue>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <controllingFieldValue>Knob Creek</controllingFieldValue>
+            <valueName>SINGLE BARREL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cruzan</controllingFieldValue>
+            <valueName>AGED DARK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cruzan</controllingFieldValue>
+            <valueName>CREAM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cruzan</controllingFieldValue>
+            <valueName>HURRICANE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cruzan</controllingFieldValue>
+            <valueName>GUAVA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cruzan</controllingFieldValue>
+            <valueName>KEY LIME</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cruzan</controllingFieldValue>
+            <valueName>PASSION FRUIT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cruzan</controllingFieldValue>
+            <valueName>TROPICAL FRUIT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cruzan</controllingFieldValue>
+            <valueName>VELVET CINN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>PUCKER CORDIALS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <controllingFieldValue>Leroux</controllingFieldValue>
+            <valueName>TRIPLE SEC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>APPLE BARREL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>APRICOT BRANDY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>BLACKBERRY BRANDY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>CHERRY BRANDY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>COFFEE BRANDY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <controllingFieldValue>Leroux</controllingFieldValue>
+            <valueName>GINGER BRANDY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>CHOCOLATE CHERRY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>CHOCOLATE CHILI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>CHOCOLATE PEPPERMINT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>CHOCOLATE TRUFFLE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>PEACH BRANDY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>ANISETTE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>BLUE CURACAO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>COFFEE / ESPRESSO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>CREME DE ALMOND</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>CREME DE BANANA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>CREME DE CACAO DARK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <controllingFieldValue>Leroux</controllingFieldValue>
+            <valueName>CREME DE CACAO WHITE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>CREME DE CASSIS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>CREME DE MENTHE GREEN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>CREME DE MENTHE WHITE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>ORANGE CURACAO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>SLOE GIN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>ELDERFLOWER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>HOT DAMN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>KIRSCHWASSER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>PEPPERMINT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>BERRY BLIZZARD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>TROPICAL FREEZE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>JDK &amp; SONS ROUGE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>O3 PREMIUM ORANGE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>PECHE WHITE PEACH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>MIXOLOGIST COLLECTION BASIL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>MIXOLOGIST COLLECTION BLOOD ORANGE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>MIXOLOGIST COLLECTION CUCUMBER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>MIXOLOGIST COLLECTION GINGER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>MIXOLOGIST COLLECTION MUDDLED MINT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>BERRY FUSION</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>CHERI BERI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>GRAPE / WHITE GRAPE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>ISLAND PUNCH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>SOUR APPLE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>STRAWBERRY PASSION</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>ALABAMA SLAMMER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>BUTTERSHOTS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>CACTUS JUICE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>CINNAMON</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>CRANBERRY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>HAZELNUT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>KAMIKAZE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>KEY LARGO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>LEMON DROP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>MAD MELON</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>MELON</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>MICHIGAN CHERRY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>MINT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>MOUNTAIN STRAWBERRY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>PEACHTREE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>RED APPLE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>RED HEADED</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>ROOT BEER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>SEX ON THE BEACH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>SPEARMINT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>STRAWBERRY PATCH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>SUMMER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>TROPICAL COCONUT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>TROPICAL MANGO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>TROPICAL PAPYA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>TROPICAL PINEAPPLE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>TROPICAL PINEAPPLE COCONUT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>RAZZMATAZZ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>MIXED BERRY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>WASHINGTON APPLE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>WATERMELON SQUEEZE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <valueName>COCONUT AMARETTO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EFFEN</controllingFieldValue>
+            <valueName>BLOOD ORANGE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EFFEN</controllingFieldValue>
+            <valueName>GREEN APPLE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EFFEN</controllingFieldValue>
+            <valueName>YUZU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EFFEN</controllingFieldValue>
+            <valueName>YUZU CITRUS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EFFEN</controllingFieldValue>
+            <valueName>FLAVORED BLACK CHERRY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EFFEN</controllingFieldValue>
+            <valueName>FLAVORED BLOOD ORANGE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EFFEN</controllingFieldValue>
+            <valueName>FLAVORED CUCUMBER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EFFEN</controllingFieldValue>
+            <valueName>FLAVORED RASPBERRY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EFFEN</controllingFieldValue>
+            <valueName>CUCUMBER WITH TAJIN SEASONING</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EFFEN</controllingFieldValue>
+            <valueName>Flavored Dutch Raspberry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EFFEN</controllingFieldValue>
+            <valueName>Flavored Salted Caramel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EFFEN</controllingFieldValue>
+            <valueName>RTD LIME&amp;YUZU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EFFEN</controllingFieldValue>
+            <valueName>RTD RASPBERRY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EFFEN</controllingFieldValue>
+            <valueName>RTD BLOOD ORANGE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aftershock</controllingFieldValue>
+            <valueName>BLUE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aftershock</controllingFieldValue>
+            <valueName>CRYSTAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aftershock</controllingFieldValue>
+            <valueName>RED</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alberta Rye</controllingFieldValue>
+            <valueName>DARK BATCH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alberta Rye</controllingFieldValue>
+            <valueName>ORIGINAL WHISKY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ardmore</controllingFieldValue>
+            <valueName>LEGACY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ardmore</controllingFieldValue>
+            <valueName>MALT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ardmore</controllingFieldValue>
+            <controllingFieldValue>Laphroaig</controllingFieldValue>
+            <valueName>PORTWOOD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ardmore</controllingFieldValue>
+            <valueName>TRADITIONAL PEATED</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ardmore</controllingFieldValue>
+            <controllingFieldValue>Laphroaig</controllingFieldValue>
+            <valueName>TRIPLE WOOD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Auchentoshan</controllingFieldValue>
+            <valueName>1965</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Auchentoshan</controllingFieldValue>
+            <valueName>1988</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Auchentoshan</controllingFieldValue>
+            <valueName>3 WOOD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Auchentoshan</controllingFieldValue>
+            <valueName>AMERICAN OAK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Auchentoshan</controllingFieldValue>
+            <valueName>BARTENDER'S MALT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Auchentoshan</controllingFieldValue>
+            <valueName>Copper Dog</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Auchentoshan</controllingFieldValue>
+            <valueName>HEARTWOOD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Baker's</controllingFieldValue>
+            <controllingFieldValue>Knob Creek</controllingFieldValue>
+            <valueName>Bourbon</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Baker's</controllingFieldValue>
+            <valueName>ORIGINAL/7 YEAR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vox</controllingFieldValue>
+            <controllingFieldValue>Yamazaki</controllingFieldValue>
+            <valueName>MADEIRA CASK FINISH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vox</controllingFieldValue>
+            <controllingFieldValue>Yamazaki</controllingFieldValue>
+            <valueName>PORT CASK FINISH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vox</controllingFieldValue>
+            <controllingFieldValue>Yamazaki</controllingFieldValue>
+            <valueName>SHERRY CASK FINISH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Windsor Canadian</controllingFieldValue>
+            <valueName>3 YEAR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>El Tesoro</controllingFieldValue>
+            <valueName>PARADISO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>El Tesoro</controllingFieldValue>
+            <valueName>REPOSADO TEQUILA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>El Tesoro</controllingFieldValue>
+            <valueName>ANEJO TEQUILA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>El Tesoro</controllingFieldValue>
+            <valueName>SINGLE BARREL REPOSADO TEQUILA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>El Tesoro</controllingFieldValue>
+            <valueName>BLANCO TEQUILA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>El Tesoro</controllingFieldValue>
+            <valueName>PLATINUM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>El Tesoro</controllingFieldValue>
+            <valueName>Extra Anejo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Leroux</controllingFieldValue>
+            <valueName>FLAVORED BRANDY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Leroux</controllingFieldValue>
+            <valueName>FLAVORED CORDIAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Leroux</controllingFieldValue>
+            <valueName>Polish Blackberry Brandy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Glen Garioch</controllingFieldValue>
+            <valueName>VINTAGE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Glen Garioch</controllingFieldValue>
+            <valueName>VIRGIN OAK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Giro</controllingFieldValue>
+            <valueName>LIQUEUR GOLD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Giro</controllingFieldValue>
+            <valueName>LIQUEUR SILVER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hakushu</controllingFieldValue>
+            <valueName>Single Malt Whisky</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hibiki</controllingFieldValue>
+            <valueName>17 YEAR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hibiki</controllingFieldValue>
+            <valueName>HARMONY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hornitos</controllingFieldValue>
+            <valueName>ANEJO CRISTALINO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hornitos</controllingFieldValue>
+            <valueName>BLACK BARREL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hornitos</controllingFieldValue>
+            <valueName>LIME SHOT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hornitos</controllingFieldValue>
+            <valueName>PLATA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hornitos</controllingFieldValue>
+            <valueName>CRISTALINO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hornitos</controllingFieldValue>
+            <valueName>SPICED HONEY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <valueName>BLACK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <valueName>BONDED</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <valueName>DEVIL'S CUT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <valueName>DISTILLER'S CUT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <valueName>DOUBLE OAK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <valueName>FIRE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <valueName>HONEY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <valueName>HOT TODDY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <valueName>JIM BEAM &amp; COLA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <valueName>JIM BEAM &amp; GINGER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <valueName>JIM BEAM BLACK &amp; COLA 5.0%</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <valueName>JIM BEAM BLACK &amp; COLA DS 7.0%</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <valueName>JIM BEAM GOLD &amp; COLA 7.0% (NZ)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <valueName>JIM BEAM LONG BLACK &amp; COLA 7.0%</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <valueName>JIM BEAM WHITE &amp; COLA 3.5%</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <valueName>JIM BEAM WHITE &amp; COLA 4.8%</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <valueName>JIM BEAM WHITE &amp; COLA DS 6.7%</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <valueName>JIM BEAM WHITE &amp; COLA KS 9.0%</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <valueName>JIM BEAM WHITE &amp; COLA ZERO 4.8%</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <valueName>JIM BEAM WHITE &amp; DRY 4.8%</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <valueName>ORIGINAL/WHITE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <valueName>Red Stag Black Cherry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <valueName>REPEAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <valueName>JIM BEAM WHITE &amp; COLA 4.5%</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <valueName>JIM BEAM WHITE &amp; COLA 10%</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <valueName>Distillers Masterpiece</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <valueName>Flavored Kentucky Fire</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <valueName>Red Stag Apple Cider</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <valueName>Red Stag Cinnamon</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <valueName>Red Stag Honey Tea</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <valueName>Repeal Batch</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <valueName>Signature Craft Harvest Barley</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <valueName>Signature Craft Harvest Brown Rice</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <valueName>Signature Craft Harvest TRITI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <valueName>Signature Craft Quarter Cask</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <valueName>White RTD Cola</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <valueName>White RTD Dry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <valueName>White RTD Ginger</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <valueName>WHITE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <valueName>7 YEAR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <valueName>Choice</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <valueName>Jacob's Ghost White Whiskey</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <valueName>Signature Craft 12 YEAR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <valueName>Signature Craft Harvest Wheat</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <valueName>Signature Craft Harvest Oat</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <valueName>Signature Craft Harvest Rye</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <valueName>BLACK RTD COLA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <valueName>GOLD RTD COLA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam</controllingFieldValue>
+            <valueName>DEVILS CUT RTD COLA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Makers Mark</controllingFieldValue>
+            <valueName>46</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Makers Mark</controllingFieldValue>
+            <controllingFieldValue>Laphroaig</controllingFieldValue>
+            <valueName>CASK STRENGTH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Makers Mark</controllingFieldValue>
+            <valueName>MINT JULEP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Makers Mark</controllingFieldValue>
+            <valueName>ORIGINAL/RED TOP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Makers Mark</controllingFieldValue>
+            <valueName>PRIVATE SELECT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legent</controllingFieldValue>
+            <valueName>Legent</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Koyomi</controllingFieldValue>
+            <valueName>KOYOMI HIGHBALL BLOOD ORANGE &amp; BITTERS 4.2%</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Koyomi</controllingFieldValue>
+            <valueName>KOYOMI HIGHBALL MANDARIN &amp; GRAPEFRUIT 4.2%</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Koyomi</controllingFieldValue>
+            <valueName>KOYOMI HIGHBALL YUZU &amp; LIME 4.2%</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kamchatka</controllingFieldValue>
+            <valueName>CITRUS VODKA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kamchatka</controllingFieldValue>
+            <valueName>RASPBERRY VODKA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Midori RTD</controllingFieldValue>
+            <valueName>MIDORI ILLUSION 4.5%</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Midori RTD</controllingFieldValue>
+            <valueName>MIDORI SPLICE 4.5%</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kessler</controllingFieldValue>
+            <valueName>American Blended</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kilbeggan</controllingFieldValue>
+            <controllingFieldValue>Knob Creek</controllingFieldValue>
+            <valueName>SINGLE GRAIN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kilbeggan</controllingFieldValue>
+            <valueName>KILBEGGAN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kilbeggan</controllingFieldValue>
+            <controllingFieldValue>Knob Creek</controllingFieldValue>
+            <valueName>18 YEAR IRISH WHISKEY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sourz</controllingFieldValue>
+            <valueName>BLACKCURRANT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sourz</controllingFieldValue>
+            <valueName>PASSIONFRUIT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sourz</controllingFieldValue>
+            <valueName>RAINBOW ICE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Knob Creek</controllingFieldValue>
+            <valueName>25TH ANNIVERSARY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Knob Creek</controllingFieldValue>
+            <valueName>SINGLE BARREL RYE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Knob Creek</controllingFieldValue>
+            <valueName>CASK STRENGTH RYE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Knob Creek</controllingFieldValue>
+            <valueName>SMOKED MAPLE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Knob Creek</controllingFieldValue>
+            <valueName>TWICE BARRELED RYE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alberta Premium</controllingFieldValue>
+            <valueName>Dark Horse</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Laphroaig</controllingFieldValue>
+            <valueName>27 YEAR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Laphroaig</controllingFieldValue>
+            <valueName>28 YEAR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Laphroaig</controllingFieldValue>
+            <valueName>CAIRDEAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Laphroaig</controllingFieldValue>
+            <valueName>Four Oak</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Laphroaig</controllingFieldValue>
+            <valueName>LORE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Laphroaig</controllingFieldValue>
+            <valueName>QUARTER CASK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Laphroaig</controllingFieldValue>
+            <valueName>SELECT CASK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Laphroaig</controllingFieldValue>
+            <valueName>PX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Laphroaig</controllingFieldValue>
+            <valueName>HIGHGROVE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Little Book</controllingFieldValue>
+            <valueName>Little Book</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>McClelland's</controllingFieldValue>
+            <valueName>HIGHLAND</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>McClelland's</controllingFieldValue>
+            <valueName>ISLAY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>McClelland's</controllingFieldValue>
+            <valueName>LOWLAND</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>McClelland's</controllingFieldValue>
+            <valueName>SPEYSIDE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Midori</controllingFieldValue>
+            <valueName>BURST</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Midori</controllingFieldValue>
+            <valueName>ILLUSION</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Midori</controllingFieldValue>
+            <valueName>LENA BANANA LIQUEUR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Midori</controllingFieldValue>
+            <valueName>MELON LIQUEUR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Midori</controllingFieldValue>
+            <valueName>MOHALA MANGO LIQUEUR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Midori</controllingFieldValue>
+            <valueName>PUNCH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Midori</controllingFieldValue>
+            <valueName>RUBIS STRAWBERRY LIQUEUR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Midori</controllingFieldValue>
+            <valueName>SPLICE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Midori</controllingFieldValue>
+            <valueName>THE BLUE LIQUEUR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Old Crow</controllingFieldValue>
+            <valueName>COLA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Old Crow</controllingFieldValue>
+            <valueName>ORIGINAL COLA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Old Grand Dad</controllingFieldValue>
+            <valueName>BIB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Old Grand Dad</controllingFieldValue>
+            <valueName>114</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Larios</controllingFieldValue>
+            <valueName>LONDON DRY GIN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Larios</controllingFieldValue>
+            <valueName>CITRUS GIN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Larios</controllingFieldValue>
+            <valueName>ROSE GIN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Larios</controllingFieldValue>
+            <valueName>12 GIN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Old Overholt</controllingFieldValue>
+            <valueName>RYE BONDED</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OAKSMITH</controllingFieldValue>
+            <valueName>OAKSMITH GOLD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OAKSMITH</controllingFieldValue>
+            <valueName>OAKSMITH ORIGINAL</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

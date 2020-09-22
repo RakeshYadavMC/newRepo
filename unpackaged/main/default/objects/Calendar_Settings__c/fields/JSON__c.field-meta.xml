@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JSON__c</fullName>
+    <description>Mapped value from the Object's Field to the corresponding JSON existing standard field in the dhtmlxGantt code base</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Mapped value from the Object's Field to the corresponding JSON existing standard field in the dhtmlxGantt code base</inlineHelpText>
+    <label>JSON</label>
+    <length>255</length>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

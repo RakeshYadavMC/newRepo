@@ -1,0 +1,6 @@
+<p>Thank you for taking the time to contact us regarding {!Case.Template_Product_Name__c}. <br />
+Alcoholic beverages are made with alcohol, water, and sometimes other additives such as sugars or flavoring. The freezing point depends on the spirit&#39;s proof, which is double its alcohol percentage.  </p>
+
+<p>When freezers are set to a very low temperature, below 5&deg; Fahrenheit (-5 for Beam), {!Case.Template_Product_Name__c} can freeze. Many modern freezers can achieve these lower temperatures in parts of the freezer. It&#39;s important to know that the quality of the liquid is not impacted if the product does freeze.  <br /><br />
+Thanks again for contacting us. We hope you continue to enjoy {!Case.Template_Brand_Name__c} products responsibly!<br />
+ </p>

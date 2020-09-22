@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Port__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Airport/Port Location Serviced by the GTR Account</description>
+    <externalId>false</externalId>
+    <label>Port Name</label>
+    <lookupFilter>
+        <active>false</active>
+        <filterItems>
+            <field>$Source.Type</field>
+            <operation>equals</operation>
+            <value>Airport</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Accounts (Airport)</relationshipLabel>
+    <relationshipName>Accounts</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

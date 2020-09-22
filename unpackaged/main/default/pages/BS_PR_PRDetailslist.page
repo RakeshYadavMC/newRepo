@@ -1,0 +1,942 @@
+<apex:page standardController="PR_Header__c" extensions="BS_PR_EditPRDetailsListCtrl2" tabStyle="PR_Detail__c" cache="true" lightningStylesheets="true" docType="html-5.0" >
+    <head>
+        <apex:slds /> 
+    </head>         
+      <apex:includescript value="//code.jquery.com/jquery-3.4.1.min.js" / >        
+        <apex:includescript value="//cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js" />
+        <apex:stylesheet value="//cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css" />
+            
+        <style>
+            
+            .dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover{    
+            background-color:#fff;
+            border-radius:50%;    
+            }
+            .dataTables_wrapper .dataTables_paginate .paginate_button:hover,.dataTables_wrapper .dataTables_paginate .paginate_button.current{
+            background: #0070d2;
+            color: #fff !important;
+            }
+            .slds-scope .slds-text-heading--label{
+            color: #ffffff;
+            background: #3a6690;
+            }
+            .slds-scope .slds-select{
+            max-width: 160px;
+            background-color: #fff;
+            color: #16325c;
+            border: 1px solid #d8dde6;
+            border-radius: .25rem;
+            font-size: 0.73rem;
+            width: auto;
+            transition: border .1s linear,background-color .1s linear;
+            height: calc(1.5rem + (1px * 2));
+            min-width: 160px;
+            }       
+            table.dataTable thead th{
+            font-size:0.7rem;
+            }
+            #prDataTableView select{
+            max-width: 160px;
+            background-color: #fff;
+            color: #16325c;
+            border: 1px solid #d8dde6;
+            border-radius: .25rem;
+            font-size: 0.73rem;
+            width:auto;
+            transition: border .1s linear,background-color .1s linear;
+            height: auto;
+            min-width: 160px;      
+            }
+            .multiSelectPicklistRow td:first-child,.multiSelectPicklistRow td:last-child{
+            max-width: 160px;
+            }
+            #prDataTableView .multiSelectPicklistRow select{
+            height: 100px;      
+            }
+            .slds .slds-table td {
+            padding: 8px 49px !important;
+            }
+            .slds .slds-table .slds-truncate {
+            margin: 0px 0px 0px 30px;
+            }
+            table {
+            border-collapse: collapse;
+            }
+            tr {
+            border: none;
+            }
+            table.dataTable thead{
+            padding: 9px 13px;
+            }
+            #prDataTable_wrapper #prDataTableView_wrapper td {
+            border-right: solid 1px #d3d3d3;
+            border-left: solid 1px #d3d3d3;
+            margin:0 auto;
+            text-align:center;
+            font-size:0.7rem;
+            padding:0.2rem 0.5rem;
+            }
+            .slds .slds-table a:hover {
+            color: #0070d2 !important;
+            }
+            .slds .slds-text-heading--label {
+            color: #fff;
+            background-color: #16325c;            
+            }
+            table.dataTable thead th {
+            border-bottom: none;
+            }            
+            .slds .slds-table--bordered {
+            border-top: none;
+            }
+            
+            .slds .slds-large-order--3 {
+            margin: 11px 2em -2em 13px;
+            }
+            .slds .slds-button--brand.slds .slds-button {
+            0px 0px 0px 42% !important;
+            }            
+            .dataTables_scrollHeadInner {
+            border-bottom: 1px solid #d3d3d3;
+            }
+            
+            .dataTables_wrapper.no-footer .dataTables_scrollBody {
+            border-bottom: none;
+            }
+            table.dataTable.no-footer {
+            margin: 0em 0px 0px 0px !important;
+            }
+            table.dataTable.no-footer {
+            margin: 1em 0 0 0;
+            }
+            .dataTables_wrapper .dataTables_length {
+            margin: 0px 0px 10px 0px;
+            }
+            table.dataTable.no-footer {
+            margin: 1em 0 0 0;
+            }           
+            .dataTables_scrollBody {
+            overflow-y: hidden !important;
+            overflow-x: auto !important;
+            }
+            .dataTables_wrapper.no-footer div.dataTables_scrollBody table:not(.multiSelectPicklistTable) {
+            border-bottom: 1px solid #d3d3d3;
+            }
+            table.dataTable thead .sorting,
+            table.dataTable thead.sorting_asc,
+            table.dataTable thead .sorting_desc {
+            background-size: 15px;
+            padding: 15px 13px;
+            background-color: #1b5297;
+            color: #fff;
+            text-align: center;
+            }
+            
+            .slds-scope .slds-table thead th {
+            background-color: rgb(27, 82, 151);
+            color: rgb(255, 255, 255);
+            padding: .25rem .5rem;
+            text-align: center;
+            padding: 8px 0;
+            }
+            }
+            
+            .dataTables_wrapper .dataTables_length {
+            bottom: 5px;
+            position: absolute;
+            float: left;
+            }
+            .slds .slds-table th,
+            .slds .slds-table td {
+            padding: 8px 1px;
+            }
+            .dataTables_wrapper .dataTables_scroll {
+            margin: 1em 0;
+            }
+            .slds .slds-text-heading--label {
+            font-size: 11px;
+            }
+            @media (min-width: 64em) {
+            .slds .slds-large-size--6-of-6 {
+            width: 93vw;
+            }
+            }
+            .dataTables_wrapper .dataTables_filter,
+            .dataTables_wrapper .dataTables_paginate {
+            float: right;
+            text-align: center;            
+            }
+            .slds table {
+            border: 1px solid #d3d3d3;
+            }
+            .dataTables_wrapper.no-footer .dataTables_scrollBody {
+            border-bottom: none;
+            }
+            .slds-button a {
+            color: #fff;
+            }
+            .dataTables_wrapper .dataTables_filter {
+              margin: -29px 1em;
+            //margin: 0.3rem 0rem 0.3rem 0;
+            }
+            .dataTables_filter input {
+            background-color: #fff;
+            border: 1px solid #dddbda;
+            border-radius: .25rem;
+            //width: 100%;
+            transition: border .1s linear,background-color .1s linear;
+            display: inline-block;
+            padding: 0 1rem 0 .75rem;
+            line-height: 1.5rem;
+            min-height: calc(1.5rem + 2px);
+            } 
+            .slds-users-acct {
+            visibility: hidden;
+            }
+            .slds-users-acct>.slds-container--medium {
+            margin: auto;
+            }
+            .slds-users-acct .dataTables_wrapper .dataTables_info {            
+            left: 0;            
+            }
+            .slds .slds-button>a:hover, .slds .slds-button>a:focus {
+            text-decoration: none;
+            color: #fff;
+            }
+            .slds-form_horizontal{
+            margin:0 auto;
+            }
+            #{
+            display:none;
+            }
+            .slds-checkbox--toggle.slds-grid.checkbox-container{
+            width: fit-content;
+            }
+            .slds-form__row>.slds-form__item{
+            min-width: 150px;
+            }
+            .slds-form__row{
+            padding-bottom:10px;
+            }
+            #prDataTableView_wrapper{
+            max-width: unset !important;
+            margin: unset !important;
+            }
+            .excelPanel{
+            	padding-top: 3px !important;
+            }
+            
+            .editPanel{
+            	display:flex !important;
+            	padding-top: 3px !important;
+            }
+            
+            body {font-family: Arial, Helvetica, sans-serif;}
+            
+            /* The Modal (background) */
+            .modal {
+            /*display: none;  Hidden by default */
+            position: fixed; /* Stay in place */
+            z-index: 1; /* Sit on top */
+            padding-top: 100px; /* Location of the box */
+            left: 0;
+            top: 0;
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            overflow: auto; /* Enable scroll if needed */
+            background-color: rgb(0,0,0); /* Fallback color */
+            background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+            }
+            
+            /* Modal Content */
+            .modal-content {
+            background-color: #fefefe;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 55%;
+            }                                               
+            p.text-ellipse {
+            width: 150px; 
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            }
+            .multiSelectPicklistTable tr td{
+            border-top: 1px solid #fff !important;
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+            }
+            .multiSelectPicklistTable tr:first-child{
+            display:none;
+            }
+            .multiSelectPicklistCell img{   
+            max-width: unset;
+            height: 20px;
+            width: 24px;
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+            }
+            #prDataTableView_length{
+                display:none;
+            }
+            // .slds-scope .slds-table tbody tr:first-child td,.slds-scope .slds-table tbody tr:first-child:hover td {
+            //background-color: rgb(27, 82, 151);
+            //color: rgb(255, 255, 255);
+            //padding: 8px .9rem;
+            //text-align: center;
+            //} 
+            //.dataTables_scrollHead{
+            //  display:none;
+            //}
+            .slds-icon_container{
+                padding: 0.2rem !important;
+            }
+            .saveAllButton{
+                height: 1.8rem; !important;
+            }
+            .hide{
+            display:none;
+          }
+            .filterText {
+            visibility: hidden;
+            }
+            table#prDataTableView {
+                text-align: left;
+                position: relative;
+                border-collapse: collapse; 
+            }
+            
+            table#prDataTableView thead th {
+                position: sticky;
+                top: -1px;
+                z-index:9999;
+                padding-right:20px;
+            }
+        </style>        
+        
+        <apex:form id="formId" styleClass="slds-scope">            
+            
+            <div class="slds-users-acct">
+                <!-- <h1 class="slds-text-heading--large slds-text-align--center slds-m-bottom--large">PR Details</h1> -->
+                <!-- old action panel for ref -->
+                <!--
+                <apex:outputPanel id="togglepanel" rendered="{!OR(PR_Header__c.Status__c='New',AND(OR(PR_Header__c.Status__c='Submitted',PR_Header__c.Status__c='Approved By Procurement'),isAccessible))}">
+                    <div class="slds-form-element">
+                        <div id="editModeToggleDiv" class="topdivs">                                                    
+                            <label class="slds-checkbox--toggle slds-grid checkbox-container editModeToggle">
+                                <span class="slds-form-element__label slds-m-bottom--none">Edit Mode</span>
+                                <input id="toggle1" name="checkbox" type="checkbox" aria-describedby="toggle-desc" />
+                                <span id="toggle-desc" class="slds-checkbox--faux_container" aria-live="assertive">
+                                    <span class="slds-checkbox--faux"></span>
+                                    <span class="slds-checkbox--on">Enabled</span>
+                                    <span class="slds-checkbox--off">Disabled</span>
+                                </span>
+                                <a href="/apex/BS_PR_ExportPRDetails?id={!PR_Header__c.id}" class="slds-icon_container slds-text-link_reset" title="Export">                                                                                                                                                                                       
+                                    <span class="slds-icon_container slds-icon-action-download" title="Export as excel file">
+                                        <svg aria-hidden="true" class="slds-icon slds-icon_xx-small">
+                                            <use href="{!URLFOR($Asset.SLDS, '/assets/icons/action-sprite/svg/symbols.svg#download')}"></use>
+                                        </svg>
+                                        <span class="slds-assistive-text">Export as excel file</span>
+                                    </span>
+                                </a>                                
+                            </label>                           
+                        </div>                        
+                        <div id="successMessage" style="text-align:center" class="topdivs">
+                            <span style="text-align:center;color:green;">
+                                Saved...
+                            </span>
+                        </div>
+                        <div id="saveCancleButtonsDiv" class="topdivs">
+                            <input id="saveAllButton" type="button" value="Save All" class="saveAllButton slds-button slds-button_brand" onclick="saveAllAction();"/>
+                            <input id="cancelAllButton" type="button" value="Back" class="saveAllButton slds-button slds-button_neutral" onclick="cancelAllPRDetails();"/>    
+                        </div>                                                
+                    </div>
+                </apex:outputPanel>-->
+                <!-- end action panel for ref-->
+                
+                <!-- Start excel panel section -->
+                <!-- 06/17/2020 - Arun Sharma - Added new setion to display export button in any case but edit on New, Submitted, Approved By Procurement statuses & user access  -->
+                <!-- ref: jira ticket SAL-237 -->
+                <apex:outputPanel id="actionPanel">
+                    <div class="slds-form-element">
+                        <div id="editModeToggleDiv" class="topdivs">                                                    
+                            <label class="slds-checkbox--toggle slds-grid checkbox-container editModeToggle">
+                                <apex:outputPanel id="editPanel" styleClass="editPanel" rendered="{!OR(PR_Header__c.Status__c='New',AND(OR(PR_Header__c.Status__c='Submitted',PR_Header__c.Status__c='Approved By Procurement'),isAccessible))}">
+                                    <span class="slds-form-element__label slds-m-bottom--none">Edit Mode</span>
+                                    <input id="toggle1" name="checkbox" type="checkbox" aria-describedby="toggle-desc" />
+                                    <span id="toggle-desc" class="slds-checkbox--faux_container" aria-live="assertive">
+                                        <span class="slds-checkbox--faux"></span>
+                                        <span class="slds-checkbox--on">Enabled</span>
+                                        <span class="slds-checkbox--off">Disabled</span>
+                                    </span>
+                                </apex:outputPanel>     
+                                <apex:outputPanel id="excelPanel" styleClass="excelPanel">
+                                    <a href="/apex/BS_PR_ExportPRDetails?id={!PR_Header__c.id}" class="slds-icon_container slds-text-link_reset" title="Export">                                                                                                                                                                                       
+                                        <span class="slds-icon_container slds-icon-action-download" title="Export as excel file">
+                                            <svg aria-hidden="true" class="slds-icon slds-icon_xx-small">
+                                                <use href="{!URLFOR($Asset.SLDS, '/assets/icons/action-sprite/svg/symbols.svg#download')}"></use>
+                                            </svg>
+                                            <span class="slds-assistive-text">Export as excel file</span>
+                                        </span>
+                                    </a>   
+                                </apex:outputPanel>
+                            </label>                           
+                        </div>                        
+                        <div id="successMessage" style="text-align:center" class="topdivs">
+                            <span style="text-align:center;color:green;">
+                                Saved...
+                            </span>
+                        </div>
+                        <div id="saveCancleButtonsDiv" class="topdivs">
+                            <input id="saveAllButton" type="button" value="Save All" class="saveAllButton slds-button slds-button_brand" onclick="saveAllAction();"/>
+                            <input id="cancelAllButton" type="button" value="Back" class="saveAllButton slds-button slds-button_neutral" onclick="cancelAllPRDetails();"/>    
+                        </div>                                                
+                    </div>
+                </apex:outputPanel> 
+                <!-- End excel panel section-->
+                <!-- View Mode --->
+                <apex:outputPanel id="prDataTablePanel">                    
+                    <apex:pageMessages id="errormsg"></apex:pageMessages>
+                    <div id="prDataTableViewDiv">                    
+                        <div class='slds-grid'>                    
+                            <div class="slds-col slds-size--1-of-1">                            
+                                <table id="prDataTableView" class="slds-table slds-table--bordered slds-table--cell-buffer">
+                                    <thead>
+                                        <tr class="slds-text-heading--label">                                                                                                                           
+                                            <th scope="col">                                                
+                                                <div>#</div>                                                
+                                            </th>
+                                            <th scope="col">                                                
+                                                <div>Act</div>                                                
+                                            </th>
+                                            <th scope="col">
+                                                <apex:outputPanel rendered="{!OR(AND(isAccessible,PR_Header__c.Date_Time_Approval_Submission__c!=null,!PR_Header__c.Finance_Approved__c),PR_Header__c.Finance_Rejected__c)}">
+                                                <div class="slds-truncate">Fin Approved?</div>
+                                                </apex:outputPanel>
+                                            </th>                                            
+                                            <th scope="col">
+                                                <apex:outputPanel rendered="{!OR(AND(isAccessible,PR_Header__c.Date_Time_Approval_Submission__c!=null,!PR_Header__c.Finance_Approved__c),PR_Header__c.Finance_Rejected__c)}">
+                                                    <div class="slds-truncate">Rejection Comments</div> 
+                                                </apex:outputPanel>
+                                            </th>
+                                            <th scope="col">
+                                                <apex:outputPanel rendered="{!isProcurementEditable}">
+                                                    <div class="slds-truncate">IO</div>
+                                                </apex:outputPanel>                                                                                                      
+                                            </th>
+                                            <th scope="col">
+                                                <div class="slds-truncate">Campaign</div>
+                                            </th>                                            
+                                            <th scope="col">
+                                                <div class="slds-truncate">Brand</div>
+                                            </th>
+                                            <th scope="col">
+                                                <div class="slds-truncate">Territory</div>
+                                            </th>                                                                                                                                                                               
+                                            <th scope="col">
+                                                <apex:outputPanel rendered="{!isAccessible}"><div class="slds-truncate">AA Category</div> </apex:outputPanel>
+                                            </th>
+                                            <th scope="col">
+                                                <apex:outputPanel rendered="{!isAccessible}"><div class="slds-truncate">Material Group</div> </apex:outputPanel>
+                                            </th>
+                                            <th scope="col">
+                                                <apex:outputPanel rendered="{!isAccessible}"><div class="slds-truncate">Plant</div> </apex:outputPanel>
+                                            </th>
+                                            <th scope="col">
+                                                <apex:outputPanel rendered="{!isProcurementEditable}">
+                                                    <div class="slds-truncate">Available Budget</div>
+                                                </apex:outputPanel>                                                
+                                            </th> 
+                                            <th scope="col">
+                                                <div class="slds-truncate">PR Amount</div>
+                                            </th>
+                                            <th scope="col" title="Do not enter vendor name, brand, territory or month in description.">
+                                                <div class="slds-truncate">Description</div>
+                                            </th>
+                                            <th scope="col">
+                                                <div class="slds-truncate">GL AccountType</div>
+                                            </th>
+                                            <th scope="col">
+                                                <div class="slds-truncate">GL Description</div>
+                                            </th>
+                                            <th scope="col">
+                                                <apex:outputPanel rendered="{!isProcurementEditable}">
+                                                  <div class="slds-truncate">GL Code</div>
+                                                </apex:outputPanel>                                                
+                                            </th>
+                                            <th scope="col">
+                                                <apex:outputPanel rendered="{!isProcurementEditable}">
+                                                  <div class="slds-truncate text-ellipse">GL Details</div>
+                                                </apex:outputPanel>                                                
+                                            </th>                                                                                                                               
+                                            <th scope="col">
+                                                <apex:outputPanel rendered="{!isProcurementEditable}">
+                                                  <div class="slds-truncate">GL Comments</div>
+                                                </apex:outputPanel>                                                
+                                            </th>
+                                            <th scope="col">
+                                                <div class="slds-truncate">Start Month</div>
+                                            </th>
+                                            <th scope="col">
+                                                <div class="slds-truncate">End Month</div>
+                                            </th>                                            
+                                        </tr>
+                                    </thead>
+                                    <tbody>                                        
+                                        <apex:variable value="{!1}" var="rowNum"/>
+                                        <apex:repeat value="{!PRDetailsList}" var="pd">
+                                            <tr>
+                                                <td scope="row" data-label="SNO">
+                                                    <div>{!rowNum}</div>
+                                              </td>
+                                                <td scope="row" data-label="Act">                                                
+                                                    <apex:outputPanel rendered="{!OR(PR_Header__c.Status__c='New',AND(OR(PR_Header__c.Status__c='Submitted',PR_Header__c.Status__c='Approved By Procurement'),isAccessible))}">
+                                                    <apex:outputPanel rendered="{!AND(OR(PR_Header__c.Status__c='New',isAccessible),NOT(pd.Hidden_Edit__c))}" style="position:relative;left:-15px;">                                                        
+                                                        <a href="javascript:void(0);" class="slds-text-link_reset" title="Edit PR Details" onclick="editRowAction('{!pd.Id}');return false;">
+                                                            <span class="slds-icon_container slds-icon-action-edit" title="Edit Row">
+                                                                <svg aria-hidden="true" class="slds-icon slds-icon_xx-small">
+                                                                    <use href="{!URLFOR($Asset.SLDS, '/assets/icons/action-sprite/svg/symbols.svg#edit')}"></use>
+                                                                </svg>
+                                                                <span class="slds-assistive-text">Edit Row</span>
+                                                            </span>
+                                                        </a>
+                                                        <a href="/{!pd.Id}" target="_blank" class="slds-button slds-text-link_reset" title="{!pd.Help_Text__c}">                                                  
+                                                            <span class="slds-text-link" style="font-size:8px;"><apex:outputField value="{!pd.Status_Flag__c}"/></span>                                                    
+                                                        </a>
+                                                        <apex:outputPanel rendered="{!pd.Phasing_Records_Count__c> 0}">
+                                                            <a href="javascript:void(0);" class="slds-text-link_reset" title="Edit Phasing" onclick="showEditPhasingPopup('{!pd.Id}');return false;">
+                                                                <span class="slds-icon_container slds-icon-action-share" title="Edit Phasing">
+                                                                    <svg aria-hidden="true" class="slds-icon slds-icon_xx-small">
+                                                                        <use href="{!URLFOR($Asset.SLDS, '/assets/icons/utility-sprite/svg/symbols.svg#new_window')}"></use>
+                                                                    </svg>
+                                                                    <span class="slds-assistive-text">Edit Phasing</span>
+                                                                </span>
+                                                            </a>                                                
+                                                        </apex:outputPanel>
+                                                        <a href="javascript:void(0);" class="slds-text-link_reset" title="Delete" onclick="deleteRowAction('{!pd.Id}');return false;">
+                                                            <span class="slds-icon_container slds-icon-action-delete" title="Delete">
+                                                                <svg aria-hidden="true" class="slds-icon slds-icon_xx-small">
+                                                                    <use href="{!URLFOR($Asset.SLDS, '/assets/icons/action-sprite/svg/symbols.svg#delete')}"></use>
+                                                                </svg>
+                                                                <span class="slds-assistive-text">Delete</span>
+                                                            </span>
+                                                        </a>
+                                                        <apex:outputPanel rendered="{!pd.GL_Code2__c!=null}">
+                                                            <a href="javascript:void(0);" class="slds-text-link_reset" title="Clone" onclick="clonePRDRowAction('{!pd.Id}');return false;">
+                                                                <span class="slds-icon_container slds-icon-action-clone" title="Clone">
+                                                                    <svg aria-hidden="true" class="slds-icon slds-icon_xx-small">
+                                                                        <use href="{!URLFOR($Asset.SLDS, '/assets/icons/action-sprite/svg/symbols.svg#clone')}"></use>
+                                                                    </svg>
+                                                                    <span class="slds-assistive-text">Clone</span>
+                                                                </span>
+                                                            </a>
+                                                        </apex:outputPanel>
+                                                    </apex:outputPanel>
+                                                    <apex:outputPanel rendered="{!AND(pd.Hidden_Edit__c,saveRowflag)}">
+                                                        <a href="javascript:void(0);" class="slds-text-link_reset" title="Back" onclick="cancelRowAction('{!pd.Id}');return false;">
+                                                            <span class="slds-icon_container slds-icon-action-recall" title="Back">
+                                                                <svg aria-hidden="true" class="slds-icon slds-icon_xx-small">
+                                                                    <use href="{!URLFOR($Asset.SLDS, '/assets/icons/action-sprite/svg/symbols.svg#recall')}"></use>
+                                                                </svg>
+                                                                <span class="slds-assistive-text">Back</span>
+                                                            </span>
+                                                        </a>
+                                                        <a href="javascript:void(0);" class="slds-text-link_reset" title="Save" onclick="saveRowAction('{!pd.Id}');return false;">
+                                                            <span class="slds-icon_container slds-icon-action-approval" title="Save">
+                                                                <svg aria-hidden="true" class="slds-icon slds-icon_xx-small">
+                                                                    <use href="{!URLFOR($Asset.SLDS, '/assets/icons/action-sprite/svg/symbols.svg#approval')}"></use>
+                                                                </svg>
+                                                                <span class="slds-assistive-text">Save</span>
+                                                            </span>
+                                                        </a>                                                        
+                                                    </apex:outputPanel>
+                                                    </apex:outputPanel>
+                                                    <apex:outputPanel rendered="{!AND(PR_Header__c.Status__c!='New',PR_Header__c.Status__c!='Submitted',PR_Header__c.Status__c!='Approved By Procurement')}">
+                                                        <a href="/{!pd.Id}" target="_blank" class="slds-button slds-text-link_reset" title="{!pd.Help_Text__c}">                                                  
+                                                            <span class="slds-text-link" style="font-size:8px;"><apex:outputField value="{!pd.Status_Flag__c}"/></span>                                                    
+                                                        </a>
+                                                </apex:outputPanel>
+                                                </td>                                                
+                        <td scope="row" data-label="Approved?">
+                                                    <apex:outputPanel rendered="{!OR(AND(isAccessible,PR_Header__c.Date_Time_Approval_Submission__c!=null,!PR_Header__c.Finance_Approved__c),PR_Header__c.Finance_Rejected__c)}">
+                                                        <apex:outputField value="{!pd.Finance_Approved__c}"  rendered="{!OR(NOT(pd.Hidden_Edit__c),NOT(isAccessible))}"/>
+                                                        <apex:inputField value="{!pd.Approved__c}" onchange="autoSaveRowAction('{!pd.Id}');" rendered="{!AND(pd.Hidden_Edit__c, isAccessible)}"/>
+                                                    </apex:outputPanel>
+                                                </td>                                               
+                                                <td scope="row" data-label="Rejection Comments">
+                                                    <apex:outputPanel rendered="{!OR(AND(isAccessible,PR_Header__c.Date_Time_Approval_Submission__c!=null,!PR_Header__c.Finance_Approved__c),PR_Header__c.Finance_Rejected__c)}">
+                                                        <apex:outputField value="{!pd.Rejection_Comments__c}"  rendered="{!OR(NOT(pd.Hidden_Edit__c),NOT(isAccessible))}"/>
+                                                        <apex:inputField value="{!pd.Rejection_Comments__c}" onchange="autoSaveRowAction('{!pd.Id}');" rendered="{!AND(pd.Hidden_Edit__c, isAccessible)}"/>
+                                                    </apex:outputPanel>                                                    
+                                                </td>                                                
+                                                <td scope="row" data-label="IO">
+                                                    <apex:outputField value="{!pd.IOCode__c}" title="{!pd.Help_Text__c}" rendered="{!isProcurementEditable}"/>
+                                                </td>
+                                                <td scope="row" data-label="Campaign">
+                                                    <div class="text-ellipse"><apex:outputField value="{!pd.Campaign_Name__c}"/></div>
+                                                </td>                                                
+                                                <td scope="row" data-label="Brand">
+                                                    <apex:outputField value="{!pd.Brand__c}"/>
+                                                </td>
+                                                <td scope="row" data-label="Territory">
+                                                    <apex:outputField value="{!pd.Territory__c}"/>
+                                                </td>                                                                                                 
+                                                <td scope="row" data-label="AA Category">
+                                                    <apex:outputField value="{!pd.Account_Assignment_Category2__c}"  rendered="{!AND(isAccessible,NOT(pd.Hidden_Edit__c))}"/>
+                                                    <apex:inputField value="{!pd.Account_Assignment_Category2__c}" onchange="autoSaveRowAction('{!pd.Id}');" styleClass="slds-select" rendered="{!AND(isAccessible,pd.Hidden_Edit__c)}" />
+                                                </td>
+                                                <td scope="row" data-label="Material Group">
+                                                    <apex:outputField value="{!pd.Material_Group__c}"  rendered="{!AND(isAccessible,NOT(pd.Hidden_Edit__c))}"/>
+                                                    <apex:inputField value="{!pd.Material_Group__c}" onchange="autoSaveRowAction('{!pd.Id}');" styleClass="slds-select" rendered="{!AND(isAccessible,pd.Hidden_Edit__c)}" />
+                                                </td>
+                                                <td scope="row" data-label="Plant">
+                                                    <apex:outputField value="{!pd.Plant__c}"  rendered="{!AND(isAccessible,NOT(pd.Hidden_Edit__c))}"/>
+                                                    <apex:inputField value="{!pd.Plant__c}" onchange="autoSaveRowAction('{!pd.Id}');" styleClass="slds-select" rendered="{!AND(isAccessible,pd.Hidden_Edit__c)}" />
+                                                </td>                                                                                                
+                                                <td scope="row" data-label="Available Budget">                                                    
+                                                    <apex:outputText value="{0, number, currency}" rendered="{!isProcurementEditable}">
+                                                        <apex:param value="{!pd.Campaign_Balance_USD__c}"/>
+                                                    </apex:outputText>
+                                                </td>                                                
+                                                <td scope="row" data-label="PR Amount">                                                    
+                                                   <!-- <apex:outputText value="{0, number, currency}" rendered="{!NOT(pd.Hidden_Edit__c)}">
+                                                        <apex:param value="{!pd.PR_Amount__c}"/>
+                                                    </apex:outputText> -->
+                                                    <apex:outputField value="{!pd.PR_Amount__c}"  rendered="{!NOT(pd.Hidden_Edit__c)}"/>
+                                                    <apex:inputField value="{!pd.PR_Amount__c}" onchange="autoSaveRowAction('{!pd.Id}');" styleClass="currencyformat" rendered="{!pd.Hidden_Edit__c}" />
+                                                </td>
+                                                <td scope="row" data-label="Description" title="Do not enter vendor name, brand, territory or month in description.">
+                                                    <apex:outputField value="{!pd.Description__c}" rendered="{!NOT(pd.Hidden_Edit__c)}"/>
+                                                    <apex:inputField value="{!pd.Description__c}" onchange="autoSaveRowAction('{!pd.Id}');" rendered="{!pd.Hidden_Edit__c}" />
+                                                </td>
+                                                <td scope="row" data-label="GL AccountType">
+                                                    <apex:outputField value="{!pd.GLAccountType__c}" rendered="{!NOT(pd.Hidden_Edit__c)}"/>                                                    
+                                                    <span class="{!if(pd.Hidden_Edit__c,'','hide')}">
+                                          <apex:inputField value="{!pd.GLAccountType__c}" onchange="autoSaveRowAction('{!pd.Id}');" styleClass="slds-select"/>
+                                      </span>
+                                                </td>
+                                                <td scope="row" data-label="GL Description" style="white-space:unset;">
+                                                    <p class="text-ellipse"><apex:outputField title="{!pd.GLDescription2__c}" value="{!pd.GLDescription2__c}"  rendered="{!NOT(pd.Hidden_Edit__c)}"/></p>                                                    
+                                                    <span class="{!if(pd.Hidden_Edit__c,'','hide')}">
+                                          <apex:inputField value="{!pd.GLDescription2__c}" onchange="autoSaveRowAction('{!pd.Id}');" styleClass="slds-select"/>
+                                      </span>
+                                                </td>
+                                                <td scope="row" data-label="GL Code">
+                                                    <span class="{!if(isProcurementEditable,'','hide')}">
+                                                      <apex:outputField value="{!pd.GL_Code2__c}"  rendered="{!NOT(pd.Hidden_Edit__c)}"/>
+                                                        <span class="{!if(pd.Hidden_Edit__c,'','hide')}">
+                                            <apex:inputField value="{!pd.GL_Code2__c}" onchange="autoSaveRowAction('{!pd.Id}');" styleClass="slds-select"/>
+                                        </span>
+                                                    </span>
+                                                </td>                                                
+                        <td scope="row" data-label="GL Details" style="white-space:unset;">                                                    
+                                                    <span class="{!if(isProcurementEditable,'','hide')}">
+                                                      <p class="text-ellipse"><apex:outputField title="{!pd.GL_Details__c}" value="{!pd.GL_Details__c}" rendered="{!NOT(pd.Hidden_Edit__c)}"/></p>
+                                                        <div class="{!if(pd.Hidden_Edit__c,'','hide')}">
+                                            <apex:inputField type="auto" value="{!pd.GL_Details__c}" onchange="autoSaveRowAction('{!pd.Id}');" />
+                                        </div>
+                                                    </span>
+                                                </td>                                                                                                 
+                                                <td scope="row" data-label="GL Comments">
+                                                    <span class="{!if(isProcurementEditable,'','hide')}">
+                                                        <apex:outputField value="{!pd.GL_Comments__c}"  rendered="{!NOT(pd.Hidden_Edit__c)}"/>
+                                                        <apex:inputField value="{!pd.GL_Comments__c}"  onchange="autoSaveRowAction('{!pd.Id}');" rendered="{!pd.Hidden_Edit__c}"/>
+                                                    </span>
+                                                </td>
+                                                <td scope="row" data-label="Start Month">
+                                                    <apex:outputField value="{!pd.StartMonth__c}"  rendered="{!NOT(pd.Hidden_Edit__c)}"/>
+                                                    <apex:inputField value="{!pd.StartMonth__c}" onchange="autoSaveRowAction('{!pd.Id}');" styleClass="slds-select " rendered="{!pd.Hidden_Edit__c}" />
+                                                </td>
+                                                <td scope="row" data-label="End Month">
+                                                    <apex:outputField value="{!pd.EndMonth__c}"  rendered="{!NOT(pd.Hidden_Edit__c)}"/>
+                                                    <apex:inputField value="{!pd.EndMonth__c}" onchange="autoSaveRowAction('{!pd.Id}');" styleClass="slds-select " rendered="{!pd.Hidden_Edit__c}" />
+                                                    
+                                                    <apex:outputPanel rendered="{!rowNum==1 && pd.StartMonth__c!=null && pd.EndMonth__c!=null && NOT(pd.Hidden_Edit__c)}">
+                                                        <a href="javascript:void(0);" class="slds-text-link_reset" title="Propagate Months" onclick="copyMonthValuesAction('{!pd.Id}');return false;">
+                                                            <span class="slds-icon_container slds-icon-action-fallback" title="Propagate Months">
+                                                                <svg aria-hidden="true" class="slds-icon slds-icon_xx-small">
+                                                                    <use href="{!URLFOR($Asset.SLDS, '/assets/icons/utility-sprite/svg/symbols.svg#fallback')}"></use>
+                                                                </svg>
+                                                                <span class="slds-assistive-text">Propagate Months</span>
+                                                            </span>
+                                                        </a>                                                
+                                                    </apex:outputPanel>                                                    
+                                                    <div class="filterText">{!pd.Filter_Text__c}</div>                                                                                    
+                                                </td>                                                
+                                            </tr>
+                                            <apex:variable var="rowNum" value="{!rowNum + 1}"/>
+                                        </apex:repeat>
+                                    </tbody>
+                                </table>
+                            </div>        
+                        </div>
+                    </div>
+                </apex:outputPanel>
+            </div>
+            
+            <!-- Display the Phasing records for the selected PR Details record -->
+            <!-- The Modal -->
+            <apex:outputPanel id="popup">
+                <apex:outputPanel styleClass="popupBg" layout="block" rendered="{!displayPopUp}"/>
+                <apex:outputPanel styleClass="popup" layout="block" rendered="{!displayPopUp}" id="popupPanel">                    
+                    <div id="myModal" class="modal">
+                        <div class="modal-content">
+                            <div class="slds-grid slds-grid_align-center">
+                                <div class="slds-form">
+                                    <div class="slds-form__row">
+                                        <div class="slds-form__item">
+                                            <div class="slds-form-element">
+                                                <label class="slds-form-element__label" for="form-element-01">Start Month</label>
+                                                <div class="slds-form-element__control">
+                                                    <span><apex:inputField value="{!prdRecord.StartMonth__c}" styleClass="slds-select" id="form-element-01"/></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="slds-form__item">
+                                            <div class="slds-form-element">
+                                                <label class="slds-form-element__label" for="form-element-02">End Month</label>
+                                                <div class="slds-form-element__control">
+                                                    <span><apex:inputField value="{!prdRecord.EndMonth__c}" styleClass="slds-select" id="form-element-02"/></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="slds-form__item">
+                                            <div class="slds-form-element">
+                                                <label class="slds-form-element__label" for="form-element-03">Type</label>
+                                                <div class="slds-form-element__control">
+                                                    <span><apex:inputField value="{!prdRecord.Phasing_Type__c}" styleClass="slds-select" id="form-element-03"/></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="slds-form__item">
+                                            <div class="slds-form-element">
+                                                <label class="slds-form-element__label" for="form-element-03">  </label>
+                                                <div class="slds-form-element__control">                                                    
+                                                    <input type="button" value="Apply" class="slds-button slds-button--brand" style="line-height: 1.65rem;" onclick="updatePRDetailRecord();return false;"/>                                                                                                                        
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>                                
+                            </div>  
+                            <apex:pageMessages />
+                            <table class="slds-table slds-table--bordered slds-table--cell-buffer">
+                                <thead>
+                                    <tr class="slds-text-heading--label">                                   
+                                        <th scope="col" class="slds-text-align_center">
+                                            <div class="slds-truncate">Month</div>
+                                        </th>
+                                        <th scope="col" class="slds-text-align_center">
+                                            <div class="slds-truncate">Amount</div>
+                                        </th>                  
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <apex:variable value="{!1}" var="rowNum"/>
+                                    <apex:variable value="{!0}" var="sum"/>
+                                    <apex:repeat value="{!PhasingList}" var="ph">
+                                        <tr>
+                                            <td scope="row" data-label="Month" class="slds-text-align_center">
+                                                <apex:outputField value="{!ph.Month__c}"/>
+                                            </td>
+                                            <td scope="row" data-label="Amount" class="slds-text-align_center">
+                                                <apex:outputField value="{!ph.Phasing_Amount__c }" rendered="{!NOT(phEditMode)}"/>
+                                                <apex:inputField value="{!ph.Phasing_Amount__c }" rendered="{!phEditMode}" />
+                                            </td>                    
+                                        </tr>
+                                        <apex:variable var="rowNum" value="{!rowNum + 1}"/>
+                                        <apex:variable var="sum" value="{!sum + IF(ph.Phasing_Amount__c = null, 0, ph.Phasing_Amount__c)}"/>
+                                    </apex:repeat>
+                                    <tr style="background-color:#eee; font-weight: 700;">
+                                        <td scope="row" data-label="Total" class="slds-text-align_center">
+                                            Total
+                                        </td>
+                                        <td scope="row" data-label="Sum" class="slds-text-align_center">
+                                            {!sum}
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div class="slds-text-align_center slds-p-top_small">                                
+                                <apex:commandButton value="Save" styleClass="slds-button slds-button--brand" action="{!updatePhasingList}" rendered="{!phEditMode}" status="progress" rerender="popup,prDataTablePanel,popupPanel"/>
+                                <apex:commandButton value="Close" styleClass="slds-button slds-button_neutral" action="{!closePopup}" rerender="popup,prDataTablePanel" status="progress"/>
+                            </div>    
+                        </div>
+                    </div>                     
+                </apex:outputPanel>                
+            </apex:outputPanel>
+                        
+            <apex:actionFunction action="{!editAll}" name="editAllAction" rerender="prDataTablePanel,saveallbuttonpanel"  status="progress">            
+            </apex:actionFunction>
+            <apex:actionFunction action="{!viewAll}" name="viewAllAction" rerender="prDataTablePanel,saveallbuttonpanel"  status="progress">            
+            </apex:actionFunction>            
+            <apex:actionFunction action="{!editRow}" name="editRowAction" rerender="prDataTablePanel,saveallbuttonpanel"  status="progress">
+                <apex:param name="prdRecordID" assignto="{!prdRecordID}" value="" />
+            </apex:actionFunction>
+            <apex:actionFunction action="{!saveRow}" name="saveRowAction" rerender="prDataTablePanel,saveallbuttonpanel"  status="progress" >
+                <apex:param name="prdRecordID" assignto="{!prdRecordID}" value="" />
+            </apex:actionFunction>
+            <apex:actionFunction action="{!autoSaveRow}" name="autoSaveRowAction" rerender="null">
+                <apex:param name="prdRecordID" assignto="{!prdRecordID}" value="" />
+      </apex:actionFunction>
+            <apex:actionFunction action="{!cancelRow}" name="cancelRowAction" rerender="prDataTablePanel,saveallbuttonpanel"  immediate="true" status="progress">
+                <apex:param name="prdRecordID" assignto="{!prdRecordID}" value="" />
+            </apex:actionFunction>
+            <apex:actionFunction action="{!deleteRow}" name="deletePRDRowAction" rerender="prDataTablePanel,saveallbuttonpanel"  immediate="true" status="progress">
+                <apex:param name="prdRecordID" assignto="{!prdRecordID}" value="" />
+            </apex:actionFunction>
+            <apex:actionFunction action="{!clonePRDetailRecord}" name="clonePRDRowAction" rerender="prDataTablePanel,saveallbuttonpanel"  immediate="true" status="progress">
+                <apex:param name="prdRecordID" assignto="{!prdRecordID}" value="" />
+            </apex:actionFunction>
+            <apex:actionFunction action="{!showPopup}" name="showEditPhasingPopup" rerender="popup"  status="progress">
+                <apex:param name="prdRecordID" assignto="{!prdRecordID}" value="" />
+            </apex:actionFunction>
+            <apex:actionFunction action="{!copyMonthValuesToPRDetails}" name="copyMonthValues" rerender="prDataTablePanel,saveallbuttonpanel" status="progress">
+                <apex:param name="prdRecordID" assignto="{!prdRecordID}" value="" />
+            </apex:actionFunction>
+            
+            <apex:actionFunction action="{!updatePRDetailRecord}" name="updatePRDetailRecord" reRender="popup"  status="progress"/>
+            <apex:actionFunction action="{!updatePRDetailsList}" name="updatePRDetailsList" status="progress" />
+            <apex:actionFunction action="{!cancelAll}" name="cancelPRDetailsList" immediate="true" status="progress"/>
+            
+            <apex:outputPanel id="scriptpanel">
+                <script>
+                j$ = jQuery.noConflict();
+                var wid=0;
+                var mainwid=0;
+                var sidbar = j$('#sidebarDiv').width();
+                var prDataTableView;
+                j$(document).ready( function () {
+                    loadDataTable();
+                    j$(".saveAllButton").hide();                    
+                    j$(".editModeToggle").show();
+          j$("#successMessage").hide();
+                    if('{!AND(PR_Header__c.Status__c!='New',PR_Header__c.Status__c!='Submitted',PR_Header__c.Status__c!='Approved By Procurement')}'==true){
+                      j$("#prDataTableView_filter").css({'margin':'0 0.7rem 0 0'});  
+                    }
+                    mainwid = j$('#AppBodyHeader').is(':visible')?j$('#AppBodyHeader').width():j$(window).width();                    
+                    setTimeout(function(){
+                        if(j$('#sidebarDiv').is(':visible')){
+                            wid = mainwid-sidbar-100;
+                        }
+                        else{
+                            wid = mainwid-100;
+                        }
+                        j$(".dataTables_wrapper").css({'max-width':wid+'px','margin':'auto'});
+                        j$(".slds-users-acct").css('visibility','visible');                        
+                        if('{!displaySaveAllflag}'=='true'){ 
+                            j$(".saveAllButton").show();
+                            j$(".editModeToggle").hide();
+                        }
+                        j$(".dataTables_filter").prop('title', 'Key in Error,Failed,RedX to filter red flagged records.');
+                    },1000)                  
+                    j$('#pinIndicator').click(function(){
+                        setTimeout(function(){                            
+                            if(j$('#sidebarDiv').is(':visible')){
+                                wid = mainwid-sidbar-100;
+                            }
+                            else{
+                                wid = mainwid-100;                   
+                            }               
+                            j$(".dataTables_wrapper ").css({'max-width':wid+'px','margin':'auto'});  
+                        },10)
+                    })
+                    j$( window ).resize(function() {
+                        mainwid = j$('#AppBodyHeader').width();
+                        if(j$('#sidebarDiv').is(':visible')){
+                            wid = mainwid-sidbar-100;
+                        }
+                        else{
+                            wid = mainwid-100;  
+                        }                        
+                        j$(".dataTables_wrapper").css({'max-width':wid+'px','margin':'auto'});
+                                    
+                    });
+                    j$('#toggle1').on('change',function() {
+                        if(j$(this).prop('checked')){                            
+                            editAllAction();
+                    setTimeout(function(){                            
+                                j$(".saveAllButton").show();
+                              j$(".editModeToggle").hide();
+                          },1000)                            
+                        }else{
+                            viewAllAction();
+                            j$(".saveAllButton").hide();
+                            j$(".editModeToggle").show();                                                        
+                        }                        
+                    });
+                    j$('.dataTables_filter input').css('margin-right','-10px');                    
+                });                                                
+                function formatNumber(n) {                    
+                    alert( "Handler for .change() called."+n ); 
+                    var str= n.replace(/\D/g, "").replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+                    alert( "Handler for .change() called."+str);
+                    j$( ".currencyformat" ).text( str );
+                }
+                function saveAllAction(){                    
+                    var lstsize = {!PRDetailsList.size};
+                    if(lstsize >0){
+                        var r = confirm('Are you sure you want to apply all changes?');
+                        if(r== true){
+                            updatePRDetailsList();
+                        }else{
+                            return false;
+                        }
+                    }
+                    else {alert('No records to update');}
+                }
+                function copyMonthValuesAction(recid){                                       
+                    var r = confirm('Are you sure you want to propagate Start & End Months to all records?');
+                    if(r== true){
+                        copyMonthValues(recid);                            
+                    }else{
+                        return false;
+                    }                                        
+                }
+                function cancelAllPRDetails(){
+                    var lstsize = {!PRDetailsList.size};
+                    if(lstsize >0){
+                        var r = confirm('Changes saved. Are you sure you want to exit?');
+                        if(r== true){
+                            cancelPRDetailsList();
+                        }else{
+                            return false;
+                        }
+                    }
+                    else {alert('No records to cancel');}
+                }
+                function loadDataTable(){                   
+                    prDataTableView = j$('[id$="prDataTableView"]').DataTable({                                                                       
+                        paging: false,                       
+                        destroy: true,                        
+                        bSort: false                        
+                    });                                     
+                }
+                function deleteRowAction(recid){                   
+                    var r = confirm("Are you sure you want to delete this record?");
+                    if (r == true) {
+                        deletePRDRowAction(recid);
+                    }
+                } 
+                function showSavedMsg(){                   
+                    j$("#successMessage").show().delay(1000).fadeOut();
+                    loadDataTable();
+                } 
+                </script> 
+            </apex:outputPanel>
+            <apex:actionStatus id="progress" stopText="" onstop="loadDataTable();">
+                <apex:facet name="start">
+                    <!-- SPINNER -->
+                    <div class="demo-only demo-only demo-only_viewport" style="background-color: rgba(22, 50, 92, 0.47);">
+                        <div role="status" class="slds-spinner slds-spinner_medium slds-spinner_brand">
+                            <span class="slds-assistive-text">Loading</span>
+                            <div class="slds-spinner__dot-a"></div>
+                            <div class="slds-spinner__dot-b"></div>
+                        </div>
+                    </div>
+                    <!-- / SPINNER -->
+                </apex:facet>
+            </apex:actionStatus>
+        </apex:form>        
+    </apex:page>

@@ -1,0 +1,11 @@
+{!$Label.Hello} {!Receiving_User.FirstName},
+
+{!$Label.Vendor_Welcome_Text}
+
+{!$Label.Username}: {!Receiving_User.Username}
+
+{!$Label.Link}:
+{!Community_Url}
+            
+{!$Label.ThankYou}
+{!Organization.Name}

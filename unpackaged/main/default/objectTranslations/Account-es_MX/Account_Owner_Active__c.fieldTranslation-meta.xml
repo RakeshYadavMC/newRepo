@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>¿El usuario propietario de la cuenta es un Usuario con Licencia Activa?</help>
+        <label>Propietario de la Cuenta Activo</label>
+        <name>Account_Owner_Active__c</name>
+    </CustomFieldTranslation>

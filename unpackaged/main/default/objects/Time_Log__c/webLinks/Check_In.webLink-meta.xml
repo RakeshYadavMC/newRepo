@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_In</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Check-In</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>{!REQUIRESCRIPT("/soap/ajax/28.0/connection.js")}
+{!REQUIRESCRIPT("/soap/ajax/28.0/apex.js")}
+
+
+var timelog = new sforce.SObject("Time_Log__c"); 
+var timeEntry = new sforce.SObject("Time_Entry__c");
+timelog.Id = '{!Time_Log__c.Id}';
+
+var typeValue = '{!Time_Log__c.RecordType}';
+console.log(typeValue);
+//alert(typeValue);
+//alert(timeEntry.Status__c);
+
+var checkOut = sforce.connection.query("SELECT Id FROM RecordType where Name = 'Check-Out'");
+var checkOutValues = checkOut.getArray("records");
+var checkOutID = checkOutValues[0].Id;
+
+var checkIn = sforce.connection.query("SELECT Id FROM RecordType where Name = 'Check-In'");
+var checkInValues = checkIn.getArray("records");
+var checkInID = checkInValues[0].Id;
+
+
+//timelog.Log_Action__c = "Check-Out";
+//timelog.Log_Action__c = 'Check-Out';
+//timelog.RecordTypeId = checkOutID;
+
+
+if(typeValue == 'Check-Out') {
+   timelog.Log_Action__c = 'Check-In';
+   timelog.RecordTypeId = checkInID;
+
+}
+
+
+//timelog.RecordTypeId = RT_CheckOut;
+sforce.connection.update([timelog]);
+
+window.location.reload();</url>
+</WebLink>

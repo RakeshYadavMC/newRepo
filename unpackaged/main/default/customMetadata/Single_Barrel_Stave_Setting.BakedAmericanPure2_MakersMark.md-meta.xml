@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>BakedAmericanPure2-MakersMark</label>
+    <protected>false</protected>
+    <values>
+        <field>Brand__c</field>
+        <value xsi:type="xsd:string">Makers Mark</value>
+    </values>
+    <values>
+        <field>Order__c</field>
+        <value xsi:type="xsd:double">1.0</value>
+    </values>
+    <values>
+        <field>Static_Resource_Name__c</field>
+        <value xsi:type="xsd:string">stave_BakedAmericanPure2</value>
+    </values>
+    <values>
+        <field>Stave_Name__c</field>
+        <value xsi:type="xsd:string">Baked American Pure 2</value>
+    </values>
+    <values>
+        <field>isActive__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+</CustomMetadata>

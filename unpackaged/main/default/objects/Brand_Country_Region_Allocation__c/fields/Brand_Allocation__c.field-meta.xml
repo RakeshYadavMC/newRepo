@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Brand_Allocation__c</fullName>
+    <description>PS-MC-SB-13 to manage Brand Allocations for this time period</description>
+    <externalId>false</externalId>
+    <formula>Brand_Country_Allocation__r.Brand_Allocation__c</formula>
+    <label>Brand Allocation</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

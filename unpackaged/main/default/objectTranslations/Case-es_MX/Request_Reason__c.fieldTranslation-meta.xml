@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Request Reason --></label>
+        <name>Request_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Disputed</masterLabel>
+            <translation><!-- Disputed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal</masterLabel>
+            <translation><!-- Internal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lost</masterLabel>
+            <translation><!-- Lost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Never Received</masterLabel>
+            <translation><!-- Never Received --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

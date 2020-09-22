@@ -1,0 +1,6 @@
+Hi {!Case.OwnerFullName}
+
+{!Case.Priority} Case {!Case.CaseNumber} # - {!Case.How_can_we_help__c} - '{!Case.AdditionalInformation__c}' is pending with Agent since last 48hrs and needs to be reviewed immediately.
+
+Thank you
+Beam Suntory

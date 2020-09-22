@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Issue_Definition__c</fullName>
+    <externalId>false</externalId>
+    <label>Issue Definition</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Issue_Type__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Foreign Object</fullName>
+                <default>false</default>
+                <label>Foreign Object</label>
+            </value>
+            <value>
+                <fullName>Cloudy/Discoloured</fullName>
+                <default>false</default>
+                <label>Cloudy/Discoloured</label>
+            </value>
+            <value>
+                <fullName>Broken/Cracked</fullName>
+                <default>false</default>
+                <label>Broken/Cracked</label>
+            </value>
+            <value>
+                <fullName>Leaking</fullName>
+                <default>false</default>
+                <label>Leaking</label>
+            </value>
+            <value>
+                <fullName>Label Missing/Torn/Smudged/Loose</fullName>
+                <default>false</default>
+                <label>Label Missing/Torn/Smudged/Loose</label>
+            </value>
+            <value>
+                <fullName>Missing Refund Statement</fullName>
+                <default>false</default>
+                <label>Missing Refund Statement</label>
+            </value>
+            <value>
+                <fullName>Broken Closure</fullName>
+                <default>false</default>
+                <label>Broken Closure</label>
+            </value>
+            <value>
+                <fullName>Torn/Crushed</fullName>
+                <default>false</default>
+                <label>Torn/Crushed</label>
+            </value>
+            <value>
+                <fullName>Defective Glue</fullName>
+                <default>false</default>
+                <label>Defective Glue</label>
+            </value>
+            <value>
+                <fullName>SCC/UPC Barcode</fullName>
+                <default>false</default>
+                <label>SCC/UPC Barcode</label>
+            </value>
+            <value>
+                <fullName>Open Case</fullName>
+                <default>false</default>
+                <label>Open Case</label>
+            </value>
+            <value>
+                <fullName>Pallet Concern</fullName>
+                <default>false</default>
+                <label>Pallet Concern</label>
+            </value>
+            <value>
+                <fullName>Anti-Skid</fullName>
+                <default>false</default>
+                <label>Anti-Skid</label>
+            </value>
+            <value>
+                <fullName>Language/Label Violation</fullName>
+                <default>false</default>
+                <label>Language/Label Violation</label>
+            </value>
+            <value>
+                <fullName>Missing/Tampered Seal</fullName>
+                <default>false</default>
+                <label>Missing/Tampered Seal</label>
+            </value>
+            <value>
+                <fullName>First Time User – Did not Like</fullName>
+                <default>false</default>
+                <label>First Time User – Did not Like</label>
+            </value>
+            <value>
+                <fullName>Tastes Different than Previous Purchase(s)</fullName>
+                <default>false</default>
+                <label>Tastes Different than Previous Purchase(s)</label>
+            </value>
+            <value>
+                <fullName>Low Carbonation/Flat</fullName>
+                <default>false</default>
+                <label>Low Carbonation/Flat</label>
+            </value>
+            <value>
+                <fullName>Product Cloudy/Hazey</fullName>
+                <default>false</default>
+                <label>Product Cloudy/Hazey</label>
+            </value>
+            <value>
+                <fullName>Color Different</fullName>
+                <default>false</default>
+                <label>Color Different</label>
+            </value>
+            <value>
+                <fullName>Frozen</fullName>
+                <default>false</default>
+                <label>Frozen</label>
+            </value>
+            <value>
+                <fullName>Foreign Object/Particulate</fullName>
+                <default>false</default>
+                <label>Foreign Object/Particulate</label>
+            </value>
+            <value>
+                <fullName>Broken Cork</fullName>
+                <default>false</default>
+                <label>Broken Cork</label>
+            </value>
+            <value>
+                <fullName>Leaking Bottle</fullName>
+                <default>false</default>
+                <label>Leaking Bottle</label>
+            </value>
+            <value>
+                <fullName>Closure broken/will not seal</fullName>
+                <default>false</default>
+                <label>Closure broken/will not seal</label>
+            </value>
+            <value>
+                <fullName>Broken Bottle</fullName>
+                <default>false</default>
+                <label>Broken Bottle</label>
+            </value>
+            <value>
+                <fullName>Incorrect Label</fullName>
+                <default>false</default>
+                <label>Incorrect Label</label>
+            </value>
+            <value>
+                <fullName>Tastes Different</fullName>
+                <default>false</default>
+                <label>Tastes Different</label>
+            </value>
+            <value>
+                <fullName>Missing Tamper Band/Seal</fullName>
+                <default>false</default>
+                <label>Missing Tamper Band/Seal</label>
+            </value>
+            <value>
+                <fullName>Label Issue</fullName>
+                <default>false</default>
+                <label>Label Issue</label>
+            </value>
+            <value>
+                <fullName>Leaking Can/Pinhole</fullName>
+                <default>false</default>
+                <label>Leaking Can/Pinhole</label>
+            </value>
+            <value>
+                <fullName>Low Fill</fullName>
+                <default>false</default>
+                <label>Low Fill</label>
+            </value>
+            <value>
+                <fullName>Pull Tab Broken</fullName>
+                <default>false</default>
+                <label>Pull Tab Broken</label>
+            </value>
+            <value>
+                <fullName>Carton Integrity Issue</fullName>
+                <default>false</default>
+                <label>Carton Integrity Issue</label>
+            </value>
+            <value>
+                <fullName>Missing Can</fullName>
+                <default>false</default>
+                <label>Missing Can</label>
+            </value>
+            <value>
+                <fullName>Dented/Damaged</fullName>
+                <default>false</default>
+                <label>Dented/Damaged</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Other – Liquid</fullName>
+                <default>false</default>
+                <label>Other – Liquid</label>
+            </value>
+            <value>
+                <fullName>Other – Bottle</fullName>
+                <default>false</default>
+                <label>Other – Bottle</label>
+            </value>
+            <value>
+                <fullName>Other – Packaging</fullName>
+                <default>false</default>
+                <label>Other – Packaging</label>
+            </value>
+            <value>
+                <fullName>Other – Shipping Requirements</fullName>
+                <default>false</default>
+                <label>Other – Shipping Requirements</label>
+            </value>
+            <value>
+                <fullName>Carrier/Carton Integrity Issue</fullName>
+                <default>false</default>
+                <label>Carrier/Carton Integrity Issue</label>
+            </value>
+            <value>
+                <fullName>Other - Can</fullName>
+                <default>false</default>
+                <label>Other - Can</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Bottle</controllingFieldValue>
+            <valueName>Broken/Cracked</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bottle</controllingFieldValue>
+            <valueName>Leaking</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bottle</controllingFieldValue>
+            <valueName>Label Missing/Torn/Smudged/Loose</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bottle</controllingFieldValue>
+            <valueName>Missing Refund Statement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bottle</controllingFieldValue>
+            <valueName>Broken Closure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bottle</controllingFieldValue>
+            <valueName>Incorrect Label</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bottle</controllingFieldValue>
+            <valueName>Other – Bottle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Liquid</controllingFieldValue>
+            <valueName>Foreign Object</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Liquid</controllingFieldValue>
+            <valueName>Cloudy/Discoloured</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Liquid</controllingFieldValue>
+            <valueName>Tastes Different</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Liquid</controllingFieldValue>
+            <valueName>Low Fill</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Liquid</controllingFieldValue>
+            <valueName>Other – Liquid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Can</controllingFieldValue>
+            <valueName>Leaking Can/Pinhole</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Can</controllingFieldValue>
+            <valueName>Pull Tab Broken</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Can</controllingFieldValue>
+            <valueName>Carton Integrity Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Can</controllingFieldValue>
+            <valueName>Missing Can</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Can</controllingFieldValue>
+            <valueName>Dented/Damaged</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Can</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Can</controllingFieldValue>
+            <valueName>Carrier/Carton Integrity Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Can</controllingFieldValue>
+            <valueName>Other - Can</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Packaging</controllingFieldValue>
+            <valueName>Torn/Crushed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Packaging</controllingFieldValue>
+            <valueName>Defective Glue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Packaging</controllingFieldValue>
+            <valueName>SCC/UPC Barcode</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Packaging</controllingFieldValue>
+            <valueName>Open Case</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Packaging</controllingFieldValue>
+            <valueName>Other – Packaging</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Shipping Requirements</controllingFieldValue>
+            <valueName>Pallet Concern</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Shipping Requirements</controllingFieldValue>
+            <valueName>Anti-Skid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Shipping Requirements</controllingFieldValue>
+            <valueName>Language/Label Violation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Shipping Requirements</controllingFieldValue>
+            <valueName>Missing/Tampered Seal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Shipping Requirements</controllingFieldValue>
+            <valueName>Other – Shipping Requirements</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

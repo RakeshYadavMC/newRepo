@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Missing_Items__c</fullName>
+    <description>Checks whether any items are missing on the Single Barrel cases. This is used to send the missing items and PO reminder emails.</description>
+    <externalId>false</externalId>
+    <formula>AND(
+	ISBLANK (SAP_Number__c ),
+	CASE( Brand__c, 
+		"Knob Creek", 
+		IF(
+			OR(   !Purchase_Order_Uploaded__c, !Bottle_Text_Entered__c, !POS_Items_Selected__c, 
+				AND( !Barrel_Selected__c, ISPICKVAL( Type, "Sample Kit" ))),
+		1,	0),
+		"Makers Mark",
+		IF(
+			OR( AND( !Purchase_Order_Uploaded__c,  !ISBLANK ( SKU_from_Barrel__c )), !Bottle_Text_Entered__c, 
+				AND( !Barrel_Selected__c, ISPICKVAL( Type, "Remote Selection" ))),
+		1,	0),
+		"El Tesoro",
+		IF(
+			OR( !Bottle_Text_Entered__c, !POS_Items_Selected__c,
+				AND( !Purchase_Order_Uploaded__c,  !ISBLANK ( SKU_from_Barrel__c ))),
+		1,	0),
+	0) == 1
+)</formula>
+    <label>Missing Items?</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

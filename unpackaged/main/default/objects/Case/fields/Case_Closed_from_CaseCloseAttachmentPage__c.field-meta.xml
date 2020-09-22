@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Closed_from_CaseCloseAttachmentPage__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This field will help us to understand where from the Case is closed.</description>
+    <externalId>false</externalId>
+    <label>Case Closed from CaseCloseAttachmentPage</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

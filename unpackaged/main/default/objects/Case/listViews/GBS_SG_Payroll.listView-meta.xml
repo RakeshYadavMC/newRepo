@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GBS_SG_Payroll</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>New_Activity_Flag__c</columns>
+    <columns>VIP_Check__c</columns>
+    <columns>Submitter__c</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>CASES.TYPE</columns>
+    <columns>GBS_Center__c</columns>
+    <columns>CASES.ORIGIN</columns>
+    <columns>CASES.CREATED_DATE</columns>
+    <columns>CASES.LAST_UPDATE_DATE_ONLY</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.CLOSED</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.HR,Case.Payroll</value>
+    </filters>
+    <filters>
+        <field>Submitted__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>BSI_Function__c</field>
+        <operation>equals</operation>
+        <value>GBS</value>
+    </filters>
+    <label>GBS SG Payroll</label>
+    <language>en_US</language>
+    <sharedTo>
+        <role>GBS_Analyst_SG_Payroll</role>
+        <role>GBS_Management_SG_Payroll</role>
+    </sharedTo>
+</ListView>

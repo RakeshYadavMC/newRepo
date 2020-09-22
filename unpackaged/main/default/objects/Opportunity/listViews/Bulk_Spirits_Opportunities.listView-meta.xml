@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bulk_Spirits_Opportunities</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.Bulk_Barrel</value>
+    </filters>
+    <label>Bulk Spirits Opportunities</label>
+    <language>en_US</language>
+</ListView>

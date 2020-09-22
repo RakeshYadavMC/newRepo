@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?><Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Aperity_ID_equals_Tax_ID</fullName>
+        <field>gvp__BDN_Id__c</field>
+        <formula>gvp__Custom_6__c</formula>
+        <name>Aperity ID equals Tax ID</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Copy_data_to_Custom_8</fullName>
+        <field>gvp__Custom_8__c</field>
+        <formula>TEXT ( gvc_Number_of_menus__c )</formula>
+        <name>Copy data to Custom 8</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Copy_data_to_Custom_9</fullName>
+        <field>gvp__Custom_9__c</field>
+        <formula>TEXT ( gvc_Number_of_cocktail_menus__c)</formula>
+        <name>Copy data to Custom 9</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Dupe_Key_Text_Update</fullName>
+        <field>Dupe_Key_Text__c</field>
+        <formula>text(Type) +  Name</formula>
+        <name>Dupe Key - Text Update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Generate_Account_Key</fullName>
+        <field>gvp__Account_Key__c</field>
+        <formula>IF(NOT(ISBLANK(gvp__Territory__c)),
+"BSMX-" &amp; gvp__Territory__r.gvp__Territory_Code__c &amp; "-" &amp; Auto_Account_Key__c 
+, 
+UPPER(LEFT($UserRole.DeveloperName,3)) &amp; "_" &amp; Auto_Account_Key__c 
+)</formula>
+        <name>Generate Account Key</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Populate_Country_based_on_Billing_State</fullName>
+        <field>BillingCountry</field>
+        <formula>"US"</formula>
+        <name>Populate Country based on Billing State</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Populate_Premise_Type</fullName>
+        <field>PremiseType__c</field>
+        <literalValue>On Premise</literalValue>
+        <name>Populate Premise Type</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Populate_Premise_Type_to_Off_Premise</fullName>
+        <description>Populate Premise Type field based on an account's record type; necessary for Anaplan integration</description>
+        <field>PremiseType__c</field>
+        <literalValue>Off Premise</literalValue>
+        <name>Populate Premise Type to Off Premise</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Populate_Sync_to_TDL_Flag</fullName>
+        <description>Populate Sync to TDL Flag when an execution store is created</description>
+        <field>Sync_to_TDL_Flag__c</field>
+        <literalValue>1</literalValue>
+        <name>Populate Sync to TDL Flag</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_SyncToGSC</fullName>
+        <field>gsc_mc__Sync_to_GoSpotCheck__c</field>
+        <literalValue>1</literalValue>
+        <name>Set_SyncToGSC</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_Sync_to_GSC</fullName>
+        <description>Setting the field to Active for certain record types.</description>
+        <field>Sync_to_GSC__c</field>
+        <literalValue>1</literalValue>
+        <name>Set Sync to GSC</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Trigger_Sync</fullName>
+        <field>gsc_mc__Trigger_Sync__c</field>
+        <literalValue>1</literalValue>
+        <name>Trigger Sync</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <rules>
+        <fullName>Copy %23 of cocktail menus to Custom 9</fullName>
+        <actions>
+            <name>Copy_data_to_Custom_9</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>TRUE</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Copy %23 of menus to Custom 8</fullName>
+        <actions>
+            <name>Copy_data_to_Custom_8</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>TRUE</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Generate Mexico Account Key</fullName>
+        <actions>
+            <name>Generate_Account_Key</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <booleanFilter>1 AND 2 AND (3 or 4)</booleanFilter>
+        <criteriaItems>
+            <field>Account.gvp__Account_Key__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.BillingCountry</field>
+            <operation>equals</operation>
+            <value>Mexico</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.CreatedById</field>
+            <operation>notEqual</operation>
+            <value>GreatVines</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.CreatedById</field>
+            <operation>notEqual</operation>
+            <value>SFDC Integration</value>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>MX Update Aperity ID with Tax ID</fullName>
+        <actions>
+            <name>Aperity_ID_equals_Tax_ID</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Workflow required in order to update the Aperity ID field for Mexico with the Tax ID that the business completed.</description>
+        <formula>ISCHANGED(gvp__Custom_6__c)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Populate Country based on Billing State</fullName>
+        <actions>
+            <name>Populate_Country_based_on_Billing_State</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Account.BillingState</field>
+            <operation>equals</operation>
+            <value>AL,AK,AZ,AR,CA,CO,CT,DE,FL,GA,HI,ID,IL,IN,IA,KS,KY,LA,ME,MD,MA,MI,MN,MS,MO,MT,NE,NV,NH,NJ,NM,NY,NC,ND,OH,OK,OR,PA,RI,SC,SD,TN,TX,UT,VT,VA,WA,WV,WI,WY</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.BillingCountry</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Populate Premise Type field</fullName>
+        <actions>
+            <name>Populate_Premise_Type</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Populate Premise Type field based on an account's record type; necessary for Anaplan integration</description>
+        <formula>RecordType.Name = "On Premise" &amp;&amp; ISBLANK(TEXT(PremiseType__c))</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Populate Premise Type field for Off Premise</fullName>
+        <actions>
+            <name>Populate_Premise_Type_to_Off_Premise</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Populate Premise Type field based on an account's record type; necessary for Anaplan integration</description>
+        <formula>RecordType.Name = "Off Premise" &amp;&amp; ISBLANK(TEXT(PremiseType__c))</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Populate Sync to TDL Flag</fullName>
+        <actions>
+            <name>Populate_Sync_to_TDL_Flag</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Account.CreatedById</field>
+            <operation>notEqual</operation>
+            <value>Beam Suntory</value>
+        </criteriaItems>
+        <description>Populate Sync to TDL Flag when an execution store is created</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Set Sync to GSC</fullName>
+        <actions>
+            <name>Set_SyncToGSC</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Account.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Non-Premise,Off Premise,On Premise</value>
+        </criteriaItems>
+        <description>Workflow to set flag for sync with GSC only for Non-Premise,Off Premise,On Premise rec types</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Trigger Sync</fullName>
+        <actions>
+            <name>Trigger_Sync</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Anytime the EDGE Route or KPI field is changed on an on/off premise Account record, the Trigger Sync box will be checked on the GSC managed package.</description>
+        <formula>OR(ISCHANGED(EDGE_Route__c),ISCHANGED(KPI__c))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- ON/OFF Premise --></label>
+        <name>ON_OFF_Premise__c</name>
+        <picklistValues>
+            <masterLabel>OFF Premise</masterLabel>
+            <translation><!-- OFF Premise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ON Premise</masterLabel>
+            <translation><!-- ON Premise --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

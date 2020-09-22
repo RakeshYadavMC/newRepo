@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Allocation_Used__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( Allocation_Per_Interval__c &gt; 0,  Used_Allocations_Per_Interval__c / Allocation_Per_Interval__c, NULL)</formula>
+    <label>% Allocation Used</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

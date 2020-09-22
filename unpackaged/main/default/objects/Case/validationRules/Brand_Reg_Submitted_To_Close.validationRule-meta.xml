@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Brand_Reg_Submitted_To_Close</fullName>
+    <active>false</active>
+    <description>For Brand Registration Parent cases, all child cases must be closed before the case can be closed. This is indicated by the Submitted_Compliance__c field.</description>
+    <errorConditionFormula>IF(PRIORVALUE(Status)&lt;&gt;"Closed" &amp;&amp; ISPICKVAL(Status, "Closed") &amp;&amp; Submitted_Compliance__c = FALSE &amp;&amp; RecordType.DeveloperName='Brand_Registration',TRUE,FALSE)</errorConditionFormula>
+    <errorMessage>Project must be kicked off and all states must be closed before the project can be completed.</errorMessage>
+</ValidationRule>

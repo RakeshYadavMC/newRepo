@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PR_Detail__c</fullName>
+    <description>PR Detail Record For this Phasing Month/Amount</description>
+    <externalId>false</externalId>
+    <label>PR Detail</label>
+    <referenceTo>PR_Detail__c</referenceTo>
+    <relationshipLabel>PR Phasing</relationshipLabel>
+    <relationshipName>PR_Phasings</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

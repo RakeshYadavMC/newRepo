@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WBS_Segment_Length_Territory</fullName>
+    <active>true</active>
+    <description>Enforces field length requirements for the WBS Segment on the Territory record type.</description>
+    <errorConditionFormula>IF(ISBLANK(WBSCodeSegment__c), false, AND(RecordType.DeveloperName='Territory', LEN(WBSCodeSegment__c)!=6))</errorConditionFormula>
+    <errorMessage>A Territory's WBS Code Segment must be exactly six characters long.</errorMessage>
+</ValidationRule>

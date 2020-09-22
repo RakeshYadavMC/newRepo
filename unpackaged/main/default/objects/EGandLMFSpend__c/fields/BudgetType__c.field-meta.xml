@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BudgetType__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Type of budget.</inlineHelpText>
+    <label>Budget Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Events / Sponsorships</fullName>
+                <default>false</default>
+                <label>Events / Sponsorships</label>
+            </value>
+            <value>
+                <fullName>Free Goods</fullName>
+                <default>false</default>
+                <label>Free Goods</label>
+            </value>
+            <value>
+                <fullName>Local Materials / POS</fullName>
+                <default>false</default>
+                <label>Local Materials / POS</label>
+            </value>
+            <value>
+                <fullName>Margin Enhancement</fullName>
+                <default>false</default>
+                <label>Margin Enhancement</label>
+            </value>
+            <value>
+                <fullName>Menu Printing</fullName>
+                <default>false</default>
+                <label>Menu Printing</label>
+            </value>
+            <value>
+                <fullName>Misc (undefined)</fullName>
+                <default>false</default>
+                <label>Misc (undefined)</label>
+            </value>
+            <value>
+                <fullName>Price Support</fullName>
+                <default>false</default>
+                <label>Price Support</label>
+            </value>
+            <value>
+                <fullName>Sales Incentives</fullName>
+                <default>false</default>
+                <label>Sales Incentives</label>
+            </value>
+            <value>
+                <fullName>Sales Programs</fullName>
+                <default>false</default>
+                <label>Sales Programs</label>
+            </value>
+            <value>
+                <fullName>Sales Samples</fullName>
+                <default>false</default>
+                <label>Sales Samples</label>
+            </value>
+            <value>
+                <fullName>Sampling / Tasting</fullName>
+                <default>false</default>
+                <label>Sampling / Tasting</label>
+            </value>
+            <value>
+                <fullName>SKI Goals</fullName>
+                <default>false</default>
+                <label>SKI Goals</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

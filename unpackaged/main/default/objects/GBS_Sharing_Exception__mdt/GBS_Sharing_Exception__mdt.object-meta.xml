@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Criteria-driven Sharing exceptions for GBS Case Sharing / Visibility.</description>
+    <label>GBS Sharing Exception</label>
+    <pluralLabel>GBS Sharing Exceptions</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

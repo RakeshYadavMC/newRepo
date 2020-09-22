@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sipsmith_Brand_Director_MarketingPlan</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Sipsmith Brand Director</label>
+    <queue>Sipsmith_Brand_Director</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

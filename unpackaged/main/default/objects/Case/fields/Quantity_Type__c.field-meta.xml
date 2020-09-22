@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quantity_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Quantity Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Bottles</fullName>
+                <default>false</default>
+                <label>Bottles</label>
+            </value>
+            <value>
+                <fullName>Cases</fullName>
+                <default>false</default>
+                <label>Cases</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

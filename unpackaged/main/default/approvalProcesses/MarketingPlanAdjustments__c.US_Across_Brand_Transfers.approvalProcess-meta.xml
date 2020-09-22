@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApprovalProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <allowRecall>true</allowRecall>
+    <allowedSubmitters>
+        <type>creator</type>
+    </allowedSubmitters>
+    <allowedSubmitters>
+        <type>owner</type>
+    </allowedSubmitters>
+    <approvalPageFields>
+        <field>Name</field>
+        <field>TransferringMarketingPlan__c</field>
+        <field>ReceivingMarketingPlan__c</field>
+        <field>Amount__c</field>
+        <field>Brand_From__c</field>
+        <field>Brand_To__c</field>
+    </approvalPageFields>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>Tequila_Brand_Director</name>
+                <type>queue</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>If the Brand From is Tequila and the Brand to is not Tequila</description>
+        <entryCriteria>
+            <formula>AND(
+CONTAINS(
+&quot;El Tesoro, Hornitos, Sauza, Tres Gen, Bruxo&quot;, 
+Brand_From__c 
+), 
+!CONTAINS(
+&quot;El Tesoro, Hornitos, Sauza, Tres Gen, Bruxo&quot;, 
+Brand_To__c 
+)
+)</formula>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Brand From - Tequila</label>
+        <name>Brand_From_Tequila</name>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>HOS_Brand_Director</name>
+                <type>queue</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>When the transfer is from HOS to other Brand Marketing Plans</description>
+        <entryCriteria>
+            <formula>AND(
+CONTAINS(
+&quot;Haku, Roku, Suntory Whiskey&quot;,
+Brand_From__c
+),
+!CONTAINS(
+&quot;Haku, Roku, Suntory Whiskey&quot;,
+Brand_To__c
+)
+)</formula>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Brand From - HOS</label>
+        <name>Brand_From_HOS</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>Jim_Beam_Brand_Director</name>
+                <type>queue</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>From Marketing Plan Brand is Jim Beam</description>
+        <entryCriteria>
+            <formula>AND(
+CONTAINS(
+&quot;Jim Beam Flavors, Jim Beam Premium, Jim Beam White&quot;,
+Brand_From__c
+),
+!CONTAINS(
+&quot;Jim Beam Flavors, Jim Beam Premium, Jim Beam White&quot;,
+Brand_To__c
+)
+)</formula>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Brand From - Jim Beam</label>
+        <name>Brand_From_Jim_Beam</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>Makers_Mark_Brand_Director</name>
+                <type>queue</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>From Marketing Plan brand is Makers Mark</description>
+        <entryCriteria>
+            <formula>AND(
+Brand_From__c = &quot;Makers Mark&quot;,
+Within_Same_Brand__c = &quot;No&quot;
+)</formula>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Brand From - Makers Mark</label>
+        <name>Brand_From_Makers_Mark</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>Courvoisier_Brand_Director</name>
+                <type>queue</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>From Marketing Plan brand is Courvoisier</description>
+        <entryCriteria>
+            <formula>AND(
+Brand_From__c = &quot;Courvoisier&quot;,
+Within_Same_Brand__c = &quot;No&quot;
+)</formula>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Brand From - Courvoisier</label>
+        <name>Brand_From_Courvoisier</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>Regional_Brand_Director</name>
+                <type>queue</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>From Marketing Plan brand is Regional (Canadian Club, Cruzan, Dekuyper, Effen, Pinnacle Vodka)</description>
+        <entryCriteria>
+            <formula>AND(
+CONTAINS(
+&quot;Canadian Club, Cruzan, Dekuyper, Effen, Pinnacle Vodka&quot;,
+Brand_From__c
+),
+!CONTAINS(
+&quot;Canadian Club, Cruzan, Dekuyper, Effen, Pinnacle Vodka&quot;,
+Brand_To__c
+)
+)</formula>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Brand From - Regional</label>
+        <name>Brand_From_Regional</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>Sipsmith_Brand_Director</name>
+                <type>queue</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>From Marketing Plan brand is Sipsmith</description>
+        <entryCriteria>
+            <formula>AND(
+Brand_From__c = &quot;Sipsmith&quot;,
+Within_Same_Brand__c = &quot;No&quot;
+)</formula>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Brand From - Sipsmith</label>
+        <name>Brand_From_Sipsmith</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>Windsor_Canadian_Brand_Director</name>
+                <type>queue</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>From Marketing Plan brand is Windsor Canadian</description>
+        <entryCriteria>
+            <formula>AND(
+Brand_From__c = &quot;Windsor Canadian&quot;,
+Within_Same_Brand__c = &quot;No&quot;
+)</formula>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Brand From - Windsor Canadian</label>
+        <name>Brand_From_Windsor_Canadian</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>Bourbon_Brand_Director</name>
+                <type>queue</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>From Marketing Plan brand is Bourbon</description>
+        <entryCriteria>
+            <formula>AND(
+CONTAINS(
+&quot;Basil Hayden, Knob Creek, Legent, Old Overholt, Small Batch Bourbon&quot;,
+Brand_From__c
+),
+!CONTAINS(
+&quot;Basil Hayden, Knob Creek, Legent, Old Overholt, Small Batch Bourbon&quot;,
+Brand_To__c
+)
+)</formula>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Brand From - Bourbon</label>
+        <name>Brand_From_Bourbon</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>Scotch_Irish_Brand_Director</name>
+                <type>queue</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>From Marketing Plan brand is Scotch &amp; Irish</description>
+        <entryCriteria>
+            <formula>AND(
+CONTAINS(
+&quot;Bowmore, Irish Whiskeys, Kessler Blend, Laphroaig&quot;,
+Brand_From__c
+),
+!CONTAINS(
+&quot;Bowmore, Irish Whiskeys, Kessler Blend, Laphroaig&quot;,
+Brand_To__c
+)
+)</formula>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Brand From - Scotch &amp; Irish</label>
+        <name>Brand_From_Scotch_Irish</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>Finance</name>
+                <type>queue</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>From Marketing Plan brand is Multibrand</description>
+        <entryCriteria>
+            <formula>AND(
+Brand_From__c = &quot;Multibrand&quot;,
+Within_Same_Brand__c = &quot;No&quot;
+)</formula>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Brand From - Multibrand</label>
+        <name>Brand_From_Multibrand</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>Other_Brand_Director</name>
+                <type>queue</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <entryCriteria>
+            <formula>AND(
+Brand_From__c = &quot;SkinnyGirl&quot;,
+Within_Same_Brand__c = &quot;No&quot;
+)</formula>
+        </entryCriteria>
+        <label>Brand From - Others</label>
+        <name>Brand_From_Others</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <description>This routes the record to correct queue for approval as per the shared list if the Brand to and Brand from are different and not within the same brand group.</description>
+    <emailTemplate>unfiled$public/Approval_Request_Sent_to_Approver</emailTemplate>
+    <enableMobileDeviceAccess>false</enableMobileDeviceAccess>
+    <entryCriteria>
+        <criteriaItems>
+            <field>MarketingPlanAdjustments__c.Country_From__c</field>
+            <operation>equals</operation>
+            <value>US</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>MarketingPlanAdjustments__c.Request_Status__c</field>
+            <operation>notEqual</operation>
+            <value>Rejected,Canceled,Approved,Failed</value>
+        </criteriaItems>
+    </entryCriteria>
+    <finalApprovalActions>
+        <action>
+            <name>Marketing_Plan_Transfer_Approval_Response_for_Mexico_US</name>
+            <type>Alert</type>
+        </action>
+        <action>
+            <name>SetEmailMPTransferReceipient</name>
+            <type>FieldUpdate</type>
+        </action>
+        <action>
+            <name>SetReceivingMPTransferQueueEmail</name>
+            <type>FieldUpdate</type>
+        </action>
+        <action>
+            <name>Update_Request_Status_Approved</name>
+            <type>FieldUpdate</type>
+        </action>
+    </finalApprovalActions>
+    <finalApprovalRecordLock>true</finalApprovalRecordLock>
+    <finalRejectionActions>
+        <action>
+            <name>Marketing_Plan_Transfer_Rejection_Response_for_US</name>
+            <type>Alert</type>
+        </action>
+        <action>
+            <name>SetEmailMPTransferReceipient</name>
+            <type>FieldUpdate</type>
+        </action>
+        <action>
+            <name>SetReceivingMPTransferQueueEmail</name>
+            <type>FieldUpdate</type>
+        </action>
+        <action>
+            <name>Update_Request_Status_Rejected</name>
+            <type>FieldUpdate</type>
+        </action>
+    </finalRejectionActions>
+    <finalRejectionRecordLock>false</finalRejectionRecordLock>
+    <initialSubmissionActions>
+        <action>
+            <name>Update_Request_Status</name>
+            <type>FieldUpdate</type>
+        </action>
+    </initialSubmissionActions>
+    <label>US Across Brand Transfers</label>
+    <recordEditability>AdminOnly</recordEditability>
+    <showApprovalHistory>true</showApprovalHistory>
+</ApprovalProcess>

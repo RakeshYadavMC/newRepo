@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Filter_Text__c</fullName>
+    <description>This field is used to filter the grid</description>
+    <externalId>false</externalId>
+    <formula>IF(AND(OverAll_Status__c,Approved__c),
+'Success',
+'Errored  RedX Failed'
+)</formula>
+    <label>Filter Text</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

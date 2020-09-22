@@ -1,0 +1,22 @@
+<messaging:emailTemplate subject="Single Barrel Application Rejected" recipientType="User" relatedToType="Account_Application__c">
+<messaging:htmlEmailBody >
+<html>
+<body>
+
+<apex:image id="Campaign_email_template_1_header" value="https://beamsuntory--c.na74.content.force.com/servlet/servlet.ImageServer?id=015o0000001Dyoa&oid=00Do0000000cCkJ" style="display: block; margin-left: auto;margin-right: auto; width:50%" />
+<div style="content:' '; display:block; border:.5px solid black; margin-top:10px; border-color: #999999;"></div>
+
+<p>Hi,</p>
+
+<p>We regret to inform you that your recent application for the {!relatedTo.Brand__c} Single Barrel Program has been rejected for the Retailer - {!relatedTo.Account__r.Name}.</p>
+
+<p> Please contact your local {!relatedTo.Brand__c} Diplomat for more information.</p>
+
+<p>Thank You,</p>
+
+<p>Beam Suntory Customer Service</p>
+
+</body>
+</html>
+</messaging:htmlEmailBody>
+</messaging:emailTemplate>

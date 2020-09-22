@@ -1,0 +1,35 @@
+<aura:component controller="CNT_CaseOwnerChange" 
+                implements="flexipage:availableForRecordHome,force:hasRecordId" access="global" >
+    <!-- Attributes -->
+    <aura:attribute name="caseObj" type="Case" default="{ 'sobjectType' : 'case'}"/>
+    <aura:attribute name="ownerChanged" type="Boolean" default="false" />
+    
+    <!-- loader for processing -->
+    <div class="loader">
+        <aura:if isTrue="{!v.ownerChanged}">
+            <lightning:spinner alternativeText="Loading" variant="brand" />
+        </aura:if>
+    </div>
+    
+    <article class="slds-card">
+        <header class="slds-card__header slds-grid">
+            <div class="slds-media slds-media_center slds-has-flexi-truncate">
+                <div class="slds-media__figure">
+                    <lightning:icon iconName="utility:change_owner" alternativeText="Change Owner" size="small"/>
+                </div>
+                <div class="slds-media__body slds-truncate">
+                    <h2>
+                        <span class="slds-text-heading_small changeOwnerText">
+                            Change Owner
+                        </span>
+                    </h2>
+                </div>
+            </div>
+        </header>
+        <div class="slds-card__body assignToMeButton">
+            <div class="slds-card__body--inner">
+                <lightning:button label="Assign to me" variant="brand" onclick="{!c.changeCaseOwner}"/>
+            </div>            
+        </div>
+    </article>
+</aura:component>

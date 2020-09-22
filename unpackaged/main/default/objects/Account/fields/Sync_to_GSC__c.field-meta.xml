@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sync_to_GSC__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This field will validate if the account should synced to GoSpotCheck or not. True = Yes, False/Blank = No</description>
+    <externalId>false</externalId>
+    <label>Sync to GSC</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

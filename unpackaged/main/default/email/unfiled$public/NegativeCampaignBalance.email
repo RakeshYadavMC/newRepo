@@ -1,0 +1,7 @@
+The Campaign referenced below requires attention since the Actual and Committed Spend has exceeded the balance of the Campaign.  Please update the Campaign balance to support the spend.
+
+Campaign Name: {!Campaign__c.Name}
+Campaign Budget: {!Campaign__c.PlannedCampaignSpend__c}
+Campaign Balance: {!Campaign__c.CampaignBalance__c}
+
+Salesforce login: https://login.salesforce.com/

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Kit_Selection_Remaining_Days__c</fullName>
+    <description>Days remaining to select Sample</description>
+    <externalId>false</externalId>
+    <formula>IF(NOT(Sample_Selected__c), IF(NOT(ISNULL(Kit_Selection_Last_Day__c)), ABS(Kit_Selection_Last_Day__c  -  DATETIMEVALUE(TODAY())), Null), Null)</formula>
+    <label>Kit Selection Remaining Days</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EDI Orders</fullName>
+    <description>Support Process for EDI Orders</description>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Close Pending</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed - Approved</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed - Rejected</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>DUP - No Action</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>New</fullName>
+        <default>true</default>
+    </values>
+    <values>
+        <fullName>Pending %E2%80%93 MISC</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Pending Activity</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Ready to be Validated</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Working</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

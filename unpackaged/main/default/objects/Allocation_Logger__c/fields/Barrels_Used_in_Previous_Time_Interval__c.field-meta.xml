@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Barrels_Used_in_Previous_Time_Interval__c</fullName>
+    <description>PS-MC-SB-108 to maintain used barrel in previous record</description>
+    <externalId>false</externalId>
+    <label>Barrels Used in Previous Time Interval</label>
+    <precision>5</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

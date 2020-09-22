@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>New</fullName>
+        <color>#AFCADF</color>
+        <default>true</default>
+        <label>New</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Open</fullName>
+        <default>false</default>
+        <label>Open</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>In Progress</fullName>
+        <default>false</default>
+        <label>In Progress</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Resolved</fullName>
+        <default>false</default>
+        <label>Resolved</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed</fullName>
+        <color>#0B6FCE</color>
+        <default>false</default>
+        <label>Closed</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Logged</fullName>
+        <color>#AFCADF</color>
+        <default>false</default>
+        <label>Logged</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Active</fullName>
+        <color>#3366FF</color>
+        <default>false</default>
+        <label>Active</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Reviewing Details</fullName>
+        <default>false</default>
+        <label>Reviewing Details</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Working</fullName>
+        <color>#78C953</color>
+        <default>false</default>
+        <label>Working</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending Selection</fullName>
+        <default>false</default>
+        <label>Pending Selection</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Waiting on IT</fullName>
+        <default>false</default>
+        <label>Waiting on IT</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Waiting on Commercial</fullName>
+        <default>false</default>
+        <label>Waiting on Commercial</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Waiting on Corp/Consolidations</fullName>
+        <default>false</default>
+        <label>Waiting on Corp/Consolidations</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Waiting on Customer Service</fullName>
+        <default>false</default>
+        <label>Waiting on Customer Service</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Waiting on Employee</fullName>
+        <default>false</default>
+        <label>Waiting on Employee</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Waiting on HR</fullName>
+        <default>false</default>
+        <label>Waiting on HR</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Waiting on OPS/Supply Chain</fullName>
+        <default>false</default>
+        <label>Waiting on OPS/Supply Chain</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Waiting on Other</fullName>
+        <default>false</default>
+        <label>Waiting on Other</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Waiting on PGI</fullName>
+        <default>false</default>
+        <label>Waiting on PGI</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Waiting on Pricing</fullName>
+        <default>false</default>
+        <label>Waiting on Pricing</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Waiting on Pricing Approval</fullName>
+        <default>false</default>
+        <label>Waiting on Pricing Approval</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Waiting on Upload</fullName>
+        <default>false</default>
+        <label>Waiting on Upload</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Waiting on Vendor</fullName>
+        <default>false</default>
+        <label>Waiting on Vendor</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending CRC Approval</fullName>
+        <default>false</default>
+        <label>Pending CRC Approval</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Waiting on Customer</fullName>
+        <color>#E27001</color>
+        <default>false</default>
+        <label>Waiting on Customer</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Waiting on 3rd Party</fullName>
+        <color>#FFFF66</color>
+        <default>false</default>
+        <label>Waiting on 3rd Party</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Waiting for Requestor</fullName>
+        <color>#FFCC33</color>
+        <default>false</default>
+        <label>Waiting for Requestor</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending Error Resolution</fullName>
+        <color>#CC0000</color>
+        <default>false</default>
+        <label>Pending Error Resolution</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Not Submitted</fullName>
+        <color>#FFCC33</color>
+        <default>false</default>
+        <label>Not Submitted</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Waiting for State Manager</fullName>
+        <default>false</default>
+        <label>Waiting for State Manager</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Waiting for Kickoff</fullName>
+        <color>#33CCFF</color>
+        <default>false</default>
+        <label>Waiting for Kickoff</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Waiting for Sub Cases</fullName>
+        <color>#33FF33</color>
+        <default>false</default>
+        <label>Waiting for Sub Cases</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Waiting for Approval</fullName>
+        <color>#33FF33</color>
+        <default>false</default>
+        <label>Waiting for Approval</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Waiting for Submission</fullName>
+        <default>false</default>
+        <label>Waiting for Submission</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Waiting for Posting</fullName>
+        <color>#33CCFF</color>
+        <default>false</default>
+        <label>Waiting for Posting</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Rejected / Waiting for Resubmission</fullName>
+        <color>#FF0000</color>
+        <default>false</default>
+        <label>Rejected / Waiting for Resubmission</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Error Resolved</fullName>
+        <color>#0B6FCE</color>
+        <default>false</default>
+        <label>Error Resolved</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>On Hold</fullName>
+        <color>#AFCADF</color>
+        <default>false</default>
+        <label>On Hold</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Escalated</fullName>
+        <color>#8F6429</color>
+        <default>false</default>
+        <label>Escalated</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending Activity</fullName>
+        <color>#EFAE73</color>
+        <default>false</default>
+        <label>Pending Activity</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending Sub-Case</fullName>
+        <color>#57F17C</color>
+        <default>false</default>
+        <label>Pending Sub-Case</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending Documentation</fullName>
+        <color>#0B6FCE</color>
+        <default>false</default>
+        <label>Pending Documentation</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending Shipment</fullName>
+        <color>#78C953</color>
+        <default>false</default>
+        <label>Pending Shipment</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending – MISC</fullName>
+        <default>false</default>
+        <label>Pending – MISC</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>DUP - No Action</fullName>
+        <color>#A845DC</color>
+        <default>false</default>
+        <label>DUP - No Action</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Ready to be Validated</fullName>
+        <color>#F3D904</color>
+        <default>false</default>
+        <label>Ready to be Validated</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Waiting on Allocation</fullName>
+        <color>#A53711</color>
+        <default>false</default>
+        <label>Waiting on Allocation</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Waiting on EUR1</fullName>
+        <color>#66E9BD</color>
+        <default>false</default>
+        <label>Waiting on EUR1</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Waiting on Final PO (Argentina)</fullName>
+        <color>#0B24BE</color>
+        <default>false</default>
+        <label>Waiting on Final PO (Argentina)</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Waiting on Gov. Records</fullName>
+        <color>#419249</color>
+        <default>false</default>
+        <label>Waiting on Gov. Records</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Waiting on GTR</fullName>
+        <color>#B6E32E</color>
+        <default>false</default>
+        <label>Waiting on GTR</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Waiting on Legal</fullName>
+        <color>#641CCF</color>
+        <default>false</default>
+        <label>Waiting on Legal</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Waiting on Plant</fullName>
+        <color>#F96FB7</color>
+        <default>false</default>
+        <label>Waiting on Plant</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Waiting on Regulatory</fullName>
+        <color>#2F5D85</color>
+        <default>false</default>
+        <label>Waiting on Regulatory</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Waiting on Strip Stamps</fullName>
+        <color>#AFCADF</color>
+        <default>false</default>
+        <label>Waiting on Strip Stamps</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Waiting on Freight Forwarder</fullName>
+        <color>#8F6429</color>
+        <default>false</default>
+        <label>Waiting on Freight Forwarder</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Waiting on GPC</fullName>
+        <color>#EFAE73</color>
+        <default>false</default>
+        <label>Waiting on GPC</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending Invoice</fullName>
+        <default>false</default>
+        <label>Pending Invoice</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending Approval</fullName>
+        <default>false</default>
+        <label>Pending Approval</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending Credit Hold</fullName>
+        <default>false</default>
+        <label>Pending Credit Hold</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending Dispute</fullName>
+        <default>false</default>
+        <label>Pending Dispute</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Preparing Barrel</fullName>
+        <default>false</default>
+        <label>Preparing Barrel</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending Date Selection</fullName>
+        <default>false</default>
+        <label>Pending Date Selection</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending Purchase Order</fullName>
+        <default>false</default>
+        <label>Pending Purchase Order</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending Final Details</fullName>
+        <default>false</default>
+        <label>Pending Final Details</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending Ship Date</fullName>
+        <default>false</default>
+        <label>Pending Ship Date</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Order Shipped</fullName>
+        <default>false</default>
+        <label>Order Shipped</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Close Pending</fullName>
+        <color>#B6E32E</color>
+        <default>false</default>
+        <label>Close Pending</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed - Abandoned</fullName>
+        <color>#990000</color>
+        <default>false</default>
+        <label>Closed - Abandoned</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed - Approved</fullName>
+        <color>#0B6FCE</color>
+        <default>false</default>
+        <label>Closed - Approved</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed - Rejected</fullName>
+        <color>#660000</color>
+        <default>false</default>
+        <label>Closed - Rejected</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed - No Action</fullName>
+        <color>#BBBBBB</color>
+        <default>false</default>
+        <label>Closed - No Action</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Canceled</fullName>
+        <default>false</default>
+        <label>Canceled</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed, No Action, State Manager didn’t respond</fullName>
+        <default>false</default>
+        <label>Closed, No Action, State Manager didn’t respond</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed, No Action – State Manager said No</fullName>
+        <default>false</default>
+        <label>Closed, No Action – State Manager said No</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Cancelled - Kit Not Selected</fullName>
+        <default>false</default>
+        <label>Cancelled - Kit Not Selected</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Waiting on DSC</fullName>
+        <default>false</default>
+        <label>Waiting on DSC</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Cancelled-Allocation</fullName>
+        <default>false</default>
+        <label>Cancelled-Allocation</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Submitted</fullName>
+        <default>false</default>
+        <label>Submitted</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Ready for Audit</fullName>
+        <default>false</default>
+        <label>Ready for Audit</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Ready to Load</fullName>
+        <default>false</default>
+        <label>Ready to Load</label>
+        <closed>false</closed>
+    </standardValue>
+</StandardValueSet>

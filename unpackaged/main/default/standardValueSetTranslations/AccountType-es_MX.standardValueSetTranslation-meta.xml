@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Airport</masterLabel>
+        <translation><!-- Airport --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BEAM Aggregated Forecast Group</masterLabel>
+        <translation><!-- BEAM Aggregated Forecast Group --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BEAM Forecast Group</masterLabel>
+        <translation><!-- BEAM Forecast Group --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BEAM Global Parent Company</masterLabel>
+        <translation><!-- BEAM Global Parent Company --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BEAM Intercompany Customer</masterLabel>
+        <translation><!-- BEAM Intercompany Customer --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BEAM Sub Forecast Group</masterLabel>
+        <translation><!-- BEAM Sub Forecast Group --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BGSW Management group</masterLabel>
+        <translation><!-- BGSW Management group --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BGSW Management sub group</masterLabel>
+        <translation><!-- BGSW Management sub group --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BGSW Market sub group</masterLabel>
+        <translation><!-- BGSW Market sub group --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Beam Bill-to Party</masterLabel>
+        <translation><!-- Beam Bill-to Party --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Corporate</masterLabel>
+        <translation>Corporativa</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Distributor</masterLabel>
+        <translation>Distribuidor</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GTR Country</masterLabel>
+        <translation><!-- GTR Country --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GTR Depletion Dummy Account</masterLabel>
+        <translation><!-- GTR Depletion Dummy Account --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GTR Region</masterLabel>
+        <translation><!-- GTR Region --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Retailer</masterLabel>
+        <translation>Retailer</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Ship To</masterLabel>
+        <translation><!-- Ship To --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sold To</masterLabel>
+        <translation><!-- Sold To --></translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

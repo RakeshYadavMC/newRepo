@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Dates__c</fullName>
+    <description>This field contains the Active At, Opened At, First Resolved At and Resolved At dates values, with proper format.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This field contains the Active At, Opened At, First Resolved At and Resolved At dates values, with proper format.</inlineHelpText>
+    <label>Case Dates</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

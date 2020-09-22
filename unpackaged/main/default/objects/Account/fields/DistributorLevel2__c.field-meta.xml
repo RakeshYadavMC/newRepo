@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DistributorLevel2__c</fullName>
+    <externalId>false</externalId>
+    <label>Distributor Level 2</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Allan S Goodman Inc-Total</fullName>
+                <default>false</default>
+                <label>Allan S Goodman Inc-Total</label>
+            </value>
+            <value>
+                <fullName>All Other Distributors</fullName>
+                <default>false</default>
+                <label>All Other Distributors</label>
+            </value>
+            <value>
+                <fullName>Athens-Total</fullName>
+                <default>false</default>
+                <label>Athens-Total</label>
+            </value>
+            <value>
+                <fullName>B &amp; T-Total</fullName>
+                <default>false</default>
+                <label>B &amp; T-Total</label>
+            </value>
+            <value>
+                <fullName>Badger - Total</fullName>
+                <default>false</default>
+                <label>Badger - Total</label>
+            </value>
+            <value>
+                <fullName>Best Brands-Total</fullName>
+                <default>false</default>
+                <label>Best Brands-Total</label>
+            </value>
+            <value>
+                <fullName>Brescome Barton Inc-Total</fullName>
+                <default>false</default>
+                <label>Brescome Barton Inc-Total</label>
+            </value>
+            <value>
+                <fullName>Connecticut Distributors Inc-Total</fullName>
+                <default>false</default>
+                <label>Connecticut Distributors Inc-Total</label>
+            </value>
+            <value>
+                <fullName>Empire - Total</fullName>
+                <default>false</default>
+                <label>Empire - Total</label>
+            </value>
+            <value>
+                <fullName>Fedway Associates Inc-Total</fullName>
+                <default>false</default>
+                <label>Fedway Associates Inc-Total</label>
+            </value>
+            <value>
+                <fullName>Frank-Total</fullName>
+                <default>false</default>
+                <label>Frank-Total</label>
+            </value>
+            <value>
+                <fullName>General Wholesale</fullName>
+                <default>false</default>
+                <label>General Wholesale</label>
+            </value>
+            <value>
+                <fullName>Georgia Crown-Total</fullName>
+                <default>false</default>
+                <label>Georgia Crown-Total</label>
+            </value>
+            <value>
+                <fullName>Glazer-Control</fullName>
+                <default>false</default>
+                <label>Glazer-Control</label>
+            </value>
+            <value>
+                <fullName>Glazer-South Central</fullName>
+                <default>false</default>
+                <label>Glazer-South Central</label>
+            </value>
+            <value>
+                <fullName>Hartley &amp; Parker Ltd-Total</fullName>
+                <default>false</default>
+                <label>Hartley &amp; Parker Ltd-Total</label>
+            </value>
+            <value>
+                <fullName>Horizon - Total</fullName>
+                <default>false</default>
+                <label>Horizon - Total</label>
+            </value>
+            <value>
+                <fullName>Johnson Bros-Total</fullName>
+                <default>false</default>
+                <label>Johnson Bros-Total</label>
+            </value>
+            <value>
+                <fullName>Knoxville Bev-Total</fullName>
+                <default>false</default>
+                <label>Knoxville Bev-Total</label>
+            </value>
+            <value>
+                <fullName>M.S Walker-Total</fullName>
+                <default>false</default>
+                <label>M.S Walker-Total</label>
+            </value>
+            <value>
+                <fullName>Major Brands - Total</fullName>
+                <default>false</default>
+                <label>Major Brands - Total</label>
+            </value>
+            <value>
+                <fullName>Phillips-Total</fullName>
+                <default>false</default>
+                <label>Phillips-Total</label>
+            </value>
+            <value>
+                <fullName>R&amp;R Marketing-Total</fullName>
+                <default>false</default>
+                <label>R&amp;R Marketing-Total</label>
+            </value>
+            <value>
+                <fullName>Rndc - Total</fullName>
+                <default>false</default>
+                <label>Rndc - Total</label>
+            </value>
+            <value>
+                <fullName>Star Distributors-Total</fullName>
+                <default>false</default>
+                <label>Star Distributors-Total</label>
+            </value>
+            <value>
+                <fullName>Sws-California</fullName>
+                <default>false</default>
+                <label>Sws-California</label>
+            </value>
+            <value>
+                <fullName>Sws-Central</fullName>
+                <default>false</default>
+                <label>Sws-Central</label>
+            </value>
+            <value>
+                <fullName>Sws-Eastern</fullName>
+                <default>false</default>
+                <label>Sws-Eastern</label>
+            </value>
+            <value>
+                <fullName>Sws-Florida</fullName>
+                <default>false</default>
+                <label>Sws-Florida</label>
+            </value>
+            <value>
+                <fullName>Sws-Western</fullName>
+                <default>false</default>
+                <label>Sws-Western</label>
+            </value>
+            <value>
+                <fullName>Triple C-Total</fullName>
+                <default>false</default>
+                <label>Triple C-Total</label>
+            </value>
+            <value>
+                <fullName>United - Total</fullName>
+                <default>false</default>
+                <label>United - Total</label>
+            </value>
+            <value>
+                <fullName>West Tennessee Crown Distributing-Total</fullName>
+                <default>false</default>
+                <label>West Tennessee Crown Distributing-Total</label>
+            </value>
+            <value>
+                <fullName>Wirtz - Total</fullName>
+                <default>false</default>
+                <label>Wirtz - Total</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

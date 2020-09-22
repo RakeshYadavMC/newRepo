@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Number of Quote Requests that need pricing --></help>
+        <label><!-- Number of Prices Needed --></label>
+        <name>Number_of_Prices_Needed__c</name>
+    </CustomFieldTranslation>

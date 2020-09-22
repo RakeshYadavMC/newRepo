@@ -1,0 +1,1450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GLCode__c</fullName>
+    <externalId>false</externalId>
+    <label>GL Code</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>GLDescription__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>15010</fullName>
+                <default>false</default>
+                <label>15010</label>
+            </value>
+            <value>
+                <fullName>15020</fullName>
+                <default>false</default>
+                <label>15020</label>
+            </value>
+            <value>
+                <fullName>15030</fullName>
+                <default>false</default>
+                <label>15030</label>
+            </value>
+            <value>
+                <fullName>15040</fullName>
+                <default>false</default>
+                <label>15040</label>
+            </value>
+            <value>
+                <fullName>15050</fullName>
+                <default>false</default>
+                <label>15050</label>
+            </value>
+            <value>
+                <fullName>15060</fullName>
+                <default>false</default>
+                <label>15060</label>
+            </value>
+            <value>
+                <fullName>15070</fullName>
+                <default>false</default>
+                <label>15070</label>
+            </value>
+            <value>
+                <fullName>15080</fullName>
+                <default>false</default>
+                <label>15080</label>
+            </value>
+            <value>
+                <fullName>15100</fullName>
+                <default>false</default>
+                <label>15100</label>
+            </value>
+            <value>
+                <fullName>15110</fullName>
+                <default>false</default>
+                <label>15110</label>
+            </value>
+            <value>
+                <fullName>15115</fullName>
+                <default>false</default>
+                <label>15115</label>
+            </value>
+            <value>
+                <fullName>15130</fullName>
+                <default>false</default>
+                <label>15130</label>
+            </value>
+            <value>
+                <fullName>15140</fullName>
+                <default>false</default>
+                <label>15140</label>
+            </value>
+            <value>
+                <fullName>15150</fullName>
+                <default>false</default>
+                <label>15150</label>
+            </value>
+            <value>
+                <fullName>15160</fullName>
+                <default>false</default>
+                <label>15160</label>
+            </value>
+            <value>
+                <fullName>15170</fullName>
+                <default>false</default>
+                <label>15170</label>
+            </value>
+            <value>
+                <fullName>15180</fullName>
+                <default>false</default>
+                <label>15180</label>
+            </value>
+            <value>
+                <fullName>15410</fullName>
+                <default>false</default>
+                <label>15410</label>
+            </value>
+            <value>
+                <fullName>15420</fullName>
+                <default>false</default>
+                <label>15420</label>
+            </value>
+            <value>
+                <fullName>15430</fullName>
+                <default>false</default>
+                <label>15430</label>
+            </value>
+            <value>
+                <fullName>15440</fullName>
+                <default>false</default>
+                <label>15440</label>
+            </value>
+            <value>
+                <fullName>15450</fullName>
+                <default>false</default>
+                <label>15450</label>
+            </value>
+            <value>
+                <fullName>15470</fullName>
+                <default>false</default>
+                <label>15470</label>
+            </value>
+            <value>
+                <fullName>15490</fullName>
+                <default>false</default>
+                <label>15490</label>
+            </value>
+            <value>
+                <fullName>15500</fullName>
+                <default>false</default>
+                <label>15500</label>
+            </value>
+            <value>
+                <fullName>15510</fullName>
+                <default>false</default>
+                <label>15510</label>
+            </value>
+            <value>
+                <fullName>15800</fullName>
+                <default>false</default>
+                <label>15800</label>
+            </value>
+            <value>
+                <fullName>15810</fullName>
+                <default>false</default>
+                <label>15810</label>
+            </value>
+            <value>
+                <fullName>15820</fullName>
+                <default>false</default>
+                <label>15820</label>
+            </value>
+            <value>
+                <fullName>15850</fullName>
+                <default>false</default>
+                <label>15850</label>
+            </value>
+            <value>
+                <fullName>15870</fullName>
+                <default>false</default>
+                <label>15870</label>
+            </value>
+            <value>
+                <fullName>15880</fullName>
+                <default>false</default>
+                <label>15880</label>
+            </value>
+            <value>
+                <fullName>15890</fullName>
+                <default>false</default>
+                <label>15890</label>
+            </value>
+            <value>
+                <fullName>15900</fullName>
+                <default>false</default>
+                <label>15900</label>
+            </value>
+            <value>
+                <fullName>15910</fullName>
+                <default>false</default>
+                <label>15910</label>
+            </value>
+            <value>
+                <fullName>15920</fullName>
+                <default>false</default>
+                <label>15920</label>
+            </value>
+            <value>
+                <fullName>15960</fullName>
+                <default>false</default>
+                <label>15960</label>
+            </value>
+            <value>
+                <fullName>15970</fullName>
+                <default>false</default>
+                <label>15970</label>
+            </value>
+            <value>
+                <fullName>15301</fullName>
+                <default>false</default>
+                <label>15301</label>
+            </value>
+            <value>
+                <fullName>15302</fullName>
+                <default>false</default>
+                <label>15302</label>
+            </value>
+            <value>
+                <fullName>15303</fullName>
+                <default>false</default>
+                <label>15303</label>
+            </value>
+            <value>
+                <fullName>15304</fullName>
+                <default>false</default>
+                <label>15304</label>
+            </value>
+            <value>
+                <fullName>15305</fullName>
+                <default>false</default>
+                <label>15305</label>
+            </value>
+            <value>
+                <fullName>15306</fullName>
+                <default>false</default>
+                <label>15306</label>
+            </value>
+            <value>
+                <fullName>15307</fullName>
+                <default>false</default>
+                <label>15307</label>
+            </value>
+            <value>
+                <fullName>15308</fullName>
+                <default>false</default>
+                <label>15308</label>
+            </value>
+            <value>
+                <fullName>15309</fullName>
+                <default>false</default>
+                <label>15309</label>
+            </value>
+            <value>
+                <fullName>15310</fullName>
+                <default>false</default>
+                <label>15310</label>
+            </value>
+            <value>
+                <fullName>15311</fullName>
+                <default>false</default>
+                <label>15311</label>
+            </value>
+            <value>
+                <fullName>15312</fullName>
+                <default>false</default>
+                <label>15312</label>
+            </value>
+            <value>
+                <fullName>15313</fullName>
+                <default>false</default>
+                <label>15313</label>
+            </value>
+            <value>
+                <fullName>15317</fullName>
+                <default>false</default>
+                <label>15317</label>
+            </value>
+            <value>
+                <fullName>15318</fullName>
+                <default>false</default>
+                <label>15318</label>
+            </value>
+            <value>
+                <fullName>15319</fullName>
+                <default>false</default>
+                <label>15319</label>
+            </value>
+            <value>
+                <fullName>15320</fullName>
+                <default>false</default>
+                <label>15320</label>
+            </value>
+            <value>
+                <fullName>15321</fullName>
+                <default>false</default>
+                <label>15321</label>
+            </value>
+            <value>
+                <fullName>15322</fullName>
+                <default>false</default>
+                <label>15322</label>
+            </value>
+            <value>
+                <fullName>15323</fullName>
+                <default>false</default>
+                <label>15323</label>
+            </value>
+            <value>
+                <fullName>15324</fullName>
+                <default>false</default>
+                <label>15324</label>
+            </value>
+            <value>
+                <fullName>15325</fullName>
+                <default>false</default>
+                <label>15325</label>
+            </value>
+            <value>
+                <fullName>15326</fullName>
+                <default>false</default>
+                <label>15326</label>
+            </value>
+            <value>
+                <fullName>15327</fullName>
+                <default>false</default>
+                <label>15327</label>
+            </value>
+            <value>
+                <fullName>15328</fullName>
+                <default>false</default>
+                <label>15328</label>
+            </value>
+            <value>
+                <fullName>15329</fullName>
+                <default>false</default>
+                <label>15329</label>
+            </value>
+            <value>
+                <fullName>15330</fullName>
+                <default>false</default>
+                <label>15330</label>
+            </value>
+            <value>
+                <fullName>15331</fullName>
+                <default>false</default>
+                <label>15331</label>
+            </value>
+            <value>
+                <fullName>15332</fullName>
+                <default>false</default>
+                <label>15332</label>
+            </value>
+            <value>
+                <fullName>15333</fullName>
+                <default>false</default>
+                <label>15333</label>
+            </value>
+            <value>
+                <fullName>15334</fullName>
+                <default>false</default>
+                <label>15334</label>
+            </value>
+            <value>
+                <fullName>15335</fullName>
+                <default>false</default>
+                <label>15335</label>
+            </value>
+            <value>
+                <fullName>15336</fullName>
+                <default>false</default>
+                <label>15336</label>
+            </value>
+            <value>
+                <fullName>15337</fullName>
+                <default>false</default>
+                <label>15337</label>
+            </value>
+            <value>
+                <fullName>15338</fullName>
+                <default>false</default>
+                <label>15338</label>
+            </value>
+            <value>
+                <fullName>15339</fullName>
+                <default>false</default>
+                <label>15339</label>
+            </value>
+            <value>
+                <fullName>15340</fullName>
+                <default>false</default>
+                <label>15340</label>
+            </value>
+            <value>
+                <fullName>15341</fullName>
+                <default>false</default>
+                <label>15341</label>
+            </value>
+            <value>
+                <fullName>15342</fullName>
+                <default>false</default>
+                <label>15342</label>
+            </value>
+            <value>
+                <fullName>15343</fullName>
+                <default>false</default>
+                <label>15343</label>
+            </value>
+            <value>
+                <fullName>15344</fullName>
+                <default>false</default>
+                <label>15344</label>
+            </value>
+            <value>
+                <fullName>15345</fullName>
+                <default>false</default>
+                <label>15345</label>
+            </value>
+            <value>
+                <fullName>15346</fullName>
+                <default>false</default>
+                <label>15346</label>
+            </value>
+            <value>
+                <fullName>15347</fullName>
+                <default>false</default>
+                <label>15347</label>
+            </value>
+            <value>
+                <fullName>15348</fullName>
+                <default>false</default>
+                <label>15348</label>
+            </value>
+            <value>
+                <fullName>15351</fullName>
+                <default>false</default>
+                <label>15351</label>
+            </value>
+            <value>
+                <fullName>15352</fullName>
+                <default>false</default>
+                <label>15352</label>
+            </value>
+            <value>
+                <fullName>15353</fullName>
+                <default>false</default>
+                <label>15353</label>
+            </value>
+            <value>
+                <fullName>15354</fullName>
+                <default>false</default>
+                <label>15354</label>
+            </value>
+            <value>
+                <fullName>15355</fullName>
+                <default>false</default>
+                <label>15355</label>
+            </value>
+            <value>
+                <fullName>15356</fullName>
+                <default>false</default>
+                <label>15356</label>
+            </value>
+            <value>
+                <fullName>15357</fullName>
+                <default>false</default>
+                <label>15357</label>
+            </value>
+            <value>
+                <fullName>15358</fullName>
+                <default>false</default>
+                <label>15358</label>
+            </value>
+            <value>
+                <fullName>15359</fullName>
+                <default>false</default>
+                <label>15359</label>
+            </value>
+            <value>
+                <fullName>15360</fullName>
+                <default>false</default>
+                <label>15360</label>
+            </value>
+            <value>
+                <fullName>15361</fullName>
+                <default>false</default>
+                <label>15361</label>
+            </value>
+            <value>
+                <fullName>15362</fullName>
+                <default>false</default>
+                <label>15362</label>
+            </value>
+            <value>
+                <fullName>15363</fullName>
+                <default>false</default>
+                <label>15363</label>
+            </value>
+            <value>
+                <fullName>15364</fullName>
+                <default>false</default>
+                <label>15364</label>
+            </value>
+            <value>
+                <fullName>15365</fullName>
+                <default>false</default>
+                <label>15365</label>
+            </value>
+            <value>
+                <fullName>15366</fullName>
+                <default>false</default>
+                <label>15366</label>
+            </value>
+            <value>
+                <fullName>15367</fullName>
+                <default>false</default>
+                <label>15367</label>
+            </value>
+            <value>
+                <fullName>15368</fullName>
+                <default>false</default>
+                <label>15368</label>
+            </value>
+            <value>
+                <fullName>15369</fullName>
+                <default>false</default>
+                <label>15369</label>
+            </value>
+            <value>
+                <fullName>15370</fullName>
+                <default>false</default>
+                <label>15370</label>
+            </value>
+            <value>
+                <fullName>15371</fullName>
+                <default>false</default>
+                <label>15371</label>
+            </value>
+            <value>
+                <fullName>15372</fullName>
+                <default>false</default>
+                <label>15372</label>
+            </value>
+            <value>
+                <fullName>15373</fullName>
+                <default>false</default>
+                <label>15373</label>
+            </value>
+            <value>
+                <fullName>15374</fullName>
+                <default>false</default>
+                <label>15374</label>
+            </value>
+            <value>
+                <fullName>15375</fullName>
+                <default>false</default>
+                <label>15375</label>
+            </value>
+            <value>
+                <fullName>15376</fullName>
+                <default>false</default>
+                <label>15376</label>
+            </value>
+            <value>
+                <fullName>15377</fullName>
+                <default>false</default>
+                <label>15377</label>
+            </value>
+            <value>
+                <fullName>15378</fullName>
+                <default>false</default>
+                <label>15378</label>
+            </value>
+            <value>
+                <fullName>15379</fullName>
+                <default>false</default>
+                <label>15379</label>
+            </value>
+            <value>
+                <fullName>15380</fullName>
+                <default>false</default>
+                <label>15380</label>
+            </value>
+            <value>
+                <fullName>15381</fullName>
+                <default>false</default>
+                <label>15381</label>
+            </value>
+            <value>
+                <fullName>15382</fullName>
+                <default>false</default>
+                <label>15382</label>
+            </value>
+            <value>
+                <fullName>15383</fullName>
+                <default>false</default>
+                <label>15383</label>
+            </value>
+            <value>
+                <fullName>15384</fullName>
+                <default>false</default>
+                <label>15384</label>
+            </value>
+            <value>
+                <fullName>15385</fullName>
+                <default>false</default>
+                <label>15385</label>
+            </value>
+            <value>
+                <fullName>15386</fullName>
+                <default>false</default>
+                <label>15386</label>
+            </value>
+            <value>
+                <fullName>15388</fullName>
+                <default>false</default>
+                <label>15388</label>
+            </value>
+            <value>
+                <fullName>15389</fullName>
+                <default>false</default>
+                <label>15389</label>
+            </value>
+            <value>
+                <fullName>15390</fullName>
+                <default>false</default>
+                <label>15390</label>
+            </value>
+            <value>
+                <fullName>15391</fullName>
+                <default>false</default>
+                <label>15391</label>
+            </value>
+            <value>
+                <fullName>15392</fullName>
+                <default>false</default>
+                <label>15392</label>
+            </value>
+            <value>
+                <fullName>15393</fullName>
+                <default>false</default>
+                <label>15393</label>
+            </value>
+            <value>
+                <fullName>15394</fullName>
+                <default>false</default>
+                <label>15394</label>
+            </value>
+            <value>
+                <fullName>15395</fullName>
+                <default>false</default>
+                <label>15395</label>
+            </value>
+            <value>
+                <fullName>15396</fullName>
+                <default>false</default>
+                <label>15396</label>
+            </value>
+            <value>
+                <fullName>15397</fullName>
+                <default>false</default>
+                <label>15397</label>
+            </value>
+            <value>
+                <fullName>15398</fullName>
+                <default>false</default>
+                <label>15398</label>
+            </value>
+            <value>
+                <fullName>15090</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>15090</label>
+            </value>
+            <value>
+                <fullName>15290</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>15290</label>
+            </value>
+            <value>
+                <fullName>15314</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>15314</label>
+            </value>
+            <value>
+                <fullName>15315</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>15315</label>
+            </value>
+            <value>
+                <fullName>15316</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>15316</label>
+            </value>
+            <value>
+                <fullName>15349</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>15349</label>
+            </value>
+            <value>
+                <fullName>15350</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>15350</label>
+            </value>
+            <value>
+                <fullName>15415</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>15415</label>
+            </value>
+            <value>
+                <fullName>15460</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>15460</label>
+            </value>
+            <value>
+                <fullName>15480</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>15480</label>
+            </value>
+            <value>
+                <fullName>15520</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>15520</label>
+            </value>
+            <value>
+                <fullName>15790</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>15790</label>
+            </value>
+            <value>
+                <fullName>15821</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>15821</label>
+            </value>
+            <value>
+                <fullName>15822</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>15822</label>
+            </value>
+            <value>
+                <fullName>15823</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>15823</label>
+            </value>
+            <value>
+                <fullName>15824</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>15824</label>
+            </value>
+            <value>
+                <fullName>15825</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>15825</label>
+            </value>
+            <value>
+                <fullName>15826</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>15826</label>
+            </value>
+            <value>
+                <fullName>15827</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>15827</label>
+            </value>
+            <value>
+                <fullName>15828</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>15828</label>
+            </value>
+            <value>
+                <fullName>15829</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>15829</label>
+            </value>
+            <value>
+                <fullName>15830</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>15830</label>
+            </value>
+            <value>
+                <fullName>15831</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>15831</label>
+            </value>
+            <value>
+                <fullName>15832</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>15832</label>
+            </value>
+            <value>
+                <fullName>15833</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>15833</label>
+            </value>
+            <value>
+                <fullName>15834</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>15834</label>
+            </value>
+            <value>
+                <fullName>15981</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>15981</label>
+            </value>
+            <value>
+                <fullName>15990</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>15990</label>
+            </value>
+            <value>
+                <fullName>15991</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>15991</label>
+            </value>
+            <value>
+                <fullName>15992</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>15992</label>
+            </value>
+            <value>
+                <fullName>16000</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>16000</label>
+            </value>
+            <value>
+                <fullName>16001</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>16001</label>
+            </value>
+            <value>
+                <fullName>16002</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>16002</label>
+            </value>
+            <value>
+                <fullName>16003</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>16003</label>
+            </value>
+            <value>
+                <fullName>16004</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>16004</label>
+            </value>
+            <value>
+                <fullName>16005</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>16005</label>
+            </value>
+            <value>
+                <fullName>16006</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>16006</label>
+            </value>
+            <value>
+                <fullName>16007</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>16007</label>
+            </value>
+            <value>
+                <fullName>16008</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>16008</label>
+            </value>
+            <value>
+                <fullName>16009</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>16009</label>
+            </value>
+            <value>
+                <fullName>16010</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>16010</label>
+            </value>
+            <value>
+                <fullName>__</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>__</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Research – Packaging</controllingFieldValue>
+            <valueName>15379</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Research – Shopper / Channel</controllingFieldValue>
+            <valueName>15380</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Research – Syndicated / Subscriptions</controllingFieldValue>
+            <valueName>15381</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sponsorship – Attitudinal Sponsorship Contract Fee</controllingFieldValue>
+            <valueName>15382</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sponsorship – Experiential Sponsorship Contract Fee</controllingFieldValue>
+            <valueName>15383</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off-Trade – Consumer Promotions - Print, Digital POS and Fulfillment Services</controllingFieldValue>
+            <valueName>15318</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off-Trade – Consumer Promotions - POS Materials</controllingFieldValue>
+            <valueName>15319</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Brand Education – Heritage Center and Distillery Visits</controllingFieldValue>
+            <valueName>15312</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>On-Trade – Consumer Promotions - POS Materials</controllingFieldValue>
+            <valueName>15326</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off-Trade – Value Added Packaging</controllingFieldValue>
+            <valueName>15325</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agency Fee – Consultants</controllingFieldValue>
+            <valueName>15352</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agency Fee – Design</controllingFieldValue>
+            <valueName>15353</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agency Fee – Digital</controllingFieldValue>
+            <valueName>15354</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agency Fee – Experiential</controllingFieldValue>
+            <valueName>15355</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agency Fee – Innovation</controllingFieldValue>
+            <valueName>15356</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rebates</controllingFieldValue>
+            <controllingFieldValue>Rebates Price Support</controllingFieldValue>
+            <controllingFieldValue>Digital Rebates</controllingFieldValue>
+            <valueName>15920</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agency Fee – Lead Creative</controllingFieldValue>
+            <valueName>15351</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agency Fee – Media</controllingFieldValue>
+            <valueName>15357</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Freight and Storage (National POS Only)</controllingFieldValue>
+            <valueName>15500</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Heritage Center</controllingFieldValue>
+            <valueName>15080</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Liscensing and Royalty</controllingFieldValue>
+            <valueName>15440</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mobile Paid Advertising</controllingFieldValue>
+            <controllingFieldValue>Non-Standard Digital Units Paid Advertising</controllingFieldValue>
+            <controllingFieldValue>Advanced TV Paid Advertising</controllingFieldValue>
+            <controllingFieldValue>Digital Display Paid Advertising</controllingFieldValue>
+            <controllingFieldValue>Online Video Paid Advertising</controllingFieldValue>
+            <controllingFieldValue>Search Engine Optimization</controllingFieldValue>
+            <controllingFieldValue>Search Paid Advertising</controllingFieldValue>
+            <valueName>15140</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Media Agency Fees</controllingFieldValue>
+            <valueName>15450</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Social Content Creation and Development</controllingFieldValue>
+            <controllingFieldValue>Website Creation and Development</controllingFieldValue>
+            <controllingFieldValue>Ad Production Costs</controllingFieldValue>
+            <valueName>15420</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agency Fee – PR</controllingFieldValue>
+            <valueName>15358</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agency Fee – Shopper</controllingFieldValue>
+            <valueName>15359</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agency Fee – Talent</controllingFieldValue>
+            <valueName>15360</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cinema Paid Advertising</controllingFieldValue>
+            <valueName>15070</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agency Fee – Technology Platform</controllingFieldValue>
+            <valueName>15361</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Consumer Magazines Paid Advertising</controllingFieldValue>
+            <valueName>15030</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Analytics – Marketing Analytics</controllingFieldValue>
+            <valueName>15362</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Consumer Newspaper Paid Advertising</controllingFieldValue>
+            <controllingFieldValue>Trade Print Paid Advertising</controllingFieldValue>
+            <valueName>15040</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Execution – Consumer Experience &amp; Personalization</controllingFieldValue>
+            <valueName>15313</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Trade Incentive</controllingFieldValue>
+            <valueName>15970</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>On Trade Incentive</controllingFieldValue>
+            <valueName>15960</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Relations Management</controllingFieldValue>
+            <valueName>15170</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Premise Consumer Promotion</controllingFieldValue>
+            <valueName>15800</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Premise Display Installation</controllingFieldValue>
+            <valueName>15810</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Premise POS</controllingFieldValue>
+            <valueName>15820</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Premise Sampling</controllingFieldValue>
+            <valueName>15850</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Premise - Trade Event</controllingFieldValue>
+            <valueName>15870</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Premise Value Added Packaging (VAP)</controllingFieldValue>
+            <valueName>15470</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>On Premise Menus</controllingFieldValue>
+            <controllingFieldValue>On Premise Consumer Promotion</controllingFieldValue>
+            <valueName>15880</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Misc – POS Freight &amp; Storage</controllingFieldValue>
+            <valueName>15317</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off-Trade – Consumer Promotions - Redemption</controllingFieldValue>
+            <controllingFieldValue>Off-Trade - Digital Rebates</controllingFieldValue>
+            <valueName>15320</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off-Trade – Consumer Promotions - Sampling</controllingFieldValue>
+            <valueName>15321</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off-Trade – Consumer Promotions - Sweeps</controllingFieldValue>
+            <valueName>15322</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off-Trade – Display Installations</controllingFieldValue>
+            <valueName>15323</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>On Premise POS</controllingFieldValue>
+            <valueName>15890</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>On Premise Sampling</controllingFieldValue>
+            <valueName>15900</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>On Premise - Trade Event</controllingFieldValue>
+            <valueName>15910</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Outdoor Paid Advertising</controllingFieldValue>
+            <controllingFieldValue>Out of Home</controllingFieldValue>
+            <valueName>15150</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Radio Paid Advertising</controllingFieldValue>
+            <valueName>15050</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Panel Research / Trade Data</controllingFieldValue>
+            <valueName>15490</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off-Trade – Trade Promotions</controllingFieldValue>
+            <valueName>15324</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>On-Trade – Consumer Promotions - Print, Digital POS and Fulfillment Services</controllingFieldValue>
+            <valueName>15327</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>On-Trade – Consumer Promotions - Redemption</controllingFieldValue>
+            <controllingFieldValue>On-Trade - Digital Rebates</controllingFieldValue>
+            <valueName>15328</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>On-Trade – Consumer Promotions - Sampling</controllingFieldValue>
+            <valueName>15329</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>On-Trade – Consumer Promotions - Sweeps</controllingFieldValue>
+            <valueName>15330</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>On-Trade – Display Installations</controllingFieldValue>
+            <valueName>15331</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>On-Trade – Drink machines</controllingFieldValue>
+            <valueName>15332</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>On-Trade – Menus</controllingFieldValue>
+            <valueName>15333</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>On-Trade – Trade Promotions</controllingFieldValue>
+            <valueName>15334</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OOP – Consultants</controllingFieldValue>
+            <valueName>15302</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sponsorship Activation</controllingFieldValue>
+            <valueName>15115</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trade Digital Paid Advertising</controllingFieldValue>
+            <valueName>15020</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TV Paid Advertising</controllingFieldValue>
+            <valueName>15060</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PR Materials / Other Expenses</controllingFieldValue>
+            <valueName>15160</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OOP – Design</controllingFieldValue>
+            <valueName>15303</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OOP – Digital</controllingFieldValue>
+            <valueName>15304</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OOP – Experiential</controllingFieldValue>
+            <valueName>15305</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OOP – Innovation</controllingFieldValue>
+            <valueName>15306</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OOP – Lead Creative</controllingFieldValue>
+            <valueName>15301</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OOP – Media</controllingFieldValue>
+            <valueName>15307</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OOP – PR</controllingFieldValue>
+            <valueName>15308</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OOP – Shopper</controllingFieldValue>
+            <valueName>15309</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OOP – Talent</controllingFieldValue>
+            <valueName>15310</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OOP – Technology Platform</controllingFieldValue>
+            <valueName>15311</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Creative Agency Fees</controllingFieldValue>
+            <valueName>15410</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sponsorship Fees</controllingFieldValue>
+            <valueName>15110</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Consumer Giveaways</controllingFieldValue>
+            <valueName>15180</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PR Agency Fees</controllingFieldValue>
+            <valueName>15510</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PR Events</controllingFieldValue>
+            <valueName>15100</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Paid Media – Cinema</controllingFieldValue>
+            <valueName>15335</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Paid Media – Consumer Print</controllingFieldValue>
+            <valueName>15336</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Paid Media – Digital OLA</controllingFieldValue>
+            <valueName>15337</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Paid Media – Digital OLV</controllingFieldValue>
+            <valueName>15338</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Paid Media – Direct Mail</controllingFieldValue>
+            <valueName>15339</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Paid Media – eCommerce</controllingFieldValue>
+            <valueName>15340</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Paid Media – Film</controllingFieldValue>
+            <valueName>15341</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Paid Media – Mobile</controllingFieldValue>
+            <valueName>15342</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Paid Media – Out of Home</controllingFieldValue>
+            <valueName>15343</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Paid Media – Radio</controllingFieldValue>
+            <valueName>15344</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Execution – PR</controllingFieldValue>
+            <valueName>15384</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Research – Innovation</controllingFieldValue>
+            <valueName>15385</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sponsorship – Celebrity Partnerships</controllingFieldValue>
+            <valueName>15386</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>On-Trade – Consumer Promotions - Experiential</controllingFieldValue>
+            <valueName>15388</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Paid Media – Search Engine Marketing (SEM)</controllingFieldValue>
+            <valueName>15345</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Paid Media – Search Engine Optimization (SEO)</controllingFieldValue>
+            <valueName>15346</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Paid Media – Social</controllingFieldValue>
+            <valueName>15347</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Paid Media – Trade Print</controllingFieldValue>
+            <valueName>15348</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production – Brand Asset Creation and Development</controllingFieldValue>
+            <valueName>15370</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production – Brand Websites</controllingFieldValue>
+            <valueName>15371</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production – Consumer Print</controllingFieldValue>
+            <valueName>15363</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production – Customer Relations Management</controllingFieldValue>
+            <valueName>15372</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off-Trade – Consumer Promotions - Experiential</controllingFieldValue>
+            <valueName>15389</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production – Customer Samples</controllingFieldValue>
+            <valueName>15373</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-Premise – Consumer Promotions - Experiential</controllingFieldValue>
+            <valueName>15390</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production – Digital Asset Production</controllingFieldValue>
+            <valueName>15364</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>On-Trade – Consumer Influencer Program</controllingFieldValue>
+            <valueName>15391</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off-Trade – Consumer Influencer Program</controllingFieldValue>
+            <valueName>15392</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-Premise – Consumer Influencer Program</controllingFieldValue>
+            <valueName>15393</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>On-Trade – Trade Influencer Program</controllingFieldValue>
+            <valueName>15394</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off-Trade – Trade Influencer Program</controllingFieldValue>
+            <valueName>15395</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-Premise – Trade Influencer Program</controllingFieldValue>
+            <valueName>15396</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-Premise – Trade Promotions</controllingFieldValue>
+            <valueName>15397</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-Premise – Consumer Promotions - POS Materials</controllingFieldValue>
+            <valueName>15398</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production – eCommerce</controllingFieldValue>
+            <valueName>15365</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production – Film</controllingFieldValue>
+            <valueName>15366</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production – Licensing Royalty</controllingFieldValue>
+            <valueName>15374</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production – Out of Home</controllingFieldValue>
+            <valueName>15367</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production – Social Media Asset Production</controllingFieldValue>
+            <valueName>15368</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production – Trade Print</controllingFieldValue>
+            <valueName>15369</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Research – Category</controllingFieldValue>
+            <valueName>15375</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Research – Consumer</controllingFieldValue>
+            <valueName>15376</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Research – Creative</controllingFieldValue>
+            <valueName>15377</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Research – In-Market Performance / Measurement</controllingFieldValue>
+            <valueName>15378</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Consumer Research</controllingFieldValue>
+            <valueName>15430</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Direct Mail</controllingFieldValue>
+            <valueName>15010</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

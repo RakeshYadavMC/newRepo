@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Inquiry_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Inquiry Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Status of Order</fullName>
+                <default>false</default>
+                <label>Status of Order</label>
+            </value>
+            <value>
+                <fullName>Missing Pricing</fullName>
+                <default>false</default>
+                <label>Missing Pricing</label>
+            </value>
+            <value>
+                <fullName>OA Discrepancy</fullName>
+                <default>false</default>
+                <label>OA Discrepancy</label>
+            </value>
+            <value>
+                <fullName>Tendered to Carrier</fullName>
+                <default>false</default>
+                <label>Tendered to Carrier</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

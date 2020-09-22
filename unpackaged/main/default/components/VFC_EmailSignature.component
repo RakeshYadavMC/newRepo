@@ -1,0 +1,66 @@
+<!-- Below "access" attribute must be set to global when it is being used by a Visualforce email template-->
+<apex:component access="global" controller="CNT_EmailSignature" layout="none">
+  	
+    <apex:attribute name="brand" type="String" assignTo="{!brandName}" description="This is the name of brand to be queried"/>
+    <apex:attribute name="caseId" type="String" assignTo="{!currentCaseId}" description="Id of current case" />
+    <table id="Signature">
+        <apex:outputPanel rendered="{! LstEmailSignatureInformation.size > 0 }" layout="block">
+            <tr>
+                <td style="text-align: left;">
+                    <table cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td colspan="{! IF(LstEmailSignatureInformation[0].URL_Type__c == 'Brand Logo', LstEmailSignatureInformation.size - 1, LstEmailSignatureInformation.size) }"
+                                style="{! IF(OR(LstEmailSignatureInformation.size > 1, LstEmailSignatureInformation[0].URL_Type__c != 'Brand Logo'), '', 'display: none') }">
+                                Click to follow us on Social:
+                            </td>
+                        </tr>
+                        <tr style="display:flex;">
+                            <apex:repeat var="emailSignature" first="{! IF(LstEmailSignatureInformation[0].URL_Type__c == 'Brand Logo', 1, 0)}" value="{!LstEmailSignatureInformation}">
+                                <!--It will render all the social links of specific brand-->
+                                <td style="margin-right:1em;">
+                                    <apex:outputLink value="{!emailSignature.URL__c}">
+                                        <apex:image value="{!$Label.DSC_Base_URL_SocialMediaImages}{!emailSignature.Brand_Image_URL__c}" />
+                                    </apex:outputLink>
+                                </td>
+                            </apex:repeat>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </apex:outputPanel>
+    </table>
+    
+    <br/><br/>
+    <hr/>
+    <br/>
+
+    <apex:outputPanel rendered="{! LstEmailSignatureInformation.size > 0 }" layout="block">
+        <div align="center">
+            <div class="drinkSmartLogo">
+                <a href='http://www.drinksmart.com'>
+                    <img src='{!$Label.SF_Base_URL_BrandLogo}DrinkSmart.png' style="width: 20% ;min-width: 50px; max-width: 150px; margin-bottom: 2px;" alt='Drink Smart' /><br/>
+                </a>
+            </div>
+
+            <apex:outputPanel rendered="{!!AND(ISBLANK(LstEmailSignatureInformation[0].Legal_Statements1__c) ,ISBLANK(LstEmailSignatureInformation[0].Legal_Statements2__c))}">
+            	<div style="margin-top: 5px; margin-bottom: 5px;"> 
+                    <p class="textsize" style="width:100%; margin-top:0px; margin-bottom:0px">
+                        <apex:outputText escape="false" value=" {!LstEmailSignatureInformation[0].Legal_Statements1__c}" rendered="{! LstEmailSignatureInformation[0].URL_Type__c == 'Brand Logo'}"/><br/>
+                        <apex:outputText value=" {!LstEmailSignatureInformation[0].Legal_Statements2__c}" rendered="{! LstEmailSignatureInformation[0].URL_Type__c == 'Brand Logo'}"/>             
+                    </p>
+                </div>
+            </apex:outputPanel>
+            
+            <p class="textsize" style="margin-top:10px;">
+                <a href="https://www.beamsuntory.com/en/privacy-policy" style="padding-right: 10px; color:black; font-weight: bolder">Privacy Policy</a>
+                <a href="https://www.beamsuntory.com/en/terms-and-conditions" style="padding-left: 10px; color: black; font-weight: bolder">Terms &amp; Conditions</a>
+            </p>
+            
+        </div>
+    </apex:outputPanel>
+    <!-- Case Thread Id -->
+    <p>
+        <span>{!ThreadId}</span>
+    </p>
+    
+</apex:component>

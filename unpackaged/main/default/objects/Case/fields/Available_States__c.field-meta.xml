@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Available_States__c</fullName>
+    <description>A multi-select picklist that stores the available states for a Case. Used to determine which states are available for a Compliance Case.</description>
+    <externalId>false</externalId>
+    <label>Available States</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>Type</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>States</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Batch Process</controllingFieldValue>
+            <controllingFieldValue>Innovation-New Brand</controllingFieldValue>
+            <controllingFieldValue>Innovation-Line Extension</controllingFieldValue>
+            <controllingFieldValue>Label Revision-New COLA</controllingFieldValue>
+            <controllingFieldValue>Size Extension-New COLA</controllingFieldValue>
+            <controllingFieldValue>Size Extension-NO New COLA</controllingFieldValue>
+            <controllingFieldValue>New Proof – New COLA</controllingFieldValue>
+            <controllingFieldValue>New Proof – No New COLA</controllingFieldValue>
+            <controllingFieldValue>VAP/On-Pack</controllingFieldValue>
+            <controllingFieldValue>Mixed Case</controllingFieldValue>
+            <controllingFieldValue>Spec Change</controllingFieldValue>
+            <controllingFieldValue>Barrel Program</controllingFieldValue>
+            <valueName>Connecticut</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Batch Process</controllingFieldValue>
+            <controllingFieldValue>Innovation-New Brand</controllingFieldValue>
+            <controllingFieldValue>Innovation-Line Extension</controllingFieldValue>
+            <controllingFieldValue>Label Revision-New COLA</controllingFieldValue>
+            <controllingFieldValue>Size Extension-New COLA</controllingFieldValue>
+            <controllingFieldValue>Size Extension-NO New COLA</controllingFieldValue>
+            <controllingFieldValue>New Proof – New COLA</controllingFieldValue>
+            <controllingFieldValue>Mixed Case</controllingFieldValue>
+            <controllingFieldValue>Barrel Program</controllingFieldValue>
+            <valueName>Florida</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Batch Process</controllingFieldValue>
+            <controllingFieldValue>Innovation-New Brand</controllingFieldValue>
+            <controllingFieldValue>Innovation-Line Extension</controllingFieldValue>
+            <controllingFieldValue>Label Revision-New COLA</controllingFieldValue>
+            <controllingFieldValue>Size Extension-New COLA</controllingFieldValue>
+            <controllingFieldValue>Size Extension-NO New COLA</controllingFieldValue>
+            <controllingFieldValue>New Proof – New COLA</controllingFieldValue>
+            <controllingFieldValue>New Proof – No New COLA</controllingFieldValue>
+            <controllingFieldValue>VAP/On-Pack</controllingFieldValue>
+            <controllingFieldValue>Barrel Program</controllingFieldValue>
+            <valueName>Georgia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Batch Process</controllingFieldValue>
+            <controllingFieldValue>Innovation-New Brand</controllingFieldValue>
+            <controllingFieldValue>Innovation-Line Extension</controllingFieldValue>
+            <controllingFieldValue>Label Revision-New COLA</controllingFieldValue>
+            <controllingFieldValue>Size Extension-New COLA</controllingFieldValue>
+            <controllingFieldValue>Size Extension-NO New COLA</controllingFieldValue>
+            <controllingFieldValue>New Proof – New COLA</controllingFieldValue>
+            <controllingFieldValue>New Proof – No New COLA</controllingFieldValue>
+            <controllingFieldValue>VAP/On-Pack</controllingFieldValue>
+            <controllingFieldValue>Barrel Program</controllingFieldValue>
+            <valueName>Kansas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Batch Process</controllingFieldValue>
+            <controllingFieldValue>Innovation-New Brand</controllingFieldValue>
+            <controllingFieldValue>Innovation-Line Extension</controllingFieldValue>
+            <controllingFieldValue>Label Revision-New COLA</controllingFieldValue>
+            <controllingFieldValue>Size Extension-New COLA</controllingFieldValue>
+            <controllingFieldValue>Size Extension-NO New COLA</controllingFieldValue>
+            <controllingFieldValue>New Proof – New COLA</controllingFieldValue>
+            <controllingFieldValue>New Proof – No New COLA</controllingFieldValue>
+            <controllingFieldValue>VAP/On-Pack</controllingFieldValue>
+            <controllingFieldValue>Mixed Case</controllingFieldValue>
+            <controllingFieldValue>Spec Change</controllingFieldValue>
+            <controllingFieldValue>Barrel Program</controllingFieldValue>
+            <valueName>Massachusetts</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Batch Process</controllingFieldValue>
+            <controllingFieldValue>Innovation-New Brand</controllingFieldValue>
+            <controllingFieldValue>Innovation-Line Extension</controllingFieldValue>
+            <controllingFieldValue>Label Revision-New COLA</controllingFieldValue>
+            <controllingFieldValue>Size Extension-New COLA</controllingFieldValue>
+            <controllingFieldValue>Size Extension-NO New COLA</controllingFieldValue>
+            <controllingFieldValue>New Proof – New COLA</controllingFieldValue>
+            <controllingFieldValue>New Proof – No New COLA</controllingFieldValue>
+            <controllingFieldValue>VAP/On-Pack</controllingFieldValue>
+            <controllingFieldValue>Mixed Case</controllingFieldValue>
+            <controllingFieldValue>Spec Change</controllingFieldValue>
+            <controllingFieldValue>Barrel Program</controllingFieldValue>
+            <valueName>Minnesota</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Batch Process</controllingFieldValue>
+            <controllingFieldValue>Innovation-New Brand</controllingFieldValue>
+            <controllingFieldValue>Innovation-Line Extension</controllingFieldValue>
+            <controllingFieldValue>Label Revision-New COLA</controllingFieldValue>
+            <controllingFieldValue>Size Extension-New COLA</controllingFieldValue>
+            <controllingFieldValue>Size Extension-NO New COLA</controllingFieldValue>
+            <controllingFieldValue>New Proof – New COLA</controllingFieldValue>
+            <controllingFieldValue>New Proof – No New COLA</controllingFieldValue>
+            <controllingFieldValue>VAP/On-Pack</controllingFieldValue>
+            <controllingFieldValue>Mixed Case</controllingFieldValue>
+            <controllingFieldValue>Barrel Program</controllingFieldValue>
+            <valueName>Missouri</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Batch Process</controllingFieldValue>
+            <controllingFieldValue>Innovation-New Brand</controllingFieldValue>
+            <controllingFieldValue>Innovation-Line Extension</controllingFieldValue>
+            <controllingFieldValue>Label Revision-New COLA</controllingFieldValue>
+            <controllingFieldValue>Size Extension-New COLA</controllingFieldValue>
+            <controllingFieldValue>Size Extension-NO New COLA</controllingFieldValue>
+            <controllingFieldValue>New Proof – New COLA</controllingFieldValue>
+            <controllingFieldValue>New Proof – No New COLA</controllingFieldValue>
+            <controllingFieldValue>VAP/On-Pack</controllingFieldValue>
+            <controllingFieldValue>Mixed Case</controllingFieldValue>
+            <controllingFieldValue>Spec Change</controllingFieldValue>
+            <controllingFieldValue>Barrel Program</controllingFieldValue>
+            <valueName>New York</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Batch Process</controllingFieldValue>
+            <controllingFieldValue>Innovation-New Brand</controllingFieldValue>
+            <controllingFieldValue>Innovation-Line Extension</controllingFieldValue>
+            <controllingFieldValue>Label Revision-New COLA</controllingFieldValue>
+            <controllingFieldValue>Size Extension-New COLA</controllingFieldValue>
+            <controllingFieldValue>Size Extension-NO New COLA</controllingFieldValue>
+            <controllingFieldValue>New Proof – New COLA</controllingFieldValue>
+            <controllingFieldValue>New Proof – No New COLA</controllingFieldValue>
+            <controllingFieldValue>VAP/On-Pack</controllingFieldValue>
+            <controllingFieldValue>Mixed Case</controllingFieldValue>
+            <controllingFieldValue>Spec Change</controllingFieldValue>
+            <controllingFieldValue>Barrel Program</controllingFieldValue>
+            <valueName>Oklahoma</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Batch Process</controllingFieldValue>
+            <controllingFieldValue>Innovation-New Brand</controllingFieldValue>
+            <controllingFieldValue>Innovation-Line Extension</controllingFieldValue>
+            <controllingFieldValue>Label Revision-New COLA</controllingFieldValue>
+            <controllingFieldValue>Size Extension-New COLA</controllingFieldValue>
+            <controllingFieldValue>Size Extension-NO New COLA</controllingFieldValue>
+            <controllingFieldValue>New Proof – New COLA</controllingFieldValue>
+            <controllingFieldValue>New Proof – No New COLA</controllingFieldValue>
+            <controllingFieldValue>VAP/On-Pack</controllingFieldValue>
+            <controllingFieldValue>Mixed Case</controllingFieldValue>
+            <controllingFieldValue>Spec Change</controllingFieldValue>
+            <controllingFieldValue>Barrel Program</controllingFieldValue>
+            <valueName>Rhode Island</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Innovation-New Brand</controllingFieldValue>
+            <controllingFieldValue>Innovation-Line Extension</controllingFieldValue>
+            <controllingFieldValue>Label Revision-New COLA</controllingFieldValue>
+            <controllingFieldValue>Size Extension-New COLA</controllingFieldValue>
+            <controllingFieldValue>New Proof – New COLA</controllingFieldValue>
+            <valueName>Arkansas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Innovation-New Brand</controllingFieldValue>
+            <controllingFieldValue>Innovation-Line Extension</controllingFieldValue>
+            <controllingFieldValue>Label Revision-New COLA</controllingFieldValue>
+            <controllingFieldValue>Size Extension-New COLA</controllingFieldValue>
+            <controllingFieldValue>Size Extension-NO New COLA</controllingFieldValue>
+            <controllingFieldValue>New Proof – New COLA</controllingFieldValue>
+            <valueName>Colorado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Innovation-New Brand</controllingFieldValue>
+            <controllingFieldValue>Innovation-Line Extension</controllingFieldValue>
+            <controllingFieldValue>Label Revision-New COLA</controllingFieldValue>
+            <controllingFieldValue>Size Extension-New COLA</controllingFieldValue>
+            <controllingFieldValue>New Proof – New COLA</controllingFieldValue>
+            <controllingFieldValue>Mixed Case</controllingFieldValue>
+            <valueName>Illinois</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Innovation-New Brand</controllingFieldValue>
+            <controllingFieldValue>Mixed Case</controllingFieldValue>
+            <valueName>Kentucky</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Innovation-New Brand</controllingFieldValue>
+            <controllingFieldValue>Innovation-Line Extension</controllingFieldValue>
+            <controllingFieldValue>Label Revision-New COLA</controllingFieldValue>
+            <controllingFieldValue>Size Extension-New COLA</controllingFieldValue>
+            <controllingFieldValue>Size Extension-NO New COLA</controllingFieldValue>
+            <controllingFieldValue>New Proof – New COLA</controllingFieldValue>
+            <controllingFieldValue>Mixed Case</controllingFieldValue>
+            <valueName>Louisiana</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Innovation-New Brand</controllingFieldValue>
+            <controllingFieldValue>Innovation-Line Extension</controllingFieldValue>
+            <valueName>Nevada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Innovation-New Brand</controllingFieldValue>
+            <controllingFieldValue>Innovation-Line Extension</controllingFieldValue>
+            <controllingFieldValue>Label Revision-New COLA</controllingFieldValue>
+            <controllingFieldValue>Size Extension-New COLA</controllingFieldValue>
+            <controllingFieldValue>Size Extension-NO New COLA</controllingFieldValue>
+            <controllingFieldValue>New Proof – New COLA</controllingFieldValue>
+            <controllingFieldValue>VAP/On-Pack</controllingFieldValue>
+            <valueName>New Jersey</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Innovation-New Brand</controllingFieldValue>
+            <controllingFieldValue>Innovation-Line Extension</controllingFieldValue>
+            <controllingFieldValue>Label Revision-New COLA</controllingFieldValue>
+            <controllingFieldValue>Size Extension-New COLA</controllingFieldValue>
+            <controllingFieldValue>New Proof – New COLA</controllingFieldValue>
+            <valueName>New Mexico</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Innovation-New Brand</controllingFieldValue>
+            <controllingFieldValue>Innovation-Line Extension</controllingFieldValue>
+            <controllingFieldValue>Label Revision-New COLA</controllingFieldValue>
+            <controllingFieldValue>Size Extension-New COLA</controllingFieldValue>
+            <controllingFieldValue>Size Extension-NO New COLA</controllingFieldValue>
+            <controllingFieldValue>New Proof – New COLA</controllingFieldValue>
+            <controllingFieldValue>Mixed Case</controllingFieldValue>
+            <valueName>Ohio (Low-Proof)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Innovation-New Brand</controllingFieldValue>
+            <controllingFieldValue>Innovation-Line Extension</controllingFieldValue>
+            <controllingFieldValue>Label Revision-New COLA</controllingFieldValue>
+            <controllingFieldValue>Size Extension-New COLA</controllingFieldValue>
+            <controllingFieldValue>Size Extension-NO New COLA</controllingFieldValue>
+            <controllingFieldValue>New Proof – New COLA</controllingFieldValue>
+            <controllingFieldValue>VAP/On-Pack</controllingFieldValue>
+            <valueName>South Carolina</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Innovation-New Brand</controllingFieldValue>
+            <controllingFieldValue>Innovation-Line Extension</controllingFieldValue>
+            <controllingFieldValue>Label Revision-New COLA</controllingFieldValue>
+            <controllingFieldValue>Size Extension-New COLA</controllingFieldValue>
+            <controllingFieldValue>Size Extension-NO New COLA</controllingFieldValue>
+            <controllingFieldValue>New Proof – New COLA</controllingFieldValue>
+            <controllingFieldValue>VAP/On-Pack</controllingFieldValue>
+            <valueName>South Dakota</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Innovation-New Brand</controllingFieldValue>
+            <controllingFieldValue>Innovation-Line Extension</controllingFieldValue>
+            <controllingFieldValue>Label Revision-New COLA</controllingFieldValue>
+            <controllingFieldValue>Size Extension-New COLA</controllingFieldValue>
+            <controllingFieldValue>Size Extension-NO New COLA</controllingFieldValue>
+            <controllingFieldValue>New Proof – New COLA</controllingFieldValue>
+            <valueName>Tennessee</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Innovation-New Brand</controllingFieldValue>
+            <controllingFieldValue>Innovation-Line Extension</controllingFieldValue>
+            <controllingFieldValue>Label Revision-New COLA</controllingFieldValue>
+            <controllingFieldValue>Size Extension-New COLA</controllingFieldValue>
+            <controllingFieldValue>Size Extension-NO New COLA</controllingFieldValue>
+            <controllingFieldValue>New Proof – New COLA</controllingFieldValue>
+            <valueName>Texas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Innovation-New Brand</controllingFieldValue>
+            <controllingFieldValue>Innovation-Line Extension</controllingFieldValue>
+            <controllingFieldValue>Label Revision-New COLA</controllingFieldValue>
+            <controllingFieldValue>Size Extension-New COLA</controllingFieldValue>
+            <controllingFieldValue>New Proof – New COLA</controllingFieldValue>
+            <controllingFieldValue>VAP/On-Pack</controllingFieldValue>
+            <valueName>Washington</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VAP/On-Pack</controllingFieldValue>
+            <valueName>Indiana</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>10</visibleLines>
+</CustomField>

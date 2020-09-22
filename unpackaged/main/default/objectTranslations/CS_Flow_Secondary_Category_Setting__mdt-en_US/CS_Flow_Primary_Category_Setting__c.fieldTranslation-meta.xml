@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- CS Flow Primary Category Setting --></label>
+        <name>CS_Flow_Primary_Category_Setting__c</name>
+        <relationshipLabel><!-- CS Flow Secondary Category Settings --></relationshipLabel>
+    </CustomFieldTranslation>

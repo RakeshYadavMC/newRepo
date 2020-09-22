@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Order</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>New Order</masterLabel>
+    <openType>noSidebar</openType>
+    <protected>false</protected>
+    <url>/apex/gvp__OrderEntry?CF00N1J00000FqEQP={!Account.Name}&amp;CF00N1J00000FqEQP_lkid={!Account.Id}&amp;retURL=%2F{!Account.Id}&amp;save_new=1&amp;sfdc.override=1</url>
+</WebLink>

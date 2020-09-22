@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>To_Original_Allocation__c</fullName>
+    <description>This field stores the original allocation per interval value for receiving allocation record.</description>
+    <externalId>false</externalId>
+    <label>To Leaf Node Original Allocation</label>
+    <precision>5</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

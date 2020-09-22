@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ReportingDate__c</fullName>
+    <description>A common date field that is used to compare Actuals to Committed to Forecast in reports. Actuals mirror Posting Date, Committed mirrors Debit Date, and Forecast mirrors Forecast Month  Date.</description>
+    <externalId>false</externalId>
+    <formula>IF(RecordType.Name = "Forecast" &amp;&amp; NOT(ISNULL(Forecast_Month_Date__c)), Forecast_Month_Date__c,
+  IF(RecordType.Name = "Actual" &amp;&amp; NOT(ISNULL(Posting_Date__c)), Posting_Date__c,
+    IF(RecordType.Name = "Committed" &amp;&amp; NOT(ISNULL(Debit_Date__c)), Debit_Date__c,      
+      null)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Reporting Date</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

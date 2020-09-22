@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Number of cocktail menus physically present at the outlet --></help>
+        <label># of cocktail menus</label>
+        <name>gvc_Number_of_cocktail_menus__c</name>
+    </CustomFieldTranslation>

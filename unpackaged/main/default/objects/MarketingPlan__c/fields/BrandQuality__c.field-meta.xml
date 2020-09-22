@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BrandQuality__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Brand Quality</label>
+    <lookupFilter>
+        <active>false</active>
+        <filterItems>
+            <field>Tags__c.Active__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </filterItems>
+        <filterItems>
+            <field>Tags__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Brand Quality</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Tags__c</referenceTo>
+    <relationshipLabel>Marketing Plans (Brand Quality)</relationshipLabel>
+    <relationshipName>Marketing_Plans2</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

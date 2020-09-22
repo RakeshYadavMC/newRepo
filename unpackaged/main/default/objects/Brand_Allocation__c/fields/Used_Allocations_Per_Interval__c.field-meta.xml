@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Used_Allocations_Per_Interval__c</fullName>
+    <description>SB-MC-SB-10 To maintain quantity of Barrel used in Single Barrel for a particular time period</description>
+    <externalId>false</externalId>
+    <label>Used Allocations Per Interval</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

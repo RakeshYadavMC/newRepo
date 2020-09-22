@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CASE_NUMBER</field>
+    </columns>
+    <columns>
+        <field>Case.GBS_Center__c</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>TYPE</field>
+    </columns>
+    <columns>
+        <field>CLOSED_DATE</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>BUSINESS_DURATION</field>
+    </columns>
+    <columns>
+        <field>HSTATUS</field>
+    </columns>
+    <columns>
+        <field>HOWNERNAME</field>
+    </columns>
+    <currency>USD</currency>
+    <description>Base report used to track case life cycle time for GMDM.</description>
+    <filter>
+        <criteriaItems>
+            <column>Case.BSI_Function__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>GBS</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>STATUS</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Closed - Abandoned,Closed - No Action</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>TYPE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Global Master Data Management</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Total Case Lifecycle - GMDM</name>
+    <params>
+        <name>units</name>
+        <value>h</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CaseHistory</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>ACCOUNT.NAME</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>CLOSED_DATEONLY</dateColumn>
+        <interval>INTERVAL_PREVQ</interval>
+    </timeFrameFilter>
+</Report>

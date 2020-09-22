@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_IOs_Request_Status_is_IO_Pending</fullName>
+    <columns>NAME</columns>
+    <columns>ParentMarketingPlan__c</columns>
+    <columns>Brand_Quality__c</columns>
+    <columns>PlannedCampaignSpend__c</columns>
+    <columns>CampaignBalance__c</columns>
+    <columns>CommittedCampaignSpend__c</columns>
+    <columns>ActualCampaignSpend__c</columns>
+    <columns>IOCode__c</columns>
+    <columns>RequestStatus__c</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>UPDATEDBY_USER</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RequestStatus__c</field>
+        <operation>equals</operation>
+        <value>IO Pending</value>
+    </filters>
+    <label>All IOs Request Status is IO Pending</label>
+    <sharedTo>
+        <role>Application_Admin</role>
+    </sharedTo>
+</ListView>

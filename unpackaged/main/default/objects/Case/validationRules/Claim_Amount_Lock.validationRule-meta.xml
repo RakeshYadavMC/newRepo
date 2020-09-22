@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Claim_Amount_Lock</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND (
+Claim_Amount_Approved__c = TRUE,
+ISCHANGED( Credit_Amount__c )
+)</errorConditionFormula>
+    <errorDisplayField>Credit_Amount__c</errorDisplayField>
+    <errorMessage>The Credit Amount has been approved, the values may not be altered.</errorMessage>
+</ValidationRule>

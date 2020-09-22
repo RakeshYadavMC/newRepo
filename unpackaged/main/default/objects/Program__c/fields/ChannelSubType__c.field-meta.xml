@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ChannelSubType__c</fullName>
+    <externalId>false</externalId>
+    <label>Channel Sub-Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>Channel__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>LFL</fullName>
+                <default>false</default>
+                <label>LFL</label>
+            </value>
+            <value>
+                <fullName>Grocery Mass &amp; Drug</fullName>
+                <default>false</default>
+                <label>Grocery Mass &amp; Drug</label>
+            </value>
+            <value>
+                <fullName>Casual</fullName>
+                <default>false</default>
+                <label>Casual</label>
+            </value>
+            <value>
+                <fullName>High End</fullName>
+                <default>false</default>
+                <label>High End</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Off Premise</controllingFieldValue>
+            <valueName>LFL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Premise</controllingFieldValue>
+            <valueName>Grocery Mass &amp; Drug</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>On Premise</controllingFieldValue>
+            <valueName>Casual</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>On Premise</controllingFieldValue>
+            <valueName>High End</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

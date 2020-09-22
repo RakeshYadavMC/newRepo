@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>FIRST_NAME</field>
+    </columns>
+    <columns>
+        <field>LAST_NAME</field>
+    </columns>
+    <columns>
+        <field>User.GBS_Centers__c</field>
+    </columns>
+    <columns>
+        <field>PROFILE</field>
+    </columns>
+    <columns>
+        <field>ROLE</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>ACTIVE</field>
+    </columns>
+    <columns>
+        <field>LAST_LOGIN</field>
+    </columns>
+    <currency>USD</currency>
+    <description>Shows last login date by anyone holding a GBS role that includes GBS analyst - XXXXX payroll or GBS analyst - XXXXX non-payroll (XXXXX indicate the specific GBS center of that team member).</description>
+    <filter>
+        <criteriaItems>
+            <column>PROFILE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>GBS analyst,GBS management</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ROLE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>payroll,non-payroll,director</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Last login date</name>
+    <params>
+        <name>active</name>
+        <value>active</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>User</reportType>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>User.GBS_Centers__c</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>LAST_LOGIN</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

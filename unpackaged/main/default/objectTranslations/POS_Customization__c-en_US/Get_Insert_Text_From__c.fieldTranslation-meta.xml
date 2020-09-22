@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Get Insert Text From --></label>
+        <name>Get_Insert_Text_From__c</name>
+        <picklistValues>
+            <masterLabel>Account Name</masterLabel>
+            <translation><!-- Account Name --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bottle Label Text</masterLabel>
+            <translation><!-- Bottle Label Text --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

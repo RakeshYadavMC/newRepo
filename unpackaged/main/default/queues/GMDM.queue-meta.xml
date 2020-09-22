@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>GMDM</name>
+    <queueMembers>
+        <roles>
+            <role>GBS_Director_North_America</role>
+            <role>GBS_GMDM_Analyst_United_States</role>
+            <role>GBS_GMDM_Management_United_States</role>
+        </roles>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

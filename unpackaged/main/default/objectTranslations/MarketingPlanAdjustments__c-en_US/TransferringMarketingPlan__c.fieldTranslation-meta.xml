@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Marketing Plan transferring additional funds. --></help>
+        <label><!-- Transferring Marketing Plan --></label>
+        <name>TransferringMarketingPlan__c</name>
+        <relationshipLabel><!-- Marketing Plan Transfers (Transferring Marketing Plan) --></relationshipLabel>
+    </CustomFieldTranslation>

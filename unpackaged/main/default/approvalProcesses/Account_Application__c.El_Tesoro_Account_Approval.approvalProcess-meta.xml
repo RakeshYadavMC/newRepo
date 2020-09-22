@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApprovalProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <allowRecall>false</allowRecall>
+    <allowedSubmitters>
+        <type>creator</type>
+    </allowedSubmitters>
+    <allowedSubmitters>
+        <type>owner</type>
+    </allowedSubmitters>
+    <approvalPageFields>
+        <field>Name</field>
+        <field>Owner</field>
+        <field>Account_Name__c</field>
+        <field>Account_State__c</field>
+        <field>Brand__c</field>
+        <field>Case__c</field>
+        <field>CreatedBy</field>
+        <field>Distributor_Account__c</field>
+        <field>Distributor_Contact__c</field>
+        <field>Premise_Type__c</field>
+    </approvalPageFields>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>dana.kritsas@beamsuntory.com</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <entryCriteria>
+            <criteriaItems>
+                <field>Account_Application__c.Status__c</field>
+                <operation>equals</operation>
+                <value>Pending Approval</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>RejectRecord</ifCriteriaNotMet>
+        <label>Email to El  Tesoro Team</label>
+        <name>Email_to_El_Tesoro_Team</name>
+    </approvalStep>
+    <emailTemplate>Single_Barrel/Makers_Mark_Account_Approval_Request</emailTemplate>
+    <enableMobileDeviceAccess>false</enableMobileDeviceAccess>
+    <entryCriteria>
+        <criteriaItems>
+            <field>Account_Application__c.Brand__c</field>
+            <operation>equals</operation>
+            <value>El Tesoro</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account_Application__c.Status__c</field>
+            <operation>notEqual</operation>
+            <value>Approved</value>
+        </criteriaItems>
+    </entryCriteria>
+    <finalApprovalActions>
+        <action>
+            <name>Application_Approved</name>
+            <type>FieldUpdate</type>
+        </action>
+    </finalApprovalActions>
+    <finalApprovalRecordLock>false</finalApprovalRecordLock>
+    <finalRejectionActions>
+        <action>
+            <name>Application_Rejected</name>
+            <type>FieldUpdate</type>
+        </action>
+    </finalRejectionActions>
+    <finalRejectionRecordLock>false</finalRejectionRecordLock>
+    <label>El Tesoro Account Approval</label>
+    <recordEditability>AdminOnly</recordEditability>
+    <showApprovalHistory>true</showApprovalHistory>
+</ApprovalProcess>

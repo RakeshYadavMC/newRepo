@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tertiary_Category__c</fullName>
+    <description>Delete Me</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Delete Me</inlineHelpText>
+    <label>System Cat 3</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Delete Me</fullName>
+                <default>false</default>
+                <label>Delete Me</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

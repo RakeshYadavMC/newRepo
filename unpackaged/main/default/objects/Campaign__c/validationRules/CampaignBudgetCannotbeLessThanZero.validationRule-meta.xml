@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CampaignBudgetCannotbeLessThanZero</fullName>
+    <active>true</active>
+    <description>Campaign Budget cannot be less than zero dollars.</description>
+    <errorConditionFormula>PlannedCampaignSpend__c &lt; 0  &amp;&amp;  Brand__c  &lt;&gt; 'Multibrand'</errorConditionFormula>
+    <errorDisplayField>PlannedCampaignSpend__c</errorDisplayField>
+    <errorMessage>Campaign Budget cannot be less than zero dollars for this Brand. Please update the Campaign Budget field.</errorMessage>
+</ValidationRule>

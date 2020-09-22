@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Running_Hold_Time__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(AND(NOT(ISPICKVAL(Status, "Working")), NOT(ISPICKVAL(Status, "Active")), NOW() &gt; SLA_Start_Time__c, NOW() &lt; SLA_End_Time__c, IsClosed = FALSE), Time_With_Customer__c + Running_Time__c, Time_With_Customer__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Running Hold Time</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>3</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

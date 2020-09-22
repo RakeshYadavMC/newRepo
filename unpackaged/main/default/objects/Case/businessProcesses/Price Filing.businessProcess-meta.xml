@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Price Filing</fullName>
+    <description>Price Filing</description>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Close Pending</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>New</fullName>
+        <default>true</default>
+    </values>
+    <values>
+        <fullName>Waiting for Approval</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Waiting for State Manager</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Waiting for Submission</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Working</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

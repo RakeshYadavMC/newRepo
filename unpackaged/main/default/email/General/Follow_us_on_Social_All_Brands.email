@@ -1,0 +1,3 @@
+<p>Dear {!Contact.FirstName},</p>
+<p>Thanks for your message about {!Case.Product_Type__c} We could talk about {!Case.Product_Type__c} all day, and in fact, we do on our social pages. Find us on Facebook (and more) by clicking the social icons below.</p>
+<p>Thank you for being a {!Case.Product_Type__c} fan!</p>

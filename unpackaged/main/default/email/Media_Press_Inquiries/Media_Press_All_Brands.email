@@ -1,0 +1,3 @@
+<p>Dear {!Contact.FirstName},</p>
+<p>Thank you for contacting us! We're always happy to spread the word about {!Case.Product_Type__c}. For media and press questions, please contact PR@beamsuntory.com.</p>
+<p>Thank you for thinking of {!Case.Product_Type__c},</p>

@@ -1,0 +1,1301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Brand Type --></label>
+        <name>Brand_Type__c</name>
+        <picklistValues>
+            <masterLabel>(ri)1 STRAIGHT RYE WHISKEY</masterLabel>
+            <translation><!-- (ri)1 STRAIGHT RYE WHISKEY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>100 ANOS ANEJO</masterLabel>
+            <translation><!-- 100 ANOS ANEJO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>100 ANOS BLANCO/PLATA/SILVER</masterLabel>
+            <translation><!-- 100 ANOS BLANCO/PLATA/SILVER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>100 ANOS REPOSADO</masterLabel>
+            <translation><!-- 100 ANOS REPOSADO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12 GIN</masterLabel>
+            <translation><!-- 12 GIN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15 YEAR</masterLabel>
+            <translation><!-- 15 YEAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>16 YEAR</masterLabel>
+            <translation><!-- 16 YEAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 GINGERS ORIGINAL</masterLabel>
+            <translation><!-- 2 GINGERS ORIGINAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30 YEAR</masterLabel>
+            <translation><!-- 30 YEAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8YO</masterLabel>
+            <translation><!-- 8YO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AFTERSHOCK BLACK CHERRY</masterLabel>
+            <translation><!-- AFTERSHOCK BLACK CHERRY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AFTERSHOCK BLUE</masterLabel>
+            <translation><!-- AFTERSHOCK BLUE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AFTERSHOCK CRYSTAL</masterLabel>
+            <translation><!-- AFTERSHOCK CRYSTAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AFTERSHOCK RED</masterLabel>
+            <translation><!-- AFTERSHOCK RED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ALBERTA DARK BATCH</masterLabel>
+            <translation><!-- ALBERTA DARK BATCH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ALBERTA ORIGINAL WHISKY</masterLabel>
+            <translation><!-- ALBERTA ORIGINAL WHISKY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ALBERTA PREMIUM DARK HORSE</masterLabel>
+            <translation><!-- ALBERTA PREMIUM DARK HORSE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ALBERTA PREMIUM ORIGINAL</masterLabel>
+            <translation><!-- ALBERTA PREMIUM ORIGINAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ALBERTA PREMIUM VODKA - FLAVORED</masterLabel>
+            <translation><!-- ALBERTA PREMIUM VODKA - FLAVORED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ALBERTA PREMIUM VODKA - ORIGINAL</masterLabel>
+            <translation><!-- ALBERTA PREMIUM VODKA - ORIGINAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ALBERTA PURE FLAVORED</masterLabel>
+            <translation><!-- ALBERTA PURE FLAVORED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ALBERTA PURE VODKA</masterLabel>
+            <translation><!-- ALBERTA PURE VODKA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ALBERTA SPRINGS ORIGINAL</masterLabel>
+            <translation><!-- ALBERTA SPRINGS ORIGINAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ALBERTA VODKA</masterLabel>
+            <translation><!-- ALBERTA VODKA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AO VODKA</masterLabel>
+            <translation><!-- AO VODKA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ARDMORE LEGACY</masterLabel>
+            <translation><!-- ARDMORE LEGACY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ARDMORE MALT</masterLabel>
+            <translation><!-- ARDMORE MALT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ARDMORE PORTWOOD</masterLabel>
+            <translation><!-- ARDMORE PORTWOOD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ARDMORE TRADITIONAL PEATED</masterLabel>
+            <translation><!-- ARDMORE TRADITIONAL PEATED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ARDMORE TRIPLE WOOD</masterLabel>
+            <translation><!-- ARDMORE TRIPLE WOOD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AUCHENTOSHAN 10 YEAR</masterLabel>
+            <translation><!-- AUCHENTOSHAN 10 YEAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AUCHENTOSHAN 12 YEAR</masterLabel>
+            <translation><!-- AUCHENTOSHAN 12 YEAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AUCHENTOSHAN 18 YEAR</masterLabel>
+            <translation><!-- AUCHENTOSHAN 18 YEAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AUCHENTOSHAN 1965</masterLabel>
+            <translation><!-- AUCHENTOSHAN 1965 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AUCHENTOSHAN 1988</masterLabel>
+            <translation><!-- AUCHENTOSHAN 1988 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AUCHENTOSHAN 21 YEAR</masterLabel>
+            <translation><!-- AUCHENTOSHAN 21 YEAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AUCHENTOSHAN 3 WOOD</masterLabel>
+            <translation><!-- AUCHENTOSHAN 3 WOOD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AUCHENTOSHAN AMERICAN OAK</masterLabel>
+            <translation><!-- AUCHENTOSHAN AMERICAN OAK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AUCHENTOSHAN BARTENDER'S MALT</masterLabel>
+            <translation><!-- AUCHENTOSHAN BARTENDER&apos;S MALT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AUCHENTOSHAN CLASSIC</masterLabel>
+            <translation><!-- AUCHENTOSHAN CLASSIC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BAKER'S ORIGINAL/7 YEAR</masterLabel>
+            <translation><!-- BAKER&apos;S ORIGINAL/7 YEAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BANFF ICE ORIGINAL</masterLabel>
+            <translation><!-- BANFF ICE ORIGINAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BANFF ICE SUMMIT</masterLabel>
+            <translation><!-- BANFF ICE SUMMIT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BASIL HAYDEN'S 10 YEAR</masterLabel>
+            <translation><!-- BASIL HAYDEN&apos;S 10 YEAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BASIL HAYDEN'S DARK RYE</masterLabel>
+            <translation><!-- BASIL HAYDEN&apos;S DARK RYE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BASIL HAYDEN'S ORIGINAL</masterLabel>
+            <translation><!-- BASIL HAYDEN&apos;S ORIGINAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BASIL HAYDEN'S RYE</masterLabel>
+            <translation><!-- BASIL HAYDEN&apos;S RYE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BASIL HAYDEN'S TWO BY TWO RYE</masterLabel>
+            <translation><!-- BASIL HAYDEN&apos;S TWO BY TWO RYE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BLACK RTD COLA</masterLabel>
+            <translation><!-- BLACK RTD COLA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOOKER'S 30TH ANNIVERSARY</masterLabel>
+            <translation><!-- BOOKER&apos;S 30TH ANNIVERSARY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOOKER'S BACKYARD BBQ</masterLabel>
+            <translation><!-- BOOKER&apos;S BACKYARD BBQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOOKER'S KATHLEEN'S BATCH</masterLabel>
+            <translation><!-- BOOKER&apos;S KATHLEEN&apos;S BATCH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOOKER'S KITCHEN TABLE</masterLabel>
+            <translation><!-- BOOKER&apos;S KITCHEN TABLE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOOKER'S KY CHEW</masterLabel>
+            <translation><!-- BOOKER&apos;S KY CHEW --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOOKER'S LITTLE BOOK</masterLabel>
+            <translation><!-- BOOKER&apos;S LITTLE BOOK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOWMORE 10 YEAR SINGLE MALT</masterLabel>
+            <translation><!-- BOWMORE 10 YEAR SINGLE MALT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOWMORE 12 YEAR</masterLabel>
+            <translation><!-- BOWMORE 12 YEAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOWMORE 15 YEAR</masterLabel>
+            <translation><!-- BOWMORE 15 YEAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOWMORE 15 YEAR SINGLE MALT</masterLabel>
+            <translation><!-- BOWMORE 15 YEAR SINGLE MALT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOWMORE 18 YEAR</masterLabel>
+            <translation><!-- BOWMORE 18 YEAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOWMORE 18 YEAR SINGLE MALT</masterLabel>
+            <translation><!-- BOWMORE 18 YEAR SINGLE MALT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOWMORE 1961 50 YEAR</masterLabel>
+            <translation><!-- BOWMORE 1961 50 YEAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOWMORE 1973 43YO</masterLabel>
+            <translation><!-- BOWMORE 1973 43YO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOWMORE 23 YEAR</masterLabel>
+            <translation><!-- BOWMORE 23 YEAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOWMORE 25 YEAR</masterLabel>
+            <translation><!-- BOWMORE 25 YEAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOWMORE BLACK 1964 50 YEAR</masterLabel>
+            <translation><!-- BOWMORE BLACK 1964 50 YEAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOWMORE BLACK ROCK</masterLabel>
+            <translation><!-- BOWMORE BLACK ROCK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOWMORE ENGIMA</masterLabel>
+            <translation><!-- BOWMORE ENGIMA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOWMORE LEGEND</masterLabel>
+            <translation><!-- BOWMORE LEGEND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOWMORE NO. 1</masterLabel>
+            <translation><!-- BOWMORE NO. 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOWMORE OTHER</masterLabel>
+            <translation><!-- BOWMORE OTHER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOWMORE SMALL BATCH</masterLabel>
+            <translation><!-- BOWMORE SMALL BATCH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOWMORE SURF</masterLabel>
+            <translation><!-- BOWMORE SURF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOWMORE TEMPEST</masterLabel>
+            <translation><!-- BOWMORE TEMPEST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOWMORE VAULTS 1ST RELEASE</masterLabel>
+            <translation><!-- BOWMORE VAULTS 1ST RELEASE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CALICO JACK FLAVORED</masterLabel>
+            <translation><!-- CALICO JACK FLAVORED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CALICO JACK SILVER</masterLabel>
+            <translation><!-- CALICO JACK SILVER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CALICO JACK SPICED RUM</masterLabel>
+            <translation><!-- CALICO JACK SPICED RUM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CANADIAN CLUB APPLE</masterLabel>
+            <translation><!-- CANADIAN CLUB APPLE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CANADIAN CLUB BARLEY BATCH</masterLabel>
+            <translation><!-- CANADIAN CLUB BARLEY BATCH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CANADIAN CLUB CHAIRMAN'S SELECT RYE</masterLabel>
+            <translation><!-- CANADIAN CLUB CHAIRMAN&apos;S SELECT RYE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CANADIAN CLUB CHRONICLES</masterLabel>
+            <translation><!-- CANADIAN CLUB CHRONICLES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CANADIAN CLUB CLASSIC</masterLabel>
+            <translation><!-- CANADIAN CLUB CLASSIC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CANADIAN CLUB DOCK 57 FLAVORED</masterLabel>
+            <translation><!-- CANADIAN CLUB DOCK 57 FLAVORED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CANADIAN CLUB PREMIUM</masterLabel>
+            <translation><!-- CANADIAN CLUB PREMIUM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CANADIAN CLUB PREMIUM &amp; GINGER RTD</masterLabel>
+            <translation><!-- CANADIAN CLUB PREMIUM &amp; GINGER RTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CANADIAN CLUB RESERVE</masterLabel>
+            <translation><!-- CANADIAN CLUB RESERVE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CASTELLANA DULCE</masterLabel>
+            <translation><!-- CASTELLANA DULCE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CITRUS GIN</masterLabel>
+            <translation><!-- CITRUS GIN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COCKBURN'S FINE RUBY</masterLabel>
+            <translation><!-- COCKBURN&apos;S FINE RUBY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COCKBURN'S FINE TAWNY</masterLabel>
+            <translation><!-- COCKBURN&apos;S FINE TAWNY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CONCH DARK</masterLabel>
+            <translation><!-- CONCH DARK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CONCH LIGHT</masterLabel>
+            <translation><!-- CONCH LIGHT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CONNEMARA CONNEMARA ORIGINAL</masterLabel>
+            <translation><!-- CONNEMARA CONNEMARA ORIGINAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COURVOISIER VS</masterLabel>
+            <translation><!-- COURVOISIER VS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COURVOISIER VSOP</masterLabel>
+            <translation><!-- COURVOISIER VSOP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COURVOISIER XO</masterLabel>
+            <translation><!-- COURVOISIER XO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CRUZAN BLACKSTRAP</masterLabel>
+            <translation><!-- CRUZAN BLACKSTRAP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CRUZAN DARK</masterLabel>
+            <translation><!-- CRUZAN DARK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CRUZAN DARK 151</masterLabel>
+            <translation><!-- CRUZAN DARK 151 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CRUZAN ESTATE DIAMOND DARK</masterLabel>
+            <translation><!-- CRUZAN ESTATE DIAMOND DARK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CRUZAN ESTATE DIAMOND LIGHT</masterLabel>
+            <translation><!-- CRUZAN ESTATE DIAMOND LIGHT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CRUZAN FLAVORED</masterLabel>
+            <translation><!-- CRUZAN FLAVORED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CRUZAN LIGHT</masterLabel>
+            <translation><!-- CRUZAN LIGHT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CRUZAN SINGLE BARREL</masterLabel>
+            <translation><!-- CRUZAN SINGLE BARREL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CRUZAN SPICED</masterLabel>
+            <translation><!-- CRUZAN SPICED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chilli and Lime</masterLabel>
+            <translation><!-- Chilli and Lime --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DEKUYPER FLAVORED</masterLabel>
+            <translation><!-- DEKUYPER FLAVORED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DEKUYPER PUCKER CORDIALS</masterLabel>
+            <translation><!-- DEKUYPER PUCKER CORDIALS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DEKUYPER TRIPLE SEC</masterLabel>
+            <translation><!-- DEKUYPER TRIPLE SEC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DRAGON</masterLabel>
+            <translation><!-- DRAGON --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DYC 10 YEAR</masterLabel>
+            <translation><!-- DYC 10 YEAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DYC 12 YEAR</masterLabel>
+            <translation><!-- DYC 12 YEAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DYC 15 YEAR</masterLabel>
+            <translation><!-- DYC 15 YEAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DYC 5 YEAR</masterLabel>
+            <translation><!-- DYC 5 YEAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DYC 8 YEAR</masterLabel>
+            <translation><!-- DYC 8 YEAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DYC PURE MALT</masterLabel>
+            <translation><!-- DYC PURE MALT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EFFEN BLACK CHERRY</masterLabel>
+            <translation><!-- EFFEN BLACK CHERRY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EFFEN BLOOD ORANGE</masterLabel>
+            <translation><!-- EFFEN BLOOD ORANGE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EFFEN CUCUMBER</masterLabel>
+            <translation><!-- EFFEN CUCUMBER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EFFEN GREEN APPLE</masterLabel>
+            <translation><!-- EFFEN GREEN APPLE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EFFEN ORIGINAL</masterLabel>
+            <translation><!-- EFFEN ORIGINAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EFFEN RASPBERRY</masterLabel>
+            <translation><!-- EFFEN RASPBERRY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EL TESORO ANEJO</masterLabel>
+            <translation><!-- EL TESORO ANEJO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EL TESORO BLANCO/PLATA/SILVER</masterLabel>
+            <translation><!-- EL TESORO BLANCO/PLATA/SILVER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EL TESORO PARADISO</masterLabel>
+            <translation><!-- EL TESORO PARADISO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EL TESORO REPOSADO</masterLabel>
+            <translation><!-- EL TESORO REPOSADO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EL TESORO SINGLE BARREL</masterLabel>
+            <translation><!-- EL TESORO SINGLE BARREL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Four Oak</masterLabel>
+            <translation><!-- Four Oak --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GILBEY'S GIN</masterLabel>
+            <translation><!-- GILBEY&apos;S GIN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GILBEY'S VODKA</masterLabel>
+            <translation><!-- GILBEY&apos;S VODKA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GIRO BLANCO/PLATA/SILVER</masterLabel>
+            <translation><!-- GIRO BLANCO/PLATA/SILVER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GIRO GOLD</masterLabel>
+            <translation><!-- GIRO GOLD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GIRO LIQUEUR GOLD</masterLabel>
+            <translation><!-- GIRO LIQUEUR GOLD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GIRO LIQUEUR SILVER</masterLabel>
+            <translation><!-- GIRO LIQUEUR SILVER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GLEN GARIOCH 12 YEAR</masterLabel>
+            <translation><!-- GLEN GARIOCH 12 YEAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GLEN GARIOCH RESERVE</masterLabel>
+            <translation><!-- GLEN GARIOCH RESERVE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GLEN GARIOCH VINTAGE</masterLabel>
+            <translation><!-- GLEN GARIOCH VINTAGE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GLEN GARIOCH VIRGIN OAK</masterLabel>
+            <translation><!-- GLEN GARIOCH VIRGIN OAK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HAKUSHU 12 YEAR</masterLabel>
+            <translation><!-- HAKUSHU 12 YEAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HAKUSHU 18 YEAR</masterLabel>
+            <translation><!-- HAKUSHU 18 YEAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HAKUSHU 25 YEAR</masterLabel>
+            <translation><!-- HAKUSHU 25 YEAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HEARTWOOD</masterLabel>
+            <translation><!-- HEARTWOOD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HIBIKI 17 YEAR</masterLabel>
+            <translation><!-- HIBIKI 17 YEAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HIBIKI 21 YEAR</masterLabel>
+            <translation><!-- HIBIKI 21 YEAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HIBIKI 30 YEAR</masterLabel>
+            <translation><!-- HIBIKI 30 YEAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HIBIKI HARMONY</masterLabel>
+            <translation><!-- HIBIKI HARMONY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HIGHGROVE</masterLabel>
+            <translation><!-- HIGHGROVE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HORNITOS ANEJO</masterLabel>
+            <translation><!-- HORNITOS ANEJO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HORNITOS ANEJO CRISTALINO</masterLabel>
+            <translation><!-- HORNITOS ANEJO CRISTALINO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HORNITOS BLACK BARREL</masterLabel>
+            <translation><!-- HORNITOS BLACK BARREL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HORNITOS BLANCO/PLATA/SILVER</masterLabel>
+            <translation><!-- HORNITOS BLANCO/PLATA/SILVER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HORNITOS LIME SHOT</masterLabel>
+            <translation><!-- HORNITOS LIME SHOT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HORNITOS REPOSADO</masterLabel>
+            <translation><!-- HORNITOS REPOSADO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JIM BEAM APPLE</masterLabel>
+            <translation><!-- JIM BEAM APPLE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JIM BEAM BLACK</masterLabel>
+            <translation><!-- JIM BEAM BLACK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JIM BEAM BONDED</masterLabel>
+            <translation><!-- JIM BEAM BONDED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JIM BEAM DEVIL'S CUT</masterLabel>
+            <translation><!-- JIM BEAM DEVIL&apos;S CUT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JIM BEAM DISTILLER'S CUT</masterLabel>
+            <translation><!-- JIM BEAM DISTILLER&apos;S CUT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JIM BEAM DISTILLER'S MASTERPIECE</masterLabel>
+            <translation><!-- JIM BEAM DISTILLER&apos;S MASTERPIECE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JIM BEAM DOUBLE OAK</masterLabel>
+            <translation><!-- JIM BEAM DOUBLE OAK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JIM BEAM FIRE</masterLabel>
+            <translation><!-- JIM BEAM FIRE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JIM BEAM HONEY</masterLabel>
+            <translation><!-- JIM BEAM HONEY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JIM BEAM HOT TODDY</masterLabel>
+            <translation><!-- JIM BEAM HOT TODDY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JIM BEAM JACOB'S GHOST WHITE</masterLabel>
+            <translation><!-- JIM BEAM JACOB&apos;S GHOST WHITE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JIM BEAM MAPLE</masterLabel>
+            <translation><!-- JIM BEAM MAPLE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JIM BEAM ORIGINAL/WHITE</masterLabel>
+            <translation><!-- JIM BEAM ORIGINAL/WHITE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JIM BEAM REPEAL</masterLabel>
+            <translation><!-- JIM BEAM REPEAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JIM BEAM RTD JIM BEAM &amp; COLA</masterLabel>
+            <translation><!-- JIM BEAM RTD JIM BEAM &amp; COLA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JIM BEAM RTD JIM BEAM &amp; GINGER</masterLabel>
+            <translation><!-- JIM BEAM RTD JIM BEAM &amp; GINGER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JIM BEAM RYE</masterLabel>
+            <translation><!-- JIM BEAM RYE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JIM BEAM SIGNATURE CRAFT 12 YEAR</masterLabel>
+            <translation><!-- JIM BEAM SIGNATURE CRAFT 12 YEAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JIM BEAM SINGLE BARREL</masterLabel>
+            <translation><!-- JIM BEAM SINGLE BARREL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JIM BEAM VANILLA</masterLabel>
+            <translation><!-- JIM BEAM VANILLA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JIM BEAM WHITE &amp; COLA 10%</masterLabel>
+            <translation><!-- JIM BEAM WHITE &amp; COLA 10% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JIM BEAM WHITE &amp; COLA 4.5%</masterLabel>
+            <translation><!-- JIM BEAM WHITE &amp; COLA 4.5% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KAMCHATKA CITRUS</masterLabel>
+            <translation><!-- KAMCHATKA CITRUS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KAMCHATKA CITRUS VODKA</masterLabel>
+            <translation><!-- KAMCHATKA CITRUS VODKA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KAMCHATKA GIN</masterLabel>
+            <translation><!-- KAMCHATKA GIN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KAMCHATKA RASPBERRY VODKA</masterLabel>
+            <translation><!-- KAMCHATKA RASPBERRY VODKA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KAMCHATKA VODKA</masterLabel>
+            <translation><!-- KAMCHATKA VODKA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KAMORA ORIGINAL</masterLabel>
+            <translation><!-- KAMORA ORIGINAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KESSLER ORIGINAL</masterLabel>
+            <translation><!-- KESSLER ORIGINAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KILBEGGAN 18 YEAR</masterLabel>
+            <translation><!-- KILBEGGAN 18 YEAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KILBEGGAN ORIGINAL</masterLabel>
+            <translation><!-- KILBEGGAN ORIGINAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KNOB CREEK 25TH ANNIVERSARY</masterLabel>
+            <translation><!-- KNOB CREEK 25TH ANNIVERSARY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KNOB CREEK BOURBON</masterLabel>
+            <translation><!-- KNOB CREEK BOURBON --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KNOB CREEK RYE</masterLabel>
+            <translation><!-- KNOB CREEK RYE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KNOB CREEK SINGLE BARREL</masterLabel>
+            <translation><!-- KNOB CREEK SINGLE BARREL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KNOB CREEK SINGLE BARREL RYE</masterLabel>
+            <translation><!-- KNOB CREEK SINGLE BARREL RYE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LA INA ORIGINAL</masterLabel>
+            <translation><!-- LA INA ORIGINAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LAPHROAIG 10 YEAR</masterLabel>
+            <translation><!-- LAPHROAIG 10 YEAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LAPHROAIG 16 YEAR</masterLabel>
+            <translation><!-- LAPHROAIG 16 YEAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LAPHROAIG 18 YEAR</masterLabel>
+            <translation><!-- LAPHROAIG 18 YEAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LAPHROAIG 25 YEAR</masterLabel>
+            <translation><!-- LAPHROAIG 25 YEAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LAPHROAIG 27 YEAR</masterLabel>
+            <translation><!-- LAPHROAIG 27 YEAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LAPHROAIG 28 YEAR</masterLabel>
+            <translation><!-- LAPHROAIG 28 YEAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LAPHROAIG 30 YEAR</masterLabel>
+            <translation><!-- LAPHROAIG 30 YEAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LAPHROAIG 4OAK</masterLabel>
+            <translation><!-- LAPHROAIG 4OAK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LAPHROAIG CAIRDEAS</masterLabel>
+            <translation><!-- LAPHROAIG CAIRDEAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LAPHROAIG CASK STRENGTH</masterLabel>
+            <translation><!-- LAPHROAIG CASK STRENGTH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LAPHROAIG LORE</masterLabel>
+            <translation><!-- LAPHROAIG LORE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LAPHROAIG PX</masterLabel>
+            <translation><!-- LAPHROAIG PX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LAPHROAIG QUARTER CASK</masterLabel>
+            <translation><!-- LAPHROAIG QUARTER CASK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LAPHROAIG SELECT CASK</masterLabel>
+            <translation><!-- LAPHROAIG SELECT CASK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LAPHROAIG TRIPLE WOOD</masterLabel>
+            <translation><!-- LAPHROAIG TRIPLE WOOD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LARIOS 12 PREMIUM GIN</masterLabel>
+            <translation><!-- LARIOS 12 PREMIUM GIN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LARIOS CITRUS</masterLabel>
+            <translation><!-- LARIOS CITRUS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LARIOS FLAVORED</masterLabel>
+            <translation><!-- LARIOS FLAVORED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LARIOS GIN - ORIGINAL</masterLabel>
+            <translation><!-- LARIOS GIN - ORIGINAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LARIOS ROSE</masterLabel>
+            <translation><!-- LARIOS ROSE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LARIOS VODKA - ORIGINAL</masterLabel>
+            <translation><!-- LARIOS VODKA - ORIGINAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LEGENT ORIGINAL</masterLabel>
+            <translation><!-- LEGENT ORIGINAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LEROUX FLAVORED BRANDY</masterLabel>
+            <translation><!-- LEROUX FLAVORED BRANDY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LEROUX FLAVORED CORDIAL</masterLabel>
+            <translation><!-- LEROUX FLAVORED CORDIAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LONDON DRY GIN</masterLabel>
+            <translation><!-- LONDON DRY GIN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MAKER'S MARK 46</masterLabel>
+            <translation><!-- MAKER&apos;S MARK 46 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MAKER'S MARK CASK STRENGTH</masterLabel>
+            <translation><!-- MAKER&apos;S MARK CASK STRENGTH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MAKER'S MARK MINT JULEP</masterLabel>
+            <translation><!-- MAKER&apos;S MARK MINT JULEP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MAKER'S MARK ORIGINAL/RED TOP</masterLabel>
+            <translation><!-- MAKER&apos;S MARK ORIGINAL/RED TOP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MAKER'S MARK PRIVATE SELECT</masterLabel>
+            <translation><!-- MAKER&apos;S MARK PRIVATE SELECT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MCCLELLAND HIGHLAND</masterLabel>
+            <translation><!-- MCCLELLAND HIGHLAND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MCCLELLAND ISLAY</masterLabel>
+            <translation><!-- MCCLELLAND ISLAY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MCCLELLAND LOWLAND</masterLabel>
+            <translation><!-- MCCLELLAND LOWLAND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MCCLELLAND SPEYSIDE</masterLabel>
+            <translation><!-- MCCLELLAND SPEYSIDE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MIDORI ORIGINAL</masterLabel>
+            <translation><!-- MIDORI ORIGINAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OAKSMITH GOLD</masterLabel>
+            <translation><!-- OAKSMITH GOLD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OAKSMITH ORIGINAL</masterLabel>
+            <translation><!-- OAKSMITH ORIGINAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OLD CROW ORIGINAL</masterLabel>
+            <translation><!-- OLD CROW ORIGINAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OLD GRAND DAD ORIGINAL</masterLabel>
+            <translation><!-- OLD GRAND DAD ORIGINAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OLD OVERHOLT ORIGINAL</masterLabel>
+            <translation><!-- OLD OVERHOLT ORIGINAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OLD OVERHOLT RYE</masterLabel>
+            <translation><!-- OLD OVERHOLT RYE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OLD OVERHOLT RYE BONDED</masterLabel>
+            <translation><!-- OLD OVERHOLT RYE BONDED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OLD TUB ORIGINAL</masterLabel>
+            <translation><!-- OLD TUB ORIGINAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAVAN ORIGINAL</masterLabel>
+            <translation><!-- PAVAN ORIGINAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PINNACLE FLAVORED</masterLabel>
+            <translation><!-- PINNACLE FLAVORED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PINNACLE FRENCH ORIGINAL</masterLabel>
+            <translation><!-- PINNACLE FRENCH ORIGINAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PINNACLE GIN</masterLabel>
+            <translation><!-- PINNACLE GIN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PREMIUM</masterLabel>
+            <translation><!-- PREMIUM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRIME BLUE 12 YEAR</masterLabel>
+            <translation><!-- PRIME BLUE 12 YEAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRIME BLUE 17 YEAR</masterLabel>
+            <translation><!-- PRIME BLUE 17 YEAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRIME BLUE 21 YEAR</masterLabel>
+            <translation><!-- PRIME BLUE 21 YEAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRIME BLUE PURE MALT</masterLabel>
+            <translation><!-- PRIME BLUE PURE MALT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RONRICO BLANCO/PLATA/SILVER</masterLabel>
+            <translation><!-- RONRICO BLANCO/PLATA/SILVER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RONRICO CLIPPER SPICED RUM</masterLabel>
+            <translation><!-- RONRICO CLIPPER SPICED RUM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RONRICO GOLD</masterLabel>
+            <translation><!-- RONRICO GOLD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RONRICO PINEAPPLE COCONUT</masterLabel>
+            <translation><!-- RONRICO PINEAPPLE COCONUT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ROSE</masterLabel>
+            <translation><!-- ROSE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ROSE GIN</masterLabel>
+            <translation><!-- ROSE GIN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RTD WHITE GRAPE</masterLabel>
+            <translation><!-- RTD WHITE GRAPE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RTD WHITE SOUR</masterLabel>
+            <translation><!-- RTD WHITE SOUR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Red Stag Black Cherry</masterLabel>
+            <translation><!-- Red Stag Black Cherry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SALIGNAC VS</masterLabel>
+            <translation><!-- SALIGNAC VS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAUZA AGUA FUERTE</masterLabel>
+            <translation><!-- SAUZA AGUA FUERTE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAUZA BLANCO/PLATA/SILVER</masterLabel>
+            <translation><!-- SAUZA BLANCO/PLATA/SILVER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAUZA BLUE REPOSADO</masterLabel>
+            <translation><!-- SAUZA BLUE REPOSADO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAUZA BLUE SILVER</masterLabel>
+            <translation><!-- SAUZA BLUE SILVER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAUZA CUCUMBER CHILI</masterLabel>
+            <translation><!-- SAUZA CUCUMBER CHILI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAUZA GOLD</masterLabel>
+            <translation><!-- SAUZA GOLD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAUZA HACIENDA REPOSADO</masterLabel>
+            <translation><!-- SAUZA HACIENDA REPOSADO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAUZA MARGARITA MIX</masterLabel>
+            <translation><!-- SAUZA MARGARITA MIX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAUZA REPOSADO</masterLabel>
+            <translation><!-- SAUZA REPOSADO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAUZA SILVER</masterLabel>
+            <translation><!-- SAUZA SILVER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SIPSMITH LONDON DRY</masterLabel>
+            <translation><!-- SIPSMITH LONDON DRY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SIPSMITH SLOE</masterLabel>
+            <translation><!-- SIPSMITH SLOE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SIPSMITH VJOP</masterLabel>
+            <translation><!-- SIPSMITH VJOP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SIPSMITH VODKA</masterLabel>
+            <translation><!-- SIPSMITH VODKA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SKINNYGIRL BARENAKED VODKA</masterLabel>
+            <translation><!-- SKINNYGIRL BARENAKED VODKA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SKINNYGIRL CABERNET SAUVIGNON</masterLabel>
+            <translation><!-- SKINNYGIRL CABERNET SAUVIGNON --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SKINNYGIRL CHARDONNAY</masterLabel>
+            <translation><!-- SKINNYGIRL CHARDONNAY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SKINNYGIRL CUCUMBER VODKA</masterLabel>
+            <translation><!-- SKINNYGIRL CUCUMBER VODKA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SKINNYGIRL GRAPEFRUIT MARGARITA</masterLabel>
+            <translation><!-- SKINNYGIRL GRAPEFRUIT MARGARITA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SKINNYGIRL MOSCATO</masterLabel>
+            <translation><!-- SKINNYGIRL MOSCATO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SKINNYGIRL PINOT GRIGIO</masterLabel>
+            <translation><!-- SKINNYGIRL PINOT GRIGIO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SKINNYGIRL PINOT NOIR</masterLabel>
+            <translation><!-- SKINNYGIRL PINOT NOIR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SKINNYGIRL RED WINE</masterLabel>
+            <translation><!-- SKINNYGIRL RED WINE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SKINNYGIRL SWEETARITA MARGARITA</masterLabel>
+            <translation><!-- SKINNYGIRL SWEETARITA MARGARITA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SKINNYGIRL TANGERINE VODKA</masterLabel>
+            <translation><!-- SKINNYGIRL TANGERINE VODKA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SKINNYGIRL WATERMELON LIME MARGARITA</masterLabel>
+            <translation><!-- SKINNYGIRL WATERMELON LIME MARGARITA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SKINNYGIRL WHITE CRANBERRY COSMO</masterLabel>
+            <translation><!-- SKINNYGIRL WHITE CRANBERRY COSMO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SKINNYGIRL WHITE PEACH MARGARITA</masterLabel>
+            <translation><!-- SKINNYGIRL WHITE PEACH MARGARITA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SKINNYGIRL WHITE WINE</masterLabel>
+            <translation><!-- SKINNYGIRL WHITE WINE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SOURZ APPLE</masterLabel>
+            <translation><!-- SOURZ APPLE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SOURZ BLACK CURRANT</masterLabel>
+            <translation><!-- SOURZ BLACK CURRANT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SOURZ CHERRY</masterLabel>
+            <translation><!-- SOURZ CHERRY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SOURZ MANGO</masterLabel>
+            <translation><!-- SOURZ MANGO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SOURZ PASSION FRUIT</masterLabel>
+            <translation><!-- SOURZ PASSION FRUIT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SOURZ RAINBOW ICE</masterLabel>
+            <translation><!-- SOURZ RAINBOW ICE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SOURZ RASPBERRY</masterLabel>
+            <translation><!-- SOURZ RASPBERRY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SOURZ RED BERRY</masterLabel>
+            <translation><!-- SOURZ RED BERRY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SOURZ TROPICAL</masterLabel>
+            <translation><!-- SOURZ TROPICAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SUNNYBROOK ORIGINAL</masterLabel>
+            <translation><!-- SUNNYBROOK ORIGINAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SUNTORY HAKU VODKA</masterLabel>
+            <translation><!-- SUNTORY HAKU VODKA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SUNTORY PLUM DEW LIQUEUR</masterLabel>
+            <translation><!-- SUNTORY PLUM DEW LIQUEUR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SUNTORY ROKU GIN</masterLabel>
+            <translation><!-- SUNTORY ROKU GIN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SUNTORY WHISKEY CHITA</masterLabel>
+            <translation><!-- SUNTORY WHISKEY CHITA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sample Brand Single Malt Whisky</masterLabel>
+            <translation><!-- Sample Brand Single Malt Whisky --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sipsmith Gin &amp; Tonic</masterLabel>
+            <translation><!-- Sipsmith Gin &amp; Tonic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sipsmith Gin &amp; Tonic Light</masterLabel>
+            <translation><!-- Sipsmith Gin &amp; Tonic Light --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TANGLE RIDGE ORIGINAL</masterLabel>
+            <translation><!-- TANGLE RIDGE ORIGINAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TEACHER'S 25 YEAR</masterLabel>
+            <translation><!-- TEACHER&apos;S 25 YEAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TEACHER'S 50 YEAR</masterLabel>
+            <translation><!-- TEACHER&apos;S 50 YEAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TEACHER'S GOLDEN THISTLE 12 YEAR</masterLabel>
+            <translation><!-- TEACHER&apos;S GOLDEN THISTLE 12 YEAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TEACHER'S HIGHLAND CREAM</masterLabel>
+            <translation><!-- TEACHER&apos;S HIGHLAND CREAM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TEACHER'S ORIGIN</masterLabel>
+            <translation><!-- TEACHER&apos;S ORIGIN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TOKI ORIGINAL</masterLabel>
+            <translation><!-- TOKI ORIGINAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRAVE AMARETTO ORIGINAL</masterLabel>
+            <translation><!-- TRAVE AMARETTO ORIGINAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRES GENERACIONES ANEJO</masterLabel>
+            <translation><!-- TRES GENERACIONES ANEJO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRES GENERACIONES BLANCO/PLATA/SILVER</masterLabel>
+            <translation><!-- TRES GENERACIONES BLANCO/PLATA/SILVER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRES GENERACIONES REPOSADO</masterLabel>
+            <translation><!-- TRES GENERACIONES REPOSADO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TYRCONNELL MADEIRA CASK</masterLabel>
+            <translation><!-- TYRCONNELL MADEIRA CASK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TYRCONNELL ORIGINAL</masterLabel>
+            <translation><!-- TYRCONNELL ORIGINAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TYRCONNELL PORT CASK</masterLabel>
+            <translation><!-- TYRCONNELL PORT CASK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TYRCONNELL SHERRY CASK</masterLabel>
+            <translation><!-- TYRCONNELL SHERRY CASK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TYRCONNELL SINGLE CASK</masterLabel>
+            <translation><!-- TYRCONNELL SINGLE CASK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VOX ORIGINAL</masterLabel>
+            <translation><!-- VOX ORIGINAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WINDSOR CANADIAN 3 YEAR</masterLabel>
+            <translation><!-- WINDSOR CANADIAN 3 YEAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WINDSOR CANADIAN BLACK CHERRY</masterLabel>
+            <translation><!-- WINDSOR CANADIAN BLACK CHERRY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WOLFSCHMIDT KUMMEL CORDIAL</masterLabel>
+            <translation><!-- WOLFSCHMIDT KUMMEL CORDIAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WOLFSCHMIDT KUMMEL VODKA</masterLabel>
+            <translation><!-- WOLFSCHMIDT KUMMEL VODKA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>YAMAZAKI 12 YEAR</masterLabel>
+            <translation><!-- YAMAZAKI 12 YEAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>YAMAZAKI 18 YEAR</masterLabel>
+            <translation><!-- YAMAZAKI 18 YEAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>YAMAZAKI 25 YEAR</masterLabel>
+            <translation><!-- YAMAZAKI 25 YEAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>YUZU</masterLabel>
+            <translation><!-- YUZU --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bill_of_Lading_Required</fullName>
+    <active>true</active>
+    <description>If Bill of Lading is selected on the account as an international document, require the checkbox so documentation is sent.</description>
+    <errorConditionFormula>AND(
+ INCLUDES( Account.International_Documentation_Checklist__c , "Bill of Lading"),
+  Bill_of_Lading__c = FALSE,
+OR (
+ RecordType.Name = "Changes",
+ RecordType.Name = "Orders"
+),
+OR (
+ISPICKVAL( Status , "Closed"),
+ISPICKVAL( Status , "Closed - Approved"),
+ISPICKVAL( Status , "Closed - Rejected")
+)
+)</errorConditionFormula>
+    <errorDisplayField>Bill_of_Lading__c</errorDisplayField>
+    <errorMessage>Please ensure this documentation has been sent before the case is closed.</errorMessage>
+</ValidationRule>

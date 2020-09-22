@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Last_Status_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Last Status Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>true</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Status</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Hold</fullName>
+                <default>true</default>
+                <label>Hold</label>
+            </value>
+            <value>
+                <fullName>Work</fullName>
+                <default>false</default>
+                <label>Work</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Pending Sub-Case</controllingFieldValue>
+            <controllingFieldValue>Pending Documentation</controllingFieldValue>
+            <controllingFieldValue>Pending Shipment</controllingFieldValue>
+            <controllingFieldValue>Close Pending</controllingFieldValue>
+            <controllingFieldValue>Closed - Approved</controllingFieldValue>
+            <controllingFieldValue>Closed - Rejected</controllingFieldValue>
+            <controllingFieldValue>DUP - No Action</controllingFieldValue>
+            <controllingFieldValue>Ready to be Validated</controllingFieldValue>
+            <controllingFieldValue>Waiting on Allocation</controllingFieldValue>
+            <controllingFieldValue>Waiting on Customer</controllingFieldValue>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>On Hold</controllingFieldValue>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <controllingFieldValue>Escalated</controllingFieldValue>
+            <controllingFieldValue>Logged</controllingFieldValue>
+            <controllingFieldValue>Pending Activity</controllingFieldValue>
+            <controllingFieldValue>Waiting on EUR1</controllingFieldValue>
+            <controllingFieldValue>Waiting on Final PO (Argentina)</controllingFieldValue>
+            <controllingFieldValue>Pending Selection</controllingFieldValue>
+            <controllingFieldValue>Waiting on Gov. Records</controllingFieldValue>
+            <controllingFieldValue>Waiting on GTR</controllingFieldValue>
+            <controllingFieldValue>Pending Date Selection</controllingFieldValue>
+            <controllingFieldValue>Waiting on Legal</controllingFieldValue>
+            <controllingFieldValue>Pending Purchase Order</controllingFieldValue>
+            <controllingFieldValue>Waiting on Plant</controllingFieldValue>
+            <controllingFieldValue>Pending Final Details</controllingFieldValue>
+            <controllingFieldValue>Waiting on Regulatory</controllingFieldValue>
+            <controllingFieldValue>Waiting on Strip Stamps</controllingFieldValue>
+            <controllingFieldValue>Waiting on Freight Forwarder</controllingFieldValue>
+            <controllingFieldValue>Waiting on GPC</controllingFieldValue>
+            <controllingFieldValue>Pending Ship Date</controllingFieldValue>
+            <controllingFieldValue>Waiting on 3rd Party</controllingFieldValue>
+            <controllingFieldValue>Waiting for Requestor</controllingFieldValue>
+            <controllingFieldValue>Closed - No Action</controllingFieldValue>
+            <controllingFieldValue>Pending Error Resolution</controllingFieldValue>
+            <controllingFieldValue>Open</controllingFieldValue>
+            <controllingFieldValue>Error Resolved</controllingFieldValue>
+            <controllingFieldValue>Resolved</controllingFieldValue>
+            <controllingFieldValue>Closed - Abandoned</controllingFieldValue>
+            <controllingFieldValue>Pending Invoice</controllingFieldValue>
+            <controllingFieldValue>Pending Approval</controllingFieldValue>
+            <controllingFieldValue>Pending CRC Approval</controllingFieldValue>
+            <controllingFieldValue>Waiting on IT</controllingFieldValue>
+            <controllingFieldValue>Pending Credit Hold</controllingFieldValue>
+            <controllingFieldValue>Pending Dispute</controllingFieldValue>
+            <controllingFieldValue>In Progress</controllingFieldValue>
+            <valueName>Hold</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Active</controllingFieldValue>
+            <controllingFieldValue>Working</controllingFieldValue>
+            <controllingFieldValue>In Progress</controllingFieldValue>
+            <valueName>Work</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

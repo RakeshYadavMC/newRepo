@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BrandVariety</fullName>
+    <active>true</active>
+    <description>Brand Variety Record Type.</description>
+    <label>Brand Variety</label>
+    <picklistValues>
+        <picklist>CampaignBrand__c</picklist>
+        <values>
+            <fullName>100 Anos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>100 Anos RTD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alberta Premium</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alberta Pure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alberta Rye</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alberta Springs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ardmore</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Auchentoshan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banff Ice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Basil Hayden</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bowmore</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Calico Jack</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canadian Club</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cooleys</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Courvoisier</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cruzan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DeKuyper</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Effen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>El Tesoro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fundador</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Glen Garioch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Glengarioch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hacienda</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Haku</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hibiki</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hornitos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Irish Whiskeys</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jim Beam Apple</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jim Beam Devils Cut</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jim Beam Fire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jim Beam Flavors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jim Beam Ghost</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jim Beam Honey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jim Beam Kentucky Fire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jim Beam Maple</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jim Beam Red Stag</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jim Beam White</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kamora</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kessler Blend</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Knob Creek</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Laphroaig</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Larios</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Makers Mark</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>McClellands</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mcclelland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Midori</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Multibrand</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pinnacle Vodka</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plum Dew</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RTD Jim Beam</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Roku</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SQRRL Whiskey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sauza</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sauza 901</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sauza Extra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sauza XA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SkinnyGirl</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Small Batch Bourbon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suntory Mixables</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suntory Whiskey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Teachers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Terry Centario</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The Olds</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tres Gen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Windsor Canadian</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yamasaki</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

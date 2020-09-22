@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>SB MC SB-2 To remove leaf Node from Distributor</description>
+    <height>250</height>
+    <label>Remove Leaf Node</label>
+    <lightningComponent>LXC_SB2_ChangeLeafNodeForDistributor</lightningComponent>
+    <optionsCreateFeedItem>false</optionsCreateFeedItem>
+    <type>LightningComponent</type>
+    <width>-100</width>
+</QuickAction>

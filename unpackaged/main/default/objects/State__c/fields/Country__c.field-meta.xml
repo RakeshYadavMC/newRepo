@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Country__c</fullName>
+    <description>PS-MC-SB-25 It is use to represent Country for State</description>
+    <externalId>false</externalId>
+    <label>Country</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Country__c.IsActive__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Country__c</referenceTo>
+    <relationshipLabel>States</relationshipLabel>
+    <relationshipName>States</relationshipName>
+    <relationshipOrder>1</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CampaignAttributesRequired</fullName>
+    <active>true</active>
+    <description>This validation rule is required to enforce the picklist field requiredness on the custom VF page(grid).</description>
+    <errorConditionFormula>ISBLANK(Name) ||
+ISBLANK(TEXT(CampaignType__c)) || 
+ISBLANK(TEXT(GLAccountType__c)) || 
+ISBLANK(TEXT(GLDescription__c)) || 
+ISBLANK(TEXT(GLCode__c))</errorConditionFormula>
+    <errorMessage>Campaign Name. Campaign Type. GL Account Type. GL Description. GL Code must be populated.</errorMessage>
+</ValidationRule>

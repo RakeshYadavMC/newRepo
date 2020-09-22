@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quote_Request_Must_Be_Approved_To_Close</fullName>
+    <active>true</active>
+    <description>Case must have the "Approved" field checked before it can be closed.</description>
+    <errorConditionFormula>AND(
+  RecordType.DeveloperName='Quote_Request', 
+  PRIORVALUE(Status)!="Closed",
+  ISPICKVAL(Status, "Closed"),
+  TEXT(Approval_Needed__c)='Yes',
+  Approved__c=FALSE
+)</errorConditionFormula>
+    <errorMessage>Case must be approved before closing</errorMessage>
+</ValidationRule>

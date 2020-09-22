@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bomb_out_Other_type</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISPICKVAL( Status , "Closed"),
+OR($RecordType.Name="Bomb Out",
+$RecordType.Name="Bomb Out - Esker"),
+ISPICKVAL( Type, "Other"),
+OR(
+ISBLANK(Beam_SKU__c),
+ISBLANK(Sales_order_Numberr__c),
+ISBLANK(PO_Number__c),
+ISBLANK(Additional_Info__c)
+
+)
+)</errorConditionFormula>
+    <errorMessage>Case Cannot be closed if any of the fields: Beam SKU,Sales order number,PO number,Additional info  are blank</errorMessage>
+</ValidationRule>

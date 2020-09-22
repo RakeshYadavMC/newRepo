@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Restrict_Programs_by_Country</fullName>
+    <active>true</active>
+    <description>This program is not allowed in this country, please select another option</description>
+    <errorConditionFormula>AND
+(
+    NOT(ISPICKVAL(Related_Program__r.Country__c, "Both")),
+    OR
+    (
+       AND
+       (ISPICKVAL(Related_Program__r.Country__c, "USA"),
+        ISPICKVAL(CurrencyIsoCode, "AUD")
+       ),
+       AND
+       (ISPICKVAL(Related_Program__r.Country__c, "AUS"),
+        ISPICKVAL(CurrencyIsoCode, "USD")
+       )
+    )
+)</errorConditionFormula>
+    <errorMessage>Don't allow programs outside the country</errorMessage>
+</ValidationRule>

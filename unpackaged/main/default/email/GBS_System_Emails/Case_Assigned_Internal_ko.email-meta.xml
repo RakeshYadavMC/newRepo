@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Case Assigned Notification to Owner in Korean</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Blank_Letterhead</letterhead>
+    <name>Case Assigned - Internal (ko)</name>
+    <style>freeForm</style>
+    <subject>Case has been assigned to you - {!Case.Subject}</subject>
+    <textOnly>안녕하세요 {!Case.OwnerFirstName}님, 케이스 #{!Case.CaseNumber}는 {!User.FirstName} {!User.LastName} ({!User.Email})에 의해 당신에게 배정되었습니다. 케이스를 확인하려면 아래를 클릭합니다: {!Case.Link}
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,13 @@
+<p>Dear {!Contact.FirstName},</p>
+<p>Thank you for your email and interest in using our product with Specialized Labels to celebrate your event.  All you have to do is ask your local liquor store to place an order for Specialized Labels.  Below are a few things to be aware of when placing an order.</p>
+<p>Specialized Label Order Information:</p>
+<p>&bull; You can order Jim Beam® Bourbon - White Label Only<br />
+&bull; The only size available is a 50ml.<br />
+&bull; There is a 5-case minimum. Each case contains 120 bottles. (Pricing varies by location)<br />
+&bull; You can have 2 lines of Personalized Information on the bottle; each line can contain a maximum of 25 characters.</p>
+<p>Please feel free to contact us if you have any further questions or problems with placing your specialized label order.  In the meantime we hope you continue to enjoy Jim Beam® and all our fine products for many more years to come.</p>
+<p>{!Case.OwnerFullName}<br />
+<strong>Jim Beam® Customer Care Representative</strong><br />
+<img src="{!$Label.SF_Base_URL_BrandLogo}JimBeam.png" alt=""  width="120px" /> <br />
+<a href="https://www.facebook.com/JimBeamUS"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}facebook.png" width="20" alt="" /></a> <a href="https://twitter.com/JimBeam"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}twitter.png" width="20" alt="" /></a> <a href="https://instagram.com/Jimbeamofficial"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}instagram.png" width="20" alt="" /></a> <a href="http://www.pinterest.com/jimbeamofficial/"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}pinterest.png" width="20" alt="" /></a> <a href="https://www.youtube.com/JimBeam"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}youtube.png" width="20" alt="" /></a> <br />
+<a href="http://www.drinksmart.com"><img src="{!$Label.SF_Base_URL_BrandLogo}DrinkSmart.png" width="120" title="Drink Smart" alt="Drink Smart" /></a></p>

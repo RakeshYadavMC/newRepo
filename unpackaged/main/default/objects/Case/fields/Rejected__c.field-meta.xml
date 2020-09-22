@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rejected__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>A field used to indicate that some facet of the Case was rejected.</description>
+    <externalId>false</externalId>
+    <label>Rejected</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

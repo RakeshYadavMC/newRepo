@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Regional_Brand_Director_MarketingPlan</fullName>
+    <columns>NAME</columns>
+    <columns>Year__c</columns>
+    <filterScope>Queue</filterScope>
+    <label>Regional Brand Director</label>
+    <language>en_US</language>
+    <queue>Regional_Brand_Director</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

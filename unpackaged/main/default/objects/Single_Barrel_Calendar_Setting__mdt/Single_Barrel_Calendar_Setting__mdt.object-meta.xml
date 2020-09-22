@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Used in the Single Barrel Program Calendar Component to determine how events for a specific brand will be displayed.  The text color and background color of an event for a particular brand are set in this setting.</description>
+    <label>Single Barrel Calendar Setting</label>
+    <pluralLabel>Single Barrel Calendar Settings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

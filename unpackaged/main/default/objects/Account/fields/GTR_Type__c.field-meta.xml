@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GTR_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>GTR Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Arrivals</fullName>
+                <default>false</default>
+                <label>Arrivals</label>
+            </value>
+            <value>
+                <fullName>Departures</fullName>
+                <default>false</default>
+                <label>Departures</label>
+            </value>
+            <value>
+                <fullName>Arrivals &amp; Departures</fullName>
+                <default>false</default>
+                <label>Arrivals &amp; Departures</label>
+            </value>
+            <value>
+                <fullName>Border</fullName>
+                <default>false</default>
+                <label>Border</label>
+            </value>
+            <value>
+                <fullName>Duty Free Zone</fullName>
+                <default>false</default>
+                <label>Duty Free Zone</label>
+            </value>
+            <value>
+                <fullName>Transfer</fullName>
+                <default>false</default>
+                <label>Transfer</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

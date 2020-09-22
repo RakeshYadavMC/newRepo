@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prior_Approval_State__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Indicates that this state is a "Prior Approval" State, meaning that someone must approve before the approval date is recorded.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates that this state requires approval from someone</inlineHelpText>
+    <label>Prior Approval State</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Case Closed Notification to Submitter in Korean</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Blank_Letterhead</letterhead>
+    <name>Case Closed (ko)</name>
+    <style>freeForm</style>
+    <subject>케이스#{!Case.CaseNumber}이 해결 되었습니다 ; 세부사항은 첨부되어 있습니다.</subject>
+    <textOnly>안녕하세요 {!Case.Submitter_First_Name__c}님, 귀하의 케이스 #{!Case.CaseNumber}는 다음의 해결 세부 사항과 함께 닫혔습니다: {!Case.Case_Resolution_Details__c} 5초 동안 다음의 만족도 조사에 답변해 주십시오: 해결책의 적시성 및 정확성 면에서 얼마나 만족하셨습니까? 케이스를 재진행을 원하는 경우 제목에 &quot;케이스 재진행 &quot;라 쓰고 5일 이내 답변해 주시길 바랍니다. 해당 케이스를 재진행해야 하는 이유를 포함하십시오. 해당 케이스를 재진행하기 위한 지시 사항 커뮤니티로부터 귀하의 케이스를 재진행 하려면 로그인한 후 &quot;나의 케이스&quot; 탭을 클릭하고 &quot;나의 완료된 케이스&quot;를 선택하여 &quot;케이스 재진행&quot; 버튼을 클릭합니다. 재진행 버튼을 클릭할 때 팝업 창 재진행 버튼을 클릭하면서 팝업 창에 케이스 재진행의 이유를 추가합니다. 이 버튼은 5일 동안만 사용할 수 있으며 이후에는 &quot;비활성화&quot;되어 회색 처리된다는 점을 숙지하시길 바랍니다. 귀하의 케이스를 확인하려면 아래를 클릭합니다: {!$Label.Base_Company_Community_URL}{!Case.Id}
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

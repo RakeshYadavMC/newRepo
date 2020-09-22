@@ -1,0 +1,888 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Objective__c</fullName>
+    <externalId>false</externalId>
+    <label>Objective (JTBDI)</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Strategy__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Bartender training and education</fullName>
+                <default>false</default>
+                <label>Bartender training and education</label>
+            </value>
+            <value>
+                <fullName>BIG GINGER On-Premise Menus/Features</fullName>
+                <default>false</default>
+                <label>BIG GINGER On-Premise Menus/Features</label>
+            </value>
+            <value>
+                <fullName>BIG GINGER sampling</fullName>
+                <default>false</default>
+                <label>BIG GINGER sampling</label>
+            </value>
+            <value>
+                <fullName>Build 10YO distribution</fullName>
+                <default>false</default>
+                <label>Build 10YO distribution</label>
+            </value>
+            <value>
+                <fullName>Build big, impactful displays</fullName>
+                <default>false</default>
+                <label>Build big, impactful displays</label>
+            </value>
+            <value>
+                <fullName>Build Wine and Vodka on-premise</fullName>
+                <default>false</default>
+                <label>Build Wine and Vodka on-premise</label>
+            </value>
+            <value>
+                <fullName>Close distribution gaps</fullName>
+                <default>false</default>
+                <label>Close distribution gaps</label>
+            </value>
+            <value>
+                <fullName>Close distribution gaps to Smirnoff</fullName>
+                <default>false</default>
+                <label>Close distribution gaps to Smirnoff</label>
+            </value>
+            <value>
+                <fullName>Close distribution gaps with Bacardi</fullName>
+                <default>false</default>
+                <label>Close distribution gaps with Bacardi</label>
+            </value>
+            <value>
+                <fullName>Co-display with Casa Sauza family</fullName>
+                <default>false</default>
+                <label>Co-display with Casa Sauza family</label>
+            </value>
+            <value>
+                <fullName>Connect JT in-store and on-premise</fullName>
+                <default>false</default>
+                <label>Connect JT in-store and on-premise</label>
+            </value>
+            <value>
+                <fullName>Cross merchandising at retail</fullName>
+                <default>false</default>
+                <label>Cross merchandising at retail</label>
+            </value>
+            <value>
+                <fullName>Devil’s Cut and Flavors on-premise activation</fullName>
+                <default>false</default>
+                <label>Devil’s Cut and Flavors on-premise activation</label>
+            </value>
+            <value>
+                <fullName>Displays via secondary placement</fullName>
+                <default>false</default>
+                <label>Displays via secondary placement</label>
+            </value>
+            <value>
+                <fullName>Distribution of JDK &amp; Sons</fullName>
+                <default>false</default>
+                <label>Distribution of JDK &amp; Sons</label>
+            </value>
+            <value>
+                <fullName>Drive display and increase velocity</fullName>
+                <default>false</default>
+                <label>Drive display and increase velocity</label>
+            </value>
+            <value>
+                <fullName>Drive distribution</fullName>
+                <default>false</default>
+                <label>Drive distribution</label>
+            </value>
+            <value>
+                <fullName>Drive distribution in focus channels</fullName>
+                <default>false</default>
+                <label>Drive distribution in focus channels</label>
+            </value>
+            <value>
+                <fullName>Drive distribution of KC variants</fullName>
+                <default>false</default>
+                <label>Drive distribution of KC variants</label>
+            </value>
+            <value>
+                <fullName>Drive distribution on Devil’s Cut</fullName>
+                <default>false</default>
+                <label>Drive distribution on Devil’s Cut</label>
+            </value>
+            <value>
+                <fullName>Drive hitchhikers in the marketplace</fullName>
+                <default>false</default>
+                <label>Drive hitchhikers in the marketplace</label>
+            </value>
+            <value>
+                <fullName>Drive Maker’s 46 distribution</fullName>
+                <default>false</default>
+                <label>Drive Maker’s 46 distribution</label>
+            </value>
+            <value>
+                <fullName>Drive menu &amp; back bar placement</fullName>
+                <default>false</default>
+                <label>Drive menu &amp; back bar placement</label>
+            </value>
+            <value>
+                <fullName>Drive on-premise distribution</fullName>
+                <default>false</default>
+                <label>Drive on-premise distribution</label>
+            </value>
+            <value>
+                <fullName>Drive on-premise distribution (JBW, DC, Flavors)</fullName>
+                <default>false</default>
+                <label>Drive on-premise distribution (JBW, DC, Flavors)</label>
+            </value>
+            <value>
+                <fullName>Drive Sauza Blue distribution</fullName>
+                <default>false</default>
+                <label>Drive Sauza Blue distribution</label>
+            </value>
+            <value>
+                <fullName>Drive shot machines</fullName>
+                <default>false</default>
+                <label>Drive shot machines</label>
+            </value>
+            <value>
+                <fullName>Drive trial of new products and categories</fullName>
+                <default>false</default>
+                <label>Drive trial of new products and categories</label>
+            </value>
+            <value>
+                <fullName>Drive trial on flavors</fullName>
+                <default>false</default>
+                <label>Drive trial on flavors</label>
+            </value>
+            <value>
+                <fullName>Engage bartenders</fullName>
+                <default>false</default>
+                <label>Engage bartenders</label>
+            </value>
+            <value>
+                <fullName>Engage trade and ambassadors</fullName>
+                <default>false</default>
+                <label>Engage trade and ambassadors</label>
+            </value>
+            <value>
+                <fullName>Establish Distiller’s Collection on back bar</fullName>
+                <default>false</default>
+                <label>Establish Distiller’s Collection on back bar</label>
+            </value>
+            <value>
+                <fullName>Execute Jim Beam White Taste Challenge</fullName>
+                <default>false</default>
+                <label>Execute Jim Beam White Taste Challenge</label>
+            </value>
+            <value>
+                <fullName>Execute local Art of Craft events</fullName>
+                <default>false</default>
+                <label>Execute local Art of Craft events</label>
+            </value>
+            <value>
+                <fullName>Execute sampling programs</fullName>
+                <default>false</default>
+                <label>Execute sampling programs</label>
+            </value>
+            <value>
+                <fullName>Execute sampling programs (Devil’s Cut &amp; Flavors)</fullName>
+                <default>false</default>
+                <label>Execute sampling programs (Devil’s Cut &amp; Flavors)</label>
+            </value>
+            <value>
+                <fullName>Expand distribution</fullName>
+                <default>false</default>
+                <label>Expand distribution</label>
+            </value>
+            <value>
+                <fullName>Expand distributionOn- and Off-Premise</fullName>
+                <default>false</default>
+                <label>Expand distributionOn- and Off-Premise</label>
+            </value>
+            <value>
+                <fullName>Expand KC base distribution</fullName>
+                <default>false</default>
+                <label>Expand KC base distribution</label>
+            </value>
+            <value>
+                <fullName>Expand luxury on-premise</fullName>
+                <default>false</default>
+                <label>Expand luxury on-premise</label>
+            </value>
+            <value>
+                <fullName>Expand On-Premise presence</fullName>
+                <default>false</default>
+                <label>Expand On-Premise presence</label>
+            </value>
+            <value>
+                <fullName>Family displays in key periods</fullName>
+                <default>false</default>
+                <label>Family displays in key periods</label>
+            </value>
+            <value>
+                <fullName>Gain high-impact Make History displays</fullName>
+                <default>false</default>
+                <label>Gain high-impact Make History displays</label>
+            </value>
+            <value>
+                <fullName>Generate educational tastings and events</fullName>
+                <default>false</default>
+                <label>Generate educational tastings and events</label>
+            </value>
+            <value>
+                <fullName>Get 901 to the floor</fullName>
+                <default>false</default>
+                <label>Get 901 to the floor</label>
+            </value>
+            <value>
+                <fullName>Get seasonal flavors to the floor</fullName>
+                <default>false</default>
+                <label>Get seasonal flavors to the floor</label>
+            </value>
+            <value>
+                <fullName>Grow Distiller’s Collection</fullName>
+                <default>false</default>
+                <label>Grow Distiller’s Collection</label>
+            </value>
+            <value>
+                <fullName>Grow distribution of priority flavors</fullName>
+                <default>false</default>
+                <label>Grow distribution of priority flavors</label>
+            </value>
+            <value>
+                <fullName>Ice Surge shot occasions</fullName>
+                <default>false</default>
+                <label>Ice Surge shot occasions</label>
+            </value>
+            <value>
+                <fullName>Increased summer programming</fullName>
+                <default>false</default>
+                <label>Increased summer programming</label>
+            </value>
+            <value>
+                <fullName>Increase POS and themed display/shelf support</fullName>
+                <default>false</default>
+                <label>Increase POS and themed display/shelf support</label>
+            </value>
+            <value>
+                <fullName>Increase presence in luxury on-premise</fullName>
+                <default>false</default>
+                <label>Increase presence in luxury on-premise</label>
+            </value>
+            <value>
+                <fullName>Increase velocity</fullName>
+                <default>false</default>
+                <label>Increase velocity</label>
+            </value>
+            <value>
+                <fullName>Innovation Features &amp; Menus</fullName>
+                <default>false</default>
+                <label>Innovation Features &amp; Menus</label>
+            </value>
+            <value>
+                <fullName>Introduce new pack for Sauza Sparkling</fullName>
+                <default>false</default>
+                <label>Introduce new pack for Sauza Sparkling</label>
+            </value>
+            <value>
+                <fullName>Launch 1L for on-premise</fullName>
+                <default>false</default>
+                <label>Launch 1L for on-premise</label>
+            </value>
+            <value>
+                <fullName>Launch Blueberry Lemonade</fullName>
+                <default>false</default>
+                <label>Launch Blueberry Lemonade</label>
+            </value>
+            <value>
+                <fullName>Launch innovation - Sauza Cucumber Chili</fullName>
+                <default>false</default>
+                <label>Launch innovation - Sauza Cucumber Chili</label>
+            </value>
+            <value>
+                <fullName>Launch new package</fullName>
+                <default>false</default>
+                <label>Launch new package</label>
+            </value>
+            <value>
+                <fullName>Leverage Barrel program</fullName>
+                <default>false</default>
+                <label>Leverage Barrel program</label>
+            </value>
+            <value>
+                <fullName>Leverage Barrel Program/POS to secure display</fullName>
+                <default>false</default>
+                <label>Leverage Barrel Program/POS to secure display</label>
+            </value>
+            <value>
+                <fullName>Leverage custom selling tools/Winery Exchange</fullName>
+                <default>false</default>
+                <label>Leverage custom selling tools/Winery Exchange</label>
+            </value>
+            <value>
+                <fullName>Merchandising Don’t Hurry</fullName>
+                <default>false</default>
+                <label>Merchandising Don’t Hurry</label>
+            </value>
+            <value>
+                <fullName>Mixability &amp; Cocktail focus</fullName>
+                <default>false</default>
+                <label>Mixability &amp; Cocktail focus</label>
+            </value>
+            <value>
+                <fullName>National Marketing</fullName>
+                <default>false</default>
+                <label>National Marketing</label>
+            </value>
+            <value>
+                <fullName>On premise menus and specials</fullName>
+                <default>false</default>
+                <label>On premise menus and specials</label>
+            </value>
+            <value>
+                <fullName>Own the Old Fashioned via menu programs</fullName>
+                <default>false</default>
+                <label>Own the Old Fashioned via menu programs</label>
+            </value>
+            <value>
+                <fullName>Pinot Noir/Bare Naked 1.75 Launch</fullName>
+                <default>false</default>
+                <label>Pinot Noir/Bare Naked 1.75 Launch</label>
+            </value>
+            <value>
+                <fullName>Plata distribution</fullName>
+                <default>false</default>
+                <label>Plata distribution</label>
+            </value>
+            <value>
+                <fullName>POP/John/Vicky/Simon</fullName>
+                <default>false</default>
+                <label>POP/John/Vicky/Simon</label>
+            </value>
+            <value>
+                <fullName>Premiumize off-premise presence</fullName>
+                <default>false</default>
+                <label>Premiumize off-premise presence</label>
+            </value>
+            <value>
+                <fullName>Promote cocktail development</fullName>
+                <default>false</default>
+                <label>Promote cocktail development</label>
+            </value>
+            <value>
+                <fullName>Reach out to Whisky Women</fullName>
+                <default>false</default>
+                <label>Reach out to Whisky Women</label>
+            </value>
+            <value>
+                <fullName>Recruit new women drinkers through mixability</fullName>
+                <default>false</default>
+                <label>Recruit new women drinkers through mixability</label>
+            </value>
+            <value>
+                <fullName>Regain/Increase distribution</fullName>
+                <default>false</default>
+                <label>Regain/Increase distribution</label>
+            </value>
+            <value>
+                <fullName>Sampling</fullName>
+                <default>false</default>
+                <label>Sampling</label>
+            </value>
+            <value>
+                <fullName>Sampling (Flavors, Black Barrel)</fullName>
+                <default>false</default>
+                <label>Sampling (Flavors, Black Barrel)</label>
+            </value>
+            <value>
+                <fullName>Sampling programs</fullName>
+                <default>false</default>
+                <label>Sampling programs</label>
+            </value>
+            <value>
+                <fullName>Secure menu placements</fullName>
+                <default>false</default>
+                <label>Secure menu placements</label>
+            </value>
+            <value>
+                <fullName>Secure menu placements and features</fullName>
+                <default>false</default>
+                <label>Secure menu placements and features</label>
+            </value>
+            <value>
+                <fullName>Sharpen mix by swapping out low velocity SKUs</fullName>
+                <default>false</default>
+                <label>Sharpen mix by swapping out low velocity SKUs</label>
+            </value>
+            <value>
+                <fullName>Showcase “Big, Full Flavor” POS</fullName>
+                <default>false</default>
+                <label>Showcase “Big, Full Flavor” POS</label>
+            </value>
+            <value>
+                <fullName>Strengthen luxury on-premise with Upper Variants</fullName>
+                <default>false</default>
+                <label>Strengthen luxury on-premise with Upper Variants</label>
+            </value>
+            <value>
+                <fullName>Support bourbon heritage month activation</fullName>
+                <default>false</default>
+                <label>Support bourbon heritage month activation</label>
+            </value>
+            <value>
+                <fullName>Support retail partnerships</fullName>
+                <default>false</default>
+                <label>Support retail partnerships</label>
+            </value>
+            <value>
+                <fullName>Utilize Bloodhound (Max) in-market</fullName>
+                <default>false</default>
+                <label>Utilize Bloodhound (Max) in-market</label>
+            </value>
+            <value>
+                <fullName>Utilize Craft Whiskey Specialists</fullName>
+                <default>false</default>
+                <label>Utilize Craft Whiskey Specialists</label>
+            </value>
+            <value>
+                <fullName>Utilize mixology inspiration kits</fullName>
+                <default>false</default>
+                <label>Utilize mixology inspiration kits</label>
+            </value>
+            <value>
+                <fullName>Utilize New brand identity</fullName>
+                <default>false</default>
+                <label>Utilize New brand identity</label>
+            </value>
+            <value>
+                <fullName>Utilize POS</fullName>
+                <default>false</default>
+                <label>Utilize POS</label>
+            </value>
+            <value>
+                <fullName>Utilize “Most Awarded Bourbon” claim in-store</fullName>
+                <default>false</default>
+                <label>Utilize “Most Awarded Bourbon” claim in-store</label>
+            </value>
+            <value>
+                <fullName>Win bartender and influencer endorsement</fullName>
+                <default>false</default>
+                <label>Win bartender and influencer endorsement</label>
+            </value>
+            <value>
+                <fullName>Win in premium bars/nightclubs</fullName>
+                <default>false</default>
+                <label>Win in premium bars/nightclubs</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Get Millennial Males To Consider Jim Beam Again</controllingFieldValue>
+            <controllingFieldValue>Expand Distribution (Off)</controllingFieldValue>
+            <controllingFieldValue>Establish Belief In Quality</controllingFieldValue>
+            <controllingFieldValue>Drive The On-Premise</controllingFieldValue>
+            <controllingFieldValue>Drive Successful Innovation</controllingFieldValue>
+            <controllingFieldValue>Drive Sauza Awareness</controllingFieldValue>
+            <controllingFieldValue>Drive Consideration &amp; Trial</controllingFieldValue>
+            <controllingFieldValue>Drive Brand Advocacy</controllingFieldValue>
+            <controllingFieldValue>Drive Awareness (Off)</controllingFieldValue>
+            <controllingFieldValue>Drive 901 Awareness</controllingFieldValue>
+            <controllingFieldValue>Recruit Consumers</controllingFieldValue>
+            <controllingFieldValue>Communicate Authenticity &amp; Quality</controllingFieldValue>
+            <controllingFieldValue>Recruit “Whiskey Women”</controllingFieldValue>
+            <controllingFieldValue>Build Top Of Mind Awareness</controllingFieldValue>
+            <controllingFieldValue>Premiumize And Trade Up</controllingFieldValue>
+            <controllingFieldValue>Build Awareness</controllingFieldValue>
+            <controllingFieldValue>One More Drink Per Month</controllingFieldValue>
+            <controllingFieldValue>Acquire Lda Millennials</controllingFieldValue>
+            <controllingFieldValue>Make Pinnacle Available</controllingFieldValue>
+            <controllingFieldValue>Drive The On-Premise (Basil Hayden)</controllingFieldValue>
+            <controllingFieldValue>Make 901 Accessible</controllingFieldValue>
+            <controllingFieldValue>Interrupt Bacardi</controllingFieldValue>
+            <controllingFieldValue>Increase Awareness And Relevance</controllingFieldValue>
+            <controllingFieldValue>Implement Join The Club</controllingFieldValue>
+            <controllingFieldValue>Grow Wine And Vodka</controllingFieldValue>
+            <controllingFieldValue>Win With Flavors</controllingFieldValue>
+            <controllingFieldValue>Win At Retail</controllingFieldValue>
+            <controllingFieldValue>Trade Up</controllingFieldValue>
+            <controllingFieldValue>Steal Spiced Share At Shelf (Calico)</controllingFieldValue>
+            <controllingFieldValue>Steal Share Of Drinking Occasions</controllingFieldValue>
+            <controllingFieldValue>Regain/Increase Distribution</controllingFieldValue>
+            <controllingFieldValue>Reestablish Sauza Brand</controllingFieldValue>
+            <controllingFieldValue>Recruit New Consumers</controllingFieldValue>
+            <controllingFieldValue>Recruit Consumers From Outside Beam/Bourbon Category</controllingFieldValue>
+            <controllingFieldValue>Grow Pinnacle Original</controllingFieldValue>
+            <controllingFieldValue>Grow Distribution On Plata</controllingFieldValue>
+            <valueName>National Marketing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Get Millennial Males To Consider Jim Beam Again</controllingFieldValue>
+            <valueName>Strengthen luxury on-premise with Upper Variants</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Get Millennial Males To Consider Jim Beam Again</controllingFieldValue>
+            <valueName>Support bourbon heritage month activation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Expand Distribution (Off)</controllingFieldValue>
+            <valueName>Drive distribution of KC variants</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Expand Distribution (Off)</controllingFieldValue>
+            <valueName>Leverage Barrel Program/POS to secure display</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Establish Belief In Quality</controllingFieldValue>
+            <valueName>Drive trial of new products and categories</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Establish Belief In Quality</controllingFieldValue>
+            <valueName>Leverage custom selling tools/Winery Exchange</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Establish Belief In Quality</controllingFieldValue>
+            <valueName>Sharpen mix by swapping out low velocity SKUs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Drive The On-Premise</controllingFieldValue>
+            <valueName>Drive on-premise distribution</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Drive The On-Premise</controllingFieldValue>
+            <valueName>Own the Old Fashioned via menu programs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Drive The On-Premise</controllingFieldValue>
+            <valueName>Utilize Craft Whiskey Specialists</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Drive Successful Innovation</controllingFieldValue>
+            <valueName>Bartender training and education</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Drive Successful Innovation</controllingFieldValue>
+            <valueName>Drive shot machines</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Drive Successful Innovation</controllingFieldValue>
+            <valueName>Innovation Features &amp; Menus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Drive Successful Innovation</controllingFieldValue>
+            <valueName>Sampling (Flavors, Black Barrel)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Drive Sauza Awareness</controllingFieldValue>
+            <valueName>Drive Sauza Blue distribution</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Drive Sauza Awareness</controllingFieldValue>
+            <valueName>Introduce new pack for Sauza Sparkling</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Drive Sauza Awareness</controllingFieldValue>
+            <valueName>Launch innovation - Sauza Cucumber Chili</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Drive Consideration &amp; Trial</controllingFieldValue>
+            <valueName>BIG GINGER On-Premise Menus/Features</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Drive Consideration &amp; Trial</controllingFieldValue>
+            <valueName>BIG GINGER sampling</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Drive Consideration &amp; Trial</controllingFieldValue>
+            <valueName>Increased summer programming</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Drive Brand Advocacy</controllingFieldValue>
+            <valueName>Generate educational tastings and events</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Drive Brand Advocacy</controllingFieldValue>
+            <valueName>POP/John/Vicky/Simon</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Drive Brand Advocacy</controllingFieldValue>
+            <valueName>Promote cocktail development</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Drive Brand Advocacy</controllingFieldValue>
+            <valueName>Secure menu placements</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Drive Awareness (Off)</controllingFieldValue>
+            <valueName>Expand KC base distribution</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Drive Awareness (Off)</controllingFieldValue>
+            <valueName>Showcase “Big, Full Flavor” POS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Drive Awareness (Off)</controllingFieldValue>
+            <valueName>Utilize “Most Awarded Bourbon” claim in-store</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Drive 901 Awareness</controllingFieldValue>
+            <valueName>Connect JT in-store and on-premise</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Drive 901 Awareness</controllingFieldValue>
+            <valueName>Get 901 to the floor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Drive 901 Awareness</controllingFieldValue>
+            <valueName>Sampling</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Recruit Consumers</controllingFieldValue>
+            <valueName>Increase presence in luxury on-premise</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Recruit Consumers</controllingFieldValue>
+            <valueName>Premiumize off-premise presence</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Communicate Authenticity &amp; Quality</controllingFieldValue>
+            <valueName>Devil’s Cut and Flavors on-premise activation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Communicate Authenticity &amp; Quality</controllingFieldValue>
+            <valueName>Drive hitchhikers in the marketplace</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Communicate Authenticity &amp; Quality</controllingFieldValue>
+            <valueName>Execute sampling programs (Devil’s Cut &amp; Flavors)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Recruit “Whiskey Women”</controllingFieldValue>
+            <valueName>Mixability &amp; Cocktail focus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Recruit “Whiskey Women”</controllingFieldValue>
+            <valueName>Reach out to Whisky Women</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Build Top Of Mind Awareness</controllingFieldValue>
+            <valueName>Expand distributionOn- and Off-Premise</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Build Top Of Mind Awareness</controllingFieldValue>
+            <valueName>Increase POS and themed display/shelf support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Premiumize And Trade Up</controllingFieldValue>
+            <valueName>Establish Distiller’s Collection on back bar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Premiumize And Trade Up</controllingFieldValue>
+            <valueName>Grow Distiller’s Collection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Premiumize And Trade Up</controllingFieldValue>
+            <valueName>Leverage Barrel program</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Build Awareness</controllingFieldValue>
+            <valueName>Execute local Art of Craft events</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Build Awareness</controllingFieldValue>
+            <valueName>Expand On-Premise presence</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Build Awareness</controllingFieldValue>
+            <valueName>Utilize mixology inspiration kits</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>One More Drink Per Month</controllingFieldValue>
+            <valueName>Drive display and increase velocity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>One More Drink Per Month</controllingFieldValue>
+            <valueName>Engage trade and ambassadors</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>One More Drink Per Month</controllingFieldValue>
+            <valueName>Recruit new women drinkers through mixability</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Acquire Lda Millennials</controllingFieldValue>
+            <valueName>Displays via secondary placement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Make Pinnacle Available</controllingFieldValue>
+            <valueName>Build big, impactful displays</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Make Pinnacle Available</controllingFieldValue>
+            <valueName>Close distribution gaps</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Drive The On-Premise (Basil Hayden)</controllingFieldValue>
+            <valueName>Drive distribution in focus channels</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Drive The On-Premise (Basil Hayden)</controllingFieldValue>
+            <valueName>Drive menu &amp; back bar placement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Drive The On-Premise (Basil Hayden)</controllingFieldValue>
+            <valueName>Utilize Bloodhound (Max) in-market</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Make 901 Accessible</controllingFieldValue>
+            <valueName>Expand distribution</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Make 901 Accessible</controllingFieldValue>
+            <valueName>Launch 1L for on-premise</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Make 901 Accessible</controllingFieldValue>
+            <valueName>Win in premium bars/nightclubs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Interrupt Bacardi</controllingFieldValue>
+            <valueName>Close distribution gaps with Bacardi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Interrupt Bacardi</controllingFieldValue>
+            <valueName>Launch Blueberry Lemonade</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Interrupt Bacardi</controllingFieldValue>
+            <valueName>Merchandising Don’t Hurry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Increase Awareness And Relevance</controllingFieldValue>
+            <valueName>Secure menu placements and features</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Increase Awareness And Relevance</controllingFieldValue>
+            <valueName>Win bartender and influencer endorsement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Implement Join The Club</controllingFieldValue>
+            <valueName>Utilize POS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Grow Wine And Vodka</controllingFieldValue>
+            <valueName>Build Wine and Vodka on-premise</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Grow Wine And Vodka</controllingFieldValue>
+            <valueName>Family displays in key periods</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Grow Wine And Vodka</controllingFieldValue>
+            <valueName>Pinot Noir/Bare Naked 1.75 Launch</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Grow Wine And Vodka</controllingFieldValue>
+            <valueName>Support retail partnerships</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Win With Flavors</controllingFieldValue>
+            <valueName>Drive trial on flavors</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Win With Flavors</controllingFieldValue>
+            <valueName>Get seasonal flavors to the floor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Win With Flavors</controllingFieldValue>
+            <valueName>Grow distribution of priority flavors</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Win At Retail</controllingFieldValue>
+            <valueName>Co-display with Casa Sauza family</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trade Up</controllingFieldValue>
+            <valueName>Drive Maker’s 46 distribution</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trade Up</controllingFieldValue>
+            <valueName>Engage bartenders</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trade Up</controllingFieldValue>
+            <valueName>Execute sampling programs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trade Up</controllingFieldValue>
+            <valueName>Increase velocity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Steal Spiced Share At Shelf (Calico)</controllingFieldValue>
+            <valueName>Drive distribution</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Steal Share Of Drinking Occasions</controllingFieldValue>
+            <valueName>Distribution of JDK &amp; Sons</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Steal Share Of Drinking Occasions</controllingFieldValue>
+            <valueName>Ice Surge shot occasions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Regain/Increase Distribution</controllingFieldValue>
+            <valueName>Regain/Increase distribution</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reestablish Sauza Brand</controllingFieldValue>
+            <valueName>Launch new package</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reestablish Sauza Brand</controllingFieldValue>
+            <valueName>Utilize New brand identity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Recruit New Consumers</controllingFieldValue>
+            <valueName>Build 10YO distribution</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Recruit New Consumers</controllingFieldValue>
+            <valueName>Expand luxury on-premise</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Recruit Consumers From Outside Beam/Bourbon Category</controllingFieldValue>
+            <valueName>Drive distribution on Devil’s Cut</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Recruit Consumers From Outside Beam/Bourbon Category</controllingFieldValue>
+            <valueName>Drive on-premise distribution (JBW, DC, Flavors)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Recruit Consumers From Outside Beam/Bourbon Category</controllingFieldValue>
+            <valueName>Execute Jim Beam White Taste Challenge</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Recruit Consumers From Outside Beam/Bourbon Category</controllingFieldValue>
+            <valueName>Gain high-impact Make History displays</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Grow Pinnacle Original</controllingFieldValue>
+            <valueName>Close distribution gaps to Smirnoff</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Grow Pinnacle Original</controllingFieldValue>
+            <valueName>On premise menus and specials</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Grow Distribution On Plata</controllingFieldValue>
+            <valueName>Cross merchandising at retail</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Grow Distribution On Plata</controllingFieldValue>
+            <valueName>Plata distribution</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Grow Distribution On Plata</controllingFieldValue>
+            <valueName>Sampling programs</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

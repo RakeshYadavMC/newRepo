@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>Tipos de Exhibidores</label>
+        <name>TypesofDisplay__c</name>
+        <picklistValues>
+            <masterLabel>Bins</masterLabel>
+            <translation><!-- Bins --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>End Caps</masterLabel>
+            <translation><!-- End Caps --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Floor stackings</masterLabel>
+            <translation><!-- Floor stackings --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Racks</masterLabel>
+            <translation><!-- Racks --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

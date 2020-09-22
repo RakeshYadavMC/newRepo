@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bomb_out_incorrect_material_type</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISPICKVAL( Status , "Closed"),
+ISPICKVAL( Type, "Incorrect Material Number Used"),
+OR(
+ISBLANK(Incorrect_CMIR__c),
+ISBLANK(Correct_CMIR__c),
+ISBLANK(Beam_SKU__c),
+ISBLANK(Sales_order_Numberr__c),
+ISBLANK(PO_Number__c),
+ISBLANK(Additional_Info__c)
+)
+)</errorConditionFormula>
+    <errorMessage>Case Cannot be closed if any of these fields are blank: Incorrect CMIR, Correct CMIR, Beam SKU, Sales Order Number, PO Number , Additional Information</errorMessage>
+</ValidationRule>

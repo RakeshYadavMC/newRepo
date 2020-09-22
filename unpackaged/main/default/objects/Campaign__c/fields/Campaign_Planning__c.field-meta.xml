@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Campaign_Planning__c</fullName>
+    <description>Sum of Total Planning Amount</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Sum of Total Planning Amount</inlineHelpText>
+    <label>Campaign Planning</label>
+    <summarizedField>Campaign_Spend__c.Total_Planning_Amount__c</summarizedField>
+    <summaryFilterItems>
+        <field>Campaign_Spend__c.RecordTypeId</field>
+        <operation>equals</operation>
+        <value>Campaign Planning &amp; Forecasting</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>Campaign_Spend__c.Total_Planning_Amount__c</field>
+        <operation>notEqual</operation>
+        <value></value>
+    </summaryFilterItems>
+    <summaryForeignKey>Campaign_Spend__c.ParentCampaign__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

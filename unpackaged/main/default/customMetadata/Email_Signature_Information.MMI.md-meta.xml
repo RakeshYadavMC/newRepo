@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>MMI</label>
+    <protected>false</protected>
+    <values>
+        <field>Brand_Image_URL__c</field>
+        <value xsi:type="xsd:string">instagram.png</value>
+    </values>
+    <values>
+        <field>Brand__c</field>
+        <value xsi:type="xsd:string">Makers Mark</value>
+    </values>
+    <values>
+        <field>Image_URL__c</field>
+        <value xsi:type="xsd:string">https://embed.widencdn.net/img/beamsuntory/lo5ft5hrqg/20x20px/instagram.png</value>
+    </values>
+    <values>
+        <field>Legal_Statements1__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Legal_Statements2__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>URL_Type__c</field>
+        <value xsi:type="xsd:string">Instagram</value>
+    </values>
+    <values>
+        <field>URL__c</field>
+        <value xsi:type="xsd:string">https://instagram.com/makersmark</value>
+    </values>
+</CustomMetadata>

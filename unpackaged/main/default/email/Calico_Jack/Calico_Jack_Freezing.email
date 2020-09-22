@@ -1,0 +1,3 @@
+<p>Thank you for taking the time to contact us regarding {!Case.Brand__c}®.</p>
+<p>When freezers are set to a very low temperature, below 5° Fahrenheit, {!Case.Brand__c}® can freeze.  It's important to know that the quality of the liquid is not impacted if the product does freeze. However, we do not recommend exposing {!Case.Brand__c}® to extremely low temperatures.</p>
+<p>Thanks again for contacting us. We hope you continue to enjoy {!Case.Brand__c}® responsibly for your everyday social occasions.</p>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Case Escalated Notification to Owner in Korean</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Blank_Letterhead</letterhead>
+    <name>Case Escalated (ko)</name>
+    <style>freeForm</style>
+    <subject>Case #{!Case.CaseNumber} has been escalated - {!Case.Subject}</subject>
+    <textOnly>안녕하세요{!Case.OwnerFirstName}님, 귀하의 케이스 #{!Case.CaseNumber}는 위반의 위험이 있거나 SLA를 위반했기 때문에 확대되었습니다. 해당 케이스는 {!Case.Status} 상태에 있으며 이 알림으로부터 {!Case.Case_Time_Elapsed__c} 동안 열려 있습니다. 해당 케이스에 대한 조치를 취하십시오! 귀하의 케이스를 확인하려면 아래를 클릭합니다: {!Case.Link}
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

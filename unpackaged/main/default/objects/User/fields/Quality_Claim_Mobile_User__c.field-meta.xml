@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quality_Claim_Mobile_User__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Used for pilot group submitting quality claims from the Salesforce Mobile App</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Used for pilot group submitting quality claims from the Salesforce Mobile App</inlineHelpText>
+    <label>Quality Claim Mobile User</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

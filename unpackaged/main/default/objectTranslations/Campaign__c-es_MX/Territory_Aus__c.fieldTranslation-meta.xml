@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Territory --></label>
+        <name>Territory_Aus__c</name>
+        <picklistValues>
+            <masterLabel>AUCHENTOSHAN FBS RETAILER WHISKEY PROGRAM BTL FBS/BTL/OFF PREMISE</masterLabel>
+            <translation><!-- AUCHENTOSHAN FBS RETAILER WHISKEY PROGRAM BTL FBS/BTL/OFF PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BASIL HAYDEN FBS RETAILER WHISKEY PROGRAM BTL FBS/BTL/OFF PREMISE</masterLabel>
+            <translation><!-- BASIL HAYDEN FBS RETAILER WHISKEY PROGRAM BTL FBS/BTL/OFF PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOWMORE FBS RETAILER WHISKEY PROGRAM BTL FBS/BTL/OFF PREMISE</masterLabel>
+            <translation><!-- BOWMORE FBS RETAILER WHISKEY PROGRAM BTL FBS/BTL/OFF PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CANADIAN CLUB FBS CC SUMMER / TENNIS BTL ON PREMISE</masterLabel>
+            <translation><!-- CANADIAN CLUB FBS CC SUMMER / TENNIS BTL ON PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CANADIAN CLUB FBS CC WINTER/BAD SWEATER BTL ON PREMISE</masterLabel>
+            <translation><!-- CANADIAN CLUB FBS CC WINTER/BAD SWEATER BTL ON PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CANADIAN CLUB FBS FIRST POUR SUPPORT BTL ON PREMISE</masterLabel>
+            <translation><!-- CANADIAN CLUB FBS FIRST POUR SUPPORT BTL ON PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CANADIAN CLUB FBS RETAILER WHISKEY PROGRAM BTL FBS/BTL/OFF PREMISE</masterLabel>
+            <translation><!-- CANADIAN CLUB FBS RETAILER WHISKEY PROGRAM BTL FBS/BTL/OFF PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CANADIAN CLUB FBS THE EXCHANGE BTL ON PREMISE</masterLabel>
+            <translation><!-- CANADIAN CLUB FBS THE EXCHANGE BTL ON PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CANADIAN CLUB FBS THE PERFECT SERVE BTL ON PREMISE</masterLabel>
+            <translation><!-- CANADIAN CLUB FBS THE PERFECT SERVE BTL ON PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CANADIAN CLUB FBS VISIBILITY ATL FBS/ATL</masterLabel>
+            <translation><!-- CANADIAN CLUB FBS VISIBILITY ATL FBS/ATL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CANADIAN CLUB RTD AGENCY FEES ATL RTD/ATL</masterLabel>
+            <translation><!-- CANADIAN CLUB RTD AGENCY FEES ATL RTD/ATL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CANADIAN CLUB RTD CC SPONSORSHIPS/TRIAL ATL RTD/ATL</masterLabel>
+            <translation><!-- CANADIAN CLUB RTD CC SPONSORSHIPS/TRIAL ATL RTD/ATL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CANADIAN CLUB RTD CC SUMMER / TENNIS ATL RTD/ATL</masterLabel>
+            <translation><!-- CANADIAN CLUB RTD CC SUMMER / TENNIS ATL RTD/ATL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CANADIAN CLUB RTD CC SUMMER / TENNIS BTL RTD/BTL/OFF PREMISE</masterLabel>
+            <translation><!-- CANADIAN CLUB RTD CC SUMMER / TENNIS BTL RTD/BTL/OFF PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CANADIAN CLUB RTD CC WINTER/BAD SWEATER ATL RTD/ATL</masterLabel>
+            <translation><!-- CANADIAN CLUB RTD CC WINTER/BAD SWEATER ATL RTD/ATL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CANADIAN CLUB RTD CC WINTER/BAD SWEATER BTL RTD/BTL/OFF PREMISE</masterLabel>
+            <translation><!-- CANADIAN CLUB RTD CC WINTER/BAD SWEATER BTL RTD/BTL/OFF PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CANADIAN CLUB RTD MEDIA ATL RTD/ATL</masterLabel>
+            <translation><!-- CANADIAN CLUB RTD MEDIA ATL RTD/ATL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CANADIAN CLUB RTD MUSIC ATL RTD/ATL</masterLabel>
+            <translation><!-- CANADIAN CLUB RTD MUSIC ATL RTD/ATL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CANADIAN CLUB RTD NPD DEVELOPMENT ATL RTD/ATL</masterLabel>
+            <translation><!-- CANADIAN CLUB RTD NPD DEVELOPMENT ATL RTD/ATL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CANADIAN CLUB RTD POS STORAGE &amp; DISTRIBUTION BTL RTD/BTL/OFF PREMISE</masterLabel>
+            <translation><!-- CANADIAN CLUB RTD POS STORAGE &amp; DISTRIBUTION BTL RTD/BTL/OFF PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CANADIAN CLUB RTD POS STORAGE &amp; DISTRIBUTION BTL TCC</masterLabel>
+            <translation><!-- CANADIAN CLUB RTD POS STORAGE &amp; DISTRIBUTION BTL TCC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CANADIAN CLUB RTD RESEARCH ATL RESEARCH - SYND</masterLabel>
+            <translation><!-- CANADIAN CLUB RTD RESEARCH ATL RESEARCH - SYND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CANADIAN CLUB RTD RESEARCH ATL RTD/ATL</masterLabel>
+            <translation><!-- CANADIAN CLUB RTD RESEARCH ATL RTD/ATL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CANADIAN CLUB RTD SPONSORSHIPS ATL RTD/ATL</masterLabel>
+            <translation><!-- CANADIAN CLUB RTD SPONSORSHIPS ATL RTD/ATL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CANADIAN CLUB RTD VISIBILITY ATL RTD/ATL</masterLabel>
+            <translation><!-- CANADIAN CLUB RTD VISIBILITY ATL RTD/ATL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CANADIAN CLUB RTD VISIBILITY BTL RTD/BTL/OFF PREMISE</masterLabel>
+            <translation><!-- CANADIAN CLUB RTD VISIBILITY BTL RTD/BTL/OFF PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HAKU FBS MEDIA ATL FBS/ATL</masterLabel>
+            <translation><!-- HAKU FBS MEDIA ATL FBS/ATL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HAKU FBS TRIAL BTL FBS/BTL/OFF PREMISE</masterLabel>
+            <translation><!-- HAKU FBS TRIAL BTL FBS/BTL/OFF PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HAKU FBS TRIAL BTL ON PREMISE</masterLabel>
+            <translation><!-- HAKU FBS TRIAL BTL ON PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HAKU FBS VISIBILITY ATL FBS/ATL</masterLabel>
+            <translation><!-- HAKU FBS VISIBILITY ATL FBS/ATL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HAKU FBS VISIBILITY BTL ON PREMISE</masterLabel>
+            <translation><!-- HAKU FBS VISIBILITY BTL ON PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JIM BEAM WHITE FBS 225 YEARS ATL FBS/ATL</masterLabel>
+            <translation><!-- JIM BEAM WHITE FBS 225 YEARS ATL FBS/ATL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JIM BEAM WHITE FBS 225 YEARS BTL ON PREMISE</masterLabel>
+            <translation><!-- JIM BEAM WHITE FBS 225 YEARS BTL ON PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JIM BEAM WHITE FBS AFL BTL ON PREMISE</masterLabel>
+            <translation><!-- JIM BEAM WHITE FBS AFL BTL ON PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JIM BEAM WHITE FBS DRINK BOURBON DIFFERENTLY BTL ON PREMISE</masterLabel>
+            <translation><!-- JIM BEAM WHITE FBS DRINK BOURBON DIFFERENTLY BTL ON PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JIM BEAM WHITE FBS FIRST POUR SUPPORT BTL ON PREMISE</masterLabel>
+            <translation><!-- JIM BEAM WHITE FBS FIRST POUR SUPPORT BTL ON PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JIM BEAM WHITE FBS JBB REAPPRAISAL BTL FBS/BTL/OFF PREMISE</masterLabel>
+            <translation><!-- JIM BEAM WHITE FBS JBB REAPPRAISAL BTL FBS/BTL/OFF PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JIM BEAM WHITE FBS JBB REAPPRAISAL BTL ON PREMISE</masterLabel>
+            <translation><!-- JIM BEAM WHITE FBS JBB REAPPRAISAL BTL ON PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JIM BEAM WHITE FBS POS STORAGE &amp; DISTRIBUTION BTL FBS/BTL/OFF PREMISE</masterLabel>
+            <translation><!-- JIM BEAM WHITE FBS POS STORAGE &amp; DISTRIBUTION BTL FBS/BTL/OFF PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JIM BEAM WHITE FBS POS STORAGE &amp; DISTRIBUTION BTL TCC</masterLabel>
+            <translation><!-- JIM BEAM WHITE FBS POS STORAGE &amp; DISTRIBUTION BTL TCC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JIM BEAM WHITE FBS POS STORAGE &amp; DISTRIBUTION BTL THE BLEND</masterLabel>
+            <translation><!-- JIM BEAM WHITE FBS POS STORAGE &amp; DISTRIBUTION BTL THE BLEND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JIM BEAM WHITE FBS RETAILER WHISKEY PROGRAM BTL FBS/BTL/OFF PREMISE</masterLabel>
+            <translation><!-- JIM BEAM WHITE FBS RETAILER WHISKEY PROGRAM BTL FBS/BTL/OFF PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JIM BEAM WHITE FBS SUPERCARS BTL ON PREMISE</masterLabel>
+            <translation><!-- JIM BEAM WHITE FBS SUPERCARS BTL ON PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JIM BEAM WHITE FBS THE BLEND  BTL ON PREMISE</masterLabel>
+            <translation><!-- JIM BEAM WHITE FBS THE BLEND  BTL ON PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JIM BEAM WHITE FBS VISIBILITY ATL FBS/ATL</masterLabel>
+            <translation><!-- JIM BEAM WHITE FBS VISIBILITY ATL FBS/ATL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JIM BEAM WHITE FBS VISIBILITY ATL ON PREMISE</masterLabel>
+            <translation><!-- JIM BEAM WHITE FBS VISIBILITY ATL ON PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JIM BEAM WHITE FBS VISIBILITY BTL ON PREMISE</masterLabel>
+            <translation><!-- JIM BEAM WHITE FBS VISIBILITY BTL ON PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JIM BEAM WHITE RTD 225 YEARS BTL RTD/BTL/OFF PREMISE</masterLabel>
+            <translation><!-- JIM BEAM WHITE RTD 225 YEARS BTL RTD/BTL/OFF PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JIM BEAM WHITE RTD AFL ATL RTD/ATL</masterLabel>
+            <translation><!-- JIM BEAM WHITE RTD AFL ATL RTD/ATL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JIM BEAM WHITE RTD AGENCY FEES ATL RTD/ATL</masterLabel>
+            <translation><!-- JIM BEAM WHITE RTD AGENCY FEES ATL RTD/ATL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JIM BEAM WHITE RTD DRINK BOURBON DIFFERENTLY BTL RTD/BTL/OFF PREMISE</masterLabel>
+            <translation><!-- JIM BEAM WHITE RTD DRINK BOURBON DIFFERENTLY BTL RTD/BTL/OFF PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JIM BEAM WHITE RTD MEDIA ATL RTD/ATL</masterLabel>
+            <translation><!-- JIM BEAM WHITE RTD MEDIA ATL RTD/ATL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JIM BEAM WHITE RTD MUSIC ATL RTD/ATL</masterLabel>
+            <translation><!-- JIM BEAM WHITE RTD MUSIC ATL RTD/ATL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JIM BEAM WHITE RTD NPD DEVELOPMENT ATL RTD/ATL</masterLabel>
+            <translation><!-- JIM BEAM WHITE RTD NPD DEVELOPMENT ATL RTD/ATL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JIM BEAM WHITE RTD POS STORAGE &amp; DISTRIBUTION BTL RTD/BTL/OFF PREMISE</masterLabel>
+            <translation><!-- JIM BEAM WHITE RTD POS STORAGE &amp; DISTRIBUTION BTL RTD/BTL/OFF PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JIM BEAM WHITE RTD POS STORAGE &amp; DISTRIBUTION BTL TCC</masterLabel>
+            <translation><!-- JIM BEAM WHITE RTD POS STORAGE &amp; DISTRIBUTION BTL TCC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JIM BEAM WHITE RTD RESEARCH ATL RESEARCH - CONSUMER</masterLabel>
+            <translation><!-- JIM BEAM WHITE RTD RESEARCH ATL RESEARCH - CONSUMER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JIM BEAM WHITE RTD RESEARCH ATL RESEARCH - SYND</masterLabel>
+            <translation><!-- JIM BEAM WHITE RTD RESEARCH ATL RESEARCH - SYND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JIM BEAM WHITE RTD RESEARCH ATL RTD/ATL</masterLabel>
+            <translation><!-- JIM BEAM WHITE RTD RESEARCH ATL RTD/ATL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JIM BEAM WHITE RTD SUPERCARS ATL RTD/ATL</masterLabel>
+            <translation><!-- JIM BEAM WHITE RTD SUPERCARS ATL RTD/ATL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JIM BEAM WHITE RTD VISIBILITY ATL RTD/ATL</masterLabel>
+            <translation><!-- JIM BEAM WHITE RTD VISIBILITY ATL RTD/ATL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JIM BEAM WHITE RTD VISIBILITY BTL RTD/BTL/OFF PREMISE</masterLabel>
+            <translation><!-- JIM BEAM WHITE RTD VISIBILITY BTL RTD/BTL/OFF PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KOYOMI  RESEARCH ATL BT INNOVATION</masterLabel>
+            <translation><!-- KOYOMI  RESEARCH ATL BT INNOVATION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KOYOMI RTD AGENCY FEES ATL RTD/ATL</masterLabel>
+            <translation><!-- KOYOMI RTD AGENCY FEES ATL RTD/ATL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KOYOMI RTD MEDIA ATL RTD/ATL</masterLabel>
+            <translation><!-- KOYOMI RTD MEDIA ATL RTD/ATL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KOYOMI RTD NPD DEVELOPMENT ATL BT INNOVATION</masterLabel>
+            <translation><!-- KOYOMI RTD NPD DEVELOPMENT ATL BT INNOVATION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KOYOMI RTD TRIAL ATL RTD/ATL</masterLabel>
+            <translation><!-- KOYOMI RTD TRIAL ATL RTD/ATL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KOYOMI RTD TRIAL BTL RTD/BTL/OFF PREMISE</masterLabel>
+            <translation><!-- KOYOMI RTD TRIAL BTL RTD/BTL/OFF PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KOYOMI RTD VISIBILITY BTL RTD/ATL</masterLabel>
+            <translation><!-- KOYOMI RTD VISIBILITY BTL RTD/ATL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KOYOMI RTD VISIBILITY BTL RTD/BTL/OFF PREMISE</masterLabel>
+            <translation><!-- KOYOMI RTD VISIBILITY BTL RTD/BTL/OFF PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LAPHROAIG FBS FIRST POUR SUPPORT BTL ON PREMISE</masterLabel>
+            <translation><!-- LAPHROAIG FBS FIRST POUR SUPPORT BTL ON PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LAPHROAIG FBS MEDIA ATL FBS/ATL</masterLabel>
+            <translation><!-- LAPHROAIG FBS MEDIA ATL FBS/ATL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LAPHROAIG FBS OPINIONS WELCOME ATL FBS/ATL</masterLabel>
+            <translation><!-- LAPHROAIG FBS OPINIONS WELCOME ATL FBS/ATL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LAPHROAIG FBS OPINIONS WELCOME BTL FBS/BTL/OFF PREMISE</masterLabel>
+            <translation><!-- LAPHROAIG FBS OPINIONS WELCOME BTL FBS/BTL/OFF PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LAPHROAIG FBS OPINIONS WELCOME BTL ON PREMISE</masterLabel>
+            <translation><!-- LAPHROAIG FBS OPINIONS WELCOME BTL ON PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LAPHROAIG FBS RETAILER WHISKEY PROGRAM BTL FBS/BTL/OFF PREMISE</masterLabel>
+            <translation><!-- LAPHROAIG FBS RETAILER WHISKEY PROGRAM BTL FBS/BTL/OFF PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LAPHROAIG FBS THE EXCHANGE BTL ON PREMISE</masterLabel>
+            <translation><!-- LAPHROAIG FBS THE EXCHANGE BTL ON PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LAPHROAIG FBS TRIAL ATL FBS/ATL</masterLabel>
+            <translation><!-- LAPHROAIG FBS TRIAL ATL FBS/ATL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LAPHROAIG FBS VISIBILITY BTL ON PREMISE</masterLabel>
+            <translation><!-- LAPHROAIG FBS VISIBILITY BTL ON PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LEGENT FBS RETAILER WHISKEY PROGRAM BTL FBS/BTL/OFF PREMISE</masterLabel>
+            <translation><!-- LEGENT FBS RETAILER WHISKEY PROGRAM BTL FBS/BTL/OFF PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LEGENT FBS VISIBILITY BTL ON PREMISE</masterLabel>
+            <translation><!-- LEGENT FBS VISIBILITY BTL ON PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MAKER'S MARK FBS AGENCY FEES ATL FBS/ATL</masterLabel>
+            <translation><!-- MAKER&apos;S MARK FBS AGENCY FEES ATL FBS/ATL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MAKER'S MARK FBS DRINKS STRATEGY BTL FBS/BTL/OFF PREMISE</masterLabel>
+            <translation><!-- MAKER&apos;S MARK FBS DRINKS STRATEGY BTL FBS/BTL/OFF PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MAKER'S MARK FBS DRINKS STRATEGY BTL ON PREMISE</masterLabel>
+            <translation><!-- MAKER&apos;S MARK FBS DRINKS STRATEGY BTL ON PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MAKER'S MARK FBS FIRST POUR SUPPORT BTL ON PREMISE</masterLabel>
+            <translation><!-- MAKER&apos;S MARK FBS FIRST POUR SUPPORT BTL ON PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MAKER'S MARK FBS MEDIA ATL FBS/ATL</masterLabel>
+            <translation><!-- MAKER&apos;S MARK FBS MEDIA ATL FBS/ATL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MAKER'S MARK FBS MM SPONSORSHIP/TRIAL ATL FBS/ATL</masterLabel>
+            <translation><!-- MAKER&apos;S MARK FBS MM SPONSORSHIP/TRIAL ATL FBS/ATL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MAKER'S MARK FBS MM SPONSORSHIP/TRIAL BTL ON PREMISE</masterLabel>
+            <translation><!-- MAKER&apos;S MARK FBS MM SPONSORSHIP/TRIAL BTL ON PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MAKER'S MARK FBS POS STORAGE &amp; DISTRIBUTION BTL FBS/BTL/OFF PREMISE</masterLabel>
+            <translation><!-- MAKER&apos;S MARK FBS POS STORAGE &amp; DISTRIBUTION BTL FBS/BTL/OFF PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MAKER'S MARK FBS RETAILER WHISKEY PROGRAM BTL FBS/BTL/OFF PREMISE</masterLabel>
+            <translation><!-- MAKER&apos;S MARK FBS RETAILER WHISKEY PROGRAM BTL FBS/BTL/OFF PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MAKER'S MARK FBS THE EXCHANGE BTL ON PREMISE</masterLabel>
+            <translation><!-- MAKER&apos;S MARK FBS THE EXCHANGE BTL ON PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MAKER'S MARK FBS TRIAL BTL FBS/BTL/OFF PREMISE</masterLabel>
+            <translation><!-- MAKER&apos;S MARK FBS TRIAL BTL FBS/BTL/OFF PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MAKER'S MARK FBS VISIBILITY BTL ON PREMISE</masterLabel>
+            <translation><!-- MAKER&apos;S MARK FBS VISIBILITY BTL ON PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MAKERS MARK FBS POS STORAGE &amp; DISTRIBUTION BTL TCC</masterLabel>
+            <translation><!-- MAKERS MARK FBS POS STORAGE &amp; DISTRIBUTION BTL TCC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MIDORI FBS TRIAL BTL FBS/BTL/OFF PREMISE</masterLabel>
+            <translation><!-- MIDORI FBS TRIAL BTL FBS/BTL/OFF PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ROKU FBS FIRST POUR SUPPORT BTL ON PREMISE</masterLabel>
+            <translation><!-- ROKU FBS FIRST POUR SUPPORT BTL ON PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ROKU FBS MEDIA ATL FBS/ATL</masterLabel>
+            <translation><!-- ROKU FBS MEDIA ATL FBS/ATL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ROKU FBS POS STORAGE &amp; DISTRIBUTION BTL FBS/BTL/OFF PREMISE</masterLabel>
+            <translation><!-- ROKU FBS POS STORAGE &amp; DISTRIBUTION BTL FBS/BTL/OFF PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ROKU FBS POS STORAGE &amp; DISTRIBUTION BTL TCC</masterLabel>
+            <translation><!-- ROKU FBS POS STORAGE &amp; DISTRIBUTION BTL TCC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ROKU FBS SAKURA ATL FBS/ATL</masterLabel>
+            <translation><!-- ROKU FBS SAKURA ATL FBS/ATL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ROKU FBS SAKURA BTL FBS/BTL/OFF PREMISE</masterLabel>
+            <translation><!-- ROKU FBS SAKURA BTL FBS/BTL/OFF PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ROKU FBS SAKURA BTL ON PREMISE</masterLabel>
+            <translation><!-- ROKU FBS SAKURA BTL ON PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ROKU FBS THE EXCHANGE BTL ON PREMISE</masterLabel>
+            <translation><!-- ROKU FBS THE EXCHANGE BTL ON PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ROKU FBS TRIAL BTL FBS/BTL/OFF PREMISE</masterLabel>
+            <translation><!-- ROKU FBS TRIAL BTL FBS/BTL/OFF PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ROKU FBS TRIAL BTL ON PREMISE</masterLabel>
+            <translation><!-- ROKU FBS TRIAL BTL ON PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ROKU FBS VISIBILITY BTL FBS/BTL/OFF PREMISE</masterLabel>
+            <translation><!-- ROKU FBS VISIBILITY BTL FBS/BTL/OFF PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ROKU FBS VISIBILITY BTL ON PREMISE</masterLabel>
+            <translation><!-- ROKU FBS VISIBILITY BTL ON PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SIPSMITH FBS FIRST POUR SUPPORT BTL ON PREMISE</masterLabel>
+            <translation><!-- SIPSMITH FBS FIRST POUR SUPPORT BTL ON PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SIPSMITH FBS MEDIA ATL FBS/ATL</masterLabel>
+            <translation><!-- SIPSMITH FBS MEDIA ATL FBS/ATL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SIPSMITH FBS THE EXCHANGE BTL ON PREMISE</masterLabel>
+            <translation><!-- SIPSMITH FBS THE EXCHANGE BTL ON PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SIPSMITH FBS TRIAL ATL FBS/ATL</masterLabel>
+            <translation><!-- SIPSMITH FBS TRIAL ATL FBS/ATL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SIPSMITH FBS TRIAL BTL FBS/BTL/OFF PREMISE</masterLabel>
+            <translation><!-- SIPSMITH FBS TRIAL BTL FBS/BTL/OFF PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SIPSMITH FBS TRIAL BTL ON PREMISE</masterLabel>
+            <translation><!-- SIPSMITH FBS TRIAL BTL ON PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SIPSMITH FBS VISIBILITY BTL ON PREMISE</masterLabel>
+            <translation><!-- SIPSMITH FBS VISIBILITY BTL ON PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TOKI FBS MEDIA ATL FBS/ATL</masterLabel>
+            <translation><!-- TOKI FBS MEDIA ATL FBS/ATL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TOKI FBS RETAILER WHISKEY PROGRAM BTL FBS/BTL/OFF PREMISE</masterLabel>
+            <translation><!-- TOKI FBS RETAILER WHISKEY PROGRAM BTL FBS/BTL/OFF PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TOKI FBS TRIAL BTL ON PREMISE</masterLabel>
+            <translation><!-- TOKI FBS TRIAL BTL ON PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TOKI FBS VISIBILITY ATL FBS/ATL</masterLabel>
+            <translation><!-- TOKI FBS VISIBILITY ATL FBS/ATL --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

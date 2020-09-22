@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Closed_No_Action_Reason_Required</fullName>
+    <active>true</active>
+    <description>Closed - No Action Reason required when Status: Closed - No Action when Case Record Type is 'Compliance_Sub_Case'.</description>
+    <errorConditionFormula>ISPICKVAL( Status ,"Closed - No Action") &amp;&amp; ISBLANK( Closed_No_Action_Reason__c ) &amp;&amp;   RecordType.Name = 'Compliance Sub Case'</errorConditionFormula>
+    <errorDisplayField>Closed_No_Action_Reason__c</errorDisplayField>
+    <errorMessage>Reason must be provided if Status for Case is Closed-No Action for Compliance Sub Case Record Types.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Brand_Country_Region_State_Allocation__c</fullName>
+    <description>PS-MC-SB-13 to manage Brand Country Region State Allocation for this time period</description>
+    <externalId>false</externalId>
+    <label>State Level Allocation</label>
+    <referenceTo>Brand_Country_Region_State_Allocation__c</referenceTo>
+    <relationshipLabel>Distributor Level Allocations</relationshipLabel>
+    <relationshipName>Brand_Country_Region_State_Dist_Allocs</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

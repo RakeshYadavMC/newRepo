@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Marketing Plan Transfer</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Marketing Plan Transfers</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Marketing Plan Transfers</layout>
+        <sections>
+            <label><!-- Adjustment Detail --></label>
+            <section>Adjustment Detail</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Record Administration --></label>
+            <section>Record Administration</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Marketing Plan Transfer</nameFieldLabel>
+    <recordTypes>
+        <description><!-- Record Type used for initial creation --></description>
+        <label><!-- Creation --></label>
+        <name>Creation</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Transferring and Receiving Marketing Plans are the same. Please change one of the fields and submit again. --></errorMessage>
+        <name>CannotSubmitRequestForSameMarketingPlan</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot request a transfer between Marketing Plan budgets that exist within separate countries. --></errorMessage>
+        <name>Cannot_Transfer_Across_Country_Budgets</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Transferring and Receiving Marketing Plan currencies must match. --></errorMessage>
+        <name>MarketingPlanCurrenciesMatch</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please make sure that Country is Australia and the Transferring and receiving Marketing Plans are at Level 6. --></errorMessage>
+        <name>MarketingPlanLevelCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Transferring Marketing Plan currency must match the currency on the request. --></errorMessage>
+        <name>RequestedCurrencyMatchTransferringMP</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Transfer amount must be greater than zero. --></errorMessage>
+        <name>TransferMustBeGreaterThanZero</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Year of Transferring Marketing Plan is not the current year --></errorMessage>
+        <name>TransferringMPYearIsNotCurrent</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Year of Transferring Marketing Plan does not equal Year of Receiving Marketing Plan. --></errorMessage>
+        <name>TransferringMPYearequalsReceivingMPYear</name>
+    </validationRules>
+</CustomObjectTranslation>

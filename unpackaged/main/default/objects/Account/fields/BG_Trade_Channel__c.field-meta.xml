@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BG_Trade_Channel__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Post-2017 BG Trade Channel</inlineHelpText>
+    <label>New BG Trade Channel</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Bar</fullName>
+                <default>false</default>
+                <label>Bar</label>
+            </value>
+            <value>
+                <fullName>Casino/Gaming</fullName>
+                <default>false</default>
+                <label>Casino/Gaming</label>
+            </value>
+            <value>
+                <fullName>Convenience/Drug</fullName>
+                <default>false</default>
+                <label>Convenience/Drug</label>
+            </value>
+            <value>
+                <fullName>Events/Stadiums</fullName>
+                <default>false</default>
+                <label>Events/Stadiums</label>
+            </value>
+            <value>
+                <fullName>Grocery/Mass</fullName>
+                <default>false</default>
+                <label>Grocery/Mass</label>
+            </value>
+            <value>
+                <fullName>Large Format Liquor</fullName>
+                <default>false</default>
+                <label>Large Format Liquor</label>
+            </value>
+            <value>
+                <fullName>Lodging/Resorts</fullName>
+                <default>false</default>
+                <label>Lodging/Resorts</label>
+            </value>
+            <value>
+                <fullName>Medium Format Liquor</fullName>
+                <default>false</default>
+                <label>Medium Format Liquor</label>
+            </value>
+            <value>
+                <fullName>Nightclub</fullName>
+                <default>false</default>
+                <label>Nightclub</label>
+            </value>
+            <value>
+                <fullName>Other Off-premise</fullName>
+                <default>false</default>
+                <label>Other Off-premise</label>
+            </value>
+            <value>
+                <fullName>Other On-premise</fullName>
+                <default>false</default>
+                <label>Other On-premise</label>
+            </value>
+            <value>
+                <fullName>Restaurant</fullName>
+                <default>false</default>
+                <label>Restaurant</label>
+            </value>
+            <value>
+                <fullName>Small Format Liquor</fullName>
+                <default>false</default>
+                <label>Small Format Liquor</label>
+            </value>
+            <value>
+                <fullName>TO BE DETERMINED</fullName>
+                <default>false</default>
+                <label>TO BE DETERMINED</label>
+            </value>
+            <value>
+                <fullName>Wholesale/Club</fullName>
+                <default>false</default>
+                <label>Wholesale/Club</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

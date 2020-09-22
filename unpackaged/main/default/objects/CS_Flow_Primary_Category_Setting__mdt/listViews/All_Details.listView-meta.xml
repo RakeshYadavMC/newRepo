@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Details</fullName>
+    <columns>MasterLabel</columns>
+    <columns>Access_Groups__c</columns>
+    <columns>Countries__c</columns>
+    <columns>CS_Flow_Picklist_Setting__c</columns>
+    <columns>Order__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All Details</label>
+    <language>en_US</language>
+</ListView>

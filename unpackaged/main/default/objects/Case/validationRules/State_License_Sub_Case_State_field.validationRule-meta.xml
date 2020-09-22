@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>State_License_Sub_Case_State_field</fullName>
+    <active>true</active>
+    <description>Subcase state should be the same as parent case state</description>
+    <errorConditionFormula>AND(
+TEXT(State__c) != TEXT(Parent.State__c),
+ParentId !=null,
+$RecordType.DeveloperName='State_License'
+)</errorConditionFormula>
+    <errorMessage>Subcase state should be the same as parent case state</errorMessage>
+</ValidationRule>

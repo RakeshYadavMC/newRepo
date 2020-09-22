@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- I-Hub Index --></label>
+        <name>IHubIndex__c</name>
+        <picklistValues>
+            <masterLabel>High 21-24 Index</masterLabel>
+            <translation><!-- High 21-24 Index --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>High25-29 Index</masterLabel>
+            <translation><!-- High25-29 Index --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Change_Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>Change Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Improperly Invoiced - Wrong Price</fullName>
+                <default>false</default>
+                <label>Improperly Invoiced - Wrong Price</label>
+            </value>
+            <value>
+                <fullName>Improperly Invoiced - Invalid Price</fullName>
+                <default>false</default>
+                <label>Improperly Invoiced - Invalid Price</label>
+            </value>
+            <value>
+                <fullName>Pricing Disagreement</fullName>
+                <default>false</default>
+                <label>Pricing Disagreement</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

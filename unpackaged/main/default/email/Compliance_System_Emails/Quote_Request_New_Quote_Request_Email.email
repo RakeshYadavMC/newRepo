@@ -1,0 +1,6 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<div><span style="font-size: 12pt;">A new Quote Request has been submitted via Email. Please take appropriate action.</span></div><div><br></div><div><b>Subject:&nbsp;</b><span style="font-size: 12pt;">{!Case.Subject}</span></div><div><br></div><div><b>Submitter:</b>&nbsp;<span style="font-size: 12pt;">{!Case.Submitter__c}&nbsp; &nbsp; &nbsp;{!Case.Contact}</span></div><div><br></div><div><div><b>Submitter Email:</b>&nbsp;<span style="font-size: 12pt;">{!Case.Automated_Notification_Email__c}</span></div></div><div><br></div><div>Click <a href="{!Case.Link}">here</a> to view this Case in Salesforce</div><div><br></div><div><br></div><div><span style="font-size: x-small;">{!Case.Thread_Id}</span></div>]]></td>
+</tr>
+</table>

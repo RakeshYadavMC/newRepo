@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mirrored_Program__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>This field will be used to tie the brand investment campaign to the mirrored program that is created via code.  This field will be used in order to keep the brand investment campaign and the program in sync.</description>
+    <externalId>false</externalId>
+    <label>Mirrored Program</label>
+    <referenceTo>Program__c</referenceTo>
+    <relationshipLabel>Campaigns (Mirrored Program)</relationshipLabel>
+    <relationshipName>MirroredCampaigns</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

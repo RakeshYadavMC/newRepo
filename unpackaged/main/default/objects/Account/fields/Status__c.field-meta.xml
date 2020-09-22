@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Closed Store</fullName>
+                <default>false</default>
+                <label>Closed Store</label>
+            </value>
+            <value>
+                <fullName>Deleted Store</fullName>
+                <default>false</default>
+                <label>Deleted Store</label>
+            </value>
+            <value>
+                <fullName>Future Store</fullName>
+                <default>false</default>
+                <label>Future Store</label>
+            </value>
+            <value>
+                <fullName>Open Store</fullName>
+                <default>false</default>
+                <label>Open Store</label>
+            </value>
+            <value>
+                <fullName>Reclassified Store</fullName>
+                <default>false</default>
+                <label>Reclassified Store</label>
+            </value>
+            <value>
+                <fullName>To Be Determined</fullName>
+                <default>false</default>
+                <label>To Be Determined</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

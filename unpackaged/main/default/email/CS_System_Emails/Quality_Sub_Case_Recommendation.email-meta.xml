@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BeamSuntory_Letterhead</letterhead>
+    <name>Quality Sub Case Recommendation</name>
+    <style>freeForm</style>
+    <subject>Quality Claim Sub Case Recommendation</subject>
+    <textOnly>A recommendation for the Quality Claim sub case has been entered for Case # {!Case.CaseNumber}
+
+Recommendation: {!Case.Recommendation__c}
+
+Go to Case</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

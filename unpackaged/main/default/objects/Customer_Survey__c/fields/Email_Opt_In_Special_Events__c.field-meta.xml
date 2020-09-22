@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Email_Opt_In_Special_Events__c</fullName>
+    <defaultValue>false</defaultValue>
+    <externalId>false</externalId>
+    <inlineHelpText>Would you like information on special events?</inlineHelpText>
+    <label>Email Opt-In Special Events</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

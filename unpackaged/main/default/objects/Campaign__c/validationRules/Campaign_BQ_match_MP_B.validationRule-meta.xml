@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Campaign_BQ_match_MP_B</fullName>
+    <active>true</active>
+    <description>Campaign Brand Quality must be consistent with the Brand associated with the Parent Marketing Plan.</description>
+    <errorConditionFormula>Brand_Quality__r.Brand__c &lt;&gt;  ParentMarketingPlan__r.Brand__c</errorConditionFormula>
+    <errorDisplayField>Brand_Quality__c</errorDisplayField>
+    <errorMessage>Brand Quality is not consistent with the Brand associated with this Marketing Plan. Please enter an appropriate Brand Quality value.</errorMessage>
+</ValidationRule>

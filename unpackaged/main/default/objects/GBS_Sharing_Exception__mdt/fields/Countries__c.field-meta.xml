@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Countries__c</fullName>
+    <description>List of countries for which this exception applies, separated by commas.</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Countries</label>
+    <length>32768</length>
+    <type>LongTextArea</type>
+    <visibleLines>5</visibleLines>
+</CustomField>

@@ -1,0 +1,14 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<p class="MsoNormal" style="color: rgb(0, 0, 0); font-size: 12pt; font-family: arial;"></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial;">Hello {!PR_Header__c.OwnerFullName},</p>
+
+<p class="MsoNormal" style=""><font style="font-family: arial;"><font face="arial" style="color: rgb(0, 0, 0);">Your Salesforce Request # </font><font face="arial" style="color: rgb(0, 0, 0);"><b style=""><a href="{!PR_Header__c.Link}" style="">{!PR_Header__c.Name}</a>&nbsp;</b></font><font face="arial" style="color: rgb(0, 0, 0);">for vendor&nbsp;</font><font face="arial" style=""><b style="color: rgb(0, 0, 0);">{!PR_Header__c.Vendor_Name__c}&nbsp;</b>has been successfully created in
+SAP.&nbsp;</font><span style="font-family: arial;">&nbsp;</span><font face="arial" style="">The SAP PR # for this request is&nbsp;</font></font><font face="arial" style="">{!PR_Header__c.SAP_PR_Number__c}.</font></p><p class="MsoNormal" style="font-family: arial;"><font face="arial" style="">Please allow 72 hours for GBS to create the
+PO, you will be notified via email once the PO is created.&nbsp;&nbsp;</font></p>
+
+<p class="MsoNormal" style="font-family: arial;">Thanks,<o:p></o:p></p>
+
+<p class="MsoNormal" style="font-family: arial;">NA Controllership Team<o:p></o:p></p><br><p style="color: rgb(0, 0, 0); font-size: 12pt; font-family: arial;"></p>]]></td>
+</tr>
+</table>

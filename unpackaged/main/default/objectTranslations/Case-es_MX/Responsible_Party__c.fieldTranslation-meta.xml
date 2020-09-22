@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Responsible Party --></label>
+        <name>Responsible_Party__c</name>
+        <picklistValues>
+            <masterLabel>Allocation</masterLabel>
+            <translation><!-- Allocation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Audit</masterLabel>
+            <translation><!-- Audit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commercial</masterLabel>
+            <translation><!-- Commercial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Compliance</masterLabel>
+            <translation><!-- Compliance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit release</masterLabel>
+            <translation><!-- Credit release --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer</masterLabel>
+            <translation><!-- Customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GBS Billing</masterLabel>
+            <translation><!-- GBS Billing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GBS Costing</masterLabel>
+            <translation><!-- GBS Costing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GBS Pricing</masterLabel>
+            <translation><!-- GBS Pricing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Govt Records</masterLabel>
+            <translation><!-- Govt Records --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Legal</masterLabel>
+            <translation><!-- Legal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MGMT</masterLabel>
+            <translation><!-- MGMT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Master Data</masterLabel>
+            <translation><!-- Master Data --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plant MGMT</masterLabel>
+            <translation><!-- Plant MGMT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plants</masterLabel>
+            <translation><!-- Plants --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quality</masterLabel>
+            <translation><!-- Quality --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regulatory</masterLabel>
+            <translation><!-- Regulatory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales</masterLabel>
+            <translation><!-- Sales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shipping</masterLabel>
+            <translation><!-- Shipping --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Traffic</masterLabel>
+            <translation><!-- Traffic --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

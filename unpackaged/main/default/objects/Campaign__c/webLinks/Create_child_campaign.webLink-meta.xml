@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Create_child_campaign</fullName>
+    <availability>online</availability>
+    <displayType>massActionButton</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>New Child Campaign</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <requireRowSelection>false</requireRowSelection>
+    <url>/a02/e?retURL={!Campaign__c.Id}&amp;CF00N1J00000FLON0={!Campaign__c.Name}&amp;CF00N1J00000FLON0_lkid={!Campaign__c.Id}&amp;RecordType=0121J000000uI2b&amp;ent=01Io0000001IihZ&amp;CF00No000000A4qEl={!Campaign__c.Brand_Quality__c}&amp;CF00No000000A4qEl_lkid={!Campaign__c.Brand_QualityId__c}&amp;00No000000A4qF3={!Campaign__c.InitialStartDate__c}&amp;00No000000A4qF2={!Campaign__c.InitialEndDate__c}&amp;00N1J00000FLON2={!Campaign__c.ParticipatingState__c}&amp;CF00No000000A4qEB={!Campaign__c.ParentMarketingPlan__c}&amp;CF00No000000A4qEB_lkid={!Campaign__c.ParentMarketingPlanId__c}&amp;00No000000A4qEo={!Campaign__c.CampaignBrand__c}&amp;00No000000A4qEy={!Campaign__c.GLAccountType__c}&amp;00No000000A4qF0={!Campaign__c.GLDescription__c}&amp;00No000000A4qEz={!Campaign__c.GLCode__c}&amp;00No000000A4qEq={!Campaign__c.CampaignType__c}&amp;Name=CREATE A NAME</url>
+</WebLink>

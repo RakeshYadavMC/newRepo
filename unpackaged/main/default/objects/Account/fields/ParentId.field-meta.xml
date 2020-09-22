@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ParentId</fullName>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Account.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Corporate Account, Non-Premise, Distributor, On-Premise, On-Premise Chain HQ, Off-Premise, Off-Premise Chain HQ, GTR</value>
+        </filterItems>
+        <isOptional>true</isOptional>
+    </lookupFilter>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Hierarchy</type>
+</CustomField>

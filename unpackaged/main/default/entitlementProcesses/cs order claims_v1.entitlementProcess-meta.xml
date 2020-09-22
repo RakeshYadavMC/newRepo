@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EntitlementProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <SObjectType>Case</SObjectType>
+    <active>true</active>
+    <description>Process to track order claims for parent cases handled by coordinators and sub cases handled by plant users</description>
+    <entryStartDateField>Case.SLA_Start__c</entryStartDateField>
+    <exitCriteriaFilterItems>
+        <field>Case.IsClosed</field>
+        <operation>equals</operation>
+        <value>true</value>
+    </exitCriteriaFilterItems>
+    <exitCriteriaFilterItems>
+        <field>Case.Status</field>
+        <operation>equals</operation>
+        <value>Closed, Closed - Abandoned, Closed - Rejected, Closed - No Action</value>
+    </exitCriteriaFilterItems>
+    <isVersionDefault>false</isVersionDefault>
+    <milestones>
+        <milestoneCriteriaFilterItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Order Claim</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>Working, New</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.isReOpened__c</field>
+            <operation>equals</operation>
+            <value>false</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneName>Prepare for Plant</milestoneName>
+        <minutesToComplete>600</minutesToComplete>
+        <timeTriggers>
+            <timeLength>-2</timeLength>
+            <workflowTimeTriggerUnit>Minutes</workflowTimeTriggerUnit>
+        </timeTriggers>
+        <useCriteriaStartTime>true</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <milestoneCriteriaFilterItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Order Claim</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>New, Working</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Expedited_Claim__c</field>
+            <operation>equals</operation>
+            <value>true</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneName>Prepare for Plant - Expedited</milestoneName>
+        <minutesToComplete>60</minutesToComplete>
+        <useCriteriaStartTime>true</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <milestoneCriteriaFilterItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Order Claim</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>New, Working</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.isReOpened__c</field>
+            <operation>equals</operation>
+            <value>true</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneName>Prepare for Plant - ReOpened</milestoneName>
+        <minutesToComplete>600</minutesToComplete>
+        <useCriteriaStartTime>true</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <milestoneCriteriaFilterItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Order Claim Sub Case</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>Working, New</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.isReOpened__c</field>
+            <operation>equals</operation>
+            <value>false</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.SLA_Start__c</field>
+            <operation>notEqual</operation>
+            <value></value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Assign_Queue_to_Case__c</field>
+            <operation>equals</operation>
+            <value>true</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneName>Plant Working</milestoneName>
+        <minutesToComplete>7200</minutesToComplete>
+        <timeTriggers>
+            <timeLength>1</timeLength>
+            <workflowTimeTriggerUnit>Minutes</workflowTimeTriggerUnit>
+        </timeTriggers>
+        <timeTriggers>
+            <timeLength>-1</timeLength>
+            <workflowTimeTriggerUnit>Minutes</workflowTimeTriggerUnit>
+        </timeTriggers>
+        <useCriteriaStartTime>true</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <criteriaBooleanFilter>1 AND 2 AND 3 AND 4 AND 5 AND 6</criteriaBooleanFilter>
+        <milestoneCriteriaFilterItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Order Claim Sub Case</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>New, Working</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Expedited_Claim__c</field>
+            <operation>equals</operation>
+            <value>true</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.SLA_Start__c</field>
+            <operation>notEqual</operation>
+            <value></value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Assign_Queue_to_Case__c</field>
+            <operation>equals</operation>
+            <value>true</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Status</field>
+            <operation>notEqual</operation>
+            <value>Closed, Closed - Approved, Closed - Rejected</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneName>Plant Working - Expedited</milestoneName>
+        <minutesToComplete>60</minutesToComplete>
+        <timeTriggers>
+            <timeLength>0</timeLength>
+            <workflowTimeTriggerUnit>Minutes</workflowTimeTriggerUnit>
+        </timeTriggers>
+        <useCriteriaStartTime>true</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <criteriaBooleanFilter>1 AND 2 AND 3 AND 4 AND 5 AND 6</criteriaBooleanFilter>
+        <milestoneCriteriaFilterItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Order Claim Sub Case</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>New, Working</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.isReOpened__c</field>
+            <operation>equals</operation>
+            <value>true</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.SLA_Start__c</field>
+            <operation>notEqual</operation>
+            <value></value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Assign_Queue_to_Case__c</field>
+            <operation>equals</operation>
+            <value>true</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Status</field>
+            <operation>notEqual</operation>
+            <value>Closed, Closed - Approved, Closed - Rejected</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneName>Plant Working - ReOpened</milestoneName>
+        <minutesToComplete>7200</minutesToComplete>
+        <useCriteriaStartTime>true</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <milestoneCriteriaFilterItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Order Claim</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.All_Sub_Cases_Closed__c</field>
+            <operation>equals</operation>
+            <value>true</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.isReOpened__c</field>
+            <operation>equals</operation>
+            <value>false</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneName>Finalize Case</milestoneName>
+        <minutesToComplete>600</minutesToComplete>
+        <useCriteriaStartTime>true</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <milestoneCriteriaFilterItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Order Claim</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>Working, New</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Expedited_Claim__c</field>
+            <operation>equals</operation>
+            <value>true</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.All_Sub_Cases_Closed__c</field>
+            <operation>equals</operation>
+            <value>true</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Status</field>
+            <operation>notEqual</operation>
+            <value>Closed, Closed - Approved, Closed - Rejected</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneName>Finalize Case - Expedited</milestoneName>
+        <minutesToComplete>60</minutesToComplete>
+        <useCriteriaStartTime>true</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <milestoneCriteriaFilterItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Order Claim</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.All_Sub_Cases_Closed__c</field>
+            <operation>equals</operation>
+            <value>true</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.isReOpened__c</field>
+            <operation>equals</operation>
+            <value>true</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Status</field>
+            <operation>notEqual</operation>
+            <value>Closed, Closed - Approved, Closed - Rejected</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneName>Finalize Case - ReOpened</milestoneName>
+        <minutesToComplete>600</minutesToComplete>
+        <useCriteriaStartTime>true</useCriteriaStartTime>
+    </milestones>
+    <name>CS Order Claims</name>
+    <versionMaster>5523B000000Cawp</versionMaster>
+    <versionNumber>1</versionNumber>
+</EntitlementProcess>

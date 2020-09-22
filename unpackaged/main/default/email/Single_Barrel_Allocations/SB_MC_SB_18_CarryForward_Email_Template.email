@@ -1,0 +1,8 @@
+<messaging:emailTemplate subject="Carryforward Unused barrels details from {!relatedTo.Time_Interval__c}" recipientType="User" relatedToType="Brand_Allocation__c">
+    <messaging:htmlEmailBody >
+    Hi,<br/>
+    <c:VS_SB2_CarryforwardEmailTemplate allocationId="{!relatedTo.Id}"> </c:VS_SB2_CarryforwardEmailTemplate> <br/><br/>
+    <b>Regards,</b><br/>
+    {!recipient.FirstName}
+    </messaging:htmlEmailBody>
+</messaging:emailTemplate>

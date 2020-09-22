@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Campaign_Spend_Count_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(Campaign_Spend_Count__c!=Phasing_Count__c, TEXT(Status__c)='Approved By Finance')</errorConditionFormula>
+    <errorMessage>You can not approve this record. Campaign Spend records not exist for phasing.</errorMessage>
+</ValidationRule>

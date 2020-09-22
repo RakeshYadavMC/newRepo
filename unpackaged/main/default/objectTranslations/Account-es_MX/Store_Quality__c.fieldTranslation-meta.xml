@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>Calidad de Tienda</label>
+        <name>Store_Quality__c</name>
+        <picklistValues>
+            <masterLabel>Luxury</masterLabel>
+            <translation>Lujo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Premium</masterLabel>
+            <translation><!-- Premium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standard</masterLabel>
+            <translation>Estándar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TO BE DETERMINED</masterLabel>
+            <translation>Indeterminado</translation>
+        </picklistValues>
+    </CustomFieldTranslation>

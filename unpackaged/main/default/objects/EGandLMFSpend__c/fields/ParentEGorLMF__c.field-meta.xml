@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ParentEGorLMF__c</fullName>
+    <externalId>false</externalId>
+    <label>Master EG or LMF</label>
+    <referenceTo>EG_and_LMF__c</referenceTo>
+    <relationshipLabel>EG and LMF Spend</relationshipLabel>
+    <relationshipName>EG_and_LMF_Spend</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

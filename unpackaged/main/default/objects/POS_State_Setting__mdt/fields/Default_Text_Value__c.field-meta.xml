@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Default_Text_Value__c</fullName>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Default Text Value</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Account Name</fullName>
+                <default>true</default>
+                <label>Account Name</label>
+            </value>
+            <value>
+                <fullName>Bottle Plate Text</fullName>
+                <default>false</default>
+                <label>Bottle Plate Text</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

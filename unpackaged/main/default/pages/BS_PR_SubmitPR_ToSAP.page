@@ -1,0 +1,80 @@
+<apex:page standardController="PR_Header__c" extensions="BS_PR_SubmitPR_ToSAP" lightningStylesheets="true" docType="html-5.0" showHeader="false" showChat="false" showQuickActionVfHeader="false">
+
+    <head>        
+        <apex:slds /> 
+    </head>    
+    <apex:form id="formId" styleClass="slds-scope">
+        <apex:pageMessages />        
+    <apex:outputPanel id="innerpanel">        
+    <apex:outputPanel id="PanelOne" rendered="{!PanelOne}">
+        <article class="slds-card">
+          <div class="slds-card__header slds-grid">
+            <header class="slds-media slds-media_center slds-has-flexi-truncate">
+              <div class="slds-media__figure">
+                <span class="slds-icon_container slds-icon-standard-task" title="Send To SAP">
+                  <svg class="slds-icon slds-icon_small" aria-hidden="true">                    
+                      <use href="{!URLFOR($Asset.SLDS, '/assets/icons/standard-sprite/svg/symbols.svg#task')}"></use>
+                  </svg>                    
+                  <span class="slds-assistive-text">Send To SAP</span>
+                </span>
+              </div>
+              <div class="slds-media__body">
+                <h2 class="slds-card__header-title">              
+                    <span>PR Submission</span>
+                </h2>
+              </div>
+              <apex:outputPanel rendered="{!displaySendToSAP}">            
+                  <div class="slds-no-flex">        
+                      <input type="button" value="Confirm To Send To SAP" class="slds-button slds-button--brand" onclick="submitPRAction();return false;"/>                      
+                  </div>
+             </apex:outputPanel>
+            </header>
+          </div>
+          <div class="slds-card__body slds-card__body_inner">
+              <div class="slds-text-heading_small">Once you confirm the PR will be send to SAP. Please make sure before confirming.</div>
+              <ul>
+                  <li><span>&#10004;</span>  Will create a PR record in SAP</li>
+                  <li><span>&#10004;</span>  PR will no lager be editable</li>
+                  <li><span>&#10004;</span>  SAP user required to process the PR</li>
+                  <li><span>&#10004;</span>  PR files will be sent</li>
+              </ul>
+          </div>  
+        </article>
+    </apex:outputPanel>
+    <apex:outputPanel id="successPanel" rendered="{!successPanel}">
+        <div class="demo-only" style="height:4rem">
+          <div class="slds-notify_container slds-is-relative">
+            <div class="slds-notify slds-notify_toast slds-theme_success" role="status">                           
+              <span class="slds-icon_container slds-icon-utility-success" title="PR Sent To SAP">
+                    <svg aria-hidden="true" class="slds-icon">
+                        <use href="{!URLFOR($Asset.SLDS, '/assets/icons/utility-sprite/svg/symbols.svg#success')}"></use>
+                    </svg>
+                <span class="slds-assistive-text">success</span>
+              </span>
+              <div class="slds-notify__content">
+                <h2 class="slds-text-heading_small "> PR# {!retPRNum} successfuly sent to SAP. Record owner will be notified with the details</h2>
+              </div>      
+            </div>
+          </div>
+        </div>    
+    </apex:outputPanel>
+    </apex:outputPanel>
+    <apex:actionFunction action="{!confirmToSubmitPR}" name="submitPRAction"  status="progress" reRender="formId"/>
+    </apex:form>
+        <apex:outputPanel id="spinnerpanel">        
+        <apex:actionStatus id="progress" stopText="">
+            <apex:facet name="start">
+                <!-- SPINNER -->
+                <div class="demo-only demo-only demo-only_viewport" style="background-color: rgba(22, 50, 92, 0.47);">
+                    <div role="status" class="slds-spinner slds-spinner_medium slds-spinner_brand">
+                        <span class="slds-assistive-text">Loading</span>
+                        <div class="slds-spinner__dot-a"></div>
+                        <div class="slds-spinner__dot-b"></div>
+                    </div>
+                </div>
+         <!-- / SPINNER -->
+            </apex:facet>
+        </apex:actionStatus>
+    </apex:outputPanel>
+   
+</apex:page>

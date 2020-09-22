@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Contact us form link</name>
+    <style>none</style>
+    <subject>Need More Details</subject>
+    <textOnly>Dear {!Case.SuppliedName},
+
+Can you please provide more details at below link:;
+
+https://www.beamsuntory.com/contact
+
+Thanks
+Beam Suntory</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

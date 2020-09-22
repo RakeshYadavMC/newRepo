@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Small_Batch_Bourbon_MarketingPlan</fullName>
+    <columns>NAME</columns>
+    <columns>Year__c</columns>
+    <filterScope>Queue</filterScope>
+    <label>Small Batch Bourbon</label>
+    <language>en_US</language>
+    <queue>Small_Batch_Bourbon</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

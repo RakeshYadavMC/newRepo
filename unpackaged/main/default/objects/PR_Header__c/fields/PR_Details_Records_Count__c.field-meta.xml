@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PR_Details_Records_Count__c</fullName>
+    <description>Count of all PR Details created under this PR header</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Count of all PR Details created under this PR header</inlineHelpText>
+    <label># PR Details Records Count</label>
+    <summaryForeignKey>PR_Detail__c.PR_Header__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

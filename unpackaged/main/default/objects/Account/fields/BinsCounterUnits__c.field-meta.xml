@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BinsCounterUnits__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Are bins or counter units allowed?</inlineHelpText>
+    <label>Bins / Counter Units</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Bins</fullName>
+                <default>false</default>
+                <label>Bins</label>
+            </value>
+            <value>
+                <fullName>Both</fullName>
+                <default>false</default>
+                <label>Both</label>
+            </value>
+            <value>
+                <fullName>Counter Units</fullName>
+                <default>false</default>
+                <label>Counter Units</label>
+            </value>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

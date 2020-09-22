@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Approval_Required_before_Closing</fullName>
+    <active>true</active>
+    <description>Requires approval of Claim amount before closing.</description>
+    <errorConditionFormula>AND (
+  Claim_Amount_Approved__c = FALSE,
+  Credit_Amount__c  &gt; 2000,
+  ISPICKVAL( Financial_Disposition__c , "Financial Invoice"),
+OR(
+ ISPICKVAL (Status, "Closed"),
+ ISPICKVAL (Status, "Closed - Approved")
+),
+OR(
+  RecordType.Name = "Quality Claim",
+AND (
+  RecordType.Name = "Order Claim",
+  ISPICKVAL( Type, "Freight Claim")
+)
+)
+)</errorConditionFormula>
+    <errorMessage>This record must be approved before closing.  Please submit this record for approval on the previous page in the Approval list</errorMessage>
+</ValidationRule>

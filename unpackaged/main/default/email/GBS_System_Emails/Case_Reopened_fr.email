@@ -1,0 +1,6 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<font face="arial">Bonjour {!Case.OwnerFullName},&nbsp;</font><div><font face="arial"><br></font><div><font face="arial">la requête no {!Case.CaseNumber}, une requête que vous possédez, a été rouverte.&nbsp;</font></div><div><font face="arial"><br></font></div><div><font face="arial">L’explication donnée pour la réouverture est la suivante :&nbsp;</font></div><div><font face="arial"><br></font></div><div><font face="arial">{!Case.Reopen_Explanation__c}&nbsp;</font></div><div><font face="arial"><br></font></div><div><font face="arial">Click below to see your case:</font></div><div><font face="arial">{!$Label.Base_Company_Community_URL}{!Case.Id}&nbsp;</font></div><div><font face="arial"><br></font></div><div><font face="arial">{!Case.Thread_Id}</font></div></div>]]></td>
+</tr>
+</table>

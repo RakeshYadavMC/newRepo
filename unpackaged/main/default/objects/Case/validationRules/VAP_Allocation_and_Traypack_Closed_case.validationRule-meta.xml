@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VAP_Allocation_and_Traypack_Closed_case</fullName>
+    <active>true</active>
+    <description>before closing the customer data subcases of type VAP/LTO Allocation and Traypack type cases, the submission date, approval date should be  entered</description>
+    <errorConditionFormula>AND(
+RecordType.Name = "Compliance Sub Case",
+ISPICKVAL( Status , "Closed"),
+ISBLANK(Approval_Date__c),
+OR(
+ISPICKVAL( Type, "VAP/LTO Allocation"),
+ISPICKVAL( Type, "Traypack Audit")
+)
+)</errorConditionFormula>
+    <errorMessage>Case cannot be closed without entering the Approval date</errorMessage>
+</ValidationRule>

@@ -1,0 +1,10 @@
+.THIS {
+}
+
+.THIS .changeOwnerText {
+    font-weight: var(--lwc-fontWeightBold,700);
+}
+
+.THIS .assignToMeButton {
+	margin-bottom: var(--lwc-varSpacingVerticalSmall,0.75rem)
+}

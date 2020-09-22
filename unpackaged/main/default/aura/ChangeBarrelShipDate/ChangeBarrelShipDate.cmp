@@ -1,0 +1,15 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes"  controller="ProcessSelectedIdsController">
+	<aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+	<aura:attribute name="shipDate" type="Date" default=""/>
+    <aura:attribute name="customListStr" type="String"/>
+    <aura:attribute name="BarrelIdset" type="String"/>
+
+    <ui:inputDate aura:id="expdate" label="Ship Date" format="MM/DD/YYYY" class="field" value="{!v.shipDate}" displayDatePicker="true" />      
+   <!-- <ui:button class="btn" label="Submit" press="{!c.setOutput}"/>-->
+    <br/>
+    <lightning:button variant="brand" label="Submit" onclick="{! c.setOutput }"/>
+	<div aura:id="msg" class="hide">
+		You entered: <ui:outputDate aura:id="oDate" value="" />
+	</div>
+    
+</aura:component>

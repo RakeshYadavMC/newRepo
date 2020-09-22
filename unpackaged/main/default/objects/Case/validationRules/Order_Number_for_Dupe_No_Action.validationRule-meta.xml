@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Order_Number_for_Dupe_No_Action</fullName>
+    <active>true</active>
+    <description>If a user selects Dupe No Action, they are not required to enter in an Order Number</description>
+    <errorConditionFormula>AND(
+NOT(ISPICKVAL(Type, "Barrel")
+),
+OR(
+RecordType.Name = "EDI Order",
+RecordType.Name = "Orders"
+),
+OR( ISPICKVAL( Status , "Closed"),
+ISPICKVAL( Status , "Closed - Approved"),
+ISPICKVAL( Status , "Closed - Rejected")
+),
+ABS( of_PO_s_without_Order_Number__c ) &gt; 0
+)</errorConditionFormula>
+    <errorMessage>There are PO's without an SAP Number. An SAP Number is required for all PO's associated with this Case.</errorMessage>
+</ValidationRule>

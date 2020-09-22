@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Price_Filing_Must_Be_Approved_To_Close</fullName>
+    <active>true</active>
+    <description>Case must have the "Approved" field checked before it can be closed.</description>
+    <errorConditionFormula>AND(
+    RecordType.DeveloperName='Price_Filing', 
+    Approved__c=FALSE, 
+    IF(PRIORVALUE(Status)!="Closed" &amp;&amp; ISPICKVAL(Status, "Closed") ,TRUE,FALSE)
+)</errorConditionFormula>
+    <errorMessage>Case must be approved before closing</errorMessage>
+</ValidationRule>

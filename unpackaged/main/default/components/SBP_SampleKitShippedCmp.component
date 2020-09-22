@@ -1,0 +1,16 @@
+<apex:component access="global" controller="SBP_EmailUtility">
+
+    <apex:attribute name="sampleKitRecordId" type="String" description="This is the Sample Kit Id" assignTo="{!sampleKitId}" access="global" />
+
+    <br/>    
+    Case Number: {!sampleKit.Case__r.CaseNumber}
+    <br/><br/>
+    Retailer: {!sampleKit.Case__r.Retail_Account__r.Name}
+    <br/><br/>
+    Tracking Number: {!sampleKit.Tracking_Number__c}
+    <br/><br/>
+    Carrier: {!sampleKit.Carrier__c}
+    <br/><br/>
+
+
+</apex:component>

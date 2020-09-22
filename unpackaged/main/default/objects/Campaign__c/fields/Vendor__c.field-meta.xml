@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vendor__c</fullName>
+    <description>per discussion with Mia, John, Jeff, Jody, Neil on 1/29 we are hiding this value for now.  We will re-visit the creation of a lookup or picklist for preferred vendors.</description>
+    <externalId>false</externalId>
+    <label>Vendor</label>
+    <length>100</length>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

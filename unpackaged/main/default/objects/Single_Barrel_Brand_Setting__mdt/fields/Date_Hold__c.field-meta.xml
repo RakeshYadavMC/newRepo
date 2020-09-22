@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Date_Hold__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>If a program allows customers to hold a block of time this option will appear</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Date Hold</label>
+    <type>Checkbox</type>
+</CustomField>

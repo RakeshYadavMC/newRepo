@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BrandQuali</fullName>
+    <columns>NAME</columns>
+    <columns>Brand__c</columns>
+    <columns>WBSCodeSegment__c</columns>
+    <columns>PL4_Brand__c</columns>
+    <columns>IOCodeSegment__c</columns>
+    <columns>RECORDTYPE</columns>
+    <columns>OBJECT_ID</columns>
+    <columns>UPDATEDBY_USER.ALIAS</columns>
+    <columns>UPDATEDBY_USER</columns>
+    <columns>LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Tags__c.BrandQuality</value>
+    </filters>
+    <label>Brand Quality</label>
+    <language>en_US</language>
+</ListView>

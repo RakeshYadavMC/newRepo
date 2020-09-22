@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Account Assignment Category --></label>
+        <name>Account_Assignment_Category2__c</name>
+        <picklistValues>
+            <masterLabel>F</masterLabel>
+            <translation><!-- F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

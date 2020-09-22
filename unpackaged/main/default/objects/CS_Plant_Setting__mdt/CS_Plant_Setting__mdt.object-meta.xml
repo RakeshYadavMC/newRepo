@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Stores information on the different Plants that process Order Claims</description>
+    <label>CS Plant Setting</label>
+    <pluralLabel>CS Plant Settings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

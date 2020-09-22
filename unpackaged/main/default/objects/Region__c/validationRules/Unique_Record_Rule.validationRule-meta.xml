@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unique_Record_Rule</fullName>
+    <active>false</active>
+    <errorConditionFormula>(ISNEW() || ISCHANGED(Name)) &amp;&amp; UPPER(VLOOKUP($ObjectType.Region__c.Fields.Name, $ObjectType.Region__c.Fields.Name , Name)) = UPPER(Name)</errorConditionFormula>
+    <errorDisplayField>Name</errorDisplayField>
+    <errorMessage>This region is already present in the system</errorMessage>
+</ValidationRule>

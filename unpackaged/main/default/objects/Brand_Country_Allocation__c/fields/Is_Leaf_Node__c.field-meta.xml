@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Leaf_Node__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>PS-MC-SB-11 It is used to make allocation to be defined on current record hence it's child cannot have allocations</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Making it mark won't allow it's children to have allocations</inlineHelpText>
+    <label>Is Leaf Node</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

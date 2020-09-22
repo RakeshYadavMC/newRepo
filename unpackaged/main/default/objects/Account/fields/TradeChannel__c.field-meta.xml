@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TradeChannel__c</fullName>
+    <externalId>false</externalId>
+    <label>Trade Channel</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Casinos</fullName>
+                <default>false</default>
+                <label>Casinos</label>
+            </value>
+            <value>
+                <fullName>Casual &amp; Theme Dining</fullName>
+                <default>false</default>
+                <label>Casual &amp; Theme Dining</label>
+            </value>
+            <value>
+                <fullName>Casual Bar &amp; Dining</fullName>
+                <default>false</default>
+                <label>Casual Bar &amp; Dining</label>
+            </value>
+            <value>
+                <fullName>Casual Bars &amp; Nightclubs</fullName>
+                <default>false</default>
+                <label>Casual Bars &amp; Nightclubs</label>
+            </value>
+            <value>
+                <fullName>Caterer</fullName>
+                <default>false</default>
+                <label>Caterer</label>
+            </value>
+            <value>
+                <fullName>Club &amp; Warehouse Stores</fullName>
+                <default>false</default>
+                <label>Club &amp; Warehouse Stores</label>
+            </value>
+            <value>
+                <fullName>Convenience Store</fullName>
+                <default>false</default>
+                <label>Convenience Store</label>
+            </value>
+            <value>
+                <fullName>Drug Stores</fullName>
+                <default>false</default>
+                <label>Drug Stores</label>
+            </value>
+            <value>
+                <fullName>Fine Dining</fullName>
+                <default>false</default>
+                <label>Fine Dining</label>
+            </value>
+            <value>
+                <fullName>Golf &amp; Yacht</fullName>
+                <default>false</default>
+                <label>Golf &amp; Yacht</label>
+            </value>
+            <value>
+                <fullName>Grocery</fullName>
+                <default>false</default>
+                <label>Grocery</label>
+            </value>
+            <value>
+                <fullName>Grocery, Mass Merchandised, Club &amp; Drug</fullName>
+                <default>false</default>
+                <label>Grocery, Mass Merchandised, Club &amp; Drug</label>
+            </value>
+            <value>
+                <fullName>Invalid</fullName>
+                <default>false</default>
+                <label>Invalid</label>
+            </value>
+            <value>
+                <fullName>Large Format Liquor</fullName>
+                <default>false</default>
+                <label>Large Format Liquor</label>
+            </value>
+            <value>
+                <fullName>Liquor</fullName>
+                <default>false</default>
+                <label>Liquor</label>
+            </value>
+            <value>
+                <fullName>Lodging</fullName>
+                <default>false</default>
+                <label>Lodging</label>
+            </value>
+            <value>
+                <fullName>Luxury Accounts</fullName>
+                <default>false</default>
+                <label>Luxury Accounts</label>
+            </value>
+            <value>
+                <fullName>Other Off-Premise</fullName>
+                <default>false</default>
+                <label>Other Off-Premise</label>
+            </value>
+            <value>
+                <fullName>Other On-Premise</fullName>
+                <default>false</default>
+                <label>Other On-Premise</label>
+            </value>
+            <value>
+                <fullName>Premium Bars &amp; Nightclubs</fullName>
+                <default>false</default>
+                <label>Premium Bars &amp; Nightclubs</label>
+            </value>
+            <value>
+                <fullName>Small Format, Convenience, Urban</fullName>
+                <default>false</default>
+                <label>Small Format, Convenience, Urban</label>
+            </value>
+            <value>
+                <fullName>Social, Fraternal &amp; Veteran Clubs</fullName>
+                <default>false</default>
+                <label>Social, Fraternal &amp; Veteran Clubs</label>
+            </value>
+            <value>
+                <fullName>Stadium, Theater, Theme Park</fullName>
+                <default>false</default>
+                <label>Stadium, Theater, Theme Park</label>
+            </value>
+            <value>
+                <fullName>To Be Determined</fullName>
+                <default>false</default>
+                <label>To Be Determined</label>
+            </value>
+            <value>
+                <fullName>Transportation</fullName>
+                <default>false</default>
+                <label>Transportation</label>
+            </value>
+            <value>
+                <fullName>Unassigned Off-Premise</fullName>
+                <default>false</default>
+                <label>Unassigned Off-Premise</label>
+            </value>
+            <value>
+                <fullName>Unassigned On-Premise</fullName>
+                <default>false</default>
+                <label>Unassigned On-Premise</label>
+            </value>
+            <value>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+                <label>Unknown</label>
+            </value>
+            <value>
+                <fullName>Dining</fullName>
+                <default>false</default>
+                <label>Dining</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

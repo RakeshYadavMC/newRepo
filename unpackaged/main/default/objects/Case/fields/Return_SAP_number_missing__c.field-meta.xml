@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Return_SAP_number_missing__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Return SAP number is required on child case records with a record type of Order Claim Sub Case and a specific claim type, but this field is only filled out  once the parent case of record type Order Claim is ready to be closed.  If this field is set to true then the child cases are missing certain fields.</description>
+    <externalId>false</externalId>
+    <label>Return SAP number missing</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,125 @@
+<aura:component
+                implements="force:lightningQuickActionWithoutHeader,force:hasRecordId,force:appHostable,flexipage:availableForRecordHome,force:hasSObjectName"
+                access="global" controller="CNT_SB2_ManageBrand"
+                > 
+    <aura:html tag="style">
+                .modal-body{
+        height : auto !important;
+        max-height: 600px !important;
+        }
+    </aura:html>
+    <lightning:workspaceAPI aura:id="workspace"/>
+    <!-- Handlers -->
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    <aura:handler event="aura:waiting" action="{!c.showSpinner}"/>
+    <aura:handler event="aura:doneWaiting" action="{!c.hideSpinner}"/>
+    
+    <!-- Attributes -->
+    <aura:attribute name="recordId" type="String" />
+    <aura:attribute name="isActiveRecord" type="Boolean" default="false"/>
+    <aura:attribute name="brand" type="String" />
+    <aura:attribute name="isCarryForward" type="Boolean"/>
+    <aura:attribute name="brandName" type="string"/>
+    <aura:attribute name="programType" type="string"/>
+    <aura:attribute name="listControllingValues" type="list" default="[]" description="to store controller field values"/>
+    <aura:attribute name="listDependingValues" type="list" default="['--- None ---']" description="to store dependent field values"/>
+    <aura:attribute name="dependentFieldMap" type="map" description="map to store dependent values with controlling value"/>
+    <aura:attribute name="isDependentField" type="boolean" default="true"/> 
+    <aura:attribute name="TypePicklist" type="String[]" />
+    <aura:attribute name="error" type="string"/>
+    <aura:attribute name="Spinner" type="boolean" default="false"/>
+    <aura:attribute name="currentTabId" type="String" description="Current Tab Id to redirect"/>
+    <aura:attribute name="objDetail" type="Brand_Allocation__c" default="{'sobjectType' : 'Brand_Allocation__c'}"/>
+    <aura:attribute name="controllingFieldAPI" type="string" default="Time_Period__c" description="store field API name of Controller field"/>
+    <aura:attribute name="dependingFieldAPI" type="string" default="Time_Interval__c" description="store field API name of dependent field"/>
+    <aura:if isTrue="{!v.Spinner}">
+        <div aura:id="spinnerId" class="slds-spinner_container">
+            <div class="slds-spinner--brand  slds-spinner slds-spinner--large slds-is-relative" role="alert">
+                <span class="slds-assistive-text">Loading</span>
+                <div class="slds-spinner__dot-a"></div>
+                <div class="slds-spinner__dot-b"></div>
+            </div>
+        </div>
+    </aura:if>
+    
+    <header class="slds-modal__header side-margin header-position">
+        <h2 id="modal-heading-01"
+            class="slds-text-heading_medium slds-hyphenate">
+            {!$Label.c.SB2_Clone_Brand_Allocation}</h2>
+    </header>
+    
+    <div  class="message">
+        <aura:if isTrue="{!v.isActiveRecord}">
+            <p align="center"> {!$Label.c.SB2_Clone_Error_Message}
+            </p>
+            <aura:set attribute="else">
+                <aura:if isTrue="{! !empty(v.error)}">
+                    <div class="slds-notify slds-notify_toast slds-theme_error">
+                        <span class="slds-assistive-text">{!$Label.c.SB2_error}</span>
+                        <div class="slds-notify__content">
+                            <p class="slds-align_absolute-center">{!v.error}</p>                
+                        </div>
+                    </div>
+                </aura:if>
+                <lightning:notificationsLibrary aura:id="notifLib"/>
+                <form id="contactUsForm" class="slds-form--stacked">
+                    <lightning:input name="brandName" 
+                                     disabled="true" 
+                                     value="{!v.brandName}" 
+                                     label="{!$Label.c.SB2_Brand}" />
+                    <ui:inputCheckbox aura:id="checkbox" 
+                                      disabled="true" 
+                                      label="{!$Label.c.SB2_Is_Carry_Forward}" 
+                                      value="{!v.isCarryForward}" />
+                    <lightning:input name="programType" 
+                                     disabled="true" 
+                                     value="{!v.programType}" 
+                                     label="{!$Label.c.SB2_Program_Type}" />
+                    
+                    <lightning:select aura:id="fieldId" 
+                                      label="{!$Label.c.SB2_Year_Of_Allocation}" 
+                                      value="{!v.objDetail.yearOfAllocation}" 
+                                      required="true">
+                        <aura:iteration items="{!v.TypePicklist}" var="val">
+                            <option value="{!val}"> {!val}</option>
+                        </aura:iteration>
+                    </lightning:select>  
+                    
+                    <lightning:select aura:id="fieldId" name="timePeriod"
+                                      value="{!v.objDetail.timePeriod}"
+                                      label="{!$Label.c.SB2_Time_Period}"
+                                      onchange="{!c.onControllerFieldChange}" 
+                                      required="true">
+                        <aura:iteration items="{!v.listControllingValues}" var="val">
+                            <option value="{!val}">{!val}</option>
+                        </aura:iteration>
+                    </lightning:select>
+                    
+                    <lightning:select aura:id="fieldId" name="timeInterval"
+                                      value="{!v.objDetail.timeInterval}"
+                                      label="{!$Label.c.SB2_Time_Interval}"
+                                      disabled="{!v.isDependentField}" 
+                                      required="true">
+                        <aura:iteration items="{!v.listDependingValues}" var="val">
+                            <option value="{!val}">{!val}</option>
+                        </aura:iteration>
+                    </lightning:select>
+                    
+                </form>
+            </aura:set>
+        </aura:if>
+    </div>
+    
+    <aura:if isTrue="{!!v.isActiveRecord}">
+        <footer class="side-margin footer-position">
+            <lightning:button label="Cancel"  onclick="{!c.closeQuickAction}" /> 
+            <lightning:button variant="neutral"
+                              label="Save"
+                              title="Save"
+                              class="save-button"
+                              onclick="{! c.saveBrandAllocation }"/>
+            
+        </footer>
+    </aura:if>
+    
+</aura:component>

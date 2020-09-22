@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email template for community changes assignments.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BeamSuntory_Letterhead</letterhead>
+    <name>Case Assignment Email_Changes_ML</name>
+    <style>freeForm</style>
+    <subject>{!Case.CaseNumber} - {!Case.Case_Type__c} has been picked up!</subject>
+    <textOnly>Your case has been assigned to {!Case.OwnerFullName} and should be actioned within the appropriate SLA time. You should receive a reply within 24 hours.
+
+Details:
+
+RE:{!Case.Subject}
+Case Number :{!Case.CaseNumber}
+Case Description :{!Case.Claim_Description__c}
+Case Type: {!Case.Type}
+Customer Change Type:{!Case.Change_Type__c}
+Purchase Order Number:{!Case.Purchase_Order_Number__c}
+Beam Suntory Order Number:{!Case.Beam_Suntory_Order_Number__c}
+Product Description:{!Case.Product_Description__c}
+
+
+Thank you,
+
+Beam Suntory Customer Service
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

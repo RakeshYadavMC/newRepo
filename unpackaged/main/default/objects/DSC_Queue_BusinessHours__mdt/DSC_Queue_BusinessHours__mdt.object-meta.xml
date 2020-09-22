@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Contains business hours and their ids for assignment to Consumer Inquiry/Quality Claim Case for SLA calculation.</description>
+    <label>DSC Queue BusinessHours</label>
+    <pluralLabel>DSC Queue BusinessHours</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

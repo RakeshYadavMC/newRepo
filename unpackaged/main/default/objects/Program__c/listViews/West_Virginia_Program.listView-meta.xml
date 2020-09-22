@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>West_Virginia_Program</fullName>
+    <filterScope>Queue</filterScope>
+    <label>West Virginia</label>
+    <queue>West_Virginia</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

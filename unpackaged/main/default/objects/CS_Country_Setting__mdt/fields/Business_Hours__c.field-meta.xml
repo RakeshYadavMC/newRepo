@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Business_Hours__c</fullName>
+    <externalId>false</externalId>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <label>Business Hours</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>US</fullName>
+                <default>true</default>
+                <label>US</label>
+            </value>
+            <value>
+                <fullName>China</fullName>
+                <default>false</default>
+                <label>China</label>
+            </value>
+            <value>
+                <fullName>UK</fullName>
+                <default>false</default>
+                <label>UK</label>
+            </value>
+            <value>
+                <fullName>Singapore</fullName>
+                <default>false</default>
+                <label>Singapore</label>
+            </value>
+            <value>
+                <fullName>India</fullName>
+                <default>false</default>
+                <label>India</label>
+            </value>
+            <value>
+                <fullName>Germany</fullName>
+                <default>false</default>
+                <label>Germany</label>
+            </value>
+            <value>
+                <fullName>Default</fullName>
+                <default>false</default>
+                <label>Default</label>
+            </value>
+            <value>
+                <fullName>Australia - EDT</fullName>
+                <default>false</default>
+                <label>Australia - EDT</label>
+            </value>
+            <value>
+                <fullName>Australia - EST</fullName>
+                <default>false</default>
+                <label>Australia - EST</label>
+            </value>
+            <value>
+                <fullName>Australia - WST</fullName>
+                <default>false</default>
+                <label>Australia - WST</label>
+            </value>
+            <value>
+                <fullName>Canada - CST</fullName>
+                <default>false</default>
+                <label>Canada - CST</label>
+            </value>
+            <value>
+                <fullName>Canada - MST</fullName>
+                <default>false</default>
+                <label>Canada - MST</label>
+            </value>
+            <value>
+                <fullName>Europe - CET</fullName>
+                <default>false</default>
+                <label>Europe - CET</label>
+            </value>
+            <value>
+                <fullName>US - AST</fullName>
+                <default>false</default>
+                <label>US - AST</label>
+            </value>
+            <value>
+                <fullName>US - PST</fullName>
+                <default>false</default>
+                <label>US - PST</label>
+            </value>
+            <value>
+                <fullName>Japan</fullName>
+                <default>false</default>
+                <label>Japan</label>
+            </value>
+            <value>
+                <fullName>Mexico</fullName>
+                <default>false</default>
+                <label>Mexico</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

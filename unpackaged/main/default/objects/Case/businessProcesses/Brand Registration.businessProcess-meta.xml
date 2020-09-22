@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Brand Registration</fullName>
+    <description>(Compliance) Support process used for "Brand Registration" Cases</description>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Close Pending</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Waiting for Kickoff</fullName>
+        <default>true</default>
+    </values>
+    <values>
+        <fullName>Waiting for Sub Cases</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

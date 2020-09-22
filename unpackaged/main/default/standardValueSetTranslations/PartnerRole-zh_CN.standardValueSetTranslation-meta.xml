@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Advertiser</masterLabel>
+        <translation>广告商</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Agency</masterLabel>
+        <translation><!-- Agency --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Broker</masterLabel>
+        <translation><!-- Broker --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Consultant</masterLabel>
+        <translation>顾问</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Dealer</masterLabel>
+        <translation><!-- Dealer --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Developer</masterLabel>
+        <translation><!-- Developer --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Distributor</masterLabel>
+        <translation><!-- Distributor --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Institution</masterLabel>
+        <translation><!-- Institution --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Lender</masterLabel>
+        <translation><!-- Lender --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>System Integrator</masterLabel>
+        <translation><!-- System Integrator --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VAR/Reseller</masterLabel>
+        <translation><!-- VAR/Reseller --></translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

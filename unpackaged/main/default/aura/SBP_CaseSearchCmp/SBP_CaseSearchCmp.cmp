@@ -1,0 +1,150 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,forceCommunity:availableForAllPageTypes" 
+                access="global" controller="SBP_CaseSearchController">
+    
+    <aura:attribute name="columns" type="List"/>
+    <aura:attribute name="totalRecordList" type="List"/>
+    <aura:attribute name="paginationList" type="List"/>
+    <aura:attribute name="startPage" type="Integer"/>
+    <aura:attribute name="endPage" type="Integer"/>
+    <aura:attribute name="totalRecordsCount" type="Integer"/>
+    <aura:attribute name="noOfRecordsPerPage" type="Integer" default="10" description="number of records to be displayed on each page"/>
+    <aura:attribute name="currentPage" type="integer" default="1"/>
+    <aura:attribute name="totalPagesCount" type="integer"/>
+    <aura:attribute name="noRecordsFound" type="boolean"/>
+    <aura:attribute name="spinnerFlag" type="boolean" default="FALSE"/>
+    <aura:attribute name="searchQuery" type="String" default=""/>
+    <aura:attribute name="brandOptions" type="List" default="[
+                                                             {'label': 'All Brands', 'value': ''},
+                                                             {'label': 'Cruzan', 'value': 'Cruzan'},
+                                                             {'label': 'El Tesoro', 'value': 'El Tesoro'},
+                                                             {'label': 'Knob Creek', 'value': 'Knob Creek'},
+                                                             {'label': 'Makers Mark', 'value': 'Makers Mark'}
+                                                             ]"/>
+    <aura:attribute name="brandFilter" type="String" default=""/>
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <aura:handler event="aura:waiting" action="{!c.showSpinner}"/>
+    <aura:handler event="aura:doneWaiting" action="{!c.hideSpinner}"/>
+    <aura:attribute name="toggleCompleteIncomplete" type="Boolean" default="false"/>
+    
+    <!--loading spinner start-->
+    <aura:if isTrue="{!v.spinnerFlag}">
+        <div aura:id="spinnerId" class="slds-spinner_container">
+            <div class="slds-spinner--brand  slds-spinner slds-spinner--large slds-is-relative" role="alert">
+                <span class="slds-assistive-text">Loading...</span>
+                <div class="slds-spinner__dot-a"></div>
+                <div class="slds-spinner__dot-b"></div>
+            </div>
+        </div>
+    </aura:if>
+    <!-- Loading spinner end-->
+    
+    <!--<div class="slds-m-around_xx-large">-->
+        <!--Banner Start-->
+        <div class="slds-page-header">
+            <div class="slds-page-header__row">
+                <div class="slds-page-header__col-title">
+                    <div class="slds-media">
+                        <div class="slds-media__figure">
+                            <span class="slds-icon_container slds-icon-standard-account">
+                                <lightning:icon iconName="standard:case" alternativeText="Case" />
+                            </span>
+                        </div>
+                        <div class="slds-media__body">
+                            <div class="slds-page-header__name">
+                                <div class="slds-page-header__name-title">
+                                    <h1>
+                                        <span>Cases</span>
+                                        <span class="slds-page-header__title slds-truncate" title="My Single Barrel Orders">My Single Barrel Orders</span>
+                                    </h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Search Box Start-->
+            <div class="slds-clearfix">
+                
+                <div class="slds-float_left slds-size_1-of-4"> 
+                    <div class="slds-col">
+                        <lightning:icon iconName="action:filter" size="x-small" title="x-small size"/>
+                    </div>
+                    <div class="slds-col">
+                        <lightning:select name="selectBrand" label="Filter your results by brand" aura:id="selectBrandId" value="{!v.brandFilter}" onchange="{!c.handleBrandChange}">
+                            <aura:iteration items="{!v.brandOptions}" var="option">
+                                <option text="{!option.label}" value="{!option.id}" selected="{!option.selected}"/>
+                            </aura:iteration>
+                        </lightning:select>
+                    </div>    
+                </div>
+                
+                <div class="slds-float_right slds-size_2-of-4" onkeyup="{!c.handleKeyUp}">
+                    <lightning:input aura:id="enter-search"
+                                     name="enter-search"
+                                     placeholder="Search by Case Number/ Distributor Account/ Retail Account/ Submitter"
+                                     type="search"
+                                     value="{!v.searchQuery}"/>       
+                </div> 
+                
+                
+                
+            </div> 
+            <!--Search Box End-->
+            <div class="slds-float_left slds-size_1-of-4 slds-grid">
+                <label class="slds-checkbox_toggle slds-grid">
+                    <span class="slds-form-element__label slds-m-bottom_none">Show incomplete orders only</span>
+                    <ui:inputCheckbox aura:id="chkbox" class="slds-input" change="{!c.handleToggleChange}"/>
+                    <span id="checkbox-toggle-17" class="slds-checkbox_faux_container" aria-live="assertive">
+                        <span class="slds-checkbox_faux"></span>
+                    </span>
+                </label>
+            </div>
+        </div>
+        <!--Banner End-->
+        <!-- DataTable Start -->
+        <div class="slds-p-around_small slds-border_top slds-border_right slds-border_bottom slds-border_left">
+            
+            <lightning:datatable aura:id = "objDataTableId"
+                                 columns = "{!v.columns}"
+                                 hideCheckboxColumn="true"
+                                 data = "{!v.paginationList}"
+                                 keyField = "Id"/>
+        </div>
+        <!-- DataTable End -->     
+        <!-- Navigation Drawer Start-->
+        <div class="slds-clearfix">
+            <div role="banner">
+                <div class="slds-float_right slds-p-around_xx-small">     
+                    <lightning:button label="Prev" 
+                                      disabled="{!v.startPage == 0}"  
+                                      onclick="{!c.navigation}"
+                                      variant="brand"
+                                      iconName="utility:chevronleft"
+                                      name="prev"/>            
+                    <lightning:button label="Next"
+                                      disabled="{!(v.endPage + 1) >= v.totalRecordsCount}" 
+                                      onclick="{!c.navigation}"
+                                      variant="brand"
+                                      iconName="utility:chevronright"
+                                      iconPosition="right"
+                                      name="next"/>
+                </div> 
+                <p class="slds-page-header slds-text-heading_medium ">Page {!v.currentPage} out of {!v.totalPagesCount} |
+                    <aura:if isTrue="{!v.totalRecordsCount > 0}">
+                        <aura:if isTrue="{!v.totalRecordsCount > 1}">
+                            {!v.totalRecordsCount} records
+                        </aura:if> 
+                        <aura:if isTrue="{!v.totalRecordsCount == 1}">
+                            {!v.totalRecordsCount} record
+                        </aura:if>
+                        <aura:set attribute="else">
+                            No matching records found
+                        </aura:set>
+                    </aura:if>    
+                </p>
+            </div>
+        </div>
+        <!-- Navigation Drawer End-->        
+    <!--</div> -->
+    
+</aura:component>

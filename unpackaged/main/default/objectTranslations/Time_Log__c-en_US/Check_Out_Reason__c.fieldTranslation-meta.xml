@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Check Out Reason --></label>
+        <name>Check_Out_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Close of Business</masterLabel>
+            <translation><!-- Close of Business --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lunch</masterLabel>
+            <translation><!-- Lunch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Meeting</masterLabel>
+            <translation><!-- Meeting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PTO</masterLabel>
+            <translation><!-- PTO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Project</masterLabel>
+            <translation><!-- Project --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Training</masterLabel>
+            <translation><!-- Training --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>How_Can_We_Help_You__c</fullName>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>How Can We Help You</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Free Product / Merchandise</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Free Product / Merchandise</label>
+            </value>
+            <value>
+                <fullName>Friends of Laphroaig</fullName>
+                <default>false</default>
+                <label>Friends of Laphroaig</label>
+            </value>
+            <value>
+                <fullName>Influencers</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Influencers</label>
+            </value>
+            <value>
+                <fullName>Ingredients</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Ingredients</label>
+            </value>
+            <value>
+                <fullName>Licencing</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Licencing</label>
+            </value>
+            <value>
+                <fullName>Makers Mark Program</fullName>
+                <default>false</default>
+                <label>Makers Mark Program</label>
+            </value>
+            <value>
+                <fullName>Merchandise Request / Online store</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Merchandise Request / Online store</label>
+            </value>
+            <value>
+                <fullName>Nutritional Information</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Nutritional Information</label>
+            </value>
+            <value>
+                <fullName>Other Inquiry</fullName>
+                <default>false</default>
+                <label>Other Inquiry</label>
+            </value>
+            <value>
+                <fullName>Others</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Others</label>
+            </value>
+            <value>
+                <fullName>Our Online store</fullName>
+                <default>false</default>
+                <label>Our Online store</label>
+            </value>
+            <value>
+                <fullName>Product / Packaging issue</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Product / Packaging issue</label>
+            </value>
+            <value>
+                <fullName>Product Information</fullName>
+                <default>false</default>
+                <label>Product Information</label>
+            </value>
+            <value>
+                <fullName>Product or Packaging Issue</fullName>
+                <default>false</default>
+                <label>Product or Packaging Issue</label>
+            </value>
+            <value>
+                <fullName>PR or Media Inquiry</fullName>
+                <default>false</default>
+                <label>PR or Media Inquiry</label>
+            </value>
+            <value>
+                <fullName>Public Relations</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Public Relations</label>
+            </value>
+            <value>
+                <fullName>Rebates</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Rebates</label>
+            </value>
+            <value>
+                <fullName>Shelf life</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Shelf life</label>
+            </value>
+            <value>
+                <fullName>Sponsorship</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Sponsorship</label>
+            </value>
+            <value>
+                <fullName>Sponsorship or Charity</fullName>
+                <default>false</default>
+                <label>Sponsorship or Charity</label>
+            </value>
+            <value>
+                <fullName>Visiting the Distillery</fullName>
+                <default>false</default>
+                <label>Visiting the Distillery</label>
+            </value>
+            <value>
+                <fullName>Where to Buy Product</fullName>
+                <default>false</default>
+                <label>Where to Buy Product</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

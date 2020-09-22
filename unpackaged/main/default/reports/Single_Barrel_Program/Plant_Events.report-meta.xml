@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Plant_Event__c$Name</field>
+    </columns>
+    <columns>
+        <field>Plant_Event__c.Cases__r$CaseNumber</field>
+    </columns>
+    <columns>
+        <field>Plant_Event__c$Scheduled_Date__c</field>
+    </columns>
+    <columns>
+        <field>Plant_Event__c$AM_PM__c</field>
+    </columns>
+    <columns>
+        <field>Plant_Event__c.Cases__r$Account</field>
+    </columns>
+    <columns>
+        <field>Plant_Event__c.Cases__r$Retail_Account_Name__c</field>
+    </columns>
+    <currency>USD</currency>
+    <description>Plant Events for Single barrel</description>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Plant_Event__c$Brand__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Plant Events</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Plant_Events__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Plant_Event__c$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

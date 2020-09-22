@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>Etiqueta de Reporte</label>
+        <name>Billing_Report_Tag__c</name>
+        <picklistValues>
+            <masterLabel>1099/1042 inquiries</masterLabel>
+            <translation><!-- 1099/1042 inquiries --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>401k/Retirement</masterLabel>
+            <translation>401k/Retiro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6th7th Day</masterLabel>
+            <translation>6to 7 mo Dia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ADL</masterLabel>
+            <translation><!-- ADL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATI/PA request</masterLabel>
+            <translation><!-- ATI/PA request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Accounting</masterLabel>
+            <translation>Contabilidad</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Add Output</masterLabel>
+            <translation>Agregar Resultado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Address Inquiry/Issue</masterLabel>
+            <translation>Problema o consulta de Direccion</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Adhoc Report</masterLabel>
+            <translation>Reporte Adhoc</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Adoption</masterLabel>
+            <translation>Adopcion</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aires</masterLabel>
+            <translation><!-- Aires --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Annual Bonus (AIP, SIP)</masterLabel>
+            <translation>Bono Anual (AIP,SIP)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Attendees Required/Missing</masterLabel>
+            <translation>Asistentes requeridos / faltantes</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auto Allowance</masterLabel>
+            <translation>Asignacion Automatica</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Available Expense/Import Inquiries</masterLabel>
+            <translation><!-- Available Expense/Import Inquiries --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Awards</masterLabel>
+            <translation>Premios</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BCD Travel Rate Inquiry</masterLabel>
+            <translation><!-- BCD Travel Rate Inquiry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BCD requested vendor/merchant not available</masterLabel>
+            <translation><!-- BCD requested vendor/merchant not available --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BI Review/Questions/Inquiries</masterLabel>
+            <translation><!-- BI Review/Questions/Inquiries --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bad Pin/Pin Reset</masterLabel>
+            <translation><!-- Bad Pin/Pin Reset --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Banking</masterLabel>
+            <translation>Bancos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Banking Details update</masterLabel>
+            <translation><!-- Banking Details update --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beam Global</masterLabel>
+            <translation><!-- Beam Global --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beam Pac</masterLabel>
+            <translation><!-- Beam Pac --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Benefit Focus</masterLabel>
+            <translation>Atencion de prestaciones</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Benefits</masterLabel>
+            <translation>Beneficios</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bonus (Sign-On, )</masterLabel>
+            <translation>Bonos (Inicio de Sesión)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brand Ambassador</masterLabel>
+            <translation>Embajador de Marca</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brokerage</masterLabel>
+            <translation>Corretaje</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA Adjustment</masterLabel>
+            <translation><!-- CA Adjustment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COE/TR</masterLabel>
+            <translation><!-- COE/TR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canada</masterLabel>
+            <translation><!-- Canada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancel Invoice - Customer Master Error</masterLabel>
+            <translation>Cancelar Factura- Error en Maestro del Cliente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancel Invoice - Delivery Error</masterLabel>
+            <translation>Cancelar Factura- Error de Entrega</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancel Invoice - FI/CO interface Error</masterLabel>
+            <translation>Cancelar Factura- Error de Interfase FI/CO</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancel Invoice - IT Issue</masterLabel>
+            <translation>Cancelar Factura- Problema de TI</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancel Invoice - Missing Conditions</masterLabel>
+            <translation>Cancelar Factura- Condiciones Faltantes</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancel Invoice - Other</masterLabel>
+            <translation>Cancelar Factura- Otros</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancel Invoice - Pricing</masterLabel>
+            <translation>Cancelar Factura- Precios</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancel Invoice - Split Invoice</masterLabel>
+            <translation>Cancelar Factura- Dividir factura</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancel invoice - Accounting Error</masterLabel>
+            <translation>Cancelar Factura- Error contable</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ceridian Dayforce</masterLabel>
+            <translation><!-- Ceridian Dayforce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Champions Club</masterLabel>
+            <translation>CanadaClub de Campeones</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CitiManager profile update requests</masterLabel>
+            <translation><!-- CitiManager profile update requests --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clermont</masterLabel>
+            <translation><!-- Clermont --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Close requests</masterLabel>
+            <translation><!-- Close requests --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commuter</masterLabel>
+            <translation>Viajero diario al trabajo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Company Car Fuel</masterLabel>
+            <translation>Gasolina para auto de la compañía</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Configuration Enhancement</masterLabel>
+            <translation><!-- Configuration Enhancement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corp Tax</masterLabel>
+            <translation>Impuesto Corporativo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Correct Invoice  - Pricing</masterLabel>
+            <translation>Corregir Factura-Precios</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Correct Invoice - Currency</masterLabel>
+            <translation>Corregir Factura-Moneda</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Correct Invoice - Freight</masterLabel>
+            <translation>Corregir Factura- Transporte</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Correct Invoice - IT Issue</masterLabel>
+            <translation>Corregir Factura-Error IT</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Correct Invoice - Other</masterLabel>
+            <translation>Corregir Factura-Otros</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Correct Invoice - Pallets</masterLabel>
+            <translation>Corregir Factura-Palets</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Correct Invoice - Partner Function</masterLabel>
+            <translation>Corregir Factura-Funcion Interlocutor</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Correct Invoice - Service Charge</masterLabel>
+            <translation>Corregir Factura-Cargo por Servicio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Correct Invoice - Tax</masterLabel>
+            <translation>Corregir Factura-Impuesto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Correct Invoice - Trans SKU</masterLabel>
+            <translation>Corregir Factura- SKU Trans</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cost of Living</masterLabel>
+            <translation>Costo de Vida</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Create Canada Commissions</masterLabel>
+            <translation>Crear Comisiones en Canada</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Create Canada TPM</masterLabel>
+            <translation>Crear TPM en Canada</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Create D2D Transfer</masterLabel>
+            <translation>Crear Transferencia D2D</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Create EDI Failure Notification</masterLabel>
+            <translation>Crear una notificacion de falla de EDI</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Create Financial Invoice</masterLabel>
+            <translation>Crear Factura Financiera</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cruzan</masterLabel>
+            <translation><!-- Cruzan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deductions Adjustments</masterLabel>
+            <translation>Ajustes de Diferencias en Pago</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Destruction Adjustment</masterLabel>
+            <translation><!-- Destruction Adjustment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Direct Deposit Rejections</masterLabel>
+            <translation>Rechazo de depositos directos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Discrepancy Investigation</masterLabel>
+            <translation><!-- Discrepancy Investigation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Duplicate Payment Review</masterLabel>
+            <translation><!-- Duplicate Payment Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Duplicate Receipt Inquiries</masterLabel>
+            <translation><!-- Duplicate Receipt Inquiries --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Duplicate Request</masterLabel>
+            <translation>Solicitud Duplicada</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EDI Retransmission</masterLabel>
+            <translation>Retransmision de EDI</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMEA Adjustment</masterLabel>
+            <translation><!-- EMEA Adjustment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EY</masterLabel>
+            <translation><!-- EY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Emkay</masterLabel>
+            <translation><!-- Emkay --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee Referral</masterLabel>
+            <translation>Programa de referidos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee Transfer</masterLabel>
+            <translation>Transferencia de Empleados</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exception Approval/Non-reimbursable expense</masterLabel>
+            <translation>Excepción de aprobación/ Gasto no reembolsable</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exception Message/Audit Rule Inquiry</masterLabel>
+            <translation><!-- Exception Message/Audit Rule Inquiry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Executive Benefits</masterLabel>
+            <translation>Beneficios Ejecutivos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exit Notification</masterLabel>
+            <translation>Notificacion de Salida</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expense entry does not match receipt</masterLabel>
+            <translation>Gasto no concuerda con el recibo/comprobante</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expired Card Inquiry</masterLabel>
+            <translation><!-- Expired Card Inquiry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fidelity</masterLabel>
+            <translation>Fidelidad</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Final Pay</masterLabel>
+            <translation>Pago Final</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Frankfort</masterLabel>
+            <translation><!-- Frankfort --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fraud/Suspicious activity Inquiry</masterLabel>
+            <translation><!-- Fraud/Suspicious activity Inquiry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Frequent Flier Status</masterLabel>
+            <translation><!-- Frequent Flier Status --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GBS</masterLabel>
+            <translation><!-- GBS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Garnishment, Support, Levy</masterLabel>
+            <translation><!-- Garnishment, Support, Levy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General Query</masterLabel>
+            <translation>Consulta General</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gift Card</masterLabel>
+            <translation>Tarjeta de Regalo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global Mobility</masterLabel>
+            <translation>Movilidad Global</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR Ops</masterLabel>
+            <translation>Operacion de RH</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HRBP</masterLabel>
+            <translation><!-- HRBP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hourly</masterLabel>
+            <translation>Por Hora</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IT</masterLabel>
+            <translation><!-- IT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incorrect Expense Type</masterLabel>
+            <translation><!-- Incorrect Expense Type --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Increase</masterLabel>
+            <translation>Incremento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Informational</masterLabel>
+            <translation>Informativo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intercompany</masterLabel>
+            <translation><!-- Intercompany --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interface Inquiry/Issues</masterLabel>
+            <translation>Consulta/ Problemas en Interfaz</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal order requests</masterLabel>
+            <translation><!-- Internal order requests --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Itemization of hotel needed</masterLabel>
+            <translation>Desglose de hospedaje requerido</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MCC unblock request</masterLabel>
+            <translation><!-- MCC unblock request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MR11</masterLabel>
+            <translation><!-- MR11 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MRBR</masterLabel>
+            <translation><!-- MRBR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MX Adjustment</masterLabel>
+            <translation><!-- MX Adjustment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Makers Mark</masterLabel>
+            <translation><!-- Makers Mark --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manual Invoice Request</masterLabel>
+            <translation>Solicitud de Factura Manual</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Merit/Lump Sum</masterLabel>
+            <translation>Mérito / Suma Global</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missing/Incorrect Receipt</masterLabel>
+            <translation>Recibo incorrecto/ extraviado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North Carolina Billing</masterLabel>
+            <translation>Facturacion de Carolina del Norte</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Notification</masterLabel>
+            <translation>Notificacion</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Offboarding</masterLabel>
+            <translation><!-- Offboarding --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Offboarding former/terminated employees</masterLabel>
+            <translation><!-- Offboarding former/terminated employees --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Order confirmation</masterLabel>
+            <translation><!-- Order confirmation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Bailment request</masterLabel>
+            <translation><!-- Other Bailment request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PGI Adjustment</masterLabel>
+            <translation><!-- PGI Adjustment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PTO</masterLabel>
+            <translation>Vacaciones</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Password Reset</masterLabel>
+            <translation>Reestablecer Contraseña</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pay Changes Reports</masterLabel>
+            <translation>Informe de cambio de pagos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personal Charge Repayments</masterLabel>
+            <translation><!-- Personal Charge Repayments --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personal Travel Inquiry</masterLabel>
+            <translation><!-- Personal Travel Inquiry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Positive Pay</masterLabel>
+            <translation>Fraude</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Print Invoice Copy</masterLabel>
+            <translation>Copia de Factura Impresa</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Profit Sharing</masterLabel>
+            <translation>Utilidades</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Redirected Request</masterLabel>
+            <translation>Solicitud redirigida</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regular Pay</masterLabel>
+            <translation>Pago mensual</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Relocation</masterLabel>
+            <translation>Reubicacion</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repack Adjustment</masterLabel>
+            <translation><!-- Repack Adjustment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resend through Ship Compliant</masterLabel>
+            <translation>Reenviar a traves de barco compatible</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retention Bonus</masterLabel>
+            <translation>Bono de Retencion</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retro Pay</masterLabel>
+            <translation>Pago Retroactivo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SSO/Concur mobile app issues</masterLabel>
+            <translation><!-- SSO/Concur mobile app issues --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Severance</masterLabel>
+            <translation>Indemnización</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shipping Tracking</masterLabel>
+            <translation>Rastreo de Envío</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sign-On Bonus</masterLabel>
+            <translation>Bono de Contratacion</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Splitting Charges</masterLabel>
+            <translation><!-- Splitting Charges --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spot Bonus</masterLabel>
+            <translation>Bono en Efectivo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SuccessFactors</masterLabel>
+            <translation><!-- SuccessFactors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Taste Panel</masterLabel>
+            <translation>Panel de Prueba</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Taxi</masterLabel>
+            <translation><!-- Taxi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Timekeeping</masterLabel>
+            <translation><!-- Timekeeping --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Treasury</masterLabel>
+            <translation>Tesorería</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tuition</masterLabel>
+            <translation>Pago de Estudios</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tungsten inquiry</masterLabel>
+            <translation><!-- Tungsten inquiry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Adjustment</masterLabel>
+            <translation><!-- US Adjustment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unclaimed property inquiries</masterLabel>
+            <translation><!-- Unclaimed property inquiries --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>United Way</masterLabel>
+            <translation>United Way ( Donaciones)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>W2 Issues</masterLabel>
+            <translation>Problemas con W2</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wires</masterLabel>
+            <translation>Transferencias</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>other</masterLabel>
+            <translation>Otro</translation>
+        </picklistValues>
+    </CustomFieldTranslation>

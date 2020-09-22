@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Case</entityName>
+    <fieldName>Status</fieldName>
+    <masterLabel>Single Barrel - Standard</masterLabel>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;Tracking Number must be entered to properly track the package&lt;/p&gt;</info>
+        <picklistValueName>Order Shipped</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;Required Information:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;POS Items&lt;/li&gt;&lt;li&gt;Bottle Text Customization&lt;/li&gt;&lt;li&gt;Purchase Order&lt;/li&gt;&lt;li&gt;Barrel Selection&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>Pending Documentation</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>SKU__c</fieldNames>
+        <fieldNames>Quantity__c</fieldNames>
+        <picklistValueName>Pending Final Details</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;The ship date must be entered&lt;/p&gt;</info>
+        <picklistValueName>Preparing Barrel</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>Single_Barrel_Standard</recordTypeName>
+</PathAssistant>

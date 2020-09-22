@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MyWonOpportunities</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>ReasonWonorLost__c</columns>
+    <columns>ExpectedBottlesofFirstFulfillment__c</columns>
+    <columns>ActualBottlesofFirstFulfillment__c</columns>
+    <columns>DateofFulfillment__c</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>Closed - Won Opportunity</value>
+    </filters>
+    <label>My Won Opportunities</label>
+</ListView>

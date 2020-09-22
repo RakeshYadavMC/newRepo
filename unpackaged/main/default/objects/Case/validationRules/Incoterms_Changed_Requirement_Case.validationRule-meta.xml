@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Incoterms_Changed_Requirement_Case</fullName>
+    <active>true</active>
+    <description>If Incoterms were changed, Reason and Budget Code are required.</description>
+    <errorConditionFormula>AND ( 
+ ISPICKVAL( Inco_Terms_Changed__c , "Yes"), 
+OR( 
+ ISBLANK( Reason__c ), 
+ ISBLANK( Budget_Code__c ) 
+) 
+)</errorConditionFormula>
+    <errorMessage>Reason and Budget Code fields are Required because Incoterms were changed.</errorMessage>
+</ValidationRule>

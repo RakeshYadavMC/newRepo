@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Platform__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Related platform for this campaign</description>
+    <externalId>false</externalId>
+    <label>Platform</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Program__c.RecordType.DeveloperName</field>
+            <operation>equals</operation>
+            <value>Platform</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Program__c</referenceTo>
+    <relationshipLabel>Campaigns (Platform)</relationshipLabel>
+    <relationshipName>Campaigns</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

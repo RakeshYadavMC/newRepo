@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sales360_Users_Cannot_Edit_BI_Prog_Name</fullName>
+    <active>true</active>
+    <description>Since sales360 user have edit rights to Programs, they are able to edit Program Name of BI Programs by default. This rule will prevent a sales360 user from editing a BI Program Name.</description>
+    <errorConditionFormula>AND( 
+OR( 
+ISCHANGED(Name))&amp;&amp; 
+(OR( 
+$Profile.Name = "Operations, Admins and Reps", 
+$Profile.Name = "Sales Strategy", 
+$Profile.Name = "Advocacy") 
+))</errorConditionFormula>
+    <errorDisplayField>Name</errorDisplayField>
+    <errorMessage>You cannot edit the name of a Brand Investment Program.</errorMessage>
+</ValidationRule>

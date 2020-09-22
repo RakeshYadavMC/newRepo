@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Brand --></label>
+        <name>Brand__c</name>
+        <picklistValues>
+            <masterLabel>Cruzan</masterLabel>
+            <translation><!-- Cruzan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>El Tesoro</masterLabel>
+            <translation><!-- El Tesoro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jim Beam</masterLabel>
+            <translation><!-- Jim Beam --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Knob Creek</masterLabel>
+            <translation><!-- Knob Creek --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Makers Mark</masterLabel>
+            <translation><!-- Makers Mark --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

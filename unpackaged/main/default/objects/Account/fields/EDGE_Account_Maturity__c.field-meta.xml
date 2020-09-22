@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EDGE_Account_Maturity__c</fullName>
+    <description>Number of quarters an account has been in an EDGE Route.</description>
+    <externalId>false</externalId>
+    <inlineHelpText># qtrs account has been in any EDGE route</inlineHelpText>
+    <label>EDGE Account Maturity</label>
+    <precision>4</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

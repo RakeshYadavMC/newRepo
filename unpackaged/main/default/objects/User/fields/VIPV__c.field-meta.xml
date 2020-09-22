@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VIPV__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(INCLUDES(VIP__c,"Customer Service"),"Customer Service;",NULL)+IF(INCLUDES(VIP__c ,"HR"),"HR;",NULL)+IF(INCLUDES(VIP__c,"PTP/AP"),"PTP/AP;",NULL)+IF(INCLUDES(VIP__c,"Payroll"),"Payroll;",NULL)+IF(INCLUDES(VIP__c,"Tax"),"Tax;",NULL)+IF(INCLUDES(VIP__c,"Claims"),"Claims;",NULL)+IF(INCLUDES(VIP__c,"RTR"),"RTR;",NULL)+IF(INCLUDES(VIP__c,"T&amp;E"),"T&amp;E;",NULL)+IF(INCLUDES(VIP__c,"GMDM"),"GMDM;GMDM - Materials;GMDM - Cost Center Change;GMDM - Customer Hierarchy;GMDM - Customer Maintenance;GMDM - EDW Mapping;GMDM - GL Account Change/Extend;GMDM - Rebates;GMDM - Simple Request;GMDM - Vendor Maintenance",NULL)+IF(INCLUDES(VIP__c,"OTC Billing"),"OTC Billing;",NULL)+IF(INCLUDES(VIP__c,"GBS"),"GBS;",NULL)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>VIP Selected Val</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

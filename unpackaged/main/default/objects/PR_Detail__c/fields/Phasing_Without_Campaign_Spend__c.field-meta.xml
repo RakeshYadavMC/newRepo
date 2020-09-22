@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Phasing_Without_Campaign_Spend__c</fullName>
+    <description>This field will display the number of Phasing records with no Campaign Spends attached</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This field will display the number of Phasing records with no Campaign Spends attached</inlineHelpText>
+    <label># Phasing Without Campaign Spend</label>
+    <summaryFilterItems>
+        <field>PR_Phasing__c.Campaign_Spend_Created__c</field>
+        <operation>equals</operation>
+        <value>False</value>
+    </summaryFilterItems>
+    <summaryForeignKey>PR_Phasing__c.PR_Detail__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

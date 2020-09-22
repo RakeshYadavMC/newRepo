@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Delivery_Date__c</fullName>
+    <description>Used by marketing/finance to dictate when POS materials are delivered to a warehouse. Used in IFRS reporting</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This is the date goods are received.  This will be used to tie back to our IFRS financials.</inlineHelpText>
+    <label>Delivery Date</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

@@ -1,0 +1,6 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<p class="p1"><font color="#ff0000"><b><u>VIP SAMPLE ORDER - <i>100% CHECK REQUIRED</i></u></b></font></p><p class="p1"><font color="#ff0000"><b><u><i><br></i></u></b></font></p><p class="p1">State:</p><p class="p1">Order #:</p><p class="p1">Delivery #:</p><p class="p1">Material #:</p><p class="p1">Qty:</p><p class="p1">Current Ship Date:</p><p class="p1">Requested Ship Date:</p><p class="p1">Reason:</p><p class="p1"><br></p><p class="p1"><i>Add Screenshot Below of Created Order:</i></p><p class="p1"><i><br></i></p><p class="p1">Thank you,</p><p class="p1"><br></p><p class="p1">Beam Suntory Customer Service</p><p class="p1"><br></p><p class="p1"><span style="font-family: Calibri; font-size: x-small; line-height: 10.7px; background-color: rgb(255, 255, 255);">{!Case.Thread_Id}</span></p>]]></td>
+</tr>
+</table>

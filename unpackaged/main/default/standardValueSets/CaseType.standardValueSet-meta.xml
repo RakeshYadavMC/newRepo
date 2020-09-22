@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>true</sorted>
+    <standardValue>
+        <fullName>AAFES</fullName>
+        <default>false</default>
+        <label>AAFES</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Addition to Delivery</fullName>
+        <default>false</default>
+        <label>Addition to Delivery</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Adhoc</fullName>
+        <default>false</default>
+        <label>Adhoc</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Allocation</fullName>
+        <default>false</default>
+        <label>Allocation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Barrel</fullName>
+        <default>false</default>
+        <label>Barrel</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Barrel Program</fullName>
+        <default>false</default>
+        <label>Barrel Program</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Barrel Ready to Enter</fullName>
+        <default>false</default>
+        <label>Barrel Ready to Enter</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Barrel SKU on Multiple Line PO</fullName>
+        <default>false</default>
+        <label>Barrel SKU on Multiple Line PO</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Barrel Status</fullName>
+        <default>false</default>
+        <label>Barrel Status</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Batch Process</fullName>
+        <default>false</default>
+        <label>Batch Process</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Bottle</fullName>
+        <default>false</default>
+        <label>Bottle</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Brand Registration</fullName>
+        <default>false</default>
+        <label>Brand Registration</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Bulk</fullName>
+        <default>false</default>
+        <label>Bulk</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Can</fullName>
+        <default>false</default>
+        <label>Can</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Carrier</fullName>
+        <default>false</default>
+        <label>Carrier</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Carrier Change</fullName>
+        <default>false</default>
+        <label>Carrier Change</label>
+    </standardValue>
+    <standardValue>
+        <fullName>CD - Effective Date</fullName>
+        <default>false</default>
+        <label>CD - Effective Date</label>
+    </standardValue>
+    <standardValue>
+        <fullName>CD - Incorrect Entry</fullName>
+        <default>false</default>
+        <label>CD - Incorrect Entry</label>
+    </standardValue>
+    <standardValue>
+        <fullName>CD - New Item Set Up</fullName>
+        <default>false</default>
+        <label>CD - New Item Set Up</label>
+    </standardValue>
+    <standardValue>
+        <fullName>CD - Obsolete SKU</fullName>
+        <default>false</default>
+        <label>CD - Obsolete SKU</label>
+    </standardValue>
+    <standardValue>
+        <fullName>CD - Spec Update</fullName>
+        <default>false</default>
+        <label>CD - Spec Update</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Claims</fullName>
+        <default>false</default>
+        <label>Claims</label>
+    </standardValue>
+    <standardValue>
+        <fullName>CMIR</fullName>
+        <default>false</default>
+        <label>CMIR</label>
+    </standardValue>
+    <standardValue>
+        <fullName>CMIR Update</fullName>
+        <default>false</default>
+        <label>CMIR Update</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Coastguard</fullName>
+        <default>false</default>
+        <label>Coastguard</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Freight Claim</fullName>
+        <default>false</default>
+        <label>Compliance Claim</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Compliance Coordinator</fullName>
+        <default>false</default>
+        <label>Compliance Coordinator</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Consumer Reference</fullName>
+        <default>false</default>
+        <label>Consumer Reference</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Order to Cash / Billing</fullName>
+        <default>false</default>
+        <label>Credit and Collections</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Customer Change</fullName>
+        <default>false</default>
+        <label>Customer Change</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Cut at Door</fullName>
+        <default>false</default>
+        <label>Cut at Door</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Damage Claim</fullName>
+        <default>false</default>
+        <label>Damage Claim</label>
+    </standardValue>
+    <standardValue>
+        <fullName>France Pallet Rounding</fullName>
+        <default>false</default>
+        <label>DI SKU Setup</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Distiller&apos;s Choice</fullName>
+        <default>false</default>
+        <label>Distiller&apos;s Choice</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Document Request</fullName>
+        <default>false</default>
+        <label>Document Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Earthy/Moldy/Musty</fullName>
+        <default>false</default>
+        <label>Earthy/Moldy/Musty</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Esker Transmission Error</fullName>
+        <default>false</default>
+        <label>Esker Transmission Error</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Existing Order Inquiry</fullName>
+        <default>false</default>
+        <label>Existing Order Inquiry</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Expedite Request</fullName>
+        <default>false</default>
+        <label>Expedite Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>FACT</fullName>
+        <default>false</default>
+        <label>FACT</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Feature Request</fullName>
+        <default>false</default>
+        <label>Feature Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Global Master Data Management</fullName>
+        <default>false</default>
+        <label>Global Master Data Management</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Human Resources</fullName>
+        <default>false</default>
+        <label>Human Resources</label>
+    </standardValue>
+    <standardValue>
+        <fullName>IBM</fullName>
+        <default>false</default>
+        <label>IBM</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Incorrect Material Number Used</fullName>
+        <default>false</default>
+        <label>Incorrect Material Number Used</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Incorrect SCC Submitted</fullName>
+        <default>false</default>
+        <label>Incorrect SCC Submitted</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Innovation-Line Extension</fullName>
+        <default>false</default>
+        <label>Innovation-Line Extension</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Innovation-New Brand</fullName>
+        <default>false</default>
+        <label>Innovation-New Brand</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Internal Change</fullName>
+        <default>false</default>
+        <label>Internal Change</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Item Availability / Allocation</fullName>
+        <default>false</default>
+        <label>Item Availability / Allocation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>K07 Smoothing Orders</fullName>
+        <default>false</default>
+        <label>K07 Smoothing Orders</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Kick Off</fullName>
+        <default>false</default>
+        <label>Kick Off</label>
+    </standardValue>
+    <standardValue>
+        <fullName>KNC Bottling Update</fullName>
+        <default>false</default>
+        <label>KNC Bottling Update</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Label Revision-New COLA</fullName>
+        <default>false</default>
+        <label>Label Revision-New COLA</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Labels</fullName>
+        <default>false</default>
+        <label>Labels</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Labels/POS</fullName>
+        <default>false</default>
+        <label>Labels/POS</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Liquid</fullName>
+        <default>false</default>
+        <label>Liquid</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Marines</fullName>
+        <default>false</default>
+        <label>Marines</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Market Alert</fullName>
+        <default>false</default>
+        <label>Market Alert</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Marketing Compliance</fullName>
+        <default>false</default>
+        <label>Marketing Compliance</label>
+    </standardValue>
+    <standardValue>
+        <fullName>MIGO</fullName>
+        <default>false</default>
+        <label>MIGO</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Miscellaneous Posting Information</fullName>
+        <default>false</default>
+        <label>Miscellaneous Posting Information</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Mis-Shipment Claim</fullName>
+        <default>false</default>
+        <label>Mis-Shipment Claim</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Missing POs</fullName>
+        <default>false</default>
+        <label>Missing POs</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Mixed Case</fullName>
+        <default>false</default>
+        <label>Mixed Case</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Monthly Price Posting</fullName>
+        <default>false</default>
+        <label>Monthly Price Posting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>N/A</fullName>
+        <default>false</default>
+        <label>N/A</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Navy</fullName>
+        <default>false</default>
+        <label>Navy</label>
+    </standardValue>
+    <standardValue>
+        <fullName>New Proof – New COLA</fullName>
+        <default>false</default>
+        <label>New Proof – New COLA</label>
+    </standardValue>
+    <standardValue>
+        <fullName>New Proof – No New COLA</fullName>
+        <default>false</default>
+        <label>New Proof – No New COLA</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Newsletter</fullName>
+        <default>false</default>
+        <label>Newsletter</label>
+    </standardValue>
+    <standardValue>
+        <fullName>New User Request</fullName>
+        <default>false</default>
+        <label>New User Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>No issue</fullName>
+        <default>false</default>
+        <label>No issue</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Not a Beam Suntory Product</fullName>
+        <default>false</default>
+        <label>Not a Beam Suntory Product</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Obsolete Item</fullName>
+        <default>false</default>
+        <label>Obsolete Item</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Off Set</fullName>
+        <default>false</default>
+        <label>Off Set</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Order Cancelation</fullName>
+        <default>false</default>
+        <label>Order Cancelation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Order Entry Error</fullName>
+        <default>false</default>
+        <label>Order Entry Error</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Order Smoothed</fullName>
+        <default>false</default>
+        <label>Order Smoothed</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Order Status</fullName>
+        <default>false</default>
+        <label>Order Status</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other Inquiry</fullName>
+        <default>false</default>
+        <label>Other Inquiry</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Outage</fullName>
+        <default>false</default>
+        <label>Outage</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Overage Claim</fullName>
+        <default>false</default>
+        <label>Overage Claim</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Packaging</fullName>
+        <default>false</default>
+        <label>Packaging</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Payroll</fullName>
+        <default>false</default>
+        <label>Payroll</label>
+    </standardValue>
+    <standardValue>
+        <fullName>PGI</fullName>
+        <default>false</default>
+        <label>PGI</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Plant Request</fullName>
+        <default>false</default>
+        <label>Plant Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Portal User Set Up</fullName>
+        <default>false</default>
+        <label>Portal User Set Up</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Pricing</fullName>
+        <default>false</default>
+        <label>Pricing</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Pricing Question</fullName>
+        <default>false</default>
+        <label>Pricing Question</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Problem</fullName>
+        <default>false</default>
+        <label>Problem</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Procure to Pay / Accounts Payable</fullName>
+        <default>false</default>
+        <label>Procure to Pay / Accounts Payable</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Product Availability</fullName>
+        <default>false</default>
+        <label>Product Availability</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Product Design</fullName>
+        <default>false</default>
+        <label>Product Design</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Production Date</fullName>
+        <default>false</default>
+        <label>Production Date</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Product Specification</fullName>
+        <default>false</default>
+        <label>Product Specification</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Quality Claim</fullName>
+        <default>false</default>
+        <label>Quality Claim</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Quarterly Price Filing</fullName>
+        <default>false</default>
+        <label>Quarterly Price Filing</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Question</fullName>
+        <default>false</default>
+        <label>Question</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Recent Recipes</fullName>
+        <default>false</default>
+        <label>Recent Recipes</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Record to Report</fullName>
+        <default>false</default>
+        <label>Record to Report</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Remote Selection</fullName>
+        <default>false</default>
+        <label>Remote Selection</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Remove Item from Delivery</fullName>
+        <default>false</default>
+        <label>Remove Item from Delivery</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Report Request</fullName>
+        <default>false</default>
+        <label>Report Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Reports</fullName>
+        <default>false</default>
+        <label>Reports</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Requisition</fullName>
+        <default>false</default>
+        <label>Requisition</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sample</fullName>
+        <default>false</default>
+        <label>Sample</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sample Kit</fullName>
+        <default>false</default>
+        <label>Sample Kit</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SHD Quality  Incident</fullName>
+        <default>false</default>
+        <label>SHD Quality  Incident</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SHD Serious Quality Incident</fullName>
+        <default>false</default>
+        <label>SHD Serious Quality Incident</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Shipping Location</fullName>
+        <default>false</default>
+        <label>Shipping Location</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Shipping Requirements</fullName>
+        <default>false</default>
+        <label>Shipping Requirements</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Shortage Claim</fullName>
+        <default>false</default>
+        <label>Shortage Claim</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Size Extension-New COLA</fullName>
+        <default>false</default>
+        <label>Size Extension-New COLA</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Size Extension-NO New COLA</fullName>
+        <default>false</default>
+        <label>Size Extension-NO New COLA</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SKU Sub</fullName>
+        <default>false</default>
+        <label>SKU Sub</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Spec Change</fullName>
+        <default>false</default>
+        <label>Spec Change</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Split Barrel</fullName>
+        <default>false</default>
+        <label>Split Barrel</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Standard</fullName>
+        <default>false</default>
+        <label>Standard</label>
+    </standardValue>
+    <standardValue>
+        <fullName>State / NABCA Codes</fullName>
+        <default>false</default>
+        <label>State / NABCA Codes</label>
+    </standardValue>
+    <standardValue>
+        <fullName>State Code Claim</fullName>
+        <default>false</default>
+        <label>State Code Claim</label>
+    </standardValue>
+    <standardValue>
+        <fullName>State Contact</fullName>
+        <default>false</default>
+        <label>State Contact</label>
+    </standardValue>
+    <standardValue>
+        <fullName>State Manager</fullName>
+        <default>false</default>
+        <label>State Manager</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Task Request</fullName>
+        <default>false</default>
+        <label>Task Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Tastes Different</fullName>
+        <default>false</default>
+        <label>Tastes Different</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Tax</fullName>
+        <default>false</default>
+        <label>Tax</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Too Harsh</fullName>
+        <default>false</default>
+        <label>Too Harsh</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Too Peaty</fullName>
+        <default>false</default>
+        <label>Too Peaty</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Too Sweet</fullName>
+        <default>false</default>
+        <label>Too Sweet</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Too Watery</fullName>
+        <default>false</default>
+        <label>Too Watery</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Tracking Number Request</fullName>
+        <default>false</default>
+        <label>Tracking Number Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Traffic Request</fullName>
+        <default>false</default>
+        <label>Traffic Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Training/Onboarding</fullName>
+        <default>false</default>
+        <label>Training/Onboarding</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Travel &amp; Entertainment</fullName>
+        <default>false</default>
+        <label>Travel &amp; Entertainment</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Traypack Audit</fullName>
+        <default>false</default>
+        <label>Traypack Audit</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Trip and Tour</fullName>
+        <default>false</default>
+        <label>Trip and Tour</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Truck at Door</fullName>
+        <default>false</default>
+        <label>Truck at Door</label>
+    </standardValue>
+    <standardValue>
+        <fullName>UPC, Bottle Shot, Label, Etc.</fullName>
+        <default>false</default>
+        <label>UPC, Bottle Shot, Label, Etc.</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Used Barrels</fullName>
+        <default>false</default>
+        <label>Used Barrels</label>
+    </standardValue>
+    <standardValue>
+        <fullName>VAP</fullName>
+        <default>false</default>
+        <label>VAP</label>
+    </standardValue>
+    <standardValue>
+        <fullName>VAP/LTO Allocation</fullName>
+        <default>false</default>
+        <label>VAP/LTO Allocation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>VAP/On-Pack</fullName>
+        <default>false</default>
+        <label>VAP/On-Pack</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Wrong Plant</fullName>
+        <default>false</default>
+        <label>Wrong Plant</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ZV240</fullName>
+        <default>false</default>
+        <label>ZV240</label>
+    </standardValue>
+</StandardValueSet>

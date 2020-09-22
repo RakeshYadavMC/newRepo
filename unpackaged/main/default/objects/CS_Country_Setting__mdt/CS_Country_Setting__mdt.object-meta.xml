@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This setting will define what country goes to what region</description>
+    <label>CS Country Setting</label>
+    <pluralLabel>CS Country Settings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

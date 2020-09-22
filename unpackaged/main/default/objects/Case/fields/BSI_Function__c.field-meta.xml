@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BSI_Function__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(CONTAINS(RecordType.Name, "GMDM"), "GBS", 
+IF(CONTAINS(RecordType.Name, "OTC"), "GBS",
+CASE(RecordType.Name ,
+"HR","GBS",
+"Open Enrollment Inquiries", "GBS",
+"PTP/AP","GBS",
+"PTP/AP - PR/PO","GBS",
+"Payroll","GBS",
+"RTR","GBS",
+"T&amp;E","GBS",
+"Tax","GBS",
+"Claims","GBS",
+"Registration Approval","GBS",
+"GBS Outlook","GBS",
+"Brand Registration", "Compliance",
+"Compliance Sub Case", "Compliance",
+"Quote Request", "Compliance",
+"Price Posting", "Compliance",
+"Price Filing", "Compliance",
+"Discount", "Compliance",
+"Compliance Inquiry", "Compliance",
+"CS"
+)))</formula>
+    <label>BSI Function</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

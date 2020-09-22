@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Corporate</fullName>
+        <default>false</default>
+        <label>Corporate</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Distributor</fullName>
+        <default>false</default>
+        <label>Distributor</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Retailer</fullName>
+        <default>false</default>
+        <label>Retailer</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Ship To</fullName>
+        <default>false</default>
+        <label>Ship To</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sold To</fullName>
+        <default>false</default>
+        <label>Sold To</label>
+    </standardValue>
+    <standardValue>
+        <fullName>BEAM Global Parent Company</fullName>
+        <default>false</default>
+        <label>BEAM Global Parent Company</label>
+    </standardValue>
+    <standardValue>
+        <fullName>BEAM Aggregated Forecast Group</fullName>
+        <default>false</default>
+        <label>BEAM Aggregated Forecast Group</label>
+    </standardValue>
+    <standardValue>
+        <fullName>BEAM Forecast Group</fullName>
+        <default>false</default>
+        <label>BEAM Forecast Group</label>
+    </standardValue>
+    <standardValue>
+        <fullName>BEAM Sub Forecast Group</fullName>
+        <default>false</default>
+        <label>BEAM Sub Forecast Group</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Airport</fullName>
+        <default>false</default>
+        <label>Airport</label>
+    </standardValue>
+    <standardValue>
+        <fullName>GTR Region</fullName>
+        <default>false</default>
+        <label>GTR Region</label>
+    </standardValue>
+    <standardValue>
+        <fullName>GTR Country</fullName>
+        <default>false</default>
+        <label>GTR Country</label>
+    </standardValue>
+    <standardValue>
+        <fullName>GTR Depletion Dummy Account</fullName>
+        <default>false</default>
+        <label>GTR Depletion Dummy Account</label>
+    </standardValue>
+    <standardValue>
+        <fullName>BEAM Intercompany Customer</fullName>
+        <default>false</default>
+        <label>BEAM Intercompany Customer</label>
+    </standardValue>
+    <standardValue>
+        <fullName>BGSW Management group</fullName>
+        <default>false</default>
+        <label>BGSW Management group</label>
+    </standardValue>
+    <standardValue>
+        <fullName>BGSW Management sub group</fullName>
+        <default>false</default>
+        <label>BGSW Management sub group</label>
+    </standardValue>
+    <standardValue>
+        <fullName>BGSW Market sub group</fullName>
+        <default>false</default>
+        <label>BGSW Market sub group</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Beam Bill-to Party</fullName>
+        <default>false</default>
+        <label>Beam Bill-to Party</label>
+    </standardValue>
+</StandardValueSet>

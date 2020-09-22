@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TransferringMarketingPlan__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Marketing Plan transferring additional funds.</inlineHelpText>
+    <label>Transferring Marketing Plan</label>
+    <referenceTo>MarketingPlan__c</referenceTo>
+    <relationshipLabel>Marketing Plan Transfers (Transferring Marketing Plan)</relationshipLabel>
+    <relationshipName>Marketing_Plan_Transfer</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>true</writeRequiresMasterRead>
+</CustomField>

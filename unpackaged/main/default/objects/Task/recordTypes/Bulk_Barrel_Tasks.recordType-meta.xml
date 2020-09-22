@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bulk_Barrel_Tasks</fullName>
+    <active>true</active>
+    <label>Bulk&amp;Barrel Tasks</label>
+    <picklistValues>
+        <picklist>Objectives__c</picklist>
+        <values>
+            <fullName>Account Business Review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Account Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consumer Event%2FPromotion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Features</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GoSpotCheck Survey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Influencer Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meet %26 Greet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Menu Placement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Product Introduction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>POS%2FDisplay Installation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PR Program%2FSpecial Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Programming</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shelf Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spirits List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Surveying</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trade Training%2FEducation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Virtual Spirits</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Normal</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status</picklist>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deferred</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Started</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Waiting on someone else</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Subject</picklist>
+        <values>
+            <fullName>Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meeting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social Media Interaction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web form Submission</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meeting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

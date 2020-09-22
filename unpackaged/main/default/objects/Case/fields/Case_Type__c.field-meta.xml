@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Case Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Bailment</fullName>
+                <default>false</default>
+                <label>Bailment</label>
+            </value>
+            <value>
+                <fullName>Changes</fullName>
+                <default>false</default>
+                <label>Changes</label>
+            </value>
+            <value>
+                <fullName>EDI Order</fullName>
+                <default>false</default>
+                <label>EDI Order</label>
+            </value>
+            <value>
+                <fullName>Escalated Form</fullName>
+                <default>false</default>
+                <label>Escalated Form</label>
+            </value>
+            <value>
+                <fullName>GMDM</fullName>
+                <default>false</default>
+                <label>GMDM</label>
+            </value>
+            <value>
+                <fullName>HR</fullName>
+                <default>false</default>
+                <label>HR</label>
+            </value>
+            <value>
+                <fullName>Inquiry</fullName>
+                <default>false</default>
+                <label>Inquiry</label>
+            </value>
+            <value>
+                <fullName>Inquiry (Internal)</fullName>
+                <default>false</default>
+                <label>Inquiry (Internal)</label>
+            </value>
+            <value>
+                <fullName>Order Claim</fullName>
+                <default>false</default>
+                <label>Order Claim</label>
+            </value>
+            <value>
+                <fullName>Orders</fullName>
+                <default>false</default>
+                <label>Orders</label>
+            </value>
+            <value>
+                <fullName>OTC Billing</fullName>
+                <default>false</default>
+                <label>OTC Billing</label>
+            </value>
+            <value>
+                <fullName>Payroll</fullName>
+                <default>false</default>
+                <label>Payroll</label>
+            </value>
+            <value>
+                <fullName>PTP/AP</fullName>
+                <default>false</default>
+                <label>PTP/AP</label>
+            </value>
+            <value>
+                <fullName>Quality Claim</fullName>
+                <default>false</default>
+                <label>Quality Claim</label>
+            </value>
+            <value>
+                <fullName>RTR</fullName>
+                <default>false</default>
+                <label>RTR</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

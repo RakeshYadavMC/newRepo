@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prioirty_JTBD__c</fullName>
+    <externalId>false</externalId>
+    <label>Priority (JTBD)</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>CampaignBrand__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Create consumer brand awareness via trial with Auchentoshan cocktails</fullName>
+                <default>false</default>
+                <label>Create consumer brand awareness via trial with Auchentoshan cocktails</label>
+            </value>
+            <value>
+                <fullName>Drive brand advocacy among key bartenders via meaningful experiences</fullName>
+                <default>false</default>
+                <label>Drive brand advocacy among key bartenders via meaningful experiences</label>
+            </value>
+            <value>
+                <fullName>Drive consumer trial through building trade advocacy:Make BH top of mind to influencers &amp; bartenders as the perfect sipping whiskey</fullName>
+                <default>false</default>
+                <label>Drive consumer trial through building trade advocacy:Make BH top of mind to influencers &amp; bartenders as the perfect sipping whiskey</label>
+            </value>
+            <value>
+                <fullName>Intercept consumers in their whiskey journey</fullName>
+                <default>false</default>
+                <label>Intercept consumers in their whiskey journey</label>
+            </value>
+            <value>
+                <fullName>Drive BH’s brand equity through targeted BTL-led investment that encourages discovery of the brand</fullName>
+                <default>false</default>
+                <label>Drive BH’s brand equity through targeted BTL-led investment that encourages discovery of the brand</label>
+            </value>
+            <value>
+                <fullName>N/A</fullName>
+                <default>false</default>
+                <label>N/A</label>
+            </value>
+            <value>
+                <fullName>Win at point of purchase</fullName>
+                <default>false</default>
+                <label>Win at point of purchase</label>
+            </value>
+            <value>
+                <fullName>Increase perceived value of CC</fullName>
+                <default>false</default>
+                <label>Increase perceived value of CC</label>
+            </value>
+            <value>
+                <fullName>Motivate multicultural millennial consumers to buy Courvoisier instead of Hennessy or Remy Martin</fullName>
+                <default>false</default>
+                <label>Motivate multicultural millennial consumers to buy Courvoisier instead of Hennessy or Remy Martin</label>
+            </value>
+            <value>
+                <fullName>Remind multicultural consumers of Courvoisier’s luxury credentials</fullName>
+                <default>false</default>
+                <label>Remind multicultural consumers of Courvoisier’s luxury credentials</label>
+            </value>
+            <value>
+                <fullName>Win at shelf floor and on menu and drive infinity with Cruzan Bucket list program</fullName>
+                <default>false</default>
+                <label>Win at shelf floor and on menu and drive infinity with Cruzan Bucket list program</label>
+            </value>
+            <value>
+                <fullName>Win share of Summer Refreshment stock up by providing additional in market tools for increased visibility with displays and menus and sampling</fullName>
+                <default>false</default>
+                <label>Win share of Summer Refreshment stock up by providing additional in market tools for increased visibility with displays and menus and sampling</label>
+            </value>
+            <value>
+                <fullName>Introduce Single Barrel Program during key gifting timeframe and educate bartenders on premium Rum Story</fullName>
+                <default>false</default>
+                <label>Introduce Single Barrel Program during key gifting timeframe and educate bartenders on premium Rum Story</label>
+            </value>
+            <value>
+                <fullName>Hold floor and shelf space and gain menu placements with recipes and cross-merch educational tools for top-10 flavors</fullName>
+                <default>false</default>
+                <label>Hold floor and shelf space and gain menu placements with recipes and cross-merch educational tools for top-10 flavors</label>
+            </value>
+            <value>
+                <fullName>Win share of Cinco &amp; Summer Refreshment stock-up by providing additional in-market tools for increased visibility with displays and menus</fullName>
+                <default>false</default>
+                <label>Win share of Cinco &amp; Summer Refreshment stock-up by providing additional in-market tools for increased visibility with displays and menus</label>
+            </value>
+            <value>
+                <fullName>Increase Awareness - Utilize Focus Market Takeovers and Targeted/Experiential Media to reinforce EFFEN as the super premium vodka that doesn’t just follow the status quo</fullName>
+                <default>false</default>
+                <label>Increase Awareness - Utilize Focus Market Takeovers and Targeted/Experiential Media to reinforce EFFEN as the super premium vodka that doesn’t just follow the status quo</label>
+            </value>
+            <value>
+                <fullName>Get Distribution in the Right Accounts - Leverage expanded size offerings for increased distribution in target accounts</fullName>
+                <default>false</default>
+                <label>Get Distribution in the Right Accounts - Leverage expanded size offerings for increased distribution in target accounts</label>
+            </value>
+            <value>
+                <fullName>Premiumize EFFEN - Increase presence in high-end accounts</fullName>
+                <default>false</default>
+                <label>Premiumize EFFEN - Increase presence in high-end accounts</label>
+            </value>
+            <value>
+                <fullName>Deliver unique, engaging programming and premium advertising to drive consumer awareness and recruit new consumers</fullName>
+                <default>false</default>
+                <label>Deliver unique, engaging programming and premium advertising to drive consumer awareness and recruit new consumers</label>
+            </value>
+            <value>
+                <fullName>Drive quality across every touchpoint for both consumers and trade to elevate Hornitos and differentiate from Sauza</fullName>
+                <default>false</default>
+                <label>Drive quality across every touchpoint for both consumers and trade to elevate Hornitos and differentiate from Sauza</label>
+            </value>
+            <value>
+                <fullName>GET LDA Millennial guys who are just starting their whiskey journey TO become regular drinkers of Jim Beam White BY making the brand relevant via premium quality credentials</fullName>
+                <default>false</default>
+                <label>GET LDA Millennial guys who are just starting their whiskey journey TO become regular drinkers of Jim Beam White BY making the brand relevant via premium quality credentials</label>
+            </value>
+            <value>
+                <fullName>GET non-Jim Beam consumers open to flavored whiskey TO try Jim Beam flavors portfolio BY tapping into new drinking occasions (refreshments, shots)</fullName>
+                <default>false</default>
+                <label>GET non-Jim Beam consumers open to flavored whiskey TO try Jim Beam flavors portfolio BY tapping into new drinking occasions (refreshments, shots)</label>
+            </value>
+            <value>
+                <fullName>GET current JBW users TO trade up and continue to buy Jim Beam during their bourbon exploration BY introducing them to new premium expressions of Jim Beam</fullName>
+                <default>false</default>
+                <label>GET current JBW users TO trade up and continue to buy Jim Beam during their bourbon exploration BY introducing them to new premium expressions of Jim Beam</label>
+            </value>
+            <value>
+                <fullName>Fuel local discovery</fullName>
+                <default>false</default>
+                <label>Fuel local discovery</label>
+            </value>
+            <value>
+                <fullName>Share the KC "Big Flavor" story</fullName>
+                <default>false</default>
+                <label>Share the KC "Big Flavor" story</label>
+            </value>
+            <value>
+                <fullName>Drive Rye and LTO's</fullName>
+                <default>false</default>
+                <label>Drive Rye and LTO's</label>
+            </value>
+            <value>
+                <fullName>Recruit new consumers with POP events Laphroaig Select and by expanding the Scotch occasion w/ Penicillin</fullName>
+                <default>false</default>
+                <label>Recruit new consumers with POP events Laphroaig Select and by expanding the Scotch occasion w/ Penicillin</label>
+            </value>
+            <value>
+                <fullName>Drive brand advocacy by leveraging Simon and the POPs to bring Laphroaig to life for Friends old and new</fullName>
+                <default>false</default>
+                <label>Drive brand advocacy by leveraging Simon and the POPs to bring Laphroaig to life for Friends old and new</label>
+            </value>
+            <value>
+                <fullName>Restore Maker's Mark Brand Relevance in US</fullName>
+                <default>false</default>
+                <label>Restore Maker's Mark Brand Relevance in US</label>
+            </value>
+            <value>
+                <fullName>Recruit New Loyalists</fullName>
+                <default>false</default>
+                <label>Recruit New Loyalists</label>
+            </value>
+            <value>
+                <fullName>Drive M46 Purchase Intent with Woodford drinkers</fullName>
+                <default>false</default>
+                <label>Drive M46 Purchase Intent with Woodford drinkers</label>
+            </value>
+            <value>
+                <fullName>Drive distribution and trial of unflavored</fullName>
+                <default>false</default>
+                <label>Drive distribution and trial of unflavored</label>
+            </value>
+            <value>
+                <fullName>Increase trial &amp; velocity of Priority Flavors and Whipped, to warrant further distribution</fullName>
+                <default>false</default>
+                <label>Increase trial &amp; velocity of Priority Flavors and Whipped, to warrant further distribution</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Banff Ice</controllingFieldValue>
+            <controllingFieldValue>RTD Jim Beam</controllingFieldValue>
+            <controllingFieldValue>Yamasaki</controllingFieldValue>
+            <controllingFieldValue>El Tesoro</controllingFieldValue>
+            <controllingFieldValue>Hacienda</controllingFieldValue>
+            <controllingFieldValue>Irish Whiskeys</controllingFieldValue>
+            <controllingFieldValue>Bowmore</controllingFieldValue>
+            <controllingFieldValue>Calico Jack</controllingFieldValue>
+            <controllingFieldValue>Alberta Rye</controllingFieldValue>
+            <controllingFieldValue>Kessler Blend</controllingFieldValue>
+            <controllingFieldValue>Larios</controllingFieldValue>
+            <controllingFieldValue>McClellands</controllingFieldValue>
+            <controllingFieldValue>Old Overholt</controllingFieldValue>
+            <controllingFieldValue>Multibrand</controllingFieldValue>
+            <valueName>N/A</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cruzan</controllingFieldValue>
+            <controllingFieldValue>Multibrand</controllingFieldValue>
+            <valueName>Win at shelf floor and on menu and drive infinity with Cruzan Bucket list program</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cruzan</controllingFieldValue>
+            <controllingFieldValue>Multibrand</controllingFieldValue>
+            <valueName>Win share of Summer Refreshment stock up by providing additional in market tools for increased visibility with displays and menus and sampling</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cruzan</controllingFieldValue>
+            <controllingFieldValue>Multibrand</controllingFieldValue>
+            <valueName>Introduce Single Barrel Program during key gifting timeframe and educate bartenders on premium Rum Story</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <controllingFieldValue>Multibrand</controllingFieldValue>
+            <valueName>Hold floor and shelf space and gain menu placements with recipes and cross-merch educational tools for top-10 flavors</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DeKuyper</controllingFieldValue>
+            <controllingFieldValue>Multibrand</controllingFieldValue>
+            <valueName>Win share of Cinco &amp; Summer Refreshment stock-up by providing additional in-market tools for increased visibility with displays and menus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Effen</controllingFieldValue>
+            <controllingFieldValue>Multibrand</controllingFieldValue>
+            <valueName>Increase Awareness - Utilize Focus Market Takeovers and Targeted/Experiential Media to reinforce EFFEN as the super premium vodka that doesn’t just follow the status quo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Effen</controllingFieldValue>
+            <controllingFieldValue>Multibrand</controllingFieldValue>
+            <valueName>Get Distribution in the Right Accounts - Leverage expanded size offerings for increased distribution in target accounts</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Effen</controllingFieldValue>
+            <controllingFieldValue>Multibrand</controllingFieldValue>
+            <valueName>Premiumize EFFEN - Increase presence in high-end accounts</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam White</controllingFieldValue>
+            <controllingFieldValue>Jim Beam Devils Cut</controllingFieldValue>
+            <controllingFieldValue>Jim Beam Family</controllingFieldValue>
+            <controllingFieldValue>Multibrand</controllingFieldValue>
+            <valueName>GET LDA Millennial guys who are just starting their whiskey journey TO become regular drinkers of Jim Beam White BY making the brand relevant via premium quality credentials</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam White</controllingFieldValue>
+            <controllingFieldValue>Jim Beam Devils Cut</controllingFieldValue>
+            <controllingFieldValue>Jim Beam Family</controllingFieldValue>
+            <controllingFieldValue>Multibrand</controllingFieldValue>
+            <valueName>GET non-Jim Beam consumers open to flavored whiskey TO try Jim Beam flavors portfolio BY tapping into new drinking occasions (refreshments, shots)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jim Beam White</controllingFieldValue>
+            <controllingFieldValue>Jim Beam Devils Cut</controllingFieldValue>
+            <controllingFieldValue>Jim Beam Family</controllingFieldValue>
+            <controllingFieldValue>Multibrand</controllingFieldValue>
+            <valueName>GET current JBW users TO trade up and continue to buy Jim Beam during their bourbon exploration BY introducing them to new premium expressions of Jim Beam</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hornitos</controllingFieldValue>
+            <controllingFieldValue>Multibrand</controllingFieldValue>
+            <valueName>Deliver unique, engaging programming and premium advertising to drive consumer awareness and recruit new consumers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hornitos</controllingFieldValue>
+            <controllingFieldValue>Multibrand</controllingFieldValue>
+            <valueName>Drive quality across every touchpoint for both consumers and trade to elevate Hornitos and differentiate from Sauza</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Auchentoshan</controllingFieldValue>
+            <controllingFieldValue>Multibrand</controllingFieldValue>
+            <valueName>Create consumer brand awareness via trial with Auchentoshan cocktails</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Auchentoshan</controllingFieldValue>
+            <controllingFieldValue>Multibrand</controllingFieldValue>
+            <valueName>Drive brand advocacy among key bartenders via meaningful experiences</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basil Hayden</controllingFieldValue>
+            <controllingFieldValue>Multibrand</controllingFieldValue>
+            <valueName>Drive consumer trial through building trade advocacy:Make BH top of mind to influencers &amp; bartenders as the perfect sipping whiskey</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basil Hayden</controllingFieldValue>
+            <controllingFieldValue>Multibrand</controllingFieldValue>
+            <valueName>Intercept consumers in their whiskey journey</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basil Hayden</controllingFieldValue>
+            <controllingFieldValue>Multibrand</controllingFieldValue>
+            <valueName>Drive BH’s brand equity through targeted BTL-led investment that encourages discovery of the brand</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canadian Club</controllingFieldValue>
+            <controllingFieldValue>Multibrand</controllingFieldValue>
+            <valueName>Win at point of purchase</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canadian Club</controllingFieldValue>
+            <controllingFieldValue>Multibrand</controllingFieldValue>
+            <valueName>Increase perceived value of CC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Courvoisier</controllingFieldValue>
+            <controllingFieldValue>Multibrand</controllingFieldValue>
+            <valueName>Motivate multicultural millennial consumers to buy Courvoisier instead of Hennessy or Remy Martin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Courvoisier</controllingFieldValue>
+            <controllingFieldValue>Multibrand</controllingFieldValue>
+            <valueName>Remind multicultural consumers of Courvoisier’s luxury credentials</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Knob Creek</controllingFieldValue>
+            <controllingFieldValue>Multibrand</controllingFieldValue>
+            <valueName>Fuel local discovery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Knob Creek</controllingFieldValue>
+            <controllingFieldValue>Multibrand</controllingFieldValue>
+            <valueName>Share the KC "Big Flavor" story</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Knob Creek</controllingFieldValue>
+            <controllingFieldValue>Multibrand</controllingFieldValue>
+            <valueName>Drive Rye and LTO's</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Laphroaig</controllingFieldValue>
+            <controllingFieldValue>Multibrand</controllingFieldValue>
+            <valueName>Recruit new consumers with POP events Laphroaig Select and by expanding the Scotch occasion w/ Penicillin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Laphroaig</controllingFieldValue>
+            <controllingFieldValue>Multibrand</controllingFieldValue>
+            <valueName>Drive brand advocacy by leveraging Simon and the POPs to bring Laphroaig to life for Friends old and new</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Makers Mark</controllingFieldValue>
+            <controllingFieldValue>Multibrand</controllingFieldValue>
+            <valueName>Restore Maker's Mark Brand Relevance in US</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Makers Mark</controllingFieldValue>
+            <controllingFieldValue>Multibrand</controllingFieldValue>
+            <valueName>Recruit New Loyalists</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Makers Mark</controllingFieldValue>
+            <controllingFieldValue>Multibrand</controllingFieldValue>
+            <valueName>Drive M46 Purchase Intent with Woodford drinkers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Multibrand</controllingFieldValue>
+            <controllingFieldValue>Pinnacle Vodka</controllingFieldValue>
+            <valueName>Drive distribution and trial of unflavored</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Multibrand</controllingFieldValue>
+            <controllingFieldValue>Pinnacle Vodka</controllingFieldValue>
+            <valueName>Increase trial &amp; velocity of Priority Flavors and Whipped, to warrant further distribution</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

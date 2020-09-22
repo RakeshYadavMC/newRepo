@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Financial_Dispo_Requirement</fullName>
+    <active>false</active>
+    <description>Financial Disposition is required if ticket is Closed Approved.</description>
+    <errorConditionFormula>AND (
+ISPICKVAL (  CPro_Approval__c , "Yes"),
+ISPICKVAL ( Financial_Disposition__c , ""),
+OR(
+  RecordType.Name = "EDI Order",
+  RecordType.Name = "Inquiry",
+  RecordType.Name = "Inquiry (Internal)",
+  RecordType.Name = "Order Claim",
+  RecordType.Name = "Orders",
+  RecordType.Name = "Quality Claim",
+  RecordType.Name = "Third Party",
+  RecordType.Name = "Changes"
+ )
+)</errorConditionFormula>
+    <errorDisplayField>Financial_Disposition__c</errorDisplayField>
+    <errorMessage>Financial Disposition is required.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Start_Date_Year_Match_Parent</fullName>
+    <active>true</active>
+    <description>Start Date Year must match the Parent Marketing Plan.</description>
+    <errorConditionFormula>text(ParentMarketingPlan__r.Year__c )  &lt;&gt;  text(YEAR( InitialStartDate__c ))</errorConditionFormula>
+    <errorDisplayField>InitialStartDate__c</errorDisplayField>
+    <errorMessage>Start Date Year must match the Parent Marketing Plan.</errorMessage>
+</ValidationRule>

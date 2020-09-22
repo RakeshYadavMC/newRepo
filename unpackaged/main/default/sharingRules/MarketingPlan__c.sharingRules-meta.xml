@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?><SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>AUS_Marketing_Plan_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>AUS Marketing Plan Sharing</label>
+        <sharedTo>
+            <group>All_AUS_Marketing_Users</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Country__c</field>
+            <operation>equals</operation>
+            <value>AUS</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Marketing_Plan_Sharing_Ambassadors</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Sharing rule to share the Marketing Plan records to Ambassadors public group. Marketing Plans to be shared are : 
+Jim Beam Premium-National BTL Commercial MarketingKnob 
+Creek-National BTL Commercial Marketing
+Makers Mark-National BTL Commercial Marketing
+
+M. Cavanaugh also added: 
+-	Basil Hayden’s National BTL 
+-	Suntory Whiskey National BTL
+-	Sipsmith National BTL
+-	Courvoisier National BTL
+-	El Tesoro National BTL
+-	Laphroaig National BTL</description>
+        <label>Marketing Plan Sharing Ambassadors</label>
+        <sharedTo>
+            <group>Ambassadors</group>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3 OR 4 OR 5 OR 6 OR 7 OR 8 OR 9</booleanFilter>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>equals</operation>
+            <value>Jim Beam Premium-National BTL Commercial Marketing</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>equals</operation>
+            <value>Knob Creek-National BTL Commercial Marketing</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>equals</operation>
+            <value>Makers Mark-National BTL Commercial Marketing</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>equals</operation>
+            <value>Basil Hayden-National BTL Commercial Marketing</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>equals</operation>
+            <value>Suntory Whiskey-National BTL Commercial Marketing</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>equals</operation>
+            <value>Sipsmith-National BTL Commercial Marketing</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>equals</operation>
+            <value>Courvoisier-National BTL Commercial Marketing</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>equals</operation>
+            <value>El Tesoro-National BTL Commercial Marketing</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>equals</operation>
+            <value>Laphroaig-National BTL Commercial Marketing</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Multibrand_EDGE_Access</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Multibrand-EDGE marketing plan view access for sales360 users who manage EDGE employees</description>
+        <label>Multibrand-EDGE Access</label>
+        <sharedTo>
+            <group>EDGE_Sales_Managers</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>contains</operation>
+            <value>Multibrand-Edge</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Multibrand_EDGE_Access_for_EDGE_Users</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Multibrand-EDGE marketing plan view access for EDGE users (similar to the EDGE Manager sharing rule)</description>
+        <label>Multibrand-EDGE Access for EDGE Users</label>
+        <sharedTo>
+            <group>EDGE_Users</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>contains</operation>
+            <value>Multibrand-Edge</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingOwnerRules>
+        <fullName>App_Admin</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>App Admin</label>
+        <sharedTo>
+            <group>All_Admin_Marketing_Users</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>Application_Admin</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Field_Marketing_Colorado_Temp_Access_FMM</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Temporary Access provided to FMS - Central Division in the interim period in 2016 while Colorado transfers from Mountain to Central</description>
+        <label>Field Marketing Colorado - Temp Access FMM</label>
+        <sharedTo>
+            <role>Field_Marketing_Manager_Central_Division</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Field_Marketing_Manager_Mountain_Division</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Field_Marketing_Colorado_Temporary_Transition_Share</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Temporary access provided in 2016 in the interim period while Colorado transfers from Mountain Division to Central</description>
+        <label>Field Marketing Colorado - Temporary Transition Share</label>
+        <sharedTo>
+            <role>Field_Marketing_Specialist_Central_Franchise_Regions</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Field_Marketing_Manager_Mountain_Division</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Field_Marketing_Director_East_and_West_Regions</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Marketing Plan Sharing Access for Field Marketing Director - East and West Regions from Field Marketing Manager - West Coast</description>
+        <label>Field Marketing Director - East and West Regions</label>
+        <sharedTo>
+            <role>Field_Marketing_Director_East_and_West_Regions</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Field_Marketing_Manager_West_Coast_Division</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Field_Marketing_Manager_Central_Division_Share_Temp_KY_Access</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Temporary sharing rule set for 	Field Marketing Manager - Central Division to provide KY access to FMM - East Coast Division</description>
+        <label>Field Marketing Manager - Central Division Share - Temp KY Access</label>
+        <sharedTo>
+            <role>Field_Marketing_Manager_East_Coast_Division</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Field_Marketing_Manager_Central_Division</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Field_Marketing_Specialist_Ac</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Field Marketing Specialist East Coast Access to FMM East Coast</description>
+        <label>Field Marketing Specialist East Access to FMM</label>
+        <sharedTo>
+            <role>Field_Marketing_Manager_East_Coast_Division</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Field_Marketing_Specialist_East_Coast_Region</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Field_Marketing_Specialist_Central_Division</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Field Marketing Specialist - Central Division inherits MP access from FMS - Central Division</description>
+        <label>Field Marketing Specialist - Central Division</label>
+        <sharedTo>
+            <role>Field_Marketing_Specialist_FL_Central_Division</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Field_Marketing_Manager_Central_Division</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Field_Marketing_Specialist_Central_Division_Share_Temp_KY_Access</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Temporary sharing rule set for 	Field Marketing Manager - Central Division to provide KY access to FMS - East Coast Division</description>
+        <label>Field Marketing Specialist - Central Division Share - Temp KY Access</label>
+        <sharedTo>
+            <role>Field_Marketing_Specialist_East_Coast_Region</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Field_Marketing_Manager_Central_Division</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Field_Marketing_Specialist_Central_Region</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Field Marketing Specialist - Central Region Marketing Plan access shared from FMS -  Central Region role</description>
+        <label>Field Marketing Specialist - Central Region</label>
+        <sharedTo>
+            <role>Field_Marketing_Specialist_Central_Franchise_Regions</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Field_Marketing_Manager_Central_Region</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Field_Marketing_Specialist_East_CoastRegion</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Field Marketing Specialist - East Coast Region</label>
+        <sharedTo>
+            <role>Field_Marketing_Specialist_East_Coast_Region</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Field_Marketing_Manager_East_Coast_Division</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Field_Marketing_Specialist_Eastern_Control_Region</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Share FMM MP access with FMS - East Coast</description>
+        <label>Field Marketing Specialist - Eastern Control Region</label>
+        <sharedTo>
+            <role>Field_Marketing_Specialist_Midsouth_Control_Regions</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Field_Marketing_Manager_Eastern_Control_Division</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Field_Marketing_Specialist_Florida_Division</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Field Marketing Specialist - Florida/Central Region receiving MP access from FMS - Flordia Region</description>
+        <label>Field Marketing Specialist - Florida Division</label>
+        <sharedTo>
+            <role>Field_Marketing_Specialist_FL_Central_Division</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Field_Marketing_Manager_Florida_Division</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Field_Marketing_Specialist_Franchise_Control_Eastern_Control</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Provide Access to the Franchise/Control States Filed Field Marketing Specialist to the Eastern Control Region</description>
+        <label>Field Marketing Specialist - Franchise/Control - Eastern Control</label>
+        <sharedTo>
+            <role>Field_Marketing_Specialist_Franchise_Control_Region</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Field_Marketing_Manager_Eastern_Control_Division</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Field_Marketing_Specialist_Franchise_Control_Franchise_Division</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Provide Access to the Franchise/Control States Filed Field Marketing Specialist to the Franchise Division</description>
+        <label>Field Marketing Specialist - Franchise/Control - Franchise Division</label>
+        <sharedTo>
+            <role>Field_Marketing_Specialist_Franchise_Control_Region</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Field_Marketing_Manager_Franchise_Division</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Field_Marketing_Specialist_Franchise_Control_Western_Control</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Provide Access to the Franchise/Control States Filed Field Marketing Specialist to the Western Control Region</description>
+        <label>Field Marketing Specialist - Franchise/Control - Western Control</label>
+        <sharedTo>
+            <role>Field_Marketing_Specialist_Franchise_Control_Region</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Field_Marketing_Manager_Western_Control_Division</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Field_Marketing_Specialist_Franchise_Region</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Field Marketing Specialist - Franchise Region</label>
+        <sharedTo>
+            <role>Field_Marketing_Specialist_Central_Franchise_Regions</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Field_Marketing_Manager_Franchise_Division</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Field_Marketing_Specialist_Midsouth_Region</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Field Marketing Specialist - Midsouth Region inheriting MP access from FMS - Midsouth Region</description>
+        <label>Field Marketing Specialist - Midsouth Region</label>
+        <sharedTo>
+            <role>Field_Marketing_Specialist_Midsouth_Control_Regions</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Field_Marketing_Manager_Midsouth_Division</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Field_Marketing_Specialist_Mountain_Region</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Field Marketing Specialist - Mountain Region</label>
+        <sharedTo>
+            <role>Field_Marketing_Specialist_Mountain_Division</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Field_Marketing_Manager_Mountain_Division</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Field_Marketing_Specialist_NoCal_Region</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Field Marketing Specialist - NoCal Region</label>
+        <sharedTo>
+            <role>Field_Marketing_Specialist_NoCal_Regions</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Field_Marketing_Manager_West_Coast_Division</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Field_Marketing_Specialist_SoCal_Region</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Field Marketing Specialist - SoCal Region</label>
+        <sharedTo>
+            <role>Field_Marketing_Specialist_SoCal_Regions</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Field_Marketing_Manager_West_Coast_Division</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Field_Marketing_Specialist_Western_Control_Region</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Field Marketing Specialist - Western Control Region inherits MP access from FMS - Western Control Division</description>
+        <label>Field Marketing Specialist - Western Control Region</label>
+        <sharedTo>
+            <role>Field_Marketing_Specialist_Midsouth_Control_Regions</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Field_Marketing_Manager_Western_Control_Division</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Field_Marketing_Sr_Manager_Florida_Division</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Field Marketing Sr Manager - East inherits MP access from FMS - Florida Division</description>
+        <label>Field Marketing Sr Manager - Florida Division</label>
+        <sharedTo>
+            <role>Field_Marketing_Manager_East_Coast_Division</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Field_Marketing_Manager_Florida_Division</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Role_Field_Marketing_Manager_Florida_Division</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Interim share for Field Marketing Manager0Florida Division Transition</description>
+        <label>Field Marketing Manager - Florida Division Share</label>
+        <sharedTo>
+            <role>Field_Marketing_Manager_Florida_Division</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Field_Marketing_Manager_Florida_Division</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Sr_Commercial_Field_Marketing_Manager_Sharing_Eastern</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Sr Manager of Commercial Field Marketing sharing of Eastern Control Field Marketing Plans</description>
+        <label>Sr. Commercial Field Marketing Manager Sharing - Eastern</label>
+        <sharedTo>
+            <role>Field_Marketing_Manager_Franchise_Division</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Field_Marketing_Manager_Eastern_Control_Division</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Sr_Commercial_Field_Marketing_Manager_Sharing_Western</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Sr Manager of Commercial Field Marketing sharing of Western Control Field Marketing Plans</description>
+        <label>Sr. Commercial Field Marketing Manager Sharing - Western</label>
+        <sharedTo>
+            <role>Field_Marketing_Manager_Franchise_Division</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Field_Marketing_Manager_Western_Control_Division</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

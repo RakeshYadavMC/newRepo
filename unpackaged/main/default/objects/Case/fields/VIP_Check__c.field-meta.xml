@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VIP_Check__c</fullName>
+    <externalId>false</externalId>
+    <formula>AND(NOT(ISBLANK(Submitter__c)), OR(CONTAINS(Submitter__r.VIPV__c,RecordType.Name),CONTAINS(Submitter__r.VIPV__c,"Customer Service")&amp;&amp;CONTAINS(Case(RecordType.Name,"Changes","Y","EDI Order","Y","Escalated Form","Y","Inquiry","Y", "Order","Y","Quality Claim","Y","N"),"Y")))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>VIP</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

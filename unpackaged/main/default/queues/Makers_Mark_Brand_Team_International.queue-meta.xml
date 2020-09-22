@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Makers Mark - Brand Team(International)</name>
+    <queueMembers>
+        <publicGroups>
+            <publicGroup>Makers_Mark_Brand_Team_International</publicGroup>
+        </publicGroups>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Account_Application__c</sobjectType>
+    </queueSobject>
+</Queue>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Email_Alert_for_Legal_Team</fullName>
+        <description>Email Alert  for Legal Team</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Legal_Contract_Team</recipient>
+            <type>group</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Email_Notification_to_Legal_Team</template>
+    </alerts>
+</Workflow>

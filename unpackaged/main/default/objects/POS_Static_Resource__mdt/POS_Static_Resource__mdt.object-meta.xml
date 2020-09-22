@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This setting applies to the Single Barrel Program and defines the data for displaying an image</description>
+    <label>POS Static Resource</label>
+    <pluralLabel>POS Static Resources</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MarketingPlanLevelCheck</fullName>
+    <active>true</active>
+    <description>Please make sure that Country is Australia and the Transferring and receiving Marketing Plans are at Level 6.</description>
+    <errorConditionFormula>AND(
+OR(
+TransferringMarketingPlan__r.MP_Level__c != '6', ReceivingMarketingPlan__r.MP_Level__c !=  '6'
+),
+ISPICKVAL(TransferringMarketingPlan__r.Country__c,'AUS'),
+ISPICKVAL(ReceivingMarketingPlan__r.Country__c,'AUS')
+)</errorConditionFormula>
+    <errorDisplayField>ReceivingMarketingPlan__c</errorDisplayField>
+    <errorMessage>Please make sure that Country is Australia and the Transferring and receiving Marketing Plans are at Level 6.</errorMessage>
+</ValidationRule>

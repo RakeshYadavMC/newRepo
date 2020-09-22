@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Barrel</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Barrels</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Cruzan - Full Barrel Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Date Information --></label>
+            <section>Date Information</section>
+        </sections>
+        <sections>
+            <label><!-- Tracking Info --></label>
+            <section>Tracking Info</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Cruzan - Sample Kit Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Date Information --></label>
+            <section>Date Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>El Tesoro - Full Barrel Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Date Information --></label>
+            <section>Date Information</section>
+        </sections>
+        <sections>
+            <label><!-- Tracking Information --></label>
+            <section>Tracking Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>El Tesoro - Remote Selection Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Date Information --></label>
+            <section>Date Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Jim Beam - Full Barrel Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Date Information --></label>
+            <section>Date Information</section>
+        </sections>
+        <sections>
+            <label><!-- Tracking Information --></label>
+            <section>Tracking Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Jim Beam - Sample Kit Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Date Information --></label>
+            <section>Date Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Knob Creek - Full Barrel Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Date Information --></label>
+            <section>Date Information</section>
+        </sections>
+        <sections>
+            <label><!-- Tracking Information --></label>
+            <section>Tracking Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Knob Creek - Sample Kit Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Date Information --></label>
+            <section>Date Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Knob Creek - Split Barrel Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Date Information --></label>
+            <section>Date Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Makers Mark - Full Barrel Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Date Information --></label>
+            <section>Date Information</section>
+        </sections>
+        <sections>
+            <label><!-- Tracking Information --></label>
+            <section>Tracking Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Proof Specific Community Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Date Information --></label>
+            <section>Date Information</section>
+        </sections>
+        <sections>
+            <label><!-- Tracking Information --></label>
+            <section>Tracking Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Standard Community Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Date Information --></label>
+            <section>Date Information</section>
+        </sections>
+        <sections>
+            <label><!-- Tracking Information --></label>
+            <section>Tracking Information</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Cruzan - Full Barrel --></label>
+        <name>Cruzan_Full_Barrel</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Cruzan - Sample Kit --></label>
+        <name>Cruzan_Sample_Kit</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- El Tesoro - Full Barrel --></label>
+        <name>El_Tesoro_Full_Barrel</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- El Tesoro - Remote Selection --></label>
+        <name>El_Tesoro_Remote_Selection</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Jim Beam - Full Barrel --></label>
+        <name>Jim_Beam_Full_Barrel</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Jim Beam - Sample Kit --></label>
+        <name>Jim_Beam_Sample_Kit</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Knob Creek - Full Barrel --></label>
+        <name>Knob_Creek_Full_Barrel</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Knob Creek - Sample Kit --></label>
+        <name>Knob_Creek_Sample_Kit</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Knob Creek - Split Barrel --></label>
+        <name>Knob_Creek_Split_Barrel</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Makers Mark - Full Barrel --></label>
+        <name>Makers_Mark_Full_Barrel</name>
+    </recordTypes>
+    <sharingReasons>
+        <label><!-- test --></label>
+        <name>test</name>
+    </sharingReasons>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

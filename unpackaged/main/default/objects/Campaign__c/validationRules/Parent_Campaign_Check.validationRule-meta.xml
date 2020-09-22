@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Parent_Campaign_Check</fullName>
+    <active>true</active>
+    <description>This validation rule checks if user tries to change the Parent Campaign for a child Campaign after the Campaign has been created</description>
+    <errorConditionFormula>Child_Campaign__c != PRIORVALUE(Child_Campaign__c)</errorConditionFormula>
+    <errorDisplayField>Child_Campaign__c</errorDisplayField>
+    <errorMessage>You are not allowed to change the Master Campaign on a Child Campaign</errorMessage>
+</ValidationRule>

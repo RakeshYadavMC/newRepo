@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This setting is used GBS Flow which is housed in the Company Community.  Each value in this setting represents a possible value in the dropdown options(Team, Primary Category, Secondary Category and Tertiary Category)</description>
+    <label>GBS Flow Picklist Setting</label>
+    <pluralLabel>GBS Flow Picklist Settings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

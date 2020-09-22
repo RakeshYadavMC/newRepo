@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Windsor_Canadian_Brand_Director_MarketingPlan</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Windsor Canadian Brand Director</label>
+    <queue>Windsor_Canadian_Brand_Director</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

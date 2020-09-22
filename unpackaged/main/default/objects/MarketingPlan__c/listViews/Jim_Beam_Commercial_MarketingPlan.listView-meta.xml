@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Jim_Beam_Commercial_MarketingPlan</fullName>
+    <columns>NAME</columns>
+    <columns>Year__c</columns>
+    <filterScope>Queue</filterScope>
+    <label>Jim Beam White - Commercial</label>
+    <language>en_US</language>
+    <queue>Jim_Beam_White_Commercial</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

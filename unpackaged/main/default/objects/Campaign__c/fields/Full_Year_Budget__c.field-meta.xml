@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Full_Year_Budget__c</fullName>
+    <externalId>false</externalId>
+    <formula>January_Budget__c  +  February_Budget__c  +  March_Budget__c +  April_Budget__c  +   May_Budget__c  + June_Budget__c  +  July_Budget__c  +  August_Budget__c  +  September_Budget__c  +  October_Budget__c  +  November_Budget__c  +  December_Budget__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Full Year Budget</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

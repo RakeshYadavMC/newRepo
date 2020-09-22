@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Program_Types__c</fullName>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Program Types</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Sample Kit;Trip and Tour;Distiller's Choice;Split Barrel</fullName>
+                <default>true</default>
+                <label>Sample Kit;Trip and Tour;Distiller's Choice;Split Barrel</label>
+            </value>
+            <value>
+                <fullName>Sample Kit;Trip and Tour;Distiller's Choice</fullName>
+                <default>false</default>
+                <label>Sample Kit;Trip and Tour;Distiller's Choice</label>
+            </value>
+            <value>
+                <fullName>Trip and Tour;Distiller's Choice</fullName>
+                <default>false</default>
+                <label>Trip and Tour;Distiller's Choice</label>
+            </value>
+            <value>
+                <fullName>Sample Kit;Distiller's Choice</fullName>
+                <default>false</default>
+                <label>Sample Kit;Distiller's Choice</label>
+            </value>
+            <value>
+                <fullName>Sample Kit</fullName>
+                <default>false</default>
+                <label>Sample Kit</label>
+            </value>
+            <value>
+                <fullName>Trip and Tour</fullName>
+                <default>false</default>
+                <label>Trip and Tour</label>
+            </value>
+            <value>
+                <fullName>Distiller's Choice</fullName>
+                <default>false</default>
+                <label>Distiller's Choice</label>
+            </value>
+            <value>
+                <fullName>Trip and Tour;Remote Selection;Recent Recipes</fullName>
+                <default>false</default>
+                <label>Trip and Tour;Remote Selection;Recent Recipes</label>
+            </value>
+            <value>
+                <fullName>Trip and Tour;Remote Selection</fullName>
+                <default>false</default>
+                <label>Trip and Tour;Remote Selection</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

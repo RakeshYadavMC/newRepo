@@ -1,0 +1,8 @@
+<p>Dear {!Contact.FirstName},</p>
+<p>Thank you for contacting Pinnacle® Vodka.  We are sorry to hear that you recently experienced a dislike with one of our product offerings.  We realize that not all of our products may be the right flavor for everyone, but hope that you continue to enjoy those that have become your favorites. </p>
+<p>Thank you for your continued interest in the brand.</p>
+<p>{!Case.OwnerFullName}<br />
+<strong>Pinnacle® Customer Care Representative</strong><br />
+<img src="{!$Label.SF_Base_URL_BrandLogo}Pinnacle.png" alt=""  width="120px" /><br />
+<a href="https://www.facebook.com/pinnaclevodkas"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}facebook.png" width="20" alt="" /></a> <a href="https://twitter.com/PinnacleVodka"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}twitter.png" width="20" alt="" /></a> <a href="https://instagram.com/PinnacleVodka"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}instagram.png" width="20" alt="" /></a> <a href="http://www.pinterest.com/pinnaclevodka/"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}pinterest.png" width="20" alt="" /></a> <a href="https://www.youtube.com/user/PinnacleVodka"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}youtube.png" width="20" alt="" /></a> <br />
+<a href="http://www.drinksmart.com"><img src="{!$Label.SF_Base_URL_BrandLogo}DrinkSmart.png" width="120" title="Drink Smart" alt="Drink Smart" /></a></p>

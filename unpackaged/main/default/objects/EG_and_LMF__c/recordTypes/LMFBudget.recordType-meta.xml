@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LMFBudget</fullName>
+    <active>true</active>
+    <description>LMF Budget.</description>
+    <label>LMF Budget</label>
+    <picklistValues>
+        <picklist>Year__c</picklist>
+        <values>
+            <fullName>2015</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2016</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2017</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

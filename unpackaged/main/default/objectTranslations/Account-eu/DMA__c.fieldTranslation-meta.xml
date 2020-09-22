@@ -1,0 +1,842 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Designated Marketing Area --></help>
+        <label><!-- DMA --></label>
+        <name>DMA__c</name>
+        <picklistValues>
+            <masterLabel>ABILENE-SWEETWATER TX</masterLabel>
+            <translation><!-- ABILENE-SWEETWATER TX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ALBANY GA</masterLabel>
+            <translation><!-- ALBANY GA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ALBANY-SCHENECTADY-TROY NY</masterLabel>
+            <translation><!-- ALBANY-SCHENECTADY-TROY NY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ALBUQUERQUE-SANTA FE NM</masterLabel>
+            <translation><!-- ALBUQUERQUE-SANTA FE NM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ALEXANDRIA LA</masterLabel>
+            <translation><!-- ALEXANDRIA LA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ALPENA MI</masterLabel>
+            <translation><!-- ALPENA MI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AMARILLO TX</masterLabel>
+            <translation><!-- AMARILLO TX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ANCHORAGE AK</masterLabel>
+            <translation><!-- ANCHORAGE AK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATLANTA GA</masterLabel>
+            <translation><!-- ATLANTA GA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AUGUSTA GA</masterLabel>
+            <translation><!-- AUGUSTA GA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AUSTIN TX</masterLabel>
+            <translation><!-- AUSTIN TX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BAKERSFIELD CA</masterLabel>
+            <translation><!-- BAKERSFIELD CA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BALTIMORE MD</masterLabel>
+            <translation><!-- BALTIMORE MD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BANGOR ME</masterLabel>
+            <translation><!-- BANGOR ME --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BATON ROUGE LA</masterLabel>
+            <translation><!-- BATON ROUGE LA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BEAUMONT-PORT ARTHUR TX</masterLabel>
+            <translation><!-- BEAUMONT-PORT ARTHUR TX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BEND OR</masterLabel>
+            <translation><!-- BEND OR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BILLINGS MT</masterLabel>
+            <translation><!-- BILLINGS MT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BILOXI-GULFPORT MS</masterLabel>
+            <translation><!-- BILOXI-GULFPORT MS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BINGHAMTON NY</masterLabel>
+            <translation><!-- BINGHAMTON NY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BIRMINGHAM (ANNISTON TUSCALOOSA) AL</masterLabel>
+            <translation><!-- BIRMINGHAM (ANNISTON TUSCALOOSA) AL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BLUEFIELD-BECKLEY-OAK HILL WV</masterLabel>
+            <translation><!-- BLUEFIELD-BECKLEY-OAK HILL WV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOISE ID</masterLabel>
+            <translation><!-- BOISE ID --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOSTON (MANCHESTER) MA-NH</masterLabel>
+            <translation><!-- BOSTON (MANCHESTER) MA-NH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOWLING GREEN KY</masterLabel>
+            <translation><!-- BOWLING GREEN KY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BUFFALO NY</masterLabel>
+            <translation><!-- BUFFALO NY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BURLINGTON-PLATTSBURGH VT-NY</masterLabel>
+            <translation><!-- BURLINGTON-PLATTSBURGH VT-NY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BUTTE-BOZEMAN MT</masterLabel>
+            <translation><!-- BUTTE-BOZEMAN MT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CASPER-RIVERTON WY</masterLabel>
+            <translation><!-- CASPER-RIVERTON WY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CEDAR RAPIDS-WATERLOO &amp; DUBUQUE IA</masterLabel>
+            <translation><!-- CEDAR RAPIDS-WATERLOO &amp; DUBUQUE IA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CHAMPAIGN &amp; SPRINGFIELD-DECATUR IL</masterLabel>
+            <translation><!-- CHAMPAIGN &amp; SPRINGFIELD-DECATUR IL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CHARLESTON SC</masterLabel>
+            <translation><!-- CHARLESTON SC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CHARLESTON-HUNTINGTON WV</masterLabel>
+            <translation><!-- CHARLESTON-HUNTINGTON WV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CHARLOTTE NC</masterLabel>
+            <translation><!-- CHARLOTTE NC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CHARLOTTESVILLE VA</masterLabel>
+            <translation><!-- CHARLOTTESVILLE VA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CHATTANOOGA TN</masterLabel>
+            <translation><!-- CHATTANOOGA TN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CHEYENNE-SCOTTSBLUFF WY-NE</masterLabel>
+            <translation><!-- CHEYENNE-SCOTTSBLUFF WY-NE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CHICAGO IL</masterLabel>
+            <translation><!-- CHICAGO IL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CHICO-REDDING CA</masterLabel>
+            <translation><!-- CHICO-REDDING CA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CINCINNATI OH</masterLabel>
+            <translation><!-- CINCINNATI OH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CLARKSBURG-WESTON WV</masterLabel>
+            <translation><!-- CLARKSBURG-WESTON WV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CLEVELAND OH</masterLabel>
+            <translation><!-- CLEVELAND OH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COLORADO SPRINGS-PUEBLO CO</masterLabel>
+            <translation><!-- COLORADO SPRINGS-PUEBLO CO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COLUMBIA SC</masterLabel>
+            <translation><!-- COLUMBIA SC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COLUMBIA-JEFFERSON CITY MO</masterLabel>
+            <translation><!-- COLUMBIA-JEFFERSON CITY MO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COLUMBUS GA</masterLabel>
+            <translation><!-- COLUMBUS GA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COLUMBUS OH</masterLabel>
+            <translation><!-- COLUMBUS OH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COLUMBUS-TUPELO-WEST POINT MS</masterLabel>
+            <translation><!-- COLUMBUS-TUPELO-WEST POINT MS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CORPUS CHRISTI TX</masterLabel>
+            <translation><!-- CORPUS CHRISTI TX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DALLAS-FT WORTH TX</masterLabel>
+            <translation><!-- DALLAS-FT WORTH TX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DAVENPORT-ROCK ISLAND-MOLINE IA-IL</masterLabel>
+            <translation><!-- DAVENPORT-ROCK ISLAND-MOLINE IA-IL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DAYTON OH</masterLabel>
+            <translation><!-- DAYTON OH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DENVER CO</masterLabel>
+            <translation><!-- DENVER CO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DES MOINES-AMES IA</masterLabel>
+            <translation><!-- DES MOINES-AMES IA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DETROIT MI</masterLabel>
+            <translation><!-- DETROIT MI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DOTHAN AL</masterLabel>
+            <translation><!-- DOTHAN AL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DULUTH-SUPERIOR MN-WI</masterLabel>
+            <translation><!-- DULUTH-SUPERIOR MN-WI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EL PASO TX</masterLabel>
+            <translation><!-- EL PASO TX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ELMIRA NY</masterLabel>
+            <translation><!-- ELMIRA NY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ERIE PA</masterLabel>
+            <translation><!-- ERIE PA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EUGENE OR</masterLabel>
+            <translation><!-- EUGENE OR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EUREKA CA</masterLabel>
+            <translation><!-- EUREKA CA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EVANSVILLE IN</masterLabel>
+            <translation><!-- EVANSVILLE IN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FAIRBANKS AK</masterLabel>
+            <translation><!-- FAIRBANKS AK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FARGO-VALLEY CITY ND</masterLabel>
+            <translation><!-- FARGO-VALLEY CITY ND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FLINT-SAGINAW-BAY CITY MI</masterLabel>
+            <translation><!-- FLINT-SAGINAW-BAY CITY MI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FLORENCE-MYRTLE BEACH SC</masterLabel>
+            <translation><!-- FLORENCE-MYRTLE BEACH SC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FRESNO-VISALIA CA</masterLabel>
+            <translation><!-- FRESNO-VISALIA CA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FT MYERS-NAPLES FL</masterLabel>
+            <translation><!-- FT MYERS-NAPLES FL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FT SMITH-FAY-SPRNGDL-RGRS</masterLabel>
+            <translation><!-- FT SMITH-FAY-SPRNGDL-RGRS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FT WAYNE IN</masterLabel>
+            <translation><!-- FT WAYNE IN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GAINESVILLE FL</masterLabel>
+            <translation><!-- GAINESVILLE FL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GLENDIVE MT</masterLabel>
+            <translation><!-- GLENDIVE MT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GRAND JUNCTION-MONTROSE CO</masterLabel>
+            <translation><!-- GRAND JUNCTION-MONTROSE CO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GRAND RAPIDS-KALAMAZOO-BATTLE CREEK MI</masterLabel>
+            <translation><!-- GRAND RAPIDS-KALAMAZOO-BATTLE CREEK MI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GREAT FALLS MT</masterLabel>
+            <translation><!-- GREAT FALLS MT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GREEN BAY-APPLETON WI</masterLabel>
+            <translation><!-- GREEN BAY-APPLETON WI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GREENSBORO-HIGH POINT-WINSTON SALEM NC</masterLabel>
+            <translation><!-- GREENSBORO-HIGH POINT-WINSTON SALEM NC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GREENVILLE-NEW BERN-WASHINGTON NC</masterLabel>
+            <translation><!-- GREENVILLE-NEW BERN-WASHINGTON NC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GREENVILLE-SPARTANBURG SC-ASHEVILLE NC</masterLabel>
+            <translation><!-- GREENVILLE-SPARTANBURG SC-ASHEVILLE NC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GREENWOOD-GREENVILLE MS</masterLabel>
+            <translation><!-- GREENWOOD-GREENVILLE MS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HARLINGEN-WESLACO-BROWNSVILLE-MCALLEN TX</masterLabel>
+            <translation><!-- HARLINGEN-WESLACO-BROWNSVILLE-MCALLEN TX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HARRISBURG-LANCASTER-LEBANON-YORK PA</masterLabel>
+            <translation><!-- HARRISBURG-LANCASTER-LEBANON-YORK PA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HARRISONBURG VA</masterLabel>
+            <translation><!-- HARRISONBURG VA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HARTFORD &amp; NEW HAVEN CT</masterLabel>
+            <translation><!-- HARTFORD &amp; NEW HAVEN CT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HATTIESBURG-LAUREL MS</masterLabel>
+            <translation><!-- HATTIESBURG-LAUREL MS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HELENA MT</masterLabel>
+            <translation><!-- HELENA MT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HONOLULU HI</masterLabel>
+            <translation><!-- HONOLULU HI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HOUSTON TX</masterLabel>
+            <translation><!-- HOUSTON TX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HUNTSVILLE-DECATUR (FLORENCE) AL</masterLabel>
+            <translation><!-- HUNTSVILLE-DECATUR (FLORENCE) AL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IDAHO FALLS-POCATELLO ID</masterLabel>
+            <translation><!-- IDAHO FALLS-POCATELLO ID --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INDIANAPOLIS IN</masterLabel>
+            <translation><!-- INDIANAPOLIS IN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JACKSON MS</masterLabel>
+            <translation><!-- JACKSON MS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JACKSON TN</masterLabel>
+            <translation><!-- JACKSON TN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JACKSONVILLE FL</masterLabel>
+            <translation><!-- JACKSONVILLE FL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JOHNSTOWN-ALTOONA PA</masterLabel>
+            <translation><!-- JOHNSTOWN-ALTOONA PA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JONESBORO AR</masterLabel>
+            <translation><!-- JONESBORO AR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JOPLIN-PITTSBURG MO-KS</masterLabel>
+            <translation><!-- JOPLIN-PITTSBURG MO-KS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JUNEAU AK</masterLabel>
+            <translation><!-- JUNEAU AK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KANSAS CITY MO-KS</masterLabel>
+            <translation><!-- KANSAS CITY MO-KS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KNOXVILLE TN</masterLabel>
+            <translation><!-- KNOXVILLE TN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LA CROSSE-EAU CLAIRE WI</masterLabel>
+            <translation><!-- LA CROSSE-EAU CLAIRE WI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LAFAYETTE IN</masterLabel>
+            <translation><!-- LAFAYETTE IN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LAFAYETTE LA</masterLabel>
+            <translation><!-- LAFAYETTE LA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LAKE CHARLES LA</masterLabel>
+            <translation><!-- LAKE CHARLES LA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LANSING MI</masterLabel>
+            <translation><!-- LANSING MI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LAREDO TX</masterLabel>
+            <translation><!-- LAREDO TX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LAS VEGAS NV</masterLabel>
+            <translation><!-- LAS VEGAS NV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LEXINGTON KY</masterLabel>
+            <translation><!-- LEXINGTON KY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LIMA OH</masterLabel>
+            <translation><!-- LIMA OH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LINCOLN &amp; HASTINGS-KEARNY NE</masterLabel>
+            <translation><!-- LINCOLN &amp; HASTINGS-KEARNY NE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LITTLE ROCK-PINE BLUFF AR</masterLabel>
+            <translation><!-- LITTLE ROCK-PINE BLUFF AR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LOS ANGELES CA</masterLabel>
+            <translation><!-- LOS ANGELES CA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LOUISVILLE KY</masterLabel>
+            <translation><!-- LOUISVILLE KY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LUBBOCK TX</masterLabel>
+            <translation><!-- LUBBOCK TX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MACON GA</masterLabel>
+            <translation><!-- MACON GA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MADISON WI</masterLabel>
+            <translation><!-- MADISON WI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MANKATO MN</masterLabel>
+            <translation><!-- MANKATO MN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MARQUETTE MI</masterLabel>
+            <translation><!-- MARQUETTE MI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MEDFORD-KLAMATH FALLS OR</masterLabel>
+            <translation><!-- MEDFORD-KLAMATH FALLS OR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MEMPHIS TN</masterLabel>
+            <translation><!-- MEMPHIS TN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MERIDIAN MS</masterLabel>
+            <translation><!-- MERIDIAN MS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MIAMI-FT LAUDERDALE FL</masterLabel>
+            <translation><!-- MIAMI-FT LAUDERDALE FL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MILWAUKEE WI</masterLabel>
+            <translation><!-- MILWAUKEE WI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MINNEAPOLIS-ST PAUL MN</masterLabel>
+            <translation><!-- MINNEAPOLIS-ST PAUL MN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MINOT-BISMARCK-DICKINSON (WILLISTON) ND</masterLabel>
+            <translation><!-- MINOT-BISMARCK-DICKINSON (WILLISTON) ND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MISSOULA MT</masterLabel>
+            <translation><!-- MISSOULA MT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MOBILE-PENSACOLA (FT WALTON BEACH) AL-FL</masterLabel>
+            <translation><!-- MOBILE-PENSACOLA (FT WALTON BEACH) AL-FL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MONROE-EL DORADO LA-AR</masterLabel>
+            <translation><!-- MONROE-EL DORADO LA-AR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MONTEREY-SALINAS CA</masterLabel>
+            <translation><!-- MONTEREY-SALINAS CA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MONTGOMERY (SELMA) AL</masterLabel>
+            <translation><!-- MONTGOMERY (SELMA) AL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NASHVILLE TN</masterLabel>
+            <translation><!-- NASHVILLE TN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NEW ORLEANS LA</masterLabel>
+            <translation><!-- NEW ORLEANS LA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NEW YORK NY</masterLabel>
+            <translation><!-- NEW YORK NY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NORFOLK-PORTSMOUTH-NEWPORT NEWS VA</masterLabel>
+            <translation><!-- NORFOLK-PORTSMOUTH-NEWPORT NEWS VA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NORTH PLATTE NE</masterLabel>
+            <translation><!-- NORTH PLATTE NE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ODESSA-MIDLAND TX</masterLabel>
+            <translation><!-- ODESSA-MIDLAND TX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OKLAHOMA CITY OK</masterLabel>
+            <translation><!-- OKLAHOMA CITY OK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OMAHA NE</masterLabel>
+            <translation><!-- OMAHA NE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ORLANDO-DAYTONA BEACH-MELBOURNE FL</masterLabel>
+            <translation><!-- ORLANDO-DAYTONA BEACH-MELBOURNE FL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OTTUMWA-KIRKSVILLE IA-MO</masterLabel>
+            <translation><!-- OTTUMWA-KIRKSVILLE IA-MO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PADUCAH KY-CAPE GIRARDEAU MO</masterLabel>
+            <translation><!-- PADUCAH KY-CAPE GIRARDEAU MO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PANAMA CITY FL</masterLabel>
+            <translation><!-- PANAMA CITY FL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PARKERSBURG WV</masterLabel>
+            <translation><!-- PARKERSBURG WV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PEORIA-BLOOMINGTON IL</masterLabel>
+            <translation><!-- PEORIA-BLOOMINGTON IL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PHILADELPHIA PA</masterLabel>
+            <translation><!-- PHILADELPHIA PA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PHOENIX AZ</masterLabel>
+            <translation><!-- PHOENIX AZ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PITTSBURGH PA</masterLabel>
+            <translation><!-- PITTSBURGH PA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PORTLAND OR</masterLabel>
+            <translation><!-- PORTLAND OR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PORTLAND-AUBURN ME</masterLabel>
+            <translation><!-- PORTLAND-AUBURN ME --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRESQUE ISLE ME</masterLabel>
+            <translation><!-- PRESQUE ISLE ME --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PROVIDENCE-NEW BEDFORD RI-MA</masterLabel>
+            <translation><!-- PROVIDENCE-NEW BEDFORD RI-MA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QUINCY-HANNIBAL-KEOKUK IL-MO-IA</masterLabel>
+            <translation><!-- QUINCY-HANNIBAL-KEOKUK IL-MO-IA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RALEIGH-DURHAM (FAYETTEVILLE) NC</masterLabel>
+            <translation><!-- RALEIGH-DURHAM (FAYETTEVILLE) NC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RAPID CITY SD</masterLabel>
+            <translation><!-- RAPID CITY SD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RENO NV</masterLabel>
+            <translation><!-- RENO NV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RICHMOND-PETERSBURG VA</masterLabel>
+            <translation><!-- RICHMOND-PETERSBURG VA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ROANOKE-LYNCHBURG VA</masterLabel>
+            <translation><!-- ROANOKE-LYNCHBURG VA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ROCHESTER NY</masterLabel>
+            <translation><!-- ROCHESTER NY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ROCHESTER-MASON CITY-AUSTIN MN-IA</masterLabel>
+            <translation><!-- ROCHESTER-MASON CITY-AUSTIN MN-IA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ROCKFORD IL</masterLabel>
+            <translation><!-- ROCKFORD IL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SACRAMENTO-STOCKTON-MODESTO CA</masterLabel>
+            <translation><!-- SACRAMENTO-STOCKTON-MODESTO CA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SALISBURY MD</masterLabel>
+            <translation><!-- SALISBURY MD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SALT LAKE CITY UT</masterLabel>
+            <translation><!-- SALT LAKE CITY UT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAN ANGELO TX</masterLabel>
+            <translation><!-- SAN ANGELO TX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAN ANTONIO TX</masterLabel>
+            <translation><!-- SAN ANTONIO TX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAN DIEGO CA</masterLabel>
+            <translation><!-- SAN DIEGO CA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAN FRANCISCO-OAKLAND-SAN JOSE CA</masterLabel>
+            <translation><!-- SAN FRANCISCO-OAKLAND-SAN JOSE CA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SANTA BARBARA-SANTA MARIA CA</masterLabel>
+            <translation><!-- SANTA BARBARA-SANTA MARIA CA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAVANNAH GA</masterLabel>
+            <translation><!-- SAVANNAH GA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SEATTLE-TACOMA WA</masterLabel>
+            <translation><!-- SEATTLE-TACOMA WA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SHERMAN-ADA TX-OK</masterLabel>
+            <translation><!-- SHERMAN-ADA TX-OK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SHREVEPORT LA</masterLabel>
+            <translation><!-- SHREVEPORT LA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SIOUX CITY IA</masterLabel>
+            <translation><!-- SIOUX CITY IA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SIOUX FALLS (MITCHELL) SD</masterLabel>
+            <translation><!-- SIOUX FALLS (MITCHELL) SD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SOUTH BEND-ELKHART IN</masterLabel>
+            <translation><!-- SOUTH BEND-ELKHART IN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SPOKANE WA</masterLabel>
+            <translation><!-- SPOKANE WA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SPRINGFIELD MO</masterLabel>
+            <translation><!-- SPRINGFIELD MO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SPRINGFIELD-HOLYOKE MA</masterLabel>
+            <translation><!-- SPRINGFIELD-HOLYOKE MA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ST JOSEPH MO</masterLabel>
+            <translation><!-- ST JOSEPH MO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ST LOUIS MO</masterLabel>
+            <translation><!-- ST LOUIS MO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SYRACUSE NY</masterLabel>
+            <translation><!-- SYRACUSE NY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TALLAHASSEE-THOMASVILLE FL-GA</masterLabel>
+            <translation><!-- TALLAHASSEE-THOMASVILLE FL-GA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TAMPA-ST PETERSBURG (SARASOTA) FL</masterLabel>
+            <translation><!-- TAMPA-ST PETERSBURG (SARASOTA) FL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TERRE HAUTE IN</masterLabel>
+            <translation><!-- TERRE HAUTE IN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TOLEDO OH</masterLabel>
+            <translation><!-- TOLEDO OH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TOPEKA KS</masterLabel>
+            <translation><!-- TOPEKA KS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRAVERSE CITY-CADILLAC MI</masterLabel>
+            <translation><!-- TRAVERSE CITY-CADILLAC MI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRI-CITIES TN-VA</masterLabel>
+            <translation><!-- TRI-CITIES TN-VA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TUCSON (SIERRA VISTA) AZ</masterLabel>
+            <translation><!-- TUCSON (SIERRA VISTA) AZ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TULSA OK</masterLabel>
+            <translation><!-- TULSA OK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TWIN FALLS ID</masterLabel>
+            <translation><!-- TWIN FALLS ID --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TYLER-LONGVIEW (LUFKIN &amp; NACOGDOCHES) TX</masterLabel>
+            <translation><!-- TYLER-LONGVIEW (LUFKIN &amp; NACOGDOCHES) TX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UTICA NY</masterLabel>
+            <translation><!-- UTICA NY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VICTORIA TX</masterLabel>
+            <translation><!-- VICTORIA TX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WACO-TEMPLE-BRYAN TX</masterLabel>
+            <translation><!-- WACO-TEMPLE-BRYAN TX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WASHINGTON DC (HAGERSTOWN MD)</masterLabel>
+            <translation><!-- WASHINGTON DC (HAGERSTOWN MD) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WATERTOWN NY</masterLabel>
+            <translation><!-- WATERTOWN NY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WAUSAU-RHINELANDER WI</masterLabel>
+            <translation><!-- WAUSAU-RHINELANDER WI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WEST PALM BEACH-FT PIERCE FL</masterLabel>
+            <translation><!-- WEST PALM BEACH-FT PIERCE FL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WHEELING-STEUBENVILLE WV-OH</masterLabel>
+            <translation><!-- WHEELING-STEUBENVILLE WV-OH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WICHITA FALLS &amp; LAWTON TX-OK</masterLabel>
+            <translation><!-- WICHITA FALLS &amp; LAWTON TX-OK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WICHITA-HUTCHINSON PLUS KS</masterLabel>
+            <translation><!-- WICHITA-HUTCHINSON PLUS KS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WILKES BARRE-SCRANTON PA</masterLabel>
+            <translation><!-- WILKES BARRE-SCRANTON PA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WILMINGTON NC</masterLabel>
+            <translation><!-- WILMINGTON NC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>YAKIMA-PASCO-RICHLAND-KENNEWICK WA</masterLabel>
+            <translation><!-- YAKIMA-PASCO-RICHLAND-KENNEWICK WA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>YOUNGSTOWN OH</masterLabel>
+            <translation><!-- YOUNGSTOWN OH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>YUMA-EL CENTRO AZ-CA</masterLabel>
+            <translation><!-- YUMA-EL CENTRO AZ-CA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZANESVILLE OH</masterLabel>
+            <translation><!-- ZANESVILLE OH --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

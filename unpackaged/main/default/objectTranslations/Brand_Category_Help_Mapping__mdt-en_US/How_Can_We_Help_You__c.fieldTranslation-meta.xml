@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- How Can We Help You --></label>
+        <name>How_Can_We_Help_You__c</name>
+        <picklistValues>
+            <masterLabel>Friends of Laphroaig</masterLabel>
+            <translation><!-- Friends of Laphroaig --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Makers Mark Program</masterLabel>
+            <translation><!-- Makers Mark Program --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Inquiry</masterLabel>
+            <translation><!-- Other Inquiry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Our Online store</masterLabel>
+            <translation><!-- Our Online store --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PR or Media Inquiry</masterLabel>
+            <translation><!-- PR or Media Inquiry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Information</masterLabel>
+            <translation><!-- Product Information --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product or Packaging Issue</masterLabel>
+            <translation><!-- Product or Packaging Issue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sponsorship or Charity</masterLabel>
+            <translation><!-- Sponsorship or Charity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Visiting the Distillery</masterLabel>
+            <translation><!-- Visiting the Distillery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Where to Buy Product</masterLabel>
+            <translation><!-- Where to Buy Product --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

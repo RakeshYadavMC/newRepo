@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Parent_Case_Owners_Email__c</fullName>
+    <description>Updated on 'Quality Claim sub case' when 'Bottle Pickup Request' is checked.</description>
+    <externalId>false</externalId>
+    <label>Parent Case Owner's Email</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Email</type>
+    <unique>false</unique>
+</CustomField>

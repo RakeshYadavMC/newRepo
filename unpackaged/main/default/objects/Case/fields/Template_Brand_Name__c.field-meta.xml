@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Template_Brand_Name__c</fullName>
+    <description>This field shows Brand name if the brand is present on Case otherwise string "Brand"</description>
+    <externalId>false</externalId>
+    <formula>IF(NOT(ISBLANK(TEXT( Brand__c ))), TEXT( Brand__c ), "Brand")</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Template Brand Name</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

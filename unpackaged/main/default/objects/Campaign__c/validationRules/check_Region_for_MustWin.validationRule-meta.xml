@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>check_Region_for_MustWin</fullName>
+    <active>true</active>
+    <description>If the Region equals, Must Win, Control States, Franchise, RNDC and SGWS and territory is not equal to null then the child campaign should always default to the participating state (also territory interchangeable)  of the parent campaign.</description>
+    <errorConditionFormula>AND
+(
+RecordType.Name ='Child Campaign',
+Text(ParticipatingState__c)&lt;&gt;Text(Child_Campaign__r.ParticipatingState__c), 
+OR
+(
+Region__c='Must Win Region', 
+Region__c='SGWS Region',
+Region__c='Control State Region', 
+Region__c='Control States &amp; NA Region', 
+Region__c='Control States Region', 
+Region__c='Franchise Region', 
+Region__c='RNDC Region'
+),
+!ISPICKVAL(Child_Campaign__r.ParticipatingState__c,'')
+)</errorConditionFormula>
+    <errorMessage>You're not allowed to change the Participating State for this Campaign Region!</errorMessage>
+</ValidationRule>

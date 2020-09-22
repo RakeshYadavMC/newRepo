@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EDGE_Group__c</fullName>
+    <externalId>false</externalId>
+    <label>EDGE Group</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>KAM</fullName>
+                <default>false</default>
+                <label>KAM</label>
+            </value>
+            <value>
+                <fullName>LFL</fullName>
+                <default>false</default>
+                <label>LFL</label>
+            </value>
+            <value>
+                <fullName>LUX</fullName>
+                <default>false</default>
+                <label>LUX</label>
+            </value>
+            <value>
+                <fullName>NON-EDGE</fullName>
+                <default>false</default>
+                <label>NON-EDGE</label>
+            </value>
+            <value>
+                <fullName>NULL</fullName>
+                <default>false</default>
+                <label>NULL</label>
+            </value>
+            <value>
+                <fullName>MCS</fullName>
+                <default>false</default>
+                <label>MCS</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

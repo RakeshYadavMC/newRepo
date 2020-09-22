@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PrimaryRole__c</fullName>
+    <externalId>false</externalId>
+    <label>Primary Role</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Bartender</fullName>
+                <default>false</default>
+                <label>Bartender</label>
+            </value>
+            <value>
+                <fullName>Buyer</fullName>
+                <default>false</default>
+                <label>Buyer</label>
+            </value>
+            <value>
+                <fullName>Chef</fullName>
+                <default>false</default>
+                <label>Chef</label>
+            </value>
+            <value>
+                <fullName>Clerk</fullName>
+                <default>false</default>
+                <label>Clerk</label>
+            </value>
+            <value>
+                <fullName>Host/Hostess</fullName>
+                <default>false</default>
+                <label>Host/Hostess</label>
+            </value>
+            <value>
+                <fullName>Manager</fullName>
+                <default>false</default>
+                <label>Manager</label>
+            </value>
+            <value>
+                <fullName>Media / Trade Member</fullName>
+                <default>false</default>
+                <label>Media / Trade Member</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Owner</fullName>
+                <default>false</default>
+                <label>Owner</label>
+            </value>
+            <value>
+                <fullName>Sales Rep</fullName>
+                <default>false</default>
+                <label>Sales Rep</label>
+            </value>
+            <value>
+                <fullName>Servers</fullName>
+                <default>false</default>
+                <label>Servers</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

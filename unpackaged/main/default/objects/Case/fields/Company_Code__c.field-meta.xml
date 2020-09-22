@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Company_Code__c</fullName>
+    <externalId>false</externalId>
+    <label>Company Code</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>APP1 - APSA Other Purchase Acc</fullName>
+                <default>false</default>
+                <label>APP1 - APSA Other Purchase Acc</label>
+            </value>
+            <value>
+                <fullName>AT50 - Beam Austria GmbH [AT]</fullName>
+                <default>false</default>
+                <label>AT50 - Beam Austria GmbH [AT]</label>
+            </value>
+            <value>
+                <fullName>AT60 - Mozart Distillierie GmbH</fullName>
+                <default>false</default>
+                <label>AT60 - Mozart Distillierie GmbH</label>
+            </value>
+            <value>
+                <fullName>AU60 - Beam Global (Australia) [AU]</fullName>
+                <default>false</default>
+                <label>AU60 - Beam Global (Australia) [AU]</label>
+            </value>
+            <value>
+                <fullName>AU70 - Suntory (Aust) Pty Ltd [AU]</fullName>
+                <default>false</default>
+                <label>AU70 - Suntory (Aust) Pty Ltd [AU]</label>
+            </value>
+            <value>
+                <fullName>AUP1 - Australia Purchase Acc</fullName>
+                <default>false</default>
+                <label>AUP1 - Australia Purchase Acc</label>
+            </value>
+            <value>
+                <fullName>BR50 - JBB Bebidas Brasil Lim. [BR]</fullName>
+                <default>false</default>
+                <label>BR50 - JBB Bebidas Brasil Lim. [BR]</label>
+            </value>
+            <value>
+                <fullName>BR70 - Suntory Brazil</fullName>
+                <default>false</default>
+                <label>BR70 - Suntory Brazil</label>
+            </value>
+            <value>
+                <fullName>CA30 - Alberta Distillers Ltd [CA]</fullName>
+                <default>false</default>
+                <label>CA30 - Alberta Distillers Ltd [CA]</label>
+            </value>
+            <value>
+                <fullName>CA40 - Jim Beam Brands Canada [CA]</fullName>
+                <default>false</default>
+                <label>CA40 - Jim Beam Brands Canada [CA]</label>
+            </value>
+            <value>
+                <fullName>CA60 - Beam Global Canada Inc. [CA]</fullName>
+                <default>false</default>
+                <label>CA60 - Beam Global Canada Inc. [CA]</label>
+            </value>
+            <value>
+                <fullName>CA70 - Canadian Club Canada, Inc [CA]</fullName>
+                <default>false</default>
+                <label>CA70 - Canadian Club Canada, Inc [CA]</label>
+            </value>
+            <value>
+                <fullName>CAE1 - Canadian Parent Co. Adjus [CA]</fullName>
+                <default>false</default>
+                <label>CAE1 - Canadian Parent Co. Adjus [CA]</label>
+            </value>
+            <value>
+                <fullName>CAE2 - Canada Eliminations Restr [CA]</fullName>
+                <default>false</default>
+                <label>CAE2 - Canada Eliminations Restr [CA]</label>
+            </value>
+            <value>
+                <fullName>CAF1 - ADL Finance 1 [CA]</fullName>
+                <default>false</default>
+                <label>CAF1 - ADL Finance 1 [CA]</label>
+            </value>
+            <value>
+                <fullName>CAF2 - ADL Finance 2 [CA]</fullName>
+                <default>false</default>
+                <label>CAF2 - ADL Finance 2 [CA]</label>
+            </value>
+            <value>
+                <fullName>CAP1 - Canada Purchase Accountin</fullName>
+                <default>false</default>
+                <label>CAP1 - Canada Purchase Accountin</label>
+            </value>
+            <value>
+                <fullName>CN60 - Suntory (China) Holding</fullName>
+                <default>false</default>
+                <label>CN60 - Suntory (China) Holding</label>
+            </value>
+            <value>
+                <fullName>COP1 - Corporate Purchase Acc</fullName>
+                <default>false</default>
+                <label>COP1 - Corporate Purchase Acc</label>
+            </value>
+            <value>
+                <fullName>DE10 - BG Deutschland Operations [DE]</fullName>
+                <default>false</default>
+                <label>DE10 - BG Deutschland Operations [DE]</label>
+            </value>
+            <value>
+                <fullName>DE40 - Beam Deutschland GmbH [DE]</fullName>
+                <default>false</default>
+                <label>DE40 - Beam Deutschland GmbH [DE]</label>
+            </value>
+            <value>
+                <fullName>DE41 - Beam Deutschland GmbH GBS [DE]</fullName>
+                <default>false</default>
+                <label>DE41 - Beam Deutschland GmbH GBS [DE]</label>
+            </value>
+            <value>
+                <fullName>DE50 - BGSW Deutschland [DE]</fullName>
+                <default>false</default>
+                <label>DE50 - BGSW Deutschland [DE]</label>
+            </value>
+            <value>
+                <fullName>DE5A - BG Beteiligungs GmbH [DE]</fullName>
+                <default>false</default>
+                <label>DE5A - BG Beteiligungs GmbH [DE]</label>
+            </value>
+            <value>
+                <fullName>DE5B - Weinbrennerei Jacobi GMBH [DE]</fullName>
+                <default>false</default>
+                <label>DE5B - Weinbrennerei Jacobi GMBH [DE]</label>
+            </value>
+            <value>
+                <fullName>DE5C - Fuerstl' v. Bismarck'sche [DE]</fullName>
+                <default>false</default>
+                <label>DE5C - Fuerstl' v. Bismarck'sche [DE]</label>
+            </value>
+            <value>
+                <fullName>DE5D - Kuemmerling GmbH [DE]</fullName>
+                <default>false</default>
+                <label>DE5D - Kuemmerling GmbH [DE]</label>
+            </value>
+            <value>
+                <fullName>DE5E - TMV [DE]</fullName>
+                <default>false</default>
+                <label>DE5E - TMV [DE]</label>
+            </value>
+            <value>
+                <fullName>DE5F - Unigetranke Handelgesell. [DE]</fullName>
+                <default>false</default>
+                <label>DE5F - Unigetranke Handelgesell. [DE]</label>
+            </value>
+            <value>
+                <fullName>DE60 - Beam Global Duty Free [DE]</fullName>
+                <default>false</default>
+                <label>DE60 - Beam Global Duty Free [DE]</label>
+            </value>
+            <value>
+                <fullName>DE70 - Beam Deutschland H. GmbH [DE]</fullName>
+                <default>false</default>
+                <label>DE70 - Beam Deutschland H. GmbH [DE]</label>
+            </value>
+            <value>
+                <fullName>DE80 - BGSW Vertriebs-GmbH [DE]</fullName>
+                <default>false</default>
+                <label>DE80 - BGSW Vertriebs-GmbH [DE]</label>
+            </value>
+            <value>
+                <fullName>DE90 - Beam Management GmbH [DE]</fullName>
+                <default>false</default>
+                <label>DE90 - Beam Management GmbH [DE]</label>
+            </value>
+            <value>
+                <fullName>EMP1 - EMEA Other Purch Account</fullName>
+                <default>false</default>
+                <label>EMP1 - EMEA Other Purch Account</label>
+            </value>
+            <value>
+                <fullName>ES10 - Beam Spain, S.L. [ES]</fullName>
+                <default>false</default>
+                <label>ES10 - Beam Spain, S.L. [ES]</label>
+            </value>
+            <value>
+                <fullName>ES30 - Harveys Jerez, S.L. [ES]</fullName>
+                <default>false</default>
+                <label>ES30 - Harveys Jerez, S.L. [ES]</label>
+            </value>
+            <value>
+                <fullName>ES50 - Maxxium España, S.L. [ES]</fullName>
+                <default>false</default>
+                <label>ES50 - Maxxium España, S.L. [ES]</label>
+            </value>
+            <value>
+                <fullName>ES60 - Maxxium Canarias, S.A. [ES]</fullName>
+                <default>false</default>
+                <label>ES60 - Maxxium Canarias, S.A. [ES]</label>
+            </value>
+            <value>
+                <fullName>ES90 - BG Valverde Operador Logi [ES]</fullName>
+                <default>false</default>
+                <label>ES90 - BG Valverde Operador Logi [ES]</label>
+            </value>
+            <value>
+                <fullName>ESA0 - Beam Spain, S.L. [ES]</fullName>
+                <default>false</default>
+                <label>ESA0 - Beam Spain, S.L. [ES]</label>
+            </value>
+            <value>
+                <fullName>ESB0 - Maxxium Canarias Corp. [ES]</fullName>
+                <default>false</default>
+                <label>ESB0 - Maxxium Canarias Corp. [ES]</label>
+            </value>
+            <value>
+                <fullName>ESD0 - Harveys Jerez, S.L. Corp. [ES]</fullName>
+                <default>false</default>
+                <label>ESD0 - Harveys Jerez, S.L. Corp. [ES]</label>
+            </value>
+            <value>
+                <fullName>ESE0 - Beam Corporate Spain S.L. [ES]</fullName>
+                <default>false</default>
+                <label>ESE0 - Beam Corporate Spain S.L. [ES]</label>
+            </value>
+            <value>
+                <fullName>ESE1 - Spain Corporate Eliminati [ES]</fullName>
+                <default>false</default>
+                <label>ESE1 - Spain Corporate Eliminati [ES]</label>
+            </value>
+            <value>
+                <fullName>ESF0 - Beam Holdings Mngmt, S.L. [ES]</fullName>
+                <default>false</default>
+                <label>ESF0 - Beam Holdings Mngmt, S.L. [ES]</label>
+            </value>
+            <value>
+                <fullName>ESJ0 - Larios Spain, S.L. [ES]</fullName>
+                <default>false</default>
+                <label>ESJ0 - Larios Spain, S.L. [ES]</label>
+            </value>
+            <value>
+                <fullName>FR01 - ACBC</fullName>
+                <default>false</default>
+                <label>FR01 - ACBC</label>
+            </value>
+            <value>
+                <fullName>FR02 - SICA XV des Borderies [FR]</fullName>
+                <default>false</default>
+                <label>FR02 - SICA XV des Borderies [FR]</label>
+            </value>
+            <value>
+                <fullName>FR03 - SICA des Baronnies de Jar [FR]</fullName>
+                <default>false</default>
+                <label>FR03 - SICA des Baronnies de Jar [FR]</label>
+            </value>
+            <value>
+                <fullName>FR10 - Courvoiser, SAS [FR]</fullName>
+                <default>false</default>
+                <label>FR10 - Courvoiser, SAS [FR]</label>
+            </value>
+            <value>
+                <fullName>FR20 - Louis Salignac et CIE SAS [FR]</fullName>
+                <default>false</default>
+                <label>FR20 - Louis Salignac et CIE SAS [FR]</label>
+            </value>
+            <value>
+                <fullName>FR30 - Fortune Brands IHF, SAS [FR]</fullName>
+                <default>false</default>
+                <label>FR30 - Fortune Brands IHF, SAS [FR]</label>
+            </value>
+            <value>
+                <fullName>FR40 - Distillerie Charentaise [FR]</fullName>
+                <default>false</default>
+                <label>FR40 - Distillerie Charentaise [FR]</label>
+            </value>
+            <value>
+                <fullName>FR60 - Courvoisier group elimina</fullName>
+                <default>false</default>
+                <label>FR60 - Courvoisier group elimina</label>
+            </value>
+            <value>
+                <fullName>FR80 - Louis Royer S.A.S</fullName>
+                <default>false</default>
+                <label>FR80 - Louis Royer S.A.S</label>
+            </value>
+            <value>
+                <fullName>FRP1 - France Purchase Accountin</fullName>
+                <default>false</default>
+                <label>FRP1 - France Purchase Accountin</label>
+            </value>
+            <value>
+                <fullName>GB60 - Beam Internat. Ltd [GB]</fullName>
+                <default>false</default>
+                <label>GB60 - Beam Internat. Ltd [GB]</label>
+            </value>
+            <value>
+                <fullName>GB80 - Thomas Lowndes [GB]</fullName>
+                <default>false</default>
+                <label>GB80 - Thomas Lowndes [GB]</label>
+            </value>
+            <value>
+                <fullName>GBA1 - Beam Management UK Ltd [GB]</fullName>
+                <default>false</default>
+                <label>GBA1 - Beam Management UK Ltd [GB]</label>
+            </value>
+            <value>
+                <fullName>IE10 - Cooley [IR]</fullName>
+                <default>false</default>
+                <label>IE10 - Cooley [IR]</label>
+            </value>
+            <value>
+                <fullName>IE20 - Cooleys Purchase Accounti [IR]</fullName>
+                <default>false</default>
+                <label>IE20 - Cooleys Purchase Accounti [IR]</label>
+            </value>
+            <value>
+                <fullName>IEA0 - Beam Global Spirits Irela [IR]</fullName>
+                <default>false</default>
+                <label>IEA0 - Beam Global Spirits Irela [IR]</label>
+            </value>
+            <value>
+                <fullName>IEF1 - Fortune Brands Finance UK [GB]</fullName>
+                <default>false</default>
+                <label>IEF1 - Fortune Brands Finance UK [GB]</label>
+            </value>
+            <value>
+                <fullName>IN10 - BGS&amp;W India [IN]</fullName>
+                <default>false</default>
+                <label>IN10 - BGS&amp;W India [IN]</label>
+            </value>
+            <value>
+                <fullName>INE1 - India Corp Adj (5000) [IN]</fullName>
+                <default>false</default>
+                <label>INE1 - India Corp Adj (5000) [IN]</label>
+            </value>
+            <value>
+                <fullName>INP1 - India Purchase Accounting</fullName>
+                <default>false</default>
+                <label>INP1 - India Purchase Accounting</label>
+            </value>
+            <value>
+                <fullName>IRP1 - Ireland Purchase Accounti</fullName>
+                <default>false</default>
+                <label>IRP1 - Ireland Purchase Accounti</label>
+            </value>
+            <value>
+                <fullName>LU00 - Beam Europe S.àr.l. [LU]</fullName>
+                <default>false</default>
+                <label>LU00 - Beam Europe S.àr.l. [LU]</label>
+            </value>
+            <value>
+                <fullName>LUF1 - Beam Finance (Luxemburg) [LU]</fullName>
+                <default>false</default>
+                <label>LUF1 - Beam Finance (Luxemburg) [LU]</label>
+            </value>
+            <value>
+                <fullName>LUF2 - Beam Holdings (Luxemburg) [LU]</fullName>
+                <default>false</default>
+                <label>LUF2 - Beam Holdings (Luxemburg) [LU]</label>
+            </value>
+            <value>
+                <fullName>LUF3 - JB Finco (Lux) [LU]</fullName>
+                <default>false</default>
+                <label>LUF3 - JB Finco (Lux) [LU]</label>
+            </value>
+            <value>
+                <fullName>LUF4 - Beam Fin – US Branch</fullName>
+                <default>false</default>
+                <label>LUF4 - Beam Fin – US Branch</label>
+            </value>
+            <value>
+                <fullName>MX10 - Tequila Sauza S de RL [MX]</fullName>
+                <default>false</default>
+                <label>MX10 - Tequila Sauza S de RL [MX]</label>
+            </value>
+            <value>
+                <fullName>MX20 - PROFOA S. de. RL. De C.V. [MX]</fullName>
+                <default>false</default>
+                <label>MX20 - PROFOA S. de. RL. De C.V. [MX]</label>
+            </value>
+            <value>
+                <fullName>MX30 - PRODISA S de RL de CV [MX]</fullName>
+                <default>false</default>
+                <label>MX30 - PRODISA S de RL de CV [MX]</label>
+            </value>
+            <value>
+                <fullName>MX40 - Suntory Mexicana, S.A.C.V</fullName>
+                <default>false</default>
+                <label>MX40 - Suntory Mexicana, S.A.C.V</label>
+            </value>
+            <value>
+                <fullName>MXA0 - Serv. Corp. Sauza, SA de [MX]</fullName>
+                <default>false</default>
+                <label>MXA0 - Serv. Corp. Sauza, SA de [MX]</label>
+            </value>
+            <value>
+                <fullName>MXC0 - BGHM, S. de R.L. de C.V. [MX]</fullName>
+                <default>false</default>
+                <label>MXC0 - BGHM, S. de R.L. de C.V. [MX]</label>
+            </value>
+            <value>
+                <fullName>MXE1 - MexicoCorporate Eliminati [MX]</fullName>
+                <default>false</default>
+                <label>MXE1 - MexicoCorporate Eliminati [MX]</label>
+            </value>
+            <value>
+                <fullName>MXF0 - BEAM GLOBALSPIRITS DE MEX [MX]</fullName>
+                <default>false</default>
+                <label>MXF0 - BEAM GLOBALSPIRITS DE MEX [MX]</label>
+            </value>
+            <value>
+                <fullName>MXP1 - Mexico Purchase Accountin</fullName>
+                <default>false</default>
+                <label>MXP1 - Mexico Purchase Accountin</label>
+            </value>
+            <value>
+                <fullName>NLG0 - John Harvey BV [NL]</fullName>
+                <default>false</default>
+                <label>NLG0 - John Harvey BV [NL]</label>
+            </value>
+            <value>
+                <fullName>NZ60 - Beam Global (NZ) Ltd [NZ]</fullName>
+                <default>false</default>
+                <label>NZ60 - Beam Global (NZ) Ltd [NZ]</label>
+            </value>
+            <value>
+                <fullName>PH70 - Beam Global Philippines [PH]</fullName>
+                <default>false</default>
+                <label>PH70 - Beam Global Philippines [PH]</label>
+            </value>
+            <value>
+                <fullName>PHE1 - Philippines Corp Adj [PH]</fullName>
+                <default>false</default>
+                <label>PHE1 - Philippines Corp Adj [PH]</label>
+            </value>
+            <value>
+                <fullName>PT10 - Martinez Gassiot, Vinhos, [PT]</fullName>
+                <default>false</default>
+                <label>PT10 - Martinez Gassiot, Vinhos, [PT]</label>
+            </value>
+            <value>
+                <fullName>PT20 - Soc Agr Canais [PT]</fullName>
+                <default>false</default>
+                <label>PT20 - Soc Agr Canais [PT]</label>
+            </value>
+            <value>
+                <fullName>PT50 - ADSW Portugal [PT]</fullName>
+                <default>false</default>
+                <label>PT50 - ADSW Portugal [PT]</label>
+            </value>
+            <value>
+                <fullName>PT60 - CR&amp;F, Unipessoal Lda [PT]</fullName>
+                <default>false</default>
+                <label>PT60 - CR&amp;F, Unipessoal Lda [PT]</label>
+            </value>
+            <value>
+                <fullName>PTA0 - ADSW Portugal lda [PT]</fullName>
+                <default>false</default>
+                <label>PTA0 - ADSW Portugal lda [PT]</label>
+            </value>
+            <value>
+                <fullName>SAC1 - South Americas Ledger</fullName>
+                <default>false</default>
+                <label>SAC1 - South Americas Ledger</label>
+            </value>
+            <value>
+                <fullName>SC10 - Beam Inc UK Ltd [GB]</fullName>
+                <default>false</default>
+                <label>SC10 - Beam Inc UK Ltd [GB]</label>
+            </value>
+            <value>
+                <fullName>SC30 - Morrison Bowmore Distille</fullName>
+                <default>false</default>
+                <label>SC30 - Morrison Bowmore Distille</label>
+            </value>
+            <value>
+                <fullName>SC40 - Beam Suntory Op. Lmtd.</fullName>
+                <default>false</default>
+                <label>SC40 - Beam Suntory Op. Lmtd.</label>
+            </value>
+            <value>
+                <fullName>SCA0 - Beam Inc UK Financing [GB]</fullName>
+                <default>false</default>
+                <label>SCA0 - Beam Inc UK Financing [GB]</label>
+            </value>
+            <value>
+                <fullName>SG60 - BG Asia Pte.Ltd. [SG]</fullName>
+                <default>false</default>
+                <label>SG60 - BG Asia Pte.Ltd. [SG]</label>
+            </value>
+            <value>
+                <fullName>SPP1 - Spain Purchase Accounting</fullName>
+                <default>false</default>
+                <label>SPP1 - Spain Purchase Accounting</label>
+            </value>
+            <value>
+                <fullName>TH50 - Beam Global (Thailand) Lt [TH]</fullName>
+                <default>false</default>
+                <label>TH50 - Beam Global (Thailand) Lt [TH]</label>
+            </value>
+            <value>
+                <fullName>TW10 - Suntory Taiwan Limited</fullName>
+                <default>false</default>
+                <label>TW10 - Suntory Taiwan Limited</label>
+            </value>
+            <value>
+                <fullName>UKP1 - UK Purchase Accounting</fullName>
+                <default>false</default>
+                <label>UKP1 - UK Purchase Accounting</label>
+            </value>
+            <value>
+                <fullName>US11 - Maker's Mark Distillery [US]</fullName>
+                <default>false</default>
+                <label>US11 - Maker's Mark Distillery [US]</label>
+            </value>
+            <value>
+                <fullName>US30 - Jim Beam Brands, Co. [US]</fullName>
+                <default>false</default>
+                <label>US30 - Jim Beam Brands, Co. [US]</label>
+            </value>
+            <value>
+                <fullName>US34 - Beam Global S&amp;W, Inc [US]</fullName>
+                <default>false</default>
+                <label>US34 - Beam Global S&amp;W, Inc [US]</label>
+            </value>
+            <value>
+                <fullName>US35 - Wood Terminal Co Inc [US]</fullName>
+                <default>false</default>
+                <label>US35 - Wood Terminal Co Inc [US]</label>
+            </value>
+            <value>
+                <fullName>US37 - Beam Global, Netherlands [NL]</fullName>
+                <default>false</default>
+                <label>US37 - Beam Global, Netherlands [NL]</label>
+            </value>
+            <value>
+                <fullName>US38 - Bourbon Warehouse Nth.BV. [US]</fullName>
+                <default>false</default>
+                <label>US38 - Bourbon Warehouse Nth.BV. [US]</label>
+            </value>
+            <value>
+                <fullName>US39 - Jim Beam Netherlands, BV [NL]</fullName>
+                <default>false</default>
+                <label>US39 - Jim Beam Netherlands, BV [NL]</label>
+            </value>
+            <value>
+                <fullName>US40 - Cruzan Viril LTD [US]</fullName>
+                <default>false</default>
+                <label>US40 - Cruzan Viril LTD [US]</label>
+            </value>
+            <value>
+                <fullName>US41 - Bourbon Warehouse Rc.INC [US]</fullName>
+                <default>false</default>
+                <label>US41 - Bourbon Warehouse Rc.INC [US]</label>
+            </value>
+            <value>
+                <fullName>US42 - JBB Spirits New York, Inc [US]</fullName>
+                <default>false</default>
+                <label>US42 - JBB Spirits New York, Inc [US]</label>
+            </value>
+            <value>
+                <fullName>US43 - Fulham Acquisition LLC [US]</fullName>
+                <default>false</default>
+                <label>US43 - Fulham Acquisition LLC [US]</label>
+            </value>
+            <value>
+                <fullName>US44 - Regal China Corporation [US]</fullName>
+                <default>false</default>
+                <label>US44 - Regal China Corporation [US]</label>
+            </value>
+            <value>
+                <fullName>US45 - John DeKuyper &amp; S. Inc.DE [US]</fullName>
+                <default>false</default>
+                <label>US45 - John DeKuyper &amp; S. Inc.DE [US]</label>
+            </value>
+            <value>
+                <fullName>US46 - John DeKuyper &amp; S.Inc.NY [US]</fullName>
+                <default>false</default>
+                <label>US46 - John DeKuyper &amp; S.Inc.NY [US]</label>
+            </value>
+            <value>
+                <fullName>US47 - Wilson Jones [US]</fullName>
+                <default>false</default>
+                <label>US47 - Wilson Jones [US]</label>
+            </value>
+            <value>
+                <fullName>US48 - White Rock Distilleries [US]</fullName>
+                <default>false</default>
+                <label>US48 - White Rock Distilleries [US]</label>
+            </value>
+            <value>
+                <fullName>US49 - Jim Beam Brands Holdings</fullName>
+                <default>false</default>
+                <label>US49 - Jim Beam Brands Holdings</label>
+            </value>
+            <value>
+                <fullName>US50 - Jim Beam Br. Hold. Maine [US]</fullName>
+                <default>false</default>
+                <label>US50 - Jim Beam Br. Hold. Maine [US]</label>
+            </value>
+            <value>
+                <fullName>US51 - Jim Beam Br. Hold. Maine [US]</fullName>
+                <default>false</default>
+                <label>US51 - Jim Beam Br. Hold. Maine [US]</label>
+            </value>
+            <value>
+                <fullName>USB1 - Beam Inc. [US]</fullName>
+                <default>false</default>
+                <label>USB1 - Beam Inc. [US]</label>
+            </value>
+            <value>
+                <fullName>USC0 - Jim Beam Brands, Co. [US]</fullName>
+                <default>false</default>
+                <label>USC0 - Jim Beam Brands, Co. [US]</label>
+            </value>
+            <value>
+                <fullName>USC1 - EMEA Ledger</fullName>
+                <default>false</default>
+                <label>USC1 - EMEA Ledger</label>
+            </value>
+            <value>
+                <fullName>USC2 - APSA Ledger</fullName>
+                <default>false</default>
+                <label>USC2 - APSA Ledger</label>
+            </value>
+            <value>
+                <fullName>USE1 - US Corporate Eliminati [US]</fullName>
+                <default>false</default>
+                <label>USE1 - US Corporate Eliminati [US]</label>
+            </value>
+            <value>
+                <fullName>USE2 - Beam Suntory Holdings Elim</fullName>
+                <default>false</default>
+                <label>USE2 - Beam Suntory Holdings Elim</label>
+            </value>
+            <value>
+                <fullName>USP1 - US Purchase Accounting</fullName>
+                <default>false</default>
+                <label>USP1 - US Purchase Accounting</label>
+            </value>
+            <value>
+                <fullName>USP2 - USVI Purchase Accounting</fullName>
+                <default>false</default>
+                <label>USP2 - USVI Purchase Accounting</label>
+            </value>
+            <value>
+                <fullName>VN10 - Beam Global Indochina LLC</fullName>
+                <default>false</default>
+                <label>VN10 - Beam Global Indochina LLC</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Country_Full_Name__c</fullName>
+    <description>Full written name (if applicable) of the country (I.E. CAN is Canada, MEX is Mexico)</description>
+    <externalId>false</externalId>
+    <label>Country Full Name</label>
+    <length>24</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

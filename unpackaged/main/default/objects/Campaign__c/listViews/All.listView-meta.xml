@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>ParentMarketingPlan__c</columns>
+    <columns>Brand_Quality__c</columns>
+    <columns>PlannedCampaignSpend__c</columns>
+    <columns>CampaignBalance__c</columns>
+    <columns>CommittedCampaignSpend__c</columns>
+    <columns>ActualCampaignSpend__c</columns>
+    <columns>IOCode__c</columns>
+    <columns>LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+    <language>en_US</language>
+</ListView>

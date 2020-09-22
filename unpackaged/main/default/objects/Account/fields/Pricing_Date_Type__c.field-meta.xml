@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pricing_Date_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Pricing Date Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>PO Date</fullName>
+                <default>false</default>
+                <label>PO Date</label>
+            </value>
+            <value>
+                <fullName>Ship Date</fullName>
+                <default>false</default>
+                <label>Ship Date</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

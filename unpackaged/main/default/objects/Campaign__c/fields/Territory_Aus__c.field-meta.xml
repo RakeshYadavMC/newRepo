@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Territory_Aus__c</fullName>
+    <description>This Territory field created for to track Australia Campaigns</description>
+    <externalId>false</externalId>
+    <label>Territory</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>AUCHENTOSHAN FBS RETAILER WHISKEY PROGRAM BTL FBS/BTL/OFF PREMISE</fullName>
+                <default>false</default>
+                <label>AUCHENTOSHAN FBS RETAILER WHISKEY PROGRAM BTL FBS/BTL/OFF PREMISE</label>
+            </value>
+            <value>
+                <fullName>BASIL HAYDEN FBS RETAILER WHISKEY PROGRAM BTL FBS/BTL/OFF PREMISE</fullName>
+                <default>false</default>
+                <label>BASIL HAYDEN FBS RETAILER WHISKEY PROGRAM BTL FBS/BTL/OFF PREMISE</label>
+            </value>
+            <value>
+                <fullName>BOWMORE FBS RETAILER WHISKEY PROGRAM BTL FBS/BTL/OFF PREMISE</fullName>
+                <default>false</default>
+                <label>BOWMORE FBS RETAILER WHISKEY PROGRAM BTL FBS/BTL/OFF PREMISE</label>
+            </value>
+            <value>
+                <fullName>CANADIAN CLUB FBS CC SUMMER / TENNIS BTL ON PREMISE</fullName>
+                <default>false</default>
+                <label>CANADIAN CLUB FBS CC SUMMER / TENNIS BTL ON PREMISE</label>
+            </value>
+            <value>
+                <fullName>CANADIAN CLUB FBS CC WINTER/BAD SWEATER BTL ON PREMISE</fullName>
+                <default>false</default>
+                <label>CANADIAN CLUB FBS CC WINTER/BAD SWEATER BTL ON PREMISE</label>
+            </value>
+            <value>
+                <fullName>CANADIAN CLUB FBS FIRST POUR SUPPORT BTL ON PREMISE</fullName>
+                <default>false</default>
+                <label>CANADIAN CLUB FBS FIRST POUR SUPPORT BTL ON PREMISE</label>
+            </value>
+            <value>
+                <fullName>CANADIAN CLUB FBS RETAILER WHISKEY PROGRAM BTL FBS/BTL/OFF PREMISE</fullName>
+                <default>false</default>
+                <label>CANADIAN CLUB FBS RETAILER WHISKEY PROGRAM BTL FBS/BTL/OFF PREMISE</label>
+            </value>
+            <value>
+                <fullName>CANADIAN CLUB FBS THE EXCHANGE BTL ON PREMISE</fullName>
+                <default>false</default>
+                <label>CANADIAN CLUB FBS THE EXCHANGE BTL ON PREMISE</label>
+            </value>
+            <value>
+                <fullName>CANADIAN CLUB FBS THE PERFECT SERVE BTL ON PREMISE</fullName>
+                <default>false</default>
+                <label>CANADIAN CLUB FBS THE PERFECT SERVE BTL ON PREMISE</label>
+            </value>
+            <value>
+                <fullName>CANADIAN CLUB FBS VISIBILITY ATL FBS/ATL</fullName>
+                <default>false</default>
+                <label>CANADIAN CLUB FBS VISIBILITY ATL FBS/ATL</label>
+            </value>
+            <value>
+                <fullName>CANADIAN CLUB RTD AGENCY FEES ATL RTD/ATL</fullName>
+                <default>false</default>
+                <label>CANADIAN CLUB RTD AGENCY FEES ATL RTD/ATL</label>
+            </value>
+            <value>
+                <fullName>CANADIAN CLUB RTD CC SPONSORSHIPS/TRIAL ATL RTD/ATL</fullName>
+                <default>false</default>
+                <label>CANADIAN CLUB RTD CC SPONSORSHIPS/TRIAL ATL RTD/ATL</label>
+            </value>
+            <value>
+                <fullName>CANADIAN CLUB RTD CC SUMMER / TENNIS ATL RTD/ATL</fullName>
+                <default>false</default>
+                <label>CANADIAN CLUB RTD CC SUMMER / TENNIS ATL RTD/ATL</label>
+            </value>
+            <value>
+                <fullName>CANADIAN CLUB RTD CC SUMMER / TENNIS BTL RTD/BTL/OFF PREMISE</fullName>
+                <default>false</default>
+                <label>CANADIAN CLUB RTD CC SUMMER / TENNIS BTL RTD/BTL/OFF PREMISE</label>
+            </value>
+            <value>
+                <fullName>CANADIAN CLUB RTD CC WINTER/BAD SWEATER ATL RTD/ATL</fullName>
+                <default>false</default>
+                <label>CANADIAN CLUB RTD CC WINTER/BAD SWEATER ATL RTD/ATL</label>
+            </value>
+            <value>
+                <fullName>CANADIAN CLUB RTD CC WINTER/BAD SWEATER BTL RTD/BTL/OFF PREMISE</fullName>
+                <default>false</default>
+                <label>CANADIAN CLUB RTD CC WINTER/BAD SWEATER BTL RTD/BTL/OFF PREMISE</label>
+            </value>
+            <value>
+                <fullName>CANADIAN CLUB RTD MEDIA ATL RTD/ATL</fullName>
+                <default>false</default>
+                <label>CANADIAN CLUB RTD MEDIA ATL RTD/ATL</label>
+            </value>
+            <value>
+                <fullName>CANADIAN CLUB RTD MUSIC ATL RTD/ATL</fullName>
+                <default>false</default>
+                <label>CANADIAN CLUB RTD MUSIC ATL RTD/ATL</label>
+            </value>
+            <value>
+                <fullName>CANADIAN CLUB RTD NPD DEVELOPMENT ATL RTD/ATL</fullName>
+                <default>false</default>
+                <label>CANADIAN CLUB RTD NPD DEVELOPMENT ATL RTD/ATL</label>
+            </value>
+            <value>
+                <fullName>CANADIAN CLUB RTD POS STORAGE &amp; DISTRIBUTION BTL RTD/BTL/OFF PREMISE</fullName>
+                <default>false</default>
+                <label>CANADIAN CLUB RTD POS STORAGE &amp; DISTRIBUTION BTL RTD/BTL/OFF PREMISE</label>
+            </value>
+            <value>
+                <fullName>CANADIAN CLUB RTD POS STORAGE &amp; DISTRIBUTION BTL TCC</fullName>
+                <default>false</default>
+                <label>CANADIAN CLUB RTD POS STORAGE &amp; DISTRIBUTION BTL TCC</label>
+            </value>
+            <value>
+                <fullName>CANADIAN CLUB RTD RESEARCH ATL RESEARCH - SYND</fullName>
+                <default>false</default>
+                <label>CANADIAN CLUB RTD RESEARCH ATL RESEARCH - SYND</label>
+            </value>
+            <value>
+                <fullName>CANADIAN CLUB RTD RESEARCH ATL RTD/ATL</fullName>
+                <default>false</default>
+                <label>CANADIAN CLUB RTD RESEARCH ATL RTD/ATL</label>
+            </value>
+            <value>
+                <fullName>CANADIAN CLUB RTD SPONSORSHIPS ATL RTD/ATL</fullName>
+                <default>false</default>
+                <label>CANADIAN CLUB RTD SPONSORSHIPS ATL RTD/ATL</label>
+            </value>
+            <value>
+                <fullName>CANADIAN CLUB RTD VISIBILITY ATL RTD/ATL</fullName>
+                <default>false</default>
+                <label>CANADIAN CLUB RTD VISIBILITY ATL RTD/ATL</label>
+            </value>
+            <value>
+                <fullName>CANADIAN CLUB RTD VISIBILITY BTL RTD/BTL/OFF PREMISE</fullName>
+                <default>false</default>
+                <label>CANADIAN CLUB RTD VISIBILITY BTL RTD/BTL/OFF PREMISE</label>
+            </value>
+            <value>
+                <fullName>HAKU FBS MEDIA ATL FBS/ATL</fullName>
+                <default>false</default>
+                <label>HAKU FBS MEDIA ATL FBS/ATL</label>
+            </value>
+            <value>
+                <fullName>HAKU FBS TRIAL BTL FBS/BTL/OFF PREMISE</fullName>
+                <default>false</default>
+                <label>HAKU FBS TRIAL BTL FBS/BTL/OFF PREMISE</label>
+            </value>
+            <value>
+                <fullName>HAKU FBS TRIAL BTL ON PREMISE</fullName>
+                <default>false</default>
+                <label>HAKU FBS TRIAL BTL ON PREMISE</label>
+            </value>
+            <value>
+                <fullName>HAKU FBS VISIBILITY ATL FBS/ATL</fullName>
+                <default>false</default>
+                <label>HAKU FBS VISIBILITY ATL FBS/ATL</label>
+            </value>
+            <value>
+                <fullName>HAKU FBS VISIBILITY BTL ON PREMISE</fullName>
+                <default>false</default>
+                <label>HAKU FBS VISIBILITY BTL ON PREMISE</label>
+            </value>
+            <value>
+                <fullName>JIM BEAM WHITE FBS 225 YEARS ATL FBS/ATL</fullName>
+                <default>false</default>
+                <label>JIM BEAM WHITE FBS 225 YEARS ATL FBS/ATL</label>
+            </value>
+            <value>
+                <fullName>JIM BEAM WHITE FBS 225 YEARS BTL ON PREMISE</fullName>
+                <default>false</default>
+                <label>JIM BEAM WHITE FBS 225 YEARS BTL ON PREMISE</label>
+            </value>
+            <value>
+                <fullName>JIM BEAM WHITE FBS AFL BTL ON PREMISE</fullName>
+                <default>false</default>
+                <label>JIM BEAM WHITE FBS AFL BTL ON PREMISE</label>
+            </value>
+            <value>
+                <fullName>JIM BEAM WHITE FBS DRINK BOURBON DIFFERENTLY BTL ON PREMISE</fullName>
+                <default>false</default>
+                <label>JIM BEAM WHITE FBS DRINK BOURBON DIFFERENTLY BTL ON PREMISE</label>
+            </value>
+            <value>
+                <fullName>JIM BEAM WHITE FBS FIRST POUR SUPPORT BTL ON PREMISE</fullName>
+                <default>false</default>
+                <label>JIM BEAM WHITE FBS FIRST POUR SUPPORT BTL ON PREMISE</label>
+            </value>
+            <value>
+                <fullName>JIM BEAM WHITE FBS JBB REAPPRAISAL BTL FBS/BTL/OFF PREMISE</fullName>
+                <default>false</default>
+                <label>JIM BEAM WHITE FBS JBB REAPPRAISAL BTL FBS/BTL/OFF PREMISE</label>
+            </value>
+            <value>
+                <fullName>JIM BEAM WHITE FBS JBB REAPPRAISAL BTL ON PREMISE</fullName>
+                <default>false</default>
+                <label>JIM BEAM WHITE FBS JBB REAPPRAISAL BTL ON PREMISE</label>
+            </value>
+            <value>
+                <fullName>JIM BEAM WHITE FBS POS STORAGE &amp; DISTRIBUTION BTL FBS/BTL/OFF PREMISE</fullName>
+                <default>false</default>
+                <label>JIM BEAM WHITE FBS POS STORAGE &amp; DISTRIBUTION BTL FBS/BTL/OFF PREMISE</label>
+            </value>
+            <value>
+                <fullName>JIM BEAM WHITE FBS POS STORAGE &amp; DISTRIBUTION BTL TCC</fullName>
+                <default>false</default>
+                <label>JIM BEAM WHITE FBS POS STORAGE &amp; DISTRIBUTION BTL TCC</label>
+            </value>
+            <value>
+                <fullName>JIM BEAM WHITE FBS POS STORAGE &amp; DISTRIBUTION BTL THE BLEND</fullName>
+                <default>false</default>
+                <label>JIM BEAM WHITE FBS POS STORAGE &amp; DISTRIBUTION BTL THE BLEND</label>
+            </value>
+            <value>
+                <fullName>JIM BEAM WHITE FBS RETAILER WHISKEY PROGRAM BTL FBS/BTL/OFF PREMISE</fullName>
+                <default>false</default>
+                <label>JIM BEAM WHITE FBS RETAILER WHISKEY PROGRAM BTL FBS/BTL/OFF PREMISE</label>
+            </value>
+            <value>
+                <fullName>JIM BEAM WHITE FBS SUPERCARS BTL ON PREMISE</fullName>
+                <default>false</default>
+                <label>JIM BEAM WHITE FBS SUPERCARS BTL ON PREMISE</label>
+            </value>
+            <value>
+                <fullName>JIM BEAM WHITE FBS THE BLEND  BTL ON PREMISE</fullName>
+                <default>false</default>
+                <label>JIM BEAM WHITE FBS THE BLEND  BTL ON PREMISE</label>
+            </value>
+            <value>
+                <fullName>JIM BEAM WHITE FBS VISIBILITY ATL FBS/ATL</fullName>
+                <default>false</default>
+                <label>JIM BEAM WHITE FBS VISIBILITY ATL FBS/ATL</label>
+            </value>
+            <value>
+                <fullName>JIM BEAM WHITE FBS VISIBILITY ATL ON PREMISE</fullName>
+                <default>false</default>
+                <label>JIM BEAM WHITE FBS VISIBILITY ATL ON PREMISE</label>
+            </value>
+            <value>
+                <fullName>JIM BEAM WHITE FBS VISIBILITY BTL ON PREMISE</fullName>
+                <default>false</default>
+                <label>JIM BEAM WHITE FBS VISIBILITY BTL ON PREMISE</label>
+            </value>
+            <value>
+                <fullName>JIM BEAM WHITE RTD 225 YEARS BTL RTD/BTL/OFF PREMISE</fullName>
+                <default>false</default>
+                <label>JIM BEAM WHITE RTD 225 YEARS BTL RTD/BTL/OFF PREMISE</label>
+            </value>
+            <value>
+                <fullName>JIM BEAM WHITE RTD AFL ATL RTD/ATL</fullName>
+                <default>false</default>
+                <label>JIM BEAM WHITE RTD AFL ATL RTD/ATL</label>
+            </value>
+            <value>
+                <fullName>JIM BEAM WHITE RTD AGENCY FEES ATL RTD/ATL</fullName>
+                <default>false</default>
+                <label>JIM BEAM WHITE RTD AGENCY FEES ATL RTD/ATL</label>
+            </value>
+            <value>
+                <fullName>JIM BEAM WHITE RTD DRINK BOURBON DIFFERENTLY BTL RTD/BTL/OFF PREMISE</fullName>
+                <default>false</default>
+                <label>JIM BEAM WHITE RTD DRINK BOURBON DIFFERENTLY BTL RTD/BTL/OFF PREMISE</label>
+            </value>
+            <value>
+                <fullName>JIM BEAM WHITE RTD MEDIA ATL RTD/ATL</fullName>
+                <default>false</default>
+                <label>JIM BEAM WHITE RTD MEDIA ATL RTD/ATL</label>
+            </value>
+            <value>
+                <fullName>JIM BEAM WHITE RTD MUSIC ATL RTD/ATL</fullName>
+                <default>false</default>
+                <label>JIM BEAM WHITE RTD MUSIC ATL RTD/ATL</label>
+            </value>
+            <value>
+                <fullName>JIM BEAM WHITE RTD NPD DEVELOPMENT ATL RTD/ATL</fullName>
+                <default>false</default>
+                <label>JIM BEAM WHITE RTD NPD DEVELOPMENT ATL RTD/ATL</label>
+            </value>
+            <value>
+                <fullName>JIM BEAM WHITE RTD POS STORAGE &amp; DISTRIBUTION BTL RTD/BTL/OFF PREMISE</fullName>
+                <default>false</default>
+                <label>JIM BEAM WHITE RTD POS STORAGE &amp; DISTRIBUTION BTL RTD/BTL/OFF PREMISE</label>
+            </value>
+            <value>
+                <fullName>JIM BEAM WHITE RTD POS STORAGE &amp; DISTRIBUTION BTL TCC</fullName>
+                <default>false</default>
+                <label>JIM BEAM WHITE RTD POS STORAGE &amp; DISTRIBUTION BTL TCC</label>
+            </value>
+            <value>
+                <fullName>JIM BEAM WHITE RTD RESEARCH ATL RESEARCH - CONSUMER</fullName>
+                <default>false</default>
+                <label>JIM BEAM WHITE RTD RESEARCH ATL RESEARCH - CONSUMER</label>
+            </value>
+            <value>
+                <fullName>JIM BEAM WHITE RTD RESEARCH ATL RESEARCH - SYND</fullName>
+                <default>false</default>
+                <label>JIM BEAM WHITE RTD RESEARCH ATL RESEARCH - SYND</label>
+            </value>
+            <value>
+                <fullName>JIM BEAM WHITE RTD RESEARCH ATL RTD/ATL</fullName>
+                <default>false</default>
+                <label>JIM BEAM WHITE RTD RESEARCH ATL RTD/ATL</label>
+            </value>
+            <value>
+                <fullName>JIM BEAM WHITE RTD SUPERCARS ATL RTD/ATL</fullName>
+                <default>false</default>
+                <label>JIM BEAM WHITE RTD SUPERCARS ATL RTD/ATL</label>
+            </value>
+            <value>
+                <fullName>JIM BEAM WHITE RTD VISIBILITY ATL RTD/ATL</fullName>
+                <default>false</default>
+                <label>JIM BEAM WHITE RTD VISIBILITY ATL RTD/ATL</label>
+            </value>
+            <value>
+                <fullName>JIM BEAM WHITE RTD VISIBILITY BTL RTD/BTL/OFF PREMISE</fullName>
+                <default>false</default>
+                <label>JIM BEAM WHITE RTD VISIBILITY BTL RTD/BTL/OFF PREMISE</label>
+            </value>
+            <value>
+                <fullName>KOYOMI  RESEARCH ATL BT INNOVATION</fullName>
+                <default>false</default>
+                <label>KOYOMI  RESEARCH ATL BT INNOVATION</label>
+            </value>
+            <value>
+                <fullName>KOYOMI RTD AGENCY FEES ATL RTD/ATL</fullName>
+                <default>false</default>
+                <label>KOYOMI RTD AGENCY FEES ATL RTD/ATL</label>
+            </value>
+            <value>
+                <fullName>KOYOMI RTD MEDIA ATL RTD/ATL</fullName>
+                <default>false</default>
+                <label>KOYOMI RTD MEDIA ATL RTD/ATL</label>
+            </value>
+            <value>
+                <fullName>KOYOMI RTD NPD DEVELOPMENT ATL BT INNOVATION</fullName>
+                <default>false</default>
+                <label>KOYOMI RTD NPD DEVELOPMENT ATL BT INNOVATION</label>
+            </value>
+            <value>
+                <fullName>KOYOMI RTD TRIAL ATL RTD/ATL</fullName>
+                <default>false</default>
+                <label>KOYOMI RTD TRIAL ATL RTD/ATL</label>
+            </value>
+            <value>
+                <fullName>KOYOMI RTD TRIAL BTL RTD/BTL/OFF PREMISE</fullName>
+                <default>false</default>
+                <label>KOYOMI RTD TRIAL BTL RTD/BTL/OFF PREMISE</label>
+            </value>
+            <value>
+                <fullName>KOYOMI RTD VISIBILITY BTL RTD/ATL</fullName>
+                <default>false</default>
+                <label>KOYOMI RTD VISIBILITY BTL RTD/ATL</label>
+            </value>
+            <value>
+                <fullName>KOYOMI RTD VISIBILITY BTL RTD/BTL/OFF PREMISE</fullName>
+                <default>false</default>
+                <label>KOYOMI RTD VISIBILITY BTL RTD/BTL/OFF PREMISE</label>
+            </value>
+            <value>
+                <fullName>LAPHROAIG FBS FIRST POUR SUPPORT BTL ON PREMISE</fullName>
+                <default>false</default>
+                <label>LAPHROAIG FBS FIRST POUR SUPPORT BTL ON PREMISE</label>
+            </value>
+            <value>
+                <fullName>LAPHROAIG FBS MEDIA ATL FBS/ATL</fullName>
+                <default>false</default>
+                <label>LAPHROAIG FBS MEDIA ATL FBS/ATL</label>
+            </value>
+            <value>
+                <fullName>LAPHROAIG FBS OPINIONS WELCOME ATL FBS/ATL</fullName>
+                <default>false</default>
+                <label>LAPHROAIG FBS OPINIONS WELCOME ATL FBS/ATL</label>
+            </value>
+            <value>
+                <fullName>LAPHROAIG FBS OPINIONS WELCOME BTL FBS/BTL/OFF PREMISE</fullName>
+                <default>false</default>
+                <label>LAPHROAIG FBS OPINIONS WELCOME BTL FBS/BTL/OFF PREMISE</label>
+            </value>
+            <value>
+                <fullName>LAPHROAIG FBS OPINIONS WELCOME BTL ON PREMISE</fullName>
+                <default>false</default>
+                <label>LAPHROAIG FBS OPINIONS WELCOME BTL ON PREMISE</label>
+            </value>
+            <value>
+                <fullName>LAPHROAIG FBS RETAILER WHISKEY PROGRAM BTL FBS/BTL/OFF PREMISE</fullName>
+                <default>false</default>
+                <label>LAPHROAIG FBS RETAILER WHISKEY PROGRAM BTL FBS/BTL/OFF PREMISE</label>
+            </value>
+            <value>
+                <fullName>LAPHROAIG FBS THE EXCHANGE BTL ON PREMISE</fullName>
+                <default>false</default>
+                <label>LAPHROAIG FBS THE EXCHANGE BTL ON PREMISE</label>
+            </value>
+            <value>
+                <fullName>LAPHROAIG FBS TRIAL ATL FBS/ATL</fullName>
+                <default>false</default>
+                <label>LAPHROAIG FBS TRIAL ATL FBS/ATL</label>
+            </value>
+            <value>
+                <fullName>LAPHROAIG FBS VISIBILITY BTL ON PREMISE</fullName>
+                <default>false</default>
+                <label>LAPHROAIG FBS VISIBILITY BTL ON PREMISE</label>
+            </value>
+            <value>
+                <fullName>LEGENT FBS RETAILER WHISKEY PROGRAM BTL FBS/BTL/OFF PREMISE</fullName>
+                <default>false</default>
+                <label>LEGENT FBS RETAILER WHISKEY PROGRAM BTL FBS/BTL/OFF PREMISE</label>
+            </value>
+            <value>
+                <fullName>LEGENT FBS VISIBILITY BTL ON PREMISE</fullName>
+                <default>false</default>
+                <label>LEGENT FBS VISIBILITY BTL ON PREMISE</label>
+            </value>
+            <value>
+                <fullName>MAKER'S MARK FBS AGENCY FEES ATL FBS/ATL</fullName>
+                <default>false</default>
+                <label>MAKER'S MARK FBS AGENCY FEES ATL FBS/ATL</label>
+            </value>
+            <value>
+                <fullName>MAKER'S MARK FBS DRINKS STRATEGY BTL FBS/BTL/OFF PREMISE</fullName>
+                <default>false</default>
+                <label>MAKER'S MARK FBS DRINKS STRATEGY BTL FBS/BTL/OFF PREMISE</label>
+            </value>
+            <value>
+                <fullName>MAKER'S MARK FBS DRINKS STRATEGY BTL ON PREMISE</fullName>
+                <default>false</default>
+                <label>MAKER'S MARK FBS DRINKS STRATEGY BTL ON PREMISE</label>
+            </value>
+            <value>
+                <fullName>MAKER'S MARK FBS FIRST POUR SUPPORT BTL ON PREMISE</fullName>
+                <default>false</default>
+                <label>MAKER'S MARK FBS FIRST POUR SUPPORT BTL ON PREMISE</label>
+            </value>
+            <value>
+                <fullName>MAKER'S MARK FBS MEDIA ATL FBS/ATL</fullName>
+                <default>false</default>
+                <label>MAKER'S MARK FBS MEDIA ATL FBS/ATL</label>
+            </value>
+            <value>
+                <fullName>MAKER'S MARK FBS MM SPONSORSHIP/TRIAL ATL FBS/ATL</fullName>
+                <default>false</default>
+                <label>MAKER'S MARK FBS MM SPONSORSHIP/TRIAL ATL FBS/ATL</label>
+            </value>
+            <value>
+                <fullName>MAKER'S MARK FBS MM SPONSORSHIP/TRIAL BTL ON PREMISE</fullName>
+                <default>false</default>
+                <label>MAKER'S MARK FBS MM SPONSORSHIP/TRIAL BTL ON PREMISE</label>
+            </value>
+            <value>
+                <fullName>MAKER'S MARK FBS POS STORAGE &amp; DISTRIBUTION BTL FBS/BTL/OFF PREMISE</fullName>
+                <default>false</default>
+                <label>MAKER'S MARK FBS POS STORAGE &amp; DISTRIBUTION BTL FBS/BTL/OFF PREMISE</label>
+            </value>
+            <value>
+                <fullName>MAKER'S MARK FBS RETAILER WHISKEY PROGRAM BTL FBS/BTL/OFF PREMISE</fullName>
+                <default>false</default>
+                <label>MAKER'S MARK FBS RETAILER WHISKEY PROGRAM BTL FBS/BTL/OFF PREMISE</label>
+            </value>
+            <value>
+                <fullName>MAKER'S MARK FBS THE EXCHANGE BTL ON PREMISE</fullName>
+                <default>false</default>
+                <label>MAKER'S MARK FBS THE EXCHANGE BTL ON PREMISE</label>
+            </value>
+            <value>
+                <fullName>MAKER'S MARK FBS TRIAL BTL FBS/BTL/OFF PREMISE</fullName>
+                <default>false</default>
+                <label>MAKER'S MARK FBS TRIAL BTL FBS/BTL/OFF PREMISE</label>
+            </value>
+            <value>
+                <fullName>MAKER'S MARK FBS VISIBILITY BTL ON PREMISE</fullName>
+                <default>false</default>
+                <label>MAKER'S MARK FBS VISIBILITY BTL ON PREMISE</label>
+            </value>
+            <value>
+                <fullName>MAKERS MARK FBS POS STORAGE &amp; DISTRIBUTION BTL TCC</fullName>
+                <default>false</default>
+                <label>MAKERS MARK FBS POS STORAGE &amp; DISTRIBUTION BTL TCC</label>
+            </value>
+            <value>
+                <fullName>MIDORI FBS TRIAL BTL FBS/BTL/OFF PREMISE</fullName>
+                <default>false</default>
+                <label>MIDORI FBS TRIAL BTL FBS/BTL/OFF PREMISE</label>
+            </value>
+            <value>
+                <fullName>ROKU FBS FIRST POUR SUPPORT BTL ON PREMISE</fullName>
+                <default>false</default>
+                <label>ROKU FBS FIRST POUR SUPPORT BTL ON PREMISE</label>
+            </value>
+            <value>
+                <fullName>ROKU FBS MEDIA ATL FBS/ATL</fullName>
+                <default>false</default>
+                <label>ROKU FBS MEDIA ATL FBS/ATL</label>
+            </value>
+            <value>
+                <fullName>ROKU FBS POS STORAGE &amp; DISTRIBUTION BTL FBS/BTL/OFF PREMISE</fullName>
+                <default>false</default>
+                <label>ROKU FBS POS STORAGE &amp; DISTRIBUTION BTL FBS/BTL/OFF PREMISE</label>
+            </value>
+            <value>
+                <fullName>ROKU FBS POS STORAGE &amp; DISTRIBUTION BTL TCC</fullName>
+                <default>false</default>
+                <label>ROKU FBS POS STORAGE &amp; DISTRIBUTION BTL TCC</label>
+            </value>
+            <value>
+                <fullName>ROKU FBS SAKURA ATL FBS/ATL</fullName>
+                <default>false</default>
+                <label>ROKU FBS SAKURA ATL FBS/ATL</label>
+            </value>
+            <value>
+                <fullName>ROKU FBS SAKURA BTL FBS/BTL/OFF PREMISE</fullName>
+                <default>false</default>
+                <label>ROKU FBS SAKURA BTL FBS/BTL/OFF PREMISE</label>
+            </value>
+            <value>
+                <fullName>ROKU FBS SAKURA BTL ON PREMISE</fullName>
+                <default>false</default>
+                <label>ROKU FBS SAKURA BTL ON PREMISE</label>
+            </value>
+            <value>
+                <fullName>ROKU FBS THE EXCHANGE BTL ON PREMISE</fullName>
+                <default>false</default>
+                <label>ROKU FBS THE EXCHANGE BTL ON PREMISE</label>
+            </value>
+            <value>
+                <fullName>ROKU FBS TRIAL BTL FBS/BTL/OFF PREMISE</fullName>
+                <default>false</default>
+                <label>ROKU FBS TRIAL BTL FBS/BTL/OFF PREMISE</label>
+            </value>
+            <value>
+                <fullName>ROKU FBS TRIAL BTL ON PREMISE</fullName>
+                <default>false</default>
+                <label>ROKU FBS TRIAL BTL ON PREMISE</label>
+            </value>
+            <value>
+                <fullName>ROKU FBS VISIBILITY BTL FBS/BTL/OFF PREMISE</fullName>
+                <default>false</default>
+                <label>ROKU FBS VISIBILITY BTL FBS/BTL/OFF PREMISE</label>
+            </value>
+            <value>
+                <fullName>ROKU FBS VISIBILITY BTL ON PREMISE</fullName>
+                <default>false</default>
+                <label>ROKU FBS VISIBILITY BTL ON PREMISE</label>
+            </value>
+            <value>
+                <fullName>SIPSMITH FBS FIRST POUR SUPPORT BTL ON PREMISE</fullName>
+                <default>false</default>
+                <label>SIPSMITH FBS FIRST POUR SUPPORT BTL ON PREMISE</label>
+            </value>
+            <value>
+                <fullName>SIPSMITH FBS MEDIA ATL FBS/ATL</fullName>
+                <default>false</default>
+                <label>SIPSMITH FBS MEDIA ATL FBS/ATL</label>
+            </value>
+            <value>
+                <fullName>SIPSMITH FBS THE EXCHANGE BTL ON PREMISE</fullName>
+                <default>false</default>
+                <label>SIPSMITH FBS THE EXCHANGE BTL ON PREMISE</label>
+            </value>
+            <value>
+                <fullName>SIPSMITH FBS TRIAL ATL FBS/ATL</fullName>
+                <default>false</default>
+                <label>SIPSMITH FBS TRIAL ATL FBS/ATL</label>
+            </value>
+            <value>
+                <fullName>SIPSMITH FBS TRIAL BTL FBS/BTL/OFF PREMISE</fullName>
+                <default>false</default>
+                <label>SIPSMITH FBS TRIAL BTL FBS/BTL/OFF PREMISE</label>
+            </value>
+            <value>
+                <fullName>SIPSMITH FBS TRIAL BTL ON PREMISE</fullName>
+                <default>false</default>
+                <label>SIPSMITH FBS TRIAL BTL ON PREMISE</label>
+            </value>
+            <value>
+                <fullName>SIPSMITH FBS VISIBILITY BTL ON PREMISE</fullName>
+                <default>false</default>
+                <label>SIPSMITH FBS VISIBILITY BTL ON PREMISE</label>
+            </value>
+            <value>
+                <fullName>TOKI FBS MEDIA ATL FBS/ATL</fullName>
+                <default>false</default>
+                <label>TOKI FBS MEDIA ATL FBS/ATL</label>
+            </value>
+            <value>
+                <fullName>TOKI FBS RETAILER WHISKEY PROGRAM BTL FBS/BTL/OFF PREMISE</fullName>
+                <default>false</default>
+                <label>TOKI FBS RETAILER WHISKEY PROGRAM BTL FBS/BTL/OFF PREMISE</label>
+            </value>
+            <value>
+                <fullName>TOKI FBS TRIAL BTL ON PREMISE</fullName>
+                <default>false</default>
+                <label>TOKI FBS TRIAL BTL ON PREMISE</label>
+            </value>
+            <value>
+                <fullName>TOKI FBS VISIBILITY ATL FBS/ATL</fullName>
+                <default>false</default>
+                <label>TOKI FBS VISIBILITY ATL FBS/ATL</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cannot_Transfer_Across_Country_Budgets</fullName>
+    <active>true</active>
+    <description>You cannot request a transfer between budgets that exist within separate countries.</description>
+    <errorConditionFormula>text(TransferringMarketingPlan__r.Country__c) &lt;&gt;  text(ReceivingMarketingPlan__r.Country__c)</errorConditionFormula>
+    <errorMessage>You cannot request a transfer between Marketing Plan budgets that exist within separate countries.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <defaultLandingTab>standard-home</defaultLandingTab>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>Brand Investment</label>
+    <logo>SharedDocuments/Beam_Suntory_Logo.png</logo>
+    <tabs>standard-Dashboard</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>Tableau</tabs>
+    <tabs>standard-Chatter</tabs>
+    <tabs>MarketingPlan__c</tabs>
+    <tabs>Campaign__c</tabs>
+    <tabs>MarketingPlanAdjustments__c</tabs>
+    <tabs>Campaign_Spend__c</tabs>
+    <tabs>Audit_Log__c</tabs>
+    <tabs>Program_Calendar</tabs>
+    <tabs>Program__c</tabs>
+    <tabs>Tags__c</tabs>
+    <tabs>PR_Header__c</tabs>
+    <tabs>Splash_Events__c</tabs>
+    <tabs>Forecast_Snapshot_Vf_Page</tabs>
+    <tabs>Forecast_Snapshot_AUS</tabs>
+    <tabs>Forecast_Snapshot__c</tabs>
+    <tabs>Custom_Exception_Logs__c</tabs>
+    <tabs>PR_Search</tabs>
+</CustomApplication>

@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Brand_Investment_Programs</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>Program_Compact_Layout</compactLayoutAssignment>
+    <description>Programs funded by Brand Investment like Sampling, POS, Incentives, etc.</description>
+    <label>Brand Investment Program</label>
+    <picklistValues>
+        <picklist>BrandObjective__c</picklist>
+        <values>
+            <fullName>Execute sampling programs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Objective 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Objective 3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Objective 4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Objective 5</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>BrandStrategy__c</picklist>
+        <values>
+            <fullName>Drive Awareness</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Strategy 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Strategy 3</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ChannelSubType__c</picklist>
+        <values>
+            <fullName>Casual</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grocery Mass %26 Drug</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High End</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LFL</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Channel__c</picklist>
+        <values>
+            <fullName>Non-Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Off Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Premise</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FocusType__c</picklist>
+        <values>
+            <fullName>Program</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Funds__c</picklist>
+        <values>
+            <fullName>BI</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ProgramFocus__c</picklist>
+        <values>
+            <fullName>Consumer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Distributor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retailer</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ProgrammingType__c</picklist>
+        <values>
+            <fullName>Display</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incentive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>POS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pricing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Promotion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sampling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sponsorship</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SpendDescription__c</picklist>
+        <values>
+            <fullName>Ad Production Costs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Advanced TV Paid Advertising</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cinema Paid Advertising</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consumer Giveaways</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consumer Magazines Paid Advertising</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consumer Newspaper Paid Advertising</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consumer Research</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Creative Agency Fees</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Relations Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Digital Display Paid Advertising</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Direct Mail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Freight and Storage %28National POS Only%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Heritage Center</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Liscensing and Royalty</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Media Agency Fees</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Menu Printing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mobile Paid Advertising</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Standard Digital Units Paid Advertising</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Off Premise - Trade Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Off Premise Consumer Promotion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Off Premise Display Installation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Off Premise POS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Off Premise Sampling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Off Premise Value Added Packaging %28VAP%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Off Trade Incentive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Premise - Trade Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Premise Consumer Promotion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Premise Menus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Premise POS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Premise Sampling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Trade Incentive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Online Video Paid Advertising</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Out of Home</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outdoor Paid Advertising</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PR Agency Fees</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PR Events</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PR Materials %2F Other Expenses</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Panel Research %2F Trade Data</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Radio Paid Advertising</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rebates Price Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales Programs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Search Engine Optimization</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Search Paid Advertising</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social Content Creation and Development</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sponsorship Activation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sponsorship Fees</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TV Paid Advertising</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trade Digital Paid Advertising</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trade Print Paid Advertising</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Website Creation and Development</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>TerritoryValue__c</picklist>
+        <values>
+            <fullName>Alabama</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alaska</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arizona</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arkansas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Colorado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Connecticut</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delaware</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Florida</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Georgia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hawaii</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Idaho</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Illinois</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indiana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Iowa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kansas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kentucky</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Louisiana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maryland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Massachusetts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Metro Ny</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Michigan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Minnesota</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mississippi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Missouri</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Montana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Montgomery County MD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NULL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nebraska</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nevada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Hampshire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Jersey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Mexico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No California</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>North Carolina</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>North Dakota</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ohio-CS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ohio-LP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oklahoma</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oregon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pennsylvania</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rhode Island</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>So California</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>South Carolina</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>South Dakota</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tennessee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Texas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Upstate Ny</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utah</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vermont</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Virginia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Washington</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Washington DC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>West Virginia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wisconsin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wyoming</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

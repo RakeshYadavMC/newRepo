@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>State_Manager_Submission_Date</fullName>
+    <active>true</active>
+    <description>State Manager Submission Date is required in order to close a Discount case.</description>
+    <errorConditionFormula>AND(
+ISPICKVAL(Status, 'Closed' ),
+Case_Record_Type__c == 'Discount',
+ISBLANK(State_Manager_Submission_Date__c) 
+)</errorConditionFormula>
+    <errorMessage>State Manager Submission Date is required in order to close a Discount case!</errorMessage>
+</ValidationRule>

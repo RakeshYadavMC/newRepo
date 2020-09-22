@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AdditionalAccounts__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Please use this field to identify any other Accounts this Contact is associated to. Include Store ID, Store Name and any other relevant attributes used to identify the Account.</inlineHelpText>
+    <label>Additional Accounts</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

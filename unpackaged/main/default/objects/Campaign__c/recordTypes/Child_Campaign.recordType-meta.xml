@@ -1,0 +1,3220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Child_Campaign</fullName>
+    <active>true</active>
+    <description>Record type for new child campaign records</description>
+    <label>Child Campaign</label>
+    <picklistValues>
+        <picklist>ATL_OR_BTL__c</picklist>
+        <values>
+            <fullName>ATL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BTL</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CampaignBrand__c</picklist>
+        <values>
+            <fullName>100 Anos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2 Gingers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alberta Premium</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alberta Pure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alberta Rye</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alberta Springs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ardmore</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Auchentoshan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banff Ice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Basil Hayden</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bowmore</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bruxo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Calico Jack</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canadian Club</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cien Anos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cien Anos RTD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cooleys</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Courvoisier</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cruzan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DeKuyper</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Effen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>El Tesoro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fundador</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Glen Garioch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Glengarioch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hacienda</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Haku</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hibiki</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hornitos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Irish Whiskeys</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jim Beam Apple</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jim Beam Black</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jim Beam Devils Cut</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jim Beam Double Oak</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jim Beam Family</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jim Beam Flavors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jim Beam Ghost</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jim Beam Honey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jim Beam Kentucky Fire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jim Beam Maple</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jim Beam Premium</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jim Beam Red Stag</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jim Beam Single Barrel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jim Beam Vanilla</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jim Beam White</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kamora</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kessler Blend</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kilbeggan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Knob Creek</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Laphroaig</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Larios</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Makers Mark</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>McClellands</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mcclelland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Midori</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Multibrand</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Old Overholt</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pinnacle Vodka</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plum Dew</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RTD Jim Beam</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Roku</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SQRRL Whiskey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sauza</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sauza 901</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sauza Extra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sauza XA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sipsmith</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Skinny Girl</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Small Batch Bourbon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suntory Mixables</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suntory Whiskey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Teachers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Terry Centario</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The Olds</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Toki</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tres Gen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tyrconnell</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Windsor Canadian</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yamasaki</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CampaignStatus__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Executed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CampaignType__c</picklist>
+        <values>
+            <fullName>Brand Investment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>National POS %28Finance Only%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FBS_RTD__c</picklist>
+        <values>
+            <fullName>FBS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RTD</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GLAccountType__c</picklist>
+        <values>
+            <fullName>Ad Production</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Agency Fees</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Agency OOP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brand Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Digital Rebates</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Execution</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incentives</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Misc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non Working</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Off Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Off-Trade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On-Trade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Brand Investment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rebates</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Research</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sponsorship</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Working</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GLCode__c</picklist>
+        <values>
+            <fullName>15010</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15020</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15030</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15040</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15050</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15060</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15070</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15080</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15100</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15110</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15115</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15130</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15140</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15150</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15160</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15170</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15180</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15301</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15302</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15303</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15304</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15305</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15306</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15307</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15308</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15309</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15310</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15311</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15312</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15313</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15317</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15318</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15319</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15320</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15321</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15322</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15323</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15324</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15325</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15326</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15327</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15328</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15329</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15330</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15331</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15332</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15333</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15334</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15335</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15336</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15337</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15338</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15339</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15340</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15341</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15342</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15343</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15344</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15345</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15346</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15347</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15348</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15351</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15352</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15353</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15354</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15355</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15356</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15357</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15358</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15359</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15360</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15361</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15362</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15363</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15364</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15365</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15366</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15367</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15368</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15369</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15370</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15371</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15372</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15373</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15374</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15375</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15376</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15377</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15378</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15379</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15380</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15381</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15382</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15383</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15384</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15385</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15386</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15388</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15389</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15390</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15391</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15392</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15393</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15394</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15395</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15396</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15397</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15398</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15410</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15420</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15430</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15440</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15450</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15470</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15490</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15500</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15510</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15800</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15810</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15820</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15850</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15870</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15880</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15890</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15900</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15910</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15920</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15960</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15970</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GLDescription__c</picklist>
+        <values>
+            <fullName>Ad Production Costs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Advanced TV Paid Advertising</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Agency Fee %E2%80%93 Consultants</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Agency Fee %E2%80%93 Design</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Agency Fee %E2%80%93 Digital</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Agency Fee %E2%80%93 Experiential</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Agency Fee %E2%80%93 Innovation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Agency Fee %E2%80%93 Lead Creative</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Agency Fee %E2%80%93 Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Agency Fee %E2%80%93 PR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Agency Fee %E2%80%93 Shopper</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Agency Fee %E2%80%93 Talent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Agency Fee %E2%80%93 Technology Platform</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Analytics %E2%80%93 Marketing Analytics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brand Education %E2%80%93 Heritage Center and Distillery Visits</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cinema Paid Advertising</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consumer Giveaways</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consumer Magazines Paid Advertising</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consumer Newspaper Paid Advertising</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consumer Research</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Creative Agency Fees</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Relations Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Digital Display Paid Advertising</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Digital Rebates</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Direct Mail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Execution %E2%80%93 Consumer Experience %26 Personalization</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Execution %E2%80%93 PR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Freight and Storage %28National POS Only%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Heritage Center</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Liscensing and Royalty</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Media Agency Fees</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Misc %E2%80%93 POS Freight %26 Storage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mobile Paid Advertising</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Premise %E2%80%93 Consumer Influencer Program</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Premise %E2%80%93 Consumer Promotions - Experiential</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Premise %E2%80%93 Consumer Promotions - POS Materials</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Premise %E2%80%93 Trade Influencer Program</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Premise %E2%80%93 Trade Promotions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Standard Digital Units Paid Advertising</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OOP %E2%80%93 Consultants</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OOP %E2%80%93 Design</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OOP %E2%80%93 Digital</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OOP %E2%80%93 Experiential</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OOP %E2%80%93 Innovation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OOP %E2%80%93 Lead Creative</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OOP %E2%80%93 Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OOP %E2%80%93 PR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OOP %E2%80%93 Shopper</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OOP %E2%80%93 Talent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OOP %E2%80%93 Technology Platform</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Off Premise - Trade Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Off Premise Consumer Promotion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Off Premise Display Installation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Off Premise POS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Off Premise Sampling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Off Premise Value Added Packaging %28VAP%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Off Trade Incentive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Off-Trade %E2%80%93 Consumer Influencer Program</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Off-Trade %E2%80%93 Consumer Promotions - Experiential</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Off-Trade %E2%80%93 Consumer Promotions - POS Materials</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Off-Trade %E2%80%93 Consumer Promotions - Print%2C Digital POS and Fulfillment Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Off-Trade %E2%80%93 Consumer Promotions - Redemption</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Off-Trade %E2%80%93 Consumer Promotions - Sampling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Off-Trade %E2%80%93 Consumer Promotions - Sweeps</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Off-Trade %E2%80%93 Display Installations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Off-Trade %E2%80%93 Trade Influencer Program</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Off-Trade %E2%80%93 Trade Promotions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Off-Trade %E2%80%93 Value Added Packaging</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Off-Trade - Digital Rebates</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Premise - Trade Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Premise Consumer Promotion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Premise Menus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Premise POS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Premise Sampling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Trade Incentive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On-Trade %E2%80%93 Consumer Influencer Program</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On-Trade %E2%80%93 Consumer Promotions - Experiential</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On-Trade %E2%80%93 Consumer Promotions - POS Materials</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On-Trade %E2%80%93 Consumer Promotions - Print%2C Digital POS and Fulfillment Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On-Trade %E2%80%93 Consumer Promotions - Redemption</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On-Trade %E2%80%93 Consumer Promotions - Sampling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On-Trade %E2%80%93 Consumer Promotions - Sweeps</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On-Trade %E2%80%93 Display Installations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On-Trade %E2%80%93 Drink machines</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On-Trade %E2%80%93 Menus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On-Trade %E2%80%93 Trade Influencer Program</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On-Trade %E2%80%93 Trade Promotions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On-Trade - Digital Rebates</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Online Video Paid Advertising</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Out of Home</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outdoor Paid Advertising</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PR Agency Fees</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PR Events</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PR Materials %2F Other Expenses</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paid Media %E2%80%93 Cinema</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paid Media %E2%80%93 Consumer Print</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paid Media %E2%80%93 Digital OLA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paid Media %E2%80%93 Digital OLV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paid Media %E2%80%93 Direct Mail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paid Media %E2%80%93 Film</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paid Media %E2%80%93 Mobile</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paid Media %E2%80%93 Out of Home</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paid Media %E2%80%93 Radio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paid Media %E2%80%93 Search Engine Marketing %28SEM%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paid Media %E2%80%93 Search Engine Optimization %28SEO%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paid Media %E2%80%93 Social</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paid Media %E2%80%93 Trade Print</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paid Media %E2%80%93 eCommerce</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Panel Research %2F Trade Data</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Production %E2%80%93 Brand Asset Creation and Development</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Production %E2%80%93 Brand Websites</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Production %E2%80%93 Consumer Print</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Production %E2%80%93 Customer Relations Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Production %E2%80%93 Customer Samples</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Production %E2%80%93 Digital Asset Production</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Production %E2%80%93 Film</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Production %E2%80%93 Licensing Royalty</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Production %E2%80%93 Out of Home</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Production %E2%80%93 Social Media Asset Production</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Production %E2%80%93 Trade Print</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Production %E2%80%93 eCommerce</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Radio Paid Advertising</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rebates</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rebates Price Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Research %E2%80%93 Category</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Research %E2%80%93 Consumer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Research %E2%80%93 Creative</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Research %E2%80%93 In-Market Performance %2F Measurement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Research %E2%80%93 Innovation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Research %E2%80%93 Packaging</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Research %E2%80%93 Shopper %2F Channel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Research %E2%80%93 Syndicated %2F Subscriptions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Search Engine Optimization</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Search Paid Advertising</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social Content Creation and Development</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sponsorship %E2%80%93 Attitudinal Sponsorship Contract Fee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sponsorship %E2%80%93 Celebrity Partnerships</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sponsorship %E2%80%93 Experiential Sponsorship Contract Fee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sponsorship Activation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sponsorship Fees</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TV Paid Advertising</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trade Digital Paid Advertising</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trade Print Paid Advertising</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Website Creation and Development</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GL_Contact__c</picklist>
+        <values>
+            <fullName>Bottle packed with gift %28for example%3A pack with glasses%2C mini bottles%2C or other accessories%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brand activities%2Fparties in bars%2C restaurants or nightclubs %28for example%3A sampling%2C promo girls%2C tasting events%2C food matching%2C etc%2E%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brand advertising on websites%2C apps and mobile sites excluding social media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brand advertising videos on YouTube</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brand endorsement by celebrities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brand found on search engines %28for example%3A Google%2C Bing%2C Yahoo%2C etc%2E%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brand gets named or recognized in editorials%2C articles or reviews by an independent%2C third party</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brand hosted events %28ticketed event run by the brand or event that requires RSVP%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brand listed on the menus of bars%2C restaurants or nightclubs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brand materials in the store %28for example%3A at shelf recipe card or info like product awards%2C window or floor decals%2C posters%2C in-store circular%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brand on retailers%27 websites or apps%2C including ratings and reviews %28for example%3A Amazon%2C Walmart%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brand sponsorship or presence at food or drink events %28for example%3A gourmet festival%2C food %26 fine%2C etc%2E%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brand sponsorship or presence at music%2Fsport events or festivals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brand%27s official website</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Branded items in bars%2C restaurants or nightclubs %28ice buckets%2C branded glasses and napkins%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In store brand displays %28for example%3A freestanding cardboard cut outs or end caps%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In store price reduction %28for example%3A sales%2C price promotions%2C coupons%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In store tasting or sampling events</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Magazines%2Fnewspapers advertising</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Working Agency</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Working Capability Building</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Working OOP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Working Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Working Production</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Working Research</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outdoor advertising %28for example%3A billboards%2C bus shelters%2C trains%2C taxis%2C etc%2E%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Radio advertising%2C includes streaming services and podcasts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recommendation from bartenders or waiters in bars%2C restaurants or nightclubs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recommendation from family%2C friends%2C acquaintances%2C colleagues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recommendation from store staff%2C brand spokesperson or specialist in store</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Removed as a touchpoint for 2019</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Special price-offers in bars%2C restaurants%2C nightclubs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sponsored brand advertising on social media %28for example%3A Facebook%2C Instagram%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TV advertising%2C includes streaming services</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GL_Touchpoint__c</picklist>
+        <values>
+            <fullName>Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Working</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Off-Trade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On-Trade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Multi__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ON_OFF_Premise__c</picklist>
+        <values>
+            <fullName>OFF Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ON Premise</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Objective__c</picklist>
+        <values>
+            <fullName>BIG GINGER On-Premise Menus%2FFeatures</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BIG GINGER sampling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bartender training and education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Build 10YO distribution</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Build Wine and Vodka on-premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Build big%2C impactful displays</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Close distribution gaps</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Close distribution gaps to Smirnoff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Close distribution gaps with Bacardi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Co-display with Casa Sauza family</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Connect JT in-store and on-premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cross merchandising at retail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Devil%E2%80%99s Cut and Flavors on-premise activation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Displays via secondary placement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Distribution of JDK %26 Sons</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Drive Maker%E2%80%99s 46 distribution</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Drive Sauza Blue distribution</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Drive display and increase velocity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Drive distribution</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Drive distribution in focus channels</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Drive distribution of KC variants</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Drive distribution on Devil%E2%80%99s Cut</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Drive hitchhikers in the marketplace</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Drive menu %26 back bar placement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Drive on-premise distribution</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Drive on-premise distribution %28JBW%2C DC%2C Flavors%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Drive shot machines</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Drive trial of new products and categories</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Drive trial on flavors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engage bartenders</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engage trade and ambassadors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Establish Distiller%E2%80%99s Collection on back bar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Execute Jim Beam White Taste Challenge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Execute local Art of Craft events</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Execute sampling programs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Execute sampling programs %28Devil%E2%80%99s Cut %26 Flavors%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Expand KC base distribution</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Expand On-Premise presence</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Expand distribution</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Expand distributionOn- and Off-Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Expand luxury on-premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Family displays in key periods</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gain high-impact Make History displays</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Generate educational tastings and events</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Get 901 to the floor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Get seasonal flavors to the floor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grow Distiller%E2%80%99s Collection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grow distribution of priority flavors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ice Surge shot occasions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Increase POS and themed display%2Fshelf support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Increase presence in luxury on-premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Increase velocity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Increased summer programming</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Innovation Features %26 Menus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Introduce new pack for Sauza Sparkling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Launch 1L for on-premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Launch Blueberry Lemonade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Launch innovation - Sauza Cucumber Chili</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Launch new package</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Leverage Barrel Program%2FPOS to secure display</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Leverage Barrel program</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Leverage custom selling tools%2FWinery Exchange</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Merchandising Don%E2%80%99t Hurry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mixability %26 Cocktail focus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>National Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On premise menus and specials</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Own the Old Fashioned via menu programs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>POP%2FJohn%2FVicky%2FSimon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pinot Noir%2FBare Naked 1%2E75 Launch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plata distribution</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Premiumize off-premise presence</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Promote cocktail development</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reach out to Whisky Women</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recruit new women drinkers through mixability</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Regain%2FIncrease distribution</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sampling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sampling %28Flavors%2C Black Barrel%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sampling programs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Secure menu placements</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Secure menu placements and features</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sharpen mix by swapping out low velocity SKUs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Showcase %E2%80%9CBig%2C Full Flavor%E2%80%9D POS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Strengthen luxury on-premise with Upper Variants</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Support bourbon heritage month activation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Support retail partnerships</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utilize %E2%80%9CMost Awarded Bourbon%E2%80%9D claim in-store</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utilize Bloodhound %28Max%29 in-market</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utilize Craft Whiskey Specialists</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utilize New brand identity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utilize POS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utilize mixology inspiration kits</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Win bartender and influencer endorsement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Win in premium bars%2Fnightclubs</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Owner__c</picklist>
+        <values>
+            <fullName>BTL%2FON PREMISE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FBS%2FATL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FBS%2FBTL%2FOFF PREMISE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ON PREMISE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OTHER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PENDULUM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RESEARCH %E2%80%93 ADHOC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RESEARCH %E2%80%93 CONSUMER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RESEARCH %E2%80%93 INNOVATION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RESEARCH %E2%80%93 SYND</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RTD%2FATL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RTD%2FBTL%2FOFF PREMISE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>THE BLEND</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ParticipatingState__c</picklist>
+        <values>
+            <fullName>Alabama</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alaska</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arizona</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arkansas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Colorado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Connecticut</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delaware</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Florida</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Georgia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hawaii</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Idaho</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Illinois</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indiana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Iowa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kansas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kentucky</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Louisiana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maryland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Massachusetts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Michigan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Minnesota</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mississippi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Missouri</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Montana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>National</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>National Accounts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nebraska</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nevada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Hampshire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Jersey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Mexico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New York Metro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New York Upstate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>North Carolina</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>North Dakota</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Northern California</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ohio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ohio LP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oklahoma</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oregon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pennsylvania</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rhode Island</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>South Carolina</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>South Dakota</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Southern California</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tennessee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Texas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utah</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vermont</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Virginia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Washington</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Washington D%2EC%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>West Virginia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wisconsin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wyoming</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ParticipatingStates__c</picklist>
+        <values>
+            <fullName>ACT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alabama</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alaska</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arizona</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arkansas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Colorado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Connecticut</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delaware</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Florida</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Georgia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hawaii</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Idaho</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Illinois</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indiana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Iowa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kansas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kentucky</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Louisiana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maryland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Massachusetts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Michigan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Minnesota</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mississippi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Missouri</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Montana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NSW</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>National Accounts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nebraska</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nevada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Hampshire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Jersey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Mexico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New York Metro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New York Upstate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>North Carolina</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>North Dakota</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Northern California</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ohio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ohio LP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oklahoma</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oregon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pennsylvania</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QLD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rhode Island</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>South Carolina</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>South Dakota</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Southern California</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tennessee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Texas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utah</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VIC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vermont</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Virginia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Washington</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Washington D%2EC%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>West Virginia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wisconsin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wyoming</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Prioirty_JTBD__c</picklist>
+        <values>
+            <fullName>Create consumer brand awareness via trial with Auchentoshan cocktails</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deliver unique%2C engaging programming and premium advertising to drive consumer awareness and recruit new consumers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Drive BH%E2%80%99s brand equity through targeted BTL-led investment that encourages discovery of the brand</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Drive M46 Purchase Intent with Woodford drinkers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Drive Rye and LTO%27s</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Drive brand advocacy among key bartenders via meaningful experiences</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Drive brand advocacy by leveraging Simon and the POPs to bring Laphroaig to life for Friends old and new</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Drive consumer trial through building trade advocacy%3AMake BH top of mind to influencers %26 bartenders as the perfect sipping whiskey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Drive distribution and trial of unflavored</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Drive quality across every touchpoint for both consumers and trade to elevate Hornitos and differentiate from Sauza</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fuel local discovery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GET LDA Millennial guys who are just starting their whiskey journey TO become regular drinkers of Jim Beam White BY making the brand relevant via premium quality credentials</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GET current JBW users TO trade up and continue to buy Jim Beam during their bourbon exploration BY introducing them to new premium expressions of Jim Beam</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GET non-Jim Beam consumers open to flavored whiskey TO try Jim Beam flavors portfolio BY tapping into new drinking occasions %28refreshments%2C shots%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Get Distribution in the Right Accounts - Leverage expanded size offerings for increased distribution in target accounts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hold floor and shelf space and gain menu placements with recipes and cross-merch educational tools for top-10 flavors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Increase Awareness - Utilize Focus Market Takeovers and Targeted%2FExperiential Media to reinforce EFFEN as the super premium vodka that doesn%E2%80%99t just follow the status quo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Increase perceived value of CC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Increase trial %26 velocity of Priority Flavors and Whipped%2C to warrant further distribution</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intercept consumers in their whiskey journey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Introduce Single Barrel Program during key gifting timeframe and educate bartenders on premium Rum Story</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Motivate multicultural millennial consumers to buy Courvoisier instead of Hennessy or Remy Martin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Premiumize EFFEN - Increase presence in high-end accounts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recruit New Loyalists</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recruit new consumers with POP events Laphroaig Select and by expanding the Scotch occasion w%2F Penicillin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Remind multicultural consumers of Courvoisier%E2%80%99s luxury credentials</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Restore Maker%27s Mark Brand Relevance in US</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Share the KC %22Big Flavor%22 story</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Win at point of purchase</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Win at shelf floor and on menu and drive infinity with Cruzan Bucket list program</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Win share of Cinco %26 Summer Refreshment stock-up by providing additional in-market tools for increased visibility with displays and menus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Win share of Summer Refreshment stock up by providing additional in market tools for increased visibility with displays and menus and sampling</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Program__c</picklist>
+        <values>
+            <fullName>Bourbon Legends</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cinco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cocktail Platform</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Crafted for Sipping</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Holiday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Horseracing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Iconic Maker%27s</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>M46 Gifting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sports</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stories from the Still</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Summer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Summer Refreshment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tailgating</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Region_Hidden__c</picklist>
+        <values>
+            <fullName>Activation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brand Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Central Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>East Coast Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eastern Control Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Florida Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Franchise Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global Insights</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mexico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mideast Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Midsouth Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Midwest Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Military</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mountain Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>National Accounts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>National Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transportation %26 Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>West Coast Division</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Western Control Division</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>RequestStatus__c</picklist>
+        <values>
+            <fullName>IO Created</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IO Not Requested</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>IO Pending</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IO Processing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IO Rejected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WBS Created</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WBS Not Requested</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WBS Pending</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WBS Processing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WBS Rejected</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Spend_Type_Marketing__c</picklist>
+        <values>
+            <fullName>BTL %27Equity%27</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NPD Development</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NPD Launch Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NPD Production %26 Development</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Off</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>POS Storage %26 Distribution</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pendulum</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Perm%2E Visibility</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Research</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Research Brand</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Research Syndicated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S%27Ship %2F Experential</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Syndicated Research</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Strategy__c</picklist>
+        <values>
+            <fullName>Acquire Lda Millennials</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Build Awareness</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Build Top Of Mind Awareness</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Communicate Authenticity %26 Quality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Drive 901 Awareness</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Drive Awareness %28Off%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Drive Brand Advocacy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Drive Consideration %26 Trial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Drive Sauza Awareness</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Drive Successful Innovation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Drive The On-Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Drive The On-Premise %28Basil Hayden%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Establish Belief In Quality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Expand Distribution %28Off%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Get Millennial Males To Consider Jim Beam Again</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grow Distribution On Plata</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grow Pinnacle Original</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grow Wine And Vodka</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Implement Join The Club</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Increase Awareness And Relevance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Interrupt Bacardi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Make 901 Accessible</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Make Pinnacle Available</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>One More Drink Per Month</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Premiumize And Trade Up</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recruit %E2%80%9CWhiskey Women%E2%80%9D</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recruit Consumers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recruit Consumers From Outside Beam%2FBourbon Category</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recruit New Consumers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reestablish Sauza Brand</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Regain%2FIncrease Distribution</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Steal Share Of Drinking Occasions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Steal Spiced Share At Shelf %28Calico%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trade Up</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Win At Retail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Win With Flavors</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Territory_Aus__c</picklist>
+        <values>
+            <fullName>AUCHENTOSHAN FBS RETAILER WHISKEY PROGRAM BTL FBS%2FBTL%2FOFF PREMISE</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bourbon_Legends_Program</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Bourbon Legends</label>
+    <queue>Bourbon_Legends</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>PR Approved In Salesforce By Procurement</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BeamSuntory_Letterhead</letterhead>
+    <name>PR Approved In Salesforce By Procurement</name>
+    <style>freeForm</style>
+    <subject>PR# {!PR_Header__c.Name} PR Approved In Salesforce By Procurement</subject>
+    <textOnly>Hello {!PR_Header__c.OwnerFullName},
+Salesforce Request # {!PR_Header__c.Name} for vendor {!PR_Header__c.Vendor_Name__c} was approved by Procurement.
+Reviewer: {!User.Name}
+Comments: {!ApprovalRequest.Comments}
+Thanks,
+NA Controllership Team</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

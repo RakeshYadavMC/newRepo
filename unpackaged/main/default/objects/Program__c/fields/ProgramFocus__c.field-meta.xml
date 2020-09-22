@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ProgramFocus__c</fullName>
+    <externalId>false</externalId>
+    <label>Program Focus</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>ProgrammingType__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Consumer</fullName>
+                <default>false</default>
+                <label>Consumer</label>
+            </value>
+            <value>
+                <fullName>Distributor</fullName>
+                <default>false</default>
+                <label>Distributor</label>
+            </value>
+            <value>
+                <fullName>Retailer</fullName>
+                <default>false</default>
+                <label>Retailer</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Other Activation</controllingFieldValue>
+            <controllingFieldValue>POS</controllingFieldValue>
+            <controllingFieldValue>Promotion</controllingFieldValue>
+            <controllingFieldValue>Sampling</controllingFieldValue>
+            <controllingFieldValue>Sponsorship</controllingFieldValue>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <controllingFieldValue>Pricing</controllingFieldValue>
+            <controllingFieldValue>Menu</controllingFieldValue>
+            <valueName>Consumer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Activation</controllingFieldValue>
+            <controllingFieldValue>Incentive</controllingFieldValue>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <controllingFieldValue>Pricing</controllingFieldValue>
+            <valueName>Distributor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Activation</controllingFieldValue>
+            <controllingFieldValue>Display</controllingFieldValue>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <controllingFieldValue>Pricing</controllingFieldValue>
+            <valueName>Retailer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Activation</controllingFieldValue>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

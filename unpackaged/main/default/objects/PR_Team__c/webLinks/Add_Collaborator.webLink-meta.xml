@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Add_Collaborator</fullName>
+    <availability>online</availability>
+    <displayType>massActionButton</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Add Collaborator</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <requireRowSelection>true</requireRowSelection>
+    <url>/a4z/e?CF00N1J00000GIgr5={!PR_Header__c.Name}&amp;CF00N1J00000GIgr5_lkid={!PR_Header__c.Id}&amp;retURL=%2F{!PR_Header__c.Id}&amp;saveURL=%2F{!PR_Header__c.Id}</url>
+</WebLink>

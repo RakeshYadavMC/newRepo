@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Parent_Name__c</fullName>
+    <description>Text Name of Parent Account for Use in GreatVines Mobile App</description>
+    <externalId>false</externalId>
+    <formula>Parent.Name</formula>
+    <inlineHelpText>Text Name of Parent Account</inlineHelpText>
+    <label>Parent Name</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

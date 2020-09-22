@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>POS Customization settings for the Single Barrel Process.  This will hold data that will specify what static resources apply to specific states and brands.</description>
+    <label>POS State Setting</label>
+    <pluralLabel>POS State Settings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

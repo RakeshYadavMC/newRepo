@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Last_CS_Email_Alert_for_Not_Reopend_Case__c</fullName>
+    <description>This field is updated through workflow rule when the email received on CS to reopen a case is older than 3 days. This field helps in sending the autoreply to the user.</description>
+    <externalId>false</externalId>
+    <label>Last CS Email Alert for Not Reopend Case</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

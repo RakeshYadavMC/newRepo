@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Invalid_Co_Cd_and_Cost_Ctr_Combo</fullName>
+    <active>true</active>
+    <description>A company code of US30 or USC0 must have a Controlling Area of 2000
+A company code of MX10 must have a Controlling Area of 3000
+A company code of AU60 must have a Controlling Area of 6000</description>
+    <errorConditionFormula>or(and(
+SAP_Company_Code__c = 'US30',
+SAP_Controlling_Area__c &lt;&gt; '2000'
+),
+and(
+SAP_Company_Code__c = 'USC0',
+SAP_Controlling_Area__c &lt;&gt; '2000'
+),
+and(
+SAP_Company_Code__c = 'MX10',
+SAP_Controlling_Area__c &lt;&gt; '3000'
+),
+and(
+SAP_Company_Code__c = 'AU60',
+SAP_Controlling_Area__c &lt;&gt; '6000'
+))</errorConditionFormula>
+    <errorMessage>A company code of US30 or USC0 must have a Controlling Area of 2000
+A company code of MX10 must have a Controlling Area of 3000
+A company code of AU60 must have a Controlling Area of 6000</errorMessage>
+</ValidationRule>

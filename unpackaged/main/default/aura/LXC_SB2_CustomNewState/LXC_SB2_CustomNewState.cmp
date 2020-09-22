@@ -1,0 +1,131 @@
+<aura:component
+    implements="lightning:actionOverride,force:hasRecordId,force:hasSObjectName"
+    controller="CNT_SB2_ManageMasterRecord"
+>
+    <!-- Handlers -->
+    <aura:handler name="init" value="{!this}" action="{!c.loadOptions}" />
+
+    <!-- Lightning APIs -->
+    <lightning:workspaceAPI aura:id="workspace" />
+
+    <aura:attribute name="hasError" type="boolean" default="false" />
+    <aura:attribute name="errors" type="String[]" default="[]" />
+    <aura:attribute name="isLoading" type="boolean" default="false" />
+    <aura:attribute name="isFromRelatedList" type="boolean" default="false" />
+
+    <aura:attribute name="countryValue" type="Object" />
+    <aura:attribute name="regionValue" type="Object" />
+    <aura:attribute name="stateManagerValue" type="Object" />
+
+    <aura:attribute name="countrySelectedValue" type="Object" />
+    <aura:attribute name="regionSelectedValue" type="Object" />
+    <aura:attribute name="stateManagerSelectedValue" type="Object" />
+
+    <aura:handler name="change" action="{!c.regionSelectedValueChange}" value="{!v.regionSelectedValue}" />
+    <aura:handler name="change" action="{!c.countrySelectedValueChange}" value="{!v.countrySelectedValue}" />
+    <aura:handler name="change" action="{!c.stateManagerSelectedValueChange}" value="{!v.stateManagerSelectedValue}" />
+
+
+    <aura:attribute name="regionFilter" type="Object[]" />
+
+    <aura:attribute
+        name="newState"
+        type="State__c"
+        default="{
+            'sobjectType': 'State__c',
+            'Name': '',
+            'Alias__c': '',
+            'Country__c': '',
+            'Region__c': '',
+            'State_Manager__c': ''
+        }"
+    />
+
+    <lightning:card>
+        <!-- Card Title -->
+        <aura:set attribute="title">
+            <p class="title">New State</p>
+
+            <!-- Validation Error Messages -->
+            <aura:if isTrue="{!v.hasError}">
+                <div class="pageLevelErrors">
+                    <div class="forcePageError">
+                        <div class="genericNotification">
+                            <span class="genericError uiOutputText">
+                                Review the errors on this page.
+                            </span>
+                        </div>
+                        <ul class="errorsList">
+                            <aura:iteration items="{!v.errors}" var="error">
+                                <li>{!error}</li>
+                            </aura:iteration>
+                        </ul>
+                    </div>
+                </div>
+            </aura:if>
+        </aura:set>
+
+        <!-- Card Body -->
+        <div class="slds-form slds-p-horizontal_medium">
+            <!-- Loader -->
+            <aura:if isTrue="{!v.isLoading}">
+                <lightning:spinner alternativeText="Loading..." />
+            </aura:if>
+            <lightning:input type="text" value="{!v.newState.Name}" label="Name" required="true" maxlength="80" />
+            <lightning:input
+                type="text"
+                value="{!v.newState.Alias__c}"
+                label="Alias"
+                required="true"
+                maxlength="5"
+                minlength="2"
+            />
+            <c:LXC_SB2_Lookup
+                sObjectName="{!v.sObjectName}"
+                lookupField="Country__c"
+                showLabel="true"
+                value="{!v.countryValue}"
+                selectedValue="{!v.countrySelectedValue}"
+            />
+            <aura:if isTrue="{! v.isFromRelatedList || v.countryValue}">
+                <c:LXC_SB2_Lookup
+                    sObjectName="{!v.sObjectName}"
+                    lookupField="Region__c"
+                    showLabel="true"
+                    value="{!v.regionValue}"
+                    filters="{!v.regionFilter}"
+                    fieldNamesToSearch="['Name', 'Country__c']"
+                    selectedValue="{!v.regionSelectedValue}"
+                />
+
+                <c:LXC_SB2_Lookup
+                    sObjectName="{!v.sObjectName}"
+                    lookupField="State_Manager__c"
+                    showLabel="true"
+                    value="{!v.stateManagerValue}"
+                    filters="[{
+                        field: 'IsActive',
+                        operator: '=',
+                        stringWrap: false,
+                        value: true,
+                    }]"
+                    fieldNamesToSearch="['Name']"
+                    selectedValue="{!v.stateManagerSelectedValue}"
+                />
+            </aura:if>
+
+        </div>
+
+        <!-- Cancel & Submit Button -->
+        <aura:set attribute="footer">
+            <lightning:button
+                variant="neutral"
+                type="cancel"
+                name="Cancel"
+                label="Cancel"
+                onclick="{!c.handleCancel}"
+            />
+            <lightning:button variant="brand" type="submit" name="Submit" label="Submit" onclick="{!c.handleSubmit}" />
+        </aura:set>
+    </lightning:card>
+</aura:component>

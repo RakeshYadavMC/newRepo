@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Price_Posting_Sub_or_App_Required</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF(
+  AND(
+    RecordType.DeveloperName = 'Price_Posting',
+    ISCHANGED(Status),
+    TEXT(Status)='Closed',
+    NOT(
+      OR(
+        INCLUDES(Compliance_Flagset__c, 'Price_Posting__Submission_Confirmation'),
+        INCLUDES(Compliance_Flagset__c, 'Price_Posting__State_Manager_Approval')
+      )
+    )
+  ),
+  TRUE,
+  FALSE
+)</errorConditionFormula>
+    <errorMessage>A "Submission Confirmation" or "State Manager Approval" document is required to close a Price Posting Case</errorMessage>
+</ValidationRule>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?><SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Barrel_Sample_Kit_access</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Barrel Sample Kit access</label>
+        <sharedTo>
+            <group>sales360AllUsers</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Makers Mark - Full Barrel,El Tesoro - Full Barrel,Cruzan - Sample Kit,Knob Creek - Sample Kit,Jim Beam - Full Barrel,Knob Creek - Full Barrel,Cruzan - Full Barrel,Knob Creek - Split Barrel,Jim Beam - Sample Kit</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Share_with_Compliance</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Compliance will need to see makers mark barrels</description>
+        <label>Share with Compliance</label>
+        <sharedTo>
+            <group>Compliance_Team</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Brand__c</field>
+            <operation>equals</operation>
+            <value>Makers Mark</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Share_with_Cruzan</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Shares barrel records with the Cruzan group for the Single Barrel Program</description>
+        <label>Share with Cruzan</label>
+        <sharedTo>
+            <group>Cruzan_Single_Barrel</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Brand__c</field>
+            <operation>equals</operation>
+            <value>Cruzan</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Share_with_Customer_Service</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share with Customer Service</label>
+        <sharedTo>
+            <role>Customer_Service_Management</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Makers Mark - Full Barrel,El Tesoro - Full Barrel,Cruzan - Sample Kit,Knob Creek - Sample Kit,Jim Beam - Full Barrel,Knob Creek - Full Barrel,Cruzan - Full Barrel,Knob Creek - Split Barrel,Jim Beam - Sample Kit</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Share_with_El_Tesoro</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Shares barrel records with the El Tesoro group for the Single Barrel Program</description>
+        <label>Share with El Tesoro</label>
+        <sharedTo>
+            <group>El_Tesoro_Single_Barrel</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Brand__c</field>
+            <operation>equals</operation>
+            <value>El Tesoro</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Share_with_Jim_Beam</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Shares barrel records with the Jim Beam group for the Single Barrel Program</description>
+        <label>Share with Jim Beam</label>
+        <sharedTo>
+            <group>Jim_Beam_Single_Barrel</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Brand__c</field>
+            <operation>equals</operation>
+            <value>Jim Beam</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Share_with_Knob_Creek</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share with Knob Creek</label>
+        <sharedTo>
+            <group>Knob_Creek_Single_Barrel</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Brand__c</field>
+            <operation>equals</operation>
+            <value>Knob Creek</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Share_with_Makers_Mark</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Shares barrel records with the Makers Makr group for the Single Barrel Program</description>
+        <label>Share with Makers Mark</label>
+        <sharedTo>
+            <group>Makers_Mark_Single_Barrel</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Brand__c</field>
+            <operation>equals</operation>
+            <value>Makers Mark</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+</SharingRules>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GBS_OTC_Require_Approval_for_Close</fullName>
+    <active>true</active>
+    <description>Checks to see if certain cases that require approval have been approved prior to an attempt to close the case.</description>
+    <errorConditionFormula>AND(
+  IsClosed = TRUE,
+  Proposed_Credit_Approved__c = FALSE,
+  RecordType.Name = "OTC - Credit Approval",
+  OR(Proposed_Limit__c &gt; 100000, AND(Proposed_Limit__c &lt;= 100000, ISPICKVAL(Current_Risk_Rating__c, "High Risk")))
+)</errorConditionFormula>
+    <errorMessage>This case must be submitted for approval to close.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SGWS_West_Fund_MarketingPlan</fullName>
+    <columns>NAME</columns>
+    <columns>OWNER.ALIAS</columns>
+    <columns>Year__c</columns>
+    <filterScope>Queue</filterScope>
+    <label>SGWS West Fund</label>
+    <language>en_US</language>
+    <queue>SGWS_West_Fund</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

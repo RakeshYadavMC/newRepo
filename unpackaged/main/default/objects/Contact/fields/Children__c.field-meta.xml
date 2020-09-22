@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Children__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Names, age, interests, etc.</inlineHelpText>
+    <label>Children</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>TextArea</type>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Jerez_Plant_Quality_Case</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Jerez Plant - Quality</label>
+    <queue>Jerez_Plant_Quality</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

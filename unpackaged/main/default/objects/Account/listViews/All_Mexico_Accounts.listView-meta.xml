@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Mexico_Accounts</fullName>
+    <columns>PARENT_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>StoreID__c</columns>
+    <columns>ACCOUNT.ADDRESS1_STREET</columns>
+    <columns>ACCOUNT.ADDRESS1_CITY</columns>
+    <columns>ACCOUNT.ADDRESS1_STATE</columns>
+    <columns>ACCOUNT.ADDRESS1_ZIP</columns>
+    <columns>gvp__Territory__c</columns>
+    <columns>ACCOUNT.RECORDTYPE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>CREATEDBY_USER.ALIAS</columns>
+    <columns>ACCOUNT.CREATED_DATE</columns>
+    <columns>ACCOUNT.LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.ADDRESS1_COUNTRY</field>
+        <operation>equals</operation>
+        <value>Mexico</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>notEqual</operation>
+        <value>Account.gvp__Vendor</value>
+    </filters>
+    <label>All Mexico Accounts</label>
+</ListView>

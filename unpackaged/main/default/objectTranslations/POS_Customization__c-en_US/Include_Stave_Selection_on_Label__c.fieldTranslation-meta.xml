@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Include the number of staves selected on the back label of the bottle for Makers Mark --></help>
+        <label><!-- Include Stave Selection on Label --></label>
+        <name>Include_Stave_Selection_on_Label__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,4397 @@
+<?xml version="1.0" encoding="utf-8"?><Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>ASIA_Queue_Email_Notification</fullName>
+        <description>ASIA Queue Email Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>ASIA_Queue_Email_Group</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>ccvm@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>SLA_Template/Case_Assignment_Acknowledgment_Template</template>
+    </alerts>
+    <alerts>
+        <fullName>Alert_Single_Barrel_Order_Canceled_Incomplete</fullName>
+        <description>Alert - Single Barrel Order Canceled/Incomplete</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <recipients>
+            <recipient>Knob_Creek_Single_Barrel</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <field>Submitter__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderAddress>customer.service@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Single_Barrel/Order_Canceled</template>
+    </alerts>
+    <alerts>
+        <fullName>Alert_Single_Barrel_Order_Canceled_Incomplete1</fullName>
+        <description>Alert - Single Barrel Order Canceled/Incomplete</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <recipients>
+            <recipient>Knob_Creek_Single_Barrel</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <field>Submitter__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderAddress>single.barrels@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Single_Barrel/Order_Canceled</template>
+    </alerts>
+    <alerts>
+        <fullName>Alert_Single_Barrel_Order_Canceled_Incomplete_for_El_Tesoro</fullName>
+        <description>Alert - Single Barrel Order Canceled/Incomplete for El Tesoro</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>El_Tesoro_Single_Barrel</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <field>Submitter__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderAddress>single.barrels@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Single_Barrel/Order_Cancelled_for_El_Tesoro</template>
+    </alerts>
+    <alerts>
+        <fullName>Alert_Single_Barrel_Order_Canceled_Incomplete_for_Knob_Creek_Cruzan_Jim_Beam</fullName>
+        <description>Alert - Single Barrel Order Canceled/Incomplete for Knob Creek/Cruzan/Jim Beam</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Knob_Creek_Single_Barrel</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <field>Submitter__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderAddress>single.barrels@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Single_Barrel/Order_Cancelled_for_Knob_Creek</template>
+    </alerts>
+    <alerts>
+        <fullName>Alert_Single_Barrel_Order_Canceled_Incomplete_for_Maker_s_Mark</fullName>
+        <description>Alert - Single Barrel Order Canceled/Incomplete for Maker’s Mark</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Makers_Mark_Single_Barrel</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <field>Submitter__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderAddress>single.barrels@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Single_Barrel/Order_Cancelled_for_Makers_Mark</template>
+    </alerts>
+    <alerts>
+        <fullName>Auto_Response_Email_Alert</fullName>
+        <ccEmails>consumerinquiries@beamsuntory.com</ccEmails>
+        <description>Auto Response Email Alert</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactEmail</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>consumerinquiries@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Auto_Response_Template</template>
+    </alerts>
+    <alerts>
+        <fullName>Auto_Response_India_Inquiry_Alert</fullName>
+        <ccEmails>consumerinquiries@beamsuntory.com</ccEmails>
+        <description>Auto Response India Inquiry Alert</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactEmail</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>consumerinquiries@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Send_Acknowledgement_Email_Template</template>
+    </alerts>
+    <alerts>
+        <fullName>Bottle_Pickup_Notification_Alert</fullName>
+        <ccEmails>ccvm@beamsuntory.com</ccEmails>
+        <description>Bottle pickup request from plant manager</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Parent_Case_Owners_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>ccvm@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Bottle_Pickup_Notification_Template</template>
+    </alerts>
+    <alerts>
+        <fullName>Bottle_Text_Entered_for_Maker_s_Mark</fullName>
+        <description>Bottle Text Entered for Maker's Mark</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Makers_Mark_Single_Barrel</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>single.barrels@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Single_Barrel/Makers_Mark_Bottle_Text_Entered</template>
+    </alerts>
+    <alerts>
+        <fullName>Brand_Registration_Due_Date_Changed</fullName>
+        <ccEmails>compliance=example@beamsuntory.com</ccEmails>
+        <description>Brand Registration Due Date Changed</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>customer.service@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Compliance_System_Emails/Brand_Registration_Due_Date_Changed</template>
+    </alerts>
+    <alerts>
+        <fullName>Brand_Registration_In_Field_Changed</fullName>
+        <ccEmails>compliance=example@beamsuntory.com</ccEmails>
+        <description>Brand Registration In-Field Changed</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>customer.service@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Compliance_System_Emails/Brand_Registration_In_Field_Date_Changed</template>
+    </alerts>
+    <alerts>
+        <fullName>Brand_Registration_In_Field_Date_Changed</fullName>
+        <ccEmails>compliance=example@beamsuntory.com</ccEmails>
+        <description>Brand Registration In-Field Date Changed</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>customer.service@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Compliance_System_Emails/Brand_Registration_In_Field_Date_Changed</template>
+    </alerts>
+    <alerts>
+        <fullName>Canada_Queue_Email_Notification_Complaints</fullName>
+        <description>Canada Queue Email Notification Complaints</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Canada_Queue_Email_Group</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>ccvm@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>SLA_Template/Case_Assignment_Acknowledgment_Template</template>
+    </alerts>
+    <alerts>
+        <fullName>Canada_Queue_Email_Notification_Inquiries</fullName>
+        <description>Canada Queue Email Notification Inquiries</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Canada_Queue_Email_Group</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>consumerinquiries@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>SLA_Template/Case_Assignment_Acknowledgment_Template</template>
+    </alerts>
+    <alerts>
+        <fullName>Case_Assigned_Alert</fullName>
+        <description>Case Assigned Alert</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Automated_Notification_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>customer.service@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>CS_System_Emails/CA_Changes_Escalations_International_ML</template>
+    </alerts>
+    <alerts>
+        <fullName>Case_Assigned_GBS_outlook</fullName>
+        <description>GBS - Case Assigned Notification Outlook</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Submitter__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderAddress>gbs@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>GBS_System_Emails/Case_Assigned</template>
+    </alerts>
+    <alerts>
+        <fullName>Case_Closed_Order</fullName>
+        <description>Case Closed (Order)</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Automated_Notification_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>customer.service@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>CS_System_Emails/Case_Resolved_Email_ML</template>
+    </alerts>
+    <alerts>
+        <fullName>Case_was_Reopened</fullName>
+        <description>Case was Reopened</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>gbs@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>GBS_System_Emails/Case_Reopened</template>
+    </alerts>
+    <alerts>
+        <fullName>Change_Approved_Email</fullName>
+        <description>Change Approved Email</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Automated_Notification_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>customer.service@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>CS_System_Emails/Change_Approval_ML</template>
+    </alerts>
+    <alerts>
+        <fullName>Changes_Case_email_alert</fullName>
+        <description>Changes Case email alert</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Automated_Notification_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>customer.service@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>CS_System_Emails/Case_Assignment_Email_Changes_ML</template>
+    </alerts>
+    <alerts>
+        <fullName>Claim_Amount_Approved_Alert</fullName>
+        <description>Claim Amount Approved Alert</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>customer.service@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>CS_System_Emails/Claim_Amount_Approved_Internal</template>
+    </alerts>
+    <alerts>
+        <fullName>Claim_Amount_Rejected</fullName>
+        <description>Claim Amount Rejected</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>customer.service@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>CS_System_Emails/Claim_Amount_Rejected_Internal</template>
+    </alerts>
+    <alerts>
+        <fullName>Claim_Approved_Letter</fullName>
+        <description>Claim Approved Letter</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Automated_Notification_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>customer.service@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>CS_System_Emails/Approved_Claim_Response_ML</template>
+    </alerts>
+    <alerts>
+        <fullName>Claims_Assignment_Email_Alert</fullName>
+        <description>Claims Assignment Email Alert</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Automated_Notification_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>customer.service@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>CS_System_Emails/Case_Assignment_Email_All_Claims_ML</template>
+    </alerts>
+    <alerts>
+        <fullName>Complaint_Case_Creation</fullName>
+        <ccEmails>ccvm@beamsuntory.com</ccEmails>
+        <description>Complaint Case Creation</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactEmail</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>ccvm@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Send_Acknowledgement_Email_Template</template>
+    </alerts>
+    <alerts>
+        <fullName>Compliance_All_Sub_Cases_Closed</fullName>
+        <description>All Sub Cases Closed</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>customer.service@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Compliance_System_Emails/All_Sub_Cases_Closed</template>
+    </alerts>
+    <alerts>
+        <fullName>Compliance_Brand_Registration_Kick_Off_Email_Alert</fullName>
+        <description>Compliance Brand Registration Kick Off Email Alert</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Compliance_Team</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>customer.service@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Compliance_System_Emails/Brand_Registration_Kick_Off</template>
+    </alerts>
+    <alerts>
+        <fullName>Compliance_Due_Date_Changed</fullName>
+        <ccEmails>compliance-testing@beamsuntory.com</ccEmails>
+        <description>Compliance Due Date Changed</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Compliance_System_Emails/Brand_Registration_Due_Date_Changed</template>
+    </alerts>
+    <alerts>
+        <fullName>Consumer_Inquiry_New_Case_High_Priority_Inquiry_Australia</fullName>
+        <description>Consumer Inquiry : New Case-High Priority Inquiry Australia</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Inquiries_Australia_Queue_Email_Group</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>consumerinquiries@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>SLA_Template/Consumer_Inquiry_New_Case_High_Priority_v1</template>
+    </alerts>
+    <alerts>
+        <fullName>Consumer_Inquiry_New_Case_High_Priority_Inquiry_New_Zealand</fullName>
+        <description>Consumer Inquiry : New Case-High Priority Inquiry New Zealand</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Inquiries_New_Zealand_Queue_Email_Group</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>consumerinquiries@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>SLA_Template/Consumer_Inquiry_New_Case_High_Priority_v1</template>
+    </alerts>
+    <alerts>
+        <fullName>Consumer_Inquiry_New_Case_High_Priority_Kilbeggan_Distellary</fullName>
+        <description>Consumer Inquiry : New Case-High Priority Kilbeggan Distellary</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Kilbeggan_Distillery_Queue_Email_Group</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>consumerinquiries@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>SLA_Template/Consumer_Inquiry_New_Case_High_Priority_v1</template>
+    </alerts>
+    <alerts>
+        <fullName>Consumer_Inquiry_New_Case_High_Priority_Laphroaig_Consumer_Care</fullName>
+        <description>Consumer Inquiry : New Case-High Priority Laphroaig Consumer Care</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Laphroaig_Consumer_Care_Queue_Email_Grp</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>consumerinquiries@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>SLA_Template/Consumer_Inquiry_New_Case_High_Priority_v1</template>
+    </alerts>
+    <alerts>
+        <fullName>Consumer_Inquiry_New_Case_High_Priority_Laphroaig_Store</fullName>
+        <description>Consumer Inquiry : New Case-High Priority Laphroaig Store</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Laphroaig_Store_Queue_Email_Group</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>consumerinquiries@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>SLA_Template/Consumer_Inquiry_New_Case_High_Priority_v1</template>
+    </alerts>
+    <alerts>
+        <fullName>Consumer_Inquiry_New_Case_High_Priority_US</fullName>
+        <description>Consumer Inquiry : New Case-High Priority US</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Inquires_ROW_Queue_Email_Group</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>consumerinquiries@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>SLA_Template/Consumer_Inquiry_New_Case_High_Priority_v1</template>
+    </alerts>
+    <alerts>
+        <fullName>Consumer_Inquiry_New_Case_not_Picked_Inquiry_Australia</fullName>
+        <description>Consumer Inquiry : New Case not Picked : Inquiry Australia</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Inquiries_Australia_Queue_Email_Group</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>consumerinquiries@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>SLA_Template/Consumer_Inquiry_New_Case_Not_Picked_v1</template>
+    </alerts>
+    <alerts>
+        <fullName>Consumer_Inquiry_New_Case_not_Picked_Inquiry_New_Zealand</fullName>
+        <description>Consumer Inquiry : New Case not Picked : Inquiry New Zealand</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Inquiries_New_Zealand_Queue_Email_Group</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>consumerinquiries@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>SLA_Template/Consumer_Inquiry_New_Case_Not_Picked_v1</template>
+    </alerts>
+    <alerts>
+        <fullName>Consumer_Inquiry_New_Case_not_Picked_Kilbeggan_Distellary</fullName>
+        <description>Consumer Inquiry : New Case not Picked : Kilbeggan Distellary</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Kilbeggan_Distillery_Queue_Email_Group</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>consumerinquiries@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>SLA_Template/Consumer_Inquiry_New_Case_Not_Picked_v1</template>
+    </alerts>
+    <alerts>
+        <fullName>Consumer_Inquiry_New_Case_not_Picked_Laphroaig_Consumer_Care</fullName>
+        <description>Consumer Inquiry : New Case not Picked : Laphroaig Consumer Care</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Laphroaig_Consumer_Care_Queue_Email_Grp</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>consumerinquiries@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>SLA_Template/Consumer_Inquiry_New_Case_Not_Picked_v1</template>
+    </alerts>
+    <alerts>
+        <fullName>Consumer_Inquiry_New_Case_not_Picked_Laphroaig_Store</fullName>
+        <description>Consumer Inquiry : New Case not Picked : Laphroaig Store</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Laphroaig_Store_Queue_Email_Group</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>consumerinquiries@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>SLA_Template/Consumer_Inquiry_New_Case_Not_Picked_v1</template>
+    </alerts>
+    <alerts>
+        <fullName>Consumer_Inquiry_New_Case_not_Picked_US</fullName>
+        <description>Consumer Inquiry : New Case not Picked US</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Inquires_ROW_Queue_Email_Group</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>consumerinquiries@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>SLA_Template/Consumer_Inquiry_New_Case_Not_Picked_v1</template>
+    </alerts>
+    <alerts>
+        <fullName>Customer_sub_case_closed_notification</fullName>
+        <description>Customer sub case closed notification</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>customer.service@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>CS_System_Emails/Customer_Data_Sub_Case_Close_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_to_Burlington_Plant_Quality_managers</fullName>
+        <description>Email to Burlington Plant - Quality managers</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Burlington_Plant_Quality_email_queue</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>customer.service@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>CS_System_Emails/Email_Notification_to_Plant_Managers_Quality_Claims</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_to_Canada_Plant_Quality_managers</fullName>
+        <description>Email to Canada Plant - Quality managers</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Canada_Quality_email_queue</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>customer.service@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>CS_System_Emails/Email_Notification_to_Plant_Managers_Quality_Claims</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_to_Case</fullName>
+        <description>Email-to-Case</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Automated_Notification_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>customer.service@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>CS_System_Emails/Email_to_Case_ML</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_to_Clermont_Plant_Quality_managers</fullName>
+        <description>Email to Clermont Plant - Quality managers</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Clermont_plant_quality_email_queue</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>customer.service@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>CS_System_Emails/Email_Notification_to_Plant_Managers_Quality_Claims</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_to_Cooley_Plant_Quality_managers</fullName>
+        <description>Email to Cooley Plant - Quality managers</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Cooley_Plant_Quality_email_queue</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>customer.service@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>CS_System_Emails/Email_Notification_to_Plant_Managers_Quality_Claims</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_to_Customer_on_SLA</fullName>
+        <ccEmails>ccvm@beamsuntory.com</ccEmails>
+        <description>Email to Customer on SLA</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactEmail</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>ccvm@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>SLA_Template/Pending_With_Customer</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_to_DIS_Plant_Quality_managers</fullName>
+        <description>Email to DIS Plant - Quality managers</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>DIS_Plant_Quality_email_queue</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>customer.service@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>CS_System_Emails/Email_Notification_to_Plant_Managers_Quality_Claims</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_to_Frankfort_Plant_Quality_managers</fullName>
+        <description>Email to Frankfort Plant - Quality managers</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Frankfort_plant_quality_email_queue</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>customer.service@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>CS_System_Emails/Email_Notification_to_Plant_Managers_Quality_Claims</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_to_GlenTurner_Springburn_Plant_Quality_managers</fullName>
+        <description>Email to GlenTurner/Springburn Plant- Quality managers</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>GlenTurner_Springburn_PlantQuality_email</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>customer.service@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>CS_System_Emails/Email_Notification_to_Plant_Managers_Quality_Claims</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_to_Hooghoudlt_Plant_Quality_managers</fullName>
+        <description>Email to Hooghoudlt Plant - Quality managers</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Hooghoudlt_Plant_Quality_email_queue</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>customer.service@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>CS_System_Emails/Email_Notification_to_Plant_Managers_Quality_Claims</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_to_India_Plants_Quality_managers</fullName>
+        <description>Email to India Plants - Quality managers</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>India_Plants_Quality_email_queue</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>customer.service@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>CS_System_Emails/Email_Notification_to_Plant_Managers_Quality_Claims</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_to_Jarnac_Plant_Quality_managers</fullName>
+        <description>Email to Jarnac Plant - Quality managers</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Jarnac_Plant_Quality_email_queue</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>customer.service@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>CS_System_Emails/Email_Notification_to_Plant_Managers_Quality_Claims</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_to_Jerez_Plant_Quality_managers</fullName>
+        <description>Email to Jerez Plant - Quality managers</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Jerez_Plant_Quality_email_queue</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>customer.service@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>CS_System_Emails/Email_Notification_to_Plant_Managers_Quality_Claims</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_to_Loretto_Plant_Quality_managers</fullName>
+        <description>Email to Loretto Plant - Quality managers</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Loretto_Plant_Quality_email_queue</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>customer.service@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>CS_System_Emails/Email_Notification_to_Plant_Managers_Quality_Claims</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_to_MacIntyre_Plant_Quality_managers</fullName>
+        <description>Email to MacIntyre Plant - Quality managers</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>MacIntyre_Plant_Quality_email_queue</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>customer.service@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>CS_System_Emails/Email_Notification_to_Plant_Managers_Quality_Claims</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_to_Ned_Cargo_Plant_Quality_managers</fullName>
+        <description>Email to Ned Cargo Plant - Quality managers</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Ned_Cargo_Plant_Quality_email_queue</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>customer.service@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>CS_System_Emails/Email_Notification_to_Plant_Managers_Quality_Claims</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_to_Salignac_Plant_Quality_managers</fullName>
+        <description>Email to Salignac Plant - Quality managers</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Salignac_Plant_Quality_email_queue</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>customer.service@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>CS_System_Emails/Email_Notification_to_Plant_Managers_Quality_Claims</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_to_Sauza_Plant_Quality_managers</fullName>
+        <description>Email to Sauza Plant - Quality managers</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Sauza_Plant_Quality_Team_email_queue</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>customer.service@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>CS_System_Emails/Email_Notification_to_Plant_Managers_Quality_Claims</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_to_Segovia_Plant_Quality_managers</fullName>
+        <description>Email to Segovia Plant - Quality managers</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Segovia_Plant_Quality_email_queue</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>customer.service@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>CS_System_Emails/Email_Notification_to_Plant_Managers_Quality_Claims</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_to_WTDC_Plant_Quality_managers</fullName>
+        <description>Email to WTDC Plant - Quality managers</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>WTDC_Plant_Quality_email_queue</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>customer.service@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>CS_System_Emails/Email_Notification_to_Plant_Managers_Quality_Claims</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_to_plant_managers</fullName>
+        <description>Email to plant managers</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>customer.service@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>CS_System_Emails/Email_Notification_to_Plant_Managers_Quality_Claims</template>
+    </alerts>
+    <alerts>
+        <fullName>GBS_Case_Assigned_Notification</fullName>
+        <description>GBS - Case Assigned Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <field>SuppliedEmail</field>
+            <type>email</type>
+        </recipients>
+        <recipients>
+            <field>Submitter__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderAddress>gbs@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>GBS_System_Emails/Case_Assigned</template>
+    </alerts>
+    <alerts>
+        <fullName>GBS_Case_Closed_Notification</fullName>
+        <description>GBS - Case Closed Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <field>SuppliedEmail</field>
+            <type>email</type>
+        </recipients>
+        <recipients>
+            <field>Submitter__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderAddress>gbs@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>GBS_System_Emails/Case_Closed</template>
+    </alerts>
+    <alerts>
+        <fullName>GBS_Case_Closed_Notification_Outlook</fullName>
+        <description>GBS - Case Closed Notification Outlook</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Submitter__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderAddress>gbs@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>GBS_System_Emails/Case_Closed</template>
+    </alerts>
+    <alerts>
+        <fullName>GBS_SBFE_Case_Assigned_Notification</fullName>
+        <description>GBS SBFE Case Assigned Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <field>SuppliedEmail</field>
+            <type>email</type>
+        </recipients>
+        <recipients>
+            <field>Submitter__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderAddress>gbs@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>GBS_System_Emails/Case_Assigned_SBFE</template>
+    </alerts>
+    <alerts>
+        <fullName>GBS_SBFE_Case_Closed_Notification</fullName>
+        <description>GBS SBFE - Case Closed Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <field>SuppliedEmail</field>
+            <type>email</type>
+        </recipients>
+        <recipients>
+            <field>Submitter__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderAddress>gbs@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>GBS_System_Emails/Case_Closed_SBFE</template>
+    </alerts>
+    <alerts>
+        <fullName>GBS_SBFE_Outlook_Case_Assigned_Notification</fullName>
+        <description>GBS SBFE Outlook Case Assigned Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <field>SuppliedEmail</field>
+            <type>email</type>
+        </recipients>
+        <recipients>
+            <field>Submitter__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderAddress>gbs@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>GBS_System_Emails/Case_Assigned_SBFE</template>
+    </alerts>
+    <alerts>
+        <fullName>GBS_Vendor_Registration_Rejected</fullName>
+        <description>GBS Vendor Registration Rejected</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>gbs@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>GBS_System_Emails/Vendor_Rejected</template>
+    </alerts>
+    <alerts>
+        <fullName>Germany_Queue_New_Complaint_Email_Notification</fullName>
+        <description>Germany Queue New Complaint Email Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>GERMANY_Queue_Email_Group</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>ccvm@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>SLA_Template/Case_Assignment_Acknowledgment_Template</template>
+    </alerts>
+    <alerts>
+        <fullName>India_Queue_New_Complaint_Email_Notification</fullName>
+        <description>India Queue New Complaint Email Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>INDIA_Queue_Email_Group</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>ccvm@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>SLA_Template/Case_Assignment_Acknowledgment_Template</template>
+    </alerts>
+    <alerts>
+        <fullName>Inquiry_Case_Creation</fullName>
+        <ccEmails>consumerinquiries@beamsuntory.com</ccEmails>
+        <description>Inquiry Case Creation</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactEmail</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>consumerinquiries@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Send_Acknowledgement_Email_Template</template>
+    </alerts>
+    <alerts>
+        <fullName>Inquiry_Email_to_Case_Rule</fullName>
+        <description>Inquiry Email to Case Rule</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Automated_Notification_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>customer.service@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>CS_System_Emails/Case_Assignment_Email_All_Inquiries_ML</template>
+    </alerts>
+    <alerts>
+        <fullName>Japan_Queue_New_Complaint_Email_Notification</fullName>
+        <description>Japan Queue New Complaint Email Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>JAPAN_Queue_Email_Group</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>ccvm@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>SLA_Template/Case_Assignment_Acknowledgment_Template</template>
+    </alerts>
+    <alerts>
+        <fullName>Logistics_Case_Assigned</fullName>
+        <description>Logistics Case Assigned</description>
+        <protected>false</protected>
+        <recipients>
+            <field>SuppliedEmail</field>
+            <type>email</type>
+        </recipients>
+        <recipients>
+            <field>Submitter__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderAddress>logistics@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>CS_System_Emails/Logistics_Case_Assigned</template>
+    </alerts>
+    <alerts>
+        <fullName>Mexico_Queue_Email_Notification_Complaints</fullName>
+        <description>Mexico Queue Email Notification Complaints</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>MEXICO_queue_email_group</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>ccvm@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>SLA_Template/Case_Assignment_Acknowledgment_Template</template>
+    </alerts>
+    <alerts>
+        <fullName>Mexico_Queue_Email_Notification_Inquiries</fullName>
+        <description>Mexico Queue Email Notification Inquiries</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>MEXICO_queue_email_group</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>consumerinquiries@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>SLA_Template/Case_Assignment_Acknowledgment_Template</template>
+    </alerts>
+    <alerts>
+        <fullName>Notify_New_Case_Owner_of_Case_Transfer</fullName>
+        <description>Notify New Case Owner of Case Transfer</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>customer.service@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>GBS_System_Emails/Case_Assigned_Internal_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>OCEANIA_Queue_Email_Alert</fullName>
+        <description>OCEANIA Queue Email Alert</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>OCEANIA_Queue_Email_Group</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>ccvm@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>SLA_Template/Case_Assignment_Acknowledgment_Template</template>
+    </alerts>
+    <alerts>
+        <fullName>Order_Case_Assigned</fullName>
+        <description>Order Case Assigned</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Automated_Notification_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>customer.service@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>CS_System_Emails/Case_Assignment_Email_Orders_ML</template>
+    </alerts>
+    <alerts>
+        <fullName>Order_Claim_Expedited</fullName>
+        <description>Order Claim Expedited</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>customer.service@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>CS_System_Emails/Expedited_Order_Claim</template>
+    </alerts>
+    <alerts>
+        <fullName>Orders_Email_to_Case</fullName>
+        <description>Orders Email to Case</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Automated_Notification_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>customer.service@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>CS_System_Emails/Orders_Email_to_Case</template>
+    </alerts>
+    <alerts>
+        <fullName>Outlook_to_Case_Alert</fullName>
+        <description>Outlook to Case Alert</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Automated_Notification_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>customer.service@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>CS_System_Emails/Email_to_Case_ML</template>
+    </alerts>
+    <alerts>
+        <fullName>Quality_Claim_Created_from_mobile_app</fullName>
+        <description>Quality Claim Created from mobile app</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Submitter__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderAddress>customer.service@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>CS_System_Emails/Quality_Claim_Mobile_Case_Creation</template>
+    </alerts>
+    <alerts>
+        <fullName>Quality_Claim_MIMS_Alert</fullName>
+        <ccEmails>InternationalQualityEscalations@BeamSuntory.com,NAQualityEscalations@BeamSuntory.com</ccEmails>
+        <description>Quality Claim - MIMS Alert</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>MIMS_Group</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>customer.service@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>CS_System_Emails/Quality_Claim_MIMS_Escalation</template>
+    </alerts>
+    <alerts>
+        <fullName>Quality_Claim_Past_Due_Notification_Parent_New_Case_Asia</fullName>
+        <description>Quality Claim : Past Due Notification - Parent New Case Asia</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>ASIA_Queue_Email_Group</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>ccvm@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>SLA_Template/Past_Due_Notification_Parent_New_Case_v1</template>
+    </alerts>
+    <alerts>
+        <fullName>Quality_Claim_Past_Due_Notification_Parent_New_Case_Germany</fullName>
+        <description>Quality Claim : Past Due Notification - Parent New Case Germany</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>GERMANY_Queue_Email_Group</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>ccvm@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>SLA_Template/Past_Due_Notification_Parent_New_Case_v1</template>
+    </alerts>
+    <alerts>
+        <fullName>Quality_Claim_Past_Due_Notification_Parent_New_Case_India</fullName>
+        <description>Quality Claim : Past Due Notification - Parent New Case India</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>INDIA_Queue_Email_Group</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>ccvm@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>SLA_Template/Past_Due_Notification_Parent_New_Case_v1</template>
+    </alerts>
+    <alerts>
+        <fullName>Quality_Claim_Past_Due_Notification_Parent_New_Case_Japan</fullName>
+        <description>Quality Claim : Past Due Notification - Parent New Case Japan</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>JAPAN_Queue_Email_Group</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>ccvm@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>SLA_Template/Past_Due_Notification_Parent_New_Case_v1</template>
+    </alerts>
+    <alerts>
+        <fullName>Quality_Claim_Past_Due_Notification_Parent_New_Case_Oceania</fullName>
+        <description>Quality Claim : Past Due Notification - Parent New Case Oceania</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>OCEANIA_Queue_Email_Group</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>ccvm@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>SLA_Template/Past_Due_Notification_Parent_New_Case_v1</template>
+    </alerts>
+    <alerts>
+        <fullName>Quality_Claim_Past_Due_Notification_Parent_New_Case_ROW</fullName>
+        <description>Quality Claim : Past Due Notification - Parent New Case ROW</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>ROW_Queue_Email_Group</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>ccvm@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>SLA_Template/Past_Due_Notification_Parent_New_Case_v1</template>
+    </alerts>
+    <alerts>
+        <fullName>Quality_Claim_Past_Due_Notification_Parent_New_Case_US</fullName>
+        <description>Quality Claim : Past Due Notification - Parent New Case US</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>ccvm@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>SLA_Template/Past_Due_Notification_Parent_New_Case_v1</template>
+    </alerts>
+    <alerts>
+        <fullName>Quality_Claim_Past_Due_Notification_Pending_with_Agent_All</fullName>
+        <description>Quality Claim : Past Due Notification : Pending with Agent All</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>ccvm@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>SLA_Template/Past_Due_Notification_Pending_with_Agent_v1</template>
+    </alerts>
+    <alerts>
+        <fullName>Quality_Claim_Past_Due_Notification_Pending_with_Agent_All_Cases</fullName>
+        <description>Quality Claim : Past Due Notification : Pending with Agent All Cases</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>ccvm@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>SLA_Template/Past_Due_Notification_Pending_with_Agent_or_Escalation_Time</template>
+    </alerts>
+    <alerts>
+        <fullName>Quality_Claim_Past_Due_Notification_Pending_with_Customer_All_Cases</fullName>
+        <description>Quality Claim : Past Due Notification: Pending with Customer All Cases</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>ccvm@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>SLA_Template/Past_Due_Notification_Pending_with_Customer_v1</template>
+    </alerts>
+    <alerts>
+        <fullName>Quality_Claim_Past_Due_Notification_Pending_with_Legal_All_Cases</fullName>
+        <description>Quality Claim : Past Due Notification : Pending with Legal All Cases</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>ccvm@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>SLA_Template/Past_Due_Notification_Pending_with_Legal_v1</template>
+    </alerts>
+    <alerts>
+        <fullName>Quality_Claim_Past_Due_Notification_Pending_with_Quality</fullName>
+        <description>Quality Claim : Past Due Notification : Pending with Quality</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>ccvm@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>SLA_Template/Past_Due_Notification_Pending_with_Quality</template>
+    </alerts>
+    <alerts>
+        <fullName>Quality_Claim_Past_Due_Notification_Pending_with_SteriCycle_All_Cases</fullName>
+        <description>Quality Claim : Past Due Notification: Pending with SteriCycle All Cases</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>ccvm@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>SLA_Template/Past_Due_Notification_Pending_with_Stericycle_v1</template>
+    </alerts>
+    <alerts>
+        <fullName>Quote_Request_Approved_by_Commercial_Finance</fullName>
+        <description>Quote Request Approved by Commercial Finance</description>
+        <protected>false</protected>
+        <recipients>
+            <field>State_Manager_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>customer.service@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Compliance_System_Emails/Quote_Request_Approved_by_Commercial_Finance</template>
+    </alerts>
+    <alerts>
+        <fullName>Rest_of_World_Queue_New_Complaint_Email_Notification</fullName>
+        <description>Rest of World Queue New Complaint Email Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>RestOfWorldQueueEmailGroup</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>ccvm@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>SLA_Template/Case_Assignment_Acknowledgment_Template</template>
+    </alerts>
+    <alerts>
+        <fullName>SBFE_GBS_Case_Closed_Notification_Outlook</fullName>
+        <description>SBFE GBS  Case Closed Notification Outlook</description>
+        <protected>false</protected>
+        <recipients>
+            <field>SuppliedEmail</field>
+            <type>email</type>
+        </recipients>
+        <recipients>
+            <field>Submitter__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderAddress>gbs@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>GBS_System_Emails/Case_Closed_SBFE</template>
+    </alerts>
+    <alerts>
+        <fullName>SB_MC_SB_15_To_Send_Cancellation_Allocation_email_alert</fullName>
+        <description>SB MC SB-15 To Send Cancellation Allocation email alert</description>
+        <protected>false</protected>
+        <recipients>
+            <field>State_Manager_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <field>Submitter__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderAddress>single.barrels@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Single_Barrel_Allocations/Single_Barrel_Allocations_Cancellation</template>
+    </alerts>
+    <alerts>
+        <fullName>Selection_Date_Approved</fullName>
+        <description>Selection Date Approved</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Regional_Diplomat__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Single_Barrel/Selection_Date_Approved</template>
+    </alerts>
+    <alerts>
+        <fullName>Selection_Date_Rejected</fullName>
+        <description>Selection Date Rejected</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Regional_Diplomat__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Single_Barrel/Selection_Date_Rejected</template>
+    </alerts>
+    <alerts>
+        <fullName>Send_Autoreply_CS_case_older_than_3_days_cannot_reopen</fullName>
+        <description>Send Autoreply CS case older than 3 days cannot reopen</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Automated_Notification_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>customer.service@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>CS_System_Emails/Use_CS_Portal</template>
+    </alerts>
+    <alerts>
+        <fullName>Send_Email_To_Inquiries_Germany</fullName>
+        <ccEmails>consumerinquiries@beamsuntory.com</ccEmails>
+        <description>Send Email To Inquiries Germany</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Send_Email_to_Inquiries_Germany__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>consumerinquiries@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Send_Email_To_Inquiries_Germany_Template_html</template>
+    </alerts>
+    <alerts>
+        <fullName>Send_Email_To_Kilbeggan_Distillery_Alert</fullName>
+        <ccEmails>consumerinquiries@beamsuntory.com</ccEmails>
+        <description>Send Email To Kilbeggan Distillery Alert</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>consumerinquiries@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Send_Email_To_Kilbeggan_Distillery_Template_html</template>
+    </alerts>
+    <alerts>
+        <fullName>Send_Email_To_Tour_Booking_Alert</fullName>
+        <ccEmails>consumerinquiries@beamsuntory.com</ccEmails>
+        <description>Send Email To Tour Booking Alert</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>consumerinquiries@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Send_Email_To_Tour_Booking_Template_html</template>
+    </alerts>
+    <alerts>
+        <fullName>Send_Email_on_Discount_Approval</fullName>
+        <ccEmails>alecsklein@m-2oasof0e5u7h5n39f9w60hr7n9vvn519p88yitejvghbbwi4f6.c-3ktxxeam.cs14.case.sandbox.salesforce.com</ccEmails>
+        <ccEmails>compliance-testing@6-gm0jsb36mzc668ix562eai852qptb5qldnefhenk7b5uof524.0v-cqqreac.cs66.case.sandbox.salesforce.com</ccEmails>
+        <description>Send Email on Discount Approval</description>
+        <protected>false</protected>
+        <recipients>
+            <field>State_Manager_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>customer.service@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Compliance_System_Emails/Discounts_Document_Approved</template>
+    </alerts>
+    <alerts>
+        <fullName>Send_Email_on_Discount_Rejection</fullName>
+        <ccEmails>alecsklein@m-2oasof0e5u7h5n39f9w60hr7n9vvn519p88yitejvghbbwi4f6.c-3ktxxeam.cs14.case.sandbox.salesforce.com</ccEmails>
+        <ccEmails>compliance-testing@6-gm0jsb36mzc668ix562eai852qptb5qldnefhenk7b5uof524.0v-cqqreac.cs66.case.sandbox.salesforce.com</ccEmails>
+        <description>Send Email on Discount Rejection</description>
+        <protected>false</protected>
+        <recipients>
+            <field>State_Manager_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>customer.service@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Compliance_System_Emails/Discounts_Document_Rejected</template>
+    </alerts>
+    <alerts>
+        <fullName>Single_Barrel_El_Tesoro_Order_Placed</fullName>
+        <description>Single Barrel - El Tesoro Order Placed</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <recipients>
+            <recipient>El_Tesoro_Single_Barrel</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <field>Submitter__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderAddress>single.barrels@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Single_Barrel/Single_barrel_El_Tesoro_Order_Placed</template>
+    </alerts>
+    <alerts>
+        <fullName>Single_Barrel_Final_Information_Entered_Knob_Creek</fullName>
+        <description>Single Barrel - Final Information Entered (Knob Creek)</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Knob_Creek_Single_Barrel</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <field>Plant_User__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>Submitter__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Single_Barrel/Final_Information_has_been_Entered</template>
+    </alerts>
+    <alerts>
+        <fullName>Single_Barrel_Order_Placed</fullName>
+        <description>Single Barrel - Order Placed</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <recipients>
+            <recipient>Knob_Creek_Single_Barrel</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <field>Submitter__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderAddress>single.barrels@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Single_Barrel/Single_barrel_Knob_Creek_Order_Placed</template>
+    </alerts>
+    <alerts>
+        <fullName>Sub_Case_Assigned_Alert</fullName>
+        <ccEmails>compliance@beamsuntory.com</ccEmails>
+        <description>Sub Case Assigned Alert</description>
+        <protected>false</protected>
+        <recipients>
+            <field>SuppliedEmail</field>
+            <type>email</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Compliance_System_Emails/Compliance_Inquiry_New_Case_Submitted</template>
+    </alerts>
+    <alerts>
+        <fullName>Training_Approved</fullName>
+        <description>Training Approved</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>customer.service@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>CS_System_Emails/Case_Trainer_Approved_Internal</template>
+    </alerts>
+    <alerts>
+        <fullName>Training_Rejected</fullName>
+        <description>Training Rejected</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>customer.service@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>CS_System_Emails/Case_Trainer_Rejected_Internal</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Abandoned_Record_Close_Case</fullName>
+        <field>Status</field>
+        <literalValue>Closed - Abandoned</literalValue>
+        <name>Abandoned Record - Close Case</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Approval_Record_Case_Resolution_Update</fullName>
+        <field>Case_Resolution_Details__c</field>
+        <formula>"Your case has been approved." 
+&amp;BR() &amp; BR() &amp; 
+Case_Resolution_Details__c</formula>
+        <name>Approval Record - Case Resolution Update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Approve_Credit</fullName>
+        <field>Status</field>
+        <literalValue>Closed - Approved</literalValue>
+        <name>Approve Credit</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Approve_Credit_Box</fullName>
+        <field>Proposed_Credit_Approved__c</field>
+        <literalValue>1</literalValue>
+        <name>Approve Credit Box</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Approve_Record_Close_Case</fullName>
+        <field>Status</field>
+        <literalValue>Closed</literalValue>
+        <name>Approve Record - Close Case</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Approved_to_True</fullName>
+        <field>Approved__c</field>
+        <literalValue>1</literalValue>
+        <name>Approved to True</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CaseOwner</fullName>
+        <field>OwnerId</field>
+        <lookupValue>sfdc@beamsuntory.com</lookupValue>
+        <lookupValueType>User</lookupValueType>
+        <name>CaseOwner</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Case_owner_re_assignment</fullName>
+        <description>Re assigning the case to GBS PO queue for US/Canada case</description>
+        <field>OwnerId</field>
+        <lookupValue>GBS_PO</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>Case owner re-assignment</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Case_owner_update</fullName>
+        <field>OwnerId</field>
+        <lookupValue>GBS_PO</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>Case owner update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Case_status_update</fullName>
+        <field>Status</field>
+        <literalValue>In Progress</literalValue>
+        <name>Case status update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Change_Status_To_Close</fullName>
+        <field>Status</field>
+        <literalValue>Closed</literalValue>
+        <name>Change Status To Close</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Change_record_type</fullName>
+        <field>RecordTypeId</field>
+        <lookupValue>OTC_Billing</lookupValue>
+        <lookupValueType>RecordType</lookupValueType>
+        <name>Change record type</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Check_Bailment_Case</fullName>
+        <field>Is_Bailment_Claims__c</field>
+        <literalValue>1</literalValue>
+        <name>Check Bailment Case</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Claim_Amount_Approval</fullName>
+        <field>Claim_Amount_Approved__c</field>
+        <literalValue>1</literalValue>
+        <name>Claim Amount Approval</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Close_Case</fullName>
+        <field>Status</field>
+        <literalValue>Closed</literalValue>
+        <name>Close Case</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Close_Single_Barrel_Case</fullName>
+        <description>Close a Single Barrel Order if the user has not completed the visual flow from the customer community</description>
+        <field>Status</field>
+        <literalValue>Closed - Abandoned</literalValue>
+        <name>Close Single Barrel Case</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Close_Single_Barrel_Case1</fullName>
+        <description>Close a Single Barrel Order if the user has not completed the visual flow from the customer community</description>
+        <field>Status</field>
+        <literalValue>Closed - Abandoned</literalValue>
+        <name>Close Single Barrel Case</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Close_VAP_LTO_or_Traypack_case</fullName>
+        <field>Status</field>
+        <literalValue>Closed</literalValue>
+        <name>Close VAP/LTO or Traypack case</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>ClosedCase</fullName>
+        <field>Status</field>
+        <literalValue>Closed</literalValue>
+        <name>ClosedCase</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Compliance_Clear_Explanation_of_Change</fullName>
+        <description>Clears the value of the field "Explanation_of_Change__c".</description>
+        <field>Explanation_of_Change__c</field>
+        <name>Compliance Clear Explanation of Change</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Null</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Compliant_Pro_No_Updated_Within_SLA</fullName>
+        <description>if the “Compliant Pro Number” field’s value is changed and the Escalated field’s value is false then the “Compliant Pro No. Updated Within SLA” field’s value will be updated to true else it will be false.</description>
+        <field>Compliant_Pro_No_Updated_Within_SLA__c</field>
+        <literalValue>1</literalValue>
+        <name>Compliant Pro No. Updated Within SLA</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Default_Case_Owner_of_Order_Claim_Sub_Ca</fullName>
+        <description>Default Case Owner of sub case</description>
+        <field>OwnerId</field>
+        <lookupValue>Order_Claim_Sub_Case_Queue</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>Default Case Owner of Order Claim Sub Ca</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>El_Tesoro_Sample_Kit_change</fullName>
+        <field>Type</field>
+        <literalValue>Remote Selection</literalValue>
+        <name>El Tesoro Sample Kit change</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>JunkEmailUpdateRecordType</fullName>
+        <field>RecordTypeId</field>
+        <lookupValue>Dummy_Case</lookupValue>
+        <lookupValueType>RecordType</lookupValueType>
+        <name>JunkEmailUpdateRecordType</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Move_Case_Status_to_Preparing_Barrel</fullName>
+        <field>Status</field>
+        <literalValue>Preparing Barrel</literalValue>
+        <name>Move Case Status to Preparing Barrel</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>New_To_Open</fullName>
+        <description>Change the status value from new to open.</description>
+        <field>Status</field>
+        <literalValue>Open</literalValue>
+        <name>New To Open</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Reject_Record_Update_Status</fullName>
+        <field>Status</field>
+        <literalValue>In Progress</literalValue>
+        <name>Reject Record - Update Status</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Reset_Toggle</fullName>
+        <field>Toggle__c</field>
+        <formula>1</formula>
+        <name>Reset Toggle</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>SAP_entered_date</fullName>
+        <field>SAP_entered_date__c</field>
+        <formula>Now()</formula>
+        <name>SAP entered date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Selection_Date_Approved</fullName>
+        <description>Selection Date has been approved by the regional diplomat</description>
+        <field>Approval_Status__c</field>
+        <literalValue>Approved</literalValue>
+        <name>Selection Date Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Selection_Date_Rejected</fullName>
+        <description>Selection Date has been rejected by the regional diplomat</description>
+        <field>Approval_Status__c</field>
+        <literalValue>Rejected</literalValue>
+        <name>Selection Date Rejected</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_Case_Status_Working</fullName>
+        <field>Status</field>
+        <literalValue>Working</literalValue>
+        <name>Set Case Status - Working</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_Case_Subject</fullName>
+        <field>Subject</field>
+        <formula>IF(
+ISPICKVAL(Type, "Global Master Data Management"), 
+CaseNumber&amp;": "&amp; RecordType.Name &amp;":"&amp; Subject,
+
+Case( RecordType.Name, 
+"HR", CaseNumber&amp;": "&amp; RecordType.Name &amp;" - "&amp; TEXT(Category_1__c),
+"OTC - Invoice Number", "OTC - General",
+"Payroll", CaseNumber&amp;": "&amp; RecordType.Name &amp;" - "&amp; TEXT(Category_1__c),
+"OTC Billing", CaseNumber&amp;": "&amp; RecordType.Name &amp;" - "&amp; TEXT(Category_1__c),
+"PTP/AP", CaseNumber&amp;": "&amp; RecordType.Name &amp;" - "&amp; TEXT(Category_1__c) &amp;" - "&amp;Vendor_Name__c&amp;IF(ISPICKVAL(Category_1__c, "TBO Adjustments"), ' - ' &amp; Customer_Name__c, ''),
+"PTP/AP - PR/PO", CaseNumber&amp;": "&amp; RecordType.Name &amp;" - "&amp; TEXT(Category_1__c),
+"RTR", CaseNumber&amp;": "&amp; RecordType.Name &amp;" - "&amp; TEXT(Category_1__c),
+"T&amp;E", CaseNumber&amp;": "&amp; RecordType.Name &amp;" - "&amp; TEXT(Category_1__c),
+"Claims", CaseNumber&amp;": "&amp; RecordType.Name &amp;" - "&amp; TEXT(Category_1__c),
+"Tax", CaseNumber&amp;": "&amp; RecordType.Name &amp;" - "&amp; TEXT(Category_1__c),
+"Brand Registration", CaseNumber&amp;": "&amp; TEXT(Brand__c) &amp;" - "&amp; Project_Description__c &amp;" - PN-"&amp; Project_Number__c, 
+"Compliance Sub Case", 
+Case(TEXT(Type), 
+"Brand Registration", Parent.Subject &amp;" - "&amp; TEXT(State__c),
+RecordType.Name),
+"Quote Request", CaseNumber&amp;": "&amp; TEXT(State__c)&amp; " Quote Request" &amp; IF(NOT(ISBLANK(Description)), ' - ' &amp; Description, ''),
+"Price Posting", CaseNumber&amp;": "&amp; TEXT(State__c)&amp; " Price Posting - "&amp;TEXT(Posting_Date__c),
+"Price Filing", CaseNumber&amp;": "&amp; TEXT(State__c)&amp;" - "&amp;TEXT(Related_Month__c)&amp;" "&amp;TEXT(Year__c)&amp;" - Price Filing",
+"Discount", CaseNumber&amp;": "&amp; TEXT(State__c)&amp;" Discount; "&amp;TEXT(Related_Month__c)&amp;" "&amp;TEXT(Year__c)&amp;"; Due "&amp; TEXT(Due_Date__c),
+"Compliance Inquiry",CaseNumber&amp;": "&amp; RecordType.Name&amp;" - "&amp; TEXT(Type)&amp;" - "&amp; TEXT(State__c),
+"State License",CaseNumber&amp;": "&amp;RecordType.Name&amp;" - "&amp; TEXT(State__c),
+CaseNumber&amp;": "&amp; RecordType.Name&amp;" - "&amp; TEXT(Type)
+)
+)</formula>
+        <name>Set Case Subject</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_Date_Time_Assigned</fullName>
+        <field>Date_Time_Assigned__c</field>
+        <formula>NOW()</formula>
+        <name>Set Date/Time Assigned</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_New_Activity_Flag</fullName>
+        <field>New_Activity__c</field>
+        <literalValue>1</literalValue>
+        <name>Set New Activity Flag</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_Toggle_to_0</fullName>
+        <field>Toggle__c</field>
+        <formula>0</formula>
+        <name>Set Toggle to 0</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_flag_to_false</fullName>
+        <field>Case_Closed_from_CaseCloseAttachmentPage__c</field>
+        <literalValue>0</literalValue>
+        <name>Set flag to false</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Status_Changes_Within_SLA</fullName>
+        <description>Create a workflow rule on Case with criteria that whenever the “Status” field’s value is changed from New to working and if Escalated field’s value is false then the “Status Changed Within SLA” field’s value will be updated to true else it will be false.</description>
+        <field>Status_Changed_Within_SLA__c</field>
+        <literalValue>1</literalValue>
+        <name>Status Changes Within SLA</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Submit_Approval_Update_Status</fullName>
+        <field>Status</field>
+        <literalValue>Close Pending</literalValue>
+        <name>Submit Approval - Update Status</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Uncheck_Update_SLA_Times</fullName>
+        <field>Update_SLA_Times__c</field>
+        <literalValue>0</literalValue>
+        <name>Uncheck Update SLA Times</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Approval_Status</fullName>
+        <field>Approval_Status__c</field>
+        <literalValue>Pending Approval</literalValue>
+        <name>Update Approval Status</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Case_Record_type</fullName>
+        <description>Update Case Record type to otc-bailment for RTR record type</description>
+        <field>RecordTypeId</field>
+        <lookupValue>OTC_Bailment</lookupValue>
+        <lookupValueType>RecordType</lookupValueType>
+        <name>Update Case Record type</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Ever_Escalated_c</fullName>
+        <field>Ever_Escalated__c</field>
+        <literalValue>1</literalValue>
+        <name>Update Ever_Escalated__c</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Inquiry_to_Orders</fullName>
+        <field>RecordTypeId</field>
+        <lookupValue>Orders</lookupValue>
+        <lookupValueType>RecordType</lookupValueType>
+        <name>Update Inquiry to Orders</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_PO_Uploaded_Date</fullName>
+        <field>Purchase_Order_Uploaded_Date__c</field>
+        <formula>NOW()</formula>
+        <name>Update PO Uploaded Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_SLA_Start_Quote_Request</fullName>
+        <description>When a quote request is approved and waiting for submission, it sets SLA start time</description>
+        <field>SLA_Start__c</field>
+        <formula>NOW()</formula>
+        <name>Update SLA Start Quote Request</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_SLA_Times</fullName>
+        <field>Update_SLA_Times__c</field>
+        <literalValue>1</literalValue>
+        <name>Update SLA Times</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_SLA_start_time</fullName>
+        <description>update sla start time field to trigger entitlement process to start</description>
+        <field>SLA_Start__c</field>
+        <formula>Now()</formula>
+        <name>Update SLA start time</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Status</fullName>
+        <field>Status</field>
+        <literalValue>Waiting on 3rd Party</literalValue>
+        <name>Update Status</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Status_Closed</fullName>
+        <description>Close and keep the Case locked upon approval by trainer</description>
+        <field>Status</field>
+        <literalValue>Closed</literalValue>
+        <name>Update Status - Closed</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Status_In_Progress</fullName>
+        <field>Status</field>
+        <literalValue>In Progress</literalValue>
+        <name>Update Status - In Progress</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Training_Approved_Field</fullName>
+        <field>Training_Approved__c</field>
+        <literalValue>1</literalValue>
+        <name>Update Training Approved Field</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_status_from_New_to_Inprogress</fullName>
+        <field>Status</field>
+        <literalValue>In Progress</literalValue>
+        <name>Update status from New to Inprogress</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_the_Account_State</fullName>
+        <field>AccountState__c</field>
+        <formula>Account_State__c</formula>
+        <name>Update the Account State</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Updating_record_type_to_changes</fullName>
+        <description>Updating record type to changes from orders</description>
+        <field>RecordTypeId</field>
+        <lookupValue>Changes</lookupValue>
+        <lookupValueType>RecordType</lookupValueType>
+        <name>Updating record type to changes</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>update_to_expedited_order_claim</fullName>
+        <field>Expedited_Claim__c</field>
+        <literalValue>1</literalValue>
+        <name>update to expedited order claim</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <rules>
+        <fullName>ASIA Queue Email Notification</fullName>
+        <actions>
+            <name>ASIA_Queue_Email_Notification</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.OwnerId</field>
+            <operation>equals</operation>
+            <value>ASIA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>New</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Origin</field>
+            <operation>equals</operation>
+            <value>Console,Web</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Quality Claim</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>notEqual</operation>
+            <value>Closed</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Auto Response Free Merchandise International</fullName>
+        <actions>
+            <name>Auto_Response_Email_Alert</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Close_Case</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 AND ((2 AND 4) OR (5 AND 6)) AND 3 AND 7</booleanFilter>
+        <criteriaItems>
+            <field>Contact.MailingCountry</field>
+            <operation>notContain</operation>
+            <value>India,United States,Australia,New Zealand,United Kingdom,China,Netherlands,Belgium,Spain,Ireland,Sweden,Norway,Denmark,Finland,Poland,South Africa,Croatia,Czech Republic,Slovakia,Italy</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.How_can_we_help__c</field>
+            <operation>equals</operation>
+            <value>Our Online store</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.AdditionalInformation__c</field>
+            <operation>equals</operation>
+            <value>Free Merchandise</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Brand__c</field>
+            <operation>notEqual</operation>
+            <value>Makers Mark,Sipsmith,El Tesoro</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.How_can_we_help__c</field>
+            <operation>equals</operation>
+            <value>Other Inquiry</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Brand__c</field>
+            <operation>notEqual</operation>
+            <value>El Tesoro</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Consumer Inquiry</value>
+        </criteriaItems>
+        <description>It sends Auto Response for Free Merchandise International excluding US and other specific International Countries.</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Auto Response Other Inquiry - Supplier</fullName>
+        <actions>
+            <name>Auto_Response_Email_Alert</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 AND 2 AND 3</booleanFilter>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Consumer Inquiry</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.How_can_we_help__c</field>
+            <operation>equals</operation>
+            <value>Other Inquiry</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.AdditionalInformation__c</field>
+            <operation>equals</operation>
+            <value>Suppliers</value>
+        </criteriaItems>
+        <description>Auto Response Other Inquiry for Supplier</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Auto Response Product Information Online Store</fullName>
+        <actions>
+            <name>Auto_Response_Email_Alert</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Close_Case</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 AND 18 AND((2 AND 3 AND 5 AND 11) OR (6 AND (8 OR 9) AND 3) OR (6 AND (7 OR 10)) OR (12 AND 13) OR (12 AND 15 AND (3 OR (14 AND 17) OR (16 AND 4))) OR (12 AND (3 OR 20) AND 19)OR((2 OR 6 OR 12)AND((21 AND 3)OR(21 AND 16 AND 4)OR(21 AND 17 AND 14)))  )</booleanFilter>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Consumer Inquiry</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.How_can_we_help__c</field>
+            <operation>contains</operation>
+            <value>Our Online store</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Contact.MailingCountry</field>
+            <operation>equals</operation>
+            <value>United States</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Contact.MailingCountry</field>
+            <operation>notEqual</operation>
+            <value>United States</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.AdditionalInformation__c</field>
+            <operation>equals</operation>
+            <value>Product Availability</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.How_can_we_help__c</field>
+            <operation>equals</operation>
+            <value>Product Information</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.AdditionalInformation__c</field>
+            <operation>equals</operation>
+            <value>Value of my bottle</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.AdditionalInformation__c</field>
+            <operation>equals</operation>
+            <value>Product Ingredients</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.AdditionalInformation__c</field>
+            <operation>equals</operation>
+            <value>Product Shelf life</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.AdditionalInformation__c</field>
+            <operation>equals</operation>
+            <value>Decanter Inquiry</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Brand__c</field>
+            <operation>contains</operation>
+            <value>Jim Beam,Laphroaig,Makers Mark,Sipsmith</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.How_can_we_help__c</field>
+            <operation>equals</operation>
+            <value>Other Inquiry</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.AdditionalInformation__c</field>
+            <operation>contains</operation>
+            <value>Work for us,License our Brand,Rebates,Coupons</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Contact.MailingCountry</field>
+            <operation>contains</operation>
+            <value>Australia,New Zealand,United Kingdom,China,Netherlands,Belgium,Spain,Ireland,Sweden,Norway,Denmark,Finland,Poland,South Africa,Croatia,Czech Republic,Slovakia,Italy</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.AdditionalInformation__c</field>
+            <operation>equals</operation>
+            <value>Distributions</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Brand__c</field>
+            <operation>equals</operation>
+            <value>El Tesoro</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Brand__c</field>
+            <operation>notEqual</operation>
+            <value>El Tesoro</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Contact.MailingCountry</field>
+            <operation>notEqual</operation>
+            <value>India</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.AdditionalInformation__c</field>
+            <operation>equals</operation>
+            <value>Used Barrels</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Contact.MailingCountry</field>
+            <operation>equals</operation>
+            <value>Canada</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.AdditionalInformation__c</field>
+            <operation>equals</operation>
+            <value>Free Product,Free Merchandise</value>
+        </criteriaItems>
+        <description>rule to send auto-response for our online store, product information, other inquiry</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Auto Response Sponsorship OR Charity</fullName>
+        <actions>
+            <name>Auto_Response_Email_Alert</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Close_Case</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 AND 2 AND 5 AND  (4 OR (3 AND 6 AND 9) OR (3 AND 8 AND 7))</booleanFilter>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Consumer Inquiry</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.How_can_we_help__c</field>
+            <operation>equals</operation>
+            <value>Sponsorship or Charity</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.AdditionalInformation__c</field>
+            <operation>equals</operation>
+            <value>Sponsorship</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.AdditionalInformation__c</field>
+            <operation>equals</operation>
+            <value>Charity</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Contact.MailingCountry</field>
+            <operation>notEqual</operation>
+            <value>India</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Brand__c</field>
+            <operation>equals</operation>
+            <value>El Tesoro</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Brand__c</field>
+            <operation>notEqual</operation>
+            <value>El Tesoro</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Contact.MailingCountry</field>
+            <operation>contains</operation>
+            <value>Australia,New Zealand,United Kingdom,China,Netherlands,Belgium,Spain,Ireland,Sweden,Norway,Denmark,Finland,Poland,South Africa,Croatia,Czech Republic,Slovakia</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Contact.MailingCountry</field>
+            <operation>notEqual</operation>
+            <value>United States</value>
+        </criteriaItems>
+        <description>This rule will send an email for sponsorship or charity inquiry and close the case.</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Auto Response Where to Buy %26  Distillery</fullName>
+        <actions>
+            <name>Auto_Response_Email_Alert</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Close_Case</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 AND 9 AND (4 OR ((2 AND 3 AND 5) OR (2 AND 7 AND 8) OR (2 AND 6)))</booleanFilter>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Consumer Inquiry</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.How_can_we_help__c</field>
+            <operation>equals</operation>
+            <value>Where to Buy Product</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Contact.MailingCountry</field>
+            <operation>contains</operation>
+            <value>Australia,New Zealand,United Kingdom,China,Netherlands,Belgium,Spain,Ireland,Sweden,Norway,Denmark,Finland,Poland,South Africa,Croatia,Czech Republic,Slovakia</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.How_can_we_help__c</field>
+            <operation>equals</operation>
+            <value>Visiting the Distillery</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Brand__c</field>
+            <operation>notEqual</operation>
+            <value>El Tesoro</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Contact.MailingCountry</field>
+            <operation>equals</operation>
+            <value>United States</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Contact.MailingCountry</field>
+            <operation>notEqual</operation>
+            <value>United States</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Brand__c</field>
+            <operation>equals</operation>
+            <value>El Tesoro</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Contact.MailingCountry</field>
+            <operation>notEqual</operation>
+            <value>India</value>
+        </criteriaItems>
+        <description>This rule will close the case and send distillery tours &amp; where to buy product template.</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Autoreply for Reopen case after 3 days</fullName>
+        <actions>
+            <name>Send_Autoreply_CS_case_older_than_3_days_cannot_reopen</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <formula>ISCHANGED( Last_CS_Email_Alert_for_Not_Reopend_Case__c )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Bailment case record type change</fullName>
+        <actions>
+            <name>Update_Case_Record_type</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>RTR</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Category_1__c</field>
+            <operation>equals</operation>
+            <value>Bailment</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Brand Reg Due Date Changed</fullName>
+        <actions>
+            <name>Brand_Registration_Due_Date_Changed</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <description>This workflow executes when a Brand Registration's Due Date is changed after the Kickoff</description>
+        <formula>AND(RecordType.DeveloperName='Brand_Registration', Kick_Off_Brand_Registration__c, ISCHANGED(Due_Date__c))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Brand Reg In-Field Date Changed</fullName>
+        <actions>
+            <name>Brand_Registration_In_Field_Changed</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <description>This workflow executes when a Brand Registration's In-Field Date is changed after the Kickoff</description>
+        <formula>AND(RecordType.DeveloperName='Brand_Registration', Kick_Off_Brand_Registration__c, ISCHANGED(In_field_Date__c))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Canada Queue New Complaint Email Notification</fullName>
+        <actions>
+            <name>Canada_Queue_Email_Notification_Complaints</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.OwnerId</field>
+            <operation>equals</operation>
+            <value>CANADA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Quality Claim</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>New</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Origin</field>
+            <operation>equals</operation>
+            <value>Console,Web</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Canada Queue New Inquiry Email Notification</fullName>
+        <actions>
+            <name>Canada_Queue_Email_Notification_Inquiries</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.OwnerId</field>
+            <operation>equals</operation>
+            <value>CANADA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Consumer Inquiry</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>New</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Origin</field>
+            <operation>contains</operation>
+            <value>Console,Web</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Cancel Single Barrel Order</fullName>
+        <active>true</active>
+        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5</booleanFilter>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>New,Pending Selection,Pending Documentation</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Origin</field>
+            <operation>equals</operation>
+            <value>Customer Portal</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Single Barrel - Standard,Single Barrel - Proof Specific</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Flow_Completed__c</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Brand__c</field>
+            <operation>equals</operation>
+            <value>El Tesoro,Knob Creek</value>
+        </criteriaItems>
+        <description>If a Single Barrel Order is not completed in 2 hours, so the order will be canceled</description>
+        <triggerType>onCreateOnly</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Alert_Single_Barrel_Order_Canceled_Incomplete1</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>Close_Single_Barrel_Case1</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>Case.CreatedDate</offsetFromField>
+            <timeLength>2</timeLength>
+            <workflowTimeTriggerUnit>Hours</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Case Abandoned</fullName>
+        <actions>
+            <name>Abandoned_Record_Close_Case</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>Owner:Queue.DeveloperName = "Abandoned_Cases"  &amp;&amp;   NOT(ISPICKVAL(Status,"Closed - Abandoned"))</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Case Assigned</fullName>
+        <actions>
+            <name>Case_Assigned_Alert</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>(1 AND 2 AND 3) OR (1 AND 2 AND 4)</booleanFilter>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Escalated Form</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>Working</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.Case_Assignment_Notifications__c</field>
+            <operation>equals</operation>
+            <value>On</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.ContactEmail</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <description>Email alert that is delivered to Case Submitter upon assignment of their Escalated case</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Case Assigned - GBS</fullName>
+        <actions>
+            <name>GBS_Case_Assigned_Notification</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <description>Email alert that is delivered to Case Submitter upon assignment of their GBS case</description>
+        <formula>AND(OR(CONTAINS(RecordType.DeveloperName, "GMDM"), RecordType.DeveloperName = "HR" ),ISPICKVAL(Status, "In Progress"), ISPICKVAL(PRIORVALUE(Status), "Logged"),NOT(ISPICKVAL(GBS_Center__c, "SBFE")),NOT(ISPICKVAL(Origin, "Outlook")))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Case Assigned Changes</fullName>
+        <actions>
+            <name>Changes_Case_email_alert</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>(1 AND 2 AND 3) OR (1 AND 2 AND 4)</booleanFilter>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Changes</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>Working</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.Case_Assignment_Notifications__c</field>
+            <operation>equals</operation>
+            <value>On</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.ContactEmail</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <description>Email alert that is delivered to Case Submitter upon assignment of their CS Change case</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Case Assigned GBS outlook</fullName>
+        <actions>
+            <name>Case_Assigned_GBS_outlook</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <description>Email alert that is delivered to Case Submitter upon assignment of their GBS case of outlook origin</description>
+        <formula>AND(OR(CONTAINS(RecordType.DeveloperName, "GMDM"), RecordType.DeveloperName = "HR" ),ISPICKVAL(Status, "In Progress"), ISPICKVAL(PRIORVALUE(Status), "Logged"),NOT(ISPICKVAL(GBS_Center__c, "SBFE")),ISPICKVAL(Origin, "Outlook"))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Case Assigned SBFE GBS</fullName>
+        <actions>
+            <name>GBS_SBFE_Case_Assigned_Notification</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <description>Email alert that is delivered to Case Submitter upon assignment of their SBFE GBS case</description>
+        <formula>AND(OR(CONTAINS(RecordType.DeveloperName, "GMDM"), RecordType.DeveloperName = "HR" ),ISPICKVAL(Status, "In Progress"), ISPICKVAL(PRIORVALUE(Status), "Logged"),ISPICKVAL(GBS_Center__c, "SBFE"),NOT(ISPICKVAL(Origin, "Outlook")))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Case Assigned SBFE GBS outlook</fullName>
+        <actions>
+            <name>GBS_SBFE_Outlook_Case_Assigned_Notification</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <description>Email alert that is delivered to Case Submitter upon assignment of their GBS case of outlook origin</description>
+        <formula>AND(OR(CONTAINS(RecordType.DeveloperName, "GMDM"), RecordType.DeveloperName = "HR" ),ISPICKVAL(Status, "In Progress"), ISPICKVAL(PRIORVALUE(Status), "Logged"),ISPICKVAL(GBS_Center__c, "SBFE"),ISPICKVAL(Origin, "Outlook"))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Case Assignment Inquiries</fullName>
+        <actions>
+            <name>Inquiry_Email_to_Case_Rule</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>(1 AND 3 AND 4) OR (2 AND 3) OR (1 AND 3)</booleanFilter>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Inquiry</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Inquiry (Internal)</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>Working</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.Case_Assignment_Notifications__c</field>
+            <operation>equals</operation>
+            <value>On</value>
+        </criteriaItems>
+        <description>Email alert that is delivered to Case Submitter upon assignment of their CS Inquiry case</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Case Closed - GBS</fullName>
+        <actions>
+            <name>GBS_Case_Closed_Notification</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <description>Email alert that is delivered to Case Submitter upon closure of their GBS case</description>
+        <formula>AND(  IsClosed = TRUE,  NOT(  OR(  ISPICKVAL(Status, "Closed - Abandoned"),  ISPICKVAL(Status, "Closed - No Action")  )  ),NOT(ISPICKVAL(Origin, "Outlook")),NOT(ISPICKVAL(GBS_Center__c, "SBFE")), OR(  RecordType.DeveloperName = "PTP_AP",  RecordType.DeveloperName = "T_E",  RecordType.DeveloperName = "PTP_AP_PR_PO",  RecordType.DeveloperName = "RTR",  RecordType.DeveloperName = "Claims",  RecordType.DeveloperName = "Tax",  CONTAINS(RecordType.DeveloperName, "GMDM"),  CONTAINS(RecordType.DeveloperName, "OTC"),  RecordType.DeveloperName = "HR",  RecordType.DeveloperName = "Payroll"  ),  SuppliedEmail!="managedSaaS_support@us.ibm.com",  Case_Closed_from_CaseCloseAttachmentPage__c = false  )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Case Closed - GBS Outlook</fullName>
+        <actions>
+            <name>GBS_Case_Closed_Notification_Outlook</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <description>Email alert that is delivered to Case Submitter upon closure of their GBS case</description>
+        <formula>AND(  IsClosed = TRUE,  NOT(  OR(  ISPICKVAL(Status, "Closed - Abandoned"),  ISPICKVAL(Status, "Closed - No Action")  )  ),ISPICKVAL(Origin, "Outlook"),NOT(ISPICKVAL(GBS_Center__c, "SBFE")), OR(  RecordType.DeveloperName = "PTP_AP",  RecordType.DeveloperName = "T_E",  RecordType.DeveloperName = "PTP_AP_PR_PO",  RecordType.DeveloperName = "RTR",  RecordType.DeveloperName = "Claims",  RecordType.DeveloperName = "Tax",  CONTAINS(RecordType.DeveloperName, "GMDM"),  CONTAINS(RecordType.DeveloperName, "OTC"),  RecordType.DeveloperName = "HR",  RecordType.DeveloperName = "Payroll"  ),  SuppliedEmail!="managedSaaS_support@us.ibm.com",  Case_Closed_from_CaseCloseAttachmentPage__c = false  )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Case Closed - SBFE GBS Outlook</fullName>
+        <actions>
+            <name>SBFE_GBS_Case_Closed_Notification_Outlook</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <description>Email alert that is delivered to Case Submitter upon closure of their GBS case</description>
+        <formula>AND(  IsClosed = TRUE,  NOT(  OR(  ISPICKVAL(Status, "Closed - Abandoned"),  ISPICKVAL(Status, "Closed - No Action")  )  ),ISPICKVAL(Origin, "Outlook"),ISPICKVAL(GBS_Center__c, "SBFE"), OR(  RecordType.DeveloperName = "PTP_AP",  RecordType.DeveloperName = "T_E",  RecordType.DeveloperName = "PTP_AP_PR_PO",  RecordType.DeveloperName = "RTR",  RecordType.DeveloperName = "Claims",  RecordType.DeveloperName = "Tax",  CONTAINS(RecordType.DeveloperName, "GMDM"),  CONTAINS(RecordType.DeveloperName, "OTC"),  RecordType.DeveloperName = "HR",  RecordType.DeveloperName = "Payroll"  ),  SuppliedEmail!="managedSaaS_support@us.ibm.com",  Case_Closed_from_CaseCloseAttachmentPage__c = false  )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Case Closed Order</fullName>
+        <actions>
+            <name>Case_Closed_Order</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>(1 AND 2 AND 3) OR (1 AND 2 AND 4)</booleanFilter>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Orders</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>Closed</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.Case_Closed_Notifications__c</field>
+            <operation>equals</operation>
+            <value>On</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.ContactEmail</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <description>Case Resolution workflow to send case closed email (All Profiles)</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Case Closed SBFE GBS</fullName>
+        <actions>
+            <name>GBS_SBFE_Case_Closed_Notification</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <description>Email alert that is delivered to Case Submitter upon closure of their GBS case</description>
+        <formula>AND(  IsClosed = TRUE,  NOT(  OR(  ISPICKVAL(Status, "Closed - Abandoned"),  ISPICKVAL(Status, "Closed - No Action")  )  ),NOT(ISPICKVAL(Origin, "Outlook")),ISPICKVAL(GBS_Center__c, "SBFE"), OR(  RecordType.DeveloperName = "PTP_AP",  RecordType.DeveloperName = "T_E",  RecordType.DeveloperName = "PTP_AP_PR_PO",  RecordType.DeveloperName = "RTR",  RecordType.DeveloperName = "Claims",  RecordType.DeveloperName = "Tax",  CONTAINS(RecordType.DeveloperName, "GMDM"),  CONTAINS(RecordType.DeveloperName, "OTC"),  RecordType.DeveloperName = "HR",  RecordType.DeveloperName = "Payroll"  ),  SuppliedEmail!="managedSaaS_support@us.ibm.com",  Case_Closed_from_CaseCloseAttachmentPage__c = false  )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Case Ownership Transferred</fullName>
+        <actions>
+            <name>Notify_New_Case_Owner_of_Case_Transfer</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <description>Email alert that is delivered to new Case Owner upon transfer of a Case by someone other than the new Owner</description>
+        <formula>ISCHANGED( OwnerId ) &amp;&amp; OwnerId &lt;&gt; $User.Id &amp;&amp; NOT( ISBLANK( Owner:User.Id ))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Case assigned Logistics request</fullName>
+        <actions>
+            <name>Logistics_Case_Assigned</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Logistics request</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>New</value>
+        </criteriaItems>
+        <description>An email notification is sent to case submitter fro logistics request record type</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Case is Reopened</fullName>
+        <actions>
+            <name>Case_was_Reopened</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Set_New_Activity_Flag</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 AND (2 OR 3 OR 4)</booleanFilter>
+        <criteriaItems>
+            <field>Case.isReOpened__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>GBS Outlook,GMDM,GMDM - GL Account Change/Extend,GMDM - Cost Center Create,GMDM - Cost Center Change,GMDM - Customer Hierarchy,GMDM - Customer Maintenance,GMDM - EDW Mapping,GMDM - Materials,GMDM - Rebates,GMDM - Simple Request</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>GMDM - Vendor Maintenance,HR,OTC - Bailment,OTC - Bailment Error,OTC Billing,OTC - Cancellation,OTC - Commissions,OTC - Correct Invoice,OTC - Credit Approval,OTC - D2D Xfer,OTC - FI Request,OTC - Invoice Number,OTC - Invoice Request</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>OTC - Manual Invoice Request,OTC - Resend Auto Invoice,OTC - TPM,PTP/AP,PTP/AP - PR/PO,Payroll,RTR,T&amp;E,Tax,Claims</value>
+        </criteriaItems>
+        <description>Sends an email alert to the Case Owner their case is reopened</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Change Approval</fullName>
+        <actions>
+            <name>Change_Approved_Email</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Changes</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>Closed - Approved</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Inco_Terms_Approved__c</field>
+            <operation>equals</operation>
+            <value>Yes</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Change Status of Case From New To Open</fullName>
+        <actions>
+            <name>New_To_Open</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>When Agent click on Assign to me for New Status Case then status would be change from new to open.</description>
+        <formula>IF( AND(ISCHANGED(OwnerId), CONTAINS(OwnerId,'005') , TEXT(Status) = 'New', OR( RecordType.Name ='Quality Claim',RecordType.Name ='Consumer Inquiry')), true, false)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Change inquiry record type to orders</fullName>
+        <actions>
+            <name>Update_Inquiry_to_Orders</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Inquiry</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.OwnerId</field>
+            <operation>equals</operation>
+            <value>Canada Queue</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.SuppliedEmail</field>
+            <operation>equals</operation>
+            <value>no-reply@sharepointonline.com</value>
+        </criteriaItems>
+        <description>Change inquiry record type to orders for Canada queue</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Changes Escalation - After 3</fullName>
+        <active>true</active>
+        <description>Escalate unassigned Change Cases created after 3pm at 12:00pm the following day</description>
+        <formula>AND(  RecordType.Name = "Changes",  CreatedDate &gt; DATETIMEVALUE(TEXT(DATEVALUE(CreatedDate)) &amp; IF( OR(AND( MONTH(DATEVALUE(CreatedDate)) &gt;= 11, DAY(DATEVALUE(CreatedDate)) &gt;= 3),AND( MONTH(DATEVALUE(CreatedDate)) &lt;= 3, DAY(DATEVALUE(CreatedDate)) &lt;= 10)),' 21:00:00',' 20:00:00')  ),  ISPICKVAL(Status, "New")  )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Change_Escalation_Email</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Case.Change_Escalation_Time_After_3__c</offsetFromField>
+            <timeLength>5</timeLength>
+            <workflowTimeTriggerUnit>Hours</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Changes Escalation - Before 3</fullName>
+        <active>true</active>
+        <description>Escalate unassigned Change Cases created at or before 3pm at 5:30pm that day; escalate unassigned Change Cases created after 3pm by noon the following day</description>
+        <formula>AND(  RecordType.Name = "Changes",  CreatedDate &lt;= DATETIMEVALUE(TEXT(DATEVALUE(CreatedDate)) &amp; IF( OR(AND( MONTH(DATEVALUE(CreatedDate)) &gt;= 11, DAY(DATEVALUE(CreatedDate)) &gt;= 3),AND( MONTH(DATEVALUE(CreatedDate)) &lt;= 3, DAY(DATEVALUE(CreatedDate)) &lt;= 10)),' 21:00:00',' 20:00:00')  ),  ISPICKVAL(Status, "New")  )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Change_Escalation_Email</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Case.SLA_End_Time__c</offsetFromField>
+            <timeLength>0</timeLength>
+            <workflowTimeTriggerUnit>Hours</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Claim Approved</fullName>
+        <actions>
+            <name>Claim_Approved_Letter</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>(1 AND 2 AND 3 AND 4) OR (5 AND 3 AND 6 AND 4) OR (1 AND 9 AND 8 AND 4) OR (1 AND 7 AND 3 AND 4)</booleanFilter>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Order Claim</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Type</field>
+            <operation>equals</operation>
+            <value>Shortage Claim,Damage Claim</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.CPro_Approval__c</field>
+            <operation>equals</operation>
+            <value>Yes</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>Closed - Approved</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Quality Claim</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Financial_Disposition__c</field>
+            <operation>equals</operation>
+            <value>Credit</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Type</field>
+            <operation>equals</operation>
+            <value>Freight Claim</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Overage__c</field>
+            <operation>equals</operation>
+            <value>Purchase</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Type</field>
+            <operation>equals</operation>
+            <value>Overage Claim</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Compliance All Sub Cases Closed</fullName>
+        <actions>
+            <name>Compliance_All_Sub_Cases_Closed</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.Due_Date__c</field>
+            <operation>greaterOrEqual</operation>
+            <value>TODAY</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Brand Registration</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Submitted_Compliance__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <description>(Compliance) When all of a Brand Registration Case's Sub Cases are closed, an email should be sent to the Compliance Coordinator (Owner) in charge of the parent case. This workflow will not fire if the Due Date has passed</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Compliance Due Date Changed</fullName>
+        <actions>
+            <name>Compliance_Due_Date_Changed</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <formula>AND(RecordType.Name='Brand Registration', ISCHANGED(Due_Date__c),  Kick_Off_Brand_Registration__c)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Compliance_Quote_Request_Approved</fullName>
+        <actions>
+            <name>Quote_Request_Approved_by_Commercial_Finance</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Case.Approved__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Quote Request</value>
+        </criteriaItems>
+        <description>Workflow executes when Quote Request Case is marked "Approved"</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Compliant Pro No%2E Updated Within SLA</fullName>
+        <actions>
+            <name>Compliant_Pro_No_Updated_Within_SLA</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>if the “Compliant Pro Number” field’s value is changed and the Escalated field’s value is false then the “Compliant Pro No. Updated Within SLA” field’s value will be updated to true else it will be false.</description>
+        <formula>AND(  NOT(ISNEW()),  ISCHANGED( Compliant_Pro_Number__c  ),   Ever_Escalated__c = false  )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Default Case Owner of Order Claim Sub Case</fullName>
+        <actions>
+            <name>Default_Case_Owner_of_Order_Claim_Sub_Ca</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Order Claim Sub Case</value>
+        </criteriaItems>
+        <description>Default the owner of the case where the record type is order claim sub case until the parent record has completed their initial SLA</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Discount Approval Status Changes</fullName>
+        <active>false</active>
+        <description>When a Discount Case's Approval Status changes (typically either Approved or Rejected), send out the appropriate email.</description>
+        <formula>IF(   AND(     ISCHANGED(Approval_Status__c),     OR(       TEXT(Approval_Status__c)='Approved',        TEXT(Approval_Status__c)='Rejected'     )   ),    true,    false )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Email to Case</fullName>
+        <actions>
+            <name>Email_to_Case</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>(1 AND 2 AND 3 AND 4) OR (1 AND 2 AND 3 AND 5) OR (3 AND 4 AND 6 AND 7) OR (3 AND 5 AND 6 AND 7)</booleanFilter>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Orders,Inquiry,Inquiry (Internal),Quality Claim,Order Claim,Changes</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Origin</field>
+            <operation>equals</operation>
+            <value>Email</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>New</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.Case_Created_Notifications__c</field>
+            <operation>equals</operation>
+            <value>On</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.ContactEmail</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Case_Type__c</field>
+            <operation>equals</operation>
+            <value>Changes,EDI Order,Inquiry,Inquiry (Internal),Order Claim,Orders,Quality Claim</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Outlook</value>
+        </criteriaItems>
+        <description>Email for email-to-case Order submissions (All Profiles)</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Email to Quality Plant Manager</fullName>
+        <actions>
+            <name>Email_to_plant_managers</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Quality Claim Sub Case</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>New</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.OwnerId</field>
+            <operation>notEqual</operation>
+            <value>Quality Claim Sub Case Queue</value>
+        </criteriaItems>
+        <description>An email notification is sent to plant manager when a new quality claim is</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Escalation Form Submission Alert</fullName>
+        <actions>
+            <name>Escalated_Email_Notifcation</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Escalated Form</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>New</value>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>GBS PO Case assignment</fullName>
+        <actions>
+            <name>Case_owner_update</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>(1 OR 2) AND 3 AND 4 AND 5</booleanFilter>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>GBS Outlook</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>PTP/AP</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Category_1__c</field>
+            <operation>equals</operation>
+            <value>Pricing Management</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Origin</field>
+            <operation>notEqual</operation>
+            <value>Email</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.New_Activity__c</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>GBS PO Case assignment 2</fullName>
+        <actions>
+            <name>Case_owner_re_assignment</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>(1 OR 2) AND 3 AND (4 OR 5)</booleanFilter>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>GBS Outlook</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>PTP/AP</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.GBS_Center__c</field>
+            <operation>equals</operation>
+            <value>US/Canada</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Category_1__c</field>
+            <operation>equals</operation>
+            <value>Purchase order inquiries</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Category_1__c</field>
+            <operation>equals</operation>
+            <value>Purchase requisition inquiries</value>
+        </criteriaItems>
+        <description>primary category as Purchase order inquiries or Purchase requisition inquiries of US/Canada cases assignement to GBS PO queue</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>GBS Vendor Registration - Rejected</fullName>
+        <actions>
+            <name>GBS_Vendor_Registration_Rejected</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Registration Approval</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>Closed - Rejected</value>
+        </criteriaItems>
+        <description>Vendor Registration through the company community is rejected</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Germany Queue New Complaint Email Notification</fullName>
+        <actions>
+            <name>Germany_Queue_New_Complaint_Email_Notification</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.OwnerId</field>
+            <operation>equals</operation>
+            <value>GERMANY</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Quality Claim</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>New</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Origin</field>
+            <operation>contains</operation>
+            <value>Console,Web</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>India Queue New Complaint Email Notification</fullName>
+        <actions>
+            <name>India_Queue_New_Complaint_Email_Notification</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.OwnerId</field>
+            <operation>equals</operation>
+            <value>INDIA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Quality Claim</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>New</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Origin</field>
+            <operation>equals</operation>
+            <value>Console,Web</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>notEqual</operation>
+            <value>Closed</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Japan Queue New Complaint Email Notification</fullName>
+        <actions>
+            <name>Japan_Queue_New_Complaint_Email_Notification</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Quality Claim</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>New</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Origin</field>
+            <operation>equals</operation>
+            <value>Console,Web</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.OwnerId</field>
+            <operation>equals</operation>
+            <value>JAPAN</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>notEqual</operation>
+            <value>Closed</value>
+        </criteriaItems>
+        <description>this workflow is for sending Email to required people when a new complaint case is created  for Japan.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>JunkEmailUpdateRecordType</fullName>
+        <actions>
+            <name>CaseOwner</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>ClosedCase</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>JunkEmailUpdateRecordType</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>(1 OR 2 OR 3)  AND 4</booleanFilter>
+        <criteriaItems>
+            <field>Case.Subject</field>
+            <operation>contains</operation>
+            <value>Out of office</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Subject</field>
+            <operation>contains</operation>
+            <value>Auto-Reply</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Subject</field>
+            <operation>contains</operation>
+            <value>Undeliverable:</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>contains</operation>
+            <value>Consumer Inquiry,Quality Claim</value>
+        </criteriaItems>
+        <description>This workflow is used to update the junk cases which was not deliverable or having email undeliverable issue, so we are updating these cases to dummy case.</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Mark Case for Bailment Claims</fullName>
+        <actions>
+            <name>Check_Bailment_Case</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <formula>Owner:Queue.QueueName == "Bailment Claims"</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Mexico Queue New Complaint Email Notification</fullName>
+        <actions>
+            <name>Mexico_Queue_Email_Notification_Complaints</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.OwnerId</field>
+            <operation>equals</operation>
+            <value>MEXICO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Quality Claim</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>New</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Origin</field>
+            <operation>equals</operation>
+            <value>Console,Web</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Mexico Queue New Inquiry Email Notification</fullName>
+        <actions>
+            <name>Mexico_Queue_Email_Notification_Inquiries</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.OwnerId</field>
+            <operation>equals</operation>
+            <value>MEXICO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Consumer Inquiry</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>New</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Origin</field>
+            <operation>equals</operation>
+            <value>Console,Web</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>OCEANIA Queue Email Notification</fullName>
+        <actions>
+            <name>OCEANIA_Queue_Email_Alert</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.OwnerId</field>
+            <operation>equals</operation>
+            <value>OCEANIA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>New</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Origin</field>
+            <operation>equals</operation>
+            <value>Console,Web</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Quality Claim</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>notEqual</operation>
+            <value>Closed</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Order Case Assignment Email</fullName>
+        <actions>
+            <name>Order_Case_Assigned</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>(1 AND 2 AND 4) OR (1 AND 2 AND 3)</booleanFilter>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Orders</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>Working</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.ContactEmail</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.Case_Assignment_Notifications__c</field>
+            <operation>equals</operation>
+            <value>On</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Order Claim Case Assignment</fullName>
+        <actions>
+            <name>Claims_Assignment_Email_Alert</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>(1 AND 2 AND 3) OR (1 AND 2 AND 4)</booleanFilter>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Order Claim,Quality Claim</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>Working</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.Case_Assignment_Notifications__c</field>
+            <operation>equals</operation>
+            <value>On</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.ContactEmail</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Order claim has been expedited</fullName>
+        <actions>
+            <name>Order_Claim_Expedited</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Order Claim</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Order Claim Sub Case</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Expedited_Claim__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <description>When an order claim is marked as expedited, an email will be sent to the owner of the case notifying them of this change</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Orders Email to Case</fullName>
+        <actions>
+            <name>Orders_Email_to_Case</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 AND 2 AND 3</booleanFilter>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Orders</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>Working</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Origin</field>
+            <operation>equals</operation>
+            <value>Email</value>
+        </criteriaItems>
+        <description>Sends a Case pickup email whenever an orders case is received through email to case.</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Outlook to Case</fullName>
+        <actions>
+            <name>Outlook_to_Case_Alert</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>(1 AND 2 AND 3 AND 4) OR (1 AND 2 AND 3 AND 5)</booleanFilter>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Outlook</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Case_Type__c</field>
+            <operation>equals</operation>
+            <value>Changes,EDI Order,Escalated Form,Inquiry,Inquiry (Internal),Order Claim,Orders,Quality Claim</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>New</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.Case_Created_Notifications__c</field>
+            <operation>equals</operation>
+            <value>On</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.ContactEmail</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <description>Email for email-to-case Order submissions (All Profiles)</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Pending license review audit</fullName>
+        <actions>
+            <name>Email_to_Market_readiness_team_notifying_that_the_License_received_date_is_enter</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>State License</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.License_Received_Date__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.License_Received_Audit__c</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <description>Email alert to be sent to MR team when License received date is entered</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Pending to 3rd party status change</fullName>
+        <actions>
+            <name>Update_Status</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.Pending_3rd_party__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>State License</value>
+        </criteriaItems>
+        <description>For State License registration case</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Quality Claim - MIMS Escalation</fullName>
+        <actions>
+            <name>Quality_Claim_MIMS_Alert</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <description>Once a Quality Claim is reported with a health concern then an email must go out to the MIMS team</description>
+        <formula>OR(    AND(      ISNEW(),      RecordType.DeveloperName = "Quality_Claim",      Health_Concern__c    ),    AND(      RecordType.DeveloperName = "Quality_Claim",      NOT(PRIORVALUE(Health_Concern__c)),      Health_Concern__c    )  )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Quote Request Recieved</fullName>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Quote Request</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Origin</field>
+            <operation>equals</operation>
+            <value>Email</value>
+        </criteriaItems>
+        <description>When a Quote request is received from the QuoteRequest@beamsuntory.com, it should send out a communication to Connor O’Brien, Dionicia Sandoval &amp; Kevin Katz</description>
+        <triggerType>onCreateOnly</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Quote_request_Recieved</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Case.LastModifiedDate</offsetFromField>
+            <timeLength>0</timeLength>
+            <workflowTimeTriggerUnit>Hours</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Re-route future cases to SC_NA_OrderChanges</fullName>
+        <actions>
+            <name>Updating_record_type_to_changes</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.Subject</field>
+            <operation>equals</operation>
+            <value>Job ZNOTC_US_DIS_ZV240_NO_ATP_CHECK,Step 1</value>
+        </criteriaItems>
+        <description>Re-route future cases to SC_NA_OrderChanges if subject equals Job ZNOTC_US_DIS_ZV240_NO_ATP_CHECK,Step 1</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Remote Selection is Today</fullName>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Single Barrel - Proof Specific</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Type</field>
+            <operation>equals</operation>
+            <value>Remote Selection</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Approval_Status__c</field>
+            <operation>equals</operation>
+            <value>Approved</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Remote_Selection_Date__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>New,Pending Documentation</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Move_Case_Status_to_Preparing_Barrel</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>Case.Remote_Selection_Date__c</offsetFromField>
+            <timeLength>1</timeLength>
+            <workflowTimeTriggerUnit>Hours</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Rest of World Queue Email Notification</fullName>
+        <actions>
+            <name>Rest_of_World_Queue_New_Complaint_Email_Notification</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.OwnerId</field>
+            <operation>equals</operation>
+            <value>REST OF WORLD</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>New</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Origin</field>
+            <operation>equals</operation>
+            <value>Console,Web</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Quality Claim</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>SLA Workflow</fullName>
+        <active>true</active>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <criteriaItems>
+            <field>Case.IsClosed</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Toggle__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Toggle__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <description>Field update that triggers the CaseServices class via time-based workflow; this class will update the SLA Start and End Time, Last Status Change, Time with Customer and Time with Support fields at end of day; candidate for scheduled batch class</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Set_Toggle_to_0</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <actions>
+                <name>Update_SLA_Times</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>Case.SLA_End_Time__c</offsetFromField>
+            <timeLength>0</timeLength>
+            <workflowTimeTriggerUnit>Hours</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Send Email for Complaint Case Creation</fullName>
+        <actions>
+            <name>Complaint_Case_Creation</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Quality Claim</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>New</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>notEqual</operation>
+            <value>Closed</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Origin</field>
+            <operation>notEqual</operation>
+            <value>Customer Portal</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Subject</field>
+            <operation>notContain</operation>
+            <value>Undeliverable</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Set Case Subject</fullName>
+        <actions>
+            <name>Set_Case_Subject</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.Origin</field>
+            <operation>notEqual</operation>
+            <value>Email</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Category_1__c</field>
+            <operation>notEqual</operation>
+            <value>Credit limit/payment terms change</value>
+        </criteriaItems>
+        <description>Field update that sets the Case subject according to the type of Case submitted</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Set Date%2FTime Assigned</fullName>
+        <actions>
+            <name>Set_Date_Time_Assigned</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Field update that sets the Date and Time that a case is assigned</description>
+        <formula>OR(ISPICKVAL(PRIORVALUE(Status),"New"), ISPICKVAL(PRIORVALUE(Status),"Logged")) &amp;&amp; OR(ISPICKVAL(Status, "Working"), ISPICKVAL(Status, "Active"))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Set flag to false on Case reopen</fullName>
+        <actions>
+            <name>Set_flag_to_false</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>notEqual</operation>
+            <value>Closed,Closed - Abandoned,Closed - No Action</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>GMDM,OTC Billing,PTP/AP,PTP/AP - PR/PO,Payroll,RTR,T&amp;E,HR,GMDM - Simple Request,GMDM - Vendor Maintenance,Tax,Claims</value>
+        </criteriaItems>
+        <description>This workflow will revert the flag to false when the case is reopened.</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Single Barrel Bottle Text Entered</fullName>
+        <actions>
+            <name>Bottle_Text_Entered_for_Maker_s_Mark</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <description>For the Maker's Mark Single Barrel Program once the bottle text has been entered an email will be sent to the Maker's Mark Plant team</description>
+        <formula>AND(  RecordType.DeveloperName = 'Single_Barrel_Proof_Specific',  ISPICKVAL(Brand__c,'Makers Mark'),  Bottle_Text_Entered__c  )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <timeLength>0</timeLength>
+            <workflowTimeTriggerUnit>Hours</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Single Barrel El Tesoro Order Placed</fullName>
+        <actions>
+            <name>Single_Barrel_El_Tesoro_Order_Placed</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>New</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Single Barrel - Proof Specific</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Brand__c</field>
+            <operation>equals</operation>
+            <value>El Tesoro</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Flow_Completed__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <description>Once a Single Barrel Order for El Tesoro is created is will be sent to the plant users</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Single Barrel El Tesoro Order Type Change</fullName>
+        <actions>
+            <name>El_Tesoro_Sample_Kit_change</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>New</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Single Barrel - Proof Specific</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Brand__c</field>
+            <operation>equals</operation>
+            <value>El Tesoro</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Flow_Completed__c</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Type</field>
+            <operation>equals</operation>
+            <value>Sample Kit</value>
+        </criteriaItems>
+        <description>Once a Single Barrel Order for El Tesoro is created is will be sent to the plant users</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Single Barrel Knob Creek Order Placed</fullName>
+        <actions>
+            <name>Single_Barrel_Order_Placed</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <description>Once a Single Barrel Order for Knob Creek is created is will be sent to the plant users</description>
+        <formula>AND( OR(ISPICKVAL(Status,'New'),ISPICKVAL(Status,'Pending Documentation')) ,   RecordType.DeveloperName = 'Single_Barrel_Standard',   OR(      ISPICKVAL(Brand__c,'Knob Creek'),      ISPICKVAL(Brand__c,'Cruzan'),      ISPICKVAL(Brand__c,'Jim Beam')    ),   Flow_Completed__c )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>State License passed expiration date</fullName>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>State License</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Submitted_Date__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>notEqual</operation>
+            <value>Closed</value>
+        </criteriaItems>
+        <description>Email to be sent to MR team when a state licensing case has passed expired date with out entering the submission date</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Email_to_Market_readiness_team_when_expiration_date_is_passed_on_State_License_c</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Case.Expiration_Date__c</offsetFromField>
+            <timeLength>1</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>State license New to Inprogress</fullName>
+        <actions>
+            <name>Update_status_from_New_to_Inprogress</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Updating the case status from New to In progress when owner changes from queue to iuser</description>
+        <formula>AND (  RecordType.Name = "State License", ISCHANGED(OwnerId), OR( OwnerId = $User.Id, AND( LEFT(PRIORVALUE(OwnerId),3) = '00G', LEFT(OwnerId,3) = '005' )  )  )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>State license pending submission audit</fullName>
+        <actions>
+            <name>Email_to_Market_readiness_team_notifying_the_submission_date_is_ready_for_review</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>State License</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Submitted_Date__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Submission_Audit__c</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <description>Email alert to be sent to MR team when submission date is entered</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>State license pending submission date</fullName>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>State License</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Submitted_Date__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <description>Send an email notification to Market Readiness team if submission date is not entered before the due date</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Pending_Submission_date_60_days</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Case.Due_Date__c</offsetFromField>
+            <timeLength>-60</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Pending_Submission_date_15_days</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Case.Due_Date__c</offsetFromField>
+            <timeLength>-15</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Status Change Updates Activity Flag</fullName>
+        <actions>
+            <name>Set_New_Activity_Flag</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>ISCHANGED(Status) &amp;&amp; $User.Id &lt;&gt; OwnerId &amp;&amp; BSI_Function__c &lt;&gt; 'GBS' &amp;&amp; BSI_Function__c &lt;&gt; 'Compliance' &amp;&amp; !IsClosed</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Status field%E2%80%99s value is changed from New to working</fullName>
+        <actions>
+            <name>Status_Changes_Within_SLA</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <description>Create a workflow rule on Case with criteria that whenever the “Status” field’s value is changed from New to working and if Escalated field’s value is false then the “Status Changed Within SLA” field’s value will be updated to true else it will be false.</description>
+        <formula>AND(     NOT(ISNEW()),     ISCHANGED(Status),     ISPICKVAL(PRIORVALUE(Status),"New"),     ISPICKVAL(Status, "Working"),      Ever_Escalated__c = false  )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Sub Case Notification</fullName>
+        <actions>
+            <name>Sub_Case_Assigned_Alert</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Compliance Inquiry</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Origin</field>
+            <operation>notEqual</operation>
+            <value>Portal</value>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>T %26 E Case status change</fullName>
+        <actions>
+            <name>Case_status_update</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>T&amp;E</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Origin</field>
+            <operation>equals</operation>
+            <value>Email,Company Community</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.GBS_Center__c</field>
+            <operation>equals</operation>
+            <value>US/Canada</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.OwnerId</field>
+            <operation>equals</operation>
+            <value>Leah Ray</value>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Time stamp for SAP entered date</fullName>
+        <actions>
+            <name>SAP_entered_date</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>OR( And(ISNEW(), NOT(ISBLANK(SAP_Number__c ))) ,ISCHANGED( SAP_Number__c ))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Time-based Due Date</fullName>
+        <active>false</active>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Compliance Sub Case</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Due_Date__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <offsetFromField>Case.Due_Date__c</offsetFromField>
+            <timeLength>-1</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Uncheck Toggle</fullName>
+        <actions>
+            <name>Reset_Toggle</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Uncheck_Update_SLA_Times</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <criteriaItems>
+            <field>Case.Update_SLA_Times__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Toggle__c</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Toggle__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <description>Field update that works in tandem with the SLA Workflow to reset the Update SLA Times and Toggle fields</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update  Ever_Escalated%5F%5Fc field on first Escalation</fullName>
+        <actions>
+            <name>Update_Ever_Escalated_c</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.IsEscalated</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update Case Status on Acceptance from Queue-GBS</fullName>
+        <actions>
+            <name>Update_Status_In_Progress</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <formula>AND(  ISCHANGED(OwnerId),  LEFT(OwnerId, 3) &lt;&gt; "00G", OR(  CONTAINS(RecordType.Name, "GMDM"),  RecordType.Name = "HR",  RecordType.Name = "PTP/AP",  RecordType.Name = "PTP/AP - PR/PO",  RecordType.Name = "Bailment",  CONTAINS(RecordType.Name, "OTC"),  RecordType.Name = "RTR",  RecordType.Name = "Payroll",  RecordType.Name = "T&amp;E", RecordType.Name = "Registration Approval", RecordType.Name = "Claims", RecordType.Name = "Tax"))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update Quote Request SLA</fullName>
+        <actions>
+            <name>Update_SLA_Start_Quote_Request</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Quote Request</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.isReOpened__c</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>Waiting for Submission</value>
+        </criteriaItems>
+        <description>This will update the Quote Request SLA Start field once a case is waiting for submission.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update Start time SLA</fullName>
+        <actions>
+            <name>Update_SLA_start_time</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>(1 AND 3 AND 4) OR (2 AND 3)</booleanFilter>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Order Claim,Order Claim Sub Case,Quality Claim Sub Case</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.BSI_Function__c</field>
+            <operation>equals</operation>
+            <value>GBS</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.SLA_Start__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Submitted__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <description>This is the sla start time field for the Entitlment process for Cases of record type Order claims and all GBS Cases</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update all OTC record types to OTC Billing</fullName>
+        <actions>
+            <name>Change_record_type</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>OTC - Bailment Error,OTC - Cancellation,OTC - Commissions,OTC - Correct Invoice,OTC - Credit Approval,OTC - D2D Xfer,OTC - FI Request,OTC - Invoice Number,OTC - Invoice Request,OTC - Manual Invoice Request,OTC - Resend Auto Invoi</value>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Updated Account state for Single barrel cases</fullName>
+        <actions>
+            <name>Update_the_Account_State</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Updated Account state for Single barrel related record type cases</description>
+        <formula>Account_State__c!=null</formula>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>VAP %26 Traypack case closure</fullName>
+        <actions>
+            <name>Approved_to_True</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Close_VAP_LTO_or_Traypack_case</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Compliance Sub Case</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Type</field>
+            <operation>equals</operation>
+            <value>Traypack Audit,VAP/LTO Allocation</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Approval_Date__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>WF_UpdatePOUploadedDate</fullName>
+        <actions>
+            <name>Update_PO_Uploaded_Date</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.Purchase_Order_Uploaded__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Purchase_Order_Uploaded_Date__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

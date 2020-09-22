@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LegalContract</fullName>
+    <active>true</active>
+    <label>Legal Contract</label>
+    <picklistValues>
+        <picklist>Type__c</picklist>
+        <values>
+            <fullName>Checkbox Group</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Date Range</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dropdown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Radio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Text</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

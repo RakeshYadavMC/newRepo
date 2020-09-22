@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Automated</fullName>
+    <active>true</active>
+    <description>Record type to capture automated Forecast Snapshot records</description>
+    <label>Automated</label>
+</RecordType>

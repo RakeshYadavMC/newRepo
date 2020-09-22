@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BeamSuntory_Letterhead</letterhead>
+    <name>Outstanding Expenses for Resigned Employee</name>
+    <style>freeForm</style>
+    <subject>Action required: expenses for resigned employee</subject>
+    <textOnly>Hi INSERT MANAGER,
+
+
+You’ve been identified as a T&amp;E approver for an individual who has recently resigned from the company. The details of that departure appear below:
+
+
+Employee Name:  INSERT RESIGNED EMPLOYEE
+
+Termination Date: MM/DD/YYYY
+
+
+We are looking for assistance in resolving all amounts incurred on the employee’s corporate credit card prior to their departure from the company as all expenses should be finalized in Concur prior to the individual’s last day. RESIGNED EMPLOYEE will continue to have access to their Concur account until their termination date. At that time, access will be revoked.
+
+
+As the employee’s former manager, you have also been assigned as the delegate for their Concur account and will need to submit any unresolved expenses on their behalf for amounts remaining after their resignation date. We understand the former employee may not provide all original receipts to attach as supporting documentation. If this is the case, please use the attached Lost Receipt Form to serve as backup for corporate credit card charges $50.00 and over. To further simplify the process, a single form can be used combining all amounts for which receipts have not been included for each expense line requiring backup. Refer to the following when filling out the form:
+
+
+Expense Date: enter date range of outstanding expenses
+
+Vendor Name: Various
+
+Amount of expenses: Total amount of combined expenses requiring use of Lost Receipt Form
+
+Reason for Missing Receipt: Employee left the company prior to finalizing expenses.
+
+
+To access a Concur profile as a delegate, login to Concur and click on the Profile tab in the upper right hand corner of the page. In the Search box, begin typing the individual’s name and select once it appears. Click Start Session and you will be directed to your direct report’s Concur profile where you can finalize any unresolved amounts and add any receipts and/or Lost Receipt Forms where required. Once complete, make sure to submit for approval.  NOTE – since you will be finalizing on the individual’s behalf, you will not be able to both submit and approve any expense report for which you completed as a delegate. After the report is submitted, it will route to your queue. The report will remain in your queue for eight days, after which it will age out and automatically route to your manager for approval.
+
+
+Finally, the employee owes amounts due back to Beam for incurred charges on their corporate credit card that have been identified as personal in nature. Below are the details of those charges.
+
+
+$
+
+$
+
+$
+
+
+
+At this time, Beam is only able to accept check or money orders as payment. Attached is a repayment file with instructions how the employee can submit the amount due. If you wouldn’t mind to assist in making sure these amounts are submitted prior to their resignation date, we’d appreciate it. Any recouped amounts will be deposited back to the employee’s assigned cost center.
+
+
+If you have any questions, please let me know.
+
+
+Thanks,
+Travel and Entertainment</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

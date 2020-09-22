@@ -1,0 +1,5 @@
+<p>{!Case.OwnerFullName}<br />
+<strong>Suntory Whisky Customer Care Representative</strong><br />
+<img src="{!$Label.SF_Base_URL_BrandLogo}HouseOfSuntory.png" alt="" />  <br />
+<a href="http://www.facebook.com/SuntoryWhisky"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}facebook.png" width="20" alt="" /></a>    <a href="http://twitter.com/SuntoryWhisky"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}twitter.png" width="20" alt="" /></a>    <a href="https://instagram.com/suntorywhisky/"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}instagram.png" width="20" alt="" /></a>   <br />
+<a href="http://www.drinksmart.com"><img src="{!$Label.SF_Base_URL_BrandLogo}DrinkSmart.png" width="120" title="Drink Smart" alt="Drink Smart" /></a></p>

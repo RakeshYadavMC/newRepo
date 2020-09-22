@@ -1,0 +1,2 @@
+<p>Dear {!Contact.FirstName},</p>
+<p>Thank you for your note and for being such a {!Case.Brand__c}® fan!  Unfortunately, due to legal concerns, we are unable to directly offer consumers coupons.</p>

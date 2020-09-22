@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Trip and Tour</fullName>
+                <default>false</default>
+                <label>Trip and Tour</label>
+            </value>
+            <value>
+                <fullName>Sample Kit</fullName>
+                <default>false</default>
+                <label>Sample Kit</label>
+            </value>
+            <value>
+                <fullName>Distiller's Choice</fullName>
+                <default>false</default>
+                <label>Distiller's Choice</label>
+            </value>
+            <value>
+                <fullName>Split Barrel</fullName>
+                <default>false</default>
+                <label>Split Barrel</label>
+            </value>
+            <value>
+                <fullName>Remote Selection</fullName>
+                <default>false</default>
+                <label>Remote Selection</label>
+            </value>
+            <value>
+                <fullName>Recent Recipes</fullName>
+                <default>false</default>
+                <label>Recent Recipes</label>
+            </value>
+            <value>
+                <fullName>Date Hold</fullName>
+                <default>false</default>
+                <label>Date Hold</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

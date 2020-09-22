@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TransferringMPYearIsNotCurrent</fullName>
+    <active>true</active>
+    <description>The Year of Transferring Marketing Plan or Receiving Marketing Plan is not the current year.</description>
+    <errorConditionFormula>AND( 
+$Profile.Name &lt;&gt; "System Administrator", 
+$Profile.Name &lt;&gt; "System Administrator with Bulk Hard Delete", 
+VALUE((text(TransferringMarketingPlan__r.Year__c) )) &lt; YEAR( TODAY() ))</errorConditionFormula>
+    <errorMessage>Year of Transferring Marketing Plan is not the current year</errorMessage>
+</ValidationRule>

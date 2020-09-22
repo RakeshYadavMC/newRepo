@@ -1,0 +1,69 @@
+<messaging:emailTemplate subject="Missing Purchase Orders" recipientType="Contact" relatedToType="Case">
+<messaging:htmlEmailBody >
+<html>
+<style>
+center {
+    display: block;
+    text-align: -webkit-center;
+}
+
+</style>
+<body>
+    <center>
+   
+    <table cellpadding="0" width="500" cellspacing="0" id="topTable" height="450">
+        <tbody>
+            <tr valign="top">
+                <td style=" background-color:#FFFFFF; bEditID:r1st1; bLabel:header; vertical-align:middle; height:100; text-align:center;">
+                 <apex:image id="Campaign_email_template_1_header"
+        value="https://beamsuntory--craigdev--c.cs20.content.force.com/servlet/servlet.ImageServer?id=015m0000001XCxB&oid=00Dm00000004vL8&lastMod=1531143756000" style="display: block; margin-left: auto;margin-right: auto; width:50%"/>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td style=" background-color:#CCCCCC; bEditID:r2st1; bLabel:accent1; height:1;"></td>
+            </tr>
+            <tr valign="top">
+                <td styleinsert="1" height="300" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;">
+                    <table border="0" cellpadding="5" width="550" cellspacing="5" height="400">
+                        <tbody>
+                            <tr valign="top" height="400">
+                                <td teditid="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aeditid="c1r1" locked="0"><font face="Arial, sans-serif">
+                                <span style="font-size: 12pt; line-height: 107%;">Below is a list of all cases that are missing a purchase order.</span></font>
+                                        <div><span style="font-size: 12pt; font-family: Arial, sans-serif;"><br/></span></div>
+                                        <div><span style="font-size: 12pt; font-family: Arial, sans-serif;"></span></div>
+  
+
+                                        <c:SBP_MissingPurchaseOrdersEmailCmp distributorIdValue="{!recipient.Id}" /><br/><br/>
+                                        <div><span style="font-size: 12pt; font-family: Arial, sans-serif;">{!$Label.ThankYou}</span></div>
+                                        <div><span style="font-size: 12pt; font-family: Arial, sans-serif;"><br/></span></div>
+                                        <div><span style="font-size: 12pt; font-family: Arial, sans-serif;">{!$Label.BeamCS}</span></div>
+                                        <div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="Calibri"><span style="font-size: 11pt; line-height: 107%;"><br/></span></font></div>
+                                        <div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="Calibri"><span style="font-size: 11pt; line-height: 107%;"><br/></span></font></div>
+                                        <div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="Calibri"><span style="font-size: 11pt; line-height: 107%;"><br/></span></font></div>
+                                        <div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="Calibri"><span style="font-size: 11pt; line-height: 107%;"><br/></span></font></div>
+
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td style=" background-color:#CCCCCC; bEditID:r4st1; bLabel:accent2; height:1;"></td>
+            </tr>
+            <tr valign="top">
+                <td style=" background-color:#FFFFFF; bEditID:r5st1; bLabel:footer; vertical-align:top; height:80; text-align:center;"></td>
+            </tr>
+            <tr valign="top">
+                <td style=" background-color:#FFFFFF; bEditID:r6st1; bLabel:accent3; height:0;"></td>
+            </tr>
+        </tbody>
+    </table>
+    
+
+</center>
+</body>
+</html>
+
+</messaging:htmlEmailBody>
+</messaging:emailTemplate>
