@@ -732,6 +732,10 @@
         <fullName>Email_to_Market_readiness_team_notifying_that_the_License_received_date_is_enter</fullName>
         <description>Email to Market readiness team notifying that the License received date is entered</description>
         <protected>false</protected>
+        <recipients>
+            <recipient>lauren.laplace@beamsuntory.com</recipient>
+            <type>user</type>
+        </recipients>
         <senderAddress>customer.service@beamsuntory.com</senderAddress>
         <senderType>OrgWideEmailAddress</senderType>
         <template>Compliance_System_Emails/State_License_received_date_entry</template>
@@ -740,6 +744,10 @@
         <fullName>Email_to_Market_readiness_team_notifying_the_submission_date_is_ready_for_review</fullName>
         <description>Email to Market readiness team notifying the submission date is ready for review</description>
         <protected>false</protected>
+        <recipients>
+            <recipient>lauren.laplace@beamsuntory.com</recipient>
+            <type>user</type>
+        </recipients>
         <senderAddress>customer.service@beamsuntory.com</senderAddress>
         <senderType>OrgWideEmailAddress</senderType>
         <template>Compliance_System_Emails/State_license_Submission_date_entry</template>
@@ -748,6 +756,10 @@
         <fullName>Email_to_Market_readiness_team_when_expiration_date_is_passed_on_State_License_c</fullName>
         <description>Email to Market readiness team when expiration date is passed on State License case</description>
         <protected>false</protected>
+        <recipients>
+            <recipient>lauren.laplace@beamsuntory.com</recipient>
+            <type>user</type>
+        </recipients>
         <senderAddress>customer.service@beamsuntory.com</senderAddress>
         <senderType>OrgWideEmailAddress</senderType>
         <template>Compliance_System_Emails/License_Expiration_date</template>
@@ -1154,6 +1166,10 @@
         <fullName>Pending_Submission_date_60_days</fullName>
         <description>Pending Submission date 60 days</description>
         <protected>false</protected>
+        <recipients>
+            <recipient>lauren.laplace@beamsuntory.com</recipient>
+            <type>user</type>
+        </recipients>
         <senderAddress>customer.service@beamsuntory.com</senderAddress>
         <senderType>OrgWideEmailAddress</senderType>
         <template>Compliance_System_Emails/Pending_Submission_Date</template>
