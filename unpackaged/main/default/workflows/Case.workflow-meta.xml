@@ -3787,10 +3787,6 @@ CaseNumber&amp;": "&amp; RecordType.Name&amp;" - "&amp; TEXT(Type)
     </rules>
     <rules>
         <fullName>Pending license review audit</fullName>
-        <actions>
-            <name>Email_to_Market_readiness_team_notifying_that_the_License_received_date_is_enter</name>
-            <type>Alert</type>
-        </actions>
         <active>true</active>
         <criteriaItems>
             <field>Case.RecordTypeId</field>
@@ -4177,10 +4173,6 @@ CaseNumber&amp;": "&amp; RecordType.Name&amp;" - "&amp; TEXT(Type)
         <description>Email to be sent to MR team when a state licensing case has passed expired date with out entering the submission date</description>
         <triggerType>onCreateOrTriggeringUpdate</triggerType>
         <workflowTimeTriggers>
-            <actions>
-                <name>Email_to_Market_readiness_team_when_expiration_date_is_passed_on_State_License_c</name>
-                <type>Alert</type>
-            </actions>
             <offsetFromField>Case.Expiration_Date__c</offsetFromField>
             <timeLength>1</timeLength>
             <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
@@ -4199,10 +4191,6 @@ CaseNumber&amp;": "&amp; RecordType.Name&amp;" - "&amp; TEXT(Type)
     </rules>
     <rules>
         <fullName>State license pending submission audit</fullName>
-        <actions>
-            <name>Email_to_Market_readiness_team_notifying_the_submission_date_is_ready_for_review</name>
-            <type>Alert</type>
-        </actions>
         <active>true</active>
         <criteriaItems>
             <field>Case.RecordTypeId</field>
@@ -4236,10 +4224,6 @@ CaseNumber&amp;": "&amp; RecordType.Name&amp;" - "&amp; TEXT(Type)
         <description>Send an email notification to Market Readiness team if submission date is not entered before the due date</description>
         <triggerType>onCreateOrTriggeringUpdate</triggerType>
         <workflowTimeTriggers>
-            <actions>
-                <name>Pending_Submission_date_60_days</name>
-                <type>Alert</type>
-            </actions>
             <offsetFromField>Case.Due_Date__c</offsetFromField>
             <timeLength>-60</timeLength>
             <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
