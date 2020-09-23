@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?><Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Update_Focus_Type_Field</fullName>
+        <field>FocusType__c</field>
+        <literalValue>Program</literalValue>
+        <name>Update Focus Type Field</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Funds_Field</fullName>
+        <field>Funds__c</field>
+        <literalValue>Focus Calendar Priority</literalValue>
+        <name>Update Funds Field</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Program_Focus</fullName>
+        <field>ProgramFocus__c</field>
+        <literalValue>Consumer</literalValue>
+        <name>Update Program Focus</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <rules>
+        <fullName>BI Rebates Mapping to Focus</fullName>
+        <actions>
+            <name>Update_Program_Focus</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Program__c.Funds__c</field>
+            <operation>equals</operation>
+            <value>BI</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Program__c.SpendDescription__c</field>
+            <operation>equals</operation>
+            <value>Rebates Price Support</value>
+        </criteriaItems>
+        <description>Workflow to update Program Focus to Consumer when a BI Program is created and Spend Description equals Rebates.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update Focus Type for Programs</fullName>
+        <actions>
+            <name>Update_Focus_Type_Field</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Program__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Brand Investment Programs,EG or LMF Programs.</value>
+        </criteriaItems>
+        <description>Workflow used to update a Brand Investment and Local Programs with a Focus Type value which will be used for filtering purposes on the Program Calendar.</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update Funds for Priorities</fullName>
+        <actions>
+            <name>Update_Funds_Field</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Program__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Focus Calendar Local Priority,Focus Calendar National Priority</value>
+        </criteriaItems>
+        <description>Workflow used to update a National and Local Priority with a Funds value which will be used for filtering purposes on the Program Calendar.</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

@@ -237,6 +237,11 @@
                 <label>Onsort</label>
             </value>
             <value>
+                <fullName>Walkerville</fullName>
+                <default>false</default>
+                <label>Walkerville</label>
+            </value>
+            <value>
                 <fullName>PR - Brazil</fullName>
                 <default>false</default>
                 <label>PR - Brazil</label>

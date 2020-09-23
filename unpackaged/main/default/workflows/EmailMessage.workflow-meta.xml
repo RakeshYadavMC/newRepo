@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?><Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Assign_to_International_Queue</fullName>
+        <description>Assign to International Queue</description>
+        <field>OwnerId</field>
+        <lookupValue>International_Queue</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>Assign to International Queue</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <targetObject>ParentId</targetObject>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Email_to_case_check_box_to_True</fullName>
+        <field>Email_to_Case__c</field>
+        <literalValue>1</literalValue>
+        <name>Email to case check box to True</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <targetObject>ParentId</targetObject>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>International_Queue_Owner</fullName>
+        <field>OwnerId</field>
+        <lookupValue>International_Queue</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>International Queue Owner</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <targetObject>ParentId</targetObject>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Open_Case</fullName>
+        <description>It changes case status to open</description>
+        <field>Status</field>
+        <literalValue>Open</literalValue>
+        <name>Open Case</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <targetObject>ParentId</targetObject>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Reopen_Case</fullName>
+        <field>Status</field>
+        <literalValue>In Progress</literalValue>
+        <name>Reopen Case</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <targetObject>ParentId</targetObject>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Reopen_Case_CS</fullName>
+        <field>Status</field>
+        <literalValue>Working</literalValue>
+        <name>Reopen Case_CS</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <targetObject>ParentId</targetObject>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_Rebate_Case_1st_Cat</fullName>
+        <field>Primary_Category__c</field>
+        <formula>"Pricing"</formula>
+        <name>Set Rebate Case - 1st Cat</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <targetObject>ParentId</targetObject>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_Rebate_Case_2nd_Cat</fullName>
+        <field>Secondary_Category__c</field>
+        <formula>"Rebates"</formula>
+        <name>Set Rebate Case - 2nd Cat</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <targetObject>ParentId</targetObject>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Sub_Status_Update</fullName>
+        <description>It updates the sub status field to Pending with Agent</description>
+        <field>Sub_Status__c</field>
+        <literalValue>Pending with Agent</literalValue>
+        <name>Sub Status Update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <targetObject>ParentId</targetObject>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Primary_Category</fullName>
+        <description>Update Primary Category to "Pricing"</description>
+        <field>Category_1__c</field>
+        <literalValue>Pricing</literalValue>
+        <name>Update Primary Category</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <targetObject>ParentId</targetObject>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Secondary_Category</fullName>
+        <field>Category_2__c</field>
+        <literalValue>Rebates</literalValue>
+        <name>Update Secondary Category</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <targetObject>ParentId</targetObject>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_field_to_send_Email_Alert</fullName>
+        <field>Last_CS_Email_Alert_for_Not_Reopend_Case__c</field>
+        <formula>NOW()</formula>
+        <name>Update field to send Email Alert</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <targetObject>ParentId</targetObject>
+    </fieldUpdates>
+    <rules>
+        <fullName>CS - Reopen email received after 3 days</fullName>
+        <actions>
+            <name>Update_field_to_send_Email_Alert</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>AND( Incoming = TRUE, Today() &gt; DATEVALUE(Parent.ClosedDate)+3, Parent.IsClosed = TRUE,OR(FromName!="Customer Service", FromName!="Mail Delivery System"), OR( Parent.RecordType.Name = "Inquiry", Parent.RecordType.Name = "Inquiry Internal",Parent.RecordType.Name = "EDI Order", Parent.RecordType.Name = "Order Claim", Parent.RecordType.Name = "Orders", Parent.RecordType.Name = "Quality Claim", Parent.RecordType.Name = "Escalated Form", Parent.RecordType.Name = "Changes" ) )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Email Message Received</fullName>
+        <actions>
+            <name>Sub_Status_Update</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>EmailMessage.Incoming</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>EmailMessage.Status</field>
+            <operation>contains</operation>
+            <value>New,Replied</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Quality Claim</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Sub_Status__c</field>
+            <operation>equals</operation>
+            <value>Pending with Customer</value>
+        </criteriaItems>
+        <description>This workflow updates case sub status field whenever an email receives from consumer.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Email to case check box to True</fullName>
+        <actions>
+            <name>Email_to_case_check_box_to_True</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>T&amp;E</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>EmailMessage.Incoming</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Germany Rebate Agreements</fullName>
+        <actions>
+            <name>Set_Rebate_Case_1st_Cat</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Set_Rebate_Case_2nd_Cat</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Update_Primary_Category</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Update_Secondary_Category</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>EmailMessage.FromName</field>
+            <operation>equals</operation>
+            <value>Germany Rebate Agreements</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.IsClosed</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>International Case Received</fullName>
+        <actions>
+            <name>International_Queue_Owner</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>(1 OR 2 OR 6 OR 7) AND 3 AND 4 AND 5 AND 8</booleanFilter>
+        <criteriaItems>
+            <field>EmailMessage.ToAddress</field>
+            <operation>contains</operation>
+            <value>cs_international@beamsuntory.com</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>EmailMessage.CcAddress</field>
+            <operation>contains</operation>
+            <value>cs_international@beamsuntory.com</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>EmailMessage.Incoming</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.OwnerId</field>
+            <operation>contains</operation>
+            <value>Queue</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.IsClosed</field>
+            <operation>notEqual</operation>
+            <value>True</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>EmailMessage.ToAddress</field>
+            <operation>contains</operation>
+            <value>LATAM_Credit_Report@BeamSuntory.com</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>EmailMessage.CcAddress</field>
+            <operation>contains</operation>
+            <value>LATAM_Credit_Report@BeamSuntory.com</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>EmailMessage.FromAddress</field>
+            <operation>notEqual</operation>
+            <value>sapbatch.catchall@beamsuntory.com</value>
+        </criteriaItems>
+        <description>This rule to assign all the cases to International queue which are sent to cs_international inbox.</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Open Case on Email Message Receive</fullName>
+        <actions>
+            <name>Open_Case</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>EmailMessage.Incoming</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>EmailMessage.Status</field>
+            <operation>equals</operation>
+            <value>New,Replied</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Consumer Inquiry,Quality Claim</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>Resolved</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>EmailMessage.Subject</field>
+            <operation>notContain</operation>
+            <value>FWD:</value>
+        </criteriaItems>
+        <description>This workflow updates the case status field whenever an email receives from the consumer.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Reopen CS Case</fullName>
+        <actions>
+            <name>Reopen_Case_CS</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Reopen a case of CS record type upon incoming email on closed case if it is not older than 3 days.</description>
+        <formula>AND( Incoming = TRUE,Today() &lt; DATEVALUE(Parent.ClosedDate)+3, Parent.IsClosed = TRUE,OR(FromName!="Customer Service", FromName!="Mail Delivery System"), OR( Parent.RecordType.Name = "Inquiry", Parent.RecordType.Name = "Inquiry Internal",Parent.RecordType.Name = "EDI Order", Parent.RecordType.Name = "Order Claim", Parent.RecordType.Name = "Orders", Parent.RecordType.Name = "Quality Claim", Parent.RecordType.Name = "Escalated Form", Parent.RecordType.Name = "Changes" ) )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Reopen GBS Case</fullName>
+        <actions>
+            <name>Reopen_Case</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Field update that sets the Case status to In Progress whenever someone responds to a closed GBS Case email alert with "REOPEN" in the subject line</description>
+        <formula>AND(Incoming = TRUE, Today()&lt;DATEVALUE(Parent.ClosedDate)+5, Parent.IsClosed = TRUE,   OR(CONTAINS( UPPER(Subject), "REOPEN" ),          CONTAINS( UPPER(Subject), "RE-OPEN" ),          CONTAINS( UPPER(Subject), "RE OPEN" )      ),      OR(          CONTAINS(Parent.RecordType.Name, "GMDM"),          Parent.RecordType.Name = "HR",          Parent.RecordType.Name = "PTP/AP",     Parent.RecordType.Name = "PTP/AP - PR/PO",           Parent.RecordType.Name = "Bailment",          CONTAINS(Parent.RecordType.Name, "OTC"),          Parent.RecordType.Name = "RTR",          Parent.RecordType.Name = "Payroll",     Parent.RecordType.Name = "T&amp;E"   )  )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

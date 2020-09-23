@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?><Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Barrel_Carrier_and_Tracking_Number_info_email_alert_barrel</fullName>
+        <description>Barrel Carrier and Tracking Number info email alert barrel</description>
+        <protected>false</protected>
+        <recipients>
+            <type>creator</type>
+        </recipients>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>single.barrels@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Single_Barrel/Barrel_Carrier_Tracking_Info</template>
+    </alerts>
+    <alerts>
+        <fullName>Barrel_Has_Been_Registered_By_Compliance</fullName>
+        <description>Barrel Has Been Registered By Compliance</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Makers_Mark_Single_Barrel</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>customer.service@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Single_Barrel/Barrel_has_been_Registered_by_Compliance</template>
+    </alerts>
+    <alerts>
+        <fullName>Barrel_Notification_Sent_for_Approval</fullName>
+        <description>Barrel Notification - Sent for Approval</description>
+        <protected>false</protected>
+        <recipients>
+            <type>creator</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Single_Barrel/Barrel_Sent_for_Approval</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Barrel_Order_Shipped_date_equal_today</fullName>
+        <field>Order_Shipped__c</field>
+        <literalValue>1</literalValue>
+        <name>Barrel Order Shipped date equal today</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Barrel_Registered_by_Compliance</fullName>
+        <description>Once a barrel has been registered by compliance the barrel will be updated to relfect this</description>
+        <field>Barrel_Registered__c</field>
+        <literalValue>1</literalValue>
+        <name>Barrel Registered by Compliance</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Registration_Requested_to_True</fullName>
+        <field>Barrel_Registration_Requested__c</field>
+        <literalValue>1</literalValue>
+        <name>Registration Requested to True</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <rules>
+        <fullName>Barrel Carrier and Tracking Info</fullName>
+        <actions>
+            <name>Barrel_Carrier_and_Tracking_Number_info_email_alert_barrel</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <formula>AND(ISBLANK(PRIORVALUE(Tracking_Number__c)),ISCHANGED(Tracking_Number__c))  || (AND(ISBLANK(PRIORVALUE(CarrierNew__c)), ISCHANGED(CarrierNew__c)))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Barrel Order Shipped</fullName>
+        <active>false</active>
+        <description>When the barrel order shipped date is equal to today</description>
+        <formula>AND( 
+NOT(ISPICKVAL(Case__r.Status, 'Order Shipped')), 
+NOT(ISPICKVAL(Case__r.Status, 'Closed')), 
+NOT(ISPICKVAL(Case__r.Status, 'Closed - Abandoned')), 
+OR( 
+AND( 
+NOT(ISNULL(Ship_Date__c)), 
+Ship_Date__c &gt;= TODAY() 
+), 
+AND( 
+NOT(ISBLANK(Ship_Date__c)), 
+Ship_Date__c &gt;= TODAY() 
+) 
+) 
+)</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Barrel_Order_Shipped_date_equal_today</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>Barrel__c.Ship_Date__c</offsetFromField>
+            <timeLength>0</timeLength>
+            <workflowTimeTriggerUnit>Hours</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Barrel Registration Requested to True</fullName>
+        <actions>
+            <name>Registration_Requested_to_True</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5</booleanFilter>
+        <criteriaItems>
+            <field>Barrel__c.State__c</field>
+            <operation>equals</operation>
+            <value>NY,GA,KS,CT,MN</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Barrel__c.Brand__c</field>
+            <operation>equals</operation>
+            <value>El Tesoro,Makers Mark</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Barrel__c.SKU__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Barrel__c.Quantity__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Barrel__c.Proof__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <description>Barrel Registration requested check box to True based on the criteria</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

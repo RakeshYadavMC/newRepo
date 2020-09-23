@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?><Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Set_Vendor_to_PCARD</fullName>
+        <description>Put the value "PCARD" into the Vendor field if Document Number starts with 22 or 98 and it is an Actual record.</description>
+        <field>Vendor__c</field>
+        <formula>"PCARD"</formula>
+        <name>Set Vendor to PCARD</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Dupe_Key_Text</fullName>
+        <field>Dupe_Key_Text__c</field>
+        <formula>RecordType.DeveloperName + ParentCampaign__c + TEXT(Forecast_Month__c)</formula>
+        <name>Update Dupe Key - Text</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <rules>
+        <fullName>Dupe Check - Campaign Spend</fullName>
+        <actions>
+            <name>Update_Dupe_Key_Text</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Campaign_Spend__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Forecast</value>
+        </criteriaItems>
+        <description>Used to check uniqueness of record.</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Set Vendor to PCARD on Actuals</fullName>
+        <actions>
+            <name>Set_Vendor_to_PCARD</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <criteriaItems>
+            <field>Campaign_Spend__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Actual</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Campaign_Spend__c.Document_Number__c</field>
+            <operation>startsWith</operation>
+            <value>22</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Campaign_Spend__c.Document_Number__c</field>
+            <operation>startsWith</operation>
+            <value>98</value>
+        </criteriaItems>
+        <description>Vendor is set based on PCARD value.</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+</Workflow>
