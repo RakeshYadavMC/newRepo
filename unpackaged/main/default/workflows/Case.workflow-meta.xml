@@ -4229,10 +4229,6 @@ CaseNumber&amp;": "&amp; RecordType.Name&amp;" - "&amp; TEXT(Type)
             <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
         </workflowTimeTriggers>
         <workflowTimeTriggers>
-            <actions>
-                <name>Pending_Submission_date_15_days</name>
-                <type>Alert</type>
-            </actions>
             <offsetFromField>Case.Due_Date__c</offsetFromField>
             <timeLength>-15</timeLength>
             <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
