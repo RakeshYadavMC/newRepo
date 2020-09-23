@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<FlowDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
-    <activeVersionNumber>9</activeVersionNumber>
-    <description>Flow that houses Quality Claim Submissions through the Salesforce Mobile App and Customer Community</description>
-    <masterLabel>Quality Claim Submission</masterLabel>
-</FlowDefinition>

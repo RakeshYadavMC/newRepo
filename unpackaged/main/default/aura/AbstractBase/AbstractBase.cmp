@@ -1,3 +1,0 @@
-<aura:component abstract="true" extensible="true" access="global" controller="ApexHelperController">
-	{!v.body}
-</aura:component>

@@ -1,3 +1,0 @@
-<design:component>
-	    <design:attribute name="barrelOrderGroupId" label="Barrel Order Group Id"/>
-</design:component>

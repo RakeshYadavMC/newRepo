@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <label><!-- Non Technical Response Time Stamp --></label>
-        <name>Non_Technical_Response_Time_Stamp__c</name>
-    </CustomFieldTranslation>

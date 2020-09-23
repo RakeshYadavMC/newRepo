@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<FlowDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
-    <activeVersionNumber>5</activeVersionNumber>
-    <description>Subflow for Single Barrel program that shows a calendar/time slots to book a trip to a specific plant</description>
-    <masterLabel>Single Barrel - Trip and Tour Subflow</masterLabel>
-</FlowDefinition>

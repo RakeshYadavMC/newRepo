@@ -1,4 +1,0 @@
-<design:component>
-	<design:attribute name="accountId" label="PRAccountId" />
-    <design:attribute name="sapCompanyCodeId" label="PRSapCompanyCodeId" />
-</design:component>

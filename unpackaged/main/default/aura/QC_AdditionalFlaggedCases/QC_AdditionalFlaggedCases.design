@@ -1,3 +1,0 @@
-<design:component>
-	<design:attribute name="parentIncidentId" label="Parent Incident Id"/>
-</design:component>

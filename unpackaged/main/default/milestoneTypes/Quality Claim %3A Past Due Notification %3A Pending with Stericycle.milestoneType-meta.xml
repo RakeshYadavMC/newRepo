@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<MilestoneType xmlns="http://soap.sforce.com/2006/04/metadata">
-    <description>Notification will be sent to agent to follow up w/ Stericycle regarding the pickup status for 120 hours</description>
-    <recurrenceType>none</recurrenceType>
-</MilestoneType>

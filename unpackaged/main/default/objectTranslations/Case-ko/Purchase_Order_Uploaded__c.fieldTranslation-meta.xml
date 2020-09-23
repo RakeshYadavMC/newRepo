@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <label><!-- Purchase Order Uploaded --></label>
-        <name>Purchase_Order_Uploaded__c</name>
-    </CustomFieldTranslation>

@@ -1,4 +1,0 @@
-<design:component>
-	<design:attribute name="numberOfAttendees" label="Number of People Attending"/>
-    <design:attribute name="plantEventId" label="Plant Event Id"/>
-</design:component>

@@ -1,3 +1,0 @@
-<aura:component controller="LocalActionUtilityCtrl" implements="lightning:availableForFlowActions" access="global">
-    <aura:attribute name="barrelOrderGroupId" type="String" default="" access="global" />
-</aura:component>

@@ -1,3 +1,0 @@
-<design:component>
-	<design:attribute name="selectedRecordId" label="Selected Record Id" />
-</design:component>

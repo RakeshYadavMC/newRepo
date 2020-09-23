@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Document xmlns="http://soap.sforce.com/2006/04/metadata">
-    <description>This doc is used in PR Request Object as a link in the detail page.</description>
-    <internalUseOnly>true</internalUseOnly>
-    <name>GL Definitions Sheet For PR Proejct</name>
-    <public>false</public>
-</Document>

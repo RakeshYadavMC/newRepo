@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<MilestoneType xmlns="http://soap.sforce.com/2006/04/metadata">
-    <description>When a new case is added in queue but not picked by any user for 48 hours and case created and marked as medium/low priority</description>
-    <recurrenceType>none</recurrenceType>
-</MilestoneType>

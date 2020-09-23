@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <help><!-- The number of quotes that were requested and processed for available items --></help>
-        <label><!-- Number of Quotes --></label>
-        <name>Number_of_Quotes__c</name>
-    </CustomFieldTranslation>

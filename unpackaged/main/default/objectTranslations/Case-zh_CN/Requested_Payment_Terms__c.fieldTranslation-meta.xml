@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <label><!-- Requested Payment Terms --></label>
-        <name>Requested_Payment_Terms__c</name>
-    </CustomFieldTranslation>

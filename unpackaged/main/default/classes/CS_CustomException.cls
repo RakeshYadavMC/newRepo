@@ -1,1 +1,0 @@
-public class CS_CustomException extends Exception {}
