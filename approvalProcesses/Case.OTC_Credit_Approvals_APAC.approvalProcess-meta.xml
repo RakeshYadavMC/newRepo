@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApprovalProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <allowRecall>true</allowRecall>
+    <allowedSubmitters>
+        <type>owner</type>
+    </allowedSubmitters>
+    <approvalPageFields>
+        <field>CaseNumber</field>
+        <field>Owner</field>
+        <field>CreatedDate</field>
+    </approvalPageFields>
+    <approvalStep>
+        <allowDelegate>true</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>kirk.shoemaker@beamsuntory.com</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>Review of High-Risk Accounts by Global Credit Director</description>
+        <entryCriteria>
+            <criteriaItems>
+                <field>Case.Proposed_Limit__c</field>
+                <operation>lessOrEqual</operation>
+                <value>&quot;USD 100,000&quot;</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Current_Risk_Rating__c</field>
+                <operation>equals</operation>
+                <value>High Risk</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>High-Risk Review</label>
+        <name>High_Risk_Review</name>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>true</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>henry.tan@beamsuntory.com</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>Review by the Sr. Analyst</description>
+        <entryCriteria>
+            <criteriaItems>
+                <field>Case.Proposed_Limit__c</field>
+                <operation>greaterThan</operation>
+                <value>&quot;USD 100,000&quot;</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Sr. Analyst Review</label>
+        <name>Sr_Analyst_Review</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>kirk.shoemaker@beamsuntory.com</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>Review of High-Risk Accounts by Global Credit Director</description>
+        <entryCriteria>
+            <criteriaItems>
+                <field>Case.Current_Risk_Rating__c</field>
+                <operation>equals</operation>
+                <value>High Risk</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Proposed_Limit__c</field>
+                <operation>greaterThan</operation>
+                <value>&quot;USD 100,000&quot;</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Proposed_Limit__c</field>
+                <operation>lessOrEqual</operation>
+                <value>&quot;USD 300,000&quot;</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>High-Risk Review</label>
+        <name>High_Risk_Review_2</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>true</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>henry.tan@beamsuntory.com</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>Review by Credit Manager</description>
+        <entryCriteria>
+            <criteriaItems>
+                <field>Case.Proposed_Limit__c</field>
+                <operation>greaterThan</operation>
+                <value>&quot;USD 300,000&quot;</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Credit Manager Review</label>
+        <name>Credit_Manager_Review</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>true</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>kirk.shoemaker@beamsuntory.com</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>Review by Global Credit Director</description>
+        <entryCriteria>
+            <criteriaItems>
+                <field>Case.Current_Risk_Rating__c</field>
+                <operation>equals</operation>
+                <value>High Risk</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Proposed_Limit__c</field>
+                <operation>greaterThan</operation>
+                <value>&quot;USD 300,000&quot;</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>High-Risk Review</label>
+        <name>High_Risk_Review_3</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>true</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>kirk.shoemaker@beamsuntory.com</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>Review by Director of Credit</description>
+        <entryCriteria>
+            <criteriaItems>
+                <field>Case.Proposed_Limit__c</field>
+                <operation>greaterThan</operation>
+                <value>&quot;USD 500,000&quot;</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Current_Risk_Rating__c</field>
+                <operation>notEqual</operation>
+                <value>High Risk</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Dir. Credit</label>
+        <name>Dir_Credit</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>eva.gamez.llamas@beamsuntory.com</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>Review by Sr. Director GBS</description>
+        <entryCriteria>
+            <criteriaItems>
+                <field>Case.Proposed_Limit__c</field>
+                <operation>greaterThan</operation>
+                <value>&quot;USD 1,000,000&quot;</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Sr. Director GBS Review</label>
+        <name>Sr_Director_GBS_Review</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>true</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>tom.mcpartlin@beamsuntory.com</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>Review by VP GBS</description>
+        <entryCriteria>
+            <criteriaItems>
+                <field>Case.Proposed_Limit__c</field>
+                <operation>greaterThan</operation>
+                <value>&quot;USD 2,000,000&quot;</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>VP GBS Review</label>
+        <name>VP_GBS_Review</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>true</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>drew.hester@beamsuntory.com</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>Review by Corp Controller</description>
+        <entryCriteria>
+            <criteriaItems>
+                <field>Case.Proposed_Limit__c</field>
+                <operation>greaterThan</operation>
+                <value>&quot;USD 3,000,000&quot;</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Corp Controller Review</label>
+        <name>Corp_Controller_Review</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>true</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>mauricio.restrepo@beamsuntory.com</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>Review by Corp CFO</description>
+        <entryCriteria>
+            <criteriaItems>
+                <field>Case.Proposed_Limit__c</field>
+                <operation>greaterThan</operation>
+                <value>&quot;USD 5,000,000&quot;</value>
+            </criteriaItems>
+        </entryCriteria>
+        <label>Corp CFO Review</label>
+        <name>Corp_CFO_Review</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <emailTemplate>GBS_System_Emails/OTC_Credit_Approval</emailTemplate>
+    <enableMobileDeviceAccess>true</enableMobileDeviceAccess>
+    <entryCriteria>
+        <booleanFilter>1 AND 2 AND ( 3 OR ( 4 AND 5 )) AND 6</booleanFilter>
+        <criteriaItems>
+            <field>Case.RecordType</field>
+            <operation>equals</operation>
+            <value>OTC - Credit Approval</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Category_1__c</field>
+            <operation>equals</operation>
+            <value>Credit Approval</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Proposed_Limit__c</field>
+            <operation>greaterThan</operation>
+            <value>&quot;USD 100,000&quot;</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Proposed_Limit__c</field>
+            <operation>lessOrEqual</operation>
+            <value>&quot;USD 100,000&quot;</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Current_Risk_Rating__c</field>
+            <operation>equals</operation>
+            <value>High Risk</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Region__c</field>
+            <operation>equals</operation>
+            <value>APAC</value>
+        </criteriaItems>
+    </entryCriteria>
+    <finalApprovalActions>
+        <action>
+            <name>Approve_Credit</name>
+            <type>FieldUpdate</type>
+        </action>
+        <action>
+            <name>Approve_Credit_Box</name>
+            <type>FieldUpdate</type>
+        </action>
+    </finalApprovalActions>
+    <finalApprovalRecordLock>true</finalApprovalRecordLock>
+    <finalRejectionActions>
+        <action>
+            <name>Update_Status_In_Progress</name>
+            <type>FieldUpdate</type>
+        </action>
+    </finalRejectionActions>
+    <finalRejectionRecordLock>false</finalRejectionRecordLock>
+    <initialSubmissionActions>
+        <action>
+            <name>Submit_Approval_Update_Status</name>
+            <type>FieldUpdate</type>
+        </action>
+    </initialSubmissionActions>
+    <label>OTC Credit Approvals - APAC</label>
+    <recallActions>
+        <action>
+            <name>Update_Status_In_Progress</name>
+            <type>FieldUpdate</type>
+        </action>
+    </recallActions>
+    <recordEditability>AdminOnly</recordEditability>
+    <showApprovalHistory>true</showApprovalHistory>
+</ApprovalProcess>

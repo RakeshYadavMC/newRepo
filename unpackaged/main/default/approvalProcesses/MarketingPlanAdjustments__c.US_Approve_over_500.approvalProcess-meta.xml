@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApprovalProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <allowRecall>true</allowRecall>
+    <allowedSubmitters>
+        <type>creator</type>
+    </allowedSubmitters>
+    <allowedSubmitters>
+        <type>owner</type>
+    </allowedSubmitters>
+    <approvalPageFields>
+        <field>Name</field>
+        <field>TransferringMarketingPlan__c</field>
+        <field>ReceivingMarketingPlan__c</field>
+        <field>Amount__c</field>
+    </approvalPageFields>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>taylor.knoles@beamsuntory.com</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>Submit a request where the From and To records are within the East  Region, or within the West Region.</description>
+        <entryCriteria>
+            <booleanFilter>(1 OR 2) AND 3 AND 4 AND 5</booleanFilter>
+            <criteriaItems>
+                <field>MarketingPlanAdjustments__c.Region_From__c</field>
+                <operation>contains</operation>
+                <value>SGWS</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>MarketingPlanAdjustments__c.Region_From__c</field>
+                <operation>contains</operation>
+                <value>RNDC</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>MarketingPlanAdjustments__c.Within_Same_Brand__c</field>
+                <operation>equals</operation>
+                <value>Yes</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>MarketingPlanAdjustments__c.Within_Same_Region__c</field>
+                <operation>equals</operation>
+                <value>Yes</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>MarketingPlanAdjustments__c.Amount__c</field>
+                <operation>greaterOrEqual</operation>
+                <value>USD 500</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Within Region - East and West</label>
+        <name>Within_Region_East_and_West</name>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>taylor.knoles@beamsuntory.com</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>Submit a request where the From and To records are within the Midsouth, Central, or Must Win Regions.</description>
+        <entryCriteria>
+            <booleanFilter>(1 OR 2 OR 3) AND 4 AND 5 AND 6</booleanFilter>
+            <criteriaItems>
+                <field>MarketingPlanAdjustments__c.Region_From__c</field>
+                <operation>contains</operation>
+                <value>Midsouth</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>MarketingPlanAdjustments__c.Region_From__c</field>
+                <operation>contains</operation>
+                <value>Central</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>MarketingPlanAdjustments__c.Region_From__c</field>
+                <operation>contains</operation>
+                <value>Must Win</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>MarketingPlanAdjustments__c.Within_Same_Brand__c</field>
+                <operation>equals</operation>
+                <value>Yes</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>MarketingPlanAdjustments__c.Within_Same_Region__c</field>
+                <operation>equals</operation>
+                <value>Yes</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>MarketingPlanAdjustments__c.Amount__c</field>
+                <operation>greaterOrEqual</operation>
+                <value>USD 500</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Within Region - Midsouth, Central, or Must Win</label>
+        <name>Within_Region_Midsouth_Central_or_Franchise</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>taylor.knoles@beamsuntory.com</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>Submit a request where the From and To records are within the Control Region.</description>
+        <entryCriteria>
+            <booleanFilter>(1 OR 5) AND 2 AND 3 AND 4</booleanFilter>
+            <criteriaItems>
+                <field>MarketingPlanAdjustments__c.Region_From__c</field>
+                <operation>contains</operation>
+                <value>Premise</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>MarketingPlanAdjustments__c.Within_Same_Brand__c</field>
+                <operation>equals</operation>
+                <value>Yes</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>MarketingPlanAdjustments__c.Within_Same_Region__c</field>
+                <operation>equals</operation>
+                <value>Yes</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>MarketingPlanAdjustments__c.Amount__c</field>
+                <operation>greaterOrEqual</operation>
+                <value>USD 500</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>MarketingPlanAdjustments__c.Region_From__c</field>
+                <operation>contains</operation>
+                <value>Control States</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Within Control Region</label>
+        <name>Within_Control_Region</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>Finance</name>
+                <type>queue</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>Submit a request where the From and To records are within the National Marketing Region, On-Premise Region, Off-Premise Region, Marketing Services Region or National BTL Region.</description>
+        <entryCriteria>
+            <booleanFilter>(1 OR 5 OR 6) AND 2 AND 3 AND 4</booleanFilter>
+            <criteriaItems>
+                <field>MarketingPlanAdjustments__c.Region_From__c</field>
+                <operation>contains</operation>
+                <value>National Marketing</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>MarketingPlanAdjustments__c.Within_Same_Brand__c</field>
+                <operation>equals</operation>
+                <value>Yes</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>MarketingPlanAdjustments__c.Within_Same_Region__c</field>
+                <operation>equals</operation>
+                <value>Yes</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>MarketingPlanAdjustments__c.Amount__c</field>
+                <operation>greaterOrEqual</operation>
+                <value>USD 500</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>MarketingPlanAdjustments__c.Region_From__c</field>
+                <operation>contains</operation>
+                <value>National BTL</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>MarketingPlanAdjustments__c.Region_From__c</field>
+                <operation>contains</operation>
+                <value>Services</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Within Region - National Marketing, National Accounts or National BTL</label>
+        <name>Within_Region_National_Marketing</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>Finance</name>
+                <type>queue</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>Submit a request where the From and To records are across Regions.</description>
+        <entryCriteria>
+            <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+            <criteriaItems>
+                <field>MarketingPlanAdjustments__c.Within_Same_Region__c</field>
+                <operation>equals</operation>
+                <value>No</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>MarketingPlanAdjustments__c.Within_Same_Brand__c</field>
+                <operation>equals</operation>
+                <value>No</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>MarketingPlanAdjustments__c.Amount__c</field>
+                <operation>greaterOrEqual</operation>
+                <value>USD 500</value>
+            </criteriaItems>
+        </entryCriteria>
+        <label>Cross Region or Cross Brand</label>
+        <name>Cross_Region</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <description>Marketing Plan Transfers over $500 need approved.</description>
+    <emailTemplate>unfiled$public/Approval_Request_Sent_to_Approver</emailTemplate>
+    <enableMobileDeviceAccess>false</enableMobileDeviceAccess>
+    <entryCriteria>
+        <criteriaItems>
+            <field>MarketingPlanAdjustments__c.Amount__c</field>
+            <operation>greaterOrEqual</operation>
+            <value>USD 500</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>MarketingPlanAdjustments__c.Request_Status__c</field>
+            <operation>notEqual</operation>
+            <value>Rejected,Canceled,Approved,Failed</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>MarketingPlanAdjustments__c.Country_From__c</field>
+            <operation>equals</operation>
+            <value>US</value>
+        </criteriaItems>
+    </entryCriteria>
+    <finalApprovalActions>
+        <action>
+            <name>Marketing_Plan_Transfer_Approval_Response_for_Mexico_US</name>
+            <type>Alert</type>
+        </action>
+        <action>
+            <name>SetEmailMPTransferReceipient</name>
+            <type>FieldUpdate</type>
+        </action>
+        <action>
+            <name>SetReceivingMPTransferQueueEmail</name>
+            <type>FieldUpdate</type>
+        </action>
+        <action>
+            <name>Update_Request_Status_Approved</name>
+            <type>FieldUpdate</type>
+        </action>
+    </finalApprovalActions>
+    <finalApprovalRecordLock>true</finalApprovalRecordLock>
+    <finalRejectionActions>
+        <action>
+            <name>Marketing_Plan_Transfer_Rejection_Response_for_US</name>
+            <type>Alert</type>
+        </action>
+        <action>
+            <name>SetEmailMPTransferReceipient</name>
+            <type>FieldUpdate</type>
+        </action>
+        <action>
+            <name>SetReceivingMPTransferQueueEmail</name>
+            <type>FieldUpdate</type>
+        </action>
+        <action>
+            <name>Update_Request_Status_Rejected</name>
+            <type>FieldUpdate</type>
+        </action>
+    </finalRejectionActions>
+    <finalRejectionRecordLock>false</finalRejectionRecordLock>
+    <initialSubmissionActions>
+        <action>
+            <name>Update_Request_Status</name>
+            <type>FieldUpdate</type>
+        </action>
+    </initialSubmissionActions>
+    <label>US Approve over $500</label>
+    <recordEditability>AdminOnly</recordEditability>
+    <showApprovalHistory>true</showApprovalHistory>
+</ApprovalProcess>

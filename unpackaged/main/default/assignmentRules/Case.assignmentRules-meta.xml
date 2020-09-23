@@ -1,0 +1,3867 @@
+<?xml version="1.0" encoding="utf-8"?><AssignmentRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignmentRule>
+        <fullName>Case Assignment</fullName>
+        <active>true</active>
+        <ruleEntry>
+            <assignedTo>CC_US_Complaints</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>1 AND ((2 AND 3) OR (5 AND (2 OR 4)))</booleanFilter>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Quality Claim</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Contact.MailingCountry</field>
+                <operation>equals</operation>
+                <value>United States</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Console,Web</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Contact.MailingCountry</field>
+                <operation>equals</operation>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CC_CANADA</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>((3 OR 7) AND 1 AND 4 ) OR (3 AND 1 AND 2 AND 5 AND 6)</booleanFilter>
+            <criteriaItems>
+                <field>Contact.MailingCountry</field>
+                <operation>equals</operation>
+                <value>Canada</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>notEqual</operation>
+                <value>PR or Media Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Console,Web</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Quality Claim</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Consumer Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>notEqual</operation>
+                <value>Suppliers</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CC_MEXICO</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>((3 OR 7) AND 1 AND 5) OR (3 AND 1 AND 2 AND 4 AND 6)</booleanFilter>
+            <criteriaItems>
+                <field>Contact.MailingCountry</field>
+                <operation>equals</operation>
+                <value>Mexico</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>notEqual</operation>
+                <value>PR or Media Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Console,Web</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Consumer Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Quality Claim</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>notEqual</operation>
+                <value>Suppliers</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Tax</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Tax</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Claims</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Claims</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Credit_and_Collections</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>OTC Billing</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>PTP_AP_TBO</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>PTP/AP</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Payroll</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Payroll</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>RTR</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>RTR</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>leah.ray@beamsuntory.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>T&amp;E</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Company Community</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.GBS_Center__c</field>
+                <operation>equals</operation>
+                <value>US/Canada</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>T_E</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>T&amp;E</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.GBS_Center__c</field>
+                <operation>notEqual</operation>
+                <value>US/Canada</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>GMDM</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Registration Approval</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.Name</field>
+                <operation>equals</operation>
+                <value>Customer</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Distributor_Advocate_Queue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>1 OR (2 AND 3)</booleanFilter>
+            <criteriaItems>
+                <field>Contact.Email</field>
+                <operation>equals</operation>
+                <value>ESPCustServ@eurpacdallas.com,cmcdowell@eurpacdallas.com,jgonzales@eurpacdallas.com,mwebber@eurpacsp.com,Melissa.Hebbler@beamsuntory.com,support@spscommerce.com</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.SuppliedEmail</field>
+                <operation>equals</operation>
+                <value>managedsaas_support@us.ibm.com</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Orders</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Barrel_Queue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Orders</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Type</field>
+                <operation>equals</operation>
+                <value>Barrel</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Mexico</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.Sales_Order_Number__c</field>
+                <operation>notEqual</operation>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Orders</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.BillingCountry</field>
+                <operation>equals</operation>
+                <value>Mexico,MX</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Orders_Queue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>(1 AND 2 AND 5) OR (3 AND 4)</booleanFilter>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Orders</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Status</field>
+                <operation>equals</operation>
+                <value>New</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Outlook</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Case_Type__c</field>
+                <operation>equals</operation>
+                <value>Orders</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>notEqual</operation>
+                <value>Email</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CC_Makers_Mark</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>7 AND 1 AND 3 AND  (2 OR (4 AND 5)) AND 6</booleanFilter>
+            <criteriaItems>
+                <field>Case.Brand__c</field>
+                <operation>equals</operation>
+                <value>Makers Mark</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Where to Buy Product,Visiting the Distillery,Sponsorship or Charity,Our Online store,Product Information,Other Inquiry,Makers Mark Program</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Contact.MailingCountry</field>
+                <operation>equals</operation>
+                <value>United States</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Other Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Work for us,Be a Brand Influencer,License our Brand,Rebates,Coupons</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Consumer Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Console,Web</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CC_PR_Media</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>4 AND (1 AND 2) AND 5 AND 3</booleanFilter>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Other Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Website Question/Issue</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Brand__c</field>
+                <operation>notEqual</operation>
+                <value>Laphroaig</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Console,Web</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Consumer Inquiry</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CC_Inquiries_India</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>(1 OR (3 AND 4) OR (5 AND 6) OR( 7 AND 8) ) AND 2 AND 9 AND 10</booleanFilter>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Where to Buy Product</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Contact.MailingCountry</field>
+                <operation>equals</operation>
+                <value>India</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Sponsorship or Charity</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Sponsorship,Charity</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Product Information</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Decanter Inquiry,Value of my bottle,Free Product</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Other Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Distributions,Other,Work for us,Be a Brand Influencer,License our Brand,Rebates,Coupons,Free Merchandise</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Consumer Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Brand__c</field>
+                <operation>equals</operation>
+                <value>Laphroaig</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CC_Inquiries_Germany</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>(1 OR (3 AND 4) OR (5 AND 6) OR( 7 AND 8) ) AND (2 OR 11) AND 9 AND 10</booleanFilter>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Where to Buy Product</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Contact.MailingCountry</field>
+                <operation>equals</operation>
+                <value>Germany</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Sponsorship or Charity</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Sponsorship,Charity</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Product Information</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Decanter Inquiry,Value of my bottle,Free Product</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Other Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Distributions,Other,Work for us,Be a Brand Influencer,License our Brand,Rebates,Coupons,Free Merchandise</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Consumer Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Brand__c</field>
+                <operation>equals</operation>
+                <value>Laphroaig</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Contact.MailingCountry</field>
+                <operation>equals</operation>
+                <value>Deutschland</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CC_Inquiries_New_Zealand</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>(1 OR (3 AND 4) OR (5 AND 6) OR ( 7 AND 8)) AND 2 AND 9 AND 10</booleanFilter>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Where to Buy Product</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Contact.MailingCountry</field>
+                <operation>equals</operation>
+                <value>New Zealand</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Sponsorship or Charity</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Sponsorship,Charity</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Product Information</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Decanter Inquiry,Value of my bottle,Free Product</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Other Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Distributions,Other,Work for us,Be a Brand Influencer,License our Brand,Rebates,Coupons,Free Merchandise</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Consumer Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Brand__c</field>
+                <operation>equals</operation>
+                <value>Laphroaig</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CC_Jim_Beam</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Product Information</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Decanter Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Brand__c</field>
+                <operation>equals</operation>
+                <value>Jim Beam</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Consumer Inquiry</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CC_Quality_Inquiries</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>1 AND 2 AND (3 OR (4 AND 5))</booleanFilter>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Consumer Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Other Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Suppliers</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Used Barrels</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Contact.MailingCountry</field>
+                <operation>notEqual</operation>
+                <value>Canada,Mexico,United States</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CC_Jim_Beam_Store_Distillery_Tours</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>(1 OR ( 3 AND 4  )) AND 2 AND 5</booleanFilter>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Visiting the Distillery</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Brand__c</field>
+                <operation>equals</operation>
+                <value>Jim Beam</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Our Online store</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Product Availability,Problem with my Order,Free Merchandise</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Consumer Inquiry</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CC_Quality_Inquiries</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>1 AND 2 AND 3 AND 4 AND 5 AND 6 AND 7</booleanFilter>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Product Information</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Nutritional Information,Product Ingredients,Product Shelf life,Other</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Contact.MailingCountry</field>
+                <operation>notEqual</operation>
+                <value>United States</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Consumer Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Contact.MailingCountry</field>
+                <operation>notEqual</operation>
+                <value>Canada</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Contact.MailingCountry</field>
+                <operation>notEqual</operation>
+                <value>Mexico</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Brand__c</field>
+                <operation>equals</operation>
+                <value>Laphroaig</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CC_Kilbeggan_Distillery</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Visiting the Distillery</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Brand__c</field>
+                <operation>equals</operation>
+                <value>Kilbeggan</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Consumer Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Contact.MailingCountry</field>
+                <operation>notEqual</operation>
+                <value>United States</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CC_Jim_Beam</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>((1 AND 2) OR (4 AND 5)) AND 3 AND 6</booleanFilter>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Where to Buy Product,Sponsorship or Charity,Product Information,Other Inquiry,Our Online store</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Contact.MailingCountry</field>
+                <operation>equals</operation>
+                <value>United States</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Brand__c</field>
+                <operation>equals</operation>
+                <value>Jim Beam</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Other Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Work for us,Be a Brand Influencer,License our Brand,Rebates,Coupons</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Consumer Inquiry</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CC_Sauza</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>1 AND ((2 AND 3) OR  (4 AND 5 )) AND 6</booleanFilter>
+            <criteriaItems>
+                <field>Case.Brand__c</field>
+                <operation>equals</operation>
+                <value>Sauza</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Product or Packaging issue,Where to Buy Product,Visiting the Distillery,Sponsorship or Charity,Our Online store,Product Information,Other Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Contact.MailingCountry</field>
+                <operation>equals</operation>
+                <value>United States</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Other Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Work for us,Be a Brand Influencer,License our Brand,Rebates,Coupons</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Consumer Inquiry</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CC_Hornitos</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>1 AND ((2 AND 3) OR (4 AND 5)) AND 6</booleanFilter>
+            <criteriaItems>
+                <field>Case.Brand__c</field>
+                <operation>equals</operation>
+                <value>Hornitos</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Product or Packaging issue,Where to Buy Product,Visiting the Distillery,Sponsorship or Charity,Our Online store,Product Information,Other Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Contact.MailingCountry</field>
+                <operation>equals</operation>
+                <value>United States</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Other Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Work for us,Be a Brand Influencer,License our Brand,Rebates,Coupons</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Consumer Inquiry</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CC_Bow_Auchentoshan_Glengarioch_Teacher</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>1 AND ((2 AND 3) OR( 4 AND 5))  AND 6</booleanFilter>
+            <criteriaItems>
+                <field>Case.Brand__c</field>
+                <operation>equals</operation>
+                <value>Auchentoshan,Bowmore,Glen Garioch,Teacher's,Ardmore</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Where to Buy Product,Visiting the Distillery,Sponsorship or Charity,Our Online store,Product Information,Other Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Contact.MailingCountry</field>
+                <operation>equals</operation>
+                <value>United States</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Other Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Work for us,Be a Brand Influencer,License our Brand,Rebates,Coupons</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Consumer Inquiry</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CC_Laphroaig_Consumer_Care</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>1 AND 8 AND ( (4 AND 5) OR (((6 AND 7)  OR (9 AND 10) OR (11 AND 12) OR 3 ) AND 2))</booleanFilter>
+            <criteriaItems>
+                <field>Case.Brand__c</field>
+                <operation>equals</operation>
+                <value>Laphroaig</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Contact.MailingCountry</field>
+                <operation>equals</operation>
+                <value>United States</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Where to Buy Product</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Friends of Laphroaig</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Login,Points,Plots,Other</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Other Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Distributions,Work for us,Be a Brand Influencer,License our Brand,Rebates,Coupons,Other,Used Barrels,Free Merchandise</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Consumer Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Product Information</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Nutritional Information,Value of my bottle,Product Ingredients,Product Shelf life,Decanter Inquiry,Other,Gluten,Caramel,Free Product</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Sponsorship or Charity</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Sponsorship,Charity,Other</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CC_Laphroaig_Store</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>(1 AND 2 AND 3 AND 4) OR (5 AND 6)</booleanFilter>
+            <criteriaItems>
+                <field>Case.Brand__c</field>
+                <operation>equals</operation>
+                <value>Laphroaig</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Our Online store</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Product Availability,Problem with my Order,Other,Free Merchandise</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Consumer Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.OwnerId</field>
+                <operation>equals</operation>
+                <value>Laphroaig Store</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CC_Tres_Generaciones</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>1 AND ((2 AND 3) OR (4 AND 5)) AND 6</booleanFilter>
+            <criteriaItems>
+                <field>Case.Brand__c</field>
+                <operation>equals</operation>
+                <value>Tres Generaciones</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Where to Buy Product,Visiting the Distillery,Sponsorship or Charity,Our Online store,Product Information,Other Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Contact.MailingCountry</field>
+                <operation>equals</operation>
+                <value>United States</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Other Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Work for us,Be a Brand Influencer,License our Brand,Rebates,Coupons</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Consumer Inquiry</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CC_House_of_Suntory</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>7 AND 6 AND 1 AND ((2 AND 3) OR ( 4 AND 5))</booleanFilter>
+            <criteriaItems>
+                <field>Case.Brand__c</field>
+                <operation>equals</operation>
+                <value>CHITA,Haku,Hakushu,Hibiki,Roku,Toki,Yamazaki,House of Suntory</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Where to Buy Product,Visiting the Distillery,Sponsorship or Charity,Our Online store,Product Information,Other Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Contact.MailingCountry</field>
+                <operation>equals</operation>
+                <value>United States</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Other Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Work for us,Be a Brand Influencer,License our Brand,Rebates,Coupons</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Consumer Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Console,Web</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CC_Old_Overholt_Old_Crow_Old_Grand_Dad</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>7 AND 6 AND 1 AND ((2 AND 3) OR (4 AND 5))</booleanFilter>
+            <criteriaItems>
+                <field>Case.Brand__c</field>
+                <operation>equals</operation>
+                <value>Old Crow,Old Grand Dad,Old Overholt,Old Whiskeys</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Where to Buy Product,Visiting the Distillery,Sponsorship or Charity,Our Online store,Product Information,Other Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Contact.MailingCountry</field>
+                <operation>equals</operation>
+                <value>United States</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Other Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Work for us,Be a Brand Influencer,License our Brand,Rebates,Coupons</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Consumer Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Console,Web</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CC_Jim_Beam_Store_Distillery_Tours</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>1 AND 2 AND 3 AND 4</booleanFilter>
+            <criteriaItems>
+                <field>Case.Brand__c</field>
+                <operation>equals</operation>
+                <value>Jim Beam</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Visiting the Distillery</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Contact.MailingCountry</field>
+                <operation>equals</operation>
+                <value>United States</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Consumer Inquiry</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CC_Bookers_Bakers_Little_Book</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>7 AND 6 AND 1 AND(( 2 AND 3) OR ( 4 AND 5))</booleanFilter>
+            <criteriaItems>
+                <field>Case.Brand__c</field>
+                <operation>equals</operation>
+                <value>Baker's,Little Book,Booker's</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Where to Buy Product,Visiting the Distillery,Sponsorship or Charity,Our Online store,Product Information,Other Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Contact.MailingCountry</field>
+                <operation>equals</operation>
+                <value>United States</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Other Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Work for us,Be a Brand Influencer,License our Brand,Rebates,Coupons</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Consumer Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Console,Web</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CC_Knob_Creek</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>7 AND 6 AND 1 AND ((2 AND 3) OR ( 4 AND 5))</booleanFilter>
+            <criteriaItems>
+                <field>Case.Brand__c</field>
+                <operation>equals</operation>
+                <value>Knob Creek</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Where to Buy Product,Visiting the Distillery,Sponsorship or Charity,Our Online store,Product Information,Other Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Contact.MailingCountry</field>
+                <operation>equals</operation>
+                <value>United States</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Other Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Work for us,Be a Brand Influencer,License our Brand,Rebates,Coupons</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Consumer Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Console,Web</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CC_Legent</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>7 AND 6 AND 1 AND ((2 AND 3) OR (4 AND 5 ))</booleanFilter>
+            <criteriaItems>
+                <field>Case.Brand__c</field>
+                <operation>equals</operation>
+                <value>Legent</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Where to Buy Product,Visiting the Distillery,Sponsorship or Charity,Our Online store,Product Information,Other Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Contact.MailingCountry</field>
+                <operation>equals</operation>
+                <value>United States</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Other Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Work for us,Be a Brand Influencer,License our Brand,Rebates,Coupons</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Consumer Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Console,Web</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CC_Basil_Haydens</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>7 AND 6 AND 1 AND ((2 AND 3) OR (4 AND 5))</booleanFilter>
+            <criteriaItems>
+                <field>Case.Brand__c</field>
+                <operation>equals</operation>
+                <value>Basil Hayden's</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Product or Packaging issue,Where to Buy Product,Visiting the Distillery,Sponsorship or Charity,Our Online store,Product Information,Other Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Contact.MailingCountry</field>
+                <operation>equals</operation>
+                <value>United States</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Other Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Work for us,Be a Brand Influencer,License our Brand,Rebates,Coupons</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Consumer Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Console,Web</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CC_Sipsmith</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>1 AND ((2 AND 3) OR  (4 AND 5 )) AND 6</booleanFilter>
+            <criteriaItems>
+                <field>Case.Brand__c</field>
+                <operation>equals</operation>
+                <value>Sipsmith</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Where to Buy Product,Visiting the Distillery,Sponsorship or Charity,Our Online store,Product Information,Other Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Contact.MailingCountry</field>
+                <operation>equals</operation>
+                <value>United States</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Other Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Work for us,Be a Brand Influencer,License our Brand,Rebates,Coupons</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Consumer Inquiry</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CC_Irish_Whiskey</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>7 AND 6 AND 1 AND ((2 AND 3) OR (4 AND 5))</booleanFilter>
+            <criteriaItems>
+                <field>Case.Brand__c</field>
+                <operation>equals</operation>
+                <value>2 Gingers,Connemara,Kilbeggan,Tyrconnell</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Where to Buy Product,Visiting the Distillery,Sponsorship or Charity,Our Online store,Product Information,Other Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Contact.MailingCountry</field>
+                <operation>equals</operation>
+                <value>United States</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Other Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Work for us,Be a Brand Influencer,License our Brand,Rebates,Coupons</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Consumer Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Console,Web</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CC_Pinnacle</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>1 AND ((2 AND 3) OR (4 AND 5 )) AND 6</booleanFilter>
+            <criteriaItems>
+                <field>Case.Brand__c</field>
+                <operation>equals</operation>
+                <value>Pinnacle</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Where to Buy Product,Visiting the Distillery,Sponsorship or Charity,Our Online store,Product Information,Other Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Contact.MailingCountry</field>
+                <operation>equals</operation>
+                <value>United States</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Other Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Work for us,Be a Brand Influencer,License our Brand,Rebates,Coupons</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Consumer Inquiry</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CC_Inquiries_Australia</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>11 AND 2 AND 1 AND 10 AND (3 OR (4 AND 5) OR (6 AND 7) OR (8 AND 9))</booleanFilter>
+            <criteriaItems>
+                <field>Contact.MailingCountry</field>
+                <operation>equals</operation>
+                <value>Australia</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Brand__c</field>
+                <operation>notEqual</operation>
+                <value>Laphroaig</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Where to Buy Product</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Sponsorship or Charity</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Sponsorship,Charity</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Product Information</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Nutritional Information,Value of my bottle,Product Ingredients,Product Shelf life,Free Product</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Other Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Distributions,Other,Free Merchandise</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Consumer Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Console,Web</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CC_Inquiries_New_Zealand</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>11 AND 1 AND 2 AND 10 AND ( 3 OR  (4 AND 5) OR (6 AND 7) OR (8 AND 9))</booleanFilter>
+            <criteriaItems>
+                <field>Contact.MailingCountry</field>
+                <operation>equals</operation>
+                <value>New Zealand</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Brand__c</field>
+                <operation>notEqual</operation>
+                <value>Laphroaig</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Where to Buy Product</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Sponsorship or Charity</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Sponsorship,Charity</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Product Information</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Nutritional Information,Value of my bottle,Product Ingredients,Product Shelf life,Free Product</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Other Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Distributions,Other,Free Merchandise</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Consumer Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Console,Web</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CC_Inquiries_India</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>11 AND 10 AND 1 AND 2 AND ( 3 OR  (4 AND 5) OR (6 AND 7) OR (8 AND 9))</booleanFilter>
+            <criteriaItems>
+                <field>Contact.MailingCountry</field>
+                <operation>equals</operation>
+                <value>India</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Brand__c</field>
+                <operation>notEqual</operation>
+                <value>Laphroaig</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Where to Buy Product</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Sponsorship or Charity</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Sponsorship,Charity</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Product Information</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Nutritional Information,Value of my bottle,Product Ingredients,Product Shelf life,Free Product</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Other Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Distributions,Other,Free Merchandise</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Consumer Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Console,Web</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CC_Inquiries_Germany</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>11 AND 10 AND (1 OR 12) AND 2 AND ( 3 OR  (4 AND 5) OR (6 AND 7) OR (8 AND 9))</booleanFilter>
+            <criteriaItems>
+                <field>Contact.MailingCountry</field>
+                <operation>equals</operation>
+                <value>Germany</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Brand__c</field>
+                <operation>notEqual</operation>
+                <value>Laphroaig</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Where to Buy Product</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Sponsorship or Charity</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Sponsorship,Charity</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Product Information</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Nutritional Information,Value of my bottle,Product Ingredients,Product Shelf life,Free Product</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Other Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Distributions,Other,Free Merchandise</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Consumer Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Console,Web</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Contact.MailingCountry</field>
+                <operation>equals</operation>
+                <value>Deutschland</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CC_Inquiries_ASIA</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>11 AND 10 AND 1 AND 2 AND ( 3 OR  (4 AND 5) OR (6 AND 7) OR (8 AND 9))</booleanFilter>
+            <criteriaItems>
+                <field>Contact.MailingCountry</field>
+                <operation>contains</operation>
+                <value>Singapore,Vietnam,Hong Kong,Taiwan,Malaysia,Sri Lanka,Korea,Thailand,Indonesia,Philippines,Laos,Bangladesh,Nepal,Guam,China</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Brand__c</field>
+                <operation>notEqual</operation>
+                <value>Laphroaig</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Where to Buy Product</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Sponsorship or Charity</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Sponsorship,Charity</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Product Information</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Nutritional Information,Value of my bottle,Product Ingredients,Product Shelf life,Free Product</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Other Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Distributions,Other,Free Merchandise</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Consumer Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Console,Web</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CC_El_Tesoro_Bruxo</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>1 AND ((2 AND 3) OR (4 AND 5)) AND 6</booleanFilter>
+            <criteriaItems>
+                <field>Case.Brand__c</field>
+                <operation>equals</operation>
+                <value>El Tesoro,Bruxo</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Where to Buy Product,Visiting the Distillery,Sponsorship or Charity,Our Online store,Product Information,Other Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Contact.MailingCountry</field>
+                <operation>equals</operation>
+                <value>United States</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Other Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Work for us,Be a Brand Influencer,License our Brand,Rebates,Coupons</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Consumer Inquiry</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CC_EFFEN_Vodka</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>1 AND ((2 AND 3) OR( 4 AND 5 )) AND 6</booleanFilter>
+            <criteriaItems>
+                <field>Case.Brand__c</field>
+                <operation>equals</operation>
+                <value>EFFEN</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Where to Buy Product,Visiting the Distillery,Sponsorship or Charity,Our Online store,Product Information,Other Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Contact.MailingCountry</field>
+                <operation>equals</operation>
+                <value>United States</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Other Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Work for us,Be a Brand Influencer,License our Brand,Rebates,Coupons</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Consumer Inquiry</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CC_Courvoisier</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>1 AND ((2 AND 3) OR (4 AND 5 )) AND 6</booleanFilter>
+            <criteriaItems>
+                <field>Case.Brand__c</field>
+                <operation>equals</operation>
+                <value>Courvoisier</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Where to Buy Product,Visiting the Distillery,Sponsorship or Charity,Our Online store,Product Information,Other Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Contact.MailingCountry</field>
+                <operation>equals</operation>
+                <value>United States</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Other Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Work for us,Be a Brand Influencer,License our Brand,Rebates,Coupons</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Consumer Inquiry</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CC_DeKuyper_Cruzan</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>1 AND ((2 AND 3) OR (4 AND 5)) AND 6</booleanFilter>
+            <criteriaItems>
+                <field>Case.Brand__c</field>
+                <operation>equals</operation>
+                <value>Calico Jack,Cruzan,DeKuyper,Pavan,Skinnygirl,Midori,Kamora</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Where to Buy Product,Visiting the Distillery,Sponsorship or Charity,Our Online store,Product Information,Other Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Contact.MailingCountry</field>
+                <operation>equals</operation>
+                <value>United States</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Other Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Work for us,Be a Brand Influencer,License our Brand,Rebates,Coupons</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Consumer Inquiry</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CC_PR_Media</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>3 AND 1 AND 2</booleanFilter>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>PR or Media Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Consumer Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Console,Web</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CC_Laphroaig_Distillery</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Visiting the Distillery</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Brand__c</field>
+                <operation>equals</operation>
+                <value>Laphroaig</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Consumer Inquiry</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CC_Inquiries_ROW</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>(1 OR (3 AND 4) OR (5 AND 6) OR ( 7 AND 8)) AND 2 AND 9 AND 10</booleanFilter>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Where to Buy Product</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Contact.MailingCountry</field>
+                <operation>notContain</operation>
+                <value>Australia,New Zealand,India,Germany,Singapore,Vietnam,Hong Kong,Taiwan,Malaysia,Sri Lanka,Korea,Thailand,Indonesia,Philippines,Laos,Bangladesh,Nepal,Guam,China,United States,Mexico,Canada,Deutschland</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Sponsorship or Charity</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Sponsorship,Charity</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Product Information</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Decanter Inquiry,Value of my bottle,Free Product</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Other Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Distributions,Other,Work for us,Be a Brand Influencer,License our Brand,Rebates,Coupons,Free Merchandise</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Brand__c</field>
+                <operation>equals</operation>
+                <value>Laphroaig</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Consumer Inquiry</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CC_Inquiries_ASIA</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>(1 OR (3 AND 4) OR (5 AND 6) OR ( 7 AND 8)) AND 2 AND 9 AND 10</booleanFilter>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Where to Buy Product</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.PersonMailingCountry</field>
+                <operation>contains</operation>
+                <value>Singapore,Vietnam,Hong Kong,Taiwan,Malaysia,Sri Lanka,Korea,Thailand,Indonesia,Philippines,Laos,Bangladesh,Nepal,Guam,China</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Sponsorship or Charity</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Sponsorship,Charity</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Product Information</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Decanter Inquiry,Value of my bottle,Free Product</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Other Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Distributions,Other,Work for us,Be a Brand Influencer,License our Brand,Rebates,Coupons,Free Merchandise</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Consumer Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Brand__c</field>
+                <operation>equals</operation>
+                <value>Laphroaig</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CC_Inquiries_Australia</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>(1 OR (3 AND 4) OR (5 AND 6) OR ( 7 AND 8)) AND 2 AND 9 AND 10</booleanFilter>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Where to Buy Product</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Contact.MailingCountry</field>
+                <operation>equals</operation>
+                <value>Australia</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Sponsorship or Charity</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Sponsorship,Charity</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Product Information</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Decanter Inquiry,Value of my bottle,Free Product</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Other Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Distributions,Other,Work for us,Be a Brand Influencer,License our Brand,Rebates,Coupons,Free Merchandise</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Consumer Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Brand__c</field>
+                <operation>equals</operation>
+                <value>Laphroaig</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CC_Canadian_Club_Alberta_Rye</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>1 AND ((2 AND 3) OR (4 AND 5))  AND 6</booleanFilter>
+            <criteriaItems>
+                <field>Case.Brand__c</field>
+                <operation>equals</operation>
+                <value>Canadian Club,Windsor Canadian,Alberta Rye</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Where to Buy Product,Visiting the Distillery,Sponsorship or Charity,Our Online store,Product Information,Other Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Contact.MailingCountry</field>
+                <operation>equals</operation>
+                <value>United States</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Other Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Work for us,Be a Brand Influencer,License our Brand,Rebates,Coupons</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Consumer Inquiry</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CC_Inquiries_ROW</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>11 AND 10 AND 1 AND 2 AND ( 3 OR  (4 AND 5) OR (6 AND 7) OR (8 AND 9))</booleanFilter>
+            <criteriaItems>
+                <field>Contact.MailingCountry</field>
+                <operation>notContain</operation>
+                <value>Australia,New Zealand,India,Germany,Singapore,Vietnam,Hong Kong,Taiwan,Malaysia,Sri Lanka,Korea,Thailand,Indonesia,Philippines,Laos,Bangladesh,Nepal,Guam,China,United States,Mexico,Canada,Deutschland</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Brand__c</field>
+                <operation>notEqual</operation>
+                <value>Laphroaig</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Where to Buy Product</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Sponsorship or Charity</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Sponsorship,Charity</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Product Information</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Nutritional Information,Value of my bottle,Product Ingredients,Product Shelf life,Free Product</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.How_can_we_help__c</field>
+                <operation>equals</operation>
+                <value>Other Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.AdditionalInformation__c</field>
+                <operation>equals</operation>
+                <value>Distributions,Other,Free Merchandise</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Consumer Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Console,Web</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Global_Quality_queue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Quality Claim</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Complaint_Source__c</field>
+                <operation>equals</operation>
+                <value>Suntory Critical</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CC_REST_OF_WORLD</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>(3 AND 2) AND 1</booleanFilter>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Quality Claim</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Contact.MailingCountry</field>
+                <operation>notContain</operation>
+                <value>Australia,New Zealand,India,Germany,Singapore,Vietnam,Hong Kong,Taiwan,Malaysia,Sri Lanka,Korea,Thailand,Indonesia,Philippines,Laos,Bangladesh,Nepal,Guam,China,Japan,United States,Mexico,Canada,Deutschland</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Console,Email,Web</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CC_ASIA</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>(3 AND 2) AND 1</booleanFilter>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Quality Claim</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Contact.MailingCountry</field>
+                <operation>contains</operation>
+                <value>Singapore,Vietnam,Hong Kong,Taiwan,Malaysia,Sri Lanka,Korea,Thailand,Indonesia,Philippines,Laos,Bangladesh,Nepal,Guam,China</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Console,Web,Email</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CC_JAPAN</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>(3 AND 2) AND 1</booleanFilter>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Quality Claim</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Contact.MailingCountry</field>
+                <operation>equals</operation>
+                <value>Japan</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Console,Email,Web</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CC_OCEANIA</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>4 AND 1 AND (2 OR 3)</booleanFilter>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Quality Claim</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Contact.MailingCountry</field>
+                <operation>equals</operation>
+                <value>Australia</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Contact.MailingCountry</field>
+                <operation>equals</operation>
+                <value>New Zealand</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Console,Email,Web</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CC_GERMANY</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>(3 AND (2 OR 4)) AND 1</booleanFilter>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Quality Claim</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Contact.MailingCountry</field>
+                <operation>equals</operation>
+                <value>Germany</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Console,Email,Web</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Contact.MailingCountry</field>
+                <operation>equals</operation>
+                <value>Deutschland</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CC_INDIA</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>(3 AND 1 ) AND 2</booleanFilter>
+            <criteriaItems>
+                <field>Contact.MailingCountry</field>
+                <operation>equals</operation>
+                <value>India</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Quality Claim</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Console,Email,Web</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CC_GENERAL_QUEUE</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>1 AND( 2 OR 3) AND 4</booleanFilter>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Consumer Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>User.LastName</field>
+                <operation>equals</operation>
+                <value>Site Guest User</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.OwnerId</field>
+                <operation>notEqual</operation>
+                <value>Laphroaig Consumer Care</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Bailment_Claims</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>(1 AND 2 AND 6) OR( 3 AND 4 AND 5)</booleanFilter>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Quality Claim</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>notEqual</operation>
+                <value>Email,Voicemail</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Orders</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Customer Portal,Mobile App</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Type</field>
+                <operation>notEqual</operation>
+                <value>Standard</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Product_Destination_Country__c</field>
+                <operation>equals</operation>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CC_US_Complaints</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Quality Claim</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Product_Destination_Country__c</field>
+                <operation>equals</operation>
+                <value>US</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Bailment_Claims</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>1 AND 2 AND (3 OR 4)</booleanFilter>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Order Claim</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Status</field>
+                <operation>equals</operation>
+                <value>New</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Product_Destination_Country__c</field>
+                <operation>equals</operation>
+                <value>US</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Product_Destination_Country__c</field>
+                <operation>equals</operation>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Bailment_Claims</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Order Claim</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Type</field>
+                <operation>equals</operation>
+                <value>Order Entry Error</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Status</field>
+                <operation>equals</operation>
+                <value>New</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>International_Queue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Account.Military__c</field>
+                <operation>equals</operation>
+                <value>Military,Military Export</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>notEqual</operation>
+                <value>Barrel Ready to Enter</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Orders_Queue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.SuppliedEmail</field>
+                <operation>equals</operation>
+                <value>Toshika_Sakamoto@suntory.co.jp,micheel.leenders@refresco.com</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Canada_Queue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>1 AND (2 OR 3 OR 4 OR 5)</booleanFilter>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Changes,Inquiry,Order Claim,Quality Claim</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>User.Country</field>
+                <operation>equals</operation>
+                <value>Canada,CA</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.ShippingCountry</field>
+                <operation>equals</operation>
+                <value>Canada,CA</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.BillingCountry</field>
+                <operation>equals</operation>
+                <value>Canada,CA</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Location_Name__c</field>
+                <operation>equals</operation>
+                <value>Canada,CA</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>International_Queue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Changes,Escalated Form,Inquiry,Order Claim,Orders</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.BillingCountry</field>
+                <operation>notEqual</operation>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.BillingCountry</field>
+                <operation>notEqual</operation>
+                <value>US,United States,Mexico,MX,Canada,CA</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Credit_and_Collections</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Changes</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Type</field>
+                <operation>equals</operation>
+                <value>Document Request</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Document_Types__c</field>
+                <operation>equals</operation>
+                <value>Invoice</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Status</field>
+                <operation>equals</operation>
+                <value>New</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.GBS_Center__c</field>
+                <operation>equals</operation>
+                <value>US/Canada</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Adjustments_Queue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>(1 AND 2) OR (3 AND 4)</booleanFilter>
+            <criteriaItems>
+                <field>Case.Status</field>
+                <operation>equals</operation>
+                <value>New</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Escalated Form</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Outlook</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Case_Type__c</field>
+                <operation>equals</operation>
+                <value>Escalated Form</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Adjustments_Queue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.Status</field>
+                <operation>equals</operation>
+                <value>New</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Changes</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Change_Type__c</field>
+                <operation>equals</operation>
+                <value>Account Update,New or Existing Item Setup</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>EDI_Queue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>(1 AND 2) OR (3 AND 4)</booleanFilter>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>EDI Order</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Status</field>
+                <operation>equals</operation>
+                <value>New</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Outlook</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Case_Type__c</field>
+                <operation>equals</operation>
+                <value>EDI Order</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Adjustments_Queue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Inquiry,Inquiry (Internal)</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Type</field>
+                <operation>equals</operation>
+                <value>Existing Order Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Status</field>
+                <operation>equals</operation>
+                <value>New</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Adjustments_Queue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>(1 AND 2) OR (3 AND 4) OR (5 AND 6)</booleanFilter>
+            <criteriaItems>
+                <field>Case.Status</field>
+                <operation>equals</operation>
+                <value>New</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Changes</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Outlook</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Case_Type__c</field>
+                <operation>equals</operation>
+                <value>Changes</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Inquiry</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Customer Portal</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>International_Queue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>(1 AND 2 AND 4) OR 3</booleanFilter>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Orders</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Status</field>
+                <operation>equals</operation>
+                <value>New</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Outlook</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Type</field>
+                <operation>equals</operation>
+                <value>Requisition</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Third Party Case,International Sub Case</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Status</field>
+                <operation>equals</operation>
+                <value>New</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>GMDM</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>GBS Outlook,GMDM,GMDM - GL Account Change/Extend,GMDM - Cost Center Create,GMDM - Cost Center Change,GMDM - Customer Hierarchy,GMDM - Customer Maintenance,GMDM - EDW Mapping,GMDM - Materials,GMDM - Rebates,GMDM - Simple Request,GMDM - Vendor Maintenance</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Type</field>
+                <operation>equals</operation>
+                <value>Global Master Data Management</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>HR</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>HR,GBS Outlook</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Type</field>
+                <operation>equals</operation>
+                <value>Human Resources</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.GBS_Center__c</field>
+                <operation>equals</operation>
+                <value>US/Canada</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Payroll</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Payroll,GBS Outlook</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Type</field>
+                <operation>equals</operation>
+                <value>Payroll</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>notEqual</operation>
+                <value>Email</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>RTR</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>RTR,GBS Outlook</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Type</field>
+                <operation>equals</operation>
+                <value>Record to Report</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>notEqual</operation>
+                <value>Email</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Credit_and_Collections</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>OTC Billing,OTC - Invoice Number,OTC - Correct Invoice,OTC - D2D Xfer,OTC - Invoice Request,OTC - FI Request,OTC - TPM,OTC - Commissions,OTC - Manual Invoice Request,OTC - Cancellation,OTC - Resend Auto Invoice,GBS Outlook</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Type</field>
+                <operation>equals</operation>
+                <value>Order to Cash / Billing</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>notEqual</operation>
+                <value>Email</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>RTR</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>OTC - Bailment,OTC - Bailment Error</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.GBS_Center__c</field>
+                <operation>equals</operation>
+                <value>US/Canada</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>notEqual</operation>
+                <value>Email</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>PTP_AP_TBO</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>PTP/AP,PTP/AP - PR/PO,GBS Outlook</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Type</field>
+                <operation>equals</operation>
+                <value>Procure to Pay / Accounts Payable</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>notEqual</operation>
+                <value>Email</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>T_E</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>T&amp;E,GBS Outlook</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Type</field>
+                <operation>equals</operation>
+                <value>Travel &amp; Entertainment</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>notEqual</operation>
+                <value>Email</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Claims</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Claims,GBS Outlook</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Type</field>
+                <operation>equals</operation>
+                <value>Claims</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>notEqual</operation>
+                <value>Email</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Tax</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Tax,GBS Outlook</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Type</field>
+                <operation>equals</operation>
+                <value>Tax</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>notEqual</operation>
+                <value>Email</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Adjustments_Queue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>(1 AND 2 AND 5 AND 6) OR (3 AND 4)</booleanFilter>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Inquiry,Inquiry (Internal)</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Status</field>
+                <operation>equals</operation>
+                <value>New</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Outlook</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Case_Type__c</field>
+                <operation>equals</operation>
+                <value>Inquiry,Inquiry (Internal)</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.OwnerId</field>
+                <operation>notEqual</operation>
+                <value>Mexico</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>notEqual</operation>
+                <value>Email</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Compliance_Sub_Case_Queue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>(1 AND 2) OR (3 AND 4)</booleanFilter>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Compliance Sub Case</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Type</field>
+                <operation>equals</operation>
+                <value>Brand Registration,Traypack Audit,VAP/LTO Allocation</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>State License</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Status</field>
+                <operation>equals</operation>
+                <value>New</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Quote_Requests</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Quote Request</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Compliance_Inquiry_Queue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Compliance Inquiry</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Mexico</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Order Claim,Quality Claim</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Product_Destination_Country__c</field>
+                <operation>equals</operation>
+                <value>Mexico</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Is_GTR_Distributor__c</field>
+                <operation>equals</operation>
+                <value>False</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>International_Queue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Order Claim</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Product_Destination_Country__c</field>
+                <operation>equals</operation>
+                <value>Argentina,Belize,Bolivia,Brazil,Canada,Chile,Colombia,Costa Rica,Uruguay,Venezuela,Honduras,Ecuador,El Salvador,Suriname,Guatemala,Guyana,Nicaragua,Panama,Paraguay,Peru</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Claims_India</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Order Claim,Quality Claim</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Product_Destination_Country__c</field>
+                <operation>equals</operation>
+                <value>India</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Claims_China</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Order Claim,Quality Claim</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Product_Destination_Country__c</field>
+                <operation>equals</operation>
+                <value>China</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Claims_UK</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Quality Claim</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Product_Destination_Country__c</field>
+                <operation>equals</operation>
+                <value>Argentina,Belize,Bolivia,Brazil,Chile,Colombia,Costa Rica,Uruguay,Venezuela,Honduras,Ecuador,El Salvador,Suriname,Guatemala,Guyana,Nicaragua,Panama,Paraguay,Peru</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Claims_Germany</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Order Claim,Quality Claim</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Product_Destination_Country__c</field>
+                <operation>equals</operation>
+                <value>Germany,Austria</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Claims_UK</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>(1 OR 4) AND (2 OR 3)</booleanFilter>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Order Claim</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Product_Destination_Country__c</field>
+                <operation>equals</operation>
+                <value>Angola,Armenia,Australia,Bahrain,Bangladesh,Belarus,Belgium,Bhutan,Bulgaria,Croatia,Czech Republic,Denmark,Estonia,Finland,France,Georgia,Greece,Hungary,Iceland,Ireland,Israel,Italy,Japan,Kazakhstan,Korea,Latvia,Lithuania,American Virgin Islands</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Product_Destination_Country__c</field>
+                <operation>equals</operation>
+                <value>Maldives,Moldova,Mongolia,Nepal,Netherlands,New Zealand,Nigeria,Norway,Poland,Portugal,Romania,Russia,Serbia,Slovakia,Slovenia,South Africa,Spain,Sri Lanka,Sweden,Switzerland,Taiwan,Turkey,UK,Ukraine,United Arab Emirates (UAE)</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Quality Claim</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Claims_Singapore</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>1 AND 2 AND 3</booleanFilter>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Order Claim,Quality Claim</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Is_GTR_Distributor__c</field>
+                <operation>equals</operation>
+                <value>False</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Product_Destination_Country__c</field>
+                <operation>equals</operation>
+                <value>Cambodia,Guam,Hong Kong,Indonesia,Laos,Malaysia,Philippines,Singapore,Thailand,Vietnam</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Claims_Singapore</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>1 AND 2 AND 3</booleanFilter>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Order Claim</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Is_GTR_Distributor__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Product_Destination_Country__c</field>
+                <operation>equals</operation>
+                <value>Sri Lanka,China,India,Korea,Taiwan,Malaysia</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Claims_UK</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>1 AND 2 AND (3 OR 4)</booleanFilter>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Order Claim</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Is_GTR_Distributor__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Product_Destination_Country__c</field>
+                <operation>equals</operation>
+                <value>Andorra,Aruba,Bahamas,Barbados,Belarus,Belgium,Bermuda,British Virgin Islands,Cayman Islands,Cyprus,Denmark,Dutch Antilles,Estonia,Finland,France,Germany,Gibraltar,Iceland,Ireland,Italy,Jamaica,Latvia,Lithuania,Mexico,Netherlands,American Virgin Islands</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Product_Destination_Country__c</field>
+                <operation>equals</operation>
+                <value>Nicaragua,Panama,Portugal,Puerto Rico,Spain,St Croix,St Maarten,Sweden,Switzerland,Trinidad and Tobago,Turkey,United Arab Emirates (UAE),UK,Uruguay,US</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Accu_Tec_Plant</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Order Claim Sub Case</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Shipping_Plant__c</field>
+                <operation>equals</operation>
+                <value>ACCU-TEC</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Assign_Queue_to_Case__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Canada_Plant_Queue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Order Claim Sub Case</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Shipping_Plant__c</field>
+                <operation>equals</operation>
+                <value>ADL,Dominion,Onsort,Walkerville</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Assign_Queue_to_Case__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Clermont_Plant</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Order Claim Sub Case</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Shipping_Plant__c</field>
+                <operation>equals</operation>
+                <value>Clermont</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Assign_Queue_to_Case__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Cooleys_Plant</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Order Claim Sub Case</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Shipping_Plant__c</field>
+                <operation>equals</operation>
+                <value>Cooleys</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Assign_Queue_to_Case__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Glen_Turner_BSUK_Springburn_Plant</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Order Claim Sub Case</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Shipping_Plant__c</field>
+                <operation>equals</operation>
+                <value>Glenturner,BSUK-Springburn</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Assign_Queue_to_Case__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Hooghoudt_Plant</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Order Claim Sub Case</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Assign_Queue_to_Case__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Shipping_Plant__c</field>
+                <operation>equals</operation>
+                <value>Hooghoudt</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Jarnac_Plant</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Order Claim Sub Case</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Shipping_Plant__c</field>
+                <operation>equals</operation>
+                <value>Jarnac</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Assign_Queue_to_Case__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Loretto_Plant</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Order Claim Sub Case</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Shipping_Plant__c</field>
+                <operation>equals</operation>
+                <value>Loretto</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Assign_Queue_to_Case__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Sauza_Plant</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Order Claim Sub Case</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Shipping_Plant__c</field>
+                <operation>equals</operation>
+                <value>Sauza</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Assign_Queue_to_Case__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Segovia_Plant</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Order Claim Sub Case</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Shipping_Plant__c</field>
+                <operation>equals</operation>
+                <value>Segovia</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Assign_Queue_to_Case__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Ned_Cargo_Plant</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Order Claim Sub Case</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Shipping_Plant__c</field>
+                <operation>equals</operation>
+                <value>Ned Cargo,WTDC</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Assign_Queue_to_Case__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>DB_Schenker_Plant</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Order Claim Sub Case</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Shipping_Plant__c</field>
+                <operation>equals</operation>
+                <value>DB Schenker</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Assign_Queue_to_Case__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Frankfort_DHL_Plant</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Order Claim Sub Case</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Shipping_Plant__c</field>
+                <operation>equals</operation>
+                <value>Frankfort,Frankfort - Exel,Frankfort-DHL</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Assign_Queue_to_Case__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Third_Party_Plant</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Order Claim Sub Case</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Shipping_Plant__c</field>
+                <operation>equals</operation>
+                <value>Unknown,Germany BSI,Fundador,Suntory - Japanese Whiskey,Tri-Link,UK MacIntyre Scott,Ned Cargo,Western Wine Services,Australia Bedfords,Australia CCA,Australia Pendulum,New Zealand CCA,Singapore BSI,CRS,Pri-Pack,Behror,Blue Ocean,USBB</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Assign_Queue_to_Case__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Distributor_Advocate_Queue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>(1 AND 2) OR (3 AND 4)</booleanFilter>
+            <criteriaItems>
+                <field>Case.Status</field>
+                <operation>equals</operation>
+                <value>New</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Order Claim</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Outlook</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Case_Type__c</field>
+                <operation>equals</operation>
+                <value>Order Claim</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Hooghoudt_Plant_Quality</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Quality Claim Sub Case</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Bottling_Plant__c</field>
+                <operation>equals</operation>
+                <value>Hooghoudt</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Assign_Queue_to_Case__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Global_Quality_queue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Quality Claim Sub Case</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Bottling_Plant__c</field>
+                <operation>equals</operation>
+                <value>ACCU-TEC,Carolina Beer,Cott - Mexico,Cott - Mississauga,Cott - Viscount,Mexico – DHL,El Tesoro,Global Quality,Pri-Pack,St. Croix,Winery Exchange,Suntory - Japanese Whiskey,Tri-Link,Hiram Walker,Strong Spirits</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Assign_Queue_to_Case__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Global_Quality_queue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Quality Claim Sub Case</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Bottling_Plant__c</field>
+                <operation>equals</operation>
+                <value>Arcobasso</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Quality_Claim_Sub_Case_Queue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Quality Claim Sub Case</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Assign_Queue_to_Case__c</field>
+                <operation>equals</operation>
+                <value>False</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Canada_Plants_Quality</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Quality Claim Sub Case</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Bottling_Plant__c</field>
+                <operation>equals</operation>
+                <value>ADL,Onsort,Walkerville</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Assign_Queue_to_Case__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Australia_Plants_Quality</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Quality Claim Sub Case</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Bottling_Plant__c</field>
+                <operation>equals</operation>
+                <value>CCA - AB Co.,CCA - Australia,CCA - Australia - HO,CCA - WA Kewdale,CCA - New Zealand,CCA - QLD Richlands,CCA - VIC Moorabbin</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Assign_Queue_to_Case__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Sauza_Plant_Quality</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Quality Claim Sub Case</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Bottling_Plant__c</field>
+                <operation>equals</operation>
+                <value>Sauza</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Clermont_Plant_Quality</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Quality Claim Sub Case</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Bottling_Plant__c</field>
+                <operation>equals</operation>
+                <value>Clermont</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Assign_Queue_to_Case__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Frankfort_Plant_Quality</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Quality Claim Sub Case</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Bottling_Plant__c</field>
+                <operation>equals</operation>
+                <value>Frankfort</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Assign_Queue_to_Case__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Loretto_Plant_Quality</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Quality Claim Sub Case</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Bottling_Plant__c</field>
+                <operation>equals</operation>
+                <value>Loretto</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Assign_Queue_to_Case__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>India_Plants_Quality</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Quality Claim Sub Case</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Bottling_Plant__c</field>
+                <operation>equals</operation>
+                <value>Behror,Blue Ocean</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Assign_Queue_to_Case__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Jarnac_Plant_Quality</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Quality Claim Sub Case</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Bottling_Plant__c</field>
+                <operation>equals</operation>
+                <value>Jarnac</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Assign_Queue_to_Case__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>GlenTurner_BSUK_Springburn_Plant_Quality</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Quality Claim Sub Case</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Assign_Queue_to_Case__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Bottling_Plant__c</field>
+                <operation>equals</operation>
+                <value>Glenturner,BSUK-Springburn</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Jerez_Plant_Quality</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Quality Claim Sub Case</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Bottling_Plant__c</field>
+                <operation>equals</operation>
+                <value>Jerez</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Assign_Queue_to_Case__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Cooley_Plant_Quality</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Quality Claim Sub Case</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Bottling_Plant__c</field>
+                <operation>equals</operation>
+                <value>Cooley</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Assign_Queue_to_Case__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Segovia_Plant_Quality</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Quality Claim Sub Case</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Bottling_Plant__c</field>
+                <operation>equals</operation>
+                <value>Segovia</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Assign_Queue_to_Case__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>DIS_Plant_Quality</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Quality Claim Sub Case</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Bottling_Plant__c</field>
+                <operation>equals</operation>
+                <value>DIS</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Assign_Queue_to_Case__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Burlington_Plant_Quality</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Quality Claim Sub Case</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Assign_Queue_to_Case__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Bottling_Plant__c</field>
+                <operation>equals</operation>
+                <value>Burlington</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>El_Tesoro_Single_Barrel</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Single Barrel - Proof Specific,Single Barrel - Split Barrel,Single Barrel - Standard</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Brand__c</field>
+                <operation>equals</operation>
+                <value>El Tesoro</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Cruzan_Single_Barrel</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Single Barrel - Proof Specific,Single Barrel - Split Barrel,Single Barrel - Standard</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Brand__c</field>
+                <operation>equals</operation>
+                <value>Cruzan</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Jim_Beam_Single_Barrel</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Single Barrel - Proof Specific,Single Barrel - Split Barrel,Single Barrel - Standard</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Brand__c</field>
+                <operation>equals</operation>
+                <value>Jim Beam</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Knob_Creek_Single_Barrel</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Single Barrel - Proof Specific,Single Barrel - Split Barrel,Single Barrel - Standard</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Brand__c</field>
+                <operation>equals</operation>
+                <value>Knob Creek</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Makers_Mark_Single_Barrel</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Single Barrel - Proof Specific,Single Barrel - Split Barrel,Single Barrel - Standard</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Brand__c</field>
+                <operation>equals</operation>
+                <value>Makers Mark</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Customer_Data</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>(1 AND 2 AND 3) OR (1 AND (3 OR 4))</booleanFilter>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Customer Data</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Type</field>
+                <operation>equals</operation>
+                <value>CD - Spec Update</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Status</field>
+                <operation>equals</operation>
+                <value>New</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Status</field>
+                <operation>equals</operation>
+                <value>Ready to Load</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Customer_Data</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Customer Data Sub Case</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.OwnerId</field>
+                <operation>notEqual</operation>
+            </criteriaItems>
+        </ruleEntry>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>Case Transfer Rules</fullName>
+        <active>false</active>
+        <ruleEntry>
+            <assignedTo>GMDM</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>1 OR 2</booleanFilter>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>contains</operation>
+                <value>GMDM</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Registration Approval</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>HR</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>contains</operation>
+                <value>HR</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Payroll</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>contains</operation>
+                <value>Payroll</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>RTR</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>contains</operation>
+                <value>RTR</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Credit_and_Collections</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>contains</operation>
+                <value>OTC</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>notEqual</operation>
+                <value>OTC - Bailment,OTC - Bailment Error</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Bailment</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>OTC - Bailment</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>OTC - Bailment Error</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>PTP_AP_TBO</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>contains</operation>
+                <value>PTP/AP</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>T_E</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>contains</operation>
+                <value>T&amp;E</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <formula>True</formula>
+        </ruleEntry>
+    </assignmentRule>
+</AssignmentRules>
