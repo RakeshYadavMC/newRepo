@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Case assigned email template for German</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Blank_Letterhead</letterhead>
+    <name>Case Assigned (de_German)</name>
+    <style>freeForm</style>
+    <subject>Case has been assigned - {!Case.Subject}</subject>
+    <textOnly>Hallo {! Case.Submitter_First_Name__c},
+
+Ihr Fall # {! Case.CaseNumber} wurde einem Analysten in {! Case.Type} zugewiesen. Melden Sie sich bei der internen Salesforce-Community an, um den Status dieses Falls zu überprüfen.
+
+Klicken Sie unten, um Ihren Fall zu sehen:
+{!$Label.Base_Company_Community_URL} {! Case.Id}
+
+
+
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

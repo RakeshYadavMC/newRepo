@@ -1,0 +1,10 @@
+<p>Hi {!Case.OwnerFullName}</p>
+
+<p>{!Case.Priority} Priority Case <a href="{!Case.Link}"># {!Case.CaseNumber}</a> - {!Case.How_can_we_help__c} - '{!Case.AdditionalInformation__c}' is pending with Quality since last 168 hrs and needs to be reviewed immediately.</p>
+
+Thank you<br>
+Beam Suntory
+
+<p>
+  {!Case.Thread_Id}
+</p>

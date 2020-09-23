@@ -1,0 +1,21 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<p class="MsoNormal">Hallo {! Case.OwnerFirstName},<o:p></o:p></p>
+
+<p class="MsoNormal"><span style="font-size: 12pt;">Ihr Fall # {! Case.CaseNumber} wurde weitergeleitet, da er
+entweder einem Verletzungsrisiko ausgesetzt ist oder gegen SLA verstoßen hat.</span></p><p class="MsoNormal"><o:p></o:p></p>
+
+<p class="MsoNormal"><span style="font-size: 12pt;">Dieser Fall befindet sich im Status {! Case.Status} und war
+ab dieser Benachrichtigung für {! Case.Case_Time_Elapsed__c} geöffnet. Bitte
+ergreifen Sie Maßnahmen in diesem Fall!</span></p><p class="MsoNormal"><o:p></o:p></p>
+
+<p class="MsoNormal"><span style="font-size: 12pt;">Klicken Sie unten, um Ihren Fall zu sehen:</span></p><p class="MsoNormal"><span style="font-size: 12pt;"><br></span></p><p class="MsoNormal"><o:p></o:p></p>
+
+<p class="MsoNormal">{!Case.Link}<o:p></o:p></p>
+
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal"><o:p>&nbsp;</o:p><span style="font-size: 12pt;">{! Case.Thread_Id}</span></p><p class="MsoNormal"><o:p></o:p></p>]]></td>
+</tr>
+</table>

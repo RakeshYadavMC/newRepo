@@ -1,0 +1,7 @@
+<p>Dear {!Contact.FirstName},</p>
+<p>Thank you for contacting Pinnacle® Vodka. We always love to hear from Pinnacle® Vodka enthusiasts! While we do not have an official Brand Ambassador program at this time, you can still show your loyalty to Pinnacle® Vodka by telling your friends about us. Also be sure to like us on Facebook at www.facebook.com/pinnaclevodkas so you can be one of the first to hear about new flavors, recipes, and Pinnacle® Vodka events.</p>
+<p>{!Case.OwnerFullName}<br />
+<strong>Pinnacle® Customer Care Representative</strong><br />
+<img src="{!$Label.SF_Base_URL_BrandLogo}Pinnacle.png" alt=""  width="120px" /><br />
+<a href="https://www.facebook.com/pinnaclevodkas"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}facebook.png" width="20" alt="" /></a> <a href="https://twitter.com/PinnacleVodka"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}twitter.png" width="20" alt="" /></a> <a href="https://instagram.com/PinnacleVodka"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}instagram.png" width="20" alt="" /></a> <a href="http://www.pinterest.com/pinnaclevodka/"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}pinterest.png" width="20" alt="" /></a> <a href="https://www.youtube.com/user/PinnacleVodka"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}youtube.png" width="20" alt="" /></a> <br />
+<a href="http://www.drinksmart.com"><img src="{!$Label.SF_Base_URL_BrandLogo}DrinkSmart.png" width="120" title="Drink Smart" alt="Drink Smart" /></a></p>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Case Unable to Reopen Template</name>
+    <style>none</style>
+    <subject>Case #{!Case.CaseNumber} cannot be reopened - {!Case.Subject}</subject>
+    <textOnly>Hi {!Case.Submitter_First_Name__c},
+
+Your case #{!Case.CaseNumber} has been closed for 5 or more days and is unable to be reopened.
+
+Please submit a new case instead.
+
+Click below to see your case:
+{!$Label.Base_Company_Community_URL}{!Case.Id}
+
+{!Case.Thread_Id}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

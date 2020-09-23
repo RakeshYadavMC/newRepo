@@ -1,0 +1,4 @@
+<p>Hi {!Contact.FirstName},</p>
+<p>Thank you for your interest in the Knob Creek Single Barrel program. Can you please share you City/State location so that I can have a local sales representative contact you regarding your inquiry?</p>
+<p>Thanks,<br />
+{!Case.OwnerFullName}</p>

@@ -1,0 +1,6 @@
+<p>Hi,<br /><br />
+You have a new case <a href= "{!Case.Link}"> #{!Case.CaseNumber}</a> in the queue.</p>
+
+<p>Thanks </p>
+
+{!Case.Thread_Id}

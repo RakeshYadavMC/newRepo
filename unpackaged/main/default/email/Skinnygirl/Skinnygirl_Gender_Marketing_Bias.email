@@ -1,0 +1,10 @@
+<p>Dear {!Contact.FirstName},</p>
+<p>Thank you for contacting us regarding the Skinnygirl® Cocktails “Drink Like a Lady” advertising campaign.  Your point of view matters to us.</p>
+<p>Skinnygirl® Cocktails provides choices for convenient, lower-calorie solutions that may match your lifestyle.  While Skinnygirl® Cocktails speaks primarily to women, we understand that both men and women enjoy our brand and we love to hear that you are passionate about the product. We did not intend to exclude you in any way. Our intention is to offer anyone a full line of low-cal cocktail options that are delicious, simple and guilt-free.</p>
+<p>We appreciate your feedback, as it allows us the opportunity to learn from our consumers and help our brand evolve and grow.</p>
+<p>Thank you again for your feedback!</p>
+<p>{!Case.OwnerFullName}<br />
+<strong>Skinnygirl® Customer Care Representative</strong><br />
+<img src="{!$Label.SF_Base_URL_BrandLogo}Skinnygirl.png" alt=""  width="120px" /><br />
+<a href="https://www.facebook.com/skinnygirl"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}facebook.png" width="20" alt="" /></a> <a href="https://twitter.com/Skinnygirl"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}twitter.png" width="20" alt="" /></a> <a href="https://www.pinterest.com/skinnygirl/"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}pinterest.png" width="20" alt="" /></a> <a href="https://instagram.com/Skinnygirl"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}instagram.png" width="20" alt="" /></a> <a href="https://www.youtube.com/user/skinnygirlcocktails"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}youtube.png" width="20" alt="" /></a> <br />
+<a href="http://www.drinksmart.com"><img src="{!$Label.SF_Base_URL_BrandLogo}DrinkSmart.png" width="120" title="Drink Smart" alt="Drink Smart" /></a></p>

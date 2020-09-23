@@ -1,0 +1,13 @@
+<p>Dear {!Case.OwnerFullName}:  <br />
+Thank you for bringing your concerns about {!Case.Brand__c} to our attention.  As a consumer of our brands, you are very important to us and we appreciate customer feedback as we strive to deliver the highest quality {!Case.Brand__c} (vodka, bourbon).     </p>
+<p>We sent your sample to our distillery to review the product. Their analysis showed that {!Case.Brand__c} fell short of Beam Suntory's high standards. Please note that Beam Suntory sends this letter as a quality control measure only and that we are <span class="caps">NOT</span> instituting a recall as to these products. I wanted to assure you that we take these issues very seriously and, as a valued consumer of our brands, can't thank you enough for bringing this to our attention. </p>
+<p><span class="caps">BELOW</span> <span class="caps">FOR</span> CO, DC, FL, IL, NY <span class="caps">ONLY</span><br />
+As a special thank you for sharing your concerns with us, we have also enclosed a coupon courtesy of Drizly below valid for first time Drizly users. Please note that the user must be at least 21 years old and the offer includes both alcoholic and non-alcoholic items. </p>
+<p>Please do not hesitate to contact us in the future with any other questions or concerns. <br />
+Code: <span class="caps">BEAMSUNTORY</span> <br />
+Offer: $5 off order total <br />
+Valid for: Drizly first time users <br />
+Use by: 12/31/2018 </p>
+<p>Sincerely, <br />
+Teresa Wittemer-Beam Suntory<br />
+Quality Project Specialist </p>

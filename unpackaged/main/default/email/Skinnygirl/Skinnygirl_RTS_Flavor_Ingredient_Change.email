@@ -1,0 +1,7 @@
+<p>Dear {!Contact.FirstName},</p>
+<p>Thank you for contacting Skinnygirl® Cocktails! We love hearing from our fans. We always strive to offer a wide range of delicious low-cal cocktail options for all occasions. Each of our products were created with women's preferences in mind –whether it's a new flavor or a trendy cocktail, we are constantly redefining cocktailing with our “closet-full” of low-cal options. Thanks again for contacting us, and please find us on Facebook, Twitter and Pinterest!</p>
+<p>{!Case.OwnerFullName}<br />
+<strong>Skinnygirl® Customer Care Representative</strong><br />
+<img src="{!$Label.SF_Base_URL_BrandLogo}Skinnygirl.png" alt=""  width="120px" /><br />
+<a href="https://www.facebook.com/skinnygirl"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}facebook.png" width="20" alt="" /></a> <a href="https://twitter.com/Skinnygirl"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}twitter.png" width="20" alt="" /></a> <a href="https://www.pinterest.com/skinnygirl/"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}pinterest.png" width="20" alt="" /></a> <a href="https://instagram.com/Skinnygirl"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}instagram.png" width="20" alt="" /></a> <a href="https://www.youtube.com/user/skinnygirlcocktails"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}youtube.png" width="20" alt="" /></a> <br />
+<a href="http://www.drinksmart.com"><img src="{!$Label.SF_Base_URL_BrandLogo}DrinkSmart.png" width="120" title="Drink Smart" alt="Drink Smart" /></a></p>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>A template used to tell a Compliance Coordinator that all Sub Cases on a Brand Registration case have been submitted. This is used in an email alert.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BeamSuntory_Letterhead</letterhead>
+    <name>All Sub Cases Closed</name>
+    <style>freeForm</style>
+    <subject>{!Case.Subject} - All States Submitted</subject>
+    <textOnly>Hello {!Case.OwnerFirstName},
+
+All States for this Brand Registration have been Submitted. This Case has been moved to the &quot;{!Case.Status}&quot; status and is ready for validation.
+
+Case Subject Line: {!Case.Subject}
+Number of SKUs per Registration: {!Case.Number_of_COLAs__c}
+Number of Registrations: {!Case.Number_of_Registrations__c}
+
+You can view this Case by clicking here.
+
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,6 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[Hello,<div><br></div><div>Please update the 7512 for SAP#&nbsp;{!Case.SAP_Number__c}, to reflect the following change(s) that have been made to the order:</div><div><br></div><div>Shipment Date:</div><div>Destination Country:</div><div>Sold-to # of account:</div><div>Reason for change:&nbsp;{!Case.Change_Type__c}</div><div><br></div><div><b>Beam SKU XX cs. (added/removed)</b></div><div><b><br></b></div><div>Thank you,</div><div><br></div><div>Beam Suntory Customer Service</div><div><br></div><div><span style="font-family: Calibri; font-size: x-small; line-height: 10.7px; background-color: rgb(255, 255, 255);">{!Case.Thread_Id}</span></div>]]></td>
+</tr>
+</table>

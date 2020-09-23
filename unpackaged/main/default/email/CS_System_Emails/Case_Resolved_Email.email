@@ -1,0 +1,9 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<p class="MsoNormal">Case {!Case.CaseNumber}
+has been resolved.&nbsp; If you feel as though
+this case was closed in error or there are open issues, please reply back to this email with 'REOPEN CASE' in the subject line to re-open the case. Thank you for
+contacting Beam Suntory!<o:p></o:p></p><p class="MsoNormal"><br></p><p class="MsoNormal">Kind regards,</p><p class="MsoNormal"><br></p><p class="MsoNormal">Beam Suntory Customer Service</p><p class="MsoNormal"><br></p><p class="MsoNormal"><br></p><p class="MsoNormal"><span style="font-size: x-small;">{!Case.Thread_Id}</span></p>]]></td>
+</tr>
+</table>

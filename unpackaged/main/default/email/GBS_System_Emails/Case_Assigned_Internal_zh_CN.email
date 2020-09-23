@@ -1,0 +1,6 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<font face="arial">您好{!Case.OwnerFirstName}，</font><div><font face="arial"><br></font></div><div><font face="arial">案例#{!Case.CaseNumber}已于{!User.FirstName} {!User.LastName} () 分配给了您。 点击下方以便查看您的案例： {!User.Email}</font></div><div><font face="arial">{!Case.Link}</font></div><div><font face="arial"><br></font></div><div><font face="arial">{!Case.Thread_Id}</font></div>]]></td>
+</tr>
+</table>

@@ -1,0 +1,14 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[Hello,<div style="color: rgb(0, 0, 0);"><br></div><div style="color: rgb(0, 0, 0);">We are currently experiencing a delay on: <b>Product</b></div><div><font color="#ff0000"><span style="background-color: rgb(255, 255, 102);">Product Availability:</span><span style="background-color: rgb(255, 255, 255);">&nbsp;xx/xx/xxxx</span></font></div><div><font color="#ff0000"><span style="background-color: rgb(255, 255, 255);"><br></span></font></div><div><span style="background-color: rgb(255, 255, 255);">Item Status:</span></div><div><span style="background-color: rgb(255, 255, 255);">Customer Name:</span></div><div><span style="background-color: rgb(255, 255, 255);">Order/PO:</span></div><div><span style="background-color: rgb(255, 255, 255);">Cust. Material:</span></div><div><span style="background-color: rgb(255, 255, 255);">Description:</span></div><div><span style="background-color: rgb(255, 255, 255);">Quantity:</span></div><div><span style="background-color: rgb(255, 255, 255);">Ship Date:</span></div><div><span style="background-color: rgb(255, 255, 255);"><br></span></div><div>
+
+
+
+
+
+
+
+<p class="p1"><span class="s1"><i>*We make every effort to identify an open PO that is: shipping at or around the time that the product will be available, </i><b><i>and</i></b><i> has the required weight allowance(s).&nbsp; If we have not noted an adjustment in the, “item status” column, then we were unable to find one with the required qualifications to add to. Please&nbsp; place on a future order.</i></span></p><p class="p1"><span class="s1"><i><br></i></span></p><p class="p1">We apologize for the inconvenience.</p><p class="p1"><br></p><p class="p1">Regards,</p><p class="p1"><br></p><p class="p1">Beam Suntory Customer Service</p><p class="p1"><br></p><p class="p1"><span style="font-family: Calibri; font-size: x-small; line-height: 10.7px; background-color: rgb(255, 255, 255);">{!Case.Thread_Id}</span></p></div>]]></td>
+</tr>
+</table>

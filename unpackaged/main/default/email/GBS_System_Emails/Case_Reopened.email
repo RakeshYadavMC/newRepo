@@ -1,0 +1,11 @@
+<messaging:emailTemplate subject="{!SUBSTITUTE($Label.Case_Reopened_Email_Subject,'{0}', relatedTo.CaseNumber)}" recipientType="User" relatedToType="Case" Language="{!relatedTo.Submitter__r.LanguageLocaleKey}">
+
+
+    <messaging:htmlEmailBody >
+        <c:GBSMultipleLanguageEmail WhatId="{!relatedTo.Id}" WhoId="{!relatedTo.OwnerId}" TemplateDeveloperName="{!$Label.Case_Reopened}" HTML="true"/>
+    </messaging:htmlEmailBody>
+    <messaging:plainTextEmailBody >
+        <c:GBSMultipleLanguageEmail WhatId="{!relatedTo.Id}" WhoId="{!relatedTo.OwnerId}" TemplateDeveloperName="{!$Label.Case_Reopened}" HTML="false"/>
+    </messaging:plainTextEmailBody>
+
+</messaging:emailTemplate>

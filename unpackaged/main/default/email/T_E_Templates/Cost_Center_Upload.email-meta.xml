@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BeamSuntory_Letterhead</letterhead>
+    <name>COST CENTER UPLOAD</name>
+    <style>freeForm</style>
+    <subject>Cost center upload request complete</subject>
+    <textOnly>Hello,
+
+
+The requested codes have been uploaded to Concur and are available for immediate use.
+
+
+Thanks so much.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

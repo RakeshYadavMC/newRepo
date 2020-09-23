@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Case Closed Notification to Submitter</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Case Closed GBS</name>
+    <style>none</style>
+    <subject>Case #{!Case.CaseNumber} has been closed - {!Case.Subject}</subject>
+    <textOnly>Hi {!Case.Submitter_First_Name__c},
+
+Please find the below case details.
+Case: {!Case.CaseNumber} - {!Case.Category_1__c} - {!Case.Category_2__c}
+
+Your case #{!Case.CaseNumber} has been closed with the following resolution details:
+{!Case.Case_Resolution_Details__c}
+
+Please take 5 seconds to answer this one question survey:
+
+How would you rate your GBS experience?
+
+Should you wish to reopen this case, just reply with REOPEN CASE in the subject within 5 days. Please include the reason why this case should be reopened.
+
+Instructions for re-opening the case:
+To re-open your case from community, please login and click on “My Cases” tab, select “My Closed Cases” view and click on “Re-open Case” button. Upon clicking the Re-open button please add the reason for reopening the case in the pop-up window. Please note: The button will only be available for five calendar days, after which it will be “disabled” and greyed out.
+
+Click below to see your case:
+{!$Label.Base_Company_Community_URL}{!Case.Id}
+{!Case.Thread_Id}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

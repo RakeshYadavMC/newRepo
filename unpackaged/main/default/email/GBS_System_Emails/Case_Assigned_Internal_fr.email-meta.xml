@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Case Assigned Notification to Owner in French</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Blank_Letterhead</letterhead>
+    <name>Case Assigned - Internal (fr)</name>
+    <style>freeForm</style>
+    <subject>Case has been assigned to you - {!Case.Subject}</subject>
+    <textOnly>Bonjour {!Case.OwnerFirstName},
+
+la requête no {!Case.CaseNumber} vous a été attribuée par {!User.FirstName} {!User.LastName} ({!User.Email}).
+
+Click below to see the case:
+{!Case.Link}
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

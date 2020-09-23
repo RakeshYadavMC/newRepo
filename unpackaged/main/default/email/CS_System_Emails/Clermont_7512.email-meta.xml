@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BeamSuntory_Letterhead</letterhead>
+    <name>Clermont 7512</name>
+    <style>freeForm</style>
+    <subject>{!Case.RecordType} - {!Case.CaseNumber}</subject>
+    <textOnly>Hello,
+
+Please update the 7512 for SAP# {!Case.SAP_Number__c}, to reflect the following change(s) that have been made to the order:
+
+Shipment Date:
+Destination Country:
+Sold-to # of account:
+Reason for change: {!Case.Change_Type__c}
+
+Beam SKU XX cs. (added/removed)
+
+Thank you,
+
+Beam Suntory Customer Service
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

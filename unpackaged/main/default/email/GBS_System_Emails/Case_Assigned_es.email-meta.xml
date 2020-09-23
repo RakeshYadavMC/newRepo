@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Case Assigned Notification to Submitter in Spanish (Spain)</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Blank_Letterhead</letterhead>
+    <name>Case Assigned (es)</name>
+    <style>freeForm</style>
+    <subject>Case has been assigned to you - {!Case.Subject}</subject>
+    <textOnly>Hola {!Case.Submitter_First_Name__c},
+
+Tu caso #{!Case.CaseNumber} ha sido asignado a un analista en: {!Case.Type}.  Por favor entra a Salesforce para revisar el status de este caso.
+
+Da click a la liga de abajo para ver tu caso:
+{!$Label.Base_Company_Community_URL}{!Case.Id}
+
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

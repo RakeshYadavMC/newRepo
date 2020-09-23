@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>43.0</apiVersion>
+    <available>true</available>
+    <description>An email is sent using this once a case is created via the CS community if case record type is Inquiry and case type is Bulk</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Order Case Creation Bulk</name>
+    <style>none</style>
+    <subject>An Orders Case has been submitted:</subject>
+    <type>visualforce</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

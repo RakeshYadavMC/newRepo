@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>44.0</apiVersion>
+    <available>true</available>
+    <description>Contains Apex Component to handle multiple languages</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Case Reopened</name>
+    <style>none</style>
+    <subject>Case Assigned VF</subject>
+    <type>visualforce</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

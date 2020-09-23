@@ -1,0 +1,6 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<font face="arial">Bonjour {!Case.OwnerFirstName},&nbsp;</font><div><br><div><font face="arial">la requête no {!Case.CaseNumber} vous a été attribuée par {!User.FirstName} {!User.LastName} ({!User.Email}).&nbsp;</font></div><div><font face="arial"><br></font></div><div><font face="arial">Click below to see the case:</font></div><div><font face="arial">{!Case.Link}&nbsp;</font></div><div><font face="arial"><br></font></div><div><font face="arial">{!Case.Thread_Id}</font></div></div>]]></td>
+</tr>
+</table>

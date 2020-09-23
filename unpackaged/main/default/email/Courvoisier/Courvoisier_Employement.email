@@ -1,0 +1,6 @@
+<p>Dear {!Contact.FirstName},<br />
+Thank you for your email and interest in working for Courvoisier®. We have forwarded your email to a representative for consideration. They will contact you if interested in moving forward.</p>
+<p>{!Case.OwnerFullName}<br />
+<strong>Courvoisier® Customer Care Representative</strong><br />
+<img src="{!$Label.SF_Base_URL_BrandLogo}Courvoisier.png" alt=""  width="120px" /><br />
+<a href="http://www.drinksmart.com"><img src="{!$Label.SF_Base_URL_BrandLogo}DrinkSmart.png" width="120" title="Drink Smart" alt="Drink Smart" /></a></p>

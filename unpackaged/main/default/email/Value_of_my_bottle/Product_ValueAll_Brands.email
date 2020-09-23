@@ -1,0 +1,5 @@
+<p>Dear {!Contact.FirstName},</p>
+<p>Thank you for contacting {!Case.Product_Type__c}</p>
+<p>We love making {!Case.Product_Type__c}, but we don't always know the history behind every bottle.<br />
+To learn more about your item, we recommend checking with a local spirits store or collector's website.</p>
+<p>Thank you for being a {!Case.Product_Type__c} fan!</p>

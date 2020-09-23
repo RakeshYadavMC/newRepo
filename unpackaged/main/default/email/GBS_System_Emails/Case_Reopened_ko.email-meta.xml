@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Case Reopened Notification to Owner in Korean</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Blank_Letterhead</letterhead>
+    <name>Case Reopened (ko)</name>
+    <style>freeForm</style>
+    <subject>Case has been re-opened - {!Case.Subject}</subject>
+    <textOnly>안녕하세요 {!Case.OwnerFullName}님,귀하가 가지고 계신 케이스 #{!Case.CaseNumber}이(가) 재진행되었습니다. 케이스 재진행에 대해 제출자는 다음과 같이 설명합니다: {!Case.Reopen_Explanation__c} 귀하의 케이스를 확인하려면 아래를 클릭합니다: {!$Label.Base_Company_Community_URL}{!Case.Id}
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

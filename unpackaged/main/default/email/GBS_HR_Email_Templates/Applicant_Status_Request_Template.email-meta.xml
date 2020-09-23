@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BeamSuntory_Letterhead</letterhead>
+    <name>Applicant Status Request Template</name>
+    <style>freeForm</style>
+    <subject>Case #{!Case.CaseNumber} - HR Applicant Status Request Case</subject>
+    <textOnly>Thank you for your interest in a position at Beam Suntory.  We are not able to provide you with a status on your application. The hiring team for this position is in the process of reviewing resumes. Someone from the hiring team will contact you when they are ready to move forward with this position. You will only be contacted if the hiring team determines that they would like to speak with you concerning your resume / background and the open position you applied to at Beam Suntory.
+
+
+Thank You,
+The Beam Suntory Global Business Services HR Team</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

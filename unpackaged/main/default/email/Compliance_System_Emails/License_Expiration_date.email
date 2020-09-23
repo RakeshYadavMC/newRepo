@@ -1,0 +1,7 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<div style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><font face="Verdana, Helvetica, sans-serif" style="" size="4"><br></font></div><div style=""><font style="" size="4" face="Arial, sans-serif"><font style="color: rgb(0, 0, 0);"><span style="color: rgb(0, 0, 0);">URGENT ACTION REQUIRED - This license for case #&nbsp;</span>{!Case.CaseNumber}, State -</font>{!Case.State__c}&nbsp;&nbsp;<span style="color: rgb(0, 0, 0);">has
+expired and reflects no submission date in the case</span></font></div>]]></td>
+</tr>
+</table>

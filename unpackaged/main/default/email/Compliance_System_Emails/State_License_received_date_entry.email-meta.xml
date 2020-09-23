@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to be sent to MR team to complete the License Audit</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BeamSuntory_Letterhead</letterhead>
+    <name>State License received date entry</name>
+    <style>freeForm</style>
+    <subject>Pending License received audit - Case # {!Case.CaseNumber}-{!Case.State__c}</subject>
+    <textOnly>The license received date audit for this case #{!Case.CaseNumber} , State - {!Case.State__c}is ready for review</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,7 @@
+<p>Dear {!Contact.FirstName},</p>
+<p>Thank you for making us aware of this misuse of our registered trademark “Skinnygirl® Cocktails”.  We will investigate the situation and take the correct course of action.</p>
+<p>{!Case.OwnerFullName}<br />
+<strong>Skinnygirl® Customer Care Representative</strong><br />
+<img src="{!$Label.SF_Base_URL_BrandLogo}Skinnygirl.png" alt=""  width="120px" /><br />
+<a href="https://www.facebook.com/skinnygirl"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}facebook.png" width="20" alt="" /></a> <a href="https://twitter.com/Skinnygirl"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}twitter.png" width="20" alt="" /></a> <a href="https://www.pinterest.com/skinnygirl/"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}pinterest.png" width="20" alt="" /></a> <a href="https://instagram.com/Skinnygirl"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}instagram.png" width="20" alt="" /></a> <a href="https://www.youtube.com/user/skinnygirlcocktails"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}youtube.png" width="20" alt="" /></a> <br />
+<a href="http://www.drinksmart.com"><img src="{!$Label.SF_Base_URL_BrandLogo}DrinkSmart.png" width="120" title="Drink Smart" alt="Drink Smart" /></a></p>

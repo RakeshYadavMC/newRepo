@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Case Reopened Notification to Owner in Spanish (Spain)</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Blank_Letterhead</letterhead>
+    <name>Case Reopened (es)</name>
+    <style>freeForm</style>
+    <subject>Case has been re-opened - {!Case.Subject}</subject>
+    <textOnly>Hola {!Case.OwnerFullName},
+
+Caso #{!Case.CaseNumber}, uno de tus casos ha sido reabierto. La razón ha sido detallada a continuación:
+
+{!Case.Reopen_Explanation__c}
+
+
+Da Click en el link para ver tu caso:
+{!$Label.Base_Company_Community_URL}{!Case.Id}
+
+
+
+
+
+
+
+
+
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

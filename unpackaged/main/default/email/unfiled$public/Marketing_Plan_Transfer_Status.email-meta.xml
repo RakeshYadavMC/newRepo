@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email template sent to the requester showing status as either Approved or Rejected</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BeamSuntory_Letterhead</letterhead>
+    <name>Marketing Plan Transfer - Status</name>
+    <style>freeForm</style>
+    <subject>Status of Your Recent Marketing Plan Transfer Request (Salesforce)</subject>
+    <textOnly>Your Marketing Plan Transfer request has been {!MarketingPlanAdjustments__c.Request_Status__c}. See below on the details of your request.
+
+Transferring Marketing Plan:
+{!MarketingPlanAdjustments__c.TransferringMarketingPlan__c}
+
+Receiving Marketing Plan:
+{!MarketingPlanAdjustments__c.ReceivingMarketingPlan__c}
+
+Transfer Amount:
+{!MarketingPlanAdjustments__c.Amount__c}
+
+Reason for Request:
+{!MarketingPlanAdjustments__c.ReasonforRequest__c}
+
+Link to Transfer Record: https://beamsuntory.my.salesforce.com/{!MarketingPlanAdjustments__c.Id}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

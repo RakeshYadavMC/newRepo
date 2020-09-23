@@ -1,0 +1,6 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<div>Hi,</div><div><br></div>Your recent Application for the {!Account_Application__c.Brand__c} Single Barrel Program has been approved!&nbsp; Finish completing your barrel order in the&nbsp;<a href="https://beam.force.com/customer/s/case/{!Account_Application__c.CaseId__c}">Salesforce Community</a>.<div><br></div><div><div><br></div><div>Case Number:&nbsp;{!Account_Application__c.Case__c}<br><div><br></div></div><div><br></div><div><span style="font-size: 12pt; font-family: Arial, sans-serif;">Thank You,</span></div><div><span style="font-size: 12pt; font-family: Arial, sans-serif;"><br></span></div><div><span style="font-size: 12pt; font-family: Arial, sans-serif;">Beam Suntory Customer Service</span></div><div><br></div></div>]]></td>
+</tr>
+</table>

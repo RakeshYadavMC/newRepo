@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>This template is used after the user has requested access to the portal in Chinese</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Blank_Letterhead</letterhead>
+    <name>Vendor Registration Confirmation (zh_CN)</name>
+    <style>freeForm</style>
+    <subject>Case #{!Case.CaseNumber} - Registration Confirmation</subject>
+    <textOnly>亲爱的 {!Case.Contact}，
+
+感谢您注册 Beam Suntory Company Community （公司社区）。 您的请求正在审核中，一旦获得批准，用户名和必要的操作项将通过电子邮件提供。 如果您的请求需要额外的验证，将发送电子邮件通知。 处理请求最多需要 2 个工作日；请根据需要检查垃圾邮件/垃圾邮件文件夹。
+
+感谢您，
+Beam Suntory
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>This template is used after the user has requested access to the portal</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Blank_Letterhead</letterhead>
+    <name>Vendor Registration Confirmation (es_MX)</name>
+    <style>freeForm</style>
+    <subject>Case #{!Case.CaseNumber} - Registration Confirmation</subject>
+    <textOnly>Estimado/a {!Case.Contact},
+
+Gracias por registrarse en la Comunidad de la Compañía Beam Suntory. Su solicitud está siendo revisada y, una vez aprobada, le serán proporcionados por correo electrónico su nombre de usuario y los siguientes pasos. Si su solicitud requiere validación adicional, se le enviará una notificación por correo electrónico.
+
+Las solicitudes pueden tardar hasta 2 días hábiles en procesarse; por favor también revise las carpetas de spam/correo no deseado en caso de ser necesario.
+
+Gracias,
+
+Beam Suntory
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

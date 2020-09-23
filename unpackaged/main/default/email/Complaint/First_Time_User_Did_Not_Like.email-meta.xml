@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>First Time User Did Not Like</name>
+    <style>none</style>
+    <subject>{!Case.Last_Email_Sent_Subject__c}</subject>
+    <textOnly>Thank you so much for contacting us about {!IF (Case.Brand__c=&quot;&quot;,&quot;Brand&quot;,Case.Brand__c)}. We always appreciate hearing from valued consumers like you.
+ 
+We regret that {!Case.Brand__c} has not lived up to your expectations. We consistently and intensively review our portfolio to guarantee consumers receive quality products focused on flavor, convenience, premiumization and value.  Our number one priority is to ensure consumer satisfaction and ensure they experience a high-quality and great-tasting product.
+
+If you purchase another Beam Suntory product of similar value and reply with a copy of your receipt, I&apos;m happy to provide a reimbursement.
+
+All of our consumer feedback is valuable to us and is reported into our quality engineering team.
+
+Thanks again for contacting us.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

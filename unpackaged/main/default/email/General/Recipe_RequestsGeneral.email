@@ -1,0 +1,3 @@
+<p>Thank you for your email and for contacting {!Case.Brand__c}.  We always love to hear from our consumers.</p>
+<p>You can find {!Case.Brand__c} drink recipes by visiting us at www.virtualspirit.org.  Simply select the “Virtual Mixology Guide” link, then choose either “Download to PC” or “Download to <span class="caps">MAC</span>” (depending on the system you are working on,) open the zip file and select the liquor category you are inquiring about to download recipes in that category.</p>
+<p>We hope this information is helpful for you.  If you need anything further, please don't hesitate to contact us, we're always happy to help.</p>

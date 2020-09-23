@@ -1,0 +1,31 @@
+<messaging:emailTemplate subject="Barrel Has Been Registered!" recipientType="User" relatedToType="Barrel__c">
+<messaging:htmlEmailBody >
+<html>
+<body>
+<apex:image id="Campaign_email_template_1_header" value="https://beamsuntory--c.na74.content.force.com/servlet/servlet.ImageServer?id=015o0000001Dyoa&oid=00Do0000000cCkJ" style="display: block; margin-left: auto;margin-right: auto; width:50%" />
+<div style="content:' '; display:block; border:.5px solid black; margin-top:10px; border-color: #999999;"></div>                         
+
+<p>Hi,</p>
+
+<p>A Barrel has been registered by Compliance.  You may continue processing the barrel.</p>
+
+<p>Case Record         : {!relatedTo.Case__r.CaseNumber}</p>
+<p>Barrel Number       : {!relatedTo.Barrel_Number__c}</p>
+<p>Barrel Record       : {!relatedTo.Name}</p>
+<p>Barrel Distributor  : {!relatedTo.Distributor__r.Name}</p>
+<p>Retailer            : {!relatedTo.Case__r.Retail_Account__r.Name}</p>
+<p>SAP Number          : {!relatedTo.Case__r.SAP_Number__c}</p>
+ 
+
+<p> <apex:outputlink value="{!$Label.Domain_URL+relatedTo.Id}">Go to Barrel</apex:outputlink> </p>
+
+
+<p>Thank you,</p>
+
+<p>Beam Suntory Customer Service</p>
+
+</body>
+</html>
+
+</messaging:htmlEmailBody>
+</messaging:emailTemplate>

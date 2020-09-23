@@ -1,0 +1,96 @@
+<center>
+    <table cellpadding="0" cellspacing="0" id="topTable" width="500">
+      <tbody>
+        <tr valign="top">
+          <td style=
+          "background-color:#FFFFFF; bEditID:r1st1; bLabel:header; vertical-align:middle; height:100; text-align:center;">
+          <img border="0" id="r1sp1" src=
+          "https://beamsuntory.my.salesforce.com/servlet/servlet.ImageServer?id=015o0000001wlAC&oid=00Do0000000cCkJ"></td>
+        </tr>
+        <tr valign="top">
+          <td style=
+          "background-color:#CCCCCC; bEditID:r2st1; bLabel:accent1; height:1;">
+          </td>
+        </tr>
+        <tr valign="top">
+          <td height="300" style=
+          "background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;">
+            <table border="0" cellpadding="5" cellspacing="5" width="550">
+              <tbody>
+                <tr valign="top">
+                  <td style=
+                  "background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;">
+                    <div style=
+                    "font-size: 12pt; color: rgb(0, 0, 0); font-family: arial;">
+                      <font face=
+                      "Verdana, Helvetica, sans-serif">Hi&nbsp;</font>{!Case.Submitter_First_Name__c}<font face="Verdana, Helvetica, sans-serif">,</font>
+                    </div>
+                    <div style=
+                    "font-size: 12pt; color: rgb(0, 0, 0); font-family: arial;">
+                      <font face="Verdana, Helvetica, sans-serif"><br></font>
+                    </div>
+                    <div style=
+                    "font-size: 12pt; color: rgb(0, 0, 0); font-family: arial;">
+                      <font face="Verdana, Helvetica, sans-serif">Your case
+                      <b>#{!Case.CaseNumber}</b>&nbsp;has been closed for 5 or
+                      more days and is unable to be reopened.</font>
+                    </div>
+                    <div style=
+                    "font-size: 12pt; color: rgb(0, 0, 0); font-family: arial;">
+                      <font face="Verdana, Helvetica, sans-serif"><br></font>
+                    </div>
+                    <div style=
+                    "font-size: 12pt; color: rgb(0, 0, 0); font-family: arial;">
+                      <font face="Verdana, Helvetica, sans-serif">Please submit
+                      a new case instead.</font>
+                    </div>
+                    <div style=
+                    "font-size: 12pt; color: rgb(0, 0, 0); font-family: arial;">
+                      <font face="Verdana, Helvetica, sans-serif"><br></font>
+                    </div>
+                    <div style=
+                    "font-size: 12pt; color: rgb(0, 0, 0); font-family: arial;">
+                      <div style="font-size: 12pt;">
+                        <div style="font-size: 12pt;">
+                          <font face="Verdana, Helvetica, sans-serif">Click
+                          below</font><font face=
+                          "Verdana, Helvetica, sans-serif">&nbsp;to see your
+                          case:</font>
+                        </div>
+                        <div style="font-size: 12pt;">
+                          {!$Label.Base_Company_Community_URL}{!Case.Id}
+                        </div>
+                      </div>
+                    </div>
+                    <div style=
+                    "font-size: 12pt; color: rgb(0, 0, 0); font-family: arial;">
+                      <br>
+                    </div>
+                    <div style=
+                    "font-size: 12pt; color: rgb(0, 0, 0); font-family: arial;">
+                      <font size="1">{!Case.Thread_Id}</font>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+        <tr valign="top">
+          <td style=
+          " background-color:#CCCCCC; bEditID:r4st1; bLabel:accent2; height:1;">
+          </td>
+        </tr>
+        <tr valign="top">
+          <td style=
+          " background-color:#FFFFFF; bEditID:r5st1; bLabel:footer; vertical-align:top; height:80; text-align:center;">
+          </td>
+        </tr>
+        <tr valign="top">
+          <td style=
+          " background-color:#FFFFFF; bEditID:r6st1; bLabel:accent3; height:0;">
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </center>

@@ -1,0 +1,7 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<p class="p1"><span class="s1">Hello,</span></p><p class="p1"><span class="s1" style="font-size: 12pt;"><br></span></p><p class="p1"><span class="s1" style="font-size: 12pt;">The item previously communicated to your team has an </span><span class="s2" style="font-size: 12pt;"><b>improved date of availability</b></span><span class="s1" style="font-size: 12pt;">: &nbsp;</span><span class="s3" style="font-size: 12pt;">­__/_/__</span></p>
+<p class="p1"><span class="s1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p class="p1"><span class="s1"><br></span></p><p class="p1"><span class="s1">Please note this on your end for placing orders to replenish any inventory needs.</span></p><p class="p1"><span class="s1"><br></span></p><p class="p1">Thank you,</p><p class="p1"><br></p><p class="p1">Beam Suntory Customer Service</p><p class="p1"><br></p><p class="p1"><span style="font-family: Calibri; font-size: x-small; line-height: 10.7px; background-color: rgb(255, 255, 255);">{!Case.Thread_Id}</span></p>]]></td>
+</tr>
+</table>

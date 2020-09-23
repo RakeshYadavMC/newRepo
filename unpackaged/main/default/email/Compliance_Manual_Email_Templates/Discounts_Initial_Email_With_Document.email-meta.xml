@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>A template used to initiate contact with the State Manager for Discount Sheet approval</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Discounts Initial w/ Document</name>
+    <style>none</style>
+    <subject>{!Case.Subject} - Please Review Attached Discounts</subject>
+    <textOnly>Hello {!Case.Name__c},
+
+{!Case.State__c}&apos;s {!Case.Related_Month__c} {!Case.Year__c} discounts are due to the state on {!Case.Due_Date__c}. Can you please look over the attached and let me know by {!Case.State_Manager_Due_Date__c} if any changes are required?
+
+Thank you,
+{!Case.OwnerFullName}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

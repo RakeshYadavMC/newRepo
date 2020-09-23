@@ -1,0 +1,113 @@
+<messaging:emailTemplate subject="An Orders Case has been submitted: {!relatedTo.CaseNumber} [{!relatedTo.Thread__c}]" recipientType="User" relatedToType="Case">
+<messaging:htmlEmailBody >
+<html>
+
+    <style type="text/css">
+        p,#order{
+            font-size:1.0em;
+            font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+        }
+
+        table td{
+            word-wrap:break-word;
+        }
+
+        #order,#order td, #order th,.tableHead, .tRowOdd,.tRowEven
+        {
+            border-collapse:separate;
+            border-color:gray;
+            border-spacing:0px;
+            border-width:1px;
+            border-style:outset;
+            background-color: white;
+            font-size:1.0em;
+        }
+        #order td, #order th,.tableHead, .tRowOdd,.tRowEven
+        {
+            padding:3px;
+            border-style:inset;
+            -moz-border-radius:3px;
+            text-align:left;
+            height: auto;
+        }
+        .tRowEven
+        {
+            background-color:#FFF8DC;
+        }
+        #order th,.tableHead
+        {
+            background-color:#F7921E;
+        }
+        #order .orderName
+        {
+            text-align:center;
+        }
+        .order{
+            width:500px;
+        }
+    </style>
+    
+    <body>
+    <table style="font-size: 15px;" cellpadding="0" width="500" cellspacing="0" id="topTable" height="450">
+        <tbody>
+            <tr valign="top">
+                <td style=" background-color:#FFFFFF; bEditID:r1st1; bLabel:header; vertical-align:middle; height:100; text-align:center;"><img border="0" beditid="r1sp1" blabel="headerImage" id="r1sp1" src="https://beamsuntory--bsiqa--c.cs47.content.force.com/servlet/servlet.ImageServer?id=015o0000001Dyoa&oid=00D2a0000000UWJ"/></td>
+            </tr>
+            <tr valign="top">
+                <td style=" background-color:#CCCCCC; bEditID:r2st1; bLabel:accent1; height:2px;"></td>
+            </tr>
+            <tr valign="top">
+                <td style="font-family: Arial, Helvetica, sans-serif;">
+                    <br></br>
+                    <br></br>
+                    An Orders form has been submitted by <b>{!relatedTo.CreatedBy.Name}</b>.<br></br> 
+                    The case number is: <b>{!relatedTo.CaseNumber}</b>.
+                    <br></br>
+                    <br></br>
+                    <b><u>Details:</u></b>
+                    <br></br>
+                    <br></br>
+                    <b>{!relatedTo.Subject}</b>
+                    <br></br>
+                    {!relatedTo.Description}
+                    <br></br>
+                    <apex:outputPanel >
+                        The Purchase Order Details are as follows:
+                        <br></br>
+                        <br></br>            
+                        <apex:dataTable value="{!relatedTo.Purchase_Orders__r}" rowClasses="tRowOdd, tRowEven" headerClass="tableHead" var="o" cellpadding="5" border="1">
+                            <apex:column >
+                                <apex:facet name="header">PO Number</apex:facet>
+                                {!o.PO_Number__c}
+                            </apex:column>
+                            <apex:column >
+                                <apex:facet name="header">Barrel Order Number</apex:facet>
+                                {!o.Barrel_Order_Number__c}
+                            </apex:column>
+                            <apex:column >
+                                <apex:facet name="header">Barrel Number</apex:facet>
+                                {!o.Barrel_Number_txt__c}
+                            </apex:column>
+                        </apex:dataTable>
+                        <br></br>
+                    </apex:outputPanel>
+                </td>
+            </tr>
+            <tr valign="bottom">
+            <td style="font-family: Arial, Helvetica, sans-serif;">
+                <br></br>
+                Thank you,
+                <br></br>
+                Beam Suntory Customer Service
+                <br></br>
+                <br></br>
+            </td>
+            </tr>                
+        </tbody>
+    </table>
+</body>
+
+</html>
+{!relatedTo.Thread__c}
+</messaging:htmlEmailBody>
+</messaging:emailTemplate>

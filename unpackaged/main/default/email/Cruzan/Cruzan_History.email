@@ -1,0 +1,8 @@
+<p>Dear {!Contact.FirstName},</p>
+<p>Thank you for contacting Cruzan Rum. We always like to hear from our consumers.</p>
+<p>The new Cruzan Rum label is a tribute to the Nelthropp family and their rich history producing premium rum on St. Croix.  The Nelthropp family's roots are in old England, hence the family crest you see on many Cruzan products.  But it was from Denmark, in the 18th Century, that the Nelthropp's ancestors set sail for the new world, St. Croix.  If you visit the Cruzan rum website at www.cruzanrum.com, you can see videos of Gary Nelthropp, the President of Cruzan Rum, explaining their family history and their ties to the island.</p>
+<p>{!Case.OwnerFullName}<br />
+<strong>Cruzan® Customer Care Representative</strong><br />
+<img src="{!$Label.SF_Base_URL_BrandLogo}Cruzan.png" alt=""  width="120px" /><br />
+<a href="https://www.facebook.com/CruzanRum"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}facebook.png" width="20" alt="" /></a> <a href="https://twitter.com/CruzanRum"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}twitter.png" width="20" alt="" /></a> <a href="https://www.youtube.com/user/OfficialCruzanRum"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}youtube.png" width="20" alt="" /></a> <br />
+<a href="http://www.drinksmart.com"><img src="{!$Label.SF_Base_URL_BrandLogo}DrinkSmart.png" width="120" title="Drink Smart" alt="Drink Smart" /></a></p>

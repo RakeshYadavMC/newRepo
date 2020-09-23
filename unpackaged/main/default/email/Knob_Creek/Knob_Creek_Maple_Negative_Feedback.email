@@ -1,0 +1,7 @@
+<p>Dear {!Contact.FirstName},</p>
+<p>We created Smoked Maple to embody Booker Noe's two favorite flavors –smoked and maple, but we realize it is not for everyone. We appreciate the feedback, and we promise that our standard Knob Creek bourbon will always remain available if its big, full bourbon flavor is more to your liking. Thanks.</p>
+<p>{!Case.OwnerFullName}<br />
+<strong>Knob Creek® Customer Care Representative</strong><br />
+<img src="{!$Label.SF_Base_URL_BrandLogo}KnobCreek.png" alt=""  width="120px" /><br />
+<a href="https://www.facebook.com/KnobCreek"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}facebook.png" width="20" alt="" /></a> <a href="https://twitter.com/knobcreek"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}twitter.png" width="20" alt="" /></a> <a href="https://instagram.com/knobcreekbourbon"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}instagram.png" width="20" alt="" /></a> <a href="https://www.youtube.com/user/knobcreek"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}youtube.png" width="20" alt="" /></a> <br />
+<a href="http://www.drinksmart.com"><img src="{!$Label.SF_Base_URL_BrandLogo}DrinkSmart.png" width="120" title="Drink Smart" alt="Drink Smart" /></a></p>

@@ -1,0 +1,10 @@
+<p>Dear {!Contact.FirstName},</p>
+<p>Thanks for your interest in DeKuyper® Cordials &amp; Liqueurs. </p>
+<p>All 59 of our cordials and liqueurs received kosher certification from the Union of Orthodox Jewish Congregations of America (OU). Beginning in February 2008, all DeKuyper products will carry the OU seal, which designates that they are formally manufactured under the supervision of the Kashruth Division of the OU.</p>
+<p>For more than 80 years, the OU has maintained the highest standard of kosher supervision.  The OU logo indicates that the product may be consumed by all those who observe kosher dietary laws, as well as by many others who have special dietary requirements.  According to the OU, the Beam Suntory facility produces the most kosher certified spirits in the country.</p>
+<p>If you need to know more about the kosher status, we suggest that you call the OU office at 212-563-4000 and ask for the rabbi who deals with DeKuyper® Cordials &amp; Liqueurs certification.</p>
+<p>{!Case.OwnerFullName}<br />
+<strong>Dekuyper® Customer Care Representative</strong><br />
+<img src="{!$Label.SF_Base_URL_BrandLogo}Dekuyper.png" alt=""  width="120px" /><br />
+<a href="https://www.facebook.com/DekuyperUSA"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}facebook.png" width="20" alt="" /></a> <a href="http://www.pinterest.com/DekuyperUSA/"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}pinterest.png" width="20" alt="" /></a> <br />
+<a href="http://www.drinksmart.com"><img src="{!$Label.SF_Base_URL_BrandLogo}DrinkSmart.png" width="120" title="Drink Smart" alt="Drink Smart" /></a></p>

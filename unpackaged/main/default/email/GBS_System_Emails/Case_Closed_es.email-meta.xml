@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Case Closed Notification to Submitter in Spanish (Spain)</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Blank_Letterhead</letterhead>
+    <name>Case Closed (es)</name>
+    <style>freeForm</style>
+    <subject>Case has been closed - {!Case.Subject}</subject>
+    <textOnly>Hola {!Case.Submitter_First_Name__c}, a continuación encontrará los detalles del caso.
+Caso:{!Case.CaseNumber} - {!Case.Category_1__c} - {!Case.Category_2__c}
+
+Su caso #{!Case.CaseNumber} ha sido cerrado, encuentre los detalles de la resolución a continuación: {!Case.Case_Resolution_Details__c}
+
+Por favor regálanos 5 segundos para la siguiente encuesta, es solo 1 pregunta.
+Como calificarías tu experiencia con GBS?
+
+Si desea reabrir este caso, solo responda con REOPEN CASE en el asunto dentro de los siguientes 5 días. Por favor incluya la razón por la cual este caso debe ser reabierto.
+
+
+
+
+
+Para volver a abrir su caso desde el portal, inicie sesión y haga clic en la pestaña &quot;&quot;Mis casos&quot;&quot;, seleccione la pestaña &quot;&quot;Mis casos cerrados&quot;&quot; y haga clic en el botón &quot;&quot;Volver a abrir el caso&quot;&quot;. Al hacer clic en el botón Re-abrir, agregue el motivo para volver a abrir el caso en la ventana emergente. Tenga en cuenta que: el botón solo estará disponible durante los siguientes 5 días, después de lo cual estará &quot;&quot;desactivado&quot;&quot; y atenuado.
+Haga clic abajo para ver su caso:
+{!$Label.Base_Company_Community_URL}{!Case.Id}
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

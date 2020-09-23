@@ -1,0 +1,7 @@
+<messaging:emailTemplate subject="Beam Suntory Bonus Coupon for {!relatedTo.AccountName__c}" recipientType="Contact" relatedToType="Bonus_Coupon__c">
+<messaging:htmlEmailBody >
+
+    <c:BSM_Coupon_HTML bonusCoupon="{!relatedTo}" emailPrint="email" />
+
+</messaging:htmlEmailBody>
+</messaging:emailTemplate>

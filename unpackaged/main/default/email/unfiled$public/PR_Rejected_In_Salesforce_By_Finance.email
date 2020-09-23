@@ -1,0 +1,14 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<p class="MsoNormal" style="color: rgb(0, 0, 0); font-size: 12pt; font-family: arial;"></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial;">Hello {!PR_Header__c.OwnerFullName},</p><p class="MsoNormal" style=""><font face="arial" style="color: rgb(0, 0, 0);">Salesforce Request # </font><font face="arial" style="color: rgb(0, 0, 0);"><b><a href="{!PR_Header__c.Link}">{!PR_Header__c.Name}</a>&nbsp;</b></font><font face="arial" style="color: rgb(0, 0, 0);">for vendor&nbsp;</font><font face="arial" style=""><b style="color: rgb(0, 0, 0);">{!PR_Header__c.Vendor_Name__c}&nbsp;</b>was <font color="#ff0000"><b><u>REJECTED</u></b></font> by </font><b style="color: rgb(0, 0, 0); font-family: arial;">Finance.&nbsp;&nbsp;</b></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: &quot;Times New Roman&quot;;"><b style="font-family: arial; font-size: 12pt;">Reviewer</b><span style="font-family: arial;"><b>:&nbsp;</b></span><span style="font-family: arial; font-size: 12pt;">{!User.Name}</span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: &quot;Times New Roman&quot;;"><span style="font-family: arial;"><b>Comments:&nbsp;</b></span><font face="arial">{!ApprovalRequest.Comments}</font></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial;">Thanks,<o:p></o:p></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial;">
+
+
+
+
+
+
+
+</p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial;">NA Controllership Team<span style="font-size: 12pt;"><o:p></o:p></span></p><p style="color: rgb(0, 0, 0); font-size: 12pt; font-family: arial;"></p>]]></td>
+</tr>
+</table>

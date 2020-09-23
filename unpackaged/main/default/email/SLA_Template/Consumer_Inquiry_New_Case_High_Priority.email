@@ -1,0 +1,6 @@
+Hi {!Case.OwnerFullName}
+
+{!Case.Priority} Case {!Case.CaseNumber} # - {!Case.How_can_we_help__c} - '{!Case.AdditionalInformation__c}' is created on {!DATETIMEVALUE(Case.CreatedDate)} and not picked since last 24 hrs. It needs to be reviewed immediately
+
+Thank You
+Beam Suntory

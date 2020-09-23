@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Case Escalated Notification to Owner in French</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Blank_Letterhead</letterhead>
+    <name>Case Escalated (fr)</name>
+    <style>freeForm</style>
+    <subject>Case #{!Case.CaseNumber} has been escalated - {!Case.Subject}</subject>
+    <textOnly>Bonjour {!Case.OwnerFirstName},
+
+votre requête no {!Case.CaseNumber} a été remontée car elle présente un risque de violation ou a violé le contrat de niveau de service.
+
+Cette requête a le statut {!Case.Status} et a été ouverte pour {!Case.Case_Time_Elapsed__c} à compter de cette notification. Intervenez sur cette requête !
+
+Click below to see your case:
+{!Case.Link}
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

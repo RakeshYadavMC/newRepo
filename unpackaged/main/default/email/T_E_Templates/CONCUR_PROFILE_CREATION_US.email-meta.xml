@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BeamSuntory_Letterhead</letterhead>
+    <name>CONCUR PROFILE CREATION (US)</name>
+    <style>freeForm</style>
+    <subject>Your Concur profile has been created</subject>
+    <textOnly>Your Concur profile has been created and instructions to record travel and expenses have been sent under separate cover. The email will come from GBS_NA_TravelExpense@beamsuntory.com and includes important information on the following:
+
+Single Sign On and Concur mobile app usage (for both Beam and personal phones)
+Setting up personal banking information (required to begin submitting expenses)
+Verification of your email address to enable e-receipt functionality
+Travel profile setup
+Important information regarding business partnerships with companies such as Uber and Amazon for Business
+
+The email will arrive in your inbox shortly. Please be sure to reach out to T&amp;E at GBS_NA_TravelExpense@beamsuntory.com for more information or if you have any questions/concerns. Thank you!</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

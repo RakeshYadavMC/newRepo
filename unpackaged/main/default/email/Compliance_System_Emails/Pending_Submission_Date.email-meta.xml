@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Used for State License Registration process if due date is 60 days</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BeamSuntory_Letterhead</letterhead>
+    <name>Pending Submission Date</name>
+    <style>freeForm</style>
+    <subject>Pending Submission Date : Case # {!Case.CaseNumber} -{!Case.State__c}</subject>
+    <textOnly>Hello,
+
+Please note that the license for this case # {!Case.CaseNumber}, State -{!Case.State__c} is due in 60 days. Coordinator please take ownership of case accordingly
+
+
+Thank you !
+
+
+
+
+
+
+
+
+
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

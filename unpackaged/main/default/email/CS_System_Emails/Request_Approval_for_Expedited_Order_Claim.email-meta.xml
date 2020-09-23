@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Sent to the manager of the owner of a case asking for permisson to expedite an order claim</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BeamSuntory_Letterhead</letterhead>
+    <name>Request Approval for Expedited Order Claim</name>
+    <style>freeForm</style>
+    <subject>Request to Expedite Order Claim #{!Case.CaseNumber}</subject>
+    <textOnly>{!Approval_Requesting_User.Name} has requested your approval for expediting an order claim.
+
+To approve or reject this item, reply to this email with the word APPROVE, APPROVED, YES, REJECT, REJECTED, or NO in the first line of the email message, or click this link:
+
+Go To Approval Page
+
+
+
+If replying via email you can also add comments on the second line. The comments will be stored with the approval request in Salesforce CRM.
+
+Note: For salesforce.com to process your response the word APPROVE, APPROVED, YES, REJECT, REJECTED, or NO must be in the very first line of the reply email. Also, any comment must be in the second line.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,14 @@
+<p>Dear {!Case.OwnerFullName}:  <br />
+Thank you for bringing your concerns about {!Case.Brand__c} to our attention.  As a consumer of our brands, you are very important to us and we appreciate customer feedback as we strive to deliver the highest quality {!Case.Brand__c} (vodka, bourbon).     </p>
+<p>We sent your sample to our Quality team to review the product.  It has passed product qualifications and falls within the acceptable standard range set by Beam Suntory. Please understand it is normal to see subtle shifts in taste from batch to batch for reasons such as the heat, the cold, or the growing seasons of our grain. Therefore, rest assured, we test our spirits extensively to ensure that we are within minimal shifts in taste, aroma and finish, so we can feel confident we are delivering a consistent product.   </p>
+<p><span class="caps">BELOW</span> <span class="caps">FOR</span> CO, DC, FL, IL, NY <span class="caps">ONLY</span> <br />
+At Beam Suntory, we believe your opinion of our product is most important. Therefore, as a special thank you for sharing your concerns with us, we have also enclosed a coupon code courtesy of Drizly below valid for first time Drizly users. Please note that the user must be at least 21 years old and the offer includes both alcoholic and non-alcoholic items. </p>
+<p>Please do not hesitate to contact us in the future with any other questions or concerns. <br />
+Code: <span class="caps">BEAMSUNTORY</span> <br />
+Offer: $5 off order total <br />
+Valid for: Drizly first time users <br />
+Use by: 12/31/2018 </p>
+<p>Please do not hesitate to contact us in the future with any other questions or concerns. </p>
+<p>Sincerely, <br />
+Teresa Wittemer-Beam Suntory<br />
+Quality Project Specialist </p>

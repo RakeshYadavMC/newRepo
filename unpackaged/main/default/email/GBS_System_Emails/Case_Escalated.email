@@ -1,0 +1,11 @@
+<messaging:emailTemplate subject="Case #{!relatedTo.CaseNumber} has been escalated - {!relatedTo.Subject}" recipientType="User" relatedToType="Case" Language="{!recipient.LanguageLocaleKey}">
+
+
+    <messaging:htmlEmailBody >
+        <c:GBSMultipleLanguageEmail WhatId="{!relatedTo.Id}" WhoId="{!relatedTo.OwnerId}" TemplateDeveloperName="{!$Label.Case_Escalated}" HTML="true"/>
+    </messaging:htmlEmailBody>
+    <messaging:plainTextEmailBody >
+        <c:GBSMultipleLanguageEmail WhatId="{!relatedTo.Id}" WhoId="{!relatedTo.OwnerId}" TemplateDeveloperName="{!$Label.Case_Escalated}" HTML="false"/>
+    </messaging:plainTextEmailBody>
+
+</messaging:emailTemplate>

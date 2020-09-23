@@ -1,0 +1,20 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<p class="MsoNormal">Lieber {! Contact.Name},<o:p></o:p></p>
+
+<p class="MsoNormal"><span style="font-size: 12pt;">Vielen Dank, dass Sie die Anmeldung bei der Beam Suntory
+Company Community begonnen haben. Leider benötigen wir weitere Informationen,
+um Ihr Lieferantenkonto zu genehmigen. Bitte erkundigen Sie sich bei Ihrem Beam
+Suntory-Ansprechpartner, ob Lieferant und / oder die richtigen Informationen in
+unserer Datenbank hinterlegt sind, und senden Sie Ihre Anmeldung erneut.</span></p><p class="MsoNormal"><o:p></o:p></p>
+
+<p class="MsoNormal"><span style="font-size: 12pt;"><br></span></p><p class="MsoNormal"><span style="font-size: 12pt;">Vielen Dank,</span></p><p class="MsoNormal"><o:p></o:p></p>
+
+<p class="MsoNormal">Beam Suntory<o:p></o:p></p><p class="MsoNormal"><br></p>
+
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal">{! Case.Thread_Id}<o:p></o:p></p><br>]]></td>
+</tr>
+</table>

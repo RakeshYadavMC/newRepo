@@ -1,0 +1,6 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<div style="font-size: 12pt;"><div><span style="font-size: 12pt;">{!Case.State__c}'s finalized {!Case.Related_Month__c} {!Case.Year__c} workbook has been uploaded for this Price Filing Case in Salesforce and is attached to this email.</span></div><div><span style="font-size: 12pt;"><br></span></div><div>The Price Filing is due by {!Case.Due_Date__c}. Please navigate to the Filing Approval tab to Approve or Reject the price changes.</div></div><div style="font-size: 12pt;"><br></div><div style="font-size: 12pt;"><br></div><div style="font-size: 12pt;">Click <a href="{!Case.Link}">here</a> to view this Case in Salesforce</div><div style=""><br></div><div style="">In order to ensure your response email is received and recorded properly, please always select Reply All and do not modify the following identifier:&nbsp;</div><div style=""><font size="1">{!Case.Thread_Id}</font></div>]]></td>
+</tr>
+</table>

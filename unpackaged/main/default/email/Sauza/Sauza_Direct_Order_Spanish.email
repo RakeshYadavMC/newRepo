@@ -1,0 +1,10 @@
+<p>Gracias por su mensaje de correo electrónico. Siempre estamos interesados en saber de los entusiastas de Tequila Sauza®.</p>
+<p>Le recomendamos que consulte con un distribuidor de licores de su localidad para ordenar el tequila Sauza®.  Si encuentra algún problema, por favor háganoslo saber.</p>
+<p>Desafortunadamente, el envío y la recepción de bebidas alcohólicas en Estados Unidos están regulados estrictamente y nosotros no podemos aceptar pedidos en línea.</p>
+<p>Para conocer todas las formas de disfrutar los tequilas Sauza, visite sauzatequila.com, donde se encuentran atractivas secciones y recetas. Recuerde que para visitar el sitio usted debe tener la edad legal para comprar bebidas alcohólicas.</p>
+<p>Nos encanta recibir correos de nuestros consumidores. Le agradecemos nuevamente por haberse puesto en contacto con nosotros. Que tenga un espléndido día.</p>
+<p>{!Case.OwnerFullName}<br />
+<strong>Sauza® Customer Care Representative</strong><br />
+<img src="{!$Label.SF_Base_URL_BrandLogo}Sauza.png" alt=""  width="120px" /><br />
+<a href="https://www.facebook.com/SauzaTequila"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}facebook.png" width="20" alt="" /></a> <a href="https://twitter.com/Sauza"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}twitter.png" width="20" alt="" /></a> <a href="https://instagram.com/SauzaMargaritas"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}instagram.png" width="20" alt="" /></a> <a href="http://www.pinterest.com/SauzaTequila/"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}pinterest.png" width="20" alt="" /></a> <a href="https://www.youtube.com/SauzaMargaritas"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}youtube.png" width="20" alt="" /></a> <br />
+<a href="http://www.drinksmart.com"><img src="{!$Label.SF_Base_URL_BrandLogo}DrinkSmart.png" width="120" title="Drink Smart" alt="Drink Smart" /></a></p>

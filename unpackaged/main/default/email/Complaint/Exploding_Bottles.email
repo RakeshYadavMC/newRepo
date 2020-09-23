@@ -1,0 +1,3 @@
+<p>Thanks for contacting us regarding {!Case.Template_Product_Name__c}. Spirits are best kept at an average room temperature, if the bottle is exposed to increased heat (e.g. left in a hot car) this will cause the liquid to expand. The increase in pressure can compromise the bottle closure causing a leak or break.  <br />
+ <br />
+I would still like you to enjoy a bottle of {!Case.Template_Product_Name__c}. If you purchase another and reply with a copy of your receipt, I&#39;m happy to provide a reimbursement</p>

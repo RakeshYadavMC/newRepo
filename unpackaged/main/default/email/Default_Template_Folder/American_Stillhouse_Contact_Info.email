@@ -1,0 +1,2 @@
+<p>Hello {!Contact.FirstName},</p>
+<p>Thank you for reaching out and for your interest in {!Case.Product_Type__c} For that question, we recommend that you contact our American Stillhouse visitor experience staff. They can be reached via email at AmericanStillhouseInquiries@beamsuntory.com or by phone at (502) 543-9877. Cheers!</p>

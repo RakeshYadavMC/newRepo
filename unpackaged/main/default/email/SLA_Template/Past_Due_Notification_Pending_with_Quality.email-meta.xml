@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Past Due Notification: Pending with Quality</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Past Due Notification: Pending with Quality_v1</name>
+    <style>none</style>
+    <subject>Past Due Notification: Pending with Quality -: [ {!Case.Thread_Id} ]</subject>
+    <textOnly>Hi {!Case.OwnerFullName}
+
+{!Case.Priority} Priority Case {!Case.CaseNumber} # - {!Case.How_can_we_help__c} - &apos;{!Case.AdditionalInformation__c}&apos; is pending with Quality since last 168 hrs and needs to be reviewed immediately.
+
+Thank you
+Beam Suntory</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

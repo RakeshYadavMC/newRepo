@@ -1,0 +1,6 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<div><span style="font-size: 12pt;">The Workbook for this Case was Rejected by Commercial Finance.</span></div><div><span style="font-size: 12pt;"><br></span></div><div>Comments from Commercial Finance, if entered, can be seen below:</div><div><i>{!Case.Document_Change_Description__c}</i></div><div><br></div><div>Please revise the document and attach it to a response to this email.</div><div><div><br></div><div>Click&nbsp;<a href="https://beamsuntory--aleclab.cs14.my.salesforce.com/p/email/template/EmailTemplateEditorUi/{!Case.Link}">here</a>&nbsp;to view this Case in Salesforce.</div><div><br></div><div><br></div><div><span style="font-size: x-small; background-color: rgb(255, 255, 255);">{!Case.Thread_Id}</span></div></div>]]></td>
+</tr>
+</table>

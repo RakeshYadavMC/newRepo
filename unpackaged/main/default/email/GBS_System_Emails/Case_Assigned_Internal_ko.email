@@ -1,0 +1,11 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<table border="0" cellpadding="0" cellspacing="0" width="984" style="border-collapse:
+ collapse;width:738pt"><tbody><tr height="39" style="height:29.0pt">
+  <td height="39" class="xl65" width="984" style="height:29.0pt;width:738pt">안녕하세요
+  {!Case.OwnerFirstName}님, 케이스 #{!Case.CaseNumber}는 {!User.FirstName}
+  {!User.LastName} ({!User.Email})에 의해 당신에게 배정되었습니다. 케이스를 확인하려면 아래를 클릭합니다:
+  {!Case.Link} <br><br>{!Case.Thread_Id}</td></tr></tbody></table>]]></td>
+</tr>
+</table>

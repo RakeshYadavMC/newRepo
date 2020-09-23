@@ -1,0 +1,6 @@
+<p>Hi {!Contact.FirstName},</p>
+<p>Thank you for your inquiry. We have decided to discontinue production of Jim Beam Maple so you’ll no longer be able to purchase it. We hope that one of our Jim Beam family bourbons will be to your liking: <a href="https://www.jimbeam.com/bourbons">https://www.jimbeam.com/bourbons </a></p>
+<p>Cheers,<br />
+{!Case.OwnerFullName}</p>
+
+Thanks,

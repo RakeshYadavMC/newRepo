@@ -1,0 +1,5 @@
+<p>Hi {!Case.OwnerFullName}</p>
+<p>{!Case.Priority} Priority Case <a href="{!Case.Link}"># {!Case.CaseNumber}</a> - {!Case.How_can_we_help__c} - {!Case.AdditionalInformation__c} is created on {!DATETIMEVALUE(Case.CreatedDate)} and needs to be reviewed.
+</p>
+
+<p>Thank You<br/>Beam Suntory</p>

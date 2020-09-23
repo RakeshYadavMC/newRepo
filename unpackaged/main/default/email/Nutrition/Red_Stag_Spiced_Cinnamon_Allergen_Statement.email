@@ -1,0 +1,31 @@
+<p>Dear {!Contact.FirstName},</p>
+<p><span class="caps">ALLERGEN</span> <span class="caps">STATEMENT</span><br />
+<span class="caps">RED</span> <span class="caps">STAG</span> <span class="caps">SPICED</span> <span class="caps">CINNAMON</span> <br />
+<span class="caps">BOURBON</span> <span class="caps">INFUSED</span> <span class="caps">WITH</span> <span class="caps">NATURAL</span> <span class="caps">FLAVORS</span>, 40% <span class="caps">ABV</span><br />
+We have reviewed the above mentioned product for ingredients know to elicit an allergenic reaction. Please be advised that this product contains the following allergens as indicated.</p>
+<p>Allergen        Contains        Does Not Contain<br />
+Wheat Containing Gluten        <br />
+X<br />
+Eggs and products thereof        <br />
+X<br />
+Fish and products thereof        <br />
+X<br />
+Milk and products thereof (including lactose)        <br />
+X<br />
+Peanuts and products thereof        <br />
+X<br />
+Shellfish and products thereof        <br />
+X<br />
+Soybeans and products thereof        <br />
+X<br />
+Sulphites &gt; 10 pmm expressed as <span class="caps">SO2</span>        <br />
+X<br />
+Tree Nuts and products thereof        <br />
+X</p>
+<p>Ingredients in this product may be derived from potential allergenic materials; however the protein does not carry through distillation.<br />
+Beam Suntory does not advise legal age adults whether to drink or not to drink; this is a decision you may want to discuss with your physician if you have any questions. Your physician may be able to provide personalized advice about this issue based on the information provided above.</p>
+<p>{!Case.OwnerFullName}<br />
+<strong>Jim Beam® Customer Care Representative</strong><br />
+<img src="{!$Label.SF_Base_URL_BrandLogo}JimBeam.png" alt=""  width="120px" /> <br />
+<a href="https://www.facebook.com/JimBeamUS"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}facebook.png" width="20" alt="" /></a> <a href="https://twitter.com/JimBeam"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}twitter.png" width="20" alt="" /></a> <a href="https://instagram.com/Jimbeamofficial"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}instagram.png" width="20" alt="" /></a> <a href="http://www.pinterest.com/jimbeamofficial/"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}pinterest.png" width="20" alt="" /></a> <a href="https://www.youtube.com/JimBeam"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}youtube.png" width="20" alt="" /></a> <br />
+<a href="http://www.drinksmart.com"><img src="{!$Label.SF_Base_URL_BrandLogo}DrinkSmart.png" width="120" title="Drink Smart" alt="Drink Smart" /></a></p>

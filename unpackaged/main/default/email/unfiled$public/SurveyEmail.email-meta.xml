@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BeamSuntory_Letterhead</letterhead>
+    <name>SurveyEmail</name>
+    <style>freeForm</style>
+    <subject>Tell Us How We Did!</subject>
+    <textOnly>Dear {!Case.Contact},
+
+We value your opinion. Please take 5 minutes to fill out the below survey to tell us how we did in servicing {!Case.Id}.
+
+Survey Link: https://beamsuntory--beamcm--c.cs18.visual.force.com/apex/TakeSurvey?id=a2111000000RN8iAAG&amp;cId={!Contact.Id}&amp;caId={!Case.Id}
+
+Kind Regards,
+
+Beam Suntory Customer Service</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

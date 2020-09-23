@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BeamSuntory_Letterhead</letterhead>
+    <name>Delay Notification</name>
+    <style>freeForm</style>
+    <subject>{!Case.CaseNumber} - {!Case.RecordType} - Delay Notification</subject>
+    <textOnly>Hello,
+
+The following product is temporarily unavailable for order at this time.
+
+Product:
+Available: We will advise of a future availability date.
+
+This  delay has impacted the following order(s). Please see the &quot;item status&quot; row for the action that was taken.
+
+Item Status:
+Customer Name:
+Order:
+PO:
+Item #/Upc#:
+Qty (cs):
+Ship Date:
+
+We apologize for the inconvenience,
+
+Beam Suntory Customer Service
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,6 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span style="font-size: 12pt;">Your Request has been rejected.</span></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="arial"><br></font></div><div style=""><div><font face="arial" style="font-size: 12pt;"><span style="font-size: 12pt;">The Request you created</span><span style="font-size: 12pt;">&nbsp;for&nbsp;</span></font><font face="arial">{!Account.Name}<span style="font-size: 12pt;">&nbsp;has been rejected.</span></font></div><div style="font-size: 12pt;"><font face="arial"><br></font></div><div style="font-size: 12pt;"><font face="arial" style="font-size: 12pt;">Click on this link to view the Request.&nbsp;</font><font face="arial">{!gvp__Retail_Ad__c.Link}</font></div></div>]]></td>
+</tr>
+</table>

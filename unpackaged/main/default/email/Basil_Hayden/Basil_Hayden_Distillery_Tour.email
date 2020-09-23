@@ -1,0 +1,15 @@
+<p>Dear {!Contact.FirstName},</p>
+<p>Thank you for contacting {!Case.Brand__c} We'd love to host you at the American Stillhouse in Clermont, Kentucky.</p>
+<p>Here you will learn more about the bourbon process while experiencing the sights, sounds, and smells of the distillery. You tour will last approximately 1 hour and will conclude with a tasting. Tours start every 30 minutes and cost $8. Active members of the United States Military tour for free with military ID.</p>
+<p>For more information or to order your tickets online, visit the American Stillhouse at www.americanstillhouse.com. </p>
+<p>Directions:<br />
+The distillery is only 22 miles south of Louisville off I-65. From Louisville, take I-65 south. Take Exit 112 (KY 245) east toward Clermont/Bardstown. Drive 1.8 miles, turn left onto Happy Hollow Road. From Lexington, take Bluegrass Parkway West. Take Exit 25 (US 150). Drive north toward Bardstown and turn right onto KY 245. Drive 13.5 miles, turn right onto Happy Hollow Road.</p>
+<p>Open:<br />
+Monday –Saturday –9:00 AM to 5:30 PM <span class="caps">EST</span>. Guided Tours every half hour starting at 9:30 a.m. until 3:30 p.m.  No Tour at 12:30 p.m.</p>
+<p>Sunday –Noon until 4:30 PM <span class="caps">EST</span>. Guided Tours every half hour starting at 12:30 p.m. until 3 p.m.</p>
+<p>Our Kentucky distillery offers bourbon tastings and sales daily. Must be 21+ to participate. We are closed on Sundays in January and February, as well as New Year's Day, Easter, Thanksgiving Day, Christmas Eve, and Christmas Day.</p>
+<p>Contact Info:<br />
+526 Happy Hollow Road<br />
+Clermont, Kentucky 40110<br />
+502-543-9877</p>
+<p>Thank you for being a {!Case.Brand__c} fan, and we hope to see you at the American Stillhouse!</p>

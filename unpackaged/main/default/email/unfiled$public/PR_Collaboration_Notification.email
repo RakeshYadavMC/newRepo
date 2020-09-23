@@ -1,0 +1,6 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial;">Hello {!PR_Team__c.Collaborator__c},</p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial;"><font face="arial" style="color: rgb(0, 0, 0); font-family: arial;">You have been invited by <b>{!PR_Team__c.CreatedBy}</b>&nbsp;to collaborate on Salesforce Request <b>#&nbsp;</b></font><font face="arial" style="color: rgb(0, 0, 0); font-family: arial;"><b><a href="{!PR_Header__c.Link}">{!PR_Team__c.PR_Header__c}</a></b></font><font face="arial">&nbsp;for vendor <b>{!PR_Team__c.Vendor_Name__c}</b><b>.</b>&nbsp;&nbsp;</font></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial;"><span style="font-size: 12pt;">Thanks,</span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial;"><font face="arial" style="">NA Controllership Team</font></p>]]></td>
+</tr>
+</table>

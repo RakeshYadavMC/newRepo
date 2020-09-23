@@ -1,0 +1,24 @@
+<p>Dear {!Contact.FirstName},</p>
+<p>Thank you for contacting Cruzan® Rum! To schedule a tour of our distillery in St. Croix, U.S. Virgin Islands, you can contact the Cruzan tour manager by using the contact information below:<br />
+Karen N. Low<br />
+Manager Guest Relations<br />
+340-712-2723<br />
+Karen.Low@cruzanrum.com</p>
+<p>Tour Hours During the Season (first week of November through the second week of April):<br />
+Monday through Friday, From 9:00 am - 4:30 pm.<br />
+Saturday and Sundays from 10:00 am - 2:00 pm.</p>
+<p>The tour leaves every 30 minutes form the top of the hour.<br />
+Tour fee: $5.00/adult, $1.00/minor (6 to 17 years old), (5 years old and under - free Admission)
+A guided tour of the Cruzan Rum distillery takes approximately 30 minutes. The tour entails a walk through the Mixing Tank Room, the Fermentation Room, the Still House, the Warehouse, and the Filter Room. Please wear flat, comfortable shoes to take part in the walking tour. Guests should be prepared to climb some stairs and stand for short periods of time.</p>
+<p>The Pavilion Visitors' Center houses the Gift Shop and our famous “Don't Hurry” Tasting Room, where guests are invited to sample our award-winning rums.  Guests also have an opportunity to learn how to create our fun cocktails and relax island style! Our gift store has many items for sale including hats, T-shirts, shot glasses, Tervis tumblers, and of course, <span class="caps">RUM</span>! We do not accept cash but we do accept credit cards (Mastercard, Visa, and Discover).  </p>
+<p>Please drink responsibly and do not forget that we drive on the left side of the road (#DrinkSmart!)</p>
+<p>When cruise ships are in port, the distillery is busy with guests from the ship. In order to avoid the crowds, we recommend a visit us between the hours 9:00 and 11:00 am.</p>
+<p>The drive from the cruise ship port to the Cruzan Distillery is about 10 minutes. The Taxi fare is around $20.00 round trip.</p>
+<p>Walking is not recommended, as the path between the port and the distillery is a busy road. It is approximately 5 miles from the cruise ship port to Cruzan Distillery.</p>
+<p>Please note that we do not ship any of our rum, but if you are flying from St. Croix (<span class="caps">STX</span>) you are permitted by the airlines to bring 6 bottles of alcohol. One of these bottles must be a locally made product (Cruzan Rum) and it is exempt from being charged as a checked bag. You simply check it in your luggage and pick it up at your final destination.  Because the airlines allow it to fly for free, they are not held responsible for any broken bottles (Don't worry, we offer bubble wrap to help protect your rum).</p>
+<p>Thank you for being a {!Case.Product_Type__c} fan, and we hope to see you at the distillery!</p>
+<p>{!Case.OwnerFullName}<br />
+<strong>Cruzan® Customer Care Representative</strong><br />
+<img src="{!$Label.SF_Base_URL_BrandLogo}Cruzan.png" alt=""  width="120px" /><br />
+<a href="https://www.facebook.com/CruzanRum"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}facebook.png" width="20" alt="" /></a> <a href="https://twitter.com/CruzanRum"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}twitter.png" width="20" alt="" /></a> <a href="https://www.youtube.com/user/OfficialCruzanRum"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}youtube.png" width="20" alt="" /></a> <br />
+<a href="http://www.drinksmart.com"><img src="{!$Label.SF_Base_URL_BrandLogo}DrinkSmart.png" width="120" title="Drink Smart" alt="Drink Smart" /></a></p>

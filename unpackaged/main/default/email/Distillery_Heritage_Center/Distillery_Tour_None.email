@@ -1,0 +1,3 @@
+<p>Dear {!Contact.FirstName},</p>
+<p>Thank you for contacting {!Case.Product_Type__c} Unfortunately, we do not host tours at the {!Case.Product_Type__c} distillery.</p>
+<p>Thank you for being a {!Case.Product_Type__c} fan!</p>

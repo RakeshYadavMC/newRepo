@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Denial Letter</name>
+    <style>freeForm</style>
+    <subject>Denial Letter</subject>
+    <textOnly>510 Lake Cook Road
+
+Deerfield, Illinois 60015-4964
+
+Telephone: (847) 948-8888
+
+
+Executive  Offices
+
+{!Today}
+
+Beam Order # {!Case.Beam_Suntory_Order_Number__c}
+Beam Return #
+
+Dear {!Case.Contact},
+
+We understand you have the following merchandise to be returned to our Frankfort, Kentucky plant:
+
+Product(s): {!Case.Product_Description__c} , {!Case.Product_Size__c}
+Customer PO:
+Bill of Lading:
+Beam Invoice:
+Carrier:
+
+Based on our investigation we cannot verify your claims. Jim Beam ships on an Ex-Distillery basis. Although we did the actual loading, the carrier is responsible for the proper count and stowing of the merchandise within the trailer.
+
+____ We recommend that you refer this claim to the carrier.
+
+____ Plant records show correct shipment. Please recheck your records.
+
+
+Best regards,
+
+Worldwide Customer Service Representative
+JIM BEAM BRANDS CO.
+510 Lake Cook Road
+
+{!Case.Thread_Id}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

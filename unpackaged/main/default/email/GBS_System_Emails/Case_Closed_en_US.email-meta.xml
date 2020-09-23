@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Case Closed Notification to Submitter</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Blank_Letterhead</letterhead>
+    <name>Case Closed (en_US)</name>
+    <style>freeForm</style>
+    <subject>Case #{!Case.CaseNumber} has been resolved; details enclosed</subject>
+    <textOnly>Hi {!Case.Submitter_First_Name__c},
+
+
+Your case #{!Case.CaseNumber} has been resolved with the following resolution details:
+
+
+{!Case.Case_Resolution_Details__c}
+
+Please take 5 seconds to answer this one question survey:
+
+How happy were you with the timeliness and accuracy of the resolution?
+
+
+
+Should you wish to reopen this case, just reply with REOPEN CASE in the subject within 5 days. Please include the reason why this case should be reopened.
+
+Instructions for re-opening the case:
+To re-open your case from community, please login and click on “My Cases” tab, select “My Closed Cases” view and click on “Re-open Case” button. Upon clicking the Re-open button please add the reason for reopening the case in the pop-up window. Please note: The button will only be available for five calendar days, after which it will be “disabled” and greyed out.
+
+Click below to see your case:
+{!$Label.Base_Company_Community_URL}{!Case.Id}
+
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

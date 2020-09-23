@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Template that is used when notifying the Compliance Coordinator that there is a new Case available.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BeamSuntory_Letterhead</letterhead>
+    <name>Quote Request New Quote Request Available</name>
+    <style>freeForm</style>
+    <subject>{!Case.Subject} - New Quote Request Submitted</subject>
+    <textOnly>A new Quote Request for your state has been submitted.
+
+State: {!Case.State__c}
+Item(s):
+[items]
+Submitter: {!Case.Submitter__c}
+Priority: {!Case.Priority}
+
+Click the link below to view this Case in Salesforce
+{!Case.Link}
+
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

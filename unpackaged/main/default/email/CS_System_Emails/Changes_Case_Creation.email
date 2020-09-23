@@ -1,0 +1,87 @@
+<messaging:emailTemplate subject="A Changes Case has been submitted: {!relatedTo.CaseNumber} [{!relatedTo.Thread__c}]" recipientType="User" relatedToType="Case">
+<messaging:htmlEmailBody >
+<html>
+
+    <body>
+    <table style="font-size: 15px;" cellpadding="0" width="500" cellspacing="0" id="topTable" height="450">
+        <tbody>
+            <tr valign="top">
+                <td style=" background-color:#FFFFFF; bEditID:r1st1; bLabel:header; vertical-align:middle; height:100; text-align:center;"><img border="0" beditid="r1sp1" blabel="headerImage" id="r1sp1" src="https://beamsuntory--c.na74.content.force.com/servlet/servlet.ImageServer?id=015o0000001Dyoa&oid=00Do0000000cCkJ"/></td>
+            </tr>
+            <tr valign="top">
+                <td style=" background-color:#CCCCCC; bEditID:r2st1; bLabel:accent1; height:2px;"></td>
+            </tr>
+            <tr valign="top">
+                <td style="font-family: Arial, Helvetica, sans-serif;">
+                    <br></br>
+                    <br></br>
+                    A Changes form has been submitted by <b>{!relatedTo.CreatedBy.Name}</b>.<br></br>
+                    The case number is: <b>{!relatedTo.CaseNumber}</b>.
+                    <br></br>
+                    <br></br>
+                    <b><u>Details:</u></b>
+                    <br></br>
+                    <br></br>
+                    <b>{!relatedTo.Subject}</b>
+                    <br></br>
+                    {!relatedTo.Description}
+                    <br></br>
+                    <apex:outputPanel style="{!IF(relatedTo.Type=='Document Request','','display:none;')}">
+                        <b>Document Type:</b>   {!relatedTo.Document_Types__c}
+                        <br></br>
+                        <b>Document Change Description:</b>   {!relatedTo.Document_Change_Description__c}
+                        <br></br>
+                        <b>Beam Suntory Order Number:</b>   {!relatedTo.Beam_Suntory_Order_Number__c}
+                        <br></br>
+                        <b>Purchase Order Number:</b>   {!relatedTo.Purchase_Order_Number__c} 
+                    </apex:outputPanel>
+                    
+                    <apex:outputPanel style="{!IF(OR(relatedTo.Change_Type__c=='Add Item',relatedTo.Change_Type__c=='Remove Item'),'','display:none;')}">
+                        <b>Beam Suntory Order Number:</b>   {!relatedTo.Beam_Suntory_Order_Number__c}
+                        <br></br>
+                        <b>Purchase Order Number:</b>   {!relatedTo.Purchase_Order_Number__c}
+                        <br></br>
+                        <b>Beam Suntory Item Number:</b>   {!relatedTo.Beam_Suntory_Item_Number__c}
+                        <br></br>
+                        <b>Product Description:</b>   {!relatedTo.Product_Description__c}
+                        <br></br>
+                        <b>Quantity Type:</b>   {!relatedTo.Quantity_Type__c}
+                        <br></br>
+                        <b>Quantity:</b>   {!relatedTo.Quantity__c}
+                        <br></br>
+                        <b>Additional Details:</b>   {!relatedTo.Additional_Details_Rich_Text__c} 
+                    </apex:outputPanel>
+                    
+                    <apex:outputPanel style="{!IF(OR(relatedTo.Change_Type__c=='Cancel',relatedTo.Change_Type__c=='Expediting',relatedTo.Change_Type__c=='Changing Carrier',relatedTo.Change_Type__c=='Ship Date Change',relatedTo.Change_Type__c=='Other'),'','display:none;')}">
+                        <b>Beam Suntory Order Number:</b>   {!relatedTo.Beam_Suntory_Order_Number__c}
+                        <br></br>
+                        <b>Purchase Order Number:</b>   {!relatedTo.Purchase_Order_Number__c}
+                        <br></br>
+                        <b>Change Description:</b>   {!relatedTo.Change_Description__c}
+                    </apex:outputPanel>
+                    
+                    <apex:outputPanel style="{!IF(OR(relatedTo.Change_Type__c=='New or Existing Item Setup',relatedTo.Change_Type__c=='Account Update'),'','display:none;')}">
+                        <b>Change Description:</b>   {!relatedTo.Change_Description__c}
+                    </apex:outputPanel>
+                    
+                </td>
+            </tr>
+            <tr valign="bottom">
+                <td style="font-family: Arial, Helvetica, sans-serif;">
+                    <br></br>
+                    <br></br>
+                    Thank you,
+                    <br></br>
+                    Beam Suntory Customer Service
+                    <br></br>
+                    <br></br>
+                </td>
+            </tr>                
+        </tbody>
+    </table>
+</body>
+
+</html>
+{!relatedTo.Thread__c}
+</messaging:htmlEmailBody>
+</messaging:emailTemplate>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>This email template created to use for sending acknowledgment to case owner</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Case Assignment Acknowledgment Template</name>
+    <style>none</style>
+    <subject>#{!Case.CaseNumber} - {!Case.How_can_we_help__c} - {!Case.AdditionalInformation__c} has been assigned to {!Case.OwnerFullName}</subject>
+    <textOnly>Hi {!Case.OwnerFullName}
+
+{!Case.Priority} Priority Case # {!Case.CaseNumber} - {!Case.How_can_we_help__c} -{!Case.AdditionalInformation__c} is created on {!DATETIMEVALUE(Case.CreatedDate)} and needs to be reviewed.
+
+You can quickly check on below link:
+{!Case.Link}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

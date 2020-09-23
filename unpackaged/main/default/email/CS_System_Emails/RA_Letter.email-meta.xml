@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>RA Letter</name>
+    <style>freeForm</style>
+    <subject>RA Letter</subject>
+    <textOnly>510 Lake Cook Road
+
+Deerfield, Illinois 60015-4964
+
+Telephone: (847) 948-8888
+
+
+Executive  Offices
+
+{!Today}
+
+Beam Order # {!Case.Beam_Suntory_Order_Number__c}
+Beam Return #
+{!Case.Account}
+
+Dear {!Case.Account},
+
+We understand you have the following merchandise to be returned to our Frankfort, Kentucky plant:
+
+Cases: {!Case.Quantity_Bottles_or_Cases__c}
+Size: {!Case.Product_Size__c}
+Product: {!Case.Product_Description__c}
+Proof:
+Material #:
+
+This letter will serve as your authorization to send this merchandise withing thirty (30) days to our Frankfort, Kentucky plant. Please arrange the return shipment yourself by calling UPS Freight at 1-800-333-7400. The freight will be collect, consign the shipment to:
+
+Jim Beam Brands Co,
+1509 US Highway 421 (Leeston Road)
+Frankfort, KY 40601
+
+A copy of the Bill of Lading should be sent to the attention of Customer Service Department at 510 Lake Cook Road, Deerfield, IL 60015.
+
+Per Beam&apos;s Claim Policy, all returns not received within thirty (30) days will be closed out and no longer accepted. Please communicate if there are any extenuating circumstances that will inhibit the return not arriving within this timeframe.
+
+Best regards,
+
+Worldwide Customer Service Representative
+JIM BEAM BRANDS CO.
+510 Lake Cook Road
+
+{!Case.Thread_Id}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

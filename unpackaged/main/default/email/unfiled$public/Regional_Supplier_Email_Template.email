@@ -1,0 +1,14 @@
+Hi,
+
+Please check the following details for inquiry case:
+
+Brand Name - {!Case.Brand__c}
+
+Consumer Details:
+First Name - {!Account.FirstName}
+Last Name - {!Account.LastName}
+Email - {!Contact.Email}
+Country - {!Case.Consumer_Country__c}
+Description - {!Case.Description}
+
+Thanks

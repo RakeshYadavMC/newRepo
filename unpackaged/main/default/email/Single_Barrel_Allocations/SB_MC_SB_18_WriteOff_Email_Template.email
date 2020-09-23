@@ -1,0 +1,8 @@
+<messaging:emailTemplate subject="Writtenoff unused barrels details for {!relatedTo.Time_Interval__c}" recipientType="User" relatedToType="Brand_Allocation__c">
+<messaging:htmlEmailBody >
+    Hi,<br/><br/>
+    <c:VS_SB2_WriteOffEmailTemplate allocationId="{!relatedTo.Id}"> </c:VS_SB2_WriteOffEmailTemplate> <br/><br/>
+    Thanks <br/>
+    Single Barrel Team
+    </messaging:htmlEmailBody>
+</messaging:emailTemplate>

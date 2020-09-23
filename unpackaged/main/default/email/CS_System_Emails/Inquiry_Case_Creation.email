@@ -1,0 +1,85 @@
+<messaging:emailTemplate subject="An Inquiry Case has been submitted: {!relatedTo.CaseNumber} [{!relatedTo.Thread__c}]" recipientType="User" relatedToType="Case">
+<messaging:htmlEmailBody >
+<html>
+    
+    <body>
+    <table style="font-size: 15px;" cellpadding="0" width="500" cellspacing="0" id="topTable" height="450">
+        <tbody>
+            <tr valign="top">
+                <td style=" background-color:#FFFFFF; bEditID:r1st1; bLabel:header; vertical-align:middle; height:100; text-align:center;"><img border="0" beditid="r1sp1" blabel="headerImage" id="r1sp1" src="https://beamsuntory--c.na74.content.force.com/servlet/servlet.ImageServer?id=015o0000001Dyoa&oid=00Do0000000cCkJ"/></td>
+            </tr>
+            <tr valign="top">
+                <td style=" background-color:#CCCCCC; bEditID:r2st1; bLabel:accent1; height:2px;"></td>
+            </tr>
+            <tr valign="top">
+                <td style="font-family: Arial, Helvetica, sans-serif;">
+                    <br></br>
+                    <br></br>
+                    An Inquiry form has been submitted by <b>{!relatedTo.CreatedBy.Name}</b>.<br></br> 
+                    The case number is: <b>{!relatedTo.CaseNumber}</b>.
+                    <br></br>
+                    <br></br>
+                    <b><u>Details:</u></b>
+                    <br></br>
+                    <br></br>
+                    <b>{!relatedTo.Subject}</b>
+                    <br></br>
+                    {!relatedTo.Description}
+                    <br></br>
+                    <apex:outputPanel style="{!IF(relatedTo.Type=='Existing Order Inquiry','','display:none;')}">
+                        <br></br>
+                        <b>Purchase Order Number:</b>  {!relatedTo.Purchase_Order_Number__c}
+                        <br></br>
+                        <b>Inquiry Type:</b>  {!relatedTo.Inquiry_Type__c}
+                        <br></br>
+                        <b>Other Inquiry Type:</b> {!relatedTo.Other_Inquiry_Type__c}
+                    </apex:outputPanel>
+                    
+                    <apex:outputPanel style="{!IF(OR(relatedTo.Type=='Product Availability',relatedTo.Type=='Product Specification',relatedTo.Type=='Shipping Location'),'','display:none;')}">
+                        <br></br>
+                        <b>Product Description:</b>  {!relatedTo.Product_Description__c}
+                        <br></br>
+                        <b>Product Size:</b>  {!relatedTo.Product_Size__c}
+                        <br></br>
+                        <b>Product Flavor:</b>  {!relatedTo.Product_Flavor__c}
+                    </apex:outputPanel>
+                    
+                    <apex:outputPanel style="{!IF(relatedTo.Type=='New User Request','','display:none;')}">
+                         <br></br>
+                        <b>Name:</b>  {!relatedTo.Name__c}
+                        <br></br>
+                        <b>Email Address:</b>  {!relatedTo.Email_Address__c}
+                        <br></br>
+                        <b>Justification for Request:</b>  {!relatedTo.Justification_for_Request__c}
+                    </apex:outputPanel>
+                    
+                    <apex:outputPanel style="{!IF(relatedTo.Type=='Newsletter','','display:none;')}">
+                        <br></br>
+                        <b>Description:</b>  {!relatedTo.Newsletter_Comments__c}
+                    </apex:outputPanel>
+                    
+                    <apex:outputPanel style="{!IF(relatedTo.Type=='Other','','display:none;')}">
+                        <br></br>
+                        <b>Inquiry Definition:</b>  {!relatedTo.Inquiry_Definition__c}
+                    </apex:outputPanel>
+                    
+                </td>
+            </tr>
+            <tr valign="bottom">
+            <td style="font-family: Arial, Helvetica, sans-serif;">
+                <br></br>
+                Thank you,
+                <br></br>
+                Beam Suntory Customer Service
+                <br></br>
+                <br></br>
+            </td>
+            </tr>                
+        </tbody>
+    </table>
+</body>
+
+</html>
+{!relatedTo.Thread__c}
+</messaging:htmlEmailBody>
+</messaging:emailTemplate>

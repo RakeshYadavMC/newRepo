@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>A template that is used when the Discount Document for a Discounts case is approved by the State Manager and approval is needed by Commercial Finance</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BeamSuntory_Letterhead</letterhead>
+    <name>Discounts New Discount Document Needs Approval</name>
+    <style>freeForm</style>
+    <subject>{!Case.Subject} - Justification Sheet Needs Approval</subject>
+    <textOnly>A Justification Sheet has been uploaded for this Case and needs approval. It is also attached to this email for review. Please open the Case and click the &quot;Discounts Approval&quot; tab to approve or reject this document.
+
+Click the link below to view this Case in Salesforce.
+{!Case.Link}
+
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

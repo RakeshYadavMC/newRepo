@@ -1,0 +1,6 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<font face="arial">Bonjour {!Case.OwnerFirstName},&nbsp;</font><div><font face="arial"><br></font></div><div><font face="arial">votre requête no {!Case.CaseNumber} a été remontée car elle présente un risque de violation ou a violé le contrat de niveau de service.&nbsp;</font></div><div><font face="arial"><br></font></div><div><font face="arial">Cette requête a le statut {!Case.Status} et a été ouverte pour {!Case.Case_Time_Elapsed__c} à compter de cette notification. Intervenez sur cette requête !</font></div><div><font face="arial"><br></font></div><div><font face="arial">Click below to see your case:</font></div><div><font face="arial">{!Case.Link}&nbsp;</font></div><div><font face="arial"><br></font></div><div><font face="arial">{!Case.Thread_Id}</font></div>]]></td>
+</tr>
+</table>

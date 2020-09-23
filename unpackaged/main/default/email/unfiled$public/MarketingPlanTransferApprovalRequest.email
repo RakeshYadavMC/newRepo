@@ -1,0 +1,8 @@
+The following Marketing Plan Transfer has been requested and is currently assigned to you for review and approval.  
+
+Transferring Marketing Plan: {!MarketingPlanAdjustments__c.TransferringMarketingPlan__c}
+Receiving Marketing Plan: {!MarketingPlanAdjustments__c.ReceivingMarketingPlan__c}
+Transfer Amount: {!MarketingPlanAdjustments__c.Amount__c}
+Reason for Request: {!MarketingPlanAdjustments__c.ReasonforRequest__c}
+ 
+Salesforce login: https://beamsuntory.my.salesforce.com/

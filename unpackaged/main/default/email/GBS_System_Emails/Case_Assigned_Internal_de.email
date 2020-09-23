@@ -1,0 +1,19 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<p class="MsoNormal">Hallo {! Case.OwnerFirstName},<o:p></o:p></p>
+
+<p class="MsoNormal">Fall # {! Case.CaseNumber} wurde Ihnen von {!
+User.FirstName} {! User.LastName} ({! User.Email}) zugewiesen.<o:p></o:p></p>
+
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal">Klicken Sie unten, um den Fall zu sehen:<o:p></o:p></p>
+
+<p class="MsoNormal">{! Case.Link}<o:p></o:p></p><p class="MsoNormal"><br></p><p class="MsoNormal"><br></p><p class="MsoNormal"><br></p><p class="MsoNormal"><br></p><p class="MsoNormal"><br></p><p class="MsoNormal"><br></p>
+
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal">{! Case.Thread_Id}<o:p></o:p></p><br>]]></td>
+</tr>
+</table>

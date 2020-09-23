@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Case Escalated Notification to Owner</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Blank_Letterhead</letterhead>
+    <name>Case Escalated (es_MX)</name>
+    <style>freeForm</style>
+    <subject>Case #{!Case.CaseNumber} has been escalated - {!Case.Subject}</subject>
+    <textOnly>Hola {!Case.OwnerFirstName},
+
+Tu caso #{!Case.CaseNumber} ha sido escalado ya que podría estar en riesgo de violar o ha violado SLA.
+
+Este caso está {!Case.Status} y ha sido abierto por tener {!Case.Case_Time_Elapsed__c} desde esta notificación. ¡Por favor procese el caso cuanto antes!
+
+Haga clic abajo para ver su caso:
+{!Case.Link}
+
+
+
+
+
+
+
+
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,43 @@
+<p>Dear {!Contact.FirstName},</p>
+<p>Thank you for your interest in Beam and Cola®, the only beverage containing genuine Jim Beam® bourbon and cola pre-mixed and ready to drink!</p>
+<p>While Jim Beam® Bourbon is available nationwide, Beam and Cola® is only available for purchase in the following areas:</p>
+<p>Alaska<br />
+Arizona<br />
+Arkansas<br />
+California<br />
+Colorado<br />
+Connecticut<br />
+Florida<br />
+Georgia<br />
+Idaho<br />
+Illinois<br />
+Indiana<br />
+Kansas<br />
+Kentucky<br />
+Louisiana<br />
+Maine<br />
+Maryland<br />
+Michigan<br />
+Mississippi<br />
+Missouri<br />
+Montana<br />
+Nebraska<br />
+New Hampshire<br />
+New York<br />
+North Carolina<br />
+Ohio<br />
+Oklahoma<br />
+Oregon<br />
+South Carolina<br />
+South Dakota<br />
+Tennessee<br />
+Texas<br />
+Virginia<br />
+West Virginia<br />
+Wyoming</p>
+<p>If you live in one of these areas, we suggest that you check with your local spirits retailer as they may be able to acquire Beam and Cola® on your behalf.  Unfortunately, the shipping and receipt of spirits in the United States is strictly regulated, and we are unable to accept online orders.</p>
+<p>{!Case.OwnerFullName}<br />
+<strong>Jim Beam® Customer Care Representative</strong><br />
+<img src="{!$Label.SF_Base_URL_BrandLogo}JimBeam.png" alt=""  width="120px" /> <br />
+<a href="https://www.facebook.com/JimBeamUS"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}facebook.png" width="20" alt="" /></a> <a href="https://twitter.com/JimBeam"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}twitter.png" width="20" alt="" /></a> <a href="https://instagram.com/Jimbeamofficial"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}instagram.png" width="20" alt="" /></a> <a href="http://www.pinterest.com/jimbeamofficial/"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}pinterest.png" width="20" alt="" /></a> <a href="https://www.youtube.com/JimBeam"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}youtube.png" width="20" alt="" /></a> <br />
+<a href="http://www.drinksmart.com"><img src="{!$Label.SF_Base_URL_BrandLogo}DrinkSmart.png" width="120" title="Drink Smart" alt="Drink Smart" /></a></p>

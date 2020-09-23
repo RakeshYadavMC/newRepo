@@ -1,0 +1,8 @@
+<p>Hi {!Case.OwnerFullName}</p>
+
+<p>{!Case.Priority} Priority Case <a href="{!Case.Link}"># {!Case.CaseNumber}</a> - {!Case.How_can_we_help__c} - '{!Case.AdditionalInformation__c}' is created on {!DATETIMEVALUE(Case.CreatedDate)} and not picked since last 48 hrs. It needs to be reviewed immediately</p>
+
+Thank You<br>
+Beam Suntory
+
+<p>{!Case.Thread_Id}</p>

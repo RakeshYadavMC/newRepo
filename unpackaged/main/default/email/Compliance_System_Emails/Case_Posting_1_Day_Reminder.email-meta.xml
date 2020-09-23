@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>A template used to notify the Owner of a Case that the Posting Date is 1 day away.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BeamSuntory_Letterhead</letterhead>
+    <name>Case Posting 1 Day Reminder</name>
+    <style>freeForm</style>
+    <subject>Reminder: Case Posting in 1 Day - Posting Date: {!Case.Posting_Date__c}</subject>
+    <textOnly>Hello {!Case.OwnerFirstName},
+
+Your Case &quot;{!Case.Subject}&quot; has not yet been submitted and is due before the next business day.
+
+Posting Date: {!Case.Posting_Date__c}
+
+Click the link below to view this Case in Salesforce:
+{!Case.Link}
+
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

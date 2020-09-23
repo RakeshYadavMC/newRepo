@@ -1,0 +1,6 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<font face="arial">您好{!Case.OwnerFirstName}，</font><div><font face="arial"><br></font></div><div><font face="arial">您的案例#{!Case.CaseNumber}已经升级，因为它可能有违反 SLA 的风险，也可能违反了 SLA。 此案例处于{!Case.Status}状态，在本通知发出时{!Case.Case_Time_Elapsed__c} 已打开。 请针对此案例采取行动！ 请按以下链接来查看您的案例：&nbsp;</font></div><div><font face="arial">{!Case.Link}&nbsp;</font></div><div><font face="arial"><br></font></div><div><font face="arial">{!Case.Thread_Id}</font></div>]]></td>
+</tr>
+</table>

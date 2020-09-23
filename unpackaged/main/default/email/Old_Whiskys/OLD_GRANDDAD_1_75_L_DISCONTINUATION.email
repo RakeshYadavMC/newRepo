@@ -1,0 +1,11 @@
+<p>Dear {!Contact.FirstName},</p>
+<p>Thank you for your interest in Old Grand-Dad Bourbon. As of September 2015, the 1.75 L size of Old Grand-Dad Bourbon has been discontinued; however, fans of this distinct high-rye Bourbon with a taste true to the old family recipe can enjoy Old Grand-Dad in the 750 ml size nationwide. </p>
+<p>To find Old Grand-Dad for purchase near you, use our Product Locator:  https://www.theoldswhiskeys.com/locator/index.html, choose the {!Case.Brand__c} product you'd like to find, and enter your <span class="caps">ZIP</span> code for a list of bars, restaurants, and stores that carry {!Case.Brand__c}.</p>
+<p>Be sure to #DrinkSmart!</p>
+<p>Thank you for being a {!Case.Brand__c} fan!<br />
+Be sure to #DrinkSmart!</p>
+<p>Thank you for being a {!Case.Brand__c} fan!</p>
+<p>{!Case.OwnerFullName}<br />
+<strong>Old Whiskeys® Customer Care Representative</strong><br />
+<img src="{!$Label.SF_Base_URL_BrandLogo}OldGrandDad.png" alt=""  width="120px" /><br />
+<a href="http://www.drinksmart.com"><img src="{!$Label.SF_Base_URL_BrandLogo}DrinkSmart.png" width="120" title="Drink Smart" alt="Drink Smart" /></a></p>

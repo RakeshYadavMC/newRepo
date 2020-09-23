@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>37.0</apiVersion>
+    <available>true</available>
+    <description>To pull the value from child object - Purchase Order</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Case Assignment Email_Orders_ML</name>
+    <style>none</style>
+    <subject>-  has been picked up!</subject>
+    <type>visualforce</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

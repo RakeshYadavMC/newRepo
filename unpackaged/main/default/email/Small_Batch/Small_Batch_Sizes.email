@@ -1,0 +1,9 @@
+<p>Dear {!Contact.FirstName},</p>
+<p>Thanks for your email.  The Small Batch Bourbon Collection® is a group of exclusive ultra-premium whiskies that are produced in limited quantities and carefully matured for exceptional quality and flavor.  The Collection comprised of Knob Creek®, Booker's®, Baker's® and Basil Hayden's® represents the very best in bourbon, each handcrafted using time-honored recipes.</p>
+<p>For more information, visit smallbatch.com.  Remember you must be 21 years or older to visit.</p>
+<p>Booker's, Baker's and Basil Hayden's are available in 750 ml size.  Knob Creek is available is 50 ml, 375 ml, 750 ml, 1 liter and 1.75 liter sizes.  </p>
+<p>Thanks again for contacting us.  Have a great day.</p>
+<p>{!Case.OwnerFullName}<br />
+<strong>Small Batch® Customer Care Representative</strong><br />
+<img src="{!$Label.SF_Base_URL_BrandLogo}SmallBatch.png" alt=""  width="120px" />
+<a href="http://www.drinksmart.com"><img src="{!$Label.SF_Base_URL_BrandLogo}DrinkSmart.png" width="120" title="Drink Smart" alt="Drink Smart" /></a></p>

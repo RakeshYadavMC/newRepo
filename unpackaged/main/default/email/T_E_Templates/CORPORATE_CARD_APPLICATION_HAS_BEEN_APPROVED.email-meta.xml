@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BeamSuntory_Letterhead</letterhead>
+    <name>CORPORATE CARD APPLICATION HAS BEEN APPROVED</name>
+    <style>freeForm</style>
+    <subject>Status: corporate credit card approval</subject>
+    <textOnly>Hello,
+
+
+Your corporate card application has been approved through the Citibank portal and your corporate credit card account is currently being created. Once your card has been processed by Citibank, it will be mailed to the address you provided in your Citibank profile and should be received in 7 – 10 business days. Due to security reasons, the card will be mailed in a plain, white envelope without any significant markings and can often be mistaken as junk mail.
+
+In the event you do not receive your card, please call Citibank customer service at 888-247-2650 and they will work with you to verify the address you have on file and next steps to obtain the card in a timely manner.
+
+
+As always, please let us know if you have any questions. We can be reached by sending an email to GBS_NA_TravelExpense@beamsuntory.com. Thank you!</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

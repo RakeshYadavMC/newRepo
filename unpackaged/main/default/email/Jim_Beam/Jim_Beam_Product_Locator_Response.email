@@ -1,0 +1,4 @@
+<p>Hi {!Contact.FirstName},</p>
+<p>We love hearing from fans like you. Luckily, we can help you find Jim Beam! Please visit our web page http://www.jimbeam.com/, click the Bourbon tab at the top of the page, choose the Jim Beam product you'd like to find, and enter your <span class="caps">ZIP</span> code for a list of bars, restaurants, and stores that carry Jim Beam.</p>
+<p>Thank you for being a Jim Beam fan! Be sure to #DrinkSmart!</p>
+<p>{!Case.OwnerFullName}</p>

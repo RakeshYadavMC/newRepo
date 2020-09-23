@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BeamSuntory_Letterhead</letterhead>
+    <name>Maker’s Mark Barrel purchase orders Email Template</name>
+    <style>freeForm</style>
+    <subject>Maker’s Mark Barrel purchase orders Email Template</subject>
+    <textOnly>Thank you for contacting Beam Suntory Customer Service. We are unable to accept Maker’s Mark Barrel purchase orders until the
+barrel is ready to bottle. You will be contacted by your state manager and asked to issue a purchase order once the proof and case
+quantity have been confirmed. Thank you,
+Beam Suntory Customer Service</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

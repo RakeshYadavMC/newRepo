@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>This email template is used to notify the coordinator that commercial finance has approved their quote request pricing.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BeamSuntory_Letterhead</letterhead>
+    <name>Quote Request Approved by Commercial Finance</name>
+    <style>freeForm</style>
+    <subject>{!Case.Subject} - Quote Request Approved - [item-name]</subject>
+    <textOnly>Hello {!Case.OwnerFirstName},
+
+Your Case (#{!Case.CaseNumber}) has been approved by Commercial Finance and is ready for Quote Generation.
+
+The following item(s) have been priced:
+
+[items-body]
+
+Click the link below to view your Case in Salesforce.
+{!Case.Link}
+
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

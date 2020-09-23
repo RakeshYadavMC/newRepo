@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BeamSuntory_Letterhead</letterhead>
+    <name>Maker&apos;s Mark Bottle Text Entered</name>
+    <style>freeForm</style>
+    <subject>Bottle Text Has Been Entered for {!Case.CaseNumber}</subject>
+    <textOnly>Hi,
+
+Bottle text has been entered for barrel order number {!Case.CaseNumber}.
+
+Case Link
+
+CaseNumber: {!Case.CaseNumber}
+Account:
+Retail Account:
+
+
+{!$Label.ThankYou}
+
+{!$Label.BeamCS}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

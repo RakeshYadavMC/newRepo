@@ -1,0 +1,42 @@
+<style>
+.tab4 {
+   
+padding-left:4em;
+
+}
+
+.tab2{
+padding-left:2em;
+}
+</style>
+
+
+
+
+<p>Please forward this to the applicable salesperson and have them follow the below steps. Thanks!</p>
+<p>Please follow these instructions within the timelines set below for this consumer issue:</p>
+<p><span class="caps">CONSUMER</span> <span class="caps">ISSUE</span>: Consumer has a {!Case.Product_Size__c} bottle of {!Case.Product_Type__c} and stated that             . Please replace the bottle with a new one when you meet the consumer.</p>
+Step 1: Within 2 business days:
+<div class="tab2" style="padding-left:2em;"> 1.Reach out to the consumer.</div><br>
+
+<div class="tab4" style="padding-left:4em;">
+               Consumer's First and Last Name<br>
+               Address<br>   
+               City, State and Zip<br>   
+               Phone<br>            
+               Email<br>
+</div>
+<p>Step 2-4: Within 5 business days:
+<div class="tab2" style="padding-left:2em;">        2. Make arrangements to meet with the consumer, pick up and exchange the bottle.<br> 
+</div>
+<div class="tab2" style="padding-left:2em;">       3. Ship bottle (shipment <span class="caps">MUST</span> contain copy of this email referencing the <span class="caps">CLAIM</span> # CC-______).</p>
+</div>
+<p>Ship bottle using your region's FedEx account number to contact and address below:</p>
+<div class="tab4" style="padding-left:4em;">
+Beam Suntory<br>              Attention:<br>              _____________<br>          _____________<br>
+</div>
+<div class="tab2" style="padding-left:2em;">       4. Email Stacey Humphreys the FedEx number once shipped.
+</div>
+<p><span class="caps">SALES</span>, <span class="caps">PLEASE</span> <span class="caps">KEEP</span> ME <span class="caps">AND</span> <span class="caps">YOUR</span> <span class="caps">SALES</span> <span class="caps">ADMINISTRATOR</span> <span class="caps">ADVISED</span> OF <span class="caps">ALL</span> <span class="caps">UPDATES</span>. IF <span class="caps">YOU</span> <span class="caps">CAN</span>&#8216;T <span class="caps">REACH</span> <span class="caps">CONSUMER</span>, <span class="caps">MEET</span> <span class="caps">THE</span> <span class="caps">REQUIRED</span> <span class="caps">SLA</span>&#8216;S, <span class="caps">ETC</span>. I <span class="caps">MUST</span> BE <span class="caps">ADVISED</span>.*</p>
+<p>Thanks,<br />
+Stacey</p>

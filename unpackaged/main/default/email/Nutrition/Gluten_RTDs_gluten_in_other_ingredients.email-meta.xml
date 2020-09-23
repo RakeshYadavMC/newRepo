@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Gluten- RTDs (gluten in other ingredients)</name>
+    <style>none</style>
+    <subject>Gluten- RTDs (gluten in other ingredients)</subject>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

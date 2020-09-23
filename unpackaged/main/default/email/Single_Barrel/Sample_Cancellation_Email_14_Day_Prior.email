@@ -1,0 +1,18 @@
+<messaging:emailTemplate subject="BARREL ORDER WILL BE CANCELLED – Sample Kit Selection Not Uploaded in Salesforce" recipientType="User" relatedToType="Sample_Kit__c">
+<messaging:htmlEmailBody >
+<html>
+<body>
+
+<apex:image id="Campaign_email_template_1_header" value="https://beamsuntory--c.na74.content.force.com/servlet/servlet.ImageServer?id=015o0000001Dyoa&oid=00Do0000000cCkJ" style="display: block; margin-left: auto;margin-right: auto; width:50%" />
+<div style="content:' '; display:block; border:.5px solid black; margin-top:10px; border-color: #999999;"></div>
+
+<p>This is a reminder that you still need to enter the sample selection from your barrel {!relatedTo.Case__r.CaseNumber} for {!relatedTo.Case__r.Retail_Account__r.Name}. This sample was sent to you 16 days ago on <apex:outputText value="{0, date, MM/dd/yyyy}"> <apex:Param value="{!relatedTo.Tracking_Number_Creation_Date__c}" /> </apex:OutputText>. To ensure that we have enough barrels available to meet Beam’s demand across all markets, any sample kit order that does not have a selection made and loaded into Salesforce within 30 days of the sample’s shipment date will be automatically cancelled. Any barrels cancelled from a sample kit not being selected on time will still be deducted from that state’s allocation for the year.</p>
+
+<p>This barrel will be cancelled on  <apex:outputText value="{0, date, MM/dd/yyyy}"> <apex:Param value="{!relatedTo.Tracking_Number_Creation_Date__c+30}"/></apex:OutputText> if you do not load a sample selection into Salesforce by that date.</p>
+
+<p>Please contact single.barrels@beamsuntory.com with any questions.</p>
+
+</body>
+</html>
+</messaging:htmlEmailBody>
+</messaging:emailTemplate>

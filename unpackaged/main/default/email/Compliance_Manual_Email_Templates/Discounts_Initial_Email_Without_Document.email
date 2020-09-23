@@ -1,0 +1,9 @@
+Hello {!Case.Name__c},
+
+</br></br>
+
+{!Case.State__c}'s {!Case.Related_Month__c} {!Case.Year__c} discounts are due to the state on {!Case.Due_Date__c} Can you please send me the justification sheet by {!Case.State_Manager_Due_Date__c}?
+
+</br></br>
+
+Thank you,

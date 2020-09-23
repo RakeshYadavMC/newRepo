@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Template that is used when notifying the Compliance that there is a new Case available from Email.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BeamSuntory_Letterhead</letterhead>
+    <name>Quote Request New Quote Request Email</name>
+    <style>freeForm</style>
+    <subject>{!Case.Subject} - New Quote Request Submitted via Email</subject>
+    <textOnly>A new Quote Request has been submitted via Email. Please take appropriate action.
+
+Subject: {!Case.Subject}
+
+Submitter: {!Case.Submitter__c}
+
+Click here to view this Case in Salesforce
+
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

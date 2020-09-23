@@ -1,0 +1,10 @@
+<messaging:emailTemplate subject="Beam Suntory Bonus Coupon for {!relatedTo.AccountName__c}" recipientType="Contact" relatedToType="Bonus_Coupon__c">
+<messaging:htmlEmailBody >
+
+Thank you for working with Beam Suntory 
+Need to add links to Coupon Code, Value, Venue, Wholesaler, Wholesaler Location ("Reported Wholesaler"), Date Redeemed
+
+    <!--<c:BSM_Coupon_HTML bonusCoupon="{!relatedTo}" />-->
+
+</messaging:htmlEmailBody>
+</messaging:emailTemplate>

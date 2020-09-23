@@ -1,0 +1,4 @@
+<p>Hi {!Contact.FirstName},</p>
+<p>Thank you for your inquiry. We receive many requests for sponsorship and donation but, unfortunately, we cannot accommodate every request. We hope you have a successful event and raise many funds for your cause.</p>
+<p>Thank you,<br />
+{!Case.OwnerFullName}</p>

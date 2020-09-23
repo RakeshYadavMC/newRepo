@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BeamSuntory_Letterhead</letterhead>
+    <name>SAP # Entered</name>
+    <style>freeForm</style>
+    <subject>Information Updated on Barrel Order #{!Case.CaseNumber}</subject>
+    <textOnly>Hi,
+
+The SAP Number has been updated for your barrel order.
+
+Case Number: {!Case.CaseNumber}
+
+SAP Number: {!Case.SAP_Number__c}
+
+Brand: {!Case.Brand__c}
+
+Account: {!Case.Retail_Account__c}
+
+
+
+Thank You,
+
+Beam Suntory Customer Service
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,10 @@
+<p>Dear {!Contact.FirstName},</p>
+<p>We love hearing from fans like you. Luckily, we can help you find Pinnacle!</p>
+<p>Please click the product locator link <a href="https://www.pinnaclevodka.com/locate/">Pinnacle</a> , choose the Pinnacle product you'd like to find, and enter your <span class="caps">ZIP</span> code for a list of bars, restaurants, and stores that carry Pinnacle. Please contact the bar, restaurant and store in advance of your visit to ensure the product is currently in stock. </p>
+<p>Be sure to #DrinkSmart!</p>
+<p>Jenny<br />
+<strong>Pinnacle® Customer Care Representative</strong><br />
+<img src="{!$Label.SF_Base_URL_BrandLogo}Pinnacle.png" alt=""  width="120px" /><br />
+<a href="https://www.facebook.com/pinnaclevodkas"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}facebook.png" width="20" alt="" /></a> <a href="https://twitter.com/PinnacleVodka"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}twitter.png" width="20" alt="" /></a> <a href="https://instagram.com/PinnacleVodka"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}instagram.png" width="20" alt="" /></a> <a href="http://www.pinterest.com/pinnaclevodka/"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}pinterest.png" width="20" alt="" /></a> <a href="https://www.youtube.com/user/PinnacleVodka"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}youtube.png" width="20" alt="" /></a> <br />
+<a href="http://www.drinksmart.com"><img src="{!$Label.SF_Base_URL_BrandLogo}DrinkSmart.png" width="120" title="Drink Smart" alt="Drink Smart" /></a></p>
+<p>Thank you for being a {!Case.Brand__c} fan!</p>

@@ -1,0 +1,10 @@
+<p>Dear {!Contact.FirstName},</p>
+<p>We love hearing from fans like you. Luckily, we can help you find {!Case.Brand__c}</p>
+<p>Please click the product locator link <a href="http://www.2gingerswhiskey.com/map/">here</a>, choose the {!Case.Brand__c} product you'd like to find, and enter your <span class="caps">ZIP</span> code for a list of bars, restaurants, and stores that carry {!Case.Brand__c}.</p>
+<p>Be sure to #DrinkSmart!</p>
+<p>Thank you for being a {!Case.Brand__c} fan!</p>
+<p>{!Case.OwnerFullName}<br />
+<strong>2 Gingers® Customer Care Representative</strong><br />
+<img src="{!$Label.SF_Base_URL_BrandLogo}2Gingers.png" title="2 Gingers" alt="" />   <br />
+<a href="https://www.facebook.com/2Gingers"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}facebook.png" width="20" alt="" /></a>    <a href="https://twitter.com/2GINGERSwhiskey"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}twitter.png" width="20" alt="" /></a>    <a href="https://instagram.com/2Gingers"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}instagram.png" width="20" alt="" /></a>    <a href="https://www.youtube.com/user/2gingersWhiskey"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}youtube.png" width="20" alt="" /></a> <br />
+<a href="http://www.drinksmart.com"><img src="{!$Label.SF_Base_URL_BrandLogo}DrinkSmart.png" width="120" title="Drink Smart" alt="Drink Smart" /></a></p>

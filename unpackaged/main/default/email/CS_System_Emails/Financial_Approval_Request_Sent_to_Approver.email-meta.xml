@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email sent to required approver for a financial invoice</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BeamSuntory_Letterhead</letterhead>
+    <name>Financial Approval Request - Sent to Approver</name>
+    <style>freeForm</style>
+    <subject>Action Required - Claim Amount Approval</subject>
+    <textOnly>The following Case has been submitted for your approval as the claim amount has reached your threshold:
+
+
+Claim Type: {!Case.RecordType}
+Claim Amount: {!Case.Claim_Amount__c}
+
+
+Case Number:  {!Case.CaseNumber}
+Case Owner: {!Case.OwnerFullName}
+Case Created:  {!Case.CreatedDate}
+
+Link to Case Record requiring your approval:
+{!Case.Link}
+
+Thank you,
+
+Beam Suntory Customer Service
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

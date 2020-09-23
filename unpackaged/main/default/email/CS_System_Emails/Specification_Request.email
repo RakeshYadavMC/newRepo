@@ -1,0 +1,11 @@
+Dear {!Contact.Name},<BR><BR>
+
+Thank you for your request on the product specification. This information can be found on our Internal Portal.  Please follow these steps.<BR>
+<b>·</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Log into the portal and select Product Specs from the FAQ section<BR>
+<b>·</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Click on the Product Specification worksheet and select the specs.xlsx file<BR>
+<b>·</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You will be taken to the report that has the specifications for all active items, please locate the SKU you need<BR>
+<b>·</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If you cannot locate the item or have questions, please refer to the Helpful Tips for Reading Product Specs File<BR>
+If assistance is still needed, please submit an Inquiry case via the portal.<BR><BR>
+ 
+Thank you,<BR>
+{!Case.OwnerFullName}

@@ -1,0 +1,15 @@
+<p>Dear {!Contact.FirstName},</p>
+<p>Thanks for your email.  Tequila made from the heart or “piña” of the blue agave plant was first cultivated 9,000 years in central Mexico.  From its humble beginnings, Sauza® Tequila has earned its place as one of the most recognized Tequilas in the world.</p>
+<p>There are many ways to enjoy Sauza® Tequilas — in a mixed drink, as a shot or savored with other fine spirits.  To conduct your own tasting of Sauza® Tequilas may we suggest you follow these steps:</p>
+<p>1.      Setting—Ideally an enclosed space with good lightning and free from any eternal aromas.<br />
+2.      Food—No food should be consumed, although some dry biscuits can be used to clean the palate.<br />
+3.      Glasses—Ideally Riedel Glasses®, however cognac snifters can be used an as alternative.<br />
+4.      Water—Have a glass of mineral water to rinse out your mouth between tastings.<br />
+5.      Recording—Record comments on a tasting from and discuss all ratings at the end of the tasting.</p>
+<p>For more information on the history of Tequila and the many ways to enjoy Sauza® Tequilas, please visit  sauzatequila.com.  Remember, you must be of legal purchase age to visit the site.</p>
+<p>We love hearing from our consumers, so thanks again for contacting us. Have a great day.</p>
+<p>{!Case.OwnerFullName}<br />
+<strong>Sauza® Customer Care Representative</strong><br />
+<img src="{!$Label.SF_Base_URL_BrandLogo}Sauza.png" alt=""  width="120px" /><br />
+<a href="https://www.facebook.com/SauzaTequila"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}facebook.png" width="20" alt="" /></a> <a href="https://twitter.com/Sauza"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}twitter.png" width="20" alt="" /></a> <a href="https://instagram.com/SauzaMargaritas"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}instagram.png" width="20" alt="" /></a> <a href="http://www.pinterest.com/SauzaTequila/"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}pinterest.png" width="20" alt="" /></a> <a href="https://www.youtube.com/SauzaMargaritas"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}youtube.png" width="20" alt="" /></a> <br />
+<a href="http://www.drinksmart.com"><img src="{!$Label.SF_Base_URL_BrandLogo}DrinkSmart.png" width="120" title="Drink Smart" alt="Drink Smart" /></a></p>

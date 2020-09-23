@@ -1,0 +1,3 @@
+<p>Dear {!Contact.FirstName},<br />
+<br />
+Thank you for contacting {!Case.Product_Type__c}. We are constantly evaluating our existing and potential business partners. Should there be an opportunity to work together in the future, we will reach out.</p>

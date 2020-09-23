@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>An email is sent using this once a case is created via the CS community</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BeamSuntory_Letterhead</letterhead>
+    <name>Order Case Creation</name>
+    <style>freeForm</style>
+    <subject>An Orders Case has been submitted: {!Case.CaseNumber}</subject>
+    <textOnly>An Order form has been submitted by {!Case.CreatedBy}. The case number is: {!Case.CaseNumber} and has been assigned to the {!Case.OwnerFullName}.
+
+Details:
+
+{!Case.Subject}
+{!Case.Description}
+
+Purchase Order Number (if provided): {!Case.Purchase_Order_Number__c}
+Related Case Number (if provided): {!Case.Related_Case_Number__c}
+Description (if provided): {!Case.Escalated_Form_Description__c}
+
+
+Thank you,
+
+Beam Suntory Customer Service
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

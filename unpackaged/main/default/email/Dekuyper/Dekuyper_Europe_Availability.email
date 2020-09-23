@@ -1,0 +1,8 @@
+<p>Dear {!Contact.FirstName},</p>
+<p>Thank you for your e-mail and interest in the DeKuyper brand.  The background of this brand is that Beam Suntory bought the rights to manufacture and market DeKuyper in the United States in 1966. Unfortunately, in Europe we have no rights because DeKuyper Royal is a privately held Dutch Company with their own distributors.  If you would like further information, please visit their website at www.dekuyper.com.</p>
+<p>I am sorry I cannot be of more assistance, hopefully DeKuyper will be able to help you further.</p>
+<p>{!Case.OwnerFullName}<br />
+<strong>Dekuyper® Customer Care Representative</strong><br />
+<img src="{!$Label.SF_Base_URL_BrandLogo}Dekuyper.png" alt=""  width="120px" /><br />
+<a href="https://www.facebook.com/DekuyperUSA"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}facebook.png" width="20" alt="" /></a> <a href="http://www.pinterest.com/DekuyperUSA/"><img src="{!$Label.DSC_Base_URL_SocialMediaImages}pinterest.png" width="20" alt="" /></a> <br />
+<a href="http://www.drinksmart.com"><img src="{!$Label.SF_Base_URL_BrandLogo}DrinkSmart.png" width="120" title="Drink Smart" alt="Drink Smart" /></a></p>

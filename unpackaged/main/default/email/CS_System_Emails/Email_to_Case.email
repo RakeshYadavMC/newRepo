@@ -1,0 +1,8 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<p class="MsoNormal">Thank you for contacting Beam Suntory!&nbsp; This is an automated response.&nbsp; Your email has been received and will be
+actioned as quickly as possible.&nbsp; If you
+need to follow up on this request, please reference the following case number&nbsp;{!Case.CaseNumber}.<o:p></o:p></p><p class="MsoNormal"><br></p><p class="MsoNormal">RE:&nbsp;{!Case.Subject}</p><p class="MsoNormal"><br></p><p class="MsoNormal">Thank you,</p><p class="MsoNormal"><br></p><p class="MsoNormal">Beam Suntory Customer Service</p><p class="MsoNormal"><br></p><p class="MsoNormal"><span style="font-family: Calibri; font-size: x-small; line-height: 10.7px; background-color: rgb(255, 255, 255);">{!Case.Thread_Id}</span></p>]]></td>
+</tr>
+</table>

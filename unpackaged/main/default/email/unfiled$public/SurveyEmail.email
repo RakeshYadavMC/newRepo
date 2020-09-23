@@ -1,0 +1,6 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[Dear&nbsp;{!Case.Contact},<div><br></div><div>We value your opinion. Please take 5 minutes to fill out the below survey to tell us how we did in servicing&nbsp;{!Case.Id}.</div><div><br></div><div>Survey Link:&nbsp;<span style="font-family: Arial, Helvetica, sans-serif; font-size: 11px; background-color: rgb(255, 255, 255);">https://beamsuntory--beamcm--c.cs18.visual.force.com/apex/TakeSurvey?id=a2111000000RN8iAAG&amp;cId={!Contact.Id}&amp;caId={!Case.Id}</span></div><div><span style="font-family: Arial, Helvetica, sans-serif; font-size: 11px; background-color: rgb(255, 255, 255);"><br></span></div><div>Kind Regards,</div><div><br></div><div>Beam Suntory Customer Service</div>]]></td>
+</tr>
+</table>

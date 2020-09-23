@@ -1,0 +1,11 @@
+<messaging:emailTemplate subject="{!SUBSTITUTE($Label.Case_Assigned_Internal_Email_Subject,'{0}', relatedTo.CaseNumber)}" recipientType="User" relatedToType="Case" Language="{!relatedTo.Submitter__r.LanguageLocaleKey}">
+
+
+    <messaging:htmlEmailBody >
+        <c:GBSMultipleLanguageEmail WhatId="{!relatedTo.Id}" WhoId="{!relatedTo.Submitter__c}" TemplateDeveloperName="{!$Label.Case_Assigned_Internal}" HTML="true"/>
+    </messaging:htmlEmailBody>
+    <messaging:plainTextEmailBody >
+        <c:GBSMultipleLanguageEmail WhatId="{!relatedTo.Id}" WhoId="{!relatedTo.Submitter__c}" TemplateDeveloperName="{!$Label.Case_Assigned_Internal}" HTML="false"/>
+    </messaging:plainTextEmailBody>
+
+</messaging:emailTemplate>
