@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Queue xmlns="http://soap.sforce.com/2006/04/metadata">
     <doesSendEmailToMembers>false</doesSendEmailToMembers>
     <email>cs_bulk@beamsuntory.com</email>
@@ -7,7 +7,32 @@
         <roles>
             <role>GBS_OTC_Billing_Management_United_States</role>
         </roles>
-        
+        <users>
+            <user>adam.richmond@beamsuntory.com</user>
+            <user>andrea.chavez@beamsuntory.com</user>
+            <user>armand.frigo@beamsuntory.com</user>
+            <user>brandon.khoury@beamsuntory.com</user>
+            <user>casandra.calhoun@beamsuntory.com</user>
+            <user>dawn.masterson@beamsuntory.com</user>
+            <user>dustin.muenchau@beamsuntory.com</user>
+            <user>emanuela.rossi@beamsuntory.com</user>
+            <user>greg.baboukis@beamsuntory.com</user>
+            <user>griselda.hernandez@beamsuntory.com</user>
+            <user>joe.nalon@beamsuntory.com</user>
+            <user>john.candioto@beamsuntory.com</user>
+            <user>katie.anzelmo@beamsuntory.com</user>
+            <user>lindsey.jacoby@beamsuntory.com</user>
+            <user>lynn.bernard@beamsuntory.com</user>
+            <user>monica.powell@beamsuntory.com</user>
+            <user>patrece.odum@beamsuntory.com</user>
+            <user>rachel.batman@beamsuntory.com</user>
+            <user>rebecca.yousif@beamsuntory.com</user>
+            <user>ryan.poirier@beamsuntory.com</user>
+            <user>shannon.oconnor@beamsuntory.com</user>
+            <user>terrence.lau@beamsuntory.com</user>
+            <user>tim.bourn@beamsuntory.com</user>
+            <user>timothy.hodgden@beamsuntory.com</user>
+        </users>
     </queueMembers>
     <queueSobject>
         <sobjectType>Case</sobjectType>

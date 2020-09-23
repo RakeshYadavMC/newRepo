@@ -7,9 +7,18 @@
             <recipient>State Manager</recipient>
             <type>accountTeam</type>
         </recipients>
-        
-        
-        
+        <recipients>
+            <recipient>grant.wheeler@beamsuntory.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>huntercain.davis@beamsuntory.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>mikayla.craig@beamsuntory.com</recipient>
+            <type>user</type>
+        </recipients>
         <recipients>
             <field>Submitter__c</field>
             <type>userLookup</type>
@@ -38,9 +47,18 @@
             <recipient>State Manager</recipient>
             <type>accountTeam</type>
         </recipients>
-        
-        
-        
+        <recipients>
+            <recipient>grant.wheeler@beamsuntory.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>huntercain.davis@beamsuntory.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>mikayla.craig@beamsuntory.com</recipient>
+            <type>user</type>
+        </recipients>
         <recipients>
             <field>Submitter__c</field>
             <type>userLookup</type>

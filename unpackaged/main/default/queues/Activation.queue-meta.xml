@@ -1,9 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Queue xmlns="http://soap.sforce.com/2006/04/metadata">
     <doesSendEmailToMembers>false</doesSendEmailToMembers>
     <name>Activation</name>
     <queueMembers>
-        
+        <users>
+            <user>grace.moran@beamsuntory.com</user>
+            <user>lisa.wade@beamsuntory.com</user>
+            <user>mary.hesburgh@beamsuntory.com</user>
+        </users>
     </queueMembers>
     <queueSobject>
         <sobjectType>MarketingPlan__c</sobjectType>

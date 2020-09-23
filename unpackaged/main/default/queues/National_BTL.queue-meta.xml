@@ -1,9 +1,29 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Queue xmlns="http://soap.sforce.com/2006/04/metadata">
     <doesSendEmailToMembers>false</doesSendEmailToMembers>
     <name>National BTL</name>
     <queueMembers>
-        
+        <users>
+            <user>aaron.toussaint@beamsuntory.com</user>
+            <user>alexander.bokeno@beamsuntory.com</user>
+            <user>arianne.henion@beamsuntory.com</user>
+            <user>caitlin.rannells@beamsuntory.com</user>
+            <user>catherine.krzyskowski@beamsuntory.com</user>
+            <user>courtney.stark@beamsuntory.com</user>
+            <user>emily.carpin@beamsuntory.com</user>
+            <user>jared.davis@beamsuntory.com</user>
+            <user>jessica.karoutsos@beamsuntory.com</user>
+            <user>jordan.stein@beamsuntory.com</user>
+            <user>kathleen.dibenedetto@beamsuntory.com</user>
+            <user>katie.benjamin@beamsuntory.com</user>
+            <user>kelly.georgetti@beamsuntory.com</user>
+            <user>kelly.morgan@beamsuntory.com</user>
+            <user>kelsey.connor@beamsuntory.com</user>
+            <user>lisa.gedeon@beamsuntory.com</user>
+            <user>rachel.quinn@beamsuntory.com</user>
+            <user>sameer.shukla@beamsuntory.com</user>
+            <user>sheryl.rosenberger@beamsuntory.com</user>
+        </users>
     </queueMembers>
     <queueSobject>
         <sobjectType>MarketingPlan__c</sobjectType>

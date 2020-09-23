@@ -1,10 +1,20 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Queue xmlns="http://soap.sforce.com/2006/04/metadata">
     <doesSendEmailToMembers>false</doesSendEmailToMembers>
     <email>liz.osei@beamsuntory.com</email>
     <name>Upstate NY</name>
     <queueMembers>
-        
+        <users>
+            <user>christine.bradt@beamsuntory.com</user>
+            <user>dante.fiocca@beamsuntory.com</user>
+            <user>gregory.lodato@beamsuntory.com</user>
+            <user>jennifer.christman@beamsuntory.com</user>
+            <user>latoya.gordon@beamsuntory.com</user>
+            <user>liz.osei@beamsuntory.com</user>
+            <user>maya.rubalcaba@beamsuntory.com</user>
+            <user>rachel.harris@beamsuntory.com</user>
+            <user>sheryl.fusaro@beamsuntory.com</user>
+        </users>
     </queueMembers>
     <queueSobject>
         <sobjectType>MarketingPlan__c</sobjectType>

@@ -1,10 +1,20 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Queue xmlns="http://soap.sforce.com/2006/04/metadata">
     <doesSendEmailToMembers>false</doesSendEmailToMembers>
     <email>tony.dagostino@beamsuntory.com</email>
     <name>Northern California</name>
     <queueMembers>
-        
+        <users>
+            <user>brendan.holve@beamsuntory.com</user>
+            <user>dante.fiocca@beamsuntory.com</user>
+            <user>david.shim@beamsuntory.com</user>
+            <user>emily.mcintyre@beamsuntory.com</user>
+            <user>joshua.clark@beamsuntory.com</user>
+            <user>michelle.mike@beamsuntory.com</user>
+            <user>rachel.harris@beamsuntory.com</user>
+            <user>shen.yin@beamsuntory.com</user>
+            <user>tony.dagostino@beamsuntory.com</user>
+        </users>
     </queueMembers>
     <queueSobject>
         <sobjectType>MarketingPlan__c</sobjectType>

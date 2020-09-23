@@ -1,10 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Queue xmlns="http://soap.sforce.com/2006/04/metadata">
     <doesSendEmailToMembers>false</doesSendEmailToMembers>
     <email>christina.kollereb@beamsuntory.com</email>
     <name>National Accounts On-Premise</name>
     <queueMembers>
-        
+        <users>
+            <user>aasha.holmes@beamsuntory.com</user>
+            <user>anthony.desantis@beamsuntory.com</user>
+            <user>bridget.dunham@beamsuntory.com</user>
+            <user>christina.kollereb@beamsuntory.com</user>
+            <user>donna.frederick@beamsuntory.com</user>
+            <user>greg.johnston@beamsuntory.com</user>
+            <user>ken.lennox@beamsuntory.com</user>
+            <user>lisa.nelson@beamsuntory.com</user>
+            <user>liz.pucci@beamsuntory.com</user>
+            <user>rachel.harris@beamsuntory.com</user>
+            <user>rob.farrington@beamsuntory.com</user>
+            <user>sonya.galperin@beamsuntory.com</user>
+            <user>tina.petteway@beamsuntory.com</user>
+        </users>
     </queueMembers>
     <queueSobject>
         <sobjectType>MarketingPlan__c</sobjectType>

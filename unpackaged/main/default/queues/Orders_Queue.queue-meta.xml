@@ -1,9 +1,51 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Queue xmlns="http://soap.sforce.com/2006/04/metadata">
     <doesSendEmailToMembers>false</doesSendEmailToMembers>
     <name>Orders Queue</name>
     <queueMembers>
-        
+        <users>
+            <user>adam.richmond@beamsuntory.com</user>
+            <user>alex.francis@beamsuntory.com</user>
+            <user>andrea.chavez@beamsuntory.com</user>
+            <user>andrew.grabowski@beamsuntory.com</user>
+            <user>andy.pham@beamsuntory.com</user>
+            <user>armand.frigo@beamsuntory.com</user>
+            <user>austin.hodder@beamsuntory.com</user>
+            <user>austin.wiegand@beamsuntory.com</user>
+            <user>bethany.caughlin@beamsuntory.com</user>
+            <user>brandon.khoury@beamsuntory.com</user>
+            <user>brian.chaps@beamsuntory.com</user>
+            <user>bruce.fruechte@beamsuntory.com</user>
+            <user>bryan.davis@beamsuntory.com</user>
+            <user>casandra.calhoun@beamsuntory.com</user>
+            <user>david.claphan@beamsuntory.com</user>
+            <user>dawn.masterson@beamsuntory.com</user>
+            <user>dustin.muenchau@beamsuntory.com</user>
+            <user>emanuela.rossi@beamsuntory.com</user>
+            <user>greg.baboukis@beamsuntory.com</user>
+            <user>griselda.hernandez@beamsuntory.com</user>
+            <user>joe.nalon@beamsuntory.com</user>
+            <user>john.candioto@beamsuntory.com</user>
+            <user>john.howe@beamsuntory.comus</user>
+            <user>jose.landa@beamsuntory.com</user>
+            <user>justin.banzuly@beamsuntory.com</user>
+            <user>katie.anzelmo@beamsuntory.com</user>
+            <user>kenneth.kliesner@beamsuntory.com</user>
+            <user>lindsey.jacoby@beamsuntory.com</user>
+            <user>lynn.bernard@beamsuntory.com</user>
+            <user>montego.dubose@beamsuntory.com</user>
+            <user>nick.larson@beamsuntory.com</user>
+            <user>patrece.odum@beamsuntory.com</user>
+            <user>rachel.batman@beamsuntory.com</user>
+            <user>rebecca.yousif@beamsuntory.com</user>
+            <user>ryan.poirier@beamsuntory.com</user>
+            <user>shannon.oconnor@beamsuntory.com</user>
+            <user>susan.diaz@beamsuntory.com</user>
+            <user>terrence.lau@beamsuntory.com</user>
+            <user>tim.bourn@beamsuntory.com</user>
+            <user>timothy.hodgden@beamsuntory.com</user>
+            <user>victor.ambrosio@beamsuntory.com</user>
+        </users>
     </queueMembers>
     <queueSobject>
         <sobjectType>Case</sobjectType>

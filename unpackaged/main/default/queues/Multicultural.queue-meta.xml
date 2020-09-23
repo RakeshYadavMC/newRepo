@@ -1,10 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Queue xmlns="http://soap.sforce.com/2006/04/metadata">
     <doesSendEmailToMembers>false</doesSendEmailToMembers>
     <email>liz.tyler@beamsuntory.com</email>
     <name>Multicultural</name>
     <queueMembers>
-        
+        <users>
+            <user>adam.clark@beamsuntory.com</user>
+            <user>arianne.henion@beamsuntory.com</user>
+            <user>bhav.bedi@beamsuntory.com</user>
+            <user>burcu.sahin@beamsuntory.com</user>
+            <user>jennifer.christman@beamsuntory.com</user>
+            <user>joseph.barrios@beamsuntory.com</user>
+            <user>ken.woods@beamsuntory.com</user>
+            <user>krisie.dry@beamsuntory.com</user>
+            <user>latoya.gordon@beamsuntory.com</user>
+            <user>liz.osei@beamsuntory.com</user>
+            <user>liz.tyler@beamsuntory.com</user>
+            <user>maria.woods@beamsuntory.com</user>
+            <user>nicole.aritzmendi@beamsuntory.com</user>
+        </users>
     </queueMembers>
     <queueSobject>
         <sobjectType>MarketingPlan__c</sobjectType>

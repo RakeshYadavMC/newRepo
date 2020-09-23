@@ -1,9 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Queue xmlns="http://soap.sforce.com/2006/04/metadata">
     <doesSendEmailToMembers>false</doesSendEmailToMembers>
     <name>US Finance-PRs</name>
     <queueMembers>
-        
+        <users>
+            <user>carol.greenley@beamsuntory.com</user>
+            <user>jody.cates@beamsuntory.com</user>
+            <user>kermory.malone@beamsuntory.com</user>
+            <user>sonya.galperin@beamsuntory.com</user>
+        </users>
     </queueMembers>
     <queueSobject>
         <sobjectType>PR_Header__c</sobjectType>

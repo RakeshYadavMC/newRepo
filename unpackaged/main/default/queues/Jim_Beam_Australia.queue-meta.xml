@@ -1,10 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Queue xmlns="http://soap.sforce.com/2006/04/metadata">
     <doesSendEmailToMembers>true</doesSendEmailToMembers>
     <email>lennart.sipsma@beamsuntory.com</email>
     <name>Jim Beam - Australia</name>
     <queueMembers>
-        
+        <users>
+            <user>cat.williams@beamsuntory.com</user>
+            <user>demetrius.giouzelis@beamsuntory.com</user>
+            <user>lennart.sipsma@beamsuntory.comau</user>
+            <user>tom.ansell@beamsuntory.com</user>
+        </users>
     </queueMembers>
     <queueSobject>
         <sobjectType>MarketingPlan__c</sobjectType>

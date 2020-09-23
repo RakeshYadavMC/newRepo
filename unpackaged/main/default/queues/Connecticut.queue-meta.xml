@@ -1,10 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Queue xmlns="http://soap.sforce.com/2006/04/metadata">
     <doesSendEmailToMembers>false</doesSendEmailToMembers>
     <email>maria.woods@beamsuntory.com</email>
     <name>Connecticut</name>
     <queueMembers>
-        
+        <users>
+            <user>allen.dibuono@beamsuntory.com</user>
+            <user>christine.bradt@beamsuntory.com</user>
+            <user>chris.potter@beamsuntory.com</user>
+            <user>jennifer.christman@beamsuntory.com</user>
+            <user>latoya.gordon@beamsuntory.com</user>
+            <user>maria.woods@beamsuntory.com</user>
+            <user>maya.rubalcaba@beamsuntory.com</user>
+            <user>rachel.harris@beamsuntory.com</user>
+        </users>
     </queueMembers>
     <queueSobject>
         <sobjectType>MarketingPlan__c</sobjectType>

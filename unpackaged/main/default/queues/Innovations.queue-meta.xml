@@ -1,9 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Queue xmlns="http://soap.sforce.com/2006/04/metadata">
     <doesSendEmailToMembers>false</doesSendEmailToMembers>
     <name>Innovations</name>
     <queueMembers>
-        
+        <users>
+            <user>aaron.toussaint@beamsuntory.com</user>
+            <user>eileen.bravmann@beamsuntory.com</user>
+            <user>julia.reardon@beamsuntory.com</user>
+            <user>julianne.douglas@beamsuntory.com</user>
+            <user>katie.benjamin@beamsuntory.com</user>
+            <user>marguerite.allolding@beamsuntory.com</user>
+            <user>maxwell.goldner@beamsuntory.com</user>
+            <user>theresa.richards@beamsuntory.com</user>
+        </users>
     </queueMembers>
     <queueSobject>
         <sobjectType>MarketingPlan__c</sobjectType>
