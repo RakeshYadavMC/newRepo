@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <label>协调员耗时</label>
-        <name>Coordinator_Time_Elapsed__c</name>
-    </CustomFieldTranslation>

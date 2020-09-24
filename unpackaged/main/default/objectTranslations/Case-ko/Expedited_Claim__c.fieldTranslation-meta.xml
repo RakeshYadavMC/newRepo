@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <help><!-- To expedite a claim you must receive approval from your manager by clicking the &quot;Submit for Approval&quot; button at the top of the record detail page --></help>
-        <label><!-- Expedited Claim --></label>
-        <name>Expedited_Claim__c</name>
-    </CustomFieldTranslation>

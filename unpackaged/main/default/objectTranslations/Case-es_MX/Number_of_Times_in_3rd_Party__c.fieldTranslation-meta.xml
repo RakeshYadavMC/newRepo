@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <label><!-- Number of Times in 3rd Party --></label>
-        <name>Number_of_Times_in_3rd_Party__c</name>
-    </CustomFieldTranslation>

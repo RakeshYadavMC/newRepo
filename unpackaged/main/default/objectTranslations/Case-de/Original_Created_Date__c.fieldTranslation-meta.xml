@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <help><!-- Created to hold created date from legacy system --></help>
-        <label><!-- Original Created Date --></label>
-        <name>Original_Created_Date__c</name>
-    </CustomFieldTranslation>

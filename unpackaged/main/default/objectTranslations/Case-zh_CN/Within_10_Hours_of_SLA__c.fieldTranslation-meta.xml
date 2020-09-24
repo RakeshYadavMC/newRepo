@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <label><!-- Within 10 Hours of SLA --></label>
-        <name>Within_10_Hours_of_SLA__c</name>
-    </CustomFieldTranslation>

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <label>Date de demande des prévisions</label>
-        <name>Date_Forecast_Requested__c</name>
-    </CustomFieldTranslation>
