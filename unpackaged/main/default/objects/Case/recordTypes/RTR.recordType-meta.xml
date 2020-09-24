@@ -360,6 +360,13 @@
         </values>
     </picklistValues>
     <picklistValues>
+        <picklist>Brand__c</picklist>
+        <values>
+            <fullName>On The Rocks</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>Business_Unit__c</picklist>
         <values>
             <fullName>Canada</fullName>

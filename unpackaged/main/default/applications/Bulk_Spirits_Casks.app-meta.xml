@@ -161,12 +161,6 @@
         </listPlacement>
         <listRefreshMethod>none</listRefreshMethod>
         <primaryTabColor>#cc0000</primaryTabColor>
-        <pushNotifications>
-            <fieldNames>New_Activity__c</fieldNames>
-            <fieldNames>Origin</fieldNames>
-            <fieldNames>Status</fieldNames>
-            <objectName>Case</objectName>
-        </pushNotifications>
     </consoleConfig>
     <defaultLandingTab>standard-home</defaultLandingTab>
     <description>Console view for Bulk Spirits Team</description>

@@ -284,6 +284,10 @@
             <translation><!-- Old Whiskeys --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>On The Rocks</masterLabel>
+            <translation><!-- On The Rocks --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Pavan</masterLabel>
             <translation><!-- Pavan --></translation>
         </picklistValues>

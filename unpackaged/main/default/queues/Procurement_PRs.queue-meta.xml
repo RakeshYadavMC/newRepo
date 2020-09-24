@@ -1,9 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Queue xmlns="http://soap.sforce.com/2006/04/metadata">
     <doesSendEmailToMembers>false</doesSendEmailToMembers>
     <name>Procurement-PRs</name>
     <queueMembers>
-        
+        <users>
+            <user>beth.mccann@beamsuntory.com</user>
+            <user>heather.kaster@beamsuntory.com</user>
+        </users>
     </queueMembers>
     <queueSobject>
         <sobjectType>PR_Header__c</sobjectType>

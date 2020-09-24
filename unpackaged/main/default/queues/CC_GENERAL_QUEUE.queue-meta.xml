@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Queue xmlns="http://soap.sforce.com/2006/04/metadata">
     <doesSendEmailToMembers>false</doesSendEmailToMembers>
     <name>GENERAL QUEUE</name>
@@ -6,7 +6,11 @@
         <publicGroups>
             <publicGroup>ALL_Queues</publicGroup>
         </publicGroups>
-        
+        <users>
+            <user>alex.brewin@beamsuntory.com</user>
+            <user>brittni.ainsworth@beamsuntory.com</user>
+            <user>dionicia.sandoval@beamsuntory.com</user>
+        </users>
     </queueMembers>
     <queueSobject>
         <sobjectType>Case</sobjectType>

@@ -1,9 +1,28 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Queue xmlns="http://soap.sforce.com/2006/04/metadata">
     <doesSendEmailToMembers>false</doesSendEmailToMembers>
     <name>US Claims</name>
     <queueMembers>
-        
+        <users>
+            <user>andrea.chavez@beamsuntory.com</user>
+            <user>austin.hodder@beamsuntory.com</user>
+            <user>austin.wiegand@beamsuntory.com</user>
+            <user>brian.chaps@beamsuntory.com</user>
+            <user>bruce.fruechte@beamsuntory.com</user>
+            <user>connor.obrien@beamsuntory.com</user>
+            <user>czarina.escala@beamsuntory.com</user>
+            <user>dena.wesolowski@beamsuntory.com</user>
+            <user>dionicia.sandoval@beamsuntory.com</user>
+            <user>griselda.hernandez@beamsuntory.com</user>
+            <user>john.tunca@beamsuntory.com</user>
+            <user>julie.goliak@beamsuntory.com</user>
+            <user>lindsey.jacoby@beamsuntory.com</user>
+            <user>nicholas.ford@beamsuntory.com</user>
+            <user>nick.larson@beamsuntory.com</user>
+            <user>paul.han@beamsuntory.com</user>
+            <user>rebecca.yousif@beamsuntory.com</user>
+            <user>vibhuti.shah@beamsuntory.com</user>
+        </users>
     </queueMembers>
     <queueSobject>
         <sobjectType>Case</sobjectType>

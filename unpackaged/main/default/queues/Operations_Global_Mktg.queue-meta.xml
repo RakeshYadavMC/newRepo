@@ -1,9 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Queue xmlns="http://soap.sforce.com/2006/04/metadata">
     <doesSendEmailToMembers>false</doesSendEmailToMembers>
     <name>Operations Global Mktg</name>
     <queueMembers>
-        
+        <users>
+            <user>claire.lukaszewski@beamsuntory.com</user>
+            <user>james.devlin@beamsuntory.com</user>
+            <user>jennifer.mordini@beamsuntory.com</user>
+            <user>max.grad@beamsuntory.com</user>
+            <user>nicole.pellecchia@beamsuntory.com</user>
+        </users>
     </queueMembers>
     <queueSobject>
         <sobjectType>MarketingPlan__c</sobjectType>

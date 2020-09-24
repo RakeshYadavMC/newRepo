@@ -695,6 +695,10 @@
             <fullName>None</fullName>
             <default>false</default>
         </values>
+        <values>
+            <fullName>On The Rocks</fullName>
+            <default>false</default>
+        </values>
     </picklistValues>
     <picklistValues>
         <picklist>Business_Function__c</picklist>

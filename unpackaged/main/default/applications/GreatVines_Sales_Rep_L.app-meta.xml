@@ -117,6 +117,14 @@
         <formFactor>Large</formFactor>
         <pageOrSobjectType>standard-home</pageOrSobjectType>
         <type>Flexipage</type>
+        <profile>Commercial Services Management</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>Tab</actionName>
+        <content>GreatVines_Homepage1</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>standard-home</pageOrSobjectType>
+        <type>Flexipage</type>
         <profile>BSMX On Premise KAM</profile>
     </profileActionOverrides>
     <profileActionOverrides>
@@ -133,23 +141,7 @@
         <formFactor>Large</formFactor>
         <pageOrSobjectType>standard-home</pageOrSobjectType>
         <type>Flexipage</type>
-        <profile>Commercial Services Management</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>Tab</actionName>
-        <content>GreatVines_Homepage1</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>standard-home</pageOrSobjectType>
-        <type>Flexipage</type>
         <profile>BSMX On Premise Manager</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>Tab</actionName>
-        <content>GreatVines_Homepage1</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>standard-home</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>BSMX Off Premise Manager</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>Tab</actionName>
@@ -165,7 +157,51 @@
         <formFactor>Large</formFactor>
         <pageOrSobjectType>standard-home</pageOrSobjectType>
         <type>Flexipage</type>
+        <profile>BSMX Off Premise Manager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>Tab</actionName>
+        <content>GreatVines_Homepage1</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>standard-home</pageOrSobjectType>
+        <type>Flexipage</type>
         <profile>BSMX Trade Marketing &amp; Finance</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.gvp__Off_Premise</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.gvp__Off_Premise</recordType>
+        <type>Flexipage</type>
+        <profile>BSMX On Premise Exec</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.gvp__On_Premise</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.gvp__On_Premise</recordType>
+        <type>Flexipage</type>
+        <profile>BSMX On Premise Exec</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
@@ -217,16 +253,7 @@
         <content>Account_Record_Page3</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.gvp__Off_Premise</recordType>
-        <type>Flexipage</type>
-        <profile>BSMX Off Premise KAM</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.gvp__Off_Premise</recordType>
+        <recordType>Account.gvp__On_Premise</recordType>
         <type>Flexipage</type>
         <profile>BSMX On Premise KAM</profile>
     </profileActionOverrides>
@@ -235,7 +262,7 @@
         <content>Account_Record_Page3</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.gvp__Off_Premise</recordType>
+        <recordType>Account.gvp__On_Premise</recordType>
         <type>Flexipage</type>
         <profile>BSMX On Premise Manager</profile>
     </profileActionOverrides>
@@ -244,7 +271,7 @@
         <content>Account_Record_Page3</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.gvp__Off_Premise</recordType>
+        <recordType>Account.gvp__On_Premise</recordType>
         <type>Flexipage</type>
         <profile>BSMX Trade Marketing &amp; Finance</profile>
     </profileActionOverrides>
@@ -253,7 +280,7 @@
         <content>Account_Record_Page3</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.gvp__Off_Premise</recordType>
+        <recordType>Account.gvp__On_Premise</recordType>
         <type>Flexipage</type>
         <profile>BSMX Off Premise Manager</profile>
     </profileActionOverrides>
@@ -262,7 +289,7 @@
         <content>Account_Record_Page3</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.gvp__Off_Premise</recordType>
+        <recordType>Account.gvp__On_Premise</recordType>
         <type>Flexipage</type>
         <profile>Commercial Operations</profile>
     </profileActionOverrides>
@@ -271,7 +298,7 @@
         <content>Account_Record_Page3</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.gvp__Off_Premise</recordType>
+        <recordType>Account.gvp__On_Premise</recordType>
         <type>Flexipage</type>
         <profile>Commercial Finance</profile>
     </profileActionOverrides>
@@ -280,7 +307,7 @@
         <content>Account_Record_Page3</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.gvp__Off_Premise</recordType>
+        <recordType>Account.gvp__On_Premise</recordType>
         <type>Flexipage</type>
         <profile>System Administrator with Bulk Hard Delete</profile>
     </profileActionOverrides>
@@ -291,7 +318,7 @@
         <pageOrSobjectType>Account</pageOrSobjectType>
         <recordType>Account.gvp__Off_Premise</recordType>
         <type>Flexipage</type>
-        <profile>Admin</profile>
+        <profile>BSMX Off Premise KAM</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
@@ -300,32 +327,14 @@
         <pageOrSobjectType>Account</pageOrSobjectType>
         <recordType>Account.gvp__Off_Premise</recordType>
         <type>Flexipage</type>
-        <profile>BSMX On Premise Exec</profile>
+        <profile>BSMX On Premise KAM</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
         <content>Account_Record_Page3</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.gvp__On_Premise</recordType>
-        <type>Flexipage</type>
-        <profile>Admin</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.gvp__On_Premise</recordType>
-        <type>Flexipage</type>
-        <profile>BSMX On Premise Exec</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.gvp__On_Premise</recordType>
+        <recordType>Account.gvp__Off_Premise</recordType>
         <type>Flexipage</type>
         <profile>BSMX On Premise Manager</profile>
     </profileActionOverrides>
@@ -334,16 +343,7 @@
         <content>Account_Record_Page3</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.gvp__On_Premise</recordType>
-        <type>Flexipage</type>
-        <profile>BSMX On Premise KAM</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.gvp__On_Premise</recordType>
+        <recordType>Account.gvp__Off_Premise</recordType>
         <type>Flexipage</type>
         <profile>BSMX Trade Marketing &amp; Finance</profile>
     </profileActionOverrides>
@@ -352,7 +352,7 @@
         <content>Account_Record_Page3</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.gvp__On_Premise</recordType>
+        <recordType>Account.gvp__Off_Premise</recordType>
         <type>Flexipage</type>
         <profile>BSMX Off Premise Manager</profile>
     </profileActionOverrides>
@@ -361,7 +361,7 @@
         <content>Account_Record_Page3</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.gvp__On_Premise</recordType>
+        <recordType>Account.gvp__Off_Premise</recordType>
         <type>Flexipage</type>
         <profile>Commercial Operations</profile>
     </profileActionOverrides>
@@ -370,7 +370,7 @@
         <content>Account_Record_Page3</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.gvp__On_Premise</recordType>
+        <recordType>Account.gvp__Off_Premise</recordType>
         <type>Flexipage</type>
         <profile>Commercial Finance</profile>
     </profileActionOverrides>
@@ -379,7 +379,7 @@
         <content>Account_Record_Page3</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.gvp__On_Premise</recordType>
+        <recordType>Account.gvp__Off_Premise</recordType>
         <type>Flexipage</type>
         <profile>System Administrator with Bulk Hard Delete</profile>
     </profileActionOverrides>

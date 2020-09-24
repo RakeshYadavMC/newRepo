@@ -2861,26 +2861,43 @@
         <label>Suntory Old Whisky</label>
     </customValue>
     <customValue>
-        <fullName>HIGHGROVE</fullName>
+        <fullName>AMERICAN OAK RESERVE</fullName>
         <default>false</default>
-        <label>HIGHGROVE</label>
+        <label>AMERICAN OAK RESERVE</label>
     </customValue>
     <customValue>
-        <fullName>HEARTWOOD</fullName>
+        <fullName>BLOOD OAK</fullName>
         <default>false</default>
-        <label>HEARTWOOD</label>
+        <label>BLOOD OAK</label>
     </customValue>
     <customValue>
-        <fullName>8YO</fullName>
+        <fullName>DARK OAK</fullName>
         <default>false</default>
-        <isActive>false</isActive>
-        <label>8YO</label>
+        <label>DARK OAK</label>
     </customValue>
     <customValue>
         <fullName>ENGIMA</fullName>
         <default>false</default>
         <isActive>false</isActive>
         <label>ENGIMA</label>
+    </customValue>
+    <customValue>
+        <fullName>HEARTWOOD</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>HEARTWOOD</label>
+    </customValue>
+    <customValue>
+        <fullName>HIGHGROVE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>HIGHGROVE</label>
+    </customValue>
+    <customValue>
+        <fullName>8YO</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>8YO</label>
     </customValue>
     <masterLabel>Product Type</masterLabel>
     <sorted>false</sorted>

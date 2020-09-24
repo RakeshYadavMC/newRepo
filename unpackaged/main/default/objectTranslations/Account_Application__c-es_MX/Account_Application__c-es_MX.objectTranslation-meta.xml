@@ -8,26 +8,6 @@
         <plural>true</plural>
         <value>Account Applications</value>
     </caseValues>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     <gender>Masculine</gender>
     <layouts>
         <layout>Account Application Layout</layout>
@@ -51,4 +31,25 @@
         <label><!-- Date Approval --></label>
         <name>Date_Approval</name>
     </recordTypes>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 </CustomObjectTranslation>

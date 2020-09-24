@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Queue xmlns="http://soap.sforce.com/2006/04/metadata">
     <doesSendEmailToMembers>false</doesSendEmailToMembers>
     <email>compliance@beamsuntory.com</email>
@@ -8,7 +8,16 @@
             <role>Customer_Service_Coordinator</role>
             <role>Customer_Service_Management</role>
         </roles>
-        
+        <users>
+            <user>andrew.grabowski@beamsuntory.com</user>
+            <user>connor.obrien@beamsuntory.com</user>
+            <user>courtney.reardon@beamsuntory.com</user>
+            <user>dionicia.sandoval@beamsuntory.com</user>
+            <user>john.howe@beamsuntory.comus</user>
+            <user>julie.goliak@beamsuntory.com</user>
+            <user>kevin.katz@beamsuntory.com</user>
+            <user>stacy.hechtman@beamsuntory.com</user>
+        </users>
     </queueMembers>
     <queueSobject>
         <sobjectType>Case</sobjectType>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Queue xmlns="http://soap.sforce.com/2006/04/metadata">
     <doesSendEmailToMembers>false</doesSendEmailToMembers>
     <name>Claims Singapore</name>
@@ -6,7 +6,12 @@
         <publicGroups>
             <publicGroup>Claims_Singapore</publicGroup>
         </publicGroups>
-        
+        <users>
+            <user>annie.chiong@beamsuntory.com</user>
+            <user>eugene.yan@beamsuntory.com</user>
+            <user>jacqueline.mitchell@beamsuntory.com</user>
+            <user>raquel.hernandez@beamsuntory.com</user>
+        </users>
     </queueMembers>
     <queueSobject>
         <sobjectType>Case</sobjectType>

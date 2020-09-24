@@ -1368,8 +1368,8 @@ public class caseServices {
             }
         }
     }
-	
-	/**************************************************************************************************************
+    
+    /**************************************************************************************************************
     Description:    Address details from Account for the Consumer Inquiry/Quality Claim case record type.
     
     History
@@ -1391,9 +1391,9 @@ public class caseServices {
         }
         
         Map<Id,Account> personAccountMap = new Map<Id,Account>([Select Id,PersonMailingStreet,PersonMailingCity,PersonMailingState
-                                                             		,PersonMailingPostalCode,PersonMailingCountry 
-                                       							FROM account 
-                                       							WHERE RecordTypeId = :CSConstants.CONSUMER_ACCOUNT_RT_ID AND Id IN: accountIds]);
+                                                                    ,PersonMailingPostalCode,PersonMailingCountry 
+                                                                FROM account 
+                                                                WHERE RecordTypeId = :CSConstants.CONSUMER_ACCOUNT_RT_ID AND Id IN: accountIds]);
         
         //Add address fields for Consumer Inquiry and Quality Claim records
         for(Case c : cases) {
@@ -3084,7 +3084,7 @@ casesToInsert.add(newSubCase);
                                 String.valueOf(newCase.Brand_Allocation__c).subString(0,15)
                             );
                         if(!lstRegionAlloc.isEmpty()){ 
-                       	    if((newCase.Status == CSConstants.NEW_STATUS || newCase.Status == CSConstants.PENDING_DOCUMENTATION )&& !mapOldCase.get(newCase.Id).Flow_Completed__c){
+                            if((newCase.Status == CSConstants.NEW_STATUS || newCase.Status == CSConstants.PENDING_DOCUMENTATION )&& !mapOldCase.get(newCase.Id).Flow_Completed__c){
                                 if(lstRegionAlloc[0].Used_Allocations__c != null) {
                                     lstRegionAlloc[0].Used_Allocations__c += 1;
                                 } else {
@@ -3122,7 +3122,7 @@ casesToInsert.add(newSubCase);
                         newCase.Brand_Allocation__c = updatedCase.Brand_Allocation__c;  
                         newCase.status =  updatedCase.status;      
                 }
-       	    }
+            }
         }
         catch (Exception e) {
             String errorMessage = 'Error creating cases ' + e.getMessage() + '\n' + e.getStackTraceString();
@@ -3362,12 +3362,12 @@ casesToInsert.add(newSubCase);
         List<State__c> lstState = SLT_SB2_State.getStateInfoFromAccount(distributorAccount.BillingState.toUpperCase());
         Boolean isvalid = true;
         if(!lstState.isEmpty()){
-        	List<Brand_Country_Region_Allocation__c> lstRegionAlloc = 
+            List<Brand_Country_Region_Allocation__c> lstRegionAlloc = 
                 SLT_SB2_BrandCountryRegionAlloc.getRegionAllocationByCountryAndRegionAndBrand(lstState[0].Region__r.Name,
-             	distributorAccount.BillingCountry, selectedBrandAllocation);
+                distributorAccount.BillingCountry, selectedBrandAllocation);
             for(Brand_Country_Region_Allocation__c regionAlloc : lstRegionAlloc){
-           		if(regionAlloc.Is_Leaf_Node__c && regionAlloc.Allocations_Per_Interval__c == regionAlloc.Used_Allocations__c){
-                	existingCase.status = 'Closed - Abandoned';
+                if(regionAlloc.Is_Leaf_Node__c && regionAlloc.Allocations_Per_Interval__c == regionAlloc.Used_Allocations__c){
+                    existingCase.status = 'Closed - Abandoned';
                 } else if(regionAlloc.Is_Leaf_Node__c && regionAlloc.Allocations_Per_Interval__c != regionAlloc.Used_Allocations__c){
                     existingCase.Allocation_Allocated_From__c = 'Region';
                     if(regionAlloc.Used_Allocations__c != null) {
@@ -3408,7 +3408,7 @@ casesToInsert.add(newSubCase);
         if(!String.isEmpty(selectedBrandAllocation)){
             selectedBrandAllocation = selectedBrandAllocation.substring(0,15);
             isValid = true;
-        }       	
+        }           
         existingCase.Brand_Allocation__c = selectedBrandAllocation;
         if(newCase.National_Account_Flag__c) {
             if(!lstRetailorAccount.isEmpty()){
@@ -3438,131 +3438,7 @@ casesToInsert.add(newSubCase);
         }
         return newCase;
     }
-    /**************************************************************************************************************
-    Description:     SR-179687 Added By Ajeeta Soni(TCS)   
-    History
-    <Date>      <Authors Name>     <Brief Description of Change>
-    6/2020      Ajeeta Soni       Initial Creation
-    
-    ***************************************************************************************************************/    
-    public static void createSubCaseForBarrelInquiry(List <Case> cases, Map<Id, Case> oldMap) {
-    Id singleBarrelProofRId = Schema.SObjectType.Case.getRecordTypeInfosByDeveloperName().get('Single_Barrel_Proof_Specific').getRecordTypeId();
-    Id singleBarrelStandardRId = Schema.SObjectType.Case.getRecordTypeInfosByDeveloperName().get('Single_Barrel_Standard').getRecordTypeId();
-    Id singleBarrelInquiryRId = Schema.SObjectType.Case.getRecordTypeInfosByDeveloperName().get('Barrel_Ready_to_Enter').getRecordTypeId();       
-    List <Case> casesToInsert = new List<Case>();    
-        Id queueID ;
-        queueID = [SELECT Id,Name, Type FROM Group WHERE Type = 'Queue' AND Name = 'Barrel Queue'].Id;
-        for(Case c : cases){
-            Case oldCase = oldMap.get(c.Id);
-            if(c.Id != null) {
-              if((oldCase.Bottle_Text_Entered__c == False) || (oldCase.Purchase_Order_Uploaded__c == False) || (oldCase.POS_Items_Selected__c == False) || (oldCase.Barrel_Selected__c == False)){
-            if ((c.Cases.isEmpty()) && (c.RecordTypeId == singleBarrelProofRId || c.RecordTypeId == singleBarrelStandardRId ) && ('Knob Creek'.equalsIgnoreCase(c.Brand__c) || 'El Tesoro'.equalsIgnoreCase(c.Brand__c))
-             && (c.Bottle_Text_Entered__c == True) && (c.Purchase_Order_Uploaded__c == True) && (c.POS_Items_Selected__c == True) && (c.Barrel_Selected__c == True) && (c.Order_Ready_To_Enter__c==False) && (c.Status != 'Closed') ) {
-               
-                System.debug('Trigger New Map:::'+Trigger.newMap.get(c.Id));
-                Case newSubCase = (Case) Trigger.newMap.get(c.Id).clone(false, false, false, false);
-                newSubCase.ParentId = c.Id;
-                newSubCase.Status = 'New'; 
-                newSubCase.OwnerId = queueID;
-                newSubCase.Sub_Status__c = null;
-                newSubCase.Product_Type__c = c.Product_Type__c;
-                newSubCase.AccountId = c.AccountId;
-                newSubCase.Retail_Account__c = c.Retail_Account__c;
-                newSubCase.ContactId = c.ContactId;
-                newSubCase.Brand__c = c.Brand__c;
-                newSubCase.Submitter__c = c.Submitter__c;
-                newSubCase.Type = 'Barrel Ready to Enter';
-                newSubCase.Purchase_Order_Number__c   = c.Related_Barrel_PO_Number__c ;
-                newSubCase.RecordTypeId = singleBarrelInquiryRId ; 
-                casesToInsert.add(newSubCase);
-                     
-            }
-               }
-            if ((c.Cases.isEmpty()) && (c.RecordTypeId == singleBarrelProofRId || c.RecordTypeId == singleBarrelStandardRId ) && ('Makers Mark'.equalsIgnoreCase(c.Brand__c))
-             && (c.Bottle_Text_Entered__c == True) && (c.Purchase_Order_Uploaded__c == True) && (c.Barrel_Selected__c == True)  && (c.Order_Ready_To_Enter__c==False) && (c.Status != 'Closed')) {
-                 if((oldCase.Bottle_Text_Entered__c == False) || (oldCase.Purchase_Order_Uploaded__c == False) || (oldCase.Barrel_Selected__c == False)){
-                System.debug('Trigger New Map:::'+Trigger.newMap.get(c.Id));
-                Case newSubCase = (Case) Trigger.newMap.get(c.Id).clone(false, false, false, false);
-                newSubCase.ParentId = c.Id;
-                newSubCase.Status = 'New'; 
-                newSubCase.OwnerId = queueID;
-                newSubCase.Sub_Status__c = null;
-                newSubCase.Product_Type__c = c.Product_Type__c;
-                newSubCase.AccountId = c.AccountId;
-                newSubCase.Brand__c = c.Brand__c;
-                newSubCase.Retail_Account__c = c.Retail_Account__c;
-                newSubCase.ContactId = c.ContactId;
-                newSubCase.Submitter__c = c.Submitter__c;
-                newSubCase.Type = 'Barrel Ready to Enter';
-                newSubCase.Purchase_Order_Number__c   = c.Related_Barrel_PO_Number__c ;
-                newSubCase.RecordTypeId = singleBarrelInquiryRId ; 
-                casesToInsert.add(newSubCase);
-                 }
-            }
-        }
-               }
-           
-        if (!casesToInsert.isEmpty()) {
-            try {
-                insert casesToInsert;
-             } catch (Exception e) {
-                String errorMessage = 'Error creating cases ' + e.getMessage() + '\n' + e.getStackTraceString();
-                CreateExceptionLog.insertErrorLog('caseServices', 'createSubCaseForBarrelInquiry', String.valueOf(errorMessage), 'Fatal');
-                // throw so that we can detect issues before deploying
-                if (Test.isRunningTest()) {
-                    throw new CS_CustomException(e.getMessage());
-                }
-            }
-        }
         
-    }
-    
-     /**************************************************************************************************************    
-    Description: SR-179687 Added By Ajeeta Soni(TCS)
-    History : 
-    6/2020     Ajeeta       Initial Creation
-    ***************************************************************************************************************/
-    public static void updateSingleBarrelParentCase(List<Case> newCases, Map<Id, Case> oldMap) {
-    Id singleBarrelProofRId = Schema.SObjectType.Case.getRecordTypeInfosByDeveloperName().get('Single_Barrel_Proof_Specific').getRecordTypeId();
-    Id singleBarrelStandardRId = Schema.SObjectType.Case.getRecordTypeInfosByDeveloperName().get('Single_Barrel_Standard').getRecordTypeId();
-        List<Case> caseList = new List<Case>();
-        List<Case> caseChildList = new List<Case>();
-        Set<Id> caseIds = new Set<Id>();
-        for(Case c : newCases){
-            Case oldCase = oldMap.get(c.Id);
-               if((c.RecordTypeId == singleBarrelProofRId || c.RecordTypeId == singleBarrelStandardRId ) && ('Knob Creek'.equalsIgnoreCase(c.Brand__c) || 'El Tesoro'.equalsIgnoreCase(c.Brand__c))
-                  && (c.Bottle_Text_Entered__c == True) && (c.Purchase_Order_Uploaded__c == True) && (c.POS_Items_Selected__c == True) && (c.Barrel_Selected__c == True)){
-            if((oldCase.Bottle_Text_Entered__c == False) || (oldCase.Purchase_Order_Uploaded__c == False) || (oldCase.POS_Items_Selected__c == False) || (oldCase.Barrel_Selected__c == False)){
-         
-           
-                 caseIds.add(c.id);
-             }
-                }
-            else if ((oldCase.Bottle_Text_Entered__c == False) || (oldCase.Purchase_Order_Uploaded__c == False) || (oldCase.Barrel_Selected__c == False)){
-                if ((c.RecordTypeId == singleBarrelProofRId || c.RecordTypeId == singleBarrelStandardRId ) && ('Makers Mark'.equalsIgnoreCase(c.Brand__c))
-             && (c.Bottle_Text_Entered__c == True) && (c.Purchase_Order_Uploaded__c == True) && (c.Barrel_Selected__c == True)){
-                caseIds.add(c.id); 
-            }
-                
-            }
-}
-
-        caseList = [SELECT id,Brand__c,Related_Barrel_SKU__c,Status,Order_Ready_To_Enter__c,Order_Ready_To_Enter_Checked_Date__c,SAP_Number__c,CaseNumber FROM Case WHERE Id IN:caseIds];
-        caseChildList = [SELECT id,Status,SAP_Number__c,CaseNumber FROM Case WHERE ParentId IN:caseIds];
-        for(Case cs1:caseList){
-        if((cs1.Order_Ready_To_Enter_Checked_Date__c == null) && (cs1.Brand__c != 'Makers Mark')){
-        cs1.Order_Ready_To_Enter__c=true;
-        cs1.Order_Ready_To_Enter_Checked_Date__c = Datetime.now();
-         }	
-            else if ((cs1.Brand__c == 'Makers Mark') && (cs1.Related_Barrel_SKU__c !=null)){
-                 cs1.Order_Ready_To_Enter__c=true;
-        		 cs1.Order_Ready_To_Enter_Checked_Date__c = Datetime.now();
-            }
-               
-    }
-        update caseList;
-}
-    
     /**************************************************************************************************************    
     Description: SR-179687 Added By Ajeeta Soni(TCS)
     History : 
@@ -3579,7 +3455,7 @@ casesToInsert.add(newSubCase);
             if((c.RecordTypeId == BarrelReadyRId) ){
              case_map.put(string.valueof(c.ParentId),c);
              }   
-		}
+        }
         
        if(case_map.size() > 0){
         for(case cc : [Select id,Status,Order_Ready_To_Enter__c,Barrel_Ready_to_Enter_Case_Number__c,Order_Ready_To_Enter_Checked_Date__c,SAP_Number__c,CaseNumber from case where id in: case_map.keySet()]){
@@ -3592,4 +3468,5 @@ casesToInsert.add(newSubCase);
        // case_map.clear();
     }
   }
+
 }

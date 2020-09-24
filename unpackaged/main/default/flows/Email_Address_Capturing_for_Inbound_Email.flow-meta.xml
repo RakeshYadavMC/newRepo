@@ -387,6 +387,130 @@
                     <stringValue>oshf.queries@suntory.com</stringValue>
                 </rightValue>
             </conditions>
+            <conditions>
+                <processMetadataValues>
+                    <name>inputDataType</name>
+                    <value>
+                        <stringValue>String</stringValue>
+                    </value>
+                </processMetadataValues>
+                <processMetadataValues>
+                    <name>leftHandSideType</name>
+                    <value>
+                        <stringValue>String</stringValue>
+                    </value>
+                </processMetadataValues>
+                <processMetadataValues>
+                    <name>operatorDataType</name>
+                    <value>
+                        <stringValue>String</stringValue>
+                    </value>
+                </processMetadataValues>
+                <processMetadataValues>
+                    <name>rightHandSideType</name>
+                    <value>
+                        <stringValue>String</stringValue>
+                    </value>
+                </processMetadataValues>
+                <leftValueReference>myVariable_current.ToAddress</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>ap.europe@beamsuntory.com</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <processMetadataValues>
+                    <name>inputDataType</name>
+                    <value>
+                        <stringValue>String</stringValue>
+                    </value>
+                </processMetadataValues>
+                <processMetadataValues>
+                    <name>leftHandSideType</name>
+                    <value>
+                        <stringValue>String</stringValue>
+                    </value>
+                </processMetadataValues>
+                <processMetadataValues>
+                    <name>operatorDataType</name>
+                    <value>
+                        <stringValue>String</stringValue>
+                    </value>
+                </processMetadataValues>
+                <processMetadataValues>
+                    <name>rightHandSideType</name>
+                    <value>
+                        <stringValue>String</stringValue>
+                    </value>
+                </processMetadataValues>
+                <leftValueReference>myVariable_current.ToAddress</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>cit.queries@suntory.com</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <processMetadataValues>
+                    <name>inputDataType</name>
+                    <value>
+                        <stringValue>String</stringValue>
+                    </value>
+                </processMetadataValues>
+                <processMetadataValues>
+                    <name>leftHandSideType</name>
+                    <value>
+                        <stringValue>String</stringValue>
+                    </value>
+                </processMetadataValues>
+                <processMetadataValues>
+                    <name>operatorDataType</name>
+                    <value>
+                        <stringValue>String</stringValue>
+                    </value>
+                </processMetadataValues>
+                <processMetadataValues>
+                    <name>rightHandSideType</name>
+                    <value>
+                        <stringValue>String</stringValue>
+                    </value>
+                </processMetadataValues>
+                <leftValueReference>myVariable_current.ToAddress</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>ap.europe@beamsuntory.com</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <processMetadataValues>
+                    <name>inputDataType</name>
+                    <value>
+                        <stringValue>String</stringValue>
+                    </value>
+                </processMetadataValues>
+                <processMetadataValues>
+                    <name>leftHandSideType</name>
+                    <value>
+                        <stringValue>String</stringValue>
+                    </value>
+                </processMetadataValues>
+                <processMetadataValues>
+                    <name>operatorDataType</name>
+                    <value>
+                        <stringValue>String</stringValue>
+                    </value>
+                </processMetadataValues>
+                <processMetadataValues>
+                    <name>rightHandSideType</name>
+                    <value>
+                        <stringValue>String</stringValue>
+                    </value>
+                </processMetadataValues>
+                <leftValueReference>myVariable_current.ToAddress</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>cit.queries@beamsuntory.com</stringValue>
+                </rightValue>
+            </conditions>
             <connector>
                 <targetReference>myRule_1_A1</targetReference>
             </connector>
@@ -397,7 +521,9 @@
         <processMetadataValues>
             <name>originalFormula</name>
             <value>
-                <stringValue>if(CONTAINS([EmailMessage].ToAddress,&apos;sbh.queries@suntory.com&apos;),&apos;sbh.queries@suntory.com&apos;,
+                <stringValue>if(CONTAINS([EmailMessage].ToAddress,&apos;ap.europe@beamsuntory.com&apos;),&apos;ap.europe@beamsuntory.com&apos;,
+if(CONTAINS([EmailMessage].ToAddress,&apos;cit.queries@suntory.com&apos;),&apos;cit.queries@suntory.com&apos;,
+if(CONTAINS([EmailMessage].ToAddress,&apos;sbh.queries@suntory.com&apos;),&apos;sbh.queries@suntory.com&apos;,
 if(CONTAINS([EmailMessage].ToAddress,&apos;ssa.queries@suntory.com&apos;),&apos;ssa.queries@suntory.com&apos;,
 if(CONTAINS([EmailMessage].ToAddress,&apos;spt.queries@suntory.com&apos;),&apos;spt.queries@suntory.com&apos;,
 if(CONTAINS([EmailMessage].ToAddress,&apos;ssb.queries@suntory.com&apos;),&apos;ssb.queries@suntory.com&apos;,
@@ -408,7 +534,13 @@ if(CONTAINS([EmailMessage].ToAddress,&apos;oshf.queries@suntory.com&apos;),&apos
 if(CONTAINS([EmailMessage].ToAddress,&apos;gbs_na_ptp@beamsuntory.com&apos;),&apos;gbs_na_ptp@beamsuntory.com&apos;,
 if(CONTAINS([EmailMessage].ToAddress,&apos;gbs_mx_pagos@beamsuntory.com&apos;),&apos;gbs_mx_pagos@beamsuntory.com&apos;,
 if(CONTAINS([EmailMessage].ToAddress,&apos;gbs_na_ptp@beamglobal.com&apos;),&apos;gbs_na_ptp@beamglobal.com&apos;,
-if(CONTAINS([EmailMessage].ToAddress,&apos;blbs.queries@suntory.com&apos;),&apos;blbs.queries@suntory.com&apos;,&apos;&apos;)
+if(CONTAINS([EmailMessage].ToAddress,&apos;blbs.queries@suntory.com&apos;),&apos;blbs.queries@suntory.com&apos;,
+if(CONTAINS([EmailMessage].ToAddress,&apos;cit.queries@beamsuntory.com&apos;),&apos;cit.queries@beamsuntory.com&apos;,
+if(CONTAINS([EmailMessage].ToAddress,&apos;ap.europe@beamsuntory.com&apos;),&apos;ap.europe@beamsuntory.com&apos;,&apos;&apos; )
+ )
+ )
+ )
+ )
  )
  )
  )
@@ -422,9 +554,11 @@ if(CONTAINS([EmailMessage].ToAddress,&apos;blbs.queries@suntory.com&apos;),&apos
  )</stringValue>
             </value>
         </processMetadataValues>
-        <name>formula_2_myRule_1_A1_4340505948</name>
+        <name>formula_2_myRule_1_A1_9089647200</name>
         <dataType>String</dataType>
-        <expression>if(CONTAINS({!myVariable_current.ToAddress},&apos;sbh.queries@suntory.com&apos;),&apos;sbh.queries@suntory.com&apos;,
+        <expression>if(CONTAINS({!myVariable_current.ToAddress},&apos;ap.europe@beamsuntory.com&apos;),&apos;ap.europe@beamsuntory.com&apos;,
+if(CONTAINS({!myVariable_current.ToAddress},&apos;cit.queries@suntory.com&apos;),&apos;cit.queries@suntory.com&apos;,
+if(CONTAINS({!myVariable_current.ToAddress},&apos;sbh.queries@suntory.com&apos;),&apos;sbh.queries@suntory.com&apos;,
 if(CONTAINS({!myVariable_current.ToAddress},&apos;ssa.queries@suntory.com&apos;),&apos;ssa.queries@suntory.com&apos;,
 if(CONTAINS({!myVariable_current.ToAddress},&apos;spt.queries@suntory.com&apos;),&apos;spt.queries@suntory.com&apos;,
 if(CONTAINS({!myVariable_current.ToAddress},&apos;ssb.queries@suntory.com&apos;),&apos;ssb.queries@suntory.com&apos;,
@@ -435,7 +569,13 @@ if(CONTAINS({!myVariable_current.ToAddress},&apos;oshf.queries@suntory.com&apos;
 if(CONTAINS({!myVariable_current.ToAddress},&apos;gbs_na_ptp@beamsuntory.com&apos;),&apos;gbs_na_ptp@beamsuntory.com&apos;,
 if(CONTAINS({!myVariable_current.ToAddress},&apos;gbs_mx_pagos@beamsuntory.com&apos;),&apos;gbs_mx_pagos@beamsuntory.com&apos;,
 if(CONTAINS({!myVariable_current.ToAddress},&apos;gbs_na_ptp@beamglobal.com&apos;),&apos;gbs_na_ptp@beamglobal.com&apos;,
-if(CONTAINS({!myVariable_current.ToAddress},&apos;blbs.queries@suntory.com&apos;),&apos;blbs.queries@suntory.com&apos;,&apos;&apos;)
+if(CONTAINS({!myVariable_current.ToAddress},&apos;blbs.queries@suntory.com&apos;),&apos;blbs.queries@suntory.com&apos;,
+if(CONTAINS({!myVariable_current.ToAddress},&apos;cit.queries@beamsuntory.com&apos;),&apos;cit.queries@beamsuntory.com&apos;,
+if(CONTAINS({!myVariable_current.ToAddress},&apos;ap.europe@beamsuntory.com&apos;),&apos;ap.europe@beamsuntory.com&apos;,&apos;&apos; )
+ )
+ )
+ )
+ )
  )
  )
  )
@@ -448,7 +588,7 @@ if(CONTAINS({!myVariable_current.ToAddress},&apos;blbs.queries@suntory.com&apos;
  )
  )</expression>
     </formulas>
-    <interviewLabel>Email_Address_Capturing_for_Inbound_Email-12_InterviewLabel</interviewLabel>
+    <interviewLabel>Email_Address_Capturing_for_Inbound_Email-7_InterviewLabel</interviewLabel>
     <label>Email Address Capturing for Inbound Email</label>
     <processMetadataValues>
         <name>ObjectType</name>
@@ -550,7 +690,7 @@ if(CONTAINS({!myVariable_current.ToAddress},&apos;blbs.queries@suntory.com&apos;
             </processMetadataValues>
             <field>To_Address__c</field>
             <value>
-                <elementReference>formula_2_myRule_1_A1_4340505948</elementReference>
+                <elementReference>formula_2_myRule_1_A1_9089647200</elementReference>
             </value>
         </inputAssignments>
         <object>Case</object>

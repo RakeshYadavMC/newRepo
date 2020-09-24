@@ -43,7 +43,7 @@ public with sharing class CustomLookupController {
     
     // returns all "Retail" accounts based on the search keyword
     @AuraEnabled
-    public static List <sObject> getPremiseRecordType(String searchKeyWord, String objectName, Integer queryLimit, String city, String state) {
+    public static List <sObject> getPremiseRecordType(String searchKeyWord, String objectName, Integer queryLimit, String city, String state,Boolean AvailableForSingleBarrel) {
         String searchKey = searchKeyWord.trim() + '%';
         if (queryLimit == null || queryLimit == 0) {
             queryLimit = 30;
@@ -55,7 +55,7 @@ public with sharing class CustomLookupController {
         System.debug('city value is::'+city+'State value is:::'+state);
         
         if((city == null || city == '') && (state == null || state == '')){
-            List <sObject> lstOfRecords = [select id, Name, PremiseType__c, BillingStreet, BillingCity, BillingState, BillingPostalCode, RecordType.DeveloperName from Account where (RecordType.DeveloperName = 'OffPremise' OR RecordType.DeveloperName = 'OnPremise') AND (TDL_Match_Code__c = :searchKeyWord OR Name LIKE :searchKey) order by createdDate DESC limit :queryLimit];
+            List <sObject> lstOfRecords = [select id, Name, PremiseType__c, BillingStreet, BillingCity, BillingState, BillingPostalCode, RecordType.DeveloperName, State__c from Account where (RecordType.DeveloperName = 'OffPremise' OR RecordType.DeveloperName = 'OnPremise') AND (TDL_Match_Code__c = :searchKeyWord OR Name LIKE :searchKey) AND Available_for_Single_barrel__c=:AvailableForSingleBarrel order by createdDate DESC limit :queryLimit];
             for (sObject obj : lstOfRecords) {
                 returnList.add(obj);
             }
@@ -63,7 +63,7 @@ public with sharing class CustomLookupController {
         }
         
         else if(city != null && city != '' && state != null && state != ''){
-            List <sObject> lstOfRecordsNew1 = [select id, Name, PremiseType__c, BillingStreet, BillingCity, BillingState, BillingPostalCode, RecordType.DeveloperName from Account where (RecordType.DeveloperName = 'OffPremise' OR RecordType.DeveloperName = 'OnPremise') AND (TDL_Match_Code__c = :searchKeyWord OR Name LIKE :searchKey) AND BillingCity = :city AND BillingState = :state order by createdDate DESC limit :queryLimit];
+            List <sObject> lstOfRecordsNew1 = [select id, Name, PremiseType__c, BillingStreet, BillingCity, BillingState, BillingPostalCode, RecordType.DeveloperName, State__c from Account where (RecordType.DeveloperName = 'OffPremise' OR RecordType.DeveloperName = 'OnPremise') AND (TDL_Match_Code__c = :searchKeyWord OR Name LIKE :searchKey) AND BillingCity = :city AND BillingState = :state AND Available_for_Single_barrel__c=:AvailableForSingleBarrel order by createdDate DESC limit :queryLimit];
             for (sObject obj : lstOfRecordsNew1) {
                 returnListNew1.add(obj);
             }
@@ -74,9 +74,9 @@ public with sharing class CustomLookupController {
             List <sObject> lstOfRecordsNew = new List <sObject> ();
             
             if(city != null && city != ''){
-                lstOfRecordsNew = [select id, Name, PremiseType__c, BillingStreet, BillingCity, BillingState, BillingPostalCode, RecordType.DeveloperName from Account where (RecordType.DeveloperName = 'OffPremise' OR RecordType.DeveloperName = 'OnPremise') AND BillingCity = :city order by createdDate DESC limit :queryLimit];
+                lstOfRecordsNew = [select id, Name, PremiseType__c, BillingStreet, BillingCity, BillingState, BillingPostalCode, RecordType.DeveloperName, State__c from Account where (RecordType.DeveloperName = 'OffPremise' OR RecordType.DeveloperName = 'OnPremise') AND BillingCity = :city AND Available_for_Single_barrel__c=:AvailableForSingleBarrel order by createdDate DESC limit :queryLimit];
             }else{
-                lstOfRecordsNew = [select id, Name, PremiseType__c, BillingStreet, BillingCity, BillingState, BillingPostalCode, RecordType.DeveloperName from Account where (RecordType.DeveloperName = 'OffPremise' OR RecordType.DeveloperName = 'OnPremise') AND BillingState = :state order by createdDate DESC limit :queryLimit];
+                lstOfRecordsNew = [select id, Name, PremiseType__c, BillingStreet, BillingCity, BillingState, BillingPostalCode, RecordType.DeveloperName, State__c from Account where (RecordType.DeveloperName = 'OffPremise' OR RecordType.DeveloperName = 'OnPremise') AND BillingState = :state  AND Available_for_Single_barrel__c=:AvailableForSingleBarrel order by createdDate DESC limit :queryLimit];
             }
             
             for (sObject obj : lstOfRecordsNew) {
@@ -113,21 +113,31 @@ public with sharing class CustomLookupController {
     }
     
     //retuns all the list of diplomate users
-    /*@AuraEnabled
-    public static List <sObject> getUserRecord(String searchKeyWord, String objectName, Integer queryLimit) {
+    @AuraEnabled
+    public static List <sObject> getUserRecord(String searchKeyWord, String objectName, Integer queryLimit, String state) {
+        System.debug('State value is:::'+state);
         String searchKey = searchKeyWord.trim() + '%';
         if (queryLimit == null || queryLimit == 0) {
             queryLimit = 20;
         }
         List <sObject> returnList = new List < sObject > ();
+
+        List<User> userlist = [SELECT Id, Regional_Diplomat_Regions__c FROM User where Regional_Diplomat_Regions__c!=''];
+        List<Id> userIds = new List<Id>();
         
-        List <sObject> lstOfRecords = [SELECT Id, Username, FirstName, LastName, Name FROM User where (FirstName = :searchKeyWord OR FirstName LIKE :searchKey) limit :queryLimit];
+        for(User u:userlist){
+            if(u.Regional_Diplomat_Regions__c.contains(state)){
+                userIds.add(u.Id);
+            }
+        }
         
+        //List <sObject> lstOfRecords = [SELECT Id, Username, FirstName, LastName, Name, Regional_Diplomat_Regions__c FROM User where (FirstName = :searchKeyWord OR FirstName LIKE :searchKey) AND Regional_Diplomat_Regions__c =:state limit :queryLimit];
+        List <sObject> lstOfRecords = [SELECT Id, Username, FirstName, LastName, Name FROM User where Id IN:userIds];
         for (sObject obj : lstOfRecords) {
             returnList.add(obj);
         }
         return returnList;
-    }*/
+    }
     
     // returns all SAP Company records related to a specific account vendor id
     @AuraEnabled

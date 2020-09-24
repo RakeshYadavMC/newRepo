@@ -310,6 +310,13 @@
         </values>
     </picklistValues>
     <picklistValues>
+        <picklist>Brand__c</picklist>
+        <values>
+            <fullName>On The Rocks</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>Case_Issues__c</picklist>
         <values>
             <fullName>Allocation</fullName>

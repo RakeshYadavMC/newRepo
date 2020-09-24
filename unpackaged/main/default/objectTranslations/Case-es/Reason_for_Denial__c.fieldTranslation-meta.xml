@@ -39,6 +39,10 @@
             <translation><!-- Incorrect State Code in SAP --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Knob Creek Previous Wax</masterLabel>
+            <translation><!-- Knob Creek Previous Wax --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Known Issue</masterLabel>
             <translation><!-- Known Issue --></translation>
         </picklistValues>

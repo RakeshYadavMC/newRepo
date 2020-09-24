@@ -4,7 +4,11 @@
     <protected>false</protected>
     <values>
         <field>Default_Text_Value__c</field>
-        <value xsi:type="xsd:string">Account Name</value>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Is_Active__c</field>
+        <value xsi:type="xsd:boolean">true</value>
     </values>
     <values>
         <field>Options__c</field>
@@ -20,7 +24,7 @@
     </values>
     <values>
         <field>Show_Text_Options__c</field>
-        <value xsi:type="xsd:boolean">false</value>
+        <value xsi:type="xsd:boolean">true</value>
     </values>
     <values>
         <field>State__c</field>

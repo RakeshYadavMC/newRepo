@@ -49,6 +49,18 @@ public class SRV_CustomerHistory {
         }
     	return SLT_Case.getCaseByEmailOrAddress(caseId, email, country, state, city, postalCode, street);
     }
+
+    /**
+    *  @description : This method is use to fetch all the quality claim cases based on country and intial 4 characters of lot code.
+    *  @args        : Id caseId, String country, String lotCode
+    *  @return      : List<Case>
+    **/
+    public static List<Case> getCasesByCountryAndLotcode(Id caseId, String country, String lotCode) {
+        if(caseId == null || country == null || lotCode == null  || (lotCode != null && lotCode.length() < 4)) {
+            throw new CS_CustomException('There is an error while retrieving the cases.');
+        }
+        return SLT_Case.getCasesByCountryAndLotcode(caseId, country, lotCode);
+    }
     
     
 }

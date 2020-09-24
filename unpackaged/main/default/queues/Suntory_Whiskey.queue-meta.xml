@@ -1,10 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Queue xmlns="http://soap.sforce.com/2006/04/metadata">
     <doesSendEmailToMembers>false</doesSendEmailToMembers>
     <email>annie.gorman@beamsuntory.com</email>
     <name>Suntory Whiskey</name>
     <queueMembers>
-        
+        <users>
+            <user>annie.gorman@beamsuntory.com</user>
+            <user>jessica.karoutsos@beamsuntory.com</user>
+            <user>marilyn.chen@beamsuntory.com</user>
+        </users>
     </queueMembers>
     <queueSobject>
         <sobjectType>MarketingPlan__c</sobjectType>

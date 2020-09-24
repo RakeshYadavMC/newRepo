@@ -1,9 +1,21 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Queue xmlns="http://soap.sforce.com/2006/04/metadata">
     <doesSendEmailToMembers>false</doesSendEmailToMembers>
     <name>US Insights</name>
     <queueMembers>
-        
+        <users>
+            <user>anne.fritsche@beamsuntory.com</user>
+            <user>aubrey.ellis@beamsuntory.com</user>
+            <user>carrie.freitag@beamsuntory.com</user>
+            <user>jackie.hillback@beamsuntory.com</user>
+            <user>kathy.jares@beamsuntory.com</user>
+            <user>kristin.render@beamsuntory.com</user>
+            <user>kristy.pfaffinger@beamsuntory.com</user>
+            <user>megan.fedie@beamsuntory.com</user>
+            <user>rachel.fisher@beamsuntory.com</user>
+            <user>soledad.querol@beamsuntory.com</user>
+            <user>virginia.sanchez@beamsuntory.com</user>
+        </users>
     </queueMembers>
     <queueSobject>
         <sobjectType>MarketingPlan__c</sobjectType>

@@ -1,9 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Queue xmlns="http://soap.sforce.com/2006/04/metadata">
     <doesSendEmailToMembers>false</doesSendEmailToMembers>
     <name>Edge</name>
     <queueMembers>
-        
+        <users>
+            <user>amy.flanagan@beamsuntory.com</user>
+            <user>jeff.august@beamsuntory.com</user>
+            <user>mike.yiu@beamsuntory.com</user>
+            <user>sladjana.bullis@beamsuntory.com</user>
+        </users>
     </queueMembers>
     <queueSobject>
         <sobjectType>MarketingPlan__c</sobjectType>

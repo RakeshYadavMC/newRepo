@@ -229,4 +229,8 @@ QC = 'Quality Claim'
     public static final String SINGLE_BARREL_PROOF_SPECIFIC= 'Single Barrel - Proof Specific';
     public static final String PENDING_DOCUMENTATION= 'Pending Documentation';
     
+    public static final String DEFAULT_LANG = 'EN';
+    
+    public static final String QUALITY_CLAIM_RT_ID = Schema.SObjectType.Case.getRecordTypeInfosByDeveloperName().get('Quality_Claim').getRecordTypeId();
+    
 }

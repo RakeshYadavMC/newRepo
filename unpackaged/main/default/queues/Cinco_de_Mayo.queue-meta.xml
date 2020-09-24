@@ -1,9 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Queue xmlns="http://soap.sforce.com/2006/04/metadata">
     <doesSendEmailToMembers>false</doesSendEmailToMembers>
     <name>Cinco de Mayo</name>
     <queueMembers>
-        
+        <users>
+            <user>jessica.karoutsos@beamsuntory.com</user>
+            <user>kelly.georgetti@beamsuntory.com</user>
+            <user>kelly.morgan@beamsuntory.com</user>
+            <user>rashidi.hodari@beamsuntory.com</user>
+        </users>
     </queueMembers>
     <queueSobject>
         <sobjectType>MarketingPlan__c</sobjectType>

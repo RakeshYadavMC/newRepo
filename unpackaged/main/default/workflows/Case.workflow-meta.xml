@@ -270,6 +270,18 @@
         <template>CS_System_Emails/Change_Approval_ML</template>
     </alerts>
     <alerts>
+        <fullName>Change_Escalation_Email</fullName>
+        <description>Change Escalation Email</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>dawn.masterson@beamsuntory.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderAddress>customer.service@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>CS_System_Emails/Case_Escalation</template>
+    </alerts>
+    <alerts>
         <fullName>Changes_Case_email_alert</fullName>
         <description>Changes Case email alert</description>
         <protected>false</protected>
@@ -717,6 +729,114 @@
         <template>CS_System_Emails/Email_Notification_to_Plant_Managers_Quality_Claims</template>
     </alerts>
     <alerts>
+        <fullName>Email_to_Market_readiness_team_notifying_that_the_License_received_date_is_enter</fullName>
+        <description>Email to Market readiness team notifying that the License received date is entered</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>courtney.reardon@beamsuntory.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>dawn.masterson@beamsuntory.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>dionicia.sandoval@beamsuntory.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>dzana.halilovic@beamsuntory.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>james.perry.lasalle@beamsuntory.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>julie.goliak@beamsuntory.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>lauren.laplace@beamsuntory.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderAddress>customer.service@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Compliance_System_Emails/State_License_received_date_entry</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_to_Market_readiness_team_notifying_the_submission_date_is_ready_for_review</fullName>
+        <description>Email to Market readiness team notifying the submission date is ready for review</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>courtney.reardon@beamsuntory.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>dawn.masterson@beamsuntory.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>dionicia.sandoval@beamsuntory.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>dzana.halilovic@beamsuntory.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>james.perry.lasalle@beamsuntory.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>julie.goliak@beamsuntory.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>lauren.laplace@beamsuntory.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderAddress>customer.service@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Compliance_System_Emails/State_license_Submission_date_entry</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_to_Market_readiness_team_when_expiration_date_is_passed_on_State_License_c</fullName>
+        <description>Email to Market readiness team when expiration date is passed on State License case</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>courtney.reardon@beamsuntory.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>dawn.masterson@beamsuntory.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>dionicia.sandoval@beamsuntory.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>dzana.halilovic@beamsuntory.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>james.perry.lasalle@beamsuntory.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>julie.goliak@beamsuntory.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>lauren.laplace@beamsuntory.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderAddress>customer.service@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Compliance_System_Emails/License_Expiration_date</template>
+    </alerts>
+    <alerts>
         <fullName>Email_to_Ned_Cargo_Plant_Quality_managers</fullName>
         <description>Email to Ned Cargo Plant - Quality managers</description>
         <protected>false</protected>
@@ -786,6 +906,22 @@
         <senderAddress>customer.service@beamsuntory.com</senderAddress>
         <senderType>OrgWideEmailAddress</senderType>
         <template>CS_System_Emails/Email_Notification_to_Plant_Managers_Quality_Claims</template>
+    </alerts>
+    <alerts>
+        <fullName>Escalated_Email_Notifcation</fullName>
+        <description>Escalated Email Notifcation</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>dawn.masterson@beamsuntory.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>lynn.bernard@beamsuntory.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderAddress>customer.service@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>CS_System_Emails/Escalated_Case_Created1</template>
     </alerts>
     <alerts>
         <fullName>GBS_Case_Assigned_Notification</fullName>
@@ -1063,6 +1199,78 @@
         <template>CS_System_Emails/Email_to_Case_ML</template>
     </alerts>
     <alerts>
+        <fullName>Pending_Submission_date_15_days</fullName>
+        <description>Pending Submission date 15 days</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>courtney.reardon@beamsuntory.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>dawn.masterson@beamsuntory.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>dionicia.sandoval@beamsuntory.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>dzana.halilovic@beamsuntory.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>james.perry.lasalle@beamsuntory.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>julie.goliak@beamsuntory.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>lauren.laplace@beamsuntory.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderAddress>customer.service@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Compliance_System_Emails/Pending_Submission_Date2</template>
+    </alerts>
+    <alerts>
+        <fullName>Pending_Submission_date_60_days</fullName>
+        <description>Pending Submission date 60 days</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>courtney.reardon@beamsuntory.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>dawn.masterson@beamsuntory.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>dionicia.sandoval@beamsuntory.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>dzana.halilovic@beamsuntory.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>james.perry.lasalle@beamsuntory.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>julie.goliak@beamsuntory.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>lauren.laplace@beamsuntory.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderAddress>customer.service@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Compliance_System_Emails/Pending_Submission_Date</template>
+    </alerts>
+    <alerts>
         <fullName>Quality_Claim_Created_from_mobile_app</fullName>
         <description>Quality Claim Created from mobile app</description>
         <protected>false</protected>
@@ -1250,6 +1458,30 @@
         <senderAddress>customer.service@beamsuntory.com</senderAddress>
         <senderType>OrgWideEmailAddress</senderType>
         <template>Compliance_System_Emails/Quote_Request_Approved_by_Commercial_Finance</template>
+    </alerts>
+    <alerts>
+        <fullName>Quote_request_Recieved</fullName>
+        <description>Quote request Recieved</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>andrew.grabowski@beamsuntory.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>dionicia.sandoval@beamsuntory.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>kevin.katz@beamsuntory.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>stacy.hechtman@beamsuntory.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderAddress>customer.service@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Compliance_System_Emails/Quote_Request_New_Quote_Request_Email</template>
     </alerts>
     <alerts>
         <fullName>Rest_of_World_Queue_New_Complaint_Email_Notification</fullName>

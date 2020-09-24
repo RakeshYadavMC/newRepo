@@ -157,18 +157,10 @@
             </defaultShortcuts>
         </keyboardShortcuts>
         <listPlacement>
-            <location>left</location>
-            <units>percent</units>
-            <width>60</width>
+            <location>full</location>
         </listPlacement>
         <listRefreshMethod>refreshListRows</listRefreshMethod>
         <primaryTabColor>#cc0000</primaryTabColor>
-        <pushNotifications>
-            <fieldNames>New_Activity__c</fieldNames>
-            <fieldNames>Origin</fieldNames>
-            <fieldNames>Status</fieldNames>
-            <objectName>Case</objectName>
-        </pushNotifications>
     </consoleConfig>
     <defaultLandingTab>standard-home</defaultLandingTab>
     <description>Console view for CS team</description>

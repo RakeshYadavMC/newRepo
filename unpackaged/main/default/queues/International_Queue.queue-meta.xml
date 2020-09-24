@@ -1,9 +1,28 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Queue xmlns="http://soap.sforce.com/2006/04/metadata">
     <doesSendEmailToMembers>false</doesSendEmailToMembers>
     <name>International Queue</name>
     <queueMembers>
-        
+        <users>
+            <user>angus.cassells@beamsuntory.com</user>
+            <user>brandon.khoury@beamsuntory.com</user>
+            <user>christine.cowan@beamsuntory.com</user>
+            <user>claire.taylor@beamsuntory.com</user>
+            <user>dustin.muenchau@beamsuntory.com</user>
+            <user>emanuela.rossi@beamsuntory.com</user>
+            <user>gayle.macaulay@beamsuntory.com</user>
+            <user>gayle.mckay@beamsuntory.com</user>
+            <user>joan.muir@beamsuntory.com</user>
+            <user>katie.anzelmo@beamsuntory.com</user>
+            <user>monica.powell@beamsuntory.com</user>
+            <user>nancy.barragan@beamsuntory.com</user>
+            <user>patrece.odum@beamsuntory.com</user>
+            <user>rachel.batman@beamsuntory.com</user>
+            <user>ryan.poirier@beamsuntory.com</user>
+            <user>shannon.oconnor@beamsuntory.com</user>
+            <user>timothy.hodgden@beamsuntory.com</user>
+            <user>victor.ambrosio@beamsuntory.com</user>
+        </users>
     </queueMembers>
     <queueSobject>
         <sobjectType>Case</sobjectType>

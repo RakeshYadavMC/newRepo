@@ -310,6 +310,13 @@
         </values>
     </picklistValues>
     <picklistValues>
+        <picklist>Brand__c</picklist>
+        <values>
+            <fullName>On The Rocks</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>Case_Issues__c</picklist>
         <values>
             <fullName>Allocation</fullName>
@@ -3358,11 +3365,35 @@
     <picklistValues>
         <picklist>Type</picklist>
         <values>
+            <fullName>Adhoc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Change</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cut at Door</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Document Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>Existing Order Inquiry</fullName>
             <default>false</default>
         </values>
         <values>
             <fullName>France Pallet Rounding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internal Change</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>K07 Smoothing Orders</fullName>
             <default>false</default>
         </values>
         <values>
@@ -3374,7 +3405,15 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>Order Entry Error</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outage</fullName>
             <default>false</default>
         </values>
         <values>
@@ -3386,11 +3425,23 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>Reports</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SKU Sub</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>Shipping Location</fullName>
             <default>false</default>
         </values>
         <values>
             <fullName>Task Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Traffic Request</fullName>
             <default>false</default>
         </values>
     </picklistValues>

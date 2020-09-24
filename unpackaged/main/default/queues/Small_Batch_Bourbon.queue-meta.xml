@@ -1,9 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Queue xmlns="http://soap.sforce.com/2006/04/metadata">
     <doesSendEmailToMembers>false</doesSendEmailToMembers>
     <name>Small Batch Bourbon</name>
     <queueMembers>
-        
+        <users>
+            <user>courtney.king@beamsuntory.com</user>
+            <user>erin.psotka@beamsuntory.com</user>
+            <user>jessica.karoutsos@beamsuntory.com</user>
+            <user>kelsey.connor@beamsuntory.com</user>
+            <user>lindsay.ohara@beamsuntory.com</user>
+        </users>
     </queueMembers>
     <queueSobject>
         <sobjectType>MarketingPlan__c</sobjectType>

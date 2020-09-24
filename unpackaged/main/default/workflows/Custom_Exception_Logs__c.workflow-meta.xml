@@ -7,8 +7,14 @@
             <recipient>Salesforce_Support</recipient>
             <type>group</type>
         </recipients>
-        
-        
+        <recipients>
+            <recipient>alex.kershteyn@beamsuntory.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>harish.kottam@beamsuntory.com</recipient>
+            <type>user</type>
+        </recipients>
         <senderType>DefaultWorkflowUser</senderType>
         <template>unfiled$public/Custom_Error_Log_Template</template>
     </alerts>

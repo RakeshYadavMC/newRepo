@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Diplomat Partner for Your Barrel --></label>
+        <name>Diplomat_Partner_for_Your_Barrel__c</name>
+        <relationshipLabel><!-- Account Applications (Diplomat Partner for Your Barrel) --></relationshipLabel>
+    </CustomFieldTranslation>
