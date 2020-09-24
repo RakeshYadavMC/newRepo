@@ -1,0 +1,11 @@
+<apex:page standardController="PR_Header__c" showHeader="false" lightningStylesheets="false">     
+    <html xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" lang="en">
+    <head>        
+        <apex:slds /> 
+    </head>
+    <div class="slds-scope">        
+        <c:BS_PR_FileUploader parentId="{!$CurrentPage.parameters.id}" parentId2="{!PR_Header__c.Vendor_Name__c}"/>        
+    </div>
+   
+   </html> 
+</apex:page>

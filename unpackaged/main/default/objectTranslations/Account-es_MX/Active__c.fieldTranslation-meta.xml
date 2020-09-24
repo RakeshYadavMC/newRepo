@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>¿La cuenta está activa?</help>
+        <label>Activo</label>
+        <name>Active__c</name>
+    </CustomFieldTranslation>

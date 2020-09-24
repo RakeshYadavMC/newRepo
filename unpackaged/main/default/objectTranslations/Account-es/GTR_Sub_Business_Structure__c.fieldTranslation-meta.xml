@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- GTR Sub-Business Structure --></label>
+        <name>GTR_Sub_Business_Structure__c</name>
+        <picklistValues>
+            <masterLabel>ARI</masterLabel>
+            <translation><!-- ARI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATR Cruise</masterLabel>
+            <translation><!-- ATR Cruise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>All Others</masterLabel>
+            <translation><!-- All Others --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DFS</masterLabel>
+            <translation><!-- DFS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dufry</masterLabel>
+            <translation><!-- Dufry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GTR HQ</masterLabel>
+            <translation><!-- GTR HQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Heinemann</masterLabel>
+            <translation><!-- Heinemann --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>India</masterLabel>
+            <translation><!-- India --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lagardere</masterLabel>
+            <translation><!-- Lagardere --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MEA</masterLabel>
+            <translation><!-- MEA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nordics</masterLabel>
+            <translation><!-- Nordics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North Asia</masterLabel>
+            <translation><!-- North Asia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SEA</masterLabel>
+            <translation><!-- SEA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic 3P</masterLabel>
+            <translation><!-- Strategic 3P --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

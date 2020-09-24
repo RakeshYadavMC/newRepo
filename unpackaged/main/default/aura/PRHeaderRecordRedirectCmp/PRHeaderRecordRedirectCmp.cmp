@@ -1,0 +1,16 @@
+<aura:component controller="PRHeaderRecordRedirectController" implements="force:lightningQuickAction,lightning:availableForFlowActions,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,lightning:availableForFlowScreens" 
+                access="global">
+    <!--<aura:dependency resource="markup://force:navigateToSObject" type="EVENT"/>-->
+    <aura:attribute name="recordId" type="String" />
+    <aura:attribute name="recordURL" type="String"/>
+    <aura:attribute name="sObject" type="Object" default="PR_Header__c"/>
+    <lightning:navigation aura:id="navService"/> 
+    
+    <aura:handler name="init" action="{!c.init}" value="{!this}" />
+    <div class="slds-box slds-theme_shade slds-theme_alert-texture slds-p-around_medium ">
+        <div class="slds-align_absolute-center slds-size_1-of-2 slds-p-around_medium"> <c:AlertCmp type="success" message="PR Header created successfully!" /> </div>    
+        <div class="slds-align_absolute-center slds-p-around_medium slds-text-title_bold slds-box slds-box_xx-small slds-size_2-of-8 slds-theme_shade">
+            <a href= "{!v.recordURL}">Go to Record</a>
+        </div> 
+    </div>
+</aura:component>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Counter Activity --></label>
+        <name>CounterActivity__c</name>
+        <picklistValues>
+            <masterLabel>Both</masterLabel>
+            <translation><!-- Both --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Display w/ product</masterLabel>
+            <translation><!-- Display w/ product --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Signage/Wraps</masterLabel>
+            <translation><!-- Signage/Wraps --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

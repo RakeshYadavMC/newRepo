@@ -1,0 +1,169 @@
+<aura:component controller="BS_PR_CreatePRDetails" implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+    <aura:attribute name="recordId" type="String" />
+    <aura:attribute name="data" type="Object"/>
+    <aura:attribute name="filterData" type="Object"/>
+    <aura:attribute name="searchData" type="Object"/>
+    <aura:attribute name="columns" type="List"/>
+    <aura:attribute name="start" type="Integer" default="0"/>
+    <aura:attribute name="end" type="Integer" default="0" />
+    <aura:attribute name="pagesize" type="Integer" default="20"/>  
+    <aura:attribute name="searchClicked" type="Boolean" default="false"/>
+    <aura:attribute name="disablefirst" type="Boolean" default="true"/>
+    <aura:attribute name="disableprev" type="Boolean" default="true"/>
+    <aura:attribute name="disablenext" type="Boolean"/>
+    <aura:attribute name="disablelast" type="Boolean"/> 
+    <aura:attribute name="campSearch" type="String"/>
+    <aura:attribute name="searchName" type="String"/>
+    <aura:attribute name="searchType" type="String"/>
+    <aura:attribute name="searchBrand" type="String"/>
+    <aura:attribute name="searchTerritory" type="String"/>
+    <aura:attribute name="searchIOCode" type="String"/>
+    <aura:attribute name="searchGLCode" type="String"/>
+    <aura:attribute name="searchBalance" type="String"/>
+    <aura:attribute name="selectedRows" type="Campaign__c[]"/>
+    <aura:attribute name="showErrors" type="Boolean" default="false"/>
+    <aura:attribute name="showSuccess" type="Boolean" default="false"/>
+    <aura:attribute name="recordsFiltered" type="Boolean" default="false"/>
+    <aura:attribute name="errorMessage" type="String"/>
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <aura:handler name="change" value="{!v.campSearch}" action="{!c.clearSearch}"/>
+    <lightning:overlayLibrary aura:id="overlayLib"/>
+    <lightning:navigation aura:id="navService"/>
+    
+    <!--loading spinner start-->
+    <!--aura handler with waiting and donewaiting events-->
+    <aura:handler event="aura:waiting" action="{!c.showSpinner}"/>
+    <aura:handler event="aura:doneWaiting" action="{!c.hideSpinner}"/>     
+    
+    <aura:attribute name="record" type="Object" 
+                    description="The record object to be displayed"/>
+    <aura:attribute name="simpleRecord" type="Object" 
+                    description="A simplified view record object to be displayed"/>
+    <aura:attribute name="recordError" type="String" 
+                    description="An error message bound to force:recordData"/>
+    <force:recordData aura:id="record"
+                      layoutType="FULL"
+                      recordId="{!v.recordId}"
+                      targetError="{!v.recordError}"
+                      targetRecord="{!v.record}"
+                      targetFields ="{!v.simpleRecord}"
+                      fields="SAP_Company_Code_Value__c"
+                      mode="VIEW"/>
+    
+    <div class="mySpinnerHolder">
+        <lightning:spinner aura:id="mySpinner" class="slds-hide"/>
+    </div>
+    <!-- Loading spinner end-->
+    
+    <aura:if isTrue="{!v.showErrors}">
+        <!-- Show the message to ui -->
+        <div aura:id="msgtheme" class="slds-notify slds-notify_alert slds-theme_alert-texture slds-theme_error" role="alert">
+            <span class="slds-assistive-text">error</span>
+            <div class="slds-notify__content">                
+                <p class="slds-align_absolute-center">{!v.errorMessage}</p>                
+            </div>
+        </div>
+    </aura:if>
+    <aura:if isTrue="{!v.showSuccess}">
+        <!-- Show the message to ui -->
+        <div aura:id="msgtheme" class="slds-notify slds-notify_alert slds-theme_alert-texture slds-theme_success" role="alert">
+            <span class="slds-assistive-text">success</span>
+            <div class="slds-notify__content">                
+                <p class="slds-align_absolute-center">{!v.errorMessage}</p>                
+            </div>
+        </div>
+    </aura:if>
+    <lightning:card class="{!if(and(and(!empty(v.data),!empty(v.campSearch)),v.searchClicked),'customwidth','')}">
+        <aura:set attribute="title">
+            <lightning:layout multipleRows="true">
+                <lightning:layoutItem size="4" padding="around-small">
+                    <lightning:icon iconName="standard:campaign" size="medium"/>
+                    Campaigns 
+                </lightning:layoutItem>
+                <lightning:layoutItem size="7" padding="around-small">
+                    <div onkeyup="{! c.handleKeyAction }" style="display:inline-block;margin-right: 10px;">
+                        <lightning:buttonGroup>
+                            <lightning:input name="inline-search-input" label="" type="search" variant="label-hidden" value="{!v.campSearch}" placeholder="Search IO/Campaign Name/Brand/Territory"/>                        
+                            <lightning:button label="Search" variant="brand" class="search-btn" onclick="{! c.searchCampaigns}" iconName="utility:search" iconPosition="right"/>                         
+                        </lightning:buttonGroup>
+                    </div>
+                    <lightning:button label="Add" disabled="{!empty(v.selectedRows)}" variant="success" onclick="{!c.addCampaigns}" iconName="utility:add" iconPosition="right"/>
+                </lightning:layoutItem>
+                <lightning:layoutItem size="1" padding="around-small">
+                </lightning:layoutItem>
+            </lightning:layout>
+            
+        </aura:set>
+        <!-- 
+        <aura:set attribute="actions">
+            <lightning:layout multipleRows="true">
+                <lightning:layoutItem size="12"  padding="around-small">
+                    <lightning:button label="Add" disabled="{!empty(v.selectedRows)}" variant="brand" onclick="{!c.addCampaigns}"/>
+                </lightning:layoutItem>
+            </lightning:layout>
+        </aura:set>
+		-->
+        <aura:if isTrue="{!and(and(!empty(v.data),!empty(v.campSearch)),v.searchClicked)}">
+            <div class="slds-m-top_medium">                
+                <lightning:layout>    
+                    <lightning:layoutItem padding="around-small" class="padding-reset"> <lightning:input onchange="{!c.filterData}" value="{!v.searchIOCode}" label="" type="text" variant="label-hidden" placeholder="Search IO"  class="slds-search"/> </lightning:layoutItem>
+                    <lightning:layoutItem padding="around-small" class="padding-reset"> <lightning:input onchange="{!c.filterData}" value="{!v.searchName}" label="" type="text" variant="label-hidden" placeholder="Search Name" class="slds-search"/> </lightning:layoutItem>
+                    <lightning:layoutItem padding="around-small" class="padding-reset"> <lightning:input onchange="{!c.filterData}" value="{!v.searchBalance}" label="" type="text" variant="label-hidden" placeholder="Search Balance" class="slds-search"/> </lightning:layoutItem>
+                    <lightning:layoutItem padding="around-small" class="padding-reset"> <lightning:input onchange="{!c.filterData}" value="{!v.searchBrand}" label="" type="text" variant="label-hidden" placeholder="Search Brand" class="slds-search"/> </lightning:layoutItem>
+                    <lightning:layoutItem padding="around-small" class="padding-reset"> <lightning:input onchange="{!c.filterData}" value="{!v.searchTerritory}" label="" type="text" variant="label-hidden" placeholder="Search Territory"  class="slds-search"/> </lightning:layoutItem>
+                    <lightning:layoutItem padding="around-small" class="padding-reset"> <lightning:input onchange="{!c.filterData}" value="{!v.searchGLCode}" label="" type="text" variant="label-hidden" placeholder="Search GL Code"  class="slds-search"/> </lightning:layoutItem>
+                    <!-- <lightning:layoutItem padding="around-small" class="padding-reset"> <lightning:input onchange="{!c.filterData}" value="{!v.searchType}" label="" type="text" variant="label-hidden" placeholder="Search Type"  class="slds-search"/> </lightning:layoutItem>-->
+                </lightning:layout>                
+                <lightning:datatable
+                                     columns="{! v.columns }"
+                                     data="{! v.filterData }"
+                                     keyField="Id"
+                                     hideCheckboxColumn="false"
+                                     onrowaction="{! c.handleRowAction }"
+                                     onrowselection="{!c.updatedSelectedRows}"
+                                     />
+                <aura:if isTrue="{!lessthan(v.pagesize,v.data.length)}">
+                    <div class="slds-text-align_center pagination slds-m-top_small">
+                        <div class="slds-button-group" role="group" >
+                            <button disabled="{!v.disablefirst}" class="slds-button slds-button--neutral slds-col--bump-left" onclick="{!c.first}">First</button> 
+                            <button disabled="{!v.disableprev}" class="slds-button slds-button--neutral slds-col--bump-left" onclick="{!c.prev}">Prev</button>
+                            <button disabled="{!v.disablenext}" class="slds-button slds-button--neutral slds-col--bump-left" onclick="{!c.next}">Next</button>
+                            <button disabled="{!v.disablelast}" class="slds-button slds-button--neutral slds-col--bump-left" onclick="{!c.last}">Last</button>
+                        </div>  
+                    </div>
+                </aura:if>  
+            </div>
+            <aura:set attribute="else">
+                <aura:if isTrue="{!and(!empty(v.campSearch),v.searchClicked)}">
+                    <ui:message title="" severity="info" closable="false">
+                        No records found.  Please enter data into the search field.
+                    </ui:message>
+                </aura:if>
+            </aura:set>
+        </aura:if>
+    </lightning:card>
+    <aura:html tag="style">
+        .slds-modal__container {
+            width: 75vw;
+            max-width: 75vw;
+        }
+        input[type="search"]{
+        	font-size:smaller;			        	        
+        }
+        .search-btn{
+        	font-size:0.75em;
+        }
+        lightning-input{
+        	width:21.5rem;
+        }
+        lightning-input_input{
+        	border-radius: unset;        
+        }
+        .padding-reset.slds-p-around_small{
+        	padding: 0 0 .75rem 0.5rem;
+        }
+        .slds-card.customwidth.cBS_PR_CampaignSearch{
+        	display:inline-block;
+        }
+    </aura:html>
+</aura:component>

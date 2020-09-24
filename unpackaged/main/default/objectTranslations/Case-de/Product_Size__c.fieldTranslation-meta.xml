@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Product Size --></label>
+        <name>Product_Size__c</name>
+        <picklistValues>
+            <masterLabel>1.5L</masterLabel>
+            <translation><!-- 1.5L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1.75L</masterLabel>
+            <translation><!-- 1.75L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>100ml</masterLabel>
+            <translation><!-- 100ml --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1125ml</masterLabel>
+            <translation><!-- 1125ml --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1140ml</masterLabel>
+            <translation><!-- 1140ml --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>180ml</masterLabel>
+            <translation><!-- 180ml --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1L</masterLabel>
+            <translation><!-- 1L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>200ml</masterLabel>
+            <translation><!-- 200ml --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>330ml</masterLabel>
+            <translation><!-- 330ml --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>350ml</masterLabel>
+            <translation><!-- 350ml --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>355ml</masterLabel>
+            <translation><!-- 355ml --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>375ml</masterLabel>
+            <translation><!-- 375ml --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3L</masterLabel>
+            <translation><!-- 3L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>500ml</masterLabel>
+            <translation><!-- 500ml --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50ml</masterLabel>
+            <translation><!-- 50ml --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>60ml</masterLabel>
+            <translation><!-- 60ml --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>700ml</masterLabel>
+            <translation><!-- 700ml --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>750ml</masterLabel>
+            <translation><!-- 750ml --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

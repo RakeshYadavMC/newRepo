@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Strategy(JTBD) --></label>
+        <name>Strategy__c</name>
+        <picklistValues>
+            <masterLabel>Acquire Lda Millennials</masterLabel>
+            <translation><!-- Acquire Lda Millennials --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Build Awareness</masterLabel>
+            <translation><!-- Build Awareness --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Build Top Of Mind Awareness</masterLabel>
+            <translation><!-- Build Top Of Mind Awareness --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Communicate Authenticity &amp; Quality</masterLabel>
+            <translation><!-- Communicate Authenticity &amp; Quality --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Drive 901 Awareness</masterLabel>
+            <translation><!-- Drive 901 Awareness --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Drive Awareness (Off)</masterLabel>
+            <translation><!-- Drive Awareness (Off) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Drive Brand Advocacy</masterLabel>
+            <translation><!-- Drive Brand Advocacy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Drive Consideration &amp; Trial</masterLabel>
+            <translation><!-- Drive Consideration &amp; Trial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Drive Sauza Awareness</masterLabel>
+            <translation><!-- Drive Sauza Awareness --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Drive Successful Innovation</masterLabel>
+            <translation><!-- Drive Successful Innovation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Drive The On-Premise</masterLabel>
+            <translation><!-- Drive The On-Premise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Drive The On-Premise (Basil Hayden)</masterLabel>
+            <translation><!-- Drive The On-Premise (Basil Hayden) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Establish Belief In Quality</masterLabel>
+            <translation><!-- Establish Belief In Quality --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expand Distribution (Off)</masterLabel>
+            <translation><!-- Expand Distribution (Off) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Get Millennial Males To Consider Jim Beam Again</masterLabel>
+            <translation><!-- Get Millennial Males To Consider Jim Beam Again --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grow Distribution On Plata</masterLabel>
+            <translation><!-- Grow Distribution On Plata --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grow Pinnacle Original</masterLabel>
+            <translation><!-- Grow Pinnacle Original --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grow Wine And Vodka</masterLabel>
+            <translation><!-- Grow Wine And Vodka --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Implement Join The Club</masterLabel>
+            <translation><!-- Implement Join The Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Increase Awareness And Relevance</masterLabel>
+            <translation><!-- Increase Awareness And Relevance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interrupt Bacardi</masterLabel>
+            <translation><!-- Interrupt Bacardi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Make 901 Accessible</masterLabel>
+            <translation><!-- Make 901 Accessible --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Make Pinnacle Available</masterLabel>
+            <translation><!-- Make Pinnacle Available --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>One More Drink Per Month</masterLabel>
+            <translation><!-- One More Drink Per Month --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Premiumize And Trade Up</masterLabel>
+            <translation><!-- Premiumize And Trade Up --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recruit Consumers</masterLabel>
+            <translation><!-- Recruit Consumers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recruit Consumers From Outside Beam/Bourbon Category</masterLabel>
+            <translation><!-- Recruit Consumers From Outside Beam/Bourbon Category --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recruit New Consumers</masterLabel>
+            <translation><!-- Recruit New Consumers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recruit “Whiskey Women”</masterLabel>
+            <translation><!-- Recruit “Whiskey Women” --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reestablish Sauza Brand</masterLabel>
+            <translation><!-- Reestablish Sauza Brand --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regain/Increase Distribution</masterLabel>
+            <translation><!-- Regain/Increase Distribution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Steal Share Of Drinking Occasions</masterLabel>
+            <translation><!-- Steal Share Of Drinking Occasions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Steal Spiced Share At Shelf (Calico)</masterLabel>
+            <translation><!-- Steal Spiced Share At Shelf (Calico) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trade Up</masterLabel>
+            <translation><!-- Trade Up --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Win At Retail</masterLabel>
+            <translation><!-- Win At Retail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Win With Flavors</masterLabel>
+            <translation><!-- Win With Flavors --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

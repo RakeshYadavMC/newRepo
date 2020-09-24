@@ -1,0 +1,51 @@
+.THIS {
+    
+}
+
+.THIS.slds-card {
+    margin: 0% 20%;
+}
+
+.THIS .slds-card__footer {
+    text-align: right;
+}
+
+.THIS .slds-card__header {
+    border-bottom: 1px solid rgb(221, 219, 218);
+}
+
+.THIS .title {
+    padding-bottom: 0.75rem;
+}
+
+.THIS .errorsList {
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+.THIS .genericNotification {
+    border-radius: 0.25rem;
+}
+
+.THIS .forcePageError {
+    border-bottom: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.THIS .formElementWidth {
+    width: 49%;
+}
+
+.THIS .divInline {
+    display: inline-flex;
+    width: 100%;
+}
+
+.THIS .marginLeft {
+    margin-left: 2%;
+}
+
+.THIS .allocationMargin {
+    margin: 10px 0px 4px 0px;
+}

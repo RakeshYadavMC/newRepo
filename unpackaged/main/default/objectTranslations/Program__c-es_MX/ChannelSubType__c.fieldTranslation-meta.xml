@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Channel Sub-Type --></label>
+        <name>ChannelSubType__c</name>
+        <picklistValues>
+            <masterLabel>Casual</masterLabel>
+            <translation><!-- Casual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grocery Mass &amp; Drug</masterLabel>
+            <translation><!-- Grocery Mass &amp; Drug --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>High End</masterLabel>
+            <translation><!-- High End --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LFL</masterLabel>
+            <translation><!-- LFL --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

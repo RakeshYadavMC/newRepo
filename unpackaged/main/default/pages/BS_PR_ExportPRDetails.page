@@ -1,0 +1,36 @@
+<apex:page standardController="PR_Header__c" extensions="BS_PR_EditPRDetailsListCtrl2" contentType="application/vnd.ms-excel#{!PR_Header__c.Name}.xls" cache="true" standardStylesheets="false">
+    <head>
+        <meta http-equiv="Content-Type" content="text/HTML;charset=UTF-8" />
+    </head>
+     <style type="text/css">
+            .oddrow{background-color: #FFFFFF; } 
+            .evenrow{background-color: #F5F5DC; }
+            .headerRow .TableTitle{text-align:center;background-color: #FFB733!important; background-image: none !important; font-size:100% !important;} 
+            .textalign{text-align:center;}              
+        </style>
+
+    <apex:pageBlock title="{!PR_Header__c.Name}">
+        <apex:pageBlockTable value="{!PRDetailsList}" var="pd" rowClasses="oddrow,evenrow"   rules="groups"  styleclass="textalign" headerClass="TableTitle">                                               
+            <apex:column value="{!pd.Finance_Approved__c}"  rendered="{!OR(AND(isAccessible,PR_Header__c.Date_Time_Approval_Submission__c!=null,!PR_Header__c.Finance_Approved__c),PR_Header__c.Finance_Rejected__c)}"/>
+            <apex:column value="{!pd.Rejection_Comments__c}"  rendered="{!OR(AND(isAccessible,PR_Header__c.Date_Time_Approval_Submission__c!=null,!PR_Header__c.Finance_Approved__c),PR_Header__c.Finance_Rejected__c)}"/>            
+            <apex:column value="{!pd.IOCode__c}" rendered="{!isProcurementEditable}"/>
+            <apex:column value="{!pd.Campaign_Name__c}"/>                                       
+            <apex:column value="{!pd.Campaign_Balance__c}"/>                
+            <apex:column value="{!pd.Brand__c}"/>
+            <apex:column value="{!pd.Territory__c}"/>
+            <apex:column value="{!pd.Account_Assignment_Category2__c}"  rendered="{!isAccessible}"/>
+            <apex:column value="{!pd.Material_Group__c}"  rendered="{!isAccessible}"/>
+            <apex:column value="{!pd.Plant__c}"  rendered="{!isAccessible}"/>
+            <apex:column value="{!pd.Description__c}"/>
+            <apex:column value="{!pd.PR_Amount__c}"/>                                                          
+            <apex:column value="{!pd.GLAccountType__c}" />
+            <apex:column value="{!pd.GLDescription2__c}" />
+            <apex:column value="{!pd.GL_Code2__c}"  rendered="{!isProcurementEditable}"/>                                  
+            <apex:column value="{!pd.GL_Details__c}" rendered="{!isProcurementEditable}"/>
+            <apex:column value="{!pd.GL_Comments__c}" rendered="{!isProcurementEditable}"/>
+            <apex:column value="{!pd.StartMonth__c}" />
+            <apex:column value="{!pd.EndMonth__c}"/>
+            <apex:column value="{!pd.Phasing_Type__c}" rendered="{!isProcurementEditable}"/>
+        </apex:pageBlockTable> 
+    </apex:pageBlock>    
+</apex:page>

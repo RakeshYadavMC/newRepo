@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    <layouts>
+        <layout>Bulk Spirits &amp; Casks</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Event Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- Event Type for BSMX Users --></description>
+        <label>Eventos MX</label>
+        <name>MX_Events</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Event Type for sales360 Users --></description>
+        <label>Eventos Sales360</label>
+        <name>sales360_Events</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Please relate your activities to accounts.  Activities should not be associated to opportunities. --></errorMessage>
+        <name>Prevent_events_on_Opportunities</name>
+    </validationRules>
+</CustomObjectTranslation>

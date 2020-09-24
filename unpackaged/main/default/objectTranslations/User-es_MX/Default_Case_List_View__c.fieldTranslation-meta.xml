@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Sets the default case list view for the Customer Community --></help>
+        <label><!-- Default Case List View --></label>
+        <name>Default_Case_List_View__c</name>
+        <picklistValues>
+            <masterLabel>My Single Barrel Orders</masterLabel>
+            <translation><!-- My Single Barrel Orders --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recently Viewed</masterLabel>
+            <translation><!-- Recently Viewed --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

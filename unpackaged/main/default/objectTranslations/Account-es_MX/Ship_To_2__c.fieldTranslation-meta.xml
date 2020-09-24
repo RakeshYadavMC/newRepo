@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Ship To 2 --></label>
+        <name>Ship_To_2__c</name>
+        <relationshipLabel><!-- Accounts (Ship To 2) --></relationshipLabel>
+    </CustomFieldTranslation>

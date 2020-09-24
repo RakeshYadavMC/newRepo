@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>Tipo de Cambio</label>
+        <name>Change_Type__c</name>
+        <picklistValues>
+            <masterLabel>Account Update</masterLabel>
+            <translation>Actualización de Cuenta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Add Item</masterLabel>
+            <translation>Agregar Artículo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancel</masterLabel>
+            <translation>Cancelar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Changing Carrier</masterLabel>
+            <translation>Cambiar Transportista</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expediting</masterLabel>
+            <translation>Acelerar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New or Existing Item Setup</masterLabel>
+            <translation>Organización de Artículo Nuevo o Existente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Otro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Remove Item</masterLabel>
+            <translation>Quitar Artículo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ship Date Change</masterLabel>
+            <translation>Cambio de Fecha de Envío</translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- To Leaf Node New Allocation --></label>
+        <name>To_Leaf_Node_New_Allocation__c</name>
+    </CustomFieldTranslation>

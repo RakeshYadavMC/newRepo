@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Based on Survey Location --></help>
+        <label><!-- Location --></label>
+        <name>Location__c</name>
+        <picklistValues>
+            <masterLabel>American Stillhouse</masterLabel>
+            <translation><!-- American Stillhouse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Urban Stillhouse</masterLabel>
+            <translation><!-- Urban Stillhouse --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

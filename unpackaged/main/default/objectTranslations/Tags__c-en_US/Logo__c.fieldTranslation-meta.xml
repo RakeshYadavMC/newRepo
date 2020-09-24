@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- URL to the logo which is stored on the Documents folder called Program Calendar Images - Public Shared --></help>
+        <label><!-- Logo --></label>
+        <name>Logo__c</name>
+    </CustomFieldTranslation>

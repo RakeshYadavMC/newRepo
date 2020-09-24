@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Secondary GTR Customer --></label>
+        <name>Secondary_GTR_Customer__c</name>
+        <picklistValues>
+            <masterLabel>AER RIANTA</masterLabel>
+            <translation><!-- AER RIANTA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AIR INDIA</masterLabel>
+            <translation><!-- AIR INDIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ANWAY</masterLabel>
+            <translation><!-- ANWAY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ASIAEURO</masterLabel>
+            <translation><!-- ASIAEURO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CARIBBEAN</masterLabel>
+            <translation><!-- CARIBBEAN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CDFG</masterLabel>
+            <translation><!-- CDFG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CDFL</masterLabel>
+            <translation><!-- CDFL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CHINA AIRLINES</masterLabel>
+            <translation><!-- CHINA AIRLINES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DELHI DUTY FREE PVT LTD</masterLabel>
+            <translation><!-- DELHI DUTY FREE PVT LTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DF STORE LTD</masterLabel>
+            <translation><!-- DF STORE LTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DFA</masterLabel>
+            <translation><!-- DFA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DFASS</masterLabel>
+            <translation><!-- DFASS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DFP</masterLabel>
+            <translation><!-- DFP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DFS</masterLabel>
+            <translation><!-- DFS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DUBAI DF</masterLabel>
+            <translation><!-- DUBAI DF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DUFRY</masterLabel>
+            <translation><!-- DUFRY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMPIRE SPIRITS</masterLabel>
+            <translation><!-- EMPIRE SPIRITS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EVER RICH</masterLabel>
+            <translation><!-- EVER RICH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FLEMINGO</masterLabel>
+            <translation><!-- FLEMINGO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FLEMINGO COLOMBO</masterLabel>
+            <translation><!-- FLEMINGO COLOMBO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FLEMINGO INDIA</masterLabel>
+            <translation><!-- FLEMINGO INDIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FORTIER</masterLabel>
+            <translation><!-- FORTIER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GTR HQ</masterLabel>
+            <translation><!-- GTR HQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HEINEMANN</masterLabel>
+            <translation><!-- HEINEMANN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HYDERABAD DF</masterLabel>
+            <translation><!-- HYDERABAD DF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IDF</masterLabel>
+            <translation><!-- IDF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INTERNATIONAL SHOPPES</masterLabel>
+            <translation><!-- INTERNATIONAL SHOPPES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ITDC</masterLabel>
+            <translation><!-- ITDC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JDC</masterLabel>
+            <translation><!-- JDC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JR</masterLabel>
+            <translation><!-- JR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KAIMAY</masterLabel>
+            <translation><!-- KAIMAY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KING POWER</masterLabel>
+            <translation><!-- KING POWER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LAGARDERE ETR</masterLabel>
+            <translation><!-- LAGARDERE ETR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LONDON SUPPLY</masterLabel>
+            <translation><!-- LONDON SUPPLY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LOTTE</masterLabel>
+            <translation><!-- LOTTE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LSTR</masterLabel>
+            <translation><!-- LSTR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MACINTYRE SCOTT</masterLabel>
+            <translation><!-- MACINTYRE SCOTT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MALDVIES DUTY FREE</masterLabel>
+            <translation><!-- MALDVIES DUTY FREE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MCM-ST DORAS</masterLabel>
+            <translation><!-- MCM-ST DORAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MEA DF [DUBAI]</masterLabel>
+            <translation><!-- MEA DF [DUBAI] --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MOTTA</masterLabel>
+            <translation><!-- MOTTA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MUSCAT DF</masterLabel>
+            <translation><!-- MUSCAT DF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NEPAL DUTY FREE</masterLabel>
+            <translation><!-- NEPAL DUTY FREE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NORDICS</masterLabel>
+            <translation><!-- NORDICS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OTHER</masterLabel>
+            <translation><!-- OTHER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OTHER - DUMMY</masterLabel>
+            <translation><!-- OTHER - DUMMY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PLUS MAX DUTY FREE</masterLabel>
+            <translation><!-- PLUS MAX DUTY FREE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PREMIER</masterLabel>
+            <translation><!-- PREMIER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QATAR DF</masterLabel>
+            <translation><!-- QATAR DF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RTM</masterLabel>
+            <translation><!-- RTM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SHILLA</masterLabel>
+            <translation><!-- SHILLA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SZDF</masterLabel>
+            <translation><!-- SZDF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sunrise</masterLabel>
+            <translation><!-- Sunrise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TAIWAN TOBACCO AND LIQUOR CORP.</masterLabel>
+            <translation><!-- TAIWAN TOBACCO AND LIQUOR CORP. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TASA MENG</masterLabel>
+            <translation><!-- TASA MENG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TOP BRANDS</masterLabel>
+            <translation><!-- TOP BRANDS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UETA</masterLabel>
+            <translation><!-- UETA --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

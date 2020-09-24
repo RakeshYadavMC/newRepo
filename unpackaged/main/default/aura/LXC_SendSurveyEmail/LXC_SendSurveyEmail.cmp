@@ -1,0 +1,45 @@
+<aura:component controller="CNT_SendSurveyEmail"
+                implements="flexipage:availableForRecordHome,force:hasRecordId" access="global" >
+    <!-- Attributes -->
+    <aura:attribute name="caseObj" type="Case" default="{ 'sobjectType' : 'case'}"/>
+    <aura:attribute name="isEmailSent" type="Boolean" default="false" />
+    <aura:attribute name="isButtonActive" type="Boolean" default="false" />
+    
+    <!-- Accessing current case data-->
+    <force:recordData
+        aura:id="recordLoader"
+        recordId="{!v.recordId}"
+        fields="Send_Survey_Link__c"
+        targetFields="{!v.caseObj}"
+        recordUpdated="{!c.handleRecordUpdated}"
+    />
+    
+    <!-- loader for processing -->
+    <div class="loader">
+        <aura:if isTrue="{!v.isEmailSent}">
+            <lightning:spinner alternativeText="Loading" variant="brand" />
+        </aura:if>
+    </div>
+    
+    <article class="slds-card">
+        <header class="slds-card__header slds-grid">
+            <div class="slds-media slds-media_center slds-has-flexi-truncate">
+                <div class="slds-media__figure">
+                    <lightning:icon iconName="utility:email" alternativeText="Send Survey Email" size="small"/>
+                </div>
+                <div class="slds-media__body slds-truncate">
+                    <h2>
+                        <span class="slds-text-heading_small sendSurveyText">
+                            Send Survey Email
+                        </span>
+                    </h2>
+                </div>
+            </div>
+        </header>
+        <div class="slds-card__body sendSurveyButton">
+            <div class="slds-card__body--inner">
+                <lightning:button label="Send Link" variant="brand" disabled="{!v.isButtonActive}" onclick="{!c.sendSurveyEmail}"/>
+            </div>            
+        </div>
+    </article>
+</aura:component>

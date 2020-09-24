@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Campaign Type --></label>
+        <name>CampaignType__c</name>
+        <picklistValues>
+            <masterLabel>Brand Investment</masterLabel>
+            <translation><!-- Brand Investment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incentives</masterLabel>
+            <translation><!-- Incentives --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>National POS (Finance Only)</masterLabel>
+            <translation><!-- National POS (Finance Only) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>National POS-COGS (Finance Only)</masterLabel>
+            <translation><!-- National POS-COGS (Finance Only) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Programming</masterLabel>
+            <translation><!-- Other Programming --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rebates</masterLabel>
+            <translation><!-- Rebates --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sponsorship</masterLabel>
+            <translation><!-- Sponsorship --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

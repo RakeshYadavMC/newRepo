@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Attribute (if it is a Picklist) has color code that should be displayed on the Program Calendar and where color is defined on the native Picklist color picker --></help>
+        <label><!-- Color --></label>
+        <name>Color__c</name>
+    </CustomFieldTranslation>

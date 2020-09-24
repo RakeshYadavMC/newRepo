@@ -1,0 +1,17 @@
+<apex:page standardController="PR_Header__c">
+    <apex:detail relatedList="true"/>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {        
+        	$("input[name='piSubmit']").hide();
+        	var FinanceReviewervalue='{!PR_Header__c.Finance_Reviewer__c}';
+        	//alert('value....'+FinanceReviewervalue);
+        	if(FinanceReviewervalue.length>1){
+                //alert('value....'+FinanceReviewervalue);
+                $("input[name='claim_pr']").hide();
+            }
+    	}); 
+    </script>
+    
+</apex:page>

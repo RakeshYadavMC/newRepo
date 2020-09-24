@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Sum of Forecasted Amount. --></help>
+        <label><!-- Forecasted Campaign Budget --></label>
+        <name>ForecastedCampaignSpend__c</name>
+    </CustomFieldTranslation>

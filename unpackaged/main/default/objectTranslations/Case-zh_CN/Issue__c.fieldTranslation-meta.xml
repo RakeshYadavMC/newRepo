@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Issue Definition --></label>
+        <name>Issue__c</name>
+        <picklistValues>
+            <masterLabel>%ABV</masterLabel>
+            <translation><!-- %ABV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Allergy</masterLabel>
+            <translation><!-- Allergy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anti-Skid</masterLabel>
+            <translation><!-- Anti-Skid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bottle broken or cracked</masterLabel>
+            <translation><!-- Bottle broken or cracked --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Broken Closure</masterLabel>
+            <translation><!-- Broken Closure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Broken Cork</masterLabel>
+            <translation><!-- Broken Cork --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Broken/Cracked</masterLabel>
+            <translation><!-- Broken/Cracked --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carrier/Carton Integrity Issue</masterLabel>
+            <translation><!-- Carrier/Carton Integrity Issue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carton/Tube Damage</masterLabel>
+            <translation><!-- Carton/Tube Damage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change to product</masterLabel>
+            <translation><!-- Change to product --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closure won't close or broken</masterLabel>
+            <translation><!-- Closure won&apos;t close or broken --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cloudy/Discolored</masterLabel>
+            <translation><!-- Cloudy/Discolored --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Color</masterLabel>
+            <translation><!-- Color --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Defective Glue</masterLabel>
+            <translation><!-- Defective Glue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dented/Damaged</masterLabel>
+            <translation><!-- Dented/Damaged --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Failed Crush Test</masterLabel>
+            <translation><!-- Failed Crush Test --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fill</masterLabel>
+            <translation><!-- Fill --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>First Taste Does Not Like</masterLabel>
+            <translation><!-- First Taste Does Not Like --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>First Time User Did Not Like</masterLabel>
+            <translation><!-- First Time User Did Not Like --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flavor</masterLabel>
+            <translation><!-- Flavor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Foreign Material</masterLabel>
+            <translation><!-- Foreign Material --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Foreign Object</masterLabel>
+            <translation><!-- Foreign Object --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Frozen</masterLabel>
+            <translation><!-- Frozen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incorrect Label</masterLabel>
+            <translation><!-- Incorrect Label --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Label Incorrect/Missing/Torn/Smudged/Loose</masterLabel>
+            <translation><!-- Label Incorrect/Missing/Torn/Smudged/Loose --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Label Missing/Torn/Smudged/Loose</masterLabel>
+            <translation><!-- Label Missing/Torn/Smudged/Loose --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Language/Label Violation</masterLabel>
+            <translation><!-- Language/Label Violation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Language/Labeling Violation</masterLabel>
+            <translation><!-- Language/Labeling Violation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leaking</masterLabel>
+            <translation><!-- Leaking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leaking Can/Pinhole</masterLabel>
+            <translation><!-- Leaking Can/Pinhole --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leaking bottle or can</masterLabel>
+            <translation><!-- Leaking bottle or can --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Liquid is cloud / discolored / particles</masterLabel>
+            <translation><!-- Liquid is cloud / discolored / particles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low Carbonation/Flat</masterLabel>
+            <translation><!-- Low Carbonation/Flat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low Fill</masterLabel>
+            <translation><!-- Low Fill --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missing Can</masterLabel>
+            <translation><!-- Missing Can --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missing Internal Partitions</masterLabel>
+            <translation><!-- Missing Internal Partitions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missing Refund Statement</masterLabel>
+            <translation><!-- Missing Refund Statement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missing Tamper Band/Seal</masterLabel>
+            <translation><!-- Missing Tamper Band/Seal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missing tamper seal / band</masterLabel>
+            <translation><!-- Missing tamper seal / band --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missing/Tampered Seal</masterLabel>
+            <translation><!-- Missing/Tampered Seal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Off Taste</masterLabel>
+            <translation><!-- Off Taste --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open Case</masterLabel>
+            <translation><!-- Open Case --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other - Bottle</masterLabel>
+            <translation><!-- Other - Bottle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other - Can</masterLabel>
+            <translation><!-- Other - Can --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other - Liquid</masterLabel>
+            <translation><!-- Other - Liquid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other - Packaging</masterLabel>
+            <translation><!-- Other - Packaging --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other - Shipping Requirements</masterLabel>
+            <translation><!-- Other - Shipping Requirements --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Packaging - missing label / torn / smudged</masterLabel>
+            <translation><!-- Packaging - missing label / torn / smudged --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pallet Concern</masterLabel>
+            <translation><!-- Pallet Concern --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Promotion Item/Gift Set Damage</masterLabel>
+            <translation><!-- Promotion Item/Gift Set Damage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Proof</masterLabel>
+            <translation><!-- Proof --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pull Tab Broken</masterLabel>
+            <translation><!-- Pull Tab Broken --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SCC/UPC Barcode</masterLabel>
+            <translation><!-- SCC/UPC Barcode --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shifted in Transit</masterLabel>
+            <translation><!-- Shifted in Transit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tastes Different Than Previous Purchase(s)</masterLabel>
+            <translation><!-- Tastes Different Than Previous Purchase(s) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Torn/Crushed</masterLabel>
+            <translation><!-- Torn/Crushed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tubidity</masterLabel>
+            <translation><!-- Tubidity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VAP issue</masterLabel>
+            <translation><!-- VAP issue --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

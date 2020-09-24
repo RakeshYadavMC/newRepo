@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>Estatus</label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Closed Store</masterLabel>
+            <translation>Tienda Cerrada</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deleted Store</masterLabel>
+            <translation>Tienda borrada</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Future Store</masterLabel>
+            <translation>Tienda futura</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open Store</masterLabel>
+            <translation>Tienda abierta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reclassified Store</masterLabel>
+            <translation>Tienda reclasificada</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>To Be Determined</masterLabel>
+            <translation>Indeterminado</translation>
+        </picklistValues>
+    </CustomFieldTranslation>

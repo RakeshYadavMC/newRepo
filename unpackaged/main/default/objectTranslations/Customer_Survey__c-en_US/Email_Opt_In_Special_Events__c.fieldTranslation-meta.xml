@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Would you like information on special events? --></help>
+        <label><!-- Email Opt-In Special Events --></label>
+        <name>Email_Opt_In_Special_Events__c</name>
+    </CustomFieldTranslation>

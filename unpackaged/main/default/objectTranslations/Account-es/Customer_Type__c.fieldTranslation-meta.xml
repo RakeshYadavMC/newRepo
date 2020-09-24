@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Customer Type --></label>
+        <name>Customer_Type__c</name>
+        <picklistValues>
+            <masterLabel>Bottler</masterLabel>
+            <translation><!-- Bottler --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brewery</masterLabel>
+            <translation><!-- Brewery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Broker</masterLabel>
+            <translation><!-- Broker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cooperage</masterLabel>
+            <translation><!-- Cooperage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Crafter</masterLabel>
+            <translation><!-- Crafter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distiller</masterLabel>
+            <translation><!-- Distiller --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retailer</masterLabel>
+            <translation><!-- Retailer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Winery</masterLabel>
+            <translation><!-- Winery --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

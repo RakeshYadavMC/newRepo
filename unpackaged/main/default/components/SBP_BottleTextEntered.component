@@ -1,0 +1,9 @@
+<apex:component controller="SBP_EmailUtility" access="Global">
+    
+    <apex:attribute name="Case" type="String" description="This is the Id of the Case" assignTo="{!caseId}" access="global" />
+    <!--<apex:outputText value=" {!BottleTextEntered}"> </apex:outputText>-->
+    <apex:repeat value="{!BottleTextEntered}" var="str">
+        <br/>
+        Bottle Plate Text :  {!str} 
+    </apex:repeat>
+</apex:component>

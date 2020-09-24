@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Primary Role --></label>
+        <name>PrimaryRole__c</name>
+        <picklistValues>
+            <masterLabel>Bartender</masterLabel>
+            <translation><!-- Bartender --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Buyer</masterLabel>
+            <translation><!-- Buyer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chef</masterLabel>
+            <translation><!-- Chef --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clerk</masterLabel>
+            <translation><!-- Clerk --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Host/Hostess</masterLabel>
+            <translation><!-- Host/Hostess --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manager</masterLabel>
+            <translation><!-- Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Media / Trade Member</masterLabel>
+            <translation><!-- Media / Trade Member --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Owner</masterLabel>
+            <translation><!-- Owner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Rep</masterLabel>
+            <translation><!-- Sales Rep --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Servers</masterLabel>
+            <translation><!-- Servers --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

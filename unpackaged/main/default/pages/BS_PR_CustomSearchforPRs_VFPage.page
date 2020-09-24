@@ -1,0 +1,31 @@
+<apex:page rendered="{!$User.UIThemeDisplayed == 'Theme3'}" lightningStylesheets="true" showHeader="false" showChat="false"
+    showQuickActionVfHeader="false">
+    <apex:slds />
+    <apex:includeLightning />
+    <div id="LcDisplayId"></div>
+    <!-- Add lightning loader while component load -->
+    <div id="Loadingvf" class="slds-spinner_container">
+        <div class="slds-spinner--brand slds-spinner slds-spinner--medium" role="alert">
+            <span class="slds-assistive-text">Loading</span>
+            <div class="slds-spinner__dot-a"></div>
+            <div class="slds-spinner__dot-b"></div>
+        </div>
+    </div>
+    <script>
+
+        $Lightning.use("c:BS_PR_CustomSearchforPRs_VFAPP", function () {
+            // $Lightning.createComponent(String type, Object attributes, String locator, function callback)
+            $Lightning.createComponent("c:BS_PR_CustomSearchforPRs", {
+
+            },
+                "LcDisplayId",
+                function (component) {
+                    // create component Callback, Lightning Component has been Created,       
+                    var loadingDivElt = document.getElementById("Loadingvf");
+                    //hide lightning loader once the callback is completed
+                    loadingDivElt.style.display = 'none';
+                });
+        });    		
+    </script>
+
+</apex:page>

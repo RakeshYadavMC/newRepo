@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Business Unit --></label>
+        <name>Business_Unit__c</name>
+        <picklistValues>
+            <masterLabel>Bulk/Barrel</masterLabel>
+            <translation><!-- Bulk/Barrel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canada</masterLabel>
+            <translation><!-- Canada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Developed Europe</masterLabel>
+            <translation>Europe développée</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Emerging Asia</masterLabel>
+            <translation>Asie émergente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Emerging Europe</masterLabel>
+            <translation>Europe émergente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>India</masterLabel>
+            <translation><!-- India --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mexico</masterLabel>
+            <translation>Mexique</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oceania</masterLabel>
+            <translation><!-- Oceania --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South America</masterLabel>
+            <translation>Amérique latine</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Travel Retail</masterLabel>
+            <translation>Travel retail</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US</masterLabel>
+            <translation>États-Unis</translation>
+        </picklistValues>
+    </CustomFieldTranslation>

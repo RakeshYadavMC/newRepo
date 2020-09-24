@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- GTR Business Structure --></label>
+        <name>GTR_Business_Structure__c</name>
+        <picklistValues>
+            <masterLabel>EM</masterLabel>
+            <translation><!-- EM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GTR HQ</masterLabel>
+            <translation><!-- GTR HQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global Accounts</masterLabel>
+            <translation><!-- Global Accounts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic 3P</masterLabel>
+            <translation><!-- Strategic 3P --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VC</masterLabel>
+            <translation><!-- VC --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PostTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <default>false</default>
+    <fields>CaseNumber</fields>
+    <fields>Subject</fields>
+    <fields>Owner</fields>
+    <fields>Status</fields>
+    <label>GMDM Approval Request</label>
+</PostTemplate>

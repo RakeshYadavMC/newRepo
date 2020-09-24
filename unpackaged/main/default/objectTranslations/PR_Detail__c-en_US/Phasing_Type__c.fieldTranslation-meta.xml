@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Phasing Type --></label>
+        <name>Phasing_Type__c</name>
+        <picklistValues>
+            <masterLabel>Monthly</masterLabel>
+            <translation><!-- Monthly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Straight Line</masterLabel>
+            <translation><!-- Straight Line --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

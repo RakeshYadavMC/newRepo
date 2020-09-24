@@ -1,0 +1,270 @@
+<aura:component implements="force:appHostable" controller="CNT_SB2_TransferHierarchy">
+    <aura:handler name="init" value="{!this}" action="{! c.init }" />
+    <aura:handler name="change" value="{! v.brandAllocation }" action="{! c.brandAllocationChange }" />
+    <aura:handler name="change" value="{! v.move }" action="{! c.moveChange }" />
+    <aura:handler name="change" value="{! v.programTypeAndInterval }" action="{! c.programTypeAndIntervalChange }" />
+    <aura:handler name="change" value="{! v.country }" action="{! c.countryChange }" />
+    <aura:handler name="change" value="{! v.region }" action="{! c.regionChange }" />
+    <aura:handler name="change" value="{! v.from }" action="{! c.fromChange }" />
+    <aura:handler name="change" value="{! v.to }" action="{! c.toChange }" />
+    <aura:handler name="change" value="{! v.fromAllocationValue }" action="{! c.fromAllocationValueChange }" />
+    <aura:handler name="change" value="{! v.toAllocationValue }" action="{! c.toAllocationValueChange }" />
+
+    <aura:attribute name="isLoading" type="boolean" default="false" />
+
+    <aura:attribute name="countries" type="List" description="To store countries" />
+    <aura:attribute name="regions" type="List" description="To store regions" />
+    <aura:attribute name="states" type="List" description="To store states" />
+    <aura:attribute name="distributors" type="List" description="To store distributors" />
+    <aura:attribute name="destinationStates" type="List" description="To store destination states" />
+    <aura:attribute name="destinationRegions" type="List" description="To store destination regions" />
+
+    <aura:attribute name="move" type="String" description="To store move type." />
+    <aura:attribute name="country" type="String" description="To store country" />
+    <aura:attribute name="region" type="String" description="To store region" />
+    <aura:attribute name="state" type="String" description="To store state" />
+    <aura:attribute name="distributor" type="String" description="To store state" />
+
+    <aura:attribute name="hierarchicalMap" type="Map" description="To store hierarchical data" />
+    <aura:attribute name="distributorList" type="List" description="To store distributors data" />
+    
+    <lightning:workspaceAPI aura:id="workspace" />
+    <lightning:navigationItemAPI aura:id="navigationItemAPI"/>
+
+    <aura:attribute
+        name="moveType"
+        type="List"
+        default="[
+            {'label':'State', 'value':'State'},
+            {'label':'Distributor', 'value':'Distributor'},
+        ]"
+    />
+
+    <aura:attribute
+        name="transferData"
+        type="Map"
+        default="{
+        oldState: '',
+        oldDistributor: '',
+        oldRegion: '',
+        newState: '',
+        newDistributor: '',
+        newRegion: ''
+        }"
+    />
+
+    <lightning:card>
+        <!-- Card Title -->
+        <aura:set attribute="title">
+            <p class="title">Transfer Hierarchy</p>
+
+            <!-- Validation Error Messages -->
+            <aura:if isTrue="{! v.hasError }">
+                <div class="pageLevelErrors">
+                    <div class="forcePageError">
+                        <div class="genericNotification">
+                            <span class="genericError uiOutputText">
+                                Review the errors on this page.
+                            </span>
+                        </div>
+                        <ul class="errorsList">
+                            <aura:iteration items="{! v.errors }" var="error">
+                                <li>{!error}</li>
+                            </aura:iteration>
+                        </ul>
+                    </div>
+                </div>
+            </aura:if>
+        </aura:set>
+
+        <div class="slds-form slds-p-horizontal_medium">
+            <!-- Loader -->
+            <aura:if isTrue="{! v.isLoading }">
+                <lightning:spinner alternativeText="Loading..." />
+            </aura:if>
+
+            <!-- Transfer Type Selection -->
+            <lightning:select
+                aura:id="formInput"
+                class="formElementWidth"
+                label="What you want to transfer?"
+                required="true"
+                value="{!v.move}"
+                onchange="{! c.moveChange }"
+                tabindex="-1"
+            >
+                <option value="">&lt;Select an option&gt;</option>
+                <aura:iteration items="{!v.moveType}" var="type">
+                    <option text="{!type.label}" value="{!type.value}" selected="{!type.selected}" />
+                </aura:iteration>
+            </lightning:select>
+
+            <!-- Country Selection -->
+            <lightning:select
+                aura:id="formInput"
+                class="formElementWidth"
+                label="Country"
+                required="true"
+                value="{!v.country}"
+                disabled="{! empty(v.move) }"
+            >
+                <option value="">&lt;Select an option&gt;</option>
+                <aura:iteration items="{!v.countries}" var="item">
+                    <option text="{!item}" value="{!item}" selected="{!item.selected}" />
+                </aura:iteration>
+            </lightning:select>
+
+            <!-- Region Selection -->
+            <div class="divInline">
+                <div class="formElementWidth">
+                    <lightning:select
+                        aura:id="formInput"
+                        label="Region"
+                        required="true"
+                        value="{!v.region}"
+                        disabled="{! empty(v.regions) }"
+                    >
+                        <option value="">&lt;Select an option&gt;</option>
+                        <aura:iteration items="{!v.regions}" var="item">
+                            <option text="{!item}" value="{!item}" selected="{!item.selected}" />
+                        </aura:iteration>
+                    </lightning:select>
+                </div>
+                <aura:if isTrue="{! v.move == 'Distributor' &amp;&amp; v.state}">
+                    <div class="formElementWidth marginLeft">
+                        <lightning:select
+                            aura:id="formInput"
+                            label="Select region for distributor"
+                            required="true"
+                            value="{! v.transferData.newRegion }"
+                            disabled="{! empty(v.destinationRegions) }"
+                            onchange="{! c.destinationRegionChange }"
+                        >
+                            <option value="">&lt;Select an option&gt;</option>
+                            <aura:iteration items="{! v.destinationRegions }" var="item">
+                                <option text="{!item}" value="{!item}" selected="{!item.selected}" />
+                            </aura:iteration>
+                        </lightning:select>
+                    </div>
+                </aura:if>
+            </div>
+
+            <!-- State Selection -->
+            <aura:if isTrue="{! v.move == 'Distributor'}">
+                <div class="divInline">
+                    <div class="formElementWidth">
+                        <lightning:select
+                            aura:id="formInput"
+                            label="State"
+                            required="true"
+                            value="{! v.state }"
+                            disabled="{! empty(v.states) }"
+                            onchange="{! c.stateChange }"
+                        >
+                            <option value="">&lt;Select an option&gt;</option>
+                            <aura:iteration items="{! v.states }" var="item">
+                                <option text="{!item}" value="{!item}" selected="{!item.selected}" />
+                            </aura:iteration>
+                        </lightning:select>
+                    </div>
+                    <aura:if isTrue="{! v.transferData.newRegion }">
+                        <div class="formElementWidth marginLeft">
+                            <lightning:select
+                                aura:id="formInput"
+                                label="Select state where distributor will associate"
+                                required="true"
+                                value="{! v.transferData.newState }"
+                                disabled="{! empty(v.destinationStates) }"
+                            >
+                                <option value="">&lt;Select an option&gt;</option>
+                                <aura:iteration items="{! v.destinationStates }" var="item">
+                                    <option text="{!item}" value="{!item}" selected="{!item.selected}" />
+                                </aura:iteration>
+                            </lightning:select>
+                        </div>
+                    </aura:if>
+                </div>
+            </aura:if>
+
+            <!-- State & Destination Region Selection -->
+            <aura:if isTrue="{! v.region &amp;&amp; v.move == 'State' }">
+                <div class="divInline">
+                    <div class="formElementWidth">
+                        <lightning:select
+                            aura:id="formInput"
+                            label="Select state to transfer"
+                            required="true"
+                            value="{! v.transferData.oldState }"
+                            disabled="{! empty(v.states) }"
+                            onchange="{! c.stateChange }"
+                        >
+                            <option value="">&lt;Select an option&gt;</option>
+                            <aura:iteration items="{! v.states }" var="item">
+                                <option text="{!item}" value="{!item}" selected="{!item.selected}" />
+                            </aura:iteration>
+                        </lightning:select>
+                    </div>
+                    <div class="formElementWidth marginLeft">
+                        <lightning:select
+                            aura:id="formInput"
+                            label="Select region where state will associate"
+                            required="true"
+                            value="{! v.transferData.newRegion }"
+                            disabled="{! empty(v.destinationRegions) }"
+                        >
+                            <option value="">&lt;Select an option&gt;</option>
+                            <aura:iteration items="{! v.destinationRegions }" var="item">
+                                <option text="{!item}" value="{!item}" selected="{!item.selected}" />
+                            </aura:iteration>
+                        </lightning:select>
+                    </div>
+                </div>
+            </aura:if>
+
+            <!-- Distributor & Destination State Selection -->
+            <aura:if isTrue="{! v.state &amp;&amp; v.move == 'Distributor' }">
+                <div class="divInline">
+                    <div class="formElementWidth">
+                        <lightning:select
+                            aura:id="formInput"
+                            label="Select distributor to transfer"
+                            required="true"
+                            value="{! v.transferData.oldDistributor }"
+                            disabled="{! empty(v.distributors) }"
+                            onchange="{! c.distributorChange }"
+                        >
+                            <option value="">&lt;Select an option&gt;</option>
+                            <aura:iteration items="{! v.distributorList }" var="item">
+                                <option text="{! item.Brand_Country_Region_State_Allocation__r.Name + '~' + item.Account__r.Name}" value="{!item.Id}" selected="{!item.selected}" />
+                            </aura:iteration>
+                        </lightning:select>
+                    </div>
+                    <!-- <div class="formElementWidth marginLeft">
+                        <lightning:select
+                            aura:id="formInput"
+                            label="Select state where distributor will associate"
+                            required="true"
+                            value="{! v.transferData.newState }"
+                            disabled="{! empty(v.destinationStates) }"
+                        >
+                            <option value="">&lt;Select an option&gt;</option>
+                            <aura:iteration items="{! v.destinationStates }" var="item">
+                                <option text="{!item}" value="{!item}" selected="{!item.selected}" />
+                            </aura:iteration>
+                        </lightning:select>
+                    </div> -->
+                </div>
+            </aura:if>
+        </div>
+        <!-- Cancel & Submit Button -->
+        <aura:set attribute="footer">
+            <lightning:button
+                variant="brand"
+                type="submit"
+                name="Submit"
+                label="Submit"
+                onclick="{! c.handleSubmit }"
+            />
+        </aura:set>
+    </lightning:card>
+</aura:component>

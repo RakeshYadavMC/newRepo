@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The price of the item --></help>
+        <label><!-- Item Price --></label>
+        <name>Item_Price__c</name>
+    </CustomFieldTranslation>

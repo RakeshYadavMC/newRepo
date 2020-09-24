@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Set default as the Filter By on initial page load --></help>
+        <label><!-- FilterDefault --></label>
+        <name>FilterDefault__c</name>
+    </CustomFieldTranslation>

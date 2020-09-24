@@ -1,0 +1,981 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>Distribuidor Originario</label>
+        <name>OriginatingDistributor__c</name>
+        <picklistValues>
+            <masterLabel>Action Wholesale Liquor</masterLabel>
+            <translation><!-- Action Wholesale Liquor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alabama Abc Board</masterLabel>
+            <translation><!-- Alabama Abc Board --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alabama Crown (0000029070) - Birmingham</masterLabel>
+            <translation><!-- Alabama Crown (0000029070) - Birmingham --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alabama Crown (0000040295)</masterLabel>
+            <translation><!-- Alabama Crown (0000040295) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alabama Crown (0000040528) - Montgomery</masterLabel>
+            <translation><!-- Alabama Crown (0000040528) - Montgomery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alabama Crown (0001136406) - Alabaster</masterLabel>
+            <translation><!-- Alabama Crown (0001136406) - Alabaster --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Allan S Goodman Inc</masterLabel>
+            <translation><!-- Allan S Goodman Inc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Associated (0000055592)</masterLabel>
+            <translation><!-- Associated (0000055592) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Athens Distributing (Memphis)</masterLabel>
+            <translation><!-- Athens Distributing (Memphis) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Athens Distributing (Nashville)</masterLabel>
+            <translation><!-- Athens Distributing (Nashville) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B &amp; T Distributing Co. Inc.</masterLabel>
+            <translation><!-- B &amp; T Distributing Co. Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Badger North - Fond Du Lac</masterLabel>
+            <translation><!-- Badger North - Fond Du Lac --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Badger Wine &amp; Spirits Llc/Wi</masterLabel>
+            <translation><!-- Badger Wine &amp; Spirits Llc/Wi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Baker Dist. Corp. (0000028813)</masterLabel>
+            <translation><!-- Baker Dist. Corp. (0000028813) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Baker Distributing (0001136548)</masterLabel>
+            <translation><!-- Baker Distributing (0001136548) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bellboy Corporation</masterLabel>
+            <translation><!-- Bellboy Corporation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bellboy Corporation (0001131833)</masterLabel>
+            <translation><!-- Bellboy Corporation (0001131833) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Best Brands Inc</masterLabel>
+            <translation><!-- Best Brands Inc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bjt Inc (0000080057)</masterLabel>
+            <translation><!-- Bjt Inc (0000080057) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bjt Inc (0000080058)</masterLabel>
+            <translation><!-- Bjt Inc (0000080058) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Boardwalk Distribution Company (0001136448)</masterLabel>
+            <translation><!-- Boardwalk Distribution Company (0001136448) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brescome Barton Inc</masterLabel>
+            <translation><!-- Brescome Barton Inc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Capitol Distributing</masterLabel>
+            <translation><!-- Capitol Distributing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carolina Wine Company</masterLabel>
+            <translation><!-- Carolina Wine Company --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Central Distributors</masterLabel>
+            <translation><!-- Central Distributors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Central Liquor Co</masterLabel>
+            <translation><!-- Central Liquor Co --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Circle Sales Incorporated</masterLabel>
+            <translation><!-- Circle Sales Incorporated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Connecticut Distributors Inc</masterLabel>
+            <translation><!-- Connecticut Distributors Inc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D &amp; V Distributing (0001145087)</masterLabel>
+            <translation><!-- D &amp; V Distributing (0001145087) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dba Spirit Distributing Co.</masterLabel>
+            <translation><!-- Dba Spirit Distributing Co. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delta Wholesale Liquors</masterLabel>
+            <translation><!-- Delta Wholesale Liquors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deluca Liquor &amp; Wine Ltd. (0000055605)</masterLabel>
+            <translation><!-- Deluca Liquor &amp; Wine Ltd. (0000055605) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dept Of Admin &amp; Financial Srvc</masterLabel>
+            <translation><!-- Dept Of Admin &amp; Financial Srvc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Empire Distributing Of Nc</masterLabel>
+            <translation><!-- Empire Distributing Of Nc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Empire Distributors (0000055521)</masterLabel>
+            <translation><!-- Empire Distributors (0000055521) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Empire Distributors Inc.</masterLabel>
+            <translation><!-- Empire Distributors Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Empire Merchants Llc - Brooklyn Ny</masterLabel>
+            <translation><!-- Empire Merchants Llc - Brooklyn Ny --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fedway Associates Inc</masterLabel>
+            <translation><!-- Fedway Associates Inc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Firewater Supply Co. (0001130701)</masterLabel>
+            <translation><!-- Firewater Supply Co. (0001130701) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fun Beverage (0001136519)</masterLabel>
+            <translation><!-- Fun Beverage (0001136519) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G Housen &amp; Company</masterLabel>
+            <translation><!-- G Housen &amp; Company --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General Bev. Sales</masterLabel>
+            <translation><!-- General Bev. Sales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General Wholesale</masterLabel>
+            <translation><!-- General Wholesale --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General Wholesale Co</masterLabel>
+            <translation><!-- General Wholesale Co --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Georgia Crown-Central Facility</masterLabel>
+            <translation><!-- Georgia Crown-Central Facility --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Glazer - Dallas</masterLabel>
+            <translation><!-- Glazer - Dallas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Glazer Mid Continent Dist-Kans</masterLabel>
+            <translation><!-- Glazer Mid Continent Dist-Kans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Glazer Mid Continent Dist-St L</masterLabel>
+            <translation><!-- Glazer Mid Continent Dist-St L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Glazer Wholesale Distributors</masterLabel>
+            <translation><!-- Glazer Wholesale Distributors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Glazer Wholesale Distributors Of Ar</masterLabel>
+            <translation><!-- Glazer Wholesale Distributors Of Ar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Glazer Wholesale Distributors Of Oh</masterLabel>
+            <translation><!-- Glazer Wholesale Distributors Of Oh --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Glazer Wholesale Distributors Of Tx (0000029072)</masterLabel>
+            <translation><!-- Glazer Wholesale Distributors Of Tx (0000029072) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Glazer Wholesale Distributors Of Tx (0000055278)</masterLabel>
+            <translation><!-- Glazer Wholesale Distributors Of Tx (0000055278) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Glazer'S</masterLabel>
+            <translation><!-- Glazer&apos;S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Glazer'S Brazos Vall</masterLabel>
+            <translation><!-- Glazer&apos;S Brazos Vall --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Glazer'S Dist./Valley Beverage</masterLabel>
+            <translation><!-- Glazer&apos;S Dist./Valley Beverage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Glazer'S Distribution Of Iowa</masterLabel>
+            <translation><!-- Glazer&apos;S Distribution Of Iowa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Glazer'S Of Iowa</masterLabel>
+            <translation><!-- Glazer&apos;S Of Iowa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Glazer'S Wholesale Drug Co Inc</masterLabel>
+            <translation><!-- Glazer&apos;S Wholesale Drug Co Inc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Glazer'S Wholesaler Drug Co (0001131696)</masterLabel>
+            <translation><!-- Glazer&apos;S Wholesaler Drug Co (0001131696) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Glazers - Longview Texas</masterLabel>
+            <translation><!-- Glazers - Longview Texas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Glazers Dist. Houston</masterLabel>
+            <translation><!-- Glazers Dist. Houston --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Glazers Dist. Odessa/Tx</masterLabel>
+            <translation><!-- Glazers Dist. Odessa/Tx --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Glazers Dist. San Antonio/Tx</masterLabel>
+            <translation><!-- Glazers Dist. San Antonio/Tx --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Glazers Dist. Shreveport/La</masterLabel>
+            <translation><!-- Glazers Dist. Shreveport/La --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Glazers Dist/Lafayette/La</masterLabel>
+            <translation><!-- Glazers Dist/Lafayette/La --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Glazers Dist/Monroe/La</masterLabel>
+            <translation><!-- Glazers Dist/Monroe/La --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Glazers Of Kansas (0000055530)</masterLabel>
+            <translation><!-- Glazers Of Kansas (0000055530) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Great State Beverages Inc</masterLabel>
+            <translation><!-- Great State Beverages Inc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gusto Distributing Company (0001136513)</masterLabel>
+            <translation><!-- Gusto Distributing Company (0001136513) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hartley &amp; Parker Ltd</masterLabel>
+            <translation><!-- Hartley &amp; Parker Ltd --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hayden Beverage</masterLabel>
+            <translation><!-- Hayden Beverage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Heidelberg Distributing  Co</masterLabel>
+            <translation><!-- Heidelberg Distributing  Co --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Heidelberg Distributing (0000022406)</masterLabel>
+            <translation><!-- Heidelberg Distributing (0000022406) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Heidelberg Distributing (0000029978)</masterLabel>
+            <translation><!-- Heidelberg Distributing (0000029978) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Heidelberg Distributing Co</masterLabel>
+            <translation><!-- Heidelberg Distributing Co --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Henry A. Fox Sales Co.</masterLabel>
+            <translation><!-- Henry A. Fox Sales Co. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Holston Valley Distributing Co</masterLabel>
+            <translation><!-- Holston Valley Distributing Co --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Horizon Beverage Co (0000020661)</masterLabel>
+            <translation><!-- Horizon Beverage Co (0000020661) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Horizon Wine &amp; Spirits Chattanooga</masterLabel>
+            <translation><!-- Horizon Wine &amp; Spirits Chattanooga --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Horizon Wine &amp; Spirits Nashville</masterLabel>
+            <translation><!-- Horizon Wine &amp; Spirits Nashville --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Idaho State Liquor Disp</masterLabel>
+            <translation><!-- Idaho State Liquor Disp --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Iowa Alcoholic Beverages Div</masterLabel>
+            <translation><!-- Iowa Alcoholic Beverages Div --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Iron City Dist. Co.</masterLabel>
+            <translation><!-- Iron City Dist. Co. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jarboe Sales Co</masterLabel>
+            <translation><!-- Jarboe Sales Co --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Johnson Bros Whsle Lq Co</masterLabel>
+            <translation><!-- Johnson Bros Whsle Lq Co --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Knoxville Beverage Co</masterLabel>
+            <translation><!-- Knoxville Beverage Co --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lawrence Distributing Co Inc</masterLabel>
+            <translation><!-- Lawrence Distributing Co Inc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ldf Wine And Spirits</masterLabel>
+            <translation><!-- Ldf Wine And Spirits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lipman Brothers</masterLabel>
+            <translation><!-- Lipman Brothers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lucky 7 Beverage Co (0001142509)</masterLabel>
+            <translation><!-- Lucky 7 Beverage Co (0001142509) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M. S. Walker Inc</masterLabel>
+            <translation><!-- M. S. Walker Inc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maine Distributors</masterLabel>
+            <translation><!-- Maine Distributors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Major Brands-Columbia</masterLabel>
+            <translation><!-- Major Brands-Columbia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Major Brands-Springfield</masterLabel>
+            <translation><!-- Major Brands-Springfield --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Michigan Liquor Contrl Commission</masterLabel>
+            <translation><!-- Michigan Liquor Contrl Commission --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mid Ohio Wine Inc</masterLabel>
+            <translation><!-- Mid Ohio Wine Inc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mississippi Alcoholic Beverage</masterLabel>
+            <translation><!-- Mississippi Alcoholic Beverage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Montana Liquor Control Board</masterLabel>
+            <translation><!-- Montana Liquor Control Board --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Montgomery County Md</masterLabel>
+            <translation><!-- Montgomery County Md --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Moon Distributing</masterLabel>
+            <translation><!-- Moon Distributing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mountain Eagle (0001136122)</masterLabel>
+            <translation><!-- Mountain Eagle (0001136122) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mutual Dist. Co/Nc/Charlotte</masterLabel>
+            <translation><!-- Mutual Dist. Co/Nc/Charlotte --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mutual Distributing</masterLabel>
+            <translation><!-- Mutual Distributing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mutual Distributing Co.</masterLabel>
+            <translation><!-- Mutual Distributing Co. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mutual Distributing/Nc/Elizabeth</masterLabel>
+            <translation><!-- Mutual Distributing/Nc/Elizabeth --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mutual Distributing/Nc/Wilmington</masterLabel>
+            <translation><!-- Mutual Distributing/Nc/Wilmington --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>National Distributing Co. (0001130065)</masterLabel>
+            <translation><!-- National Distributing Co. (0001130065) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>National Distributing Co. (0001130066)</masterLabel>
+            <translation><!-- National Distributing Co. (0001130066) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>National Distributing Co. (0001130067)</masterLabel>
+            <translation><!-- National Distributing Co. (0001130067) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>National Distributing Co. Va</masterLabel>
+            <translation><!-- National Distributing Co. Va --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>National Distributing-Albany</masterLabel>
+            <translation><!-- National Distributing-Albany --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>National Distributing-Atlanta</masterLabel>
+            <translation><!-- National Distributing-Atlanta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>National Distributing-Savannah</masterLabel>
+            <translation><!-- National Distributing-Savannah --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>National Distributors Inc</masterLabel>
+            <translation><!-- National Distributors Inc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>National Wine &amp; Spirits (0000020124)</masterLabel>
+            <translation><!-- National Wine &amp; Spirits (0000020124) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>National Wine &amp; Spirits (0000055068)</masterLabel>
+            <translation><!-- National Wine &amp; Spirits (0000055068) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>National Wine &amp; Spirits (0001131864)</masterLabel>
+            <translation><!-- National Wine &amp; Spirits (0001131864) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Hampshire Distributors Inc</masterLabel>
+            <translation><!-- New Hampshire Distributors Inc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Hampshire Liquor Commission</masterLabel>
+            <translation><!-- New Hampshire Liquor Commission --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Odom (0001130217)</masterLabel>
+            <translation><!-- Odom (0001130217) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Odom (0001130218)</masterLabel>
+            <translation><!-- Odom (0001130218) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Odom (Nw Wine) (Gallo) (0000055596)</masterLabel>
+            <translation><!-- Odom (Nw Wine) (Gallo) (0000055596) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Odom Corporation (0000028754)</masterLabel>
+            <translation><!-- Odom Corporation (0000028754) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Odom Northwest Bev./Id/Coeur D'Alen</masterLabel>
+            <translation><!-- Odom Northwest Bev./Id/Coeur D&apos;Alen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Odom/Southern Wine &amp; Spirits</masterLabel>
+            <translation><!-- Odom/Southern Wine &amp; Spirits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ohio Dept Of Commerce</masterLabel>
+            <translation><!-- Ohio Dept Of Commerce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ohio Valley Wine Co</masterLabel>
+            <translation><!-- Ohio Valley Wine Co --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Olinger Distributing Co./In/Indiana</masterLabel>
+            <translation><!-- Olinger Distributing Co./In/Indiana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oregon Liquor Control Commission</masterLabel>
+            <translation><!-- Oregon Liquor Control Commission --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pa Liquor Control Board</masterLabel>
+            <translation><!-- Pa Liquor Control Board --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phillips Distributing Corp</masterLabel>
+            <translation><!-- Phillips Distributing Corp --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pine State Beverage Co</masterLabel>
+            <translation><!-- Pine State Beverage Co --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>R&amp;R Marketing</masterLabel>
+            <translation><!-- R&amp;R Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Republic Beverage (0000055537)</masterLabel>
+            <translation><!-- Republic Beverage (0000055537) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Republic Beverage (0000055538)</masterLabel>
+            <translation><!-- Republic Beverage (0000055538) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Republic Beverage Co Of Ky</masterLabel>
+            <translation><!-- Republic Beverage Co Of Ky --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Republic Beverage Co. Of Az (0000040510)</masterLabel>
+            <translation><!-- Republic Beverage Co. Of Az (0000040510) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Republic Beverage Company (0000020253)</masterLabel>
+            <translation><!-- Republic Beverage Company (0000020253) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Republic National Distributing (0001130323)</masterLabel>
+            <translation><!-- Republic National Distributing (0001130323) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Republic National Distributing Co L</masterLabel>
+            <translation><!-- Republic National Distributing Co L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Republic National Distributing Comp</masterLabel>
+            <translation><!-- Republic National Distributing Comp --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Savannah Distributing</masterLabel>
+            <translation><!-- Savannah Distributing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slocum And Sons</masterLabel>
+            <translation><!-- Slocum And Sons --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southern - Odom Wine And Spirits (0001131563)</masterLabel>
+            <translation><!-- Southern - Odom Wine And Spirits (0001131563) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southern Wine &amp; Spirits Of Az</masterLabel>
+            <translation><!-- Southern Wine &amp; Spirits Of Az --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southern Wine &amp; Spirits Of Co</masterLabel>
+            <translation><!-- Southern Wine &amp; Spirits Of Co --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southern Wine &amp; Spirits Of De</masterLabel>
+            <translation><!-- Southern Wine &amp; Spirits Of De --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southern Wine &amp; Spirits Of Hi</masterLabel>
+            <translation><!-- Southern Wine &amp; Spirits Of Hi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southern Wine &amp; Spirits Of Il</masterLabel>
+            <translation><!-- Southern Wine &amp; Spirits Of Il --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southern Wine &amp; Spirits Of Ky</masterLabel>
+            <translation><!-- Southern Wine &amp; Spirits Of Ky --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southern Wine &amp; Spirits Of Metro Ny</masterLabel>
+            <translation><!-- Southern Wine &amp; Spirits Of Metro Ny --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southern Wine &amp; Spirits Of Mn</masterLabel>
+            <translation><!-- Southern Wine &amp; Spirits Of Mn --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southern Wine &amp; Spirits Of Nm</masterLabel>
+            <translation><!-- Southern Wine &amp; Spirits Of Nm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southern Wine &amp; Spirits Of No Ca</masterLabel>
+            <translation><!-- Southern Wine &amp; Spirits Of No Ca --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southern Wine &amp; Spirits Of Nv (0000022123)</masterLabel>
+            <translation><!-- Southern Wine &amp; Spirits Of Nv (0000022123) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southern Wine &amp; Spirits Of Pa</masterLabel>
+            <translation><!-- Southern Wine &amp; Spirits Of Pa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southern Wine &amp; Spirits Of Sc</masterLabel>
+            <translation><!-- Southern Wine &amp; Spirits Of Sc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southern Wine &amp; Spirits Of So Ca</masterLabel>
+            <translation><!-- Southern Wine &amp; Spirits Of So Ca --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southern Wine &amp; Spirits Of Upstate</masterLabel>
+            <translation><!-- Southern Wine &amp; Spirits Of Upstate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southern Wine &amp; Spirits Of Wa</masterLabel>
+            <translation><!-- Southern Wine &amp; Spirits Of Wa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southern Wine &amp; Spirits/Miami/Fl</masterLabel>
+            <translation><!-- Southern Wine &amp; Spirits/Miami/Fl --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Star Distributing Company</masterLabel>
+            <translation><!-- Star Distributing Company --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>State Board Of Alc Control</masterLabel>
+            <translation><!-- State Board Of Alc Control --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sterling Wine &amp; Spirits</masterLabel>
+            <translation><!-- Sterling Wine &amp; Spirits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sunny Hill Distributors</masterLabel>
+            <translation><!-- Sunny Hill Distributors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tennessee Wine &amp; Spirits Co</masterLabel>
+            <translation><!-- Tennessee Wine &amp; Spirits Co --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Territory Distributor For Alaska</masterLabel>
+            <translation><!-- Territory Distributor For Alaska --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Territory Distributor For Arizona</masterLabel>
+            <translation><!-- Territory Distributor For Arizona --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Territory Distributor For Arkansas</masterLabel>
+            <translation><!-- Territory Distributor For Arkansas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Territory Distributor For Colorado</masterLabel>
+            <translation><!-- Territory Distributor For Colorado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Territory Distributor For Connecticut</masterLabel>
+            <translation><!-- Territory Distributor For Connecticut --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Territory Distributor For Delaware</masterLabel>
+            <translation><!-- Territory Distributor For Delaware --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Territory Distributor For Florida</masterLabel>
+            <translation><!-- Territory Distributor For Florida --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Territory Distributor For Georgia</masterLabel>
+            <translation><!-- Territory Distributor For Georgia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Territory Distributor For Hawaii</masterLabel>
+            <translation><!-- Territory Distributor For Hawaii --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Territory Distributor For Idaho</masterLabel>
+            <translation><!-- Territory Distributor For Idaho --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Territory Distributor For Illinois</masterLabel>
+            <translation><!-- Territory Distributor For Illinois --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Territory Distributor For Indiana</masterLabel>
+            <translation><!-- Territory Distributor For Indiana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Territory Distributor For Iowa</masterLabel>
+            <translation><!-- Territory Distributor For Iowa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Territory Distributor For Kansas</masterLabel>
+            <translation><!-- Territory Distributor For Kansas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Territory Distributor For Kentucky</masterLabel>
+            <translation><!-- Territory Distributor For Kentucky --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Territory Distributor For Louisiana</masterLabel>
+            <translation><!-- Territory Distributor For Louisiana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Territory Distributor For Maine</masterLabel>
+            <translation><!-- Territory Distributor For Maine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Territory Distributor For Maryland</masterLabel>
+            <translation><!-- Territory Distributor For Maryland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Territory Distributor For Massachusetts</masterLabel>
+            <translation><!-- Territory Distributor For Massachusetts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Territory Distributor For Metro Ny</masterLabel>
+            <translation><!-- Territory Distributor For Metro Ny --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Territory Distributor For Michigan</masterLabel>
+            <translation><!-- Territory Distributor For Michigan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Territory Distributor For Minnesota</masterLabel>
+            <translation><!-- Territory Distributor For Minnesota --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Territory Distributor For Mississippi</masterLabel>
+            <translation><!-- Territory Distributor For Mississippi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Territory Distributor For Missouri</masterLabel>
+            <translation><!-- Territory Distributor For Missouri --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Territory Distributor For Montana</masterLabel>
+            <translation><!-- Territory Distributor For Montana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Territory Distributor For Montgomery County Md</masterLabel>
+            <translation><!-- Territory Distributor For Montgomery County Md --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Territory Distributor For Nebraska</masterLabel>
+            <translation><!-- Territory Distributor For Nebraska --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Territory Distributor For Nevada</masterLabel>
+            <translation><!-- Territory Distributor For Nevada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Territory Distributor For New Hampshire</masterLabel>
+            <translation><!-- Territory Distributor For New Hampshire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Territory Distributor For New Jersey</masterLabel>
+            <translation><!-- Territory Distributor For New Jersey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Territory Distributor For New Mexico</masterLabel>
+            <translation><!-- Territory Distributor For New Mexico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Territory Distributor For No California</masterLabel>
+            <translation><!-- Territory Distributor For No California --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Territory Distributor For North Carolina</masterLabel>
+            <translation><!-- Territory Distributor For North Carolina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Territory Distributor For North Dakota</masterLabel>
+            <translation><!-- Territory Distributor For North Dakota --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Territory Distributor For Ohio</masterLabel>
+            <translation><!-- Territory Distributor For Ohio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Territory Distributor For Oklahoma</masterLabel>
+            <translation><!-- Territory Distributor For Oklahoma --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Territory Distributor For Oregon</masterLabel>
+            <translation><!-- Territory Distributor For Oregon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Territory Distributor For Pennsylvania</masterLabel>
+            <translation><!-- Territory Distributor For Pennsylvania --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Territory Distributor For So California</masterLabel>
+            <translation><!-- Territory Distributor For So California --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Territory Distributor For South Carolina</masterLabel>
+            <translation><!-- Territory Distributor For South Carolina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Territory Distributor For South Dakota</masterLabel>
+            <translation><!-- Territory Distributor For South Dakota --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Territory Distributor For Tennessee</masterLabel>
+            <translation><!-- Territory Distributor For Tennessee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Territory Distributor For Texas</masterLabel>
+            <translation><!-- Territory Distributor For Texas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Territory Distributor For Upstate Ny</masterLabel>
+            <translation><!-- Territory Distributor For Upstate Ny --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Territory Distributor For Vermont</masterLabel>
+            <translation><!-- Territory Distributor For Vermont --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Territory Distributor For Virginia</masterLabel>
+            <translation><!-- Territory Distributor For Virginia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Territory Distributor For Washington</masterLabel>
+            <translation><!-- Territory Distributor For Washington --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Territory Distributor For West Virginia</masterLabel>
+            <translation><!-- Territory Distributor For West Virginia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Territory Distributor For Wisconsin</masterLabel>
+            <translation><!-- Territory Distributor For Wisconsin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Territory Distributor For Worcester County Md</masterLabel>
+            <translation><!-- Territory Distributor For Worcester County Md --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Territory Distributor For Wyoming</masterLabel>
+            <translation><!-- Territory Distributor For Wyoming --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Odom Corporation (0000040452)</masterLabel>
+            <translation><!-- The Odom Corporation (0000040452) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Odom Corporation (0000055730)</masterLabel>
+            <translation><!-- The Odom Corporation (0000055730) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Triple C Distributing Co</masterLabel>
+            <translation><!-- Triple C Distributing Co --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>United Beverage</masterLabel>
+            <translation><!-- United Beverage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Utah Liquor Control Commission</masterLabel>
+            <translation><!-- Utah Liquor Control Commission --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vermont Department Of Liquor Contro</masterLabel>
+            <translation><!-- Vermont Department Of Liquor Contro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Victor L. Robilio Company</masterLabel>
+            <translation><!-- Victor L. Robilio Company --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Virginia Abc Board</masterLabel>
+            <translation><!-- Virginia Abc Board --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Washington State Liquor Cntrol Boar</masterLabel>
+            <translation><!-- Washington State Liquor Cntrol Boar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West Tennessee Crown Distributing Co</masterLabel>
+            <translation><!-- West Tennessee Crown Distributing Co --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West Virginia Abc Commission</masterLabel>
+            <translation><!-- West Virginia Abc Commission --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>White Mountain Distributors</masterLabel>
+            <translation><!-- White Mountain Distributors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wicksall Distribution</masterLabel>
+            <translation><!-- Wicksall Distribution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wirtz Beverage (0001131632)</masterLabel>
+            <translation><!-- Wirtz Beverage (0001131632) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wirtz Beverage (0001131633)</masterLabel>
+            <translation><!-- Wirtz Beverage (0001131633) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wirtz Beverage - Peoria</masterLabel>
+            <translation><!-- Wirtz Beverage - Peoria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wirtz Beverage - Rockford</masterLabel>
+            <translation><!-- Wirtz Beverage - Rockford --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wirtz Beverage Minnesota</masterLabel>
+            <translation><!-- Wirtz Beverage Minnesota --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wirtz Beverage Of Nevada</masterLabel>
+            <translation><!-- Wirtz Beverage Of Nevada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wirtz Beverage Wisconsin (0000023709)</masterLabel>
+            <translation><!-- Wirtz Beverage Wisconsin (0000023709) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wirtz Beverage Wisconsin (0000023710)</masterLabel>
+            <translation><!-- Wirtz Beverage Wisconsin (0000023710) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wirtz Beverage Wisconsin (0001131701)</masterLabel>
+            <translation><!-- Wirtz Beverage Wisconsin (0001131701) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wirtz Beverage Wisconsin (0001131702)</masterLabel>
+            <translation><!-- Wirtz Beverage Wisconsin (0001131702) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Worcester County Liquor</masterLabel>
+            <translation><!-- Worcester County Liquor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wyoming Liquor Commission</masterLabel>
+            <translation><!-- Wyoming Liquor Commission --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Youngs Market Az (0001136726)</masterLabel>
+            <translation><!-- Youngs Market Az (0001136726) --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

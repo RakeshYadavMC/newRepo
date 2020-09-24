@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- If it is Data such as from the Tags object for Brands or Territories --></help>
+        <label><!-- IsData --></label>
+        <name>IsData__c</name>
+    </CustomFieldTranslation>

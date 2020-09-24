@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Is cross merchandising with other Beam products allowed? --></help>
+        <label><!-- Cross Merchandising --></label>
+        <name>CrossMerchandisingAllowed__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes - All</masterLabel>
+            <translation><!-- Yes - All --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes - Beer</masterLabel>
+            <translation><!-- Yes - Beer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes - Food</masterLabel>
+            <translation><!-- Yes - Food --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

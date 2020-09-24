@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Name of the Static Resource that holds an image of where to locate the lot code --></help>
+        <label><!-- Static Resource Name --></label>
+        <name>Static_Resource_Name__c</name>
+    </CustomFieldTranslation>

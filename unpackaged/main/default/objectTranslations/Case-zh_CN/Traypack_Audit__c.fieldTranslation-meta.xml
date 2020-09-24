@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Please note the subcases will be reset after each attachment --></help>
+        <label><!-- Traypack Audit --></label>
+        <name>Traypack_Audit__c</name>
+    </CustomFieldTranslation>

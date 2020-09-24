@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Este porcentaje mide que tan bien la tienda cumple con los objetivos de la encuesta.</help>
+        <label>Valor de la Calificación (%)</label>
+        <name>ScoreValue__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HomePageComponent xmlns="http://soap.sforce.com/2006/04/metadata">
+    <links>sales360_The_BAR_Filter_Download_Guide</links>
+    <links>Outlook_Integration_Training_and_Setup_Guide</links>
+    <links>sales360_Reference_Guides</links>
+    <links>sales360_Training_Videos</links>
+    <links>sales360_Training_Presentations</links>
+    <links>sales360_Accounts_Contacts_FAQ</links>
+    <links>Mobile_App_Configuration_Steps</links>
+    <links>New_Non_Premise_Request_Form</links>
+    <links>Australia_BI_Training</links>
+    <links>NonAdminTraining</links>
+    <links>Data_Dictionary</links>
+    <links>Brand_and_Brand_Quality_Combinations</links>
+    <links>Customizing_Reports</links>
+    <pageComponentType>links</pageComponentType>
+</HomePageComponent>

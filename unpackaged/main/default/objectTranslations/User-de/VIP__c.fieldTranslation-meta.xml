@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- VIP --></label>
+        <name>VIP__c</name>
+        <picklistValues>
+            <masterLabel>Claims</masterLabel>
+            <translation><!-- Claims --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit and Collections</masterLabel>
+            <translation><!-- Credit and Collections --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Service</masterLabel>
+            <translation><!-- Customer Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GBS</masterLabel>
+            <translation><!-- GBS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GMDM</masterLabel>
+            <translation><!-- GMDM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR</masterLabel>
+            <translation><!-- HR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PTP/AP</masterLabel>
+            <translation><!-- PTP/AP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payroll</masterLabel>
+            <translation><!-- Payroll --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RTR</masterLabel>
+            <translation><!-- RTR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>T&amp;E</masterLabel>
+            <translation><!-- T&amp;E --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tax</masterLabel>
+            <translation><!-- Tax --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

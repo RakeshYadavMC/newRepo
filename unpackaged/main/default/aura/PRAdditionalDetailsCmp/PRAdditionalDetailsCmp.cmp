@@ -1,0 +1,53 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,lightning:actionOverride,lightning:availableForFlowScreens"
+                access="global" controller="CustomLookupController">
+    
+    <aura:attribute name="paymentTerms" type="String" />
+    <aura:attribute name="paymentTermsPicklist" type="String[]" />
+    <aura:attribute name="prCurrency" type="String"/>
+    <aura:attribute name="prCurrencyPicklist" type="String[]" />	
+    <aura:attribute name="objectName" type="String" default="PR_Header__c" />
+    <aura:attribute name="paymentTermsAPIName" type="String" default="Payment_Terms__c" />
+    <aura:attribute name="prCurrencyAPIName" type="String" default="PR_Currency__c" />
+    <aura:attribute name="spinnerFlag" type="boolean" default="FALSE"/>
+    <aura:attribute name="availableActions" type="String[]" default="['NEXT','BACK']" />
+    <aura:attribute name="performAction" type="Boolean" default="true" />
+    
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    <aura:handler event="aura:waiting" action="{!c.showSpinner}"/>
+    <aura:handler event="aura:doneWaiting" action="{!c.hideSpinner}"/>
+    
+    <!--loading spinner start-->
+    <aura:if isTrue="{!v.spinnerFlag}">
+        <div aura:id="spinnerId" class="slds-spinner_container">
+            <div class="slds-spinner--brand  slds-spinner slds-spinner--large slds-is-relative" role="alert">
+                <span class="slds-assistive-text">Loading...</span>
+                <div class="slds-spinner__dot-a"></div>
+                <div class="slds-spinner__dot-b"></div>
+            </div>
+        </div>
+    </aura:if>
+    <!-- Loading spinner end-->
+    
+    <fieldset class="slds-form-element slds-p-around_medium">
+        <div class="slds-form-element slds-size_1-of-1 slds-p-around_medium">
+            
+            <lightning:select label="Payment Term" required="true" value="{!v.paymentTerms}" aura:id="paymentTermId">
+                <aura:iteration items="{!v.paymentTermsPicklist}" var="val">
+                    <option value="{!val}"> {!val}</option>
+                </aura:iteration>
+            </lightning:select>
+            
+            <lightning:select label="PR Currency" required="true" value="{!v.prCurrency}" aura:id="prCurrencyId">
+                <aura:iteration items="{!v.prCurrencyPicklist}" var="val">
+                    <option value="{!val}"> {!val}</option>
+                </aura:iteration>
+            </lightning:select>
+            
+            
+        </div>    
+    </fieldset>
+    
+    <div class="slds-p-around_medium">
+        <c:flowFooter availableActions="{!v.availableActions}" navigateFlowEvent="{!c.moveToNextScreen}" performAction="{!v.performAction}" />
+    </div>
+</aura:component>

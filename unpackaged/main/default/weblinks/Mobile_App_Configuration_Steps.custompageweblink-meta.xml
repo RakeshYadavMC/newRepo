@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomPageWebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <availability>online</availability>
+    <description>Salesforce1 Mobile App Configuration Steps</description>
+    <displayType>link</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <hasMenubar>false</hasMenubar>
+    <hasScrollbars>true</hasScrollbars>
+    <hasToolbar>false</hasToolbar>
+    <height>600</height>
+    <isResizable>true</isResizable>
+    <linkType>url</linkType>
+    <masterLabel>sales360 Mobile App Setup</masterLabel>
+    <openType>newWindow</openType>
+    <position>none</position>
+    <protected>false</protected>
+    <showsLocation>false</showsLocation>
+    <showsStatus>false</showsStatus>
+    <url>https://bgsw1.sharepoint.com/sites/USSales/CFO/SF360com/sales360%20Training%20%26%20Support/sales360%20Reference%20Guides%20and%20FAQs/Reference%20Guide%20-%20Salesforce1%20(Mobile%20App)%20Setup.pdf</url>
+</CustomPageWebLink>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
+    <frameHeight>800</frameHeight>
+    <hasSidebar>false</hasSidebar>
+    <label>Home</label>
+    <motif>Custom54: Boat</motif>
+    <url>https://analytics.greatvines.com/gdc/account/customerlogin?sessionId={!API.Session_ID}&amp;serverURL={!API.Partner_Server_URL_100}&amp;targetURL=/dashboard.html%23project%3D%2Fgdc%2Fprojects%2Fsqdqs8tzbzj0p7zlodt494tuqjlzob9w%26dashboard%3D%2Fgdc%2Fmd%2Fsqdqs8tzbzj0p7zlodt494tuqjlzob9w%2Fobj%2F385197</url>
+    <urlEncodingKey>UTF-8</urlEncodingKey>
+</CustomTab>

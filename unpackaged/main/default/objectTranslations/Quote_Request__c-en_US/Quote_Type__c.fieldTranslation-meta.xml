@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Quote Type --></label>
+        <name>Quote_Type__c</name>
+        <picklistValues>
+            <masterLabel>Listed</masterLabel>
+            <translation><!-- Listed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Special Order</masterLabel>
+            <translation><!-- Special Order --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>State Stock</masterLabel>
+            <translation><!-- State Stock --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

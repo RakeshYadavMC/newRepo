@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>Estado</label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Expired</masterLabel>
+            <translation>Expiró</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Issued</masterLabel>
+            <translation>Enviado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation>Pendiente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Redeemed</masterLabel>
+            <translation>Redimido</translation>
+        </picklistValues>
+    </CustomFieldTranslation>

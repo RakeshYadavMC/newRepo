@@ -1,0 +1,27 @@
+<apex:page standardController="Case" recordSetVar="cases" extensions="ProcessSelectedIdsController">
+   <apex:includeLightning />
+   <apex:slds />
+
+   <div id="content">
+      <div id="lightningComponent" />
+   </div>
+
+   <script>
+   var customrecords = {!CaseString}
+   //alert(customrecords);
+   if(customrecords !=''){
+   $Lightning.use("c:ChangeBarrelShipDateApp", function() {
+        $Lightning.createComponent("c:ChangeBarrelShipDate", 
+        {"customListStr" : {!customIdsStr}},
+            "lightningComponent",
+            function(cmp) {}
+        );
+    });
+   }else{
+       alert('Please select atleast one record!');
+       window.open('/console','_top');
+   }
+    
+   </script>
+
+</apex:page>

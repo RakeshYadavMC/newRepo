@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- GTR Type --></label>
+        <name>GTR_Type__c</name>
+        <picklistValues>
+            <masterLabel>Arrivals</masterLabel>
+            <translation><!-- Arrivals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arrivals &amp; Departures</masterLabel>
+            <translation><!-- Arrivals &amp; Departures --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Border</masterLabel>
+            <translation><!-- Border --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Departures</masterLabel>
+            <translation><!-- Departures --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Duty Free Zone</masterLabel>
+            <translation><!-- Duty Free Zone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transfer</masterLabel>
+            <translation><!-- Transfer --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

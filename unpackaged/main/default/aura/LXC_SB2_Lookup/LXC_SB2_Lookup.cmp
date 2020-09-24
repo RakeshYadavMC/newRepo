@@ -1,0 +1,95 @@
+<aura:component controller="CNT_SB2_Lookup">
+    <aura:attribute name="sObjectName" type="String" description="Object Lookup field exists on" />
+    <aura:attribute name="lookupField" type="String" description="Lookup Field API Name" />
+    <aura:attribute name="filters" type="Object[]" description="Lookup filters" />
+    <aura:attribute name="referenceField" type="String" default="Name" description="Main Field you want to display for each record" />
+    <aura:attribute name="referenceSubField" type="String" description="Sub field you want to display for each record" />
+    <aura:attribute name="readonly" type="Boolean" default="false" description="Should the lookup be editable" />
+    <aura:attribute name="required" type="Boolean" default="false" description="Should the lookup be required" />
+    <aura:attribute name="showLabel" type="Boolean" default="false" description="Should the field Label be shown" />
+    <aura:attribute name="value" type="Object" description="ID of the record selected, can be set or retrieved through this attribute." />
+    <aura:attribute name="fieldNamesToSearch" type="List" default="['Name']" description="field names based on we need to search records." />
+    <aura:attribute name="searchFromMultipleFields" type="Boolean" default="false" 
+        description="Do we need to search on multiple fields in same object." />
+
+    <aura:attribute name="fieldLabel" type="String" />
+    <aura:attribute name="recordList" type="Object[]" access="private" />
+    <aura:attribute name="showResults" type="Boolean" default="false" access="private" />
+    <aura:attribute name="isLoading" type="Boolean" default="true" access="public" />
+    <aura:attribute name="selectedValue" type="Object" />
+    <aura:attribute name="parentIndex" type="Integer" />
+
+    <aura:handler name="init" value="{!this}" action="{!c.init}" />
+    <aura:handler name="change" value="{!v.value}" action="{!c.fetchRecordInformation}" />
+    <aura:handler name="change" value="{!v.filters}" action="{!c.init}" />
+    <aura:attribute name="errors" type="Object[]" access="private" description="Errors thrown are displayed here." />
+    <aura:registerEvent name="updateSelectedOptionEvent" type="c:LXC_SB2_GenericEvent" description="Update details when option selected"/>
+    <aura:registerEvent name="updateOptionUnselectEvent" type="c:LXC_SB2_GenericEvent" description="Reset details when option unselect"/>
+    
+    <aura:method name="init" action="{!c.init}" />
+    
+    <aura:if isTrue="{!v.showLabel}">
+        <label class="slds-form-element__label" style="width: 100%">
+            <abbr class="slds-required" title="required">* </abbr>{!v.fieldLabel}
+            <!--<span>{!v.fieldLabel}</span>-->
+        </label>
+    </aura:if>
+    <div>
+        <!--<aura:if isTrue="{!v.isLoading}">
+            <lightning:spinner alternativeText="Loading"/>
+        </aura:if>-->
+        <c:LXC_SB2_DisplayActionErrors passedInErrors="{!v.errors}" />
+        <aura:if isTrue="{!not(v.selectedValue)}">
+            <lightning:input type="search" label="Search" name="search" placeholder="search value"
+                variant="label-hidden" isLoading="{!v.isLoading}" onfocus="{!c.showResults}"
+                onchange="{!c.search}" readonly="{!v.readonly || v.isLoading}"
+                onblur="{!c.hideResults}" /> 
+        </aura:if>
+        <aura:if isTrue="{!v.selectedValue}">
+            <div class="slds-form-element">
+                <div class="slds-form-element__control">
+                    <div class="slds-combobox_container slds-has-inline-listbox">
+                        <div class="slds-combobox slds-dropdown-trigger slds-dropdown-trigger_click" aria-expanded="false"
+                            aria-haspopup="listbox" role="combobox"
+                        >
+                                <div class="slds-combobox__form-element slds-input-has-icon slds-input-has-icon_left-right" role="none">
+                                    <input type="text" class="slds-input slds-combobox__input"
+                                        aria-autocomplete="list" autocomplete="off" role="textbox" readonly="true"
+                                        value="{!v.selectedValue.referenceField}" placeholder="{!search + ' ' + v.fieldLabel}"
+                                    />
+                                    <lightning:buttonIcon iconName="utility:close"
+                                        class="{!'slds-button_icon slds-input__icon slds-input__icon_right' + (v.readonly ? ' slds-hide' : '')}"
+                                        variant="bare" alternativeText="Settings" onclick="{!c.unselectRecord}"
+                                    />
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aura:if>
+        <div role="listbox" class="{!v.showResults &amp;&amp; v.recordList.length > 0 ? '' : 'slds-hide'}">
+            <ul class="slds-listbox slds-listbox_vertical slds-dropdown slds-dropdown_fluid" role="presentation">
+                <li role="presentation" class="{!v.recordList.length > 100 ? 'slds-listbox__item' : 'slds-hide'}">
+                    <span class="slds-media slds-listbox__option slds-listbox__option_entity slds-listbox__option_has-meta" role="option">
+                        <span class="slds-media__body">
+                            <span class="slds-listbox__option-meta slds-listbox__option-meta_entity">
+                                Displaying top 100 result...
+                            </span>
+                        </span>
+                    </span>
+                </li>
+                <aura:iteration items="{!v.recordList}" var="record" end="100">
+                    <li role="presentation" class="slds-listbox__item" id="{!record.Id}" onclick="{!c.recordSelect}">
+                        <span class="slds-media slds-listbox__option slds-listbox__option_entity slds-listbox__option_has-meta"
+                            role="option">
+                            <span class="slds-media__body">
+                                <span class="slds-listbox__option-text slds-listbox__option-text_entity">{!record.referenceField}</span>
+                                <span class="slds-listbox__option-meta slds-listbox__option-meta_entity">{!record.referenceSubField}</span>
+                            </span>
+                        </span>
+                    </li>
+                </aura:iteration>
+            </ul>
+        </div>
+    </div>
+</aura:component>

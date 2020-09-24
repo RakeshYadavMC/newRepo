@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomPageWebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <availability>online</availability>
+    <description>A one page guide on how to Filter data and download views in the sales360 BAR section</description>
+    <displayType>link</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <hasMenubar>false</hasMenubar>
+    <hasScrollbars>true</hasScrollbars>
+    <hasToolbar>false</hasToolbar>
+    <height>600</height>
+    <isResizable>true</isResizable>
+    <linkType>url</linkType>
+    <masterLabel>sales360 The BAR Filter &amp; Download Guide</masterLabel>
+    <openType>newWindow</openType>
+    <position>none</position>
+    <protected>false</protected>
+    <showsLocation>false</showsLocation>
+    <showsStatus>false</showsStatus>
+    <url>https://bgsw1.sharepoint.com/sites/USSales/CFO/SF360com/sales360%20Training%20&amp;%20Support/sales360%20Reference%20Guides%20and%20FAQs/sales360%20The%20BAR%20Download%20Filter%20Guide.pdf</url>
+</CustomPageWebLink>

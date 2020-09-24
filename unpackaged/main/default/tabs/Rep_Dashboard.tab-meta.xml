@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
+    <frameHeight>600</frameHeight>
+    <hasSidebar>false</hasSidebar>
+    <label>BMX Rep Dashboard</label>
+    <motif>Custom9: Lightning</motif>
+    <url>https://analytics.greatvines.com/gdc/account/customerlogin?sessionId={!API.Session_ID}&amp;serverURL={!API.Partner_Server_URL_100}&amp;targetURL=/dashboard.html%23project%3D%2Fgdc%2Fprojects%2Fi6b3oh3ca087vdyb1w24pd4rrmz7pb0q%26dashboard%3D%2Fgdc%2Fmd%2Fi6b3oh3ca087vdyb1w24pd4rrmz7pb0q%2Fobj%2F1545345</url>
+    <urlEncodingKey>UTF-8</urlEncodingKey>
+</CustomTab>

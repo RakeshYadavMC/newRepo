@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>Disposición de Excedente de Mercancías</label>
+        <name>Overage__c</name>
+        <picklistValues>
+            <masterLabel>Purchase</masterLabel>
+            <translation>Compra</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return</masterLabel>
+            <translation>Devolución</translation>
+        </picklistValues>
+    </CustomFieldTranslation>

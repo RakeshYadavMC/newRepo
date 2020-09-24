@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomPageWebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <availability>online</availability>
+    <displayType>link</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <hasMenubar>false</hasMenubar>
+    <hasScrollbars>true</hasScrollbars>
+    <hasToolbar>false</hasToolbar>
+    <height>600</height>
+    <isResizable>true</isResizable>
+    <linkType>url</linkType>
+    <masterLabel>Australia BI Training</masterLabel>
+    <openType>newWindow</openType>
+    <position>none</position>
+    <protected>false</protected>
+    <showsLocation>false</showsLocation>
+    <showsStatus>false</showsStatus>
+    <url>https://bgsw1.sharepoint.com/sites/it/itpmo/_layouts/15/WopiFrame.aspx?sourcedoc=%7BCFA3B753-58D9-4B73-BEF7-A4D984D8CCD2%7D&amp;file=Brand%20Investment%20-%20Australia%20-BT.pptx&amp;action=default&amp;IsList=1&amp;ListId=%7B220C7FFA-C5E7-4F78-AA73-2424D6A80C1C%7D&amp;ListItemId=5963</url>
+</CustomPageWebLink>

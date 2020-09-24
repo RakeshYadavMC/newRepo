@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- If no, why not? --></help>
+        <label><!-- Tour Lost Reason --></label>
+        <name>Tour_Lost_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Didn't fit my schedule</masterLabel>
+            <translation><!-- Didn&apos;t fit my schedule --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not available</masterLabel>
+            <translation><!-- Not available --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

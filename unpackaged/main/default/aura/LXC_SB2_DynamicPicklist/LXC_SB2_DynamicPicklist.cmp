@@ -1,0 +1,29 @@
+<aura:component controller="CNT_SB2_DynamicPicklistController">
+    <aura:attribute name="fieldLabel" type="String" default="" description="Label for picklist field"/>
+    <aura:attribute name="recordType" type="String" default="" description="Value of record type for picklist values"/>
+    <aura:attribute name="objectApiName" type="String" default="" description="Object apiname to retrieve picklsit field values from"/>
+    <aura:attribute name="fieldApiName" type="String" default="" description="Field apiname to retrieve values from"/>
+    <aura:attribute name="picklistValues" type="String[]" default="[]" description="Array to hold returned picklist values"/>
+    <aura:attribute name="picklistValue" type="String" default="" description="String to hold selected picklist value"/>
+    <aura:attribute name="missingFieldMessage" type="String" description="Message to show when field is missing"/>
+    <aura:attribute name="required" type="Boolean" default="false" description="Boolean to require field or not"/>
+    <aura:attribute name="disabled" type="Boolean" default="false" description="Boolean to disable field or not"/>
+    <aura:attribute name="noneLabel" type="String" default="None" description="String to show None"/>
+    <aura:attribute name="showDefaultOption" type="Boolean" default="true" description="Boolean to show default option 'Select..' or not"/>
+    <aura:attribute name="showNoneOption" type="Boolean" default="false" description="Boolean to show none option or not"/>
+    <aura:handler name="init" value="{!this}" action="{!c.setPicklistValues}" description="Handler run on init to retrieve picklist values for the passed in field value"/>
+    <aura:handler name="change" value="{!v.picklistValue}" action="{!c.selectedPicklistValue}"/>
+    <aura:registerEvent name="sendFieldValue" type="c:LXC_SB2_GenericEvent"/>
+
+    <lightning:select aura:id="fieldId" label="{!v.fieldLabel}" value="{!v.picklistValue}" required="{!v.required}" disabled="{!v.disabled}" onchange="{!c.handleSelectedValue}" messageWhenValueMissing="{!v.missingFieldMessage}">
+        <aura:if isTrue="{!v.showDefaultOption}">
+            <option value="">Select...</option>
+        </aura:if>
+        <aura:if isTrue="{!v.showNoneOption}">
+            <option value="" text="{!v.noneLabel}" label="{!v.noneLabel}"/>
+        </aura:if>
+        <aura:iteration items="{!v.picklistValues}" var="option">
+            <option value="{!option.value}" text="{!option.value}" label="{!option.label}" selected="{!option.value == v.picklistValue}"/>
+        </aura:iteration>
+    </lightning:select>
+</aura:component>

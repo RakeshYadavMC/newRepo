@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Campaign</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Campaigns</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <fieldSets>
+        <label><!-- Webservice Update --></label>
+        <name>Webservice_Update</name>
+    </fieldSets>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Australia Campaign Layout</layout>
+        <sections>
+            <label><!-- Campaign Hierarchy --></label>
+            <section>Campaign Hierarchy</section>
+        </sections>
+        <sections>
+            <label><!-- Campaign Level --></label>
+            <section>Campaign Level</section>
+        </sections>
+        <sections>
+            <label><!-- Campaign Monthly Budget --></label>
+            <section>Campaign Monthly Budget</section>
+        </sections>
+        <sections>
+            <label><!-- Campaign Planning Monthly --></label>
+            <section>Campaign Planning Monthly</section>
+        </sections>
+        <sections>
+            <label><!-- Campaign Segmentation --></label>
+            <section>Campaign Segmentation</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Forecasting --></label>
+            <section>Forecasting</section>
+        </sections>
+        <sections>
+            <label><!-- SAP Integration Points --></label>
+            <section>SAP Integration Points</section>
+        </sections>
+        <sections>
+            <label><!-- Spend Allocation --></label>
+            <section>Spend Allocation</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Campaign Layout</layout>
+        <sections>
+            <label><!-- Campaign Hierarchy --></label>
+            <section>Campaign Hierarchy</section>
+        </sections>
+        <sections>
+            <label><!-- Campaign Segmentation --></label>
+            <section>Campaign Segmentation</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Forecasting --></label>
+            <section>Forecasting</section>
+        </sections>
+        <sections>
+            <label><!-- SAP Integration Points --></label>
+            <section>SAP Integration Points</section>
+        </sections>
+        <sections>
+            <label><!-- Spend Allocation --></label>
+            <section>Spend Allocation</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Child Campaign Layout</layout>
+        <sections>
+            <label><!-- Campaign Hierarchy --></label>
+            <section>Campaign Hierarchy</section>
+        </sections>
+        <sections>
+            <label><!-- Campaign Segmentation --></label>
+            <section>Campaign Segmentation</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Forecasting --></label>
+            <section>Forecasting</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>POS Finanace only</layout>
+        <sections>
+            <label><!-- Campaign Hierarchy --></label>
+            <section>Campaign Hierarchy</section>
+        </sections>
+        <sections>
+            <label><!-- Campaign Segmentation --></label>
+            <section>Campaign Segmentation</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Forecasting --></label>
+            <section>Forecasting</section>
+        </sections>
+        <sections>
+            <label><!-- Information --></label>
+            <section>Information</section>
+        </sections>
+        <sections>
+            <label><!-- SAP Integration Points --></label>
+            <section>SAP Integration Points</section>
+        </sections>
+        <sections>
+            <label><!-- Spend Allocation --></label>
+            <section>Spend Allocation</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Campaign</nameFieldLabel>
+    <recordTypes>
+        <description><!-- Used for Creation of an Australian Campaign (WBS) --></description>
+        <label><!-- Australia Campaign (WBS) --></label>
+        <name>Australia_Campaign_WBS</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Record type for new child campaign records --></description>
+        <label><!-- Child Campaign --></label>
+        <name>Child_Campaign</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Use this type for 2017 Campaigns --></description>
+        <label><!-- Initial Campaign Creation --></label>
+        <name>Initial_Campaign_Creation</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- POS Finance Only --></label>
+        <name>POS_Finance_Only</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Use this type for parent campaigns. This should be default record type for US BI Campaigns --></description>
+        <label><!-- Parent Campaign --></label>
+        <name>parent_campaign</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Campaign Name. Campaign Type. GL Account Type. GL Description. GL Code must be populated. --></errorMessage>
+        <name>CampaignAttributesRequired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campaign Budget cannot be less than zero dollars for this Brand. Please update the Campaign Budget field. --></errorMessage>
+        <name>CampaignBudgetCannotbeLessThanZero</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campaigns cannot be created if the Master Marketing Plan is associated with a previous Year --></errorMessage>
+        <name>CampaignCreatedInPriorYear</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campaign Currency does not equal Marketing Plan Currency. --></errorMessage>
+        <name>CampaignCurrencyMustEqualMP</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Brand Quality is not consistent with the Brand associated with this Marketing Plan. Please enter an appropriate Brand Quality value. --></errorMessage>
+        <name>Campaign_BQ_match_MP_B</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Insufficient Campaign balance --></errorMessage>
+        <name>Campaign_Balance_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Start Date must be prior or equal to End Date. --></errorMessage>
+        <name>Campaign_Date_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campaigns can only be created if the Master Marketing Plan record type allows for Campaigns. Please select another Marketing Plan. --></errorMessage>
+        <name>CampaignsOnlyCreatedwithMPCampaignRT</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please clear the Code Created Date --></errorMessage>
+        <name>Code_Created_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A Comment is required when changing a Campaign Budget value. --></errorMessage>
+        <name>Comments_Required_for_Budget_Update</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- End Date Year must match the Parent Marketing Plan. --></errorMessage>
+        <name>End_Date_Year_Match_Parent</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot Forecast more than the Campaign Budget. --></errorMessage>
+        <name>Forecasted_Amount_must_be_LE_Budget</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- IO Codes cannot be created for a Campaigns if the Master Marketing Plan is associated with a previous Year --></errorMessage>
+        <name>IOCodeCannotBeCreatedinPriorYearPlan</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Your profile does not have access to edit this field for campaign type - National POS (Finance Only)! --></errorMessage>
+        <name>Lock_Records_POS_Finance_Only</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You are not allowed to change the Master Campaign on a Child Campaign --></errorMessage>
+        <name>Parent_Campaign_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Program is required. --></errorMessage>
+        <name>Program_Required_For_US</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- This program is not allowed in this country, please select another option --></errorMessage>
+        <name>Restrict_Programs_by_Country</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Start Date Year must match the Parent Marketing Plan. --></errorMessage>
+        <name>Start_Date_Year_Match_Parent</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You&apos;re not allowed to change the Participating State for this Campaign Region! --></errorMessage>
+        <name>check_Region_for_MustWin</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Create_SAP_IO --></label>
+        <name>Create_SAP_IO</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_SAP_WBS --></label>
+        <name>Create_SAP_WBS</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_child_campaign --></label>
+        <name>Create_child_campaign</name>
+    </webLinks>
+</CustomObjectTranslation>

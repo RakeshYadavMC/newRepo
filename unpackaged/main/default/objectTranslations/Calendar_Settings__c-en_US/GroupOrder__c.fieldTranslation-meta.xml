@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Order of the Groups - set to 0 if there is no Group --></help>
+        <label><!-- GroupOrder --></label>
+        <name>GroupOrder__c</name>
+    </CustomFieldTranslation>

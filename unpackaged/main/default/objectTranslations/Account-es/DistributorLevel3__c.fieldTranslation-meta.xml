@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Distributor Level 3 --></label>
+        <name>DistributorLevel3__c</name>
+        <picklistValues>
+            <masterLabel>Glazer-Arkansas</masterLabel>
+            <translation><!-- Glazer-Arkansas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Glazer-Kansas</masterLabel>
+            <translation><!-- Glazer-Kansas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Glazer-Louisiana</masterLabel>
+            <translation><!-- Glazer-Louisiana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Glazer-Ohio</masterLabel>
+            <translation><!-- Glazer-Ohio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Glazer-Texas</masterLabel>
+            <translation><!-- Glazer-Texas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hartley &amp; Parker Ltd-Total</masterLabel>
+            <translation><!-- Hartley &amp; Parker Ltd-Total --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Horizon - Total</masterLabel>
+            <translation><!-- Horizon - Total --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Johnson Bros-Total</masterLabel>
+            <translation><!-- Johnson Bros-Total --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Knoxville Bev-Total</masterLabel>
+            <translation><!-- Knoxville Bev-Total --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M.S Walker-Total</masterLabel>
+            <translation><!-- M.S Walker-Total --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Major Brands - Total</masterLabel>
+            <translation><!-- Major Brands - Total --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phillips-Total</masterLabel>
+            <translation><!-- Phillips-Total --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>R&amp;R Marketing-Total</masterLabel>
+            <translation><!-- R&amp;R Marketing-Total --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rndc - Total</masterLabel>
+            <translation><!-- Rndc - Total --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Star Distributors-Total</masterLabel>
+            <translation><!-- Star Distributors-Total --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sws-Alaska</masterLabel>
+            <translation><!-- Sws-Alaska --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sws-Arizona</masterLabel>
+            <translation><!-- Sws-Arizona --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sws-Colorado</masterLabel>
+            <translation><!-- Sws-Colorado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sws-Delaware</masterLabel>
+            <translation><!-- Sws-Delaware --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sws-Florida</masterLabel>
+            <translation><!-- Sws-Florida --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sws-Hawaii</masterLabel>
+            <translation><!-- Sws-Hawaii --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sws-Illinois</masterLabel>
+            <translation><!-- Sws-Illinois --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sws-Kentucky</masterLabel>
+            <translation><!-- Sws-Kentucky --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sws-Metro Ny</masterLabel>
+            <translation><!-- Sws-Metro Ny --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sws-Minnesota</masterLabel>
+            <translation><!-- Sws-Minnesota --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sws-Nevada</masterLabel>
+            <translation><!-- Sws-Nevada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sws-New Mexico</masterLabel>
+            <translation><!-- Sws-New Mexico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sws-No California</masterLabel>
+            <translation><!-- Sws-No California --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sws-So California</masterLabel>
+            <translation><!-- Sws-So California --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sws-South Carolina</masterLabel>
+            <translation><!-- Sws-South Carolina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sws-Upstate Ny</masterLabel>
+            <translation><!-- Sws-Upstate Ny --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sws-Washington</masterLabel>
+            <translation><!-- Sws-Washington --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Triple C-Total</masterLabel>
+            <translation><!-- Triple C-Total --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>United - Total</masterLabel>
+            <translation><!-- United - Total --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West Tennessee Crown Distributing-Total</masterLabel>
+            <translation><!-- West Tennessee Crown Distributing-Total --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wirtz - Total</masterLabel>
+            <translation><!-- Wirtz - Total --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

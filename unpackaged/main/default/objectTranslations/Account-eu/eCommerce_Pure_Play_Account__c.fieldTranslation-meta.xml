@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Indicator for tagging eCommerce Pure-Play Accounts --></help>
+        <label><!-- eCommerce Pure-Play Account --></label>
+        <name>eCommerce_Pure_Play_Account__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,340 @@
+<aura:component
+    implements="lightning:actionOverride,force:hasRecordId,force:hasSObjectName"
+    controller="CNT_SB2_CreateAllocationRecord"
+>
+    <!-- Handlers -->
+    <aura:handler name="init" value="{!this}" action="{!c.loadOptions}" />
+    <!-- <aura:handler event="aura:waiting" action="{!c.showSpinner}" />
+    <aura:handler event="aura:doneWaiting" action="{!c.hideSpinner}" /> -->
+
+    <aura:handler name="change" action="{!c.brandAllocationValueChange}" value="{!v.brandAllocationValue}" />
+    <aura:handler name="change" action="{!c.countryValueChange}" value="{!v.countryValue}" />
+
+    <aura:handler
+        name="change"
+        action="{!c.brandCountryAllocationValueChange}"
+        value="{!v.brandCountryAllocationValue}"
+    />
+    <aura:handler name="change" action="{!c.regionValueChange}" value="{!v.regionValue}" />
+
+    <aura:handler
+        name="change"
+        action="{!c.brandCountryRegionAllocationValueChange}"
+        value="{!v.brandCountryRegionAllocationValue}"
+    />
+    <aura:handler name="change" action="{!c.stateValueChange}" value="{!v.stateValue}" />
+
+    <aura:handler
+        name="change"
+        action="{!c.brandCountryRegionStateAllocationValueChange}"
+        value="{!v.brandCountryRegionStateAllocationValue}"
+    />
+    <aura:handler name="change" action="{!c.accountValueChange}" value="{!v.accountValue}" />
+
+    <aura:handler event="lightning:tabClosed" action="{! c.onTabClosed }" />
+
+    <!-- Lightning APIs -->
+    <lightning:workspaceAPI aura:id="workspace" />
+
+    <!-- Attributes -->
+    <aura:attribute name="headerTitle" type="String" />
+    <aura:attribute name="objectName" type="String" />
+    <aura:attribute name="isLeafNode" type="Boolean" default="false" />
+    <aura:attribute name="showLeafNode" type="Boolean" default="false" />
+    <aura:attribute name="hasError" type="boolean" default="false" />
+    <aura:attribute name="errors" type="String[]" default="[]" />
+    <aura:attribute name="isLoading" type="boolean" default="false" />
+    <aura:attribute name="parentAllocationId" type="Object" />
+
+    <aura:attribute name="brandAllocationValue" type="Object" />
+    <aura:attribute name="countryValue" type="Object" />
+
+    <aura:attribute name="brandCountryAllocationValue" type="Object" />
+    <aura:attribute name="regionValue" type="Object" />
+
+    <aura:attribute name="brandCountryRegionAllocationValue" type="Object" />
+    <aura:attribute name="stateValue" type="Object" />
+
+    <aura:attribute name="regionFilter" type="Object[]" />
+    <aura:attribute name="stateFilter" type="Object[]" />
+    <aura:attribute name="accountFilter" type="Object[]" />
+
+    <aura:attribute name="brandCountryRegionStateAllocationValue" type="Object" />
+    <aura:attribute name="accountValue" type="Object" />
+
+    <aura:attribute name="allocationName" type="String" description="To store the allocation name" />
+    <aura:attribute
+        name="geographicalName"
+        type="String"
+        description="To store the geographical heirarchy name/alias"
+    />
+
+    <aura:attribute
+        name="newBrandCountryAllocation"
+        type="Brand_Country_Allocation__c"
+        default="{ 
+            'sobjectType': 'Brand_Country_Allocation__c',
+            'Brand_Allocation__c': '',
+            'Country__c': '',
+            'Is_Leaf_Node__c': false,
+            'Allocations_Per_Interval__c': 0
+        }"
+    />
+
+    <aura:attribute
+        name="newBrandCountryRegionAllocation"
+        type="Brand_Country_Region_Allocation__c"
+        default="{
+            'sobjectType': 'Brand_Country_Region_Allocation__c',
+            'Brand_Country_Allocation__c': '',
+            'Region__c': '',
+            'Is_Leaf_Node__c': false,
+            'Allocations_Per_Interval__c': 0
+        }"
+    />
+
+    <aura:attribute
+        name="newBrandCountryRegionStateAllocation"
+        type="Brand_Country_Region_State_Allocation__c"
+        default="{
+            'sobjectType': 'Brand_Country_Region_State_Allocation__c',
+            'Brand_Country_Region_Allocation__c': '',
+            'State__c': '',
+            'Is_Leaf_Node__c': false,
+            'Allocations_Per_Interval__c': 0
+        }"
+    />
+
+    <aura:attribute
+        name="newBrandCountryRegionStateDistAlloc"
+        type="Brand_Country_Region_State_Dist_Alloc__c"
+        default="{
+            'sobjectType': 'Brand_Country_Region_State_Dist_Alloc__c',
+            'Brand_Country_Region_State_Allocation__c': '',
+            'Account__c': '',
+            'Is_Leaf_Node__c': false,
+            'Allocations_Per_Interval__c': 0
+        }"
+    />
+
+    <lightning:card>
+        <!-- Card Title -->
+        <aura:set attribute="title">
+            <p class="title">{!v.headerTitle}</p>
+
+            <!-- Validation Error Messages -->
+            <aura:if isTrue="{!v.hasError}">
+                <div class="pageLevelErrors">
+                    <div class="forcePageError">
+                        <div class="genericNotification">
+                            <span class="genericError uiOutputText">
+                                Review the errors on this page.
+                            </span>
+                        </div>
+                        <ul class="errorsList">
+                            <aura:iteration items="{!v.errors}" var="error">
+                                <li>{!error}</li>
+                            </aura:iteration>
+                        </ul>
+                    </div>
+                </div>
+            </aura:if>
+        </aura:set>
+
+        <!-- Card Body -->
+        <div class="slds-form slds-p-horizontal_medium">
+            <!-- Loader -->
+            <aura:if isTrue="{!v.isLoading}">
+                <lightning:spinner alternativeText="Loading..." />
+            </aura:if>
+
+            <!-- Brand Country Allocation Record Creation View -->
+            <aura:if isTrue="{!v.sObjectName == 'Brand_Country_Allocation__c'}">
+                <c:LXC_SB2_Lookup
+                    aura:id="lookup"
+                    sObjectName="{!v.sObjectName}"
+                    lookupField="Brand_Allocation__c"
+                    showLabel="true"
+                    value="{!v.parentAllocationId}"
+                    filters="[{'field': 'Is_Active__c', 'operator':'=', 'stringWrap': false, 'value': true}]"
+                    selectedValue="{!v.brandAllocationValue}"
+                />
+                <aura:if isTrue="{!v.brandAllocationValue}">
+                    <c:LXC_SB2_Lookup
+                        sObjectName="{!v.sObjectName}"
+                        lookupField="Country__c"
+                        showLabel="true"
+                        fieldNamesToSearch="['Name', 'Alias__c']"
+                        selectedValue="{!v.countryValue}"
+                    />
+                </aura:if>
+                <aura:if isTrue="{!v.countryValue}">
+                    <lightning:input
+                        class="slds-form-element"
+                        aura:id="isLeafNode"
+                        type="checkbox"
+                        label="Is Leaf Node"
+                        name="isLeafNode"
+                        checked="{!v.isLeafNode}"
+                        onchange="{!c.handleChange}"
+                    />
+                </aura:if>
+                <aura:if isTrue="{!v.isLeafNode}">
+                    <lightning:input
+                        aura:id="allocationPerInterval"
+                        type="number"
+                        required="true"
+                        min="0"
+                        label="Allocation Per Interval"
+                        onpaste="{! c.handlePaste }"
+                        value="{!v.newBrandCountryAllocation.Allocations_Per_Interval__c}"
+                    />
+                </aura:if>
+            </aura:if>
+
+            <!-- Brand Country Region Allocation Record Creation View -->
+            <aura:if isTrue="{!v.sObjectName == 'Brand_Country_Region_Allocation__c'}">
+                <c:LXC_SB2_Lookup
+                    sObjectName="{!v.sObjectName}"
+                    lookupField="Brand_Country_Allocation__c"
+                    showLabel="true"
+                    value="{!v.parentAllocationId}"
+                    fieldNamesToSearch="['Name', 'Country__c', 'Is_Leaf_Node__c']"
+                    filters="[{'field': 'Is_Active__c', 'operator':'=', 'stringWrap': false, 'value': true}]"
+                    selectedValue="{!v.brandCountryAllocationValue}"
+                />
+                <aura:if isTrue="{!v.brandCountryAllocationValue}">
+                    <c:LXC_SB2_Lookup
+                        sObjectName="{!v.sObjectName}"
+                        lookupField="Region__c"
+                        filters="{!v.regionFilter}"
+                        showLabel="true"
+                        selectedValue="{!v.regionValue}"
+                    />
+                </aura:if>
+                <aura:if
+                    isTrue="{!v.brandCountryAllocationValue.data.Is_Leaf_Node__c == false || v.brandCountryAllocationValue.data.data.Is_Leaf_Node__c == false}"
+                >
+                    <lightning:input
+                        class="slds-form-element"
+                        aura:id="isLeafNode"
+                        type="checkbox"
+                        label="Is Leaf Node"
+                        name="isLeafNode"
+                        checked="{!v.isLeafNode}"
+                        onchange="{!c.handleChange}"
+                    />
+                </aura:if>
+                <aura:if isTrue="{!v.isLeafNode}">
+                    <lightning:input
+                        aura:id="allocationPerInterval"
+                        type="number"
+                        required="true"
+                        min="0"
+                        label="Allocation Per Interval"
+                        onpaste="{! c.handlePaste }"
+                        value="{!v.newBrandCountryRegionAllocation.Allocations_Per_Interval__c}"
+                    />
+                </aura:if>
+            </aura:if>
+
+            <!-- Brand Country Region State Allocation Record Creation View -->
+            <aura:if isTrue="{!v.sObjectName == 'Brand_Country_Region_State_Allocation__c'}">
+                <c:LXC_SB2_Lookup
+                    sObjectName="{!v.sObjectName}"
+                    lookupField="Brand_Country_Region_Allocation__c"
+                    showLabel="true"
+                    value="{!v.parentAllocationId}"
+                    fieldNamesToSearch="['Name', 'Region__r.Country__c', 'Is_Leaf_Node__c', 'Brand_Country_Allocation__r.Is_Leaf_Node__c']"
+                    selectedValue="{!v.brandCountryRegionAllocationValue}"
+                />
+                <aura:if isTrue="{!v.brandCountryRegionAllocationValue}">
+                    <c:LXC_SB2_Lookup
+                        sObjectName="{!v.sObjectName}"
+                        lookupField="State__c"
+                        filters="{!v.stateFilter}"
+                        showLabel="true"
+                        fieldNamesToSearch="['Name', 'Alias__c']"
+                        selectedValue="{!v.stateValue}"
+                    />
+                </aura:if>
+                <aura:if isTrue="{!v.showLeafNode}">
+                    <lightning:input
+                        class="slds-form-element"
+                        aura:id="isLeafNode"
+                        type="checkbox"
+                        label="Is Leaf Node"
+                        name="isLeafNode"
+                        checked="{!v.isLeafNode}"
+                        onchange="{!c.handleChange}"
+                    />
+                </aura:if>
+                <aura:if isTrue="{!v.isLeafNode}">
+                    <lightning:input
+                        aura:id="allocationPerInterval"
+                        type="number"
+                        required="true"
+                        min="0"
+                        label="Allocation Per Interval"
+                        onpaste="{! c.handlePaste }"
+                        value="{!v.newBrandCountryRegionStateAllocation.Allocations_Per_Interval__c}"
+                    />
+                </aura:if>
+            </aura:if>
+
+            <!-- Brand Country Region State Distributor Allocation Record Creation View -->
+            <aura:if isTrue="{!v.sObjectName == 'Brand_Country_Region_State_Dist_Alloc__c'}">
+                <c:LXC_SB2_Lookup
+                    sObjectName="{!v.sObjectName}"
+                    lookupField="Brand_Country_Region_State_Allocation__c"
+                    showLabel="true"
+                    value="{!v.parentAllocationId}"
+                    fieldNamesToSearch="['Name', 'Is_Leaf_Node__c', 'Brand_Country_Region_Allocation__r.Is_Leaf_Node__c', 'Brand_Country_Region_Allocation__r.Brand_Country_Allocation__r.Is_Leaf_Node__c']"
+                    filters="[{'field': 'Is_Active__c', 'operator':'=', 'stringWrap': false, 'value': true}]"
+                    selectedValue="{!v.brandCountryRegionStateAllocationValue}"
+                />
+                <aura:if isTrue="{!v.brandCountryRegionStateAllocationValue}">
+                    <c:LXC_SB2_Lookup
+                        sObjectName="{!v.sObjectName}"
+                        lookupField="Account__c"
+                        filters="{!v.accountFilter}"
+                        showLabel="true"
+                        selectedValue="{!v.accountValue}"
+                    />
+                </aura:if>
+                <aura:if isTrue="{!v.newBrandCountryRegionStateDistAlloc.Is_Leaf_Node__c}">
+                    <lightning:input
+                        class="slds-form-element"
+                        aura:id="isLeafNode"
+                        type="checkbox"
+                        label="Is Leaf Node"
+                        disabled="true"
+                        checked="true"
+                    />
+
+                    <lightning:input
+                        aura:id="allocationPerInterval"
+                        type="number"
+                        required="true"
+                        min="0"
+                        label="Allocation Per Interval"
+                        onpaste="{! c.handlePaste }"
+                        value="{!v.newBrandCountryRegionStateDistAlloc.Allocations_Per_Interval__c}"
+                    />
+                </aura:if>
+            </aura:if>
+        </div>
+
+        <!-- Cancel & Submit Button -->
+        <aura:set attribute="footer">
+            <lightning:button
+                variant="neutral"
+                type="cancel"
+                name="Cancel"
+                label="Cancel"
+                onclick="{!c.handleCancel}"
+            />
+            <lightning:button variant="brand" type="submit" name="Submit" label="Submit" onclick="{!c.handleSubmit}" />
+        </aura:set>
+    </lightning:card>
+</aura:component>

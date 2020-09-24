@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomPageWebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <availability>online</availability>
+    <description>Training materials from initial launch, this will be updated in accordance with process and configuration updates.</description>
+    <displayType>link</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <hasMenubar>false</hasMenubar>
+    <hasScrollbars>true</hasScrollbars>
+    <hasToolbar>false</hasToolbar>
+    <height>600</height>
+    <isResizable>true</isResizable>
+    <linkType>url</linkType>
+    <masterLabel>Activation Training</masterLabel>
+    <openType>newWindow</openType>
+    <position>none</position>
+    <protected>false</protected>
+    <showsLocation>false</showsLocation>
+    <showsStatus>false</showsStatus>
+    <url>https://bgsw1-my.sharepoint.com/personal/nadia_wilson_beamsuntory_com/_layouts/15/WopiFrame.aspx?sourcedoc=%7B5DEAABC3-89C5-4394-B30E-0647A1DC0810%7D&amp;file=Digital%20Engagement%20-%20Brand%20Investment%20-%20Activation.pptx&amp;action=default</url>
+</CustomPageWebLink>

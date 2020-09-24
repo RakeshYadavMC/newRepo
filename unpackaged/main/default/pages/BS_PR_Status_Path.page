@@ -1,0 +1,25 @@
+<!-- removed the following from the page tag rendered="{!$User.UIThemeDisplayed == 'Theme3'}" -->
+<apex:page standardController="PR_Header__c" lightningStylesheets="true">
+    <style>
+        .slds-path__nav {
+  			pointer-events: none;
+		}
+    </style>
+        
+        <apex:includeLightning />
+        <div id="LcDisplayId"></div>
+        <script>
+            $Lightning.use("c:Custom_Ltng_Path", function() {
+                // $Lightning.createComponent(String type, Object attributes, String locator, function callback)
+                $Lightning.createComponent("c:Custom_Path", {
+                        recordId: '{!PR_Header__c.id}',
+                        hideUpdateButton: 'true'
+                    },
+                    "LcDisplayId",
+                    function(component) {
+                        // create component Callback, Lightning Component has been Created,       
+                        component.set("v.recordId", '{!PR_Header__c.id}');
+                    });
+            });
+        </script>
+</apex:page>

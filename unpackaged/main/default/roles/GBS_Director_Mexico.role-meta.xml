@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>Edit</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <description>GBS Director - Mexico</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>GBS Director - Mexico</name>
+    <opportunityAccessLevel>Read</opportunityAccessLevel>
+    <parentRole>GBS_Director_North_America</parentRole>
+</Role>

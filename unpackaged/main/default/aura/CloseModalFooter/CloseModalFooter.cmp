@@ -1,0 +1,6 @@
+<aura:component>
+    <lightning:overlayLibrary aura:id="overlayLib"/>
+    <!--<lightning:buttonIcon iconName="utility:close" variant="bare" onclick="{!c.handleCancel}" alternativeText="Close window"/>-->
+	<div class="slds-text-heading_medium">Vendor Account Search</div>
+        <lightning:buttonIcon class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse" iconName="utility:close" variant="bare" onclick="{!c.handleCancel}" alternativeText="Close window"/>   
+</aura:component>

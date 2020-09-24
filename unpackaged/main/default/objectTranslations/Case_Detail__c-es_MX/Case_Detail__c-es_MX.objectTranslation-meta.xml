@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Case Detail</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Case Details</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Invoice Status Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Invoice Status Request Details --></label>
+            <section>Invoice Status Request Details</section>
+        </sections>
+        <sections>
+            <label><!-- Invoice Status Request Summary --></label>
+            <section>Invoice Status Request Summary</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Remittance Details Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Remittance Details --></label>
+            <section>Remittance Details</section>
+        </sections>
+        <sections>
+            <label><!-- Remittance Summary --></label>
+            <section>Remittance Summary</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Case Detail</nameFieldLabel>
+    <recordTypes>
+        <label><!-- Invoice Status --></label>
+        <name>Invoice_Status</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Remittance Details --></label>
+        <name>Remittance_Details</name>
+    </recordTypes>
+</CustomObjectTranslation>

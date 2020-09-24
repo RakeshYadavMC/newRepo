@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Time Zone --></label>
+        <name>Time_Zone__c</name>
+        <picklistValues>
+            <masterLabel>America/Chicago</masterLabel>
+            <translation><!-- America/Chicago --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>America/New_York</masterLabel>
+            <translation><!-- America/New_York --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UTC</masterLabel>
+            <translation><!-- UTC --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

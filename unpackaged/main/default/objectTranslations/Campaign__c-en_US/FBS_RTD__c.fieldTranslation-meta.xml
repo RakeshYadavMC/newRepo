@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- FBS/RTD --></label>
+        <name>FBS_RTD__c</name>
+        <picklistValues>
+            <masterLabel>FBS</masterLabel>
+            <translation><!-- FBS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RTD</masterLabel>
+            <translation><!-- RTD --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

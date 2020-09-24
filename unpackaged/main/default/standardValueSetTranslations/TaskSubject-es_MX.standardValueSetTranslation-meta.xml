@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Account Visit</masterLabel>
+        <translation>Visita a la Cuenta</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Call</masterLabel>
+        <translation><!-- Call --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Email</masterLabel>
+        <translation><!-- Email --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Followup</masterLabel>
+        <translation>Seguimiento</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Meeting</masterLabel>
+        <translation><!-- Meeting --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>New Task</masterLabel>
+        <translation>Nueva Tarea</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Other</masterLabel>
+        <translation>Otra</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Presentation</masterLabel>
+        <translation>Presentación</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Social Media Interaction</masterLabel>
+        <translation><!-- Social Media Interaction --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Web form Submission</masterLabel>
+        <translation><!-- Web form Submission --></translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

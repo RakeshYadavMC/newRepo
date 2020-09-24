@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Distributor Level 2 --></label>
+        <name>DistributorLevel2__c</name>
+        <picklistValues>
+            <masterLabel>All Other Distributors</masterLabel>
+            <translation><!-- All Other Distributors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Allan S Goodman Inc-Total</masterLabel>
+            <translation><!-- Allan S Goodman Inc-Total --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Athens-Total</masterLabel>
+            <translation><!-- Athens-Total --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B &amp; T-Total</masterLabel>
+            <translation><!-- B &amp; T-Total --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Badger - Total</masterLabel>
+            <translation><!-- Badger - Total --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Best Brands-Total</masterLabel>
+            <translation><!-- Best Brands-Total --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brescome Barton Inc-Total</masterLabel>
+            <translation><!-- Brescome Barton Inc-Total --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Connecticut Distributors Inc-Total</masterLabel>
+            <translation><!-- Connecticut Distributors Inc-Total --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Empire - Total</masterLabel>
+            <translation><!-- Empire - Total --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fedway Associates Inc-Total</masterLabel>
+            <translation><!-- Fedway Associates Inc-Total --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Frank-Total</masterLabel>
+            <translation><!-- Frank-Total --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General Wholesale</masterLabel>
+            <translation><!-- General Wholesale --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Georgia Crown-Total</masterLabel>
+            <translation><!-- Georgia Crown-Total --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Glazer-Control</masterLabel>
+            <translation><!-- Glazer-Control --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Glazer-South Central</masterLabel>
+            <translation><!-- Glazer-South Central --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hartley &amp; Parker Ltd-Total</masterLabel>
+            <translation><!-- Hartley &amp; Parker Ltd-Total --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Horizon - Total</masterLabel>
+            <translation><!-- Horizon - Total --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Johnson Bros-Total</masterLabel>
+            <translation><!-- Johnson Bros-Total --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Knoxville Bev-Total</masterLabel>
+            <translation><!-- Knoxville Bev-Total --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M.S Walker-Total</masterLabel>
+            <translation><!-- M.S Walker-Total --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Major Brands - Total</masterLabel>
+            <translation><!-- Major Brands - Total --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phillips-Total</masterLabel>
+            <translation><!-- Phillips-Total --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>R&amp;R Marketing-Total</masterLabel>
+            <translation><!-- R&amp;R Marketing-Total --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rndc - Total</masterLabel>
+            <translation><!-- Rndc - Total --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Star Distributors-Total</masterLabel>
+            <translation><!-- Star Distributors-Total --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sws-California</masterLabel>
+            <translation><!-- Sws-California --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sws-Central</masterLabel>
+            <translation><!-- Sws-Central --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sws-Eastern</masterLabel>
+            <translation><!-- Sws-Eastern --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sws-Florida</masterLabel>
+            <translation><!-- Sws-Florida --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sws-Western</masterLabel>
+            <translation><!-- Sws-Western --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Triple C-Total</masterLabel>
+            <translation><!-- Triple C-Total --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>United - Total</masterLabel>
+            <translation><!-- United - Total --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West Tennessee Crown Distributing-Total</masterLabel>
+            <translation><!-- West Tennessee Crown Distributing-Total --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wirtz - Total</masterLabel>
+            <translation><!-- Wirtz - Total --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

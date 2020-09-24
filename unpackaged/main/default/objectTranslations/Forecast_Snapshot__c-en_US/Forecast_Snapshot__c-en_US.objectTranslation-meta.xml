@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Forecast Snapshot Monthly</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Forecast Snapshots</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Forecast Snapshot Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- Record type to capture automated Forecast Snapshot records --></description>
+        <label><!-- Automated --></label>
+        <name>Automated</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Record type to hold user driven snapshot records created from the button on the forecast snapshot tab --></description>
+        <label><!-- User Driven --></label>
+        <name>User_Driven</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

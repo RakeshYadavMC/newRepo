@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NavigationMenu xmlns="http://soap.sforce.com/2006/04/metadata">
+    <container>Beam Suntory Company Community</container>
+    <containerType>Network</containerType>
+    <label>TileMenu</label>
+    <navigationMenuItem>
+        <label>Global Master Data Management</label>
+        <position>1</position>
+        <publiclyAvailable>false</publiclyAvailable>
+        <target>/topic/0TOo0000000PfCTGA0</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Credit and Collections</label>
+        <position>2</position>
+        <publiclyAvailable>false</publiclyAvailable>
+        <target>/topic/0TOo0000000PfCdGAK</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Payroll</label>
+        <position>3</position>
+        <publiclyAvailable>false</publiclyAvailable>
+        <target>/topic/0TOo0000000PfCiGAK</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Record to Report</label>
+        <position>4</position>
+        <publiclyAvailable>false</publiclyAvailable>
+        <target>/topic/0TOo0000000PfCnGAK</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Procure-to-Pay / Procurement / TBO</label>
+        <position>5</position>
+        <publiclyAvailable>false</publiclyAvailable>
+        <target>/topic/0TO1J0000019KpVWAU</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Travel &amp; Entertainment</label>
+        <position>6</position>
+        <publiclyAvailable>false</publiclyAvailable>
+        <target>/topic/0TO1J000000DVRXWA4</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+</NavigationMenu>

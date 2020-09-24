@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Field used to view the current status of the IO generation. --></help>
+        <label><!-- Request Status --></label>
+        <name>RequestStatus__c</name>
+        <picklistValues>
+            <masterLabel>IO Created</masterLabel>
+            <translation><!-- IO Created --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IO Not Requested</masterLabel>
+            <translation><!-- IO Not Requested --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IO Pending</masterLabel>
+            <translation><!-- IO Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IO Processing</masterLabel>
+            <translation><!-- IO Processing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IO Rejected</masterLabel>
+            <translation><!-- IO Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WBS Created</masterLabel>
+            <translation><!-- WBS Created --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WBS Not Requested</masterLabel>
+            <translation><!-- WBS Not Requested --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WBS Pending</masterLabel>
+            <translation><!-- WBS Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WBS Processing</masterLabel>
+            <translation><!-- WBS Processing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WBS Rejected</masterLabel>
+            <translation><!-- WBS Rejected --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

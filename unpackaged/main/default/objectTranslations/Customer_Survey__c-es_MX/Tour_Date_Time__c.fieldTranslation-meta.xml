@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Eastern Time Zone --></help>
+        <label><!-- Tour Date Time --></label>
+        <name>Tour_Date_Time__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- GTR Customer Level 5 --></label>
+        <name>GTR_Customer_Level_5__c</name>
+        <picklistValues>
+            <masterLabel>APTR</masterLabel>
+            <translation><!-- APTR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATR</masterLabel>
+            <translation><!-- ATR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ETR</masterLabel>
+            <translation><!-- ETR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GTR HQ</masterLabel>
+            <translation><!-- GTR HQ --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

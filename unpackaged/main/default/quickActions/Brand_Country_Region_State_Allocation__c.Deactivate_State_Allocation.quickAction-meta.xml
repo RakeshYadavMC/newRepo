@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>SB-2 To deactivate state allocation and will deactivate distributor allocation related to this Brand Country Region state allocation</description>
+    <height>500</height>
+    <label>Deactivate State Allocation</label>
+    <lightningComponent>LXC_SB2_DeactivateStateAllocation</lightningComponent>
+    <optionsCreateFeedItem>false</optionsCreateFeedItem>
+    <type>LightningComponent</type>
+    <width>-100</width>
+</QuickAction>

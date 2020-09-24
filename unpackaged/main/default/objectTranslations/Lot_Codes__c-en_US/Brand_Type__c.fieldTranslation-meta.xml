@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Brand Type --></label>
+        <name>Brand_Type__c</name>
+        <picklistValues>
+            <masterLabel>Black Cherry</masterLabel>
+            <translation><!-- Black Cherry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Buttershots</masterLabel>
+            <translation><!-- Buttershots --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cask Strength</masterLabel>
+            <translation><!-- Cask Strength --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MMK Cask Strength</masterLabel>
+            <translation><!-- MMK Cask Strength --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Original/White</masterLabel>
+            <translation><!-- Original/White --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

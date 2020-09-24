@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>¿Los bins o unidades de mostrador son permitidas?</help>
+        <label>Bins / Unidades de Conteo</label>
+        <name>BinsCounterUnits__c</name>
+        <picklistValues>
+            <masterLabel>Bins</masterLabel>
+            <translation><!-- Bins --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Both</masterLabel>
+            <translation><!-- Both --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Counter Units</masterLabel>
+            <translation>Unidade de Mostrador</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

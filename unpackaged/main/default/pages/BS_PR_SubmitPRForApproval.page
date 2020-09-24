@@ -1,0 +1,64 @@
+<apex:page id="pageid" standardController="PR_Header__c" extensions="BS_PR_SubmitPRForApproval_VFCtrl" lightningStylesheets="true" docType="html-5.0" showHeader="false" showChat="false" showQuickActionVfHeader="false">   
+    <head>
+        <apex:slds /> 
+    </head>    
+    <apex:form id="formId" styleClass="slds-scope">
+        <apex:pageMessages />                
+        <article class="slds-card">
+            <div class="slds-card__header slds-grid">
+                <header class="slds-media slds-media_center slds-has-flexi-truncate">
+                    <div class="slds-media__figure">
+                        <span class="slds-icon_container slds-icon-standard-task" title="Send To SAP">
+                            <svg class="slds-icon slds-icon_small" aria-hidden="true">                    
+                                <use href="{!URLFOR($Asset.SLDS, '/assets/icons/standard-sprite/svg/symbols.svg#task')}"></use>
+                            </svg>
+                            <span class="slds-assistive-text">PR Submission For Approval</span>
+                        </span>
+                    </div>
+                    <div class="slds-media__body">
+                        <h2 class="slds-card__header-title">              
+                            <span>PR Submission</span>
+                        </h2>
+                    </div>
+                    <apex:outputPanel rendered="{!displaySubmitPR}">            
+                        <div class="slds-no-flex">        
+                            <input type="button" value="Continue To Submit PR" class="slds-button slds-button--brand" onclick="submitPRAction();return false;"/>                				                
+                        </div>
+                    </apex:outputPanel>
+                </header>
+            </div>
+            <div class="slds-card__body slds-card__body_inner">
+                <div class="slds-text-heading_small">Please make sure to check the following before submitting:</div>
+                <br/>
+                <ul>
+                    <li><span>&#10004;</span>  Validate PR details and phasing.</li>
+                    <li><span>&#10004;</span>  Validate All errors are resolved.</li>
+                    <!-- 
+					<li><span>&#10004;</span>  Validate PR Details and Phasing</li>
+                    <li><span>&#10004;</span>  Submit for approval request</li>
+                    <li><span>&#10004;</span>  Record will be locked from editing</li>
+                    <li><span>&#10004;</span>  Campaign spend records Will be Created</li>
+					-->
+                </ul>
+                <br/>
+                <div class="slds-text-heading_small">Once submitted, the record will be locked for editing, the campaign balance will be adjusted and campaign spend records will be created.</div>
+            </div>  
+        </article>        
+        <apex:actionFunction action="{!SubmitPR}" name="submitPRAction"  status="progress" rerender="formId"/>
+        </apex:form>
+        <apex:outputPanel id="spinnerpanel">        
+        <apex:actionStatus id="progress" stopText="">
+            <apex:facet name="start">
+                <!-- SPINNER -->
+                <div class="demo-only demo-only demo-only_viewport" style="background-color: rgba(22, 50, 92, 0.47);">
+                    <div role="status" class="slds-spinner slds-spinner_medium slds-spinner_brand">
+                        <span class="slds-assistive-text">Loading</span>
+                        <div class="slds-spinner__dot-a"></div>
+                        <div class="slds-spinner__dot-b"></div>
+                    </div>
+                </div>
+         <!-- / SPINNER -->
+            </apex:facet>
+        </apex:actionStatus>
+    </apex:outputPanel>
+</apex:page>

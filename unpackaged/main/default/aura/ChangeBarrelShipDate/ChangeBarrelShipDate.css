@@ -1,0 +1,17 @@
+.THIS.hide {
+ 	display: none;
+ }
+ 
+ .THIS.btn {
+ 	margin-bottom: 10px;
+ }
+
+.THIS label.uiLabel {
+    padding-right: 12px;
+}
+
+.THIS .field{
+  padding: 5px;
+  border: 1px solid #dce4ec;
+  border-radius: 2px;
+}

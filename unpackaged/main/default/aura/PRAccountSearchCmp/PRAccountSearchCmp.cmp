@@ -1,0 +1,118 @@
+<aura:component controller="AccountSearchCmpCtrl" implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction,lightning:availableForFlowScreens"
+                access="global">
+    <aura:attribute name="data" type="Object" default="{}" />
+    <aura:attribute name="filteredData" type="Object" default="{}" />
+    <aura:attribute name="accountName" type="String" default="" />
+    <aura:attribute name="accountSAPDBA" type="String" default="" />
+    <aura:attribute name="sapVendorId" type="String" default="" />
+    <aura:attribute name="searchQueryString" type="String" default="" />
+    <aura:attribute name="columns" type="List" />
+    <aura:attribute name="sortedDirection" type="String" default="asc" />
+    <aura:attribute name="sortedBy" type="String" default="asc" />
+    <aura:attribute name="isSearching" type="Boolean" default="false" />
+    <aura:attribute name="searchTerm" type="String" default="" />
+    <aura:attribute name="searchTimeout" type="Object" default="{}" />
+    <aura:attribute name="selectedRecord" type="Object" />
+    <aura:attribute name="selectedRecordId" type="String" />
+    <aura:attribute name="tileBody" type="Aura.Component[]" />
+    <aura:attribute name="resultFlag" type="Boolean" default="false"/>
+    <aura:attribute name="fields" type="List" default="[
+                                                       'accountName',
+                                                       'accountSAPDBA',
+                                                       'sapVendorId'
+                                                       ]" />
+    
+    <aura:attribute name="fieldApiMap" type="Map" default="{
+                                                           'Name' : 'accountName',
+                                                           'SAP_DBA__c': 'accountSAPDBA',
+                                                           'SAP_Vendor_ID__c': 'sapVendorId'
+                                                           }" />
+    
+    <aura:handler name="init" value="{!this}" action="{!c.init}" />
+    <aura:handler name="change" value="{!v.searchTerm}" action="{!c.onSearchTermChange}" />
+    
+    <aura:registerEvent name="prVendorAccountSearchEvt" type="c:PRVendorAccountSearchEvt" />
+    
+    <!--Display Component-->
+    <lightning:layout multipleRows="true" horizontalAlign="space">
+        <lightning:layoutItem size="12" smallDeviceSize="12" mediumDeviceSize="10" largeDeviceSize="2" class="slds-border_right slds-border_bottom">
+            <div class="filterSeparator slds-m-top_medium slds-m-horizontal_medium slds-m-bottom_small"></div>
+            <lightning:layoutItem class="slds-p-horizontal_x-small " size="12">
+                <lightning:layoutItem size="12" class="slds-is-relative slds-p-horizontal_x-small slds-p-vertical_small">
+                    <h3 class="slds-show_inline slds-line-height_reset slds-text-title_caps">Search By</h3>
+                </lightning:layoutItem>
+                <div onkeyup="{!c.handleKeyUp}">
+                <lightning:layoutItem size="12"> 
+                    <lightning:layoutItem size="12" class="slds-p-around_xx-small">
+                        <div>
+                            <lightning:input class="" type="text" label="Vendor Name" name="account_name" value="{!v.accountName}"
+                                             aura:id="textField" maxlength="255" messageWhenTooLong="The max number of characters allowed is 255"></lightning:input>
+                        </div>
+                    </lightning:layoutItem>
+                    
+                    <lightning:layoutItem size="12" class="slds-p-around_xx-small">
+                        <div>
+                            <lightning:input class="" type="text" label="Doing Business As Name" name="account_sapDBA" value="{!v.accountSAPDBA}"
+                                             aura:id="textField" maxlength="255" messageWhenTooLong="The max number of characters allowed is 255"></lightning:input>
+                        </div>
+                    </lightning:layoutItem>
+                    
+                     <lightning:layoutItem size="12" class="slds-p-around_xx-small">
+                        <div>
+                            <lightning:input class="" type="text" label="Sap Vendor Id" name="account_sapVendor_Id" value="{!v.sapVendorId}"
+                                             aura:id="textField" maxlength="255" messageWhenTooLong="The max number of characters allowed is 255"></lightning:input>
+                        </div>
+                    </lightning:layoutItem>
+                    
+                </lightning:layoutItem>
+                </div>    
+            </lightning:layoutItem>
+            
+            <lightning:layout verticalAlign="center" multipleRows="true" horizontalAlign="space">
+                <lightning:layoutItem flexibility="auto" padding="around-small" class="custom-box" size="6"
+                                      smallDeviceSize="6" mediumDeviceSize="6" largeDeviceSize="6">
+                    <lightning:button label="Clear" variant="destructive" onclick="{!c.handleClearFilterValues}" />
+                </lightning:layoutItem>
+                <lightning:layoutItem flexibility="auto" padding="around-small" class="custom-box" size="6"
+                                      smallDeviceSize="6" mediumDeviceSize="6" largeDeviceSize="6">
+                    <lightning:button label="Search" variant="brand" onclick="{!c.handleSearchBySOQLRecords}" />
+                </lightning:layoutItem>
+            </lightning:layout>
+            
+            
+        </lightning:layoutItem>
+        <!-- Right side Search results -->
+        <lightning:layoutItem size="12" smallDeviceSize="12" mediumDeviceSize="10" largeDeviceSize="10" class="">
+            <div onkeyup="{!c.handleKeyUp}">
+            <lightning:layout verticalAlign="center" multipleRows="true" horizontalAlign="space">
+                    <lightning:layoutItem size="8" class="slds-p-bottom_medium slds-p-around_x-small">
+                        <lightning:input aura:id="enter_search" name="enter-search" value="{!v.searchTerm}" placeholder="Filter List Below By Name, SAP DBA, Sap Vendor Id, Street, City, State, Country and Zip Code..."
+                            isLoading="false" pattern="[\w(\w|'|\ )*\w]" minlength="2" messageWhenTooShort="Your entry must be at least 2 characters."
+                            messageWhenPatternMismatch="Your entry can only include letters or numbers." type="search"
+                            variant="label-hidden" />
+                    </lightning:layoutItem>
+            </lightning:layout>
+            </div>
+            <aura:if isTrue="{!v.resultFlag}">
+                <lightning:layout verticalAlign="center" multipleRows="true" horizontalAlign="space">
+                    <c:AlertCmp type="info" message="No Account found, please modify the search query." />
+                </lightning:layout>
+            </aura:if>    
+            <div class="slds-spinner_container slds-border_bottom slds-p-around_x-small" style="position:relative;height:520px">
+                <lightning:datatable title="Accounts" keyField="id" sortedDirection="{!v.sortedDirection}"
+                                     sortedBy="{!v.sortedBy}" data="{! v.filteredData }"
+                                     columns="{! v.columns }" onrowaction="{! c.handleRecordSelection }"
+                                     enableInfiniteLoading="false" hideCheckboxColumn="true" />
+                <div class="slds-spinner_container slds-align_absolute-center" aura:id="loadingSpinner">
+                    <div class="slds-spinner slds-spinner_medium slds-spinner_brand" aria-hidden="false" role="alert">
+                        <div class="slds-spinner__dot-a"></div>
+                        <div class="slds-spinner__dot-b"></div>
+                    </div>
+                </div>
+            </div>
+        </lightning:layoutItem>
+        
+    </lightning:layout>
+    
+    
+</aura:component>

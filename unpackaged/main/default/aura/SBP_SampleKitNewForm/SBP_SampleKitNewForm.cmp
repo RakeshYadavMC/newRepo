@@ -1,0 +1,82 @@
+<aura:component implements="flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" access="global" >
+   
+    <aura:attribute name="newSampleKit" type="Sample_Kit__c"/>
+    <aura:attribute name="newSampleKitRecord" type="Object"/>
+    <aura:attribute name="SampleKitFieldsToQuery" type="Object"/>
+    <aura:attribute name="recordError" type="String"/>
+    <aura:attribute name="CaseId" type="string"/>
+    <aura:attribute name="BarrelOrderGrpId" type="string"/>
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <aura:attribute name="sampleKitId" type="string"/>
+    <lightning:overlayLibrary aura:id="overlayLib"/>
+
+    <lightning:recordEditForm objectApiName="Sample_Kit__c" 
+                              onload="{!c.handleCreateLoad}"
+                              onsuccess="{!c.onSuccess}"
+                               onsubmit="{!c.onSubmit}"
+                              onerror="{!c.onError}"
+                              recordId ="{!v.sampleKitId}"
+                              >
+        <div class="slds-tabs--scoped">
+            <fieldset class="slds-form--compound">
+                <div class="slds-form-element__group slds-tabs--scoped__content">
+                    <div class="slds-form-element__row">
+                        <div class="slds-form-element slds-size--1-of-2">
+                            <lightning:outputField aura:id="KitName" fieldName="Name"/>
+                        </div>
+                        <div class="slds-form-element slds-size--1-of-2">
+                            <lightning:inputField aura:id="orderid" fieldName="Barrel_Order_Group__c"/>
+                        </div>
+                    </div>
+                    <div class="slds-form-element__row">
+                        <div class="slds-form-element slds-size--1-of-2">
+                            <lightning:inputField aura:id="trackingnumber" fieldName="Tracking_Number__c"/>
+                            
+                        </div>
+                        <div class="slds-form-element slds-size--1-of-2">
+                            <lightning:inputField aura:id="submitterId" fieldName="Submitter__c"/>
+                            
+                        </div>
+                    </div>
+                    <div class="slds-form-element__row">
+                        <div class="slds-form-element slds-size--1-of-2">
+                            <lightning:inputField aura:id="KitDeliveryDate" fieldName="Tracking_Number_Creation_Date__c"/>
+                            
+                        </div>
+                        <div class="slds-form-element slds-size--1-of-2">
+                            <lightning:inputField aura:id="casaid" fieldName="Case__c"/>
+                            
+                        </div>
+                    </div>
+                    <div class="slds-form-element__row">
+                        <div class="slds-form-element slds-size--1-of-2">
+                            <lightning:inputField aura:id="trackingURL" fieldName="Tracking_URL__c"/>
+                            
+                            
+                        </div>
+                        <div class="slds-form-element slds-size--1-of-2">
+                            <lightning:inputField aura:id="deliveryStatus" fieldName="Delivery_Status__c"/>
+                            
+                            
+                        </div>
+                    </div>
+                    <div class="slds-form-element__row">
+                        <div class="slds-form-element slds-size--1-of-2">
+                            <lightning:inputField aura:id="carrierId" fieldName="Carrier__c"/>
+                            
+                        </div>
+                        <div class="slds-form-element slds-size--1-of-2">
+                            
+                            <lightning:inputField aura:id="sampleselectedId" fieldName="Sample_Selected__c"/>
+                        </div>
+                        
+                    </div>
+                </div>
+            </fieldset>
+        </div>
+        <footer class="slds-modal__footer">
+            <lightning:button label="Cancel" class="slds-m-top--small" variant="neutral" onclick="{!c.CloseModel}"/>
+            <lightning:button class = "slds-m-top--small" type="submit"  variant="brand" label="Save" />
+        </footer>
+    </lightning:recordEditForm>
+</aura:component>

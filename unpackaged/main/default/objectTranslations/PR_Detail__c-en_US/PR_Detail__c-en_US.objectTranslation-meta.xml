@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>PR Detail</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>PR Details</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>PR Detail Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- IO/GL Section --></label>
+            <section>IO/GL Section</section>
+        </sections>
+        <sections>
+            <label><!-- Other Info --></label>
+            <section>Other Info</section>
+        </sections>
+        <sections>
+            <label><!-- Phasing --></label>
+            <section>Phasing</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PR Detail View Only Layout</layout>
+        <sections>
+            <label><!-- Campaign Details --></label>
+            <section>Campaign Details</section>
+        </sections>
+        <sections>
+            <label><!-- Checks --></label>
+            <section>Checks</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- IO/GL Section --></label>
+            <section>IO/GL Section</section>
+        </sections>
+        <sections>
+            <label><!-- Other Info --></label>
+            <section>Other Info</section>
+        </sections>
+        <sections>
+            <label><!-- Phasing --></label>
+            <section>Phasing</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- PR Amount must be less than Campaign Balance. --></errorMessage>
+        <name>PR_Amount_validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must provide rejection comments. --></errorMessage>
+        <name>Rejection_Comments_Are_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- End month must be after start month and no later than December. --></errorMessage>
+        <name>Validate_End_Date_with_Start_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- End month must be after start month and no later than December. --></errorMessage>
+        <name>Validate_End_Date_with_Today_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Start Month must be current month or later. --></errorMessage>
+        <name>Validate_Start_Date_with_Today_Date</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,104 @@
+<aura:component
+                implements="force:lightningQuickActionWithoutHeader,force:hasRecordId,force:hasSObjectName"
+                access="global" controller="CNT_SB2_CopyBrandAllocationHierarchy"
+                > 
+    <aura:html tag="style">
+        .modal-body{
+        height : auto !important;
+        max-height: 600px !important;
+        }
+    </aura:html>
+    <lightning:workspaceAPI aura:id="workspace"/>
+    <!-- Handlers -->
+    <aura:handler name="init" value="{!this}" action="{!c.loadOptions}" />
+    <aura:handler event="aura:waiting" action="{!c.showSpinner}"/>
+    <aura:handler event="aura:doneWaiting" action="{!c.hideSpinner}"/>
+    <aura:handler name="change" action="{!c.brandAllocationValueChange}" value="{!v.brandAllocationValue}" />
+    <!-- Attributes -->
+    <aura:attribute name="recordId" type="String" />
+    <aura:attribute name="data" type="Object" />
+    <aura:attribute name="errors" type="List[]"/>
+    <aura:attribute name="hasError" type="Boolean" default="false"/>
+    <aura:attribute name="Spinner" type="boolean" default="false"/>
+    <aura:attribute name="brandAllocationValue" type="Object" />
+    <aura:attribute name="brandAllocationFilter" type="String"/>
+    <aura:attribute name="BrandAllocationId" type="String"/>
+    <aura:attribute name="isAlredyHierarchy" type="Boolean" default="false"/>
+    <force:recordData aura:id="recordEditor"
+                      recordId="{!v.recordId}"
+                      targetFields="{!v.data}"
+                      fields="['Name','Is_Active__c','Brand__r.Id', 'Id']"
+                      />
+    <aura:if isTrue="{!v.Spinner}">
+        <div aura:id="spinnerId" class="slds-spinner_container">
+            <div class="slds-spinner--brand  slds-spinner slds-spinner--large slds-is-relative" role="alert">
+                <span class="slds-assistive-text">Loading</span>
+                <div class="slds-spinner__dot-a"></div>
+                <div class="slds-spinner__dot-b"></div>
+            </div>
+        </div>
+    </aura:if>
+    
+    <header class="slds-modal__header side-margin header-position">
+        <h2 id="modal-heading-01"
+            class="slds-text-heading_medium slds-hyphenate">
+            {!$Label.c.SB2_Copy_Geographical_Hierarchy}</h2>
+    </header>
+    
+    <div  class="message">
+        <aura:if isTrue="{!v.hasError}">
+            <div class="pageLevelErrors">
+                <div class="forcePageError">
+                    <div class="genericNotification">
+                        <span class="genericError uiOutputText">
+                            {!$Label.c.SB2_Review_the_errors_on_this_page}
+                        </span>
+                    </div>
+                    <ul class="errorsList">
+                        <aura:iteration items="{!v.errors}" var="error">
+                            <li>{!error}</li>
+                        </aura:iteration>
+                    </ul>
+                </div>
+            </div>
+        </aura:if>
+        <lightning:notificationsLibrary aura:id="notifLib"/>
+        <form id="contactUsForm" class="slds-form--stacked">
+            <aura:if isTrue="{!v.data.Is_Active__c}">
+                <aura:if isTrue="{!v.isAlredyHierarchy}">
+                    {!$Label.c.SB2_A_geographical_hierarchy_has_already_been_set_up_for_this_allocation_You_ca}
+                    <aura:set attribute="else">
+                        <c:LXC_SB2_Lookup
+                                          aura:id="lookup"
+                                          sObjectName="Brand_Country_Allocation__c"
+                                          lookupField="Brand_Allocation__c"
+                                          showLabel="true"
+                                          value="{!v.brandAllocationValue}"
+                                          filters="{!v.brandAllocationFilter}"
+                                          selectedValue="{!v.brandAllocationValue}"
+                                          referenceSubField="Status__c"
+                                          />
+                    </aura:set>
+                </aura:if>
+                <aura:set attribute="else">
+                    {!$Label.c.SB2_This_Brand_Allocation_is_inactive_cannot_create_hierarchy_for_this_record}
+                </aura:set>
+            </aura:if>
+        </form>
+    </div>
+    
+    <footer class="side-margin footer-position">
+        <aura:if isTrue="{!and(v.data.Is_Active__c, not(v.isAlredyHierarchy)) }">
+        
+        <lightning:button
+                          variant="neutral"
+                          type="cancel"
+                          name="Cancel"
+                          label="Cancel"
+                          onclick="{!c.handleCancel}"
+                          />
+        <lightning:button variant="brand" type="submit" name="Submit" label="Submit" onclick="{!c.handleSubmit}" />
+        </aura:if>
+    </footer>
+    
+</aura:component>

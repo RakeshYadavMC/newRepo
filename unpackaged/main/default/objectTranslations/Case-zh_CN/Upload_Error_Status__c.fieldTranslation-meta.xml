@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Error Reason --></label>
+        <name>Upload_Error_Status__c</name>
+        <picklistValues>
+            <masterLabel>Bottles per Case</masterLabel>
+            <translation>每箱瓶数</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CMIR Sweep</masterLabel>
+            <translation>CMIR 清除</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Costing not loaded</masterLabel>
+            <translation>成本核算未加载</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Costing obsolete</masterLabel>
+            <translation>成本核算过期</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data Entry Error</masterLabel>
+            <translation>数据输入错误</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GBS Routing Error</masterLabel>
+            <translation>GBS 路由选择错误</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missed Pricing Filing</masterLabel>
+            <translation>丢失的定价申请</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missed Special Order</masterLabel>
+            <translation>丢失的特殊订单</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PGI</masterLabel>
+            <translation><!-- PGI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PO Date Error</masterLabel>
+            <translation>PO 日期错误</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pricing not loaded</masterLabel>
+            <translation>定价未加载</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SKU Sweep MD Error</masterLabel>
+            <translation>SKU 删除 MD 错误</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shortage on STO</masterLabel>
+            <translation>STO 上的库存</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>State Error on PO</masterLabel>
+            <translation>表明 PO 上的错误</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>State PO Error</masterLabel>
+            <translation>表明 PO 错误</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trade Show Item</masterLabel>
+            <translation>贸易展览项目</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transfer/Warehouse</masterLabel>
+            <translation>转移/仓库</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation>未知</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VAP/Repack</masterLabel>
+            <translation>VAP/重新装箱</translation>
+        </picklistValues>
+    </CustomFieldTranslation>

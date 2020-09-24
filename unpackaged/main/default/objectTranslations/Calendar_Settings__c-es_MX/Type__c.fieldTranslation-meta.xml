@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Field Data Definition Type if for example a Picklist (e.g. Channel) or an Record (e.g. Tags record for Brand or Territory) --></help>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+    </CustomFieldTranslation>

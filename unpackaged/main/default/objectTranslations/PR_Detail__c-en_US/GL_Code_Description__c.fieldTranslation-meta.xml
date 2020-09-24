@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- GL Code Description --></label>
+        <name>GL_Code_Description__c</name>
+        <picklistValues>
+            <masterLabel>Brand Education – Heritage Center and Distillery Visits</masterLabel>
+            <translation><!-- Brand Education – Heritage Center and Distillery Visits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Execution – Consumer Experience &amp; Personalization</masterLabel>
+            <translation><!-- Execution – Consumer Experience &amp; Personalization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Execution – Non-Premise and Consumer Influencer Program</masterLabel>
+            <translation><!-- Execution – Non-Premise and Consumer Influencer Program --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Execution – Non-Premise and Trade Influencer Program</masterLabel>
+            <translation><!-- Execution – Non-Premise and Trade Influencer Program --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Off-Trade – Consumer Promotions - POS Materials</masterLabel>
+            <translation><!-- Off-Trade – Consumer Promotions - POS Materials --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Off-Trade – Consumer Promotions - Print, Digital POS and Fulfillment Services</masterLabel>
+            <translation><!-- Off-Trade – Consumer Promotions - Print, Digital POS and Fulfillment Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Off-Trade – Display Installations</masterLabel>
+            <translation><!-- Off-Trade – Display Installations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Off-Trade – Value Added Packaging</masterLabel>
+            <translation><!-- Off-Trade – Value Added Packaging --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On-Trade – Consumer Promotions - POS Materials</masterLabel>
+            <translation><!-- On-Trade – Consumer Promotions - POS Materials --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On-Trade – Consumer Promotions - Print, Digital POS and Fulfillment Services</masterLabel>
+            <translation><!-- On-Trade – Consumer Promotions - Print, Digital POS and Fulfillment Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On-Trade – Display Installations</masterLabel>
+            <translation><!-- On-Trade – Display Installations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sponsorship - Attitudinal Sponsorship Execution</masterLabel>
+            <translation><!-- Sponsorship - Attitudinal Sponsorship Execution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sponsorship - Experiential Sponsorship Execution</masterLabel>
+            <translation><!-- Sponsorship - Experiential Sponsorship Execution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sponsorship – Attitudinal Sponsorship Contract Fee</masterLabel>
+            <translation><!-- Sponsorship – Attitudinal Sponsorship Contract Fee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sponsorship – Experiential Sponsorship Contract Fee</masterLabel>
+            <translation><!-- Sponsorship – Experiential Sponsorship Contract Fee --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

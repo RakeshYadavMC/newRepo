@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>Ojetivos</label>
+        <name>Objectives__c</name>
+        <picklistValues>
+            <masterLabel>Account Business Review</masterLabel>
+            <translation>Revisión de Negocio de la Cuenta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Account Call</masterLabel>
+            <translation>Llamada a la cuenta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer Event/Promotion</masterLabel>
+            <translation>Promoción/Evento para Consumidor</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Features</masterLabel>
+            <translation><!-- Features --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GoSpotCheck Survey</masterLabel>
+            <translation><!-- GoSpotCheck Survey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Influencer Event</masterLabel>
+            <translation><!-- Influencer Event --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Meet &amp; Greet</masterLabel>
+            <translation><!-- Meet &amp; Greet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Menu Placement</masterLabel>
+            <translation><!-- Menu Placement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Product Introduction</masterLabel>
+            <translation><!-- New Product Introduction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>POS/Display Installation</masterLabel>
+            <translation><!-- POS/Display Installation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PR Program/Special Event</masterLabel>
+            <translation><!-- PR Program/Special Event --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Programming</masterLabel>
+            <translation><!-- Programming --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shelf Management</masterLabel>
+            <translation><!-- Shelf Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spirits List</masterLabel>
+            <translation><!-- Spirits List --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Surveying</masterLabel>
+            <translation><!-- Surveying --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trade Training/Education</masterLabel>
+            <translation><!-- Trade Training/Education --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Virtual Spirits</masterLabel>
+            <translation><!-- Virtual Spirits --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

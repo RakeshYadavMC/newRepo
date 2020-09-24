@@ -1,0 +1,44 @@
+<apex:component controller="CNT_SB2_CarryForwardEmailTemplate" access="global">
+
+    <apex:attribute name="allocationId" type="Id" description="Id of the Brand Allocation" assignTo="{!brandAllocationId}"/>
+    Unused {!BrandAlloc.Program_Type__c} barrels for {!BrandAlloc.Brand__r.name} have been lost for {!BrandAlloc.Time_Interval__c}.
+    A list of the business units with unused barrels, and the allocations lost for {!BrandAlloc.Time_Interval__c}, 
+    are listed below. 
+
+	Please review this carefully, and reach out to single.barrels@beamsuntory.com to make any necessary allocation shifts.
+    <table style="border: 1px solid black; border-collapse: collapse;">
+            <tr > 
+               <th style="border: 1px solid black; border-collapse: collapse;">Brand</th>
+               <th style="border: 1px solid black; border-collapse: collapse;">Program Type</th>
+               <th style="border: 1px solid black; border-collapse: collapse;">Allocation Year</th>
+               <th style="border: 1px solid black; border-collapse: collapse;">Allocation Time Intervals</th>
+               <th style="border: 1px solid black; border-collapse: collapse;">Country</th>
+               <th style="border: 1px solid black; border-collapse: collapse;">Region</th>
+               <th style="border: 1px solid black; border-collapse: collapse;">State</th>
+               <th style="border: 1px solid black; border-collapse: collapse;">Distributor</th>
+               <th style="border: 1px solid black; border-collapse: collapse;">State Manager</th>
+               <th style="border: 1px solid black; border-collapse: collapse;">Barrels Allocated in Previous Time Interval</th>
+               <th style="border: 1px solid black; border-collapse: collapse;">Barrels Used in Previous Time Interval</th>
+               <th style="border: 1px solid black; border-collapse: collapse;">Barrels Lost</th>
+            </tr>
+        	<apex:repeat var="wrapper" value="{!WriteOffAllocationWrapper}">
+				<tr>
+                    <td style="border: 1px solid black; border-collapse: collapse;">{!wrapper.brandName}</td>
+                    <td style="border: 1px solid black; border-collapse: collapse;">{!wrapper.programType}</td>
+                    <td style="border: 1px solid black; border-collapse: collapse;">{!wrapper.allocYear}</td>
+                    <td style="border: 1px solid black; border-collapse: collapse;">{!wrapper.allocTimeInterval}</td>
+                    <td style="border: 1px solid black; border-collapse: collapse;">{!wrapper.country}</td>
+                    <td style="border: 1px solid black; border-collapse: collapse;">{!wrapper.region}</td>
+                    <td style="border: 1px solid black; border-collapse: collapse;">{!wrapper.state}</td>
+                    <td style="border: 1px solid black; border-collapse: collapse;">{!wrapper.distributor}</td>
+                    <td style="border: 1px solid black; border-collapse: collapse;">{!wrapper.stateManager}</td>
+                    <td style="border: 1px solid black; border-collapse: collapse;">{!wrapper.oldAllocation}</td>
+                    <td style="border: 1px solid black; border-collapse: collapse;">{!wrapper.userAllocation}</td>
+                    <td style="border: 1px solid black; border-collapse: collapse;">{!wrapper.remainingAlloc}</td>
+                </tr>
+       		</apex:repeat>
+                           
+          </table>
+    
+ 
+</apex:component>

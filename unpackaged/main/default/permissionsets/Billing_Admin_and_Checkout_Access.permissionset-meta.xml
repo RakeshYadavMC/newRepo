@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Permission Set that allows users to access salesforce checkout</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Billing Admin and Checkout Access</label>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewRoles</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewSetup</name>
+    </userPermissions>
+</PermissionSet>

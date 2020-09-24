@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Current Risk Rating --></label>
+        <name>Current_Risk_Rating__c</name>
+        <picklistValues>
+            <masterLabel>YFX</masterLabel>
+            <translation><!-- YFX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>YHG</masterLabel>
+            <translation><!-- YHG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>YLW</masterLabel>
+            <translation><!-- YLW --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>YMD</masterLabel>
+            <translation><!-- YMD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>YNW</masterLabel>
+            <translation><!-- YNW --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>YOU</masterLabel>
+            <translation><!-- YOU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>YWT</masterLabel>
+            <translation><!-- YWT --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

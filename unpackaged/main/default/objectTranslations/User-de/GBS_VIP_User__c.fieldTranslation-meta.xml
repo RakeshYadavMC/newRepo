@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>"Feld identifiziert Benutzer als VIP für die GBS-Community. Wenn dieses Feld aktiviert ist, können Benutzer Kategorien anzeigen, die der Benutzer sonst nicht sehen könnte. Ferner kann dieses Feld zu engeren SLAs führen."</help>
+        <label><!-- GBS VIP User --></label>
+        <name>GBS_VIP_User__c</name>
+        <picklistValues>
+            <masterLabel>VIP</masterLabel>
+            <translation><!-- VIP --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

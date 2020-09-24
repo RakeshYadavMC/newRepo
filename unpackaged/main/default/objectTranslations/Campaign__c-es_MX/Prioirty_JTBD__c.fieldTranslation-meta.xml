@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Priority (JTBD) --></label>
+        <name>Prioirty_JTBD__c</name>
+        <picklistValues>
+            <masterLabel>Create consumer brand awareness via trial with Auchentoshan cocktails</masterLabel>
+            <translation><!-- Create consumer brand awareness via trial with Auchentoshan cocktails --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deliver unique, engaging programming and premium advertising to drive consumer awareness and recruit new consumers</masterLabel>
+            <translation><!-- Deliver unique, engaging programming and premium advertising to drive consumer awareness and recruit new consumers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Drive BH’s brand equity through targeted BTL-led investment that encourages discovery of the brand</masterLabel>
+            <translation><!-- Drive BH’s brand equity through targeted BTL-led investment that encourages discovery of the brand --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Drive M46 Purchase Intent with Woodford drinkers</masterLabel>
+            <translation><!-- Drive M46 Purchase Intent with Woodford drinkers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Drive Rye and LTO's</masterLabel>
+            <translation><!-- Drive Rye and LTO&apos;s --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Drive brand advocacy among key bartenders via meaningful experiences</masterLabel>
+            <translation><!-- Drive brand advocacy among key bartenders via meaningful experiences --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Drive brand advocacy by leveraging Simon and the POPs to bring Laphroaig to life for Friends old and new</masterLabel>
+            <translation><!-- Drive brand advocacy by leveraging Simon and the POPs to bring Laphroaig to life for Friends old and new --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Drive consumer trial through building trade advocacy:Make BH top of mind to influencers &amp; bartenders as the perfect sipping whiskey</masterLabel>
+            <translation><!-- Drive consumer trial through building trade advocacy:Make BH top of mind to influencers &amp; bartenders as the perfect sipping whiskey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Drive distribution and trial of unflavored</masterLabel>
+            <translation><!-- Drive distribution and trial of unflavored --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Drive quality across every touchpoint for both consumers and trade to elevate Hornitos and differentiate from Sauza</masterLabel>
+            <translation><!-- Drive quality across every touchpoint for both consumers and trade to elevate Hornitos and differentiate from Sauza --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fuel local discovery</masterLabel>
+            <translation><!-- Fuel local discovery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GET LDA Millennial guys who are just starting their whiskey journey TO become regular drinkers of Jim Beam White BY making the brand relevant via premium quality credentials</masterLabel>
+            <translation><!-- GET LDA Millennial guys who are just starting their whiskey journey TO become regular drinkers of Jim Beam White BY making the brand relevant via premium quality credentials --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GET current JBW users TO trade up and continue to buy Jim Beam during their bourbon exploration BY introducing them to new premium expressions of Jim Beam</masterLabel>
+            <translation><!-- GET current JBW users TO trade up and continue to buy Jim Beam during their bourbon exploration BY introducing them to new premium expressions of Jim Beam --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GET non-Jim Beam consumers open to flavored whiskey TO try Jim Beam flavors portfolio BY tapping into new drinking occasions (refreshments, shots)</masterLabel>
+            <translation><!-- GET non-Jim Beam consumers open to flavored whiskey TO try Jim Beam flavors portfolio BY tapping into new drinking occasions (refreshments, shots) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Get Distribution in the Right Accounts - Leverage expanded size offerings for increased distribution in target accounts</masterLabel>
+            <translation><!-- Get Distribution in the Right Accounts - Leverage expanded size offerings for increased distribution in target accounts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hold floor and shelf space and gain menu placements with recipes and cross-merch educational tools for top-10 flavors</masterLabel>
+            <translation><!-- Hold floor and shelf space and gain menu placements with recipes and cross-merch educational tools for top-10 flavors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Increase Awareness - Utilize Focus Market Takeovers and Targeted/Experiential Media to reinforce EFFEN as the super premium vodka that doesn’t just follow the status quo</masterLabel>
+            <translation><!-- Increase Awareness - Utilize Focus Market Takeovers and Targeted/Experiential Media to reinforce EFFEN as the super premium vodka that doesn’t just follow the status quo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Increase perceived value of CC</masterLabel>
+            <translation><!-- Increase perceived value of CC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Increase trial &amp; velocity of Priority Flavors and Whipped, to warrant further distribution</masterLabel>
+            <translation><!-- Increase trial &amp; velocity of Priority Flavors and Whipped, to warrant further distribution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intercept consumers in their whiskey journey</masterLabel>
+            <translation><!-- Intercept consumers in their whiskey journey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Introduce Single Barrel Program during key gifting timeframe and educate bartenders on premium Rum Story</masterLabel>
+            <translation><!-- Introduce Single Barrel Program during key gifting timeframe and educate bartenders on premium Rum Story --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Motivate multicultural millennial consumers to buy Courvoisier instead of Hennessy or Remy Martin</masterLabel>
+            <translation><!-- Motivate multicultural millennial consumers to buy Courvoisier instead of Hennessy or Remy Martin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Premiumize EFFEN - Increase presence in high-end accounts</masterLabel>
+            <translation><!-- Premiumize EFFEN - Increase presence in high-end accounts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recruit New Loyalists</masterLabel>
+            <translation><!-- Recruit New Loyalists --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recruit new consumers with POP events Laphroaig Select and by expanding the Scotch occasion w/ Penicillin</masterLabel>
+            <translation><!-- Recruit new consumers with POP events Laphroaig Select and by expanding the Scotch occasion w/ Penicillin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Remind multicultural consumers of Courvoisier’s luxury credentials</masterLabel>
+            <translation><!-- Remind multicultural consumers of Courvoisier’s luxury credentials --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Restore Maker's Mark Brand Relevance in US</masterLabel>
+            <translation><!-- Restore Maker&apos;s Mark Brand Relevance in US --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Share the KC "Big Flavor" story</masterLabel>
+            <translation><!-- Share the KC &quot;Big Flavor&quot; story --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Win at point of purchase</masterLabel>
+            <translation><!-- Win at point of purchase --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Win at shelf floor and on menu and drive infinity with Cruzan Bucket list program</masterLabel>
+            <translation><!-- Win at shelf floor and on menu and drive infinity with Cruzan Bucket list program --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Win share of Cinco &amp; Summer Refreshment stock-up by providing additional in-market tools for increased visibility with displays and menus</masterLabel>
+            <translation><!-- Win share of Cinco &amp; Summer Refreshment stock-up by providing additional in-market tools for increased visibility with displays and menus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Win share of Summer Refreshment stock up by providing additional in market tools for increased visibility with displays and menus and sampling</masterLabel>
+            <translation><!-- Win share of Summer Refreshment stock up by providing additional in market tools for increased visibility with displays and menus and sampling --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

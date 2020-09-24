@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>AAFES</masterLabel>
+        <translation><!-- AAFES --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Addition to Delivery</masterLabel>
+        <translation><!-- Addition to Delivery --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Adhoc</masterLabel>
+        <translation><!-- Adhoc --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Allocation</masterLabel>
+        <translation><!-- Allocation --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Barrel</masterLabel>
+        <translation><!-- Barrel --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Barrel Program</masterLabel>
+        <translation><!-- Barrel Program --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Barrel Ready to Enter</masterLabel>
+        <translation><!-- Barrel Ready to Enter --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Barrel SKU on Multiple Line PO</masterLabel>
+        <translation><!-- Barrel SKU on Multiple Line PO --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Barrel Status</masterLabel>
+        <translation><!-- Barrel Status --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Batch Process</masterLabel>
+        <translation><!-- Batch Process --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Bottle</masterLabel>
+        <translation><!-- Bottle --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Brand Registration</masterLabel>
+        <translation><!-- Brand Registration --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Bulk</masterLabel>
+        <translation><!-- Bulk --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CD - Effective Date</masterLabel>
+        <translation><!-- CD - Effective Date --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CD - Incorrect Entry</masterLabel>
+        <translation><!-- CD - Incorrect Entry --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CD - New Item Set Up</masterLabel>
+        <translation><!-- CD - New Item Set Up --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CD - Obsolete SKU</masterLabel>
+        <translation><!-- CD - Obsolete SKU --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CD - Spec Update</masterLabel>
+        <translation><!-- CD - Spec Update --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CMIR</masterLabel>
+        <translation><!-- CMIR --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CMIR Update</masterLabel>
+        <translation><!-- CMIR Update --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Can</masterLabel>
+        <translation><!-- Can --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Carrier</masterLabel>
+        <translation><!-- Carrier --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Carrier Change</masterLabel>
+        <translation><!-- Carrier Change --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Claims</masterLabel>
+        <translation>Demandas</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Coastguard</masterLabel>
+        <translation><!-- Coastguard --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Compliance Claim</masterLabel>
+        <translation><!-- Compliance Claim --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Compliance Coordinator</masterLabel>
+        <translation><!-- Compliance Coordinator --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Consumer Reference</masterLabel>
+        <translation><!-- Consumer Reference --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Credit and Collections</masterLabel>
+        <translation>Crédito y Cobranza</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Customer Change</masterLabel>
+        <translation><!-- Customer Change --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cut at Door</masterLabel>
+        <translation><!-- Cut at Door --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DI SKU Setup</masterLabel>
+        <translation><!-- DI SKU Setup --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Damage Claim</masterLabel>
+        <translation><!-- Damage Claim --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Distiller&apos;s Choice</masterLabel>
+        <translation><!-- Distiller&apos;s Choice --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Document Request</masterLabel>
+        <translation>Solicitud de documento</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Earthy/Moldy/Musty</masterLabel>
+        <translation><!-- Earthy/Moldy/Musty --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Esker Transmission Error</masterLabel>
+        <translation><!-- Esker Transmission Error --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Existing Order Inquiry</masterLabel>
+        <translation><!-- Existing Order Inquiry --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Expedite Request</masterLabel>
+        <translation><!-- Expedite Request --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FACT</masterLabel>
+        <translation><!-- FACT --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Feature Request</masterLabel>
+        <translation><!-- Feature Request --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Global Master Data Management</masterLabel>
+        <translation>Gestión Global de Datos Maestros</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Human Resources</masterLabel>
+        <translation>Recursos Humanos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IBM</masterLabel>
+        <translation><!-- IBM --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Incorrect Material Number Used</masterLabel>
+        <translation><!-- Incorrect Material Number Used --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Incorrect SCC Submitted</masterLabel>
+        <translation><!-- Incorrect SCC Submitted --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Innovation-Line Extension</masterLabel>
+        <translation><!-- Innovation-Line Extension --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Innovation-New Brand</masterLabel>
+        <translation><!-- Innovation-New Brand --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Internal Change</masterLabel>
+        <translation><!-- Internal Change --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Item Availability / Allocation</masterLabel>
+        <translation><!-- Item Availability / Allocation --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>K07 Smoothing Orders</masterLabel>
+        <translation><!-- K07 Smoothing Orders --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KNC Bottling Update</masterLabel>
+        <translation><!-- KNC Bottling Update --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Kick Off</masterLabel>
+        <translation><!-- Kick Off --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Label Revision-New COLA</masterLabel>
+        <translation><!-- Label Revision-New COLA --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Labels</masterLabel>
+        <translation><!-- Labels --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Labels/POS</masterLabel>
+        <translation><!-- Labels/POS --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Liquid</masterLabel>
+        <translation><!-- Liquid --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MIGO</masterLabel>
+        <translation><!-- MIGO --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Marines</masterLabel>
+        <translation><!-- Marines --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Market Alert</masterLabel>
+        <translation><!-- Market Alert --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Marketing Compliance</masterLabel>
+        <translation><!-- Marketing Compliance --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mis-Shipment Claim</masterLabel>
+        <translation><!-- Mis-Shipment Claim --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Miscellaneous Posting Information</masterLabel>
+        <translation><!-- Miscellaneous Posting Information --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Missing POs</masterLabel>
+        <translation><!-- Missing POs --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mixed Case</masterLabel>
+        <translation><!-- Mixed Case --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Monthly Price Posting</masterLabel>
+        <translation><!-- Monthly Price Posting --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>N/A</masterLabel>
+        <translation><!-- N/A --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Navy</masterLabel>
+        <translation><!-- Navy --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>New Proof – New COLA</masterLabel>
+        <translation><!-- New Proof – New COLA --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>New Proof – No New COLA</masterLabel>
+        <translation><!-- New Proof – No New COLA --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>New User Request</masterLabel>
+        <translation><!-- New User Request --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Newsletter</masterLabel>
+        <translation><!-- Newsletter --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>No issue</masterLabel>
+        <translation><!-- No issue --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Not a Beam Suntory Product</masterLabel>
+        <translation><!-- Not a Beam Suntory Product --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Obsolete Item</masterLabel>
+        <translation><!-- Obsolete Item --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Off Set</masterLabel>
+        <translation><!-- Off Set --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Order Cancelation</masterLabel>
+        <translation><!-- Order Cancelation --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Order Entry Error</masterLabel>
+        <translation><!-- Order Entry Error --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Order Smoothed</masterLabel>
+        <translation><!-- Order Smoothed --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Order Status</masterLabel>
+        <translation><!-- Order Status --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Other Inquiry</masterLabel>
+        <translation><!-- Other Inquiry --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Outage</masterLabel>
+        <translation><!-- Outage --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Overage Claim</masterLabel>
+        <translation><!-- Overage Claim --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PGI</masterLabel>
+        <translation><!-- PGI --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Packaging</masterLabel>
+        <translation><!-- Packaging --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Payroll</masterLabel>
+        <translation>Nómina</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Plant Request</masterLabel>
+        <translation><!-- Plant Request --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Portal User Set Up</masterLabel>
+        <translation><!-- Portal User Set Up --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pricing</masterLabel>
+        <translation><!-- Pricing --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pricing Question</masterLabel>
+        <translation><!-- Pricing Question --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Problem</masterLabel>
+        <translation><!-- Problem --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Procure to Pay / Accounts Payable</masterLabel>
+        <translation>Proceso de Compras / Compras / Cuentas por Pagar</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Product Availability</masterLabel>
+        <translation><!-- Product Availability --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Product Design</masterLabel>
+        <translation><!-- Product Design --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Product Specification</masterLabel>
+        <translation><!-- Product Specification --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Production Date</masterLabel>
+        <translation><!-- Production Date --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Quality Claim</masterLabel>
+        <translation><!-- Quality Claim --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Quarterly Price Filing</masterLabel>
+        <translation><!-- Quarterly Price Filing --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Question</masterLabel>
+        <translation><!-- Question --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Recent Recipes</masterLabel>
+        <translation><!-- Recent Recipes --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Record to Report</masterLabel>
+        <translation>Contabilidad</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Remote Selection</masterLabel>
+        <translation><!-- Remote Selection --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Remove Item from Delivery</masterLabel>
+        <translation><!-- Remove Item from Delivery --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Report Request</masterLabel>
+        <translation><!-- Report Request --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Reports</masterLabel>
+        <translation><!-- Reports --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Requisition</masterLabel>
+        <translation><!-- Requisition --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SHD Quality  Incident</masterLabel>
+        <translation><!-- SHD Quality  Incident --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SHD Serious Quality Incident</masterLabel>
+        <translation><!-- SHD Serious Quality Incident --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SKU Sub</masterLabel>
+        <translation><!-- SKU Sub --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sample</masterLabel>
+        <translation><!-- Sample --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sample Kit</masterLabel>
+        <translation><!-- Sample Kit --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Shipping Location</masterLabel>
+        <translation><!-- Shipping Location --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Shipping Requirements</masterLabel>
+        <translation><!-- Shipping Requirements --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Shortage Claim</masterLabel>
+        <translation><!-- Shortage Claim --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Size Extension-NO New COLA</masterLabel>
+        <translation><!-- Size Extension-NO New COLA --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Size Extension-New COLA</masterLabel>
+        <translation><!-- Size Extension-New COLA --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Spec Change</masterLabel>
+        <translation><!-- Spec Change --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Split Barrel</masterLabel>
+        <translation><!-- Split Barrel --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Standard</masterLabel>
+        <translation><!-- Standard --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>State / NABCA Codes</masterLabel>
+        <translation><!-- State / NABCA Codes --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>State Code Claim</masterLabel>
+        <translation><!-- State Code Claim --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>State Contact</masterLabel>
+        <translation><!-- State Contact --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>State Manager</masterLabel>
+        <translation><!-- State Manager --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Task Request</masterLabel>
+        <translation><!-- Task Request --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Tastes Different</masterLabel>
+        <translation><!-- Tastes Different --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Tax</masterLabel>
+        <translation>Impuesto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Too Harsh</masterLabel>
+        <translation><!-- Too Harsh --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Too Peaty</masterLabel>
+        <translation><!-- Too Peaty --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Too Sweet</masterLabel>
+        <translation><!-- Too Sweet --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Too Watery</masterLabel>
+        <translation><!-- Too Watery --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Tracking Number Request</masterLabel>
+        <translation><!-- Tracking Number Request --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Traffic Request</masterLabel>
+        <translation><!-- Traffic Request --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Training/Onboarding</masterLabel>
+        <translation><!-- Training/Onboarding --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Travel &amp; Entertainment</masterLabel>
+        <translation>Viajes y Entretenieminto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Traypack Audit</masterLabel>
+        <translation><!-- Traypack Audit --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Trip and Tour</masterLabel>
+        <translation><!-- Trip and Tour --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Truck at Door</masterLabel>
+        <translation><!-- Truck at Door --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UPC, Bottle Shot, Label, Etc.</masterLabel>
+        <translation><!-- UPC, Bottle Shot, Label, Etc. --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Used Barrels</masterLabel>
+        <translation><!-- Used Barrels --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VAP</masterLabel>
+        <translation><!-- VAP --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VAP/LTO Allocation</masterLabel>
+        <translation><!-- VAP/LTO Allocation --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VAP/On-Pack</masterLabel>
+        <translation><!-- VAP/On-Pack --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Wrong Plant</masterLabel>
+        <translation><!-- Wrong Plant --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZV240</masterLabel>
+        <translation><!-- ZV240 --></translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

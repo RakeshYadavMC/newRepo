@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Program Types --></label>
+        <name>Program_Types__c</name>
+        <picklistValues>
+            <masterLabel>Distiller's Choice</masterLabel>
+            <translation><!-- Distiller&apos;s Choice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sample Kit</masterLabel>
+            <translation><!-- Sample Kit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sample Kit;Distiller's Choice</masterLabel>
+            <translation><!-- Sample Kit;Distiller&apos;s Choice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sample Kit;Trip and Tour;Distiller's Choice</masterLabel>
+            <translation><!-- Sample Kit;Trip and Tour;Distiller&apos;s Choice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sample Kit;Trip and Tour;Distiller's Choice;Split Barrel</masterLabel>
+            <translation><!-- Sample Kit;Trip and Tour;Distiller&apos;s Choice;Split Barrel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trip and Tour</masterLabel>
+            <translation><!-- Trip and Tour --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trip and Tour;Distiller's Choice</masterLabel>
+            <translation><!-- Trip and Tour;Distiller&apos;s Choice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trip and Tour;Remote Selection</masterLabel>
+            <translation><!-- Trip and Tour;Remote Selection --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trip and Tour;Remote Selection;Recent Recipes</masterLabel>
+            <translation><!-- Trip and Tour;Remote Selection;Recent Recipes --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

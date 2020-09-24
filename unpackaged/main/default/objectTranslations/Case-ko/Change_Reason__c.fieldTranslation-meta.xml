@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Change Reason --></label>
+        <name>Change_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Improperly Invoiced - Invalid Price</masterLabel>
+            <translation><!-- Improperly Invoiced - Invalid Price --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Improperly Invoiced - Wrong Price</masterLabel>
+            <translation><!-- Improperly Invoiced - Wrong Price --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pricing Disagreement</masterLabel>
+            <translation><!-- Pricing Disagreement --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

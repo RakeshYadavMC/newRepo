@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Programs --></label>
+        <name>Program__c</name>
+        <picklistValues>
+            <masterLabel>AU - Trial Platfm - ATL</masterLabel>
+            <translation><!-- AU - Trial Platfm - ATL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AU Instore - BTL</masterLabel>
+            <translation><!-- AU Instore - BTL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BW PMOD - BTL</masterLabel>
+            <translation><!-- BW PMOD - BTL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CC  NPD - ATL</masterLabel>
+            <translation><!-- CC  NPD - ATL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CC  NPD - BTL</masterLabel>
+            <translation><!-- CC  NPD - BTL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CC - FBS -  BTL</masterLabel>
+            <translation><!-- CC - FBS -  BTL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CC Agency - ATL - FBS</masterLabel>
+            <translation><!-- CC Agency - ATL - FBS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CC Agency - ATL _RTD</masterLabel>
+            <translation><!-- CC Agency - ATL _RTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CC Agency - BTL - FBS</masterLabel>
+            <translation><!-- CC Agency - BTL - FBS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CC Agency - BTL - RTD</masterLabel>
+            <translation><!-- CC Agency - BTL - RTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CC CC Winter - ATL</masterLabel>
+            <translation><!-- CC CC Winter - ATL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CC CC Winter - BTL</masterLabel>
+            <translation><!-- CC CC Winter - BTL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CC Draught - ATL</masterLabel>
+            <translation><!-- CC Draught - ATL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CC Draught - BTL</masterLabel>
+            <translation><!-- CC Draught - BTL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CC Media -  ATL</masterLabel>
+            <translation><!-- CC Media -  ATL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CC Media -  BTL</masterLabel>
+            <translation><!-- CC Media -  BTL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CC Misc - BTL</masterLabel>
+            <translation><!-- CC Misc - BTL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CC Pack center - BTL - FBS</masterLabel>
+            <translation><!-- CC Pack center - BTL - FBS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CC Packcenter - BTL - RTD</masterLabel>
+            <translation><!-- CC Packcenter - BTL - RTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CC Research - ATL</masterLabel>
+            <translation><!-- CC Research - ATL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CC Research - BTL</masterLabel>
+            <translation><!-- CC Research - BTL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CC Summer -  ATL</masterLabel>
+            <translation><!-- CC Summer -  ATL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CC Summer -  BTL</masterLabel>
+            <translation><!-- CC Summer -  BTL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CC The Blend -  BTL</masterLabel>
+            <translation><!-- CC The Blend -  BTL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CC Trial -  ATL</masterLabel>
+            <translation><!-- CC Trial -  ATL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CC Visibilty - BTL</masterLabel>
+            <translation><!-- CC Visibilty - BTL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JB AFL - ATL - FBS</masterLabel>
+            <translation><!-- JB AFL - ATL - FBS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JB AFL - ATL - RTD</masterLabel>
+            <translation><!-- JB AFL - ATL - RTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JB AFL - BTL - FBS</masterLabel>
+            <translation><!-- JB AFL - BTL - FBS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JB AFL - BTL - RTD</masterLabel>
+            <translation><!-- JB AFL - BTL - RTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JB Activation Kits - BTL</masterLabel>
+            <translation><!-- JB Activation Kits - BTL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JB Advocacy OP - ATL - FBS</masterLabel>
+            <translation><!-- JB Advocacy OP - ATL - FBS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JB Advocacy OP - ATL - RTD</masterLabel>
+            <translation><!-- JB Advocacy OP - ATL - RTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JB Advocacy OP - BTL - FBS</masterLabel>
+            <translation><!-- JB Advocacy OP - BTL - FBS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JB Advocacy OP - BTL - RTD</masterLabel>
+            <translation><!-- JB Advocacy OP - BTL - RTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JB Agency -ATL</masterLabel>
+            <translation><!-- JB Agency -ATL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JB Black Focus - ATL - RTD</masterLabel>
+            <translation><!-- JB Black Focus - ATL - RTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JB Black Focus - BTL</masterLabel>
+            <translation><!-- JB Black Focus - BTL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JB Black Focus - BTL - RTD</masterLabel>
+            <translation><!-- JB Black Focus - BTL - RTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JB Black Focus -ATL</masterLabel>
+            <translation><!-- JB Black Focus -ATL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JB Gifting - BTL</masterLabel>
+            <translation><!-- JB Gifting - BTL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JB High ABV - BTL</masterLabel>
+            <translation><!-- JB High ABV - BTL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JB Highball - BTL</masterLabel>
+            <translation><!-- JB Highball - BTL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JB Make Hist - ATL - RTD</masterLabel>
+            <translation><!-- JB Make Hist - ATL - RTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JB Make Hist - ATL -FBS</masterLabel>
+            <translation><!-- JB Make Hist - ATL -FBS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JB Make Hist - BTL - FBS</masterLabel>
+            <translation><!-- JB Make Hist - BTL - FBS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JB Make Hist - BTL - RTD</masterLabel>
+            <translation><!-- JB Make Hist - BTL - RTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JB Misc - ATL</masterLabel>
+            <translation><!-- JB Misc - ATL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JB NPD - ATL</masterLabel>
+            <translation><!-- JB NPD - ATL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JB Pendulum -BTL - FBS</masterLabel>
+            <translation><!-- JB Pendulum -BTL - FBS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JB Pendulum -BTL - RTD</masterLabel>
+            <translation><!-- JB Pendulum -BTL - RTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JB Research - ATL</masterLabel>
+            <translation><!-- JB Research - ATL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JB Research - BTL</masterLabel>
+            <translation><!-- JB Research - BTL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JB Sum On Pack - ATL</masterLabel>
+            <translation><!-- JB Sum On Pack - ATL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JB Sum On Pack - BTL</masterLabel>
+            <translation><!-- JB Sum On Pack - BTL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JB TM - BTL</masterLabel>
+            <translation><!-- JB TM - BTL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JB The Blend - BTL</masterLabel>
+            <translation><!-- JB The Blend - BTL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LA Focus - BTL</masterLabel>
+            <translation><!-- LA Focus - BTL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LA Other - BTL</masterLabel>
+            <translation><!-- LA Other - BTL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LA PMOD - BTL</masterLabel>
+            <translation><!-- LA PMOD - BTL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MI - Q1 Focus - BTL</masterLabel>
+            <translation><!-- MI - Q1 Focus - BTL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MI - Q4 Focus - BTL</masterLabel>
+            <translation><!-- MI - Q4 Focus - BTL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MI Pendulum/Other - BTL</masterLabel>
+            <translation><!-- MI Pendulum/Other - BTL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MM Bartender Eng - BTL</masterLabel>
+            <translation><!-- MM Bartender Eng - BTL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MM Brand Exp - ATL</masterLabel>
+            <translation><!-- MM Brand Exp - ATL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MM May Focus Period - BTL</masterLabel>
+            <translation><!-- MM May Focus Period - BTL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MM Media -  ATL</masterLabel>
+            <translation><!-- MM Media -  ATL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MM Nov Focus Period - BTL</masterLabel>
+            <translation><!-- MM Nov Focus Period - BTL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MM Other -  ATL</masterLabel>
+            <translation><!-- MM Other -  ATL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MM Packcenter - BTL</masterLabel>
+            <translation><!-- MM Packcenter - BTL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MM Research - ATL</masterLabel>
+            <translation><!-- MM Research - ATL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MM Research - BTL</masterLabel>
+            <translation><!-- MM Research - BTL --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

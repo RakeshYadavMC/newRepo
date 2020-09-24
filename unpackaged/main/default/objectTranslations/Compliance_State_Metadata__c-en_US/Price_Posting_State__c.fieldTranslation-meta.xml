@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Indicates that this state&apos;s posting date must be entered manually --></help>
+        <label><!-- Price Posting State --></label>
+        <name>Price_Posting_State__c</name>
+    </CustomFieldTranslation>

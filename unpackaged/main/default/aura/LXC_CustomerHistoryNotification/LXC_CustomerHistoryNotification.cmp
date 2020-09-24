@@ -1,0 +1,21 @@
+<aura:component implements="force:hasRecordId,flexipage:availableForRecordHome" access="global" controller="CNT_CustomerHistory">
+    <!-- Attributes -->
+    <aura:attribute name="caseRecord" type="Object" />
+    <aura:attribute name="warningMessage" type="String" />
+    
+    <!-- Accessing current case -->
+    <force:recordData
+        aura:id="recordLoader"
+        recordId="{!v.recordId}"
+        fields="Contact.Email, Contact.MailingCountry, Contact.MailingStreet, Contact.MailingPostalCode, Contact.MailingCity, Contact.MailingState, CreatedDate"
+        targetFields="{!v.caseRecord}"
+        recordUpdated="{!c.handleRecordUpdated}"
+    />
+    
+    <!-- Displaying warning message -->
+    <aura:if isTrue="{!v.warningMessage}">
+        <div class="slds-box slds-theme--warning" style="font-size:16px;text-align:center;">
+            <p>{!v.warningMessage}</p>
+        </div>
+    </aura:if>
+</aura:component>

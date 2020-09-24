@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HomePageComponent xmlns="http://soap.sforce.com/2006/04/metadata">
+    <body>All features of sales360 are now live on Salesforce.com. Please reach out to &lt;a href=&quot;mailto:sales360@beamsuntory.com&quot;&gt;sales360@beamsuntory.com&lt;/a&gt; with any questions.</body>
+    <pageComponentType>htmlArea</pageComponentType>
+    <width>narrow</width>
+</HomePageComponent>

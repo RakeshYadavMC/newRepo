@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Correct Invoice Reason --></label>
+        <name>Correct_Invoice_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Freight</masterLabel>
+            <translation>Fracht</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Andere</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner Function (Internal Only)</masterLabel>
+            <translation>Partnerfunktion (nur intern)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pricing</masterLabel>
+            <translation>Preisgestaltung</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Charge</masterLabel>
+            <translation>Servicegebühr</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tax</masterLabel>
+            <translation>MwSt</translation>
+        </picklistValues>
+    </CustomFieldTranslation>

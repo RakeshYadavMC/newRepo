@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>1차 카테고리</label>
+        <name>Category_1__c</name>
+        <picklistValues>
+            <masterLabel>Adjustments</masterLabel>
+            <translation>수정</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Attract, recruit or onboard</masterLabel>
+            <translation><!-- Attract, recruit or onboard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Audit request</masterLabel>
+            <translation>감사 요청</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bailment</masterLabel>
+            <translation><!-- Bailment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bailment Inventory</masterLabel>
+            <translation><!-- Bailment Inventory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bailment request</masterLabel>
+            <translation>위탁 요청</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Benefits</masterLabel>
+            <translation><!-- Benefits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canada Commissions</masterLabel>
+            <translation><!-- Canada Commissions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canada Inquiries</masterLabel>
+            <translation><!-- Canada Inquiries --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canada TPM</masterLabel>
+            <translation><!-- Canada TPM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancellation</masterLabel>
+            <translation><!-- Cancellation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cannot Print Invoice</masterLabel>
+            <translation><!-- Cannot Print Invoice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chart of Accounts &amp; Mapping</masterLabel>
+            <translation><!-- Chart of Accounts &amp; Mapping --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Claim status</masterLabel>
+            <translation>청구 상태</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Claim submission</masterLabel>
+            <translation>청구 제출</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Compensation Requests</masterLabel>
+            <translation><!-- Compensation Requests --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Concur Profile Request</masterLabel>
+            <translation><!-- Concur Profile Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Concur profile inquiries</masterLabel>
+            <translation>Concur 프로필 문의</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corporate Card Status</masterLabel>
+            <translation><!-- Corporate Card Status --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corporate credit card inquiries</masterLabel>
+            <translation>법인 신용 카드 문의</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corporate/bankers guarantee letter request</masterLabel>
+            <translation>은행원은 요청서를 보장합니다</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Correct Invoice</masterLabel>
+            <translation><!-- Correct Invoice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit Approval</masterLabel>
+            <translation><!-- Credit Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit limit/payment terms change</masterLabel>
+            <translation>신용 제한/결제 기간 변경</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer</masterLabel>
+            <translation><!-- Customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D2D Transfer</masterLabel>
+            <translation>D2D 전송</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Direct debits</masterLabel>
+            <translation>자동 이체</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Document Request</masterLabel>
+            <translation>문서 요청</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Document/Report Request</masterLabel>
+            <translation>문서/보고 요청</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EDI</masterLabel>
+            <translation><!-- EDI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EDICOM Support</masterLabel>
+            <translation>EDICOM 지원</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee Administration</masterLabel>
+            <translation><!-- Employee Administration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee Inquiries</masterLabel>
+            <translation><!-- Employee Inquiries --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee Requests</masterLabel>
+            <translation>직원 요청</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee requests (U.S./Canada)</masterLabel>
+            <translation>직원 요청(미국/캐나다)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee separation</masterLabel>
+            <translation><!-- Employee separation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Engagement</masterLabel>
+            <translation><!-- Engagement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Excise tax inquiries</masterLabel>
+            <translation>소비세 문의</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Executive requests</masterLabel>
+            <translation><!-- Executive requests --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial Invoice Request</masterLabel>
+            <translation>재무 인보이스 요청</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial data new/change request</masterLabel>
+            <translation>재무 데이터 신규/변경 요청</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fixed Assets</masterLabel>
+            <translation><!-- Fixed Assets --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fixed asset request</masterLabel>
+            <translation>고정 자산 요청</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GMDM Other</masterLabel>
+            <translation><!-- GMDM Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global Mobility</masterLabel>
+            <translation><!-- Global Mobility --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR Information Requests</masterLabel>
+            <translation><!-- HR Information Requests --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR/Total Rewards Correspondence</masterLabel>
+            <translation><!-- HR/Total Rewards Correspondence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HRIS, information or report requests</masterLabel>
+            <translation><!-- HRIS, information or report requests --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Health Benefits</masterLabel>
+            <translation><!-- Health Benefits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Human Resources</masterLabel>
+            <translation><!-- Human Resources --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IRPF inquiries</masterLabel>
+            <translation>IRPF 문의</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Immigration</masterLabel>
+            <translation><!-- Immigration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Informational</masterLabel>
+            <translation><!-- Informational --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice Request</masterLabel>
+            <translation>인보이스 요청</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice Status</masterLabel>
+            <translation>인보이스 상태</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice Submission</masterLabel>
+            <translation><!-- Invoice Submission --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice inquiries</masterLabel>
+            <translation>인보이스 문의</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice/Payment status</masterLabel>
+            <translation>인보이스/결제 상태</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Journal Entry</masterLabel>
+            <translation><!-- Journal Entry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Journal entry request</masterLabel>
+            <translation>일지 항목 요청</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leases</masterLabel>
+            <translation><!-- Leases --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manage employee changes</masterLabel>
+            <translation><!-- Manage employee changes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manual Invoice Request</masterLabel>
+            <translation><!-- Manual Invoice Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Materials</masterLabel>
+            <translation><!-- Materials --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC Billing</masterLabel>
+            <translation><!-- NC Billing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Notification Only</masterLabel>
+            <translation><!-- Notification Only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open Enrollment</masterLabel>
+            <translation><!-- Open Enrollment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Order release status</masterLabel>
+            <translation>주문 릴리즈 상태</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Employee Benefits</masterLabel>
+            <translation><!-- Other Employee Benefits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other billing request</masterLabel>
+            <translation>기타 청구 요청</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other claim requests</masterLabel>
+            <translation>기타 청구 요청</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other credit and collections inquiry</masterLabel>
+            <translation>기타 신용 및 추심 문의</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other payroll request</masterLabel>
+            <translation>기타 급여 요청</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other procure to pay inquiry</masterLabel>
+            <translation><!-- Other procure to pay inquiry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other procure to pay request</masterLabel>
+            <translation>기타 구매 요청</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other record to report request</masterLabel>
+            <translation>기타 보고 지원 요청</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other tax requests</masterLabel>
+            <translation>기타 세금 요청</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other travel &amp; entertainment request</masterLabel>
+            <translation>기타 여행 및 엔터테인먼트 요청</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PO Change</masterLabel>
+            <translation><!-- PO Change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PR / PO Inquiry</masterLabel>
+            <translation><!-- PR / PO Inquiry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner</masterLabel>
+            <translation>파트너</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment Request</masterLabel>
+            <translation><!-- Payment Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment inquiries</masterLabel>
+            <translation>결제 문의</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payroll GL Accounting</masterLabel>
+            <translation><!-- Payroll GL Accounting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payroll Information Request</masterLabel>
+            <translation><!-- Payroll Information Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Performance</masterLabel>
+            <translation><!-- Performance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Performance management &amp; development</masterLabel>
+            <translation><!-- Performance management &amp; development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pricing</masterLabel>
+            <translation><!-- Pricing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pricing Management</masterLabel>
+            <translation><!-- Pricing Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purchase order inquiries</masterLabel>
+            <translation>구매 주문 문의</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purchase requisition inquiries</masterLabel>
+            <translation>구매 요청 문의</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reimbursement Status</masterLabel>
+            <translation><!-- Reimbursement Status --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reimbursement inquiry</masterLabel>
+            <translation>환급 문의</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reimbursements</masterLabel>
+            <translation><!-- Reimbursements --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Relocation</masterLabel>
+            <translation><!-- Relocation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Remittance Detail</masterLabel>
+            <translation><!-- Remittance Detail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Remittance detail request</masterLabel>
+            <translation>송금 세부 정보 요청</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Report Request</masterLabel>
+            <translation>보고서 요청</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Request Corporate Card</masterLabel>
+            <translation><!-- Request Corporate Card --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Request for invoice correction</masterLabel>
+            <translation>인보이스 수정 요청</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resend Automatic Invoice</masterLabel>
+            <translation>자동 인보이스 재전송</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resend invoice/credit note</masterLabel>
+            <translation>인보이스 재전송/신용 기록</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retirement</masterLabel>
+            <translation><!-- Retirement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Severance</masterLabel>
+            <translation><!-- Severance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Special payment request</masterLabel>
+            <translation>특별 결제 요청</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Split payroll reports</masterLabel>
+            <translation>분할 급여 보고</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Statement of Account</masterLabel>
+            <translation>계좌 내역서</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stop Payment Request</masterLabel>
+            <translation><!-- Stop Payment Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stop/Block/Unblock payment</masterLabel>
+            <translation>결제 중단/차단/차단 해제</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submit a statement</masterLabel>
+            <translation>내역서 제출</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submit an invoice</masterLabel>
+            <translation>인보이스 제출</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TBO Adjustments</masterLabel>
+            <translation>TBO 수정</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Talent Acquisition</masterLabel>
+            <translation><!-- Talent Acquisition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uploading Campaign Codes</masterLabel>
+            <translation><!-- Uploading Campaign Codes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uploading IOs</masterLabel>
+            <translation><!-- Uploading IOs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VAT tax</masterLabel>
+            <translation>VAT 세금</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vendor</masterLabel>
+            <translation><!-- Vendor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vendor requests</masterLabel>
+            <translation>벤더 요청</translation>
+        </picklistValues>
+    </CustomFieldTranslation>

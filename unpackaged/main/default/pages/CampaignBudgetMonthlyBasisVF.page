@@ -1,0 +1,164 @@
+<apex:page standardController="Campaign__c" extensions="CampaignBudgetMonthlyBasisController" showHeader="false" sidebar="false">  
+    
+
+    
+    <apex:form id="formId">
+        <apex:pageblock >
+            <!-- <apex:pageBlockButtons location="top" >
+                <apex:outputPanel style="width: 2020px; height: 6320px;">
+                    <apex:commandbutton action="{!ShowPopup}" value="New" rerender="formId" status="status"/>    
+                </apex:outputPanel>
+            </apex:pageBlockButtons> -->
+            
+            <apex:pageblocksection id="TestPopup">
+                <apex:outputpanel rendered="{!DisplayMonthlyBudgetPopup}" styleclass="popupBackground">
+                    <apex:outputpanel rendered="{!DisplayMonthlyBudgetPopup}" styleclass="customPopup">                        
+                         
+                          <!-- <apex:pageBlockSection columns="1" rendered="{!IsInsertBudget}" title="Create a new Monthly Budget Campaign Spend">
+                                <apex:pageBlockSectionItem >
+                                    <apex:outputLabel value="Budget Month"/>
+                                    <apex:inputField value="{!objCampaignSpend.Budget_Month__c}"/> 
+                                </apex:pageBlockSectionItem>
+                                
+                                <apex:pageBlockSectionItem >
+                                    <apex:outputLabel value="Amount"/>
+                                    <apex:inputField value="{!objCampaignSpend.Amount__c}"/> 
+                                </apex:pageBlockSectionItem>    
+                            </apex:pageBlockSection> -->
+                            
+                            <apex:pageBlock title="Edit Monthly Budget Section" rendered="{!IsUpdateBudget}">
+                                <apex:pageMessages />
+                                <apex:pageblocksection id="ChildRecordPopup" columns="1">
+                                    
+                                    <apex:pageBlockSectionItem >
+                                        <apex:pageBlockTable value="{!campaignBudgetMonthList}" var="MonthRecords" style="font-family:Arial,Helvetica,sans-serif;">
+                                            <apex:column style="padding-left;text-align: left;">
+                                                <b> <apex:outputLabel value="Budget Month:" /> </b>
+                                                <apex:outputField value="{!MonthRecords.Budget_Month__c}"/>
+                                            </apex:column>
+                                            <apex:column >
+                                                <b> <apex:outputLabel value="Amount:"/> </b>
+                                                <apex:inputField value="{!MonthRecords.Amount__c}" required="true" />
+                                            </apex:column>
+                                        </apex:pageBlockTable>     
+                                        
+                                    </apex:pageBlockSectionItem>
+                                </apex:pageblocksection>
+                           
+                            
+                            
+                            <apex:pageBlockButtons location="bottom">
+                                <apex:commandbutton action="{!saveMonthlyBudgetCampaignSpend}" rerender="formId" value="Save" status="status"/>
+                                <apex:commandbutton action="{!Cancel}" value="Cancel" immediate="true" html-formnovalidate="formnovalidate"/> 
+                            </apex:pageBlockButtons>
+                        </apex:pageBlock>
+                    </apex:outputpanel>
+                </apex:outputpanel>
+            </apex:pageblocksection>
+            
+            <apex:pageblocksection columns="1">
+                <apex:pageblocktable value="{!campaignBudget}" var="td" style="font-family:Arial,Helvetica,sans-serif;">
+                    
+                    <apex:column headerValue="Action">
+                        <apex:commandLink value="Edit" action="{!editCampaignBudgetMonthlyRecord}">
+                            <apex:param name="selectedMonthlyBudgetCampaignPlanningEditRecord" value="{!td.Id}"/>
+                        </apex:commandLink>&nbsp;      
+                       <!-- <apex:commandLink value="View" action="{!viewCampaignPlanningRecord}" target="_blank">
+                            <apex:param name="selectedCampaignPlanningId" value="{!td.Id}"/>
+                        </apex:commandLink>&nbsp;
+                        <apex:commandLink value="Delete" action="{!deleteCampaignPlanningRecord}" onclick="return confirm('Are you sure you want to delete this item?');">
+                            <apex:param name="selectedCampaignPlanningRecord" value="{!td.Id}" />
+                        </apex:commandLink> -->
+                    </apex:column>
+                    
+                    <apex:column headerValue="Total Budget">
+                        <apex:outputText value="{0, number, ###,##0.00}">
+                        	<apex:param value="{!td.Total_Budget_New__c}"/>
+                    	</apex:outputText>
+                    </apex:column>
+                    
+                    <apex:column headerValue="">
+                        
+                        <apex:pageBlocktable value="{!td.Campaign_Spend__r}" var="tdinner" style="font-family:Arial,Helvetica,sans-serif;">
+                            
+                            <apex:column value="{!tdinner.Budget_Month__c}"/>
+                            
+                            <apex:column headerValue="Amount">
+                                <apex:outputText value="{0, number, ###,##0.00}">
+                                    <apex:param value="{!tdinner.Amount__c}"/>
+                                </apex:outputText>
+                            </apex:column>
+                            
+                        </apex:pageBlocktable>
+                        
+                    </apex:column>
+                </apex:pageblocktable>
+            </apex:pageblocksection>
+        </apex:pageblock>
+        
+        <apex:actionStatus id="status">
+            <apex:facet name="start"> 
+                <apex:outputPanel styleclass="popupBackground">
+                    <apex:outputPanel style="position:absolute;left:50%;top:50%;">
+                        <img src="/img/loading32.gif" width="25" height="25" />
+                        <apex:outputLabel value="Loading..." style="color: #fff;padding-left: 10px;font-weight: 700;"/>
+                    </apex:outputPanel> 
+                </apex:outputPanel>    
+            </apex:facet>
+        </apex:actionStatus>
+        
+    </apex:form>    
+    
+    
+    <script type="text/javascript">
+    </script>
+    
+    <style type="text/css">
+        .relatedColumnClass {
+        line-height: 10px !important;
+        width : 250px;
+        }
+        .customPopup{
+        background-color: white;
+        border-width: 2px;
+        border-style: solid;
+        z-index: 9999;
+        left: 50%;
+        padding:10px;
+        position: absolute;         
+        width: 700px;
+        height: 50%;
+        margin-left: -320px;
+        top:100px;
+        }
+        .customInnerPopup{
+        background-color: white;
+        border-width: 2px;
+        border-style: solid;
+        z-index: 9999;
+        left: 50%;
+        padding:10px;
+        position: absolute;         
+        width: 700px;
+        height: 30%;
+        margin-left: -320px;
+        top:100px;
+        }
+        .popupBackground{
+        background-color:hsla(0,0%,4%,.5);
+        filter: alpha(opacity = 20);
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 9998;
+        }
+        .items {
+        padding-left:5em;
+        padding-right:5em;
+        padding-bottom:5em;
+        page-break-after: always;
+        }	
+    </style>
+</apex:page>

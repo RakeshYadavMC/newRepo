@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Inquiry Type --></label>
+        <name>Inquiry_Type__c</name>
+        <picklistValues>
+            <masterLabel>Missing Pricing</masterLabel>
+            <translation><!-- Missing Pricing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OA Discrepancy</masterLabel>
+            <translation><!-- OA Discrepancy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Status of Order</masterLabel>
+            <translation><!-- Status of Order --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tendered to Carrier</masterLabel>
+            <translation><!-- Tendered to Carrier --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

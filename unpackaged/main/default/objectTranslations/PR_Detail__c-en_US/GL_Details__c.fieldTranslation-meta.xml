@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- GL Details --></label>
+        <name>GL_Details__c</name>
+        <picklistValues>
+            <masterLabel>Ambassadors</masterLabel>
+            <translation><!-- Ambassadors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Art</masterLabel>
+            <translation><!-- Art --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BAGB (Buy A, Get B)</masterLabel>
+            <translation><!-- BAGB (Buy A, Get B) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BSI Employees (All Costs Opex)</masterLabel>
+            <translation><!-- BSI Employees (All Costs Opex) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bartenders</masterLabel>
+            <translation><!-- Bartenders --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cases</masterLabel>
+            <translation><!-- Cases --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coupons Print</masterLabel>
+            <translation><!-- Coupons Print --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data Warehousing</masterLabel>
+            <translation><!-- Data Warehousing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distributors (All Costs Eligible for BI)</masterLabel>
+            <translation><!-- Distributors (All Costs Eligible for BI) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Educational</masterLabel>
+            <translation><!-- Educational --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Electronic (e.g. TV's, iPads, etc)</masterLabel>
+            <translation><!-- Electronic (e.g. TV&apos;s, iPads, etc) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Email Outbound Messaging</masterLabel>
+            <translation><!-- Email Outbound Messaging --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F&amp;W Fest</masterLabel>
+            <translation><!-- F&amp;W Fest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Friends of Laphroaig</masterLabel>
+            <translation><!-- Friends of Laphroaig --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incentive</masterLabel>
+            <translation><!-- Incentive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Locally Packed VAP (Value Added Pack)</masterLabel>
+            <translation><!-- Locally Packed VAP (Value Added Pack) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Menus (Use GL 15333 Instead)</masterLabel>
+            <translation><!-- Menus (Use GL 15333 Instead) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Music</masterLabel>
+            <translation><!-- Music --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Applicable</masterLabel>
+            <translation><!-- Not Applicable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other (Specify in Comments)</masterLabel>
+            <translation><!-- Other (Specify in Comments) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Racks</masterLabel>
+            <translation><!-- Racks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rebates Print</masterLabel>
+            <translation><!-- Rebates Print --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regular POS (e.g. T-Shirts, shot glasses, etc)</masterLabel>
+            <translation><!-- Regular POS (e.g. T-Shirts, shot glasses, etc) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retailers (All Costs EXCEPT Air &amp; Hotel Eligible for BI)</masterLabel>
+            <translation><!-- Retailers (All Costs EXCEPT Air &amp; Hotel Eligible for BI) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SMS</masterLabel>
+            <translation><!-- SMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Specialty Items (e.g. Grills, Golf Clubs, Leather Jackets, etc)</masterLabel>
+            <translation><!-- Specialty Items (e.g. Grills, Golf Clubs, Leather Jackets, etc) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sports</masterLabel>
+            <translation><!-- Sports --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic use of Consumer Data</masterLabel>
+            <translation><!-- Strategic use of Consumer Data --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USBG</masterLabel>
+            <translation><!-- USBG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Whiskey Fest</masterLabel>
+            <translation><!-- Whiskey Fest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Window/Counter Wraps</masterLabel>
+            <translation><!-- Window/Counter Wraps --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

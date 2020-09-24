@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>Distribuidor Maestro</label>
+        <name>DistributorMaster__c</name>
+        <picklistValues>
+            <masterLabel>All Other Distributors</masterLabel>
+            <translation><!-- All Other Distributors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Allan S Goodman Inc</masterLabel>
+            <translation><!-- Allan S Goodman Inc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Athens</masterLabel>
+            <translation><!-- Athens --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B &amp; T</masterLabel>
+            <translation><!-- B &amp; T --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Badger</masterLabel>
+            <translation><!-- Badger --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Best Brands</masterLabel>
+            <translation><!-- Best Brands --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brescome Barton Inc</masterLabel>
+            <translation><!-- Brescome Barton Inc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Connecticut Distributors Inc</masterLabel>
+            <translation><!-- Connecticut Distributors Inc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Empire</masterLabel>
+            <translation><!-- Empire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fedway Associates Inc</masterLabel>
+            <translation><!-- Fedway Associates Inc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Frank</masterLabel>
+            <translation><!-- Frank --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General Wholesale</masterLabel>
+            <translation><!-- General Wholesale --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Georgia Crown</masterLabel>
+            <translation><!-- Georgia Crown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Glazers Total</masterLabel>
+            <translation><!-- Glazers Total --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hartley &amp; Parker Ltd</masterLabel>
+            <translation><!-- Hartley &amp; Parker Ltd --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Horizon</masterLabel>
+            <translation><!-- Horizon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Johnson Bros</masterLabel>
+            <translation><!-- Johnson Bros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Knoxville Bev</masterLabel>
+            <translation><!-- Knoxville Bev --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M.S Walker</masterLabel>
+            <translation><!-- M.S Walker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Major Brands</masterLabel>
+            <translation><!-- Major Brands --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phillips</masterLabel>
+            <translation><!-- Phillips --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>R&amp;R Marketing</masterLabel>
+            <translation><!-- R&amp;R Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RNDC</masterLabel>
+            <translation><!-- RNDC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SWS</masterLabel>
+            <translation><!-- SWS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Star Distributors</masterLabel>
+            <translation><!-- Star Distributors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Triple C</masterLabel>
+            <translation><!-- Triple C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>United</masterLabel>
+            <translation><!-- United --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West Tennessee Crown Distributing</masterLabel>
+            <translation><!-- West Tennessee Crown Distributing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wirtz</masterLabel>
+            <translation><!-- Wirtz --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

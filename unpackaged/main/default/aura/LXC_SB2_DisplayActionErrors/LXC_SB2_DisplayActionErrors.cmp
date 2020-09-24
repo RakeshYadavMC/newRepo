@@ -1,0 +1,8 @@
+<aura:component description="DisplayActionErrors">
+    <aura:attribute name="passedInErrors" type="Object[]" />
+    <aura:attribute name="errors" type="Aura.Component[]" />
+    <aura:handler name="change" value="{!v.passedInErrors}" action="{!c.processErrors}" />
+    <div>
+        {!v.errors}
+    </div>
+</aura:component>

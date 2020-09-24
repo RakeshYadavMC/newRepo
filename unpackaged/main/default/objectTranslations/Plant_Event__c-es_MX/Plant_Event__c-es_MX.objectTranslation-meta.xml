@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Plant Event</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Plant Events</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Community Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Date Information --></label>
+            <section>Date Information</section>
+        </sections>
+        <sections>
+            <label><!-- Initiator Information --></label>
+            <section>Initiator Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>El Tesoro Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Date Information --></label>
+            <section>Date Information</section>
+        </sections>
+        <sections>
+            <label><!-- Initiator Information --></label>
+            <section>Initiator Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Knob Creek Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Date Information --></label>
+            <section>Date Information</section>
+        </sections>
+        <sections>
+            <label><!-- Initiator Information --></label>
+            <section>Initiator Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Makers Mark Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Date Information --></label>
+            <section>Date Information</section>
+        </sections>
+        <sections>
+            <label><!-- Initiator Information --></label>
+            <section>Initiator Information</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Plant Event</nameFieldLabel>
+    <recordTypes>
+        <label><!-- El Tesoro --></label>
+        <name>El_Tesoro</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Knob Creek --></label>
+        <name>Knob_Creek</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Makers Mark --></label>
+        <name>Makers_Mark</name>
+    </recordTypes>
+</CustomObjectTranslation>

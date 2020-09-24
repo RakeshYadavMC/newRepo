@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
+    <frameHeight>1000</frameHeight>
+    <hasSidebar>true</hasSidebar>
+    <label>Tableau</label>
+    <motif>Custom42: Treasure chest</motif>
+    <url>https://reporting-prd.beamsuntory.com/t/CommercialAmericas/views/SFBILandingPage/DashboardUpdateSupportPage?:embed=y&amp;:showShareOptions=true&amp;:display_count=no&amp;:showVizHome=no</url>
+    <urlEncodingKey>UTF-8</urlEncodingKey>
+</CustomTab>

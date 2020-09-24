@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The number of successful SKU registrations --></help>
+        <label><!-- Number of Registrations --></label>
+        <name>Number_of_Registrations__c</name>
+    </CustomFieldTranslation>
