@@ -50,13 +50,6 @@
     </flexiPageRegions>
     <flexiPageRegions>
         <componentInstances>
-            <componentInstanceProperties>
-                <name>showFlow</name>
-                <value>false</value>
-            </componentInstanceProperties>
-            <componentName>QC_FACTSFinder</componentName>
-        </componentInstances>
-        <componentInstances>
             <componentName>force:detailPanel</componentName>
         </componentInstances>
         <name>Facet-b89fa620-8c32-4485-875e-8dedb8cde677</name>
@@ -78,6 +71,17 @@
             <componentName>LXC_CustomerHistory</componentName>
         </componentInstances>
         <name>Facet-mk5vixc1rpe</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <componentInstances>
+            <componentInstanceProperties>
+                <name>showFlow</name>
+                <value>true</value>
+            </componentInstanceProperties>
+            <componentName>QC_FACTSFinder</componentName>
+        </componentInstances>
+        <name>Facet-90eae6f3-8d9b-412b-8a7c-e2f1416fb7a1</name>
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
@@ -130,6 +134,17 @@
             <componentInstanceProperties>
                 <name>title</name>
                 <value>Customer History</value>
+            </componentInstanceProperties>
+            <componentName>flexipage:tab</componentName>
+        </componentInstances>
+        <componentInstances>
+            <componentInstanceProperties>
+                <name>body</name>
+                <value>Facet-90eae6f3-8d9b-412b-8a7c-e2f1416fb7a1</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>title</name>
+                <value>FACTS</value>
             </componentInstanceProperties>
             <componentName>flexipage:tab</componentName>
         </componentInstances>
