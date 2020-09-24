@@ -4624,7 +4624,7 @@
         <name>PasswordNeverExpires</name>
     </userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
         <name>RemoveDirectMessageMembers</name>
     </userPermissions>
     <userPermissions>
