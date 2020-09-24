@@ -40,10 +40,10 @@ public class TST_CustomerHistory {
         insert acc; 
         Id personContactId = [SELECT PersonContactId FROM Account WHERE Id = :acc.Id].PersonContactId;
         
-        lstCase.add(new Case(ContactId = personContactId, RecordTypeId = CSConstants.QC_RT_ID, Description = 'I got cut', Brand__c = 'Jim Beam', How_can_we_help__c = 'Where to Buy Product', Product_Type__c = 'BLACK', Subject = 'Case 1'));
-        lstCase.add(new Case(ContactId = personContactId, RecordTypeId = CSConstants.QC_RT_ID, Description = 'I got cut', Brand__c = 'Jim Beam', How_can_we_help__c = 'Visiting the Distillery', Product_Type__c = 'APPLE', Subject = 'Case 2', CreatedDate = Datetime.now().addDays(-1)));
-        lstCase.add(new Case(ContactId = personContactId, RecordTypeId = CSConstants.QC_RT_ID, Description = 'I got cut', Brand__c = 'Laphroaig', How_can_we_help__c = 'Where to Buy Product', Product_Type__c = '10 YEAR', Subject = 'Case 3', CreatedDate = Datetime.now().addDays(-2)));
-        lstCase.add(new Case(ContactId = personContactId, RecordTypeId = CSConstants.QC_RT_ID, Description = 'I got cut', Brand__c = 'Laphroaig', How_can_we_help__c = 'Visiting the Distillery', Product_Type__c = '16 YEAR', Subject = 'Case 4', CreatedDate = Datetime.now().addDays(-3)));
+        lstCase.add(new Case(ContactId = personContactId, RecordTypeId = CSConstants.QC_RT_ID, Description = 'I got cut', Brand__c = 'Jim Beam', How_can_we_help__c = 'Where to Buy Product', Product_Type__c = 'BLACK', Subject = 'Case 1', Lot_Code__c = 'L123456'));
+        lstCase.add(new Case(ContactId = personContactId, RecordTypeId = CSConstants.QC_RT_ID, Description = 'I got cut', Brand__c = 'Jim Beam', How_can_we_help__c = 'Visiting the Distillery', Product_Type__c = 'APPLE', Subject = 'Case 2', CreatedDate = Datetime.now().addDays(-1), Lot_Code__c = 'L1234567'));
+        lstCase.add(new Case(ContactId = personContactId, RecordTypeId = CSConstants.QC_RT_ID, Description = 'I got cut', Brand__c = 'Laphroaig', How_can_we_help__c = 'Where to Buy Product', Product_Type__c = '10 YEAR', Subject = 'Case 3', CreatedDate = Datetime.now().addDays(-2), Lot_Code__c = 'L12345678'));
+        lstCase.add(new Case(ContactId = personContactId, RecordTypeId = CSConstants.QC_RT_ID, Description = 'I got cut', Brand__c = 'Laphroaig', How_can_we_help__c = 'Visiting the Distillery', Product_Type__c = '16 YEAR', Subject = 'Case 4', CreatedDate = Datetime.now().addDays(-3), Lot_Code__c = 'L123456789'));
 
         insert lstCase;
     }
@@ -103,6 +103,29 @@ public class TST_CustomerHistory {
     public static void testGetCasesException() {
         try{
             List<Case> lstCases = CNT_CustomerHistory.getCases(null, 'test@test.com', 'abc', 'idk', '3020', 'ijk', 'rj');
+        }catch(Exception e) {
+            system.assert(String.isNotBlank(e.getMessage()));
+        }
+    }
+    
+    /**
+    *  @description : This method is use to test getLotcodeCases.
+    **/
+    @IsTest
+    public static void testGetLotcodeCases() {
+        Test.startTest();
+        Case caseObj = [SELECT Id, Account.PersonMailingCountry, Lot_Code__c FROM Case LIMIT 1];
+        List<Case> lstCases = CNT_CustomerHistory.getLotcodeCases(caseObj.Id, caseObj.Account.PersonMailingCountry, caseObj.Lot_Code__c.substring(0, 4));
+        Test.stopTest();
+    }
+    
+    /**
+    *  @description : This method is use to test exception case.
+    **/
+    @IsTest
+    public static void testGetLotcodeCasesException() {
+        try{
+            List<Case> lstCases = CNT_CustomerHistory.getLotcodeCases(null, 'US', 'L123');
         }catch(Exception e) {
             system.assert(String.isNotBlank(e.getMessage()));
         }

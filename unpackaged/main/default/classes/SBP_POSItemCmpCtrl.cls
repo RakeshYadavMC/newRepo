@@ -122,7 +122,7 @@ public without sharing class SBP_POSItemCmpCtrl {
                                           , POS_Static_Resource__r.POS_Item__r.Help_Text__c
                                           , POS_Static_Resource__r.POS_Item__r.Options__c
                                           , POS_Static_Resource__r.POS_Item__r.hasInsert__c
-                                          , POS_Static_Resource__r.POS_Item__r.MasterLabel from POS_State_Setting__mdt where Premise_Type__c = :premiseType]) {
+                                          , POS_Static_Resource__r.POS_Item__r.MasterLabel from POS_State_Setting__mdt where Premise_Type__c = :premiseType AND Is_Active__c = TRUE]) {
             if (cm.POS_Static_Resource__r.Brand__c == brand) {
                 system.debug('First if --> ' + cm.POS_Static_Resource__r.Brand__c);
                 if (state == cm.State__c || !posItemSpecificStates.contains(state)) {
@@ -326,7 +326,7 @@ public without sharing class SBP_POSItemCmpCtrl {
 
     ***************************************************************************************************************/
     @AuraEnabled
-    public static LightningComponentUtility.RequestStatus getBottleLabelImages(String state) {
+    public static LightningComponentUtility.RequestStatus getBottleLabelImages(String state, String premiseType) {
         Boolean success = true;
         String message = null;
         Map<String, Object> responseMap = new Map<String, Object>();
@@ -339,13 +339,14 @@ public without sharing class SBP_POSItemCmpCtrl {
             };
 
             Map<String, SBP_POSItemCmpCtrl.BrandBottleLabel> newYorkBottleLabelMap = new Map<String, SBP_POSItemCmpCtrl.BrandBottleLabel> {
-                'Knob Creek'                => new BrandBottleLabel('Knob Creek', 'knobCreekBottleNeckerChain', ''),
-                'Knob Creek Rye'            => new BrandBottleLabel('Knob Creek Rye', 'knobCreekBottleNeckerChain', ''),
-                'Makers Mark'               => new BrandBottleLabel( 'Makers Mark', 'makersMarkBottle', 'makersMarkNewYorkBottleLabel')
+                'Knob Creek'                => new BrandBottleLabel('Knob Creek', 'knobCreekBottleImage', ''),
+                'Knob Creek Rye'            => new BrandBottleLabel('Knob Creek Rye', 'KnobCreekRyeBottleImage', ''),
+                'Makers Mark'               => new BrandBottleLabel( 'Makers Mark', 'makersMarkBottle', 'makersMarkNewYorkBottleLabel'),
+                'El Tesoro'                 => new BrandBottleLabel( 'El Tesoro', 'elTesoroBottleGlorifier', '')
             };
 
             // Modified for SR_187316
-            if (state == 'New York' || state.equals('NY') || state == 'Oregon' || state.equals('OR')) {
+            if (state == 'New York' || state.equals('NY') || ((state == 'Oregon' || state.equals('OR')) && premiseType == 'On Premise')) {
                 responseMap.put('bottleLabelMap', newYorkBottleLabelMap);
             } else {
                 responseMap.put('bottleLabelMap', standardBottleLabelMap);

@@ -18,17 +18,12 @@
     <filters>
         <field>Region__c</field>
         <operation>equals</operation>
-        <value>National Marketing Region,National BTL Region</value>
+        <value>National Marketing Region,National BTL Commercial Marketing Region</value>
     </filters>
     <filters>
         <field>Year__c</field>
         <operation>equals</operation>
         <value>2020</value>
-    </filters>
-    <filters>
-        <field>CampaignType__c</field>
-        <operation>equals</operation>
-        <value>Brand Investment</value>
     </filters>
     <label>Cruzan, Dekuyper &amp; SQRRL Campaigns</label>
     <language>en_US</language>

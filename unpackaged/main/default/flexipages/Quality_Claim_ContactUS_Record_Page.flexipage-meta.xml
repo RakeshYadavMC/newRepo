@@ -77,11 +77,11 @@
         <componentInstances>
             <componentInstanceProperties>
                 <name>showFlow</name>
-                <value>true</value>
+                <value>false</value>
             </componentInstanceProperties>
             <componentName>QC_FACTSFinder</componentName>
         </componentInstances>
-        <name>Facet-90eae6f3-8d9b-412b-8a7c-e2f1416fb7a1</name>
+        <name>Facet-3b13e8f6-c0ad-4d87-ab61-291634151dde</name>
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
@@ -140,7 +140,7 @@
         <componentInstances>
             <componentInstanceProperties>
                 <name>body</name>
-                <value>Facet-90eae6f3-8d9b-412b-8a7c-e2f1416fb7a1</value>
+                <value>Facet-3b13e8f6-c0ad-4d87-ab61-291634151dde</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>title</name>

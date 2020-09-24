@@ -58,4 +58,15 @@ public with sharing class CNT_CustomerHistory {
         }
         return emailMessage;
     }
+
+    @AuraEnabled
+    public static List<Case> getLotcodeCases(Id caseId, String country, String lotCode) {
+        try{
+            return SRV_CustomerHistory.getCasesByCountryAndLotcode(caseId, country, lotCode);
+        } catch(Exception e) {
+            String errorMessage = 'Error getting lot code related cases ' + e.getMessage() + '\n' + e.getStackTraceString();
+            CreateExceptionLog.insertErrorLog('CNT_CustomerHistory', 'getWarningMessage', String.valueOf(errorMessage), 'Fatal');
+            throw new CS_CustomException(errorMessage);
+        }
+    }
 }

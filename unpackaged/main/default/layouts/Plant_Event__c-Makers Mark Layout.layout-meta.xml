@@ -66,6 +66,10 @@
                 <behavior>Required</behavior>
                 <field>Scheduled_Date__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Location_Of_Visit__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

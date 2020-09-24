@@ -94,7 +94,7 @@ public class CustomLookupControllerTest {
         Test.startTest();
 
         List<Account> accounts = CustomLookupController.getDistributorRecordType(acc.Name, 'Account', 10, acc.BillingState);
-		List<Account> account1 = CustomLookupController.getDistributorRecordType(acc.Name, 'Account', 0, acc.BillingState);
+        List<Account> account1 = CustomLookupController.getDistributorRecordType(acc.Name, 'Account', 0, acc.BillingState);
         
         System.assertEquals(1, accounts.size());
         System.assertEquals('Test Vendor Account', accounts[0].Name);
@@ -104,17 +104,18 @@ public class CustomLookupControllerTest {
 
     public static testMethod void getPremiseRecordTypeTest() {
         Test.startTest();
-		Account acc = [select Id, Name from Account where Name = 'Test Vendor Account'];
+        Account acc = [select Id, Name from Account where Name = 'Test Vendor Account'];
         acc.BillingCity = 'Test City';
         acc.BillingState = 'Test State';
         acc.RecordTypeId = '012o0000000peiL';
+        acc.Available_for_Single_barrel__c =true;
         update acc;
         
-        List<Account> accounts =  CustomLookupController.getPremiseRecordType(acc.Name, 'Account', 10, acc.BillingCity, acc.BillingState);
-		List<Account> accounts1 = CustomLookupController.getPremiseRecordType(acc.Name, 'Account', 10, '', '');
-        List<Account> accounts4 = CustomLookupController.getPremiseRecordType(acc.Name, 'Account', 0, '', '');
-        List<Account> accounts2 = CustomLookupController.getPremiseRecordType(acc.Name, 'Account', 10, acc.BillingCity, '');
-        List<Account> accounts3 = CustomLookupController.getPremiseRecordType(acc.Name, 'Account', 10, '', acc.BillingState);
+        List<Account> accounts =  CustomLookupController.getPremiseRecordType(acc.Name, 'Account', 10, acc.BillingCity, acc.BillingState,acc.Available_for_Single_barrel__c);
+        List<Account> accounts1 = CustomLookupController.getPremiseRecordType(acc.Name, 'Account', 10, '', '',acc.Available_for_Single_barrel__c);
+        List<Account> accounts4 = CustomLookupController.getPremiseRecordType(acc.Name, 'Account', 0, '', '',acc.Available_for_Single_barrel__c);
+        List<Account> accounts2 = CustomLookupController.getPremiseRecordType(acc.Name, 'Account', 10, acc.BillingCity, '',acc.Available_for_Single_barrel__c);
+        List<Account> accounts3 = CustomLookupController.getPremiseRecordType(acc.Name, 'Account', 10, '', acc.BillingState,acc.Available_for_Single_barrel__c);
         Test.stopTest();
 
         System.assertEquals(1, accounts.size());
@@ -140,7 +141,7 @@ public class CustomLookupControllerTest {
         test.stopTest();
         System.assert(sapList.size()>0, 'Account should have atleast one SAP Company Code');
     }
-	
+    
     public static testMethod void testgetAccountAndSAPCompanyCodeDetails() {
         PR_Header__c objPRHeader = [Select Id From PR_Header__c Where Vendor_Name__r.Name = 'Test Vendor Account'];
         test.startTest();
@@ -153,12 +154,12 @@ public class CustomLookupControllerTest {
         PR_Header__c objPRHeader = [Select Id, Vendor_Name__c, SAP_Company_Code__c, Payment_Terms__c, PR_Currency__c,
                                    Request_Date__c, SAP_Support__c From PR_Header__c Where Vendor_Name__r.Name = 'Test Vendor Account' Limit 1];
         String jsonPRHeader = '[{"Id":"' + objPRHeader.Id + '",'
-		                   	+ '"Vendor_Name__c" : "' + objPRHeader.Vendor_Name__c + '",'
-		                   	+ '"SAP_Company_Code__c" : "' + objPRHeader.SAP_Company_Code__c + '",'
-            			   	+ '"Payment_Terms__c" : "' + objPRHeader.Payment_Terms__c + '",'
-            				+ '"PR_Currency__c" : "' + objPRHeader.PR_Currency__c + '",'
-            				+ '"Request_Date__c" : "2019-12-26",'
-            				+ '"SAP_Support__c" : "' + objPRHeader.SAP_Support__c +'"}]';
+                            + '"Vendor_Name__c" : "' + objPRHeader.Vendor_Name__c + '",'
+                            + '"SAP_Company_Code__c" : "' + objPRHeader.SAP_Company_Code__c + '",'
+                            + '"Payment_Terms__c" : "' + objPRHeader.Payment_Terms__c + '",'
+                            + '"PR_Currency__c" : "' + objPRHeader.PR_Currency__c + '",'
+                            + '"Request_Date__c" : "2019-12-26",'
+                            + '"SAP_Support__c" : "' + objPRHeader.SAP_Support__c +'"}]';
         test.startTest();
         String retString = CustomLookupController.updatePRHeader(jsonPRHeader);
         test.stopTest();

@@ -298,6 +298,10 @@
         </values>
     </picklistValues>
     <picklistValues>
+        <picklist>Brand__c</picklist>
+        
+        </picklistValues>
+    <picklistValues>
         <picklist>Case_Issues__c</picklist>
         <values>
             <fullName>Costing %28YMTP%29</fullName>

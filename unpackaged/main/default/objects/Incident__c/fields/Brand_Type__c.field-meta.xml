@@ -132,6 +132,11 @@
                 <label>ALBERTA VODKA</label>
             </value>
             <value>
+                <fullName>AMERICAN OAK RESERVE</fullName>
+                <default>false</default>
+                <label>AMERICAN OAK RESERVE</label>
+            </value>
+            <value>
                 <fullName>AO VODKA</fullName>
                 <default>false</default>
                 <label>AO VODKA</label>
@@ -255,6 +260,11 @@
                 <fullName>BLACK RTD COLA</fullName>
                 <default>false</default>
                 <label>BLACK RTD COLA</label>
+            </value>
+            <value>
+                <fullName>BLOOD OAK</fullName>
+                <default>false</default>
+                <label>BLOOD OAK</label>
             </value>
             <value>
                 <fullName>BOOKER'S 30TH ANNIVERSARY</fullName>
@@ -547,6 +557,11 @@
                 <label>CRUZAN SPICED</label>
             </value>
             <value>
+                <fullName>DARK OAK</fullName>
+                <default>false</default>
+                <label>DARK OAK</label>
+            </value>
+            <value>
                 <fullName>DEKUYPER FLAVORED</fullName>
                 <default>false</default>
                 <label>DEKUYPER FLAVORED</label>
@@ -724,6 +739,7 @@
             <value>
                 <fullName>HEARTWOOD</fullName>
                 <default>false</default>
+                <isActive>false</isActive>
                 <label>HEARTWOOD</label>
             </value>
             <value>
@@ -749,6 +765,7 @@
             <value>
                 <fullName>HIGHGROVE</fullName>
                 <default>false</default>
+                <isActive>false</isActive>
                 <label>HIGHGROVE</label>
             </value>
             <value>

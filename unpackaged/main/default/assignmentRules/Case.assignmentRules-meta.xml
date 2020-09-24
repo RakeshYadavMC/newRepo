@@ -213,6 +213,20 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
+            <assignedTo>Bailment_Claims</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Order Claim</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.Military__c</field>
+                <operation>equals</operation>
+                <value>Military,Military Export</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
             <assignedTo>Distributor_Advocate_Queue</assignedTo>
             <assignedToType>Queue</assignedToType>
             <booleanFilter>1 OR (2 AND 3)</booleanFilter>

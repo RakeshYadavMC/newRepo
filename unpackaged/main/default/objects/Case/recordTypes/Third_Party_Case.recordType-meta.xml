@@ -321,6 +321,10 @@
         </values>
     </picklistValues>
     <picklistValues>
+        <picklist>Brand__c</picklist>
+        
+        </picklistValues>
+    <picklistValues>
         <picklist>CPro_Approval__c</picklist>
         <values>
             <fullName>No</fullName>

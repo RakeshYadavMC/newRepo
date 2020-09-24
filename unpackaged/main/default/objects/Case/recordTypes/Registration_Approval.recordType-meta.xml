@@ -468,6 +468,10 @@
         </values>
     </picklistValues>
     <picklistValues>
+        <picklist>Brand__c</picklist>
+        
+        </picklistValues>
+    <picklistValues>
         <picklist>Business_Function__c</picklist>
         <values>
             <fullName>CS</fullName>

@@ -505,23 +505,17 @@ private class SBP_POSItemCmpCtrlTest {
     }
 
     public static testMethod void updateStepsAsCompletedTest() {
+        Test.startTest();
         Barrel__c barrel = getBarrelBySku('Test Barrel');
         Case c = getCaseById(barrel.Case__c);
-
-        System.assertEquals(c.POS_Items_Selected__c, false);
-        System.assertEquals(c.Bottle_Text_Entered__c, false);
-
-        Test.startTest();
-
         LightningComponentUtility.RequestStatus response = SBP_POSItemCmpCtrl.updateStepsAsCompleted(String.valueOf(barrel.Id), true, true);
-        
         Case updatedCase = getCaseById(barrel.Case__c);
-
         Test.stopTest();
-
+        
+		System.assertEquals(c.POS_Items_Selected__c, false);
+        System.assertEquals(c.Bottle_Text_Entered__c, false);
         System.assertEquals(updatedCase.POS_Items_Selected__c, true);
         System.assertEquals(updatedCase.Bottle_Text_Entered__c, true);
-
         System.assertNotEquals(NULL, response.responseMap.get('updatedRecord'), 'updatedRecord should be returned');
     }
     
@@ -529,14 +523,14 @@ private class SBP_POSItemCmpCtrlTest {
     *	@description: This method is used to get Case__c by Brand
     **/
     public static testMethod void updateStepsAsCompletedByBrandTest() {
+        Test.startTest();
         Barrel__c barrel = getBarrelBySku('Test Barrel');
         Case c = getCaseById(barrel.Case__c);
-        System.assertEquals(c.POS_Items_Selected__c, false);
-        System.assertEquals(c.Bottle_Text_Entered__c, false);
-        Test.startTest();
         LightningComponentUtility.RequestStatus response1 = SBP_POSItemCmpCtrl.updateStepsAsCompleted(getCaseByBrand('Makers Mark').Id, true, true);
         Case updatedCase = getCaseById(barrel.Case__c);
         Test.stopTest();
+        System.assertEquals(c.POS_Items_Selected__c, false);
+        System.assertEquals(c.Bottle_Text_Entered__c, false);
         System.assertEquals(updatedCase.POS_Items_Selected__c, false);
         System.assertEquals(updatedCase.Bottle_Text_Entered__c, false);
         System.assertNotEquals(NULL, response1.responseMap.get('updatedRecord'), 'updatedRecord should be returned');
@@ -547,43 +541,43 @@ private class SBP_POSItemCmpCtrlTest {
     *
     **/
     public static testMethod void updateStepsAsCompletedErrorTest() {
-        Case c = getCaseByBrand('Knob Creek');
         Test.startTest();
+        Case c = getCaseByBrand('Knob Creek');
         LightningComponentUtility.RequestStatus response = SBP_POSItemCmpCtrl.updateStepsAsCompleted('', false, false);
         Test.stopTest();
         System.assertEquals(false, response.success, 'Operation should not return successfully');
     }
 
     public static testMethod void getBottleLabelImagesTest() {
+        Test.startTest();
         Barrel__c barrel = getBarrelBySku('Test Barrel');
-        Case c = getCaseById(barrel.Case__c);
+        Case c = getCaseById(barrel.Case__c);        
+        LightningComponentUtility.RequestStatus response = SBP_POSItemCmpCtrl.getBottleLabelImages('Indiana', 'On Premise');
+        Test.stopTest();
         System.assertEquals(c.POS_Items_Selected__c, false);
         System.assertEquals(c.Bottle_Text_Entered__c, false);
-        Test.startTest();
-        LightningComponentUtility.RequestStatus response = SBP_POSItemCmpCtrl.getBottleLabelImages('Indiana');
-        Test.stopTest();
         System.assertNotEquals(NULL, response.responseMap.get('bottleLabelMap'), 'Bottle plate labels should be uploaded');
     }
 
     public static testMethod void getBottleLabelImagesNewYorkTest() {
+        Test.startTest();
         Barrel__c barrel = getBarrelBySku('Test Barrel');
         Case c = getCaseById(barrel.Case__c);
+        LightningComponentUtility.RequestStatus response = SBP_POSItemCmpCtrl.getBottleLabelImages('New York', 'On Premise');
+        Test.stopTest();
         System.assertEquals(c.POS_Items_Selected__c, false);
         System.assertEquals(c.Bottle_Text_Entered__c, false);
-        Test.startTest();
-        LightningComponentUtility.RequestStatus response = SBP_POSItemCmpCtrl.getBottleLabelImages('New York');
-        Test.stopTest();
         System.assertNotEquals(NULL, response.responseMap.get('bottleLabelMap'), 'Bottle plate labels should be uploaded');
     }
 
     public static testMethod void getRecordDetailsCaseTest() {
+        Test.startTest();
         Barrel__c barrel = getBarrelBySku('Test Barrel');
         Case c = getCaseById(barrel.Case__c);
-        System.assertEquals(c.POS_Items_Selected__c, false);
-        System.assertEquals(c.Bottle_Text_Entered__c, false);
-        Test.startTest();
         LightningComponentUtility.RequestStatus response = SBP_POSItemCmpCtrl.getRecordDetails(String.ValueOf(c.Id));
         Test.stopTest();
+        System.assertEquals(c.POS_Items_Selected__c, false);
+        System.assertEquals(c.Bottle_Text_Entered__c, false);
         System.assertEquals('On Premise', response.responseMap.get('premiseType'), 'Should be On Premise type');
     }
     
@@ -591,24 +585,24 @@ private class SBP_POSItemCmpCtrlTest {
     * @descripition: This method is used to get record details by Brand and Type
     **/
     public static testMethod void getRecordDetailsCaseByBrandAndTypeTest() {
+        Test.startTest();
         Barrel__c barrel = getBarrelBySku('Test Barrel');
         Case c = getCaseById(barrel.Case__c);
-        System.assertEquals(c.POS_Items_Selected__c, false);
-        System.assertEquals(c.Bottle_Text_Entered__c, false);
-        Test.startTest();
         LightningComponentUtility.RequestStatus response1 = SBP_POSItemCmpCtrl.getRecordDetails(getCaseByBrandAndType('Makers Mark', 'Split Barrel').Id);
         Test.stopTest();
+        System.assertEquals(c.POS_Items_Selected__c, false);
+        System.assertEquals(c.Bottle_Text_Entered__c, false);
         System.assertEquals(NULL, response1.responseMap.get('premiseType'), 'Should be NULL');
     }
 
     public static testMethod void getRecordDetailsBarrelTest() {
+        Test.startTest();
         Barrel__c barrel = getBarrelBySku('Test Barrel');
         Case c = getCaseById(barrel.Case__c);
-        System.assertEquals(c.POS_Items_Selected__c, false);
-        System.assertEquals(c.Bottle_Text_Entered__c, false);
-        Test.startTest();
         LightningComponentUtility.RequestStatus response = SBP_POSItemCmpCtrl.getRecordDetails(String.ValueOf(barrel.Id));
         Test.stopTest();
+        System.assertEquals(c.POS_Items_Selected__c, false);
+        System.assertEquals(c.Bottle_Text_Entered__c, false);
         System.assertEquals('On Premise', response.responseMap.get('premiseType'), 'Should be On Premise type');
     }
     
@@ -616,16 +610,14 @@ private class SBP_POSItemCmpCtrlTest {
     *@description: This method is used to test record details with Account_Missing on Case__c set to true;
     **/
     public static testMethod void getRecordDetailsBarrelAccountMissingTest() {
+        Test.startTest();
         Barrel__c barrel = getBarrelBySku('Test Barrel');
         Case c = getCaseById(barrel.Case__c);
-        System.assertEquals(c.POS_Items_Selected__c, false);
-        System.assertEquals(c.Bottle_Text_Entered__c, false);
-        Test.startTest();
         LightningComponentUtility.RequestStatus response1 = SBP_POSItemCmpCtrl.getRecordDetails(getBarrelBySkuAccountMissing('Test Barrel').Id);
         Test.stopTest();
-
+		System.assertEquals(c.POS_Items_Selected__c, false);
+        System.assertEquals(c.Bottle_Text_Entered__c, false);	
         System.assertEquals(NULL, response1.responseMap.get('premiseType'), 'Should be NULL');
-
     }
 
     public static testMethod void getRecordDetailsBarrelErrorTest() {
@@ -657,16 +649,20 @@ private class SBP_POSItemCmpCtrlTest {
     }
     
     public static testMethod void getAccountTest(){
+        Test.startTest();
         Barrel__c barrel = getBarrelBySku('Test Barrel');
         Case c = getCaseById(barrel.Case__c);
-        string test = SBP_POSItemCmpCtrl.getAccountNamefromCase(c.Id);
+        SBP_POSItemCmpCtrl.getAccountNamefromCase(c.Id);
+        Test.stopTest();
     }
     
     public static testMethod void getCaseStatusTest(){
+        Test.startTest();
         Barrel__c barrel = getBarrelBySku('Test Barrel');
 	    // Barrel__c barrelrec = new Barrel__c();
         Case c = getCaseById(barrel.Case__c);
-        string test = SBP_POSItemCmpCtrl.getRecordStatusDetails(barrel.Id);   
+        SBP_POSItemCmpCtrl.getRecordStatusDetails(barrel.Id); 
+        Test.stopTest();
     }
 
 }

@@ -70,5 +70,29 @@ public class SLT_Case {
                       AND Contact.MailingCity = :city AND Contact.MailingState = :state)) 
                 ORDER BY CaseNumber DESC];
     }
+    
+    /**
+    *  @description : This method is use to fetch quality claim cases based on contact country and 4 initial characters
+    * 				  of lot code and for current year.
+    *  @args        : Id caseId, String country, String lotCode
+    *  @return      : List<Case>
+    **/
+    public static List<Case> getCasesByCountryAndLotcode(Id caseId, String country, String lotCode) {
+        lotCode += '%'; 
+        return [SELECT 
+                    Id, CaseNumber, Account.Name, Lot_code__c 
+                FROM 
+                    Case 
+                WHERE 
+                    Id != :caseId
+                AND
+                	CreatedDate = THIS_YEAR
+                AND 
+                    RecordTypeId = :CSConstants.QUALITY_CLAIM_RT_ID
+                AND 
+                    Contact.MailingCountry = :country 
+                AND 
+                    Lot_Code__c LIKE :lotCode];
+    }
        
 }

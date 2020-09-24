@@ -84,6 +84,20 @@ private class SBP_AccountApplicationCmpCtrlTest {
 
         Application_Response__c r1q1 = new Application_Response__c(Account_Application__c = makersApplication.Id, Answer_Text__c = 'Yes', Application_Question__c = q1.Id);
         insert r1q1;
+       
+        Profile prof = [select id from profile where name = 'System Administrator'];
+				User testUser = new User();
+				testUser.firstName = 'Test';
+				testUser.lastName = 'User';
+				testUser.profileId = prof.id;
+                testUser.Alias = 'testusr';
+                testUser.TimeZoneSidKey='America/Los_Angeles' ;
+                testUser.LocaleSidKey = 'en_US';
+                testUser.EmailEncodingKey = 'UTF-8' ;
+                testUser.LanguageLocaleKey='en_US';
+                testUser.username = 'accountApplicationApproval@beamsuntory.com';
+                testUser.email = 'accountApplicationApproval@beamsuntory.com';
+                insert testUser;
 
     }
 
@@ -101,6 +115,9 @@ private class SBP_AccountApplicationCmpCtrlTest {
 
     public static Account getTestAccount() {
         return [select id from Account where Name = 'Test Account'];
+    }
+      public static User getTestUser() {
+        return [select id from User where Name = 'Test User' limit 1];
     }
     
     public static Contact getTestContact() {
@@ -157,10 +174,12 @@ private class SBP_AccountApplicationCmpCtrlTest {
     }
 
     public static testMethod void accountApplicationStatusPendingApprovalTest() {
-
+       
+        User testUser = getTestUser();
         Test.startTest();
         Account_Application__c makersApplication = getAccountApplicationByBrand('Makers Mark');
         makersApplication.Status__c = 'Pending Approval';
+        makersApplication.Diplomat_Partner_for_Your_Barrel__c = testUser.Id;
         update makersApplication;
 
         Account testAccount = getTestAccount();
@@ -197,13 +216,15 @@ private class SBP_AccountApplicationCmpCtrlTest {
                                   + ',"Brand__c":"Makers Mark"'
                                   + ',"Application_Question_Set__c":"' + makersMarkQuestionSet.Id + '"'
                                   + ',"Account_Name__c":""}]';
+        String userId = '[{"Name":"Test User"}]';
 
         Test.startTest();
 
         Account testAccount = getTestAccount();
+        User testUser = getTestUser();
 
         System.assertEquals(1, applications.size(), 'One application should exist');
-        LightningComponentUtility.RequestStatus response = SBP_AccountApplicationCmpCtrl.insertAccountApplication(questionResponse, jsonApplications);
+        LightningComponentUtility.RequestStatus response = SBP_AccountApplicationCmpCtrl.insertAccountApplication(questionResponse, jsonApplications,testUser.Id);
 
         List<Account_Application__c> applicationsAfter = getAllAccountApplicationByBrand('Makers Mark');
         System.assertEquals(2, applicationsAfter.size(), 'Two applications should exist');
@@ -219,9 +240,10 @@ private class SBP_AccountApplicationCmpCtrlTest {
 
         Account testAccount = getTestAccount();
         Contact testContact = getTestContact();
+        User testUser = getTestUser();
         System.assertEquals(1, applications.size(), 'One application should exist');
         //LightningComponentUtility.RequestStatus response = SBP_AccountApplicationCmpCtrl.sendRequestWithPreviousAnswers(testAccount.Id, 'Makers Mark');
-        LightningComponentUtility.RequestStatus response = SBP_AccountApplicationCmpCtrl.sendRequestWithPreviousAnswers(testAccount.Id, 'Makers Mark', testAccount.Id, testContact.Id,'Yes');
+        LightningComponentUtility.RequestStatus response = SBP_AccountApplicationCmpCtrl.sendRequestWithPreviousAnswers(testAccount.Id, 'Makers Mark', testAccount.Id, testContact.Id,'Yes',testUser.Id);
         
         
         List<Account_Application__c> applicationsAfter = getAllAccountApplicationByBrand('Makers Mark');
@@ -235,9 +257,10 @@ private class SBP_AccountApplicationCmpCtrlTest {
         List<Account_Application__c> applications = getAllAccountApplicationByBrand('Makers Mark');
         Account testAccount = getTestAccount();
         Contact testContact = getTestContact();
+        User testUser = getTestUser();
         Test.startTest();
 
-        LightningComponentUtility.RequestStatus response = SBP_AccountApplicationCmpCtrl.sendRequestWithPreviousAnswers(applications[0].Id, 'Makers Mark', testAccount.Id, testContact.Id,'Yes');
+        LightningComponentUtility.RequestStatus response = SBP_AccountApplicationCmpCtrl.sendRequestWithPreviousAnswers(applications[0].Id, 'Makers Mark', testAccount.Id, testContact.Id,'Yes',testuser.Id);
 
         System.assertEquals(false, response.success, 'Operation should not return successfully');
 

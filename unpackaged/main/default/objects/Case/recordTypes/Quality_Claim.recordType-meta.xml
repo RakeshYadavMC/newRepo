@@ -626,7 +626,8 @@
             <fullName>Old Whiskeys</fullName>
             <default>false</default>
         </values>
-        <values>
+        
+            <values>
             <fullName>Pavan</fullName>
             <default>false</default>
         </values>
@@ -4117,7 +4118,8 @@
             <fullName>AMERICAN OAK</fullName>
             <default>false</default>
         </values>
-        <values>
+        
+            <values>
             <fullName>ANEJO</fullName>
             <default>false</default>
         </values>
@@ -4233,7 +4235,8 @@
             <fullName>BLANCO%2FPLATA%2FSILVER</fullName>
             <default>false</default>
         </values>
-        <values>
+        
+            <values>
             <fullName>BLOOD ORANGE</fullName>
             <default>false</default>
         </values>
@@ -4813,7 +4816,8 @@
             <fullName>DARK BATCH</fullName>
             <default>false</default>
         </values>
-        <values>
+        
+            <values>
             <fullName>DARK RYE</fullName>
             <default>false</default>
         </values>
@@ -4975,14 +4979,6 @@
         </values>
         <values>
             <fullName>HAZELNUT</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>HEARTWOOD</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>HIGHGROVE</fullName>
             <default>false</default>
         </values>
         <values>

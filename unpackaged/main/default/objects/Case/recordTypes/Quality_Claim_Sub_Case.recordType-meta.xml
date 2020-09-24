@@ -1142,7 +1142,8 @@
             <fullName>Old Whiskeys</fullName>
             <default>false</default>
         </values>
-        <values>
+        
+            <values>
             <fullName>Pavan</fullName>
             <default>false</default>
         </values>
@@ -8712,14 +8713,6 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>HEARTWOOD</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>HIGHGROVE</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>HIGHLAND</fullName>
             <default>false</default>
         </values>
@@ -10050,7 +10043,8 @@
             <fullName>Incorrect State Code in SAP</fullName>
             <default>false</default>
         </values>
-        <values>
+        
+            <values>
             <fullName>Known Issue</fullName>
             <default>false</default>
         </values>

@@ -55,7 +55,7 @@ public without sharing class SBP_AccountApplicationCmpCtrl {
 
     ***************************************************************************************************************/
     @AuraEnabled
-    public static LightningComponentUtility.RequestStatus insertAccountApplication(String questionMap, String jsonApplications) {
+    public static LightningComponentUtility.RequestStatus insertAccountApplication(String questionMap, String jsonApplications,String userId) {
         Boolean success = true;
         String message = null;
         Map<String, Object> responseMap = new Map<String, Object>();
@@ -72,6 +72,7 @@ public without sharing class SBP_AccountApplicationCmpCtrl {
             app.Name = UserInfo.getName() + ' - ' + System.now();
             app.Status__c = 'New';
             app.Submitter__c = UserInfo.getUserId();
+            app.Diplomat_Partner_for_Your_Barrel__c = (userId==null) ? null : Id.valueOf(userId); //Added by ajeeta
             if (app.Account__c == null) {
                 app.Account__c = acct.Id;
                 app.Account_Missing__c = true;
@@ -119,7 +120,7 @@ public without sharing class SBP_AccountApplicationCmpCtrl {
 
     ***************************************************************************************************************/
     @AuraEnabled
-    public static LightningComponentUtility.RequestStatus sendRequestWithPreviousAnswers(String accountId, String brand, String distributorAccountId, String distributorContactId,String NationalAccountFlag) {
+    public static LightningComponentUtility.RequestStatus sendRequestWithPreviousAnswers(String accountId, String brand, String distributorAccountId, String distributorContactId,String NationalAccountFlag,String userId) {
         Boolean success = true;
         String message = null;
         Map<String, Object> responseMap = new Map<String, Object>();
@@ -140,6 +141,7 @@ public without sharing class SBP_AccountApplicationCmpCtrl {
             accountApplication.National_Account_flag__c = true;
             accountApplication.Distributor_Account__c = (distributorAccountId==null) ? null : Id.valueOf(distributorAccountId);
             accountApplication.Distributor_Contact__c = (distributorContactId==null) ? null : Id.valueOf(distributorContactId);
+            accountApplication.Diplomat_Partner_for_Your_Barrel__c = (userId==null) ? null : Id.valueOf(userId);  //Added by ajeeta
             insert accountApplication;
             for (Account_Application__c acctApp : [select id, Status__c, 
                                                    (Select Id, Answer_Text__c, Application_Question__c from Application_Responses__r) 
