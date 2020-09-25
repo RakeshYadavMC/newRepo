@@ -322,8 +322,11 @@
     </picklistValues>
     <picklistValues>
         <picklist>Brand__c</picklist>
-        
-        </picklistValues>
+        <values>
+            <fullName>On The Rocks</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
     <picklistValues>
         <picklist>CPro_Approval__c</picklist>
         <values>

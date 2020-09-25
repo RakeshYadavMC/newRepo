@@ -87,7 +87,7 @@ public class CaseControllerTest {
       }
 
       /* Get any profile for the given type.*/
-      Profile p = [select id from profile where usertype = :portalType.name() limit 1];
+      Profile p = [select id from profile where name ='Customer Community Plus User Test' and usertype = :portalType.name() limit 1];
 
       String testemail = 'puser000@amamama.com';
       User pu = new User(profileId = p.id, username = testemail, email = testemail,

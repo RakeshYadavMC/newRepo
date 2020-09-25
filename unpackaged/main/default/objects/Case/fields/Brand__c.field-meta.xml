@@ -363,6 +363,11 @@
                 <label>Old Whiskeys</label>
             </value>
             <value>
+                <fullName>On The Rocks</fullName>
+                <default>false</default>
+                <label>On The Rocks</label>
+            </value>
+            <value>
                 <fullName>Pavan</fullName>
                 <default>false</default>
                 <label>Pavan</label>

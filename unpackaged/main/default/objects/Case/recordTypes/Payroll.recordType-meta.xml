@@ -481,8 +481,11 @@
     </picklistValues>
     <picklistValues>
         <picklist>Brand__c</picklist>
-        
-        </picklistValues>
+        <values>
+            <fullName>On The Rocks</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
     <picklistValues>
         <picklist>Business_Unit__c</picklist>
         <values>
