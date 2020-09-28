@@ -1,0 +1,4804 @@
+<?xml version="1.0" encoding="utf-8"?><Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customApplications>
+        <label>Bonus Coupons</label>
+        <name>Bonus_Check_Lightning</name>
+    </customApplications>
+    <customApplications>
+        <label>Inversión de la MRCA</label>
+        <name>Brand_Investment</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Bulk &amp; Barrels --></label>
+        <name>BulkSpiritsCasks</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- GBS Service Console Lightning --></label>
+        <name>GBS_Service_Console_Lightning</name>
+    </customApplications>
+    <customApplications>
+        <label>360 Mexico Trade Marketing</label>
+        <name>GV_BSMX_Trade_Marketing_L</name>
+    </customApplications>
+    <customApplications>
+        <label>360 Mexico Gerente</label>
+        <name>GV_Mexico_Sales_Manager_L</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Global Travel Retail --></label>
+        <name>Global_Travel_Retail</name>
+    </customApplications>
+    <customApplications>
+        <label>360 Mexico Sales</label>
+        <name>GreatVines_Sales_Rep_L</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Legal Contract Intake Form --></label>
+        <name>Legal_Contract_Intake_Form</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Legal Contract Request --></label>
+        <name>Legal_Contract_Request</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- ServiceDesk Support --></label>
+        <name>ServiceDesk_Support</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Single Barrel Allocation --></label>
+        <name>Single_Barrel_Allocation</name>
+    </customApplications>
+    <customApplications>
+        <label>sales360</label>
+        <name>sales360</name>
+    </customApplications>
+    <customLabels>
+        <label>Acerca de</label>
+        <name>About</name>
+    </customLabels>
+    <customLabels>
+        <label>Provisión/ Reclasificación</label>
+        <name>Accrual_reclassification</name>
+    </customLabels>
+    <customLabels>
+        <label>Acción</label>
+        <name>Action</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Actions --></label>
+        <name>Actions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add Another PO Text --></label>
+        <name>Add_Another_PO_Text</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add Another Purchase Order --></label>
+        <name>Add_Another_Purchase_Order</name>
+    </customLabels>
+    <customLabels>
+        <label>Agregar</label>
+        <name>Add_Article</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add Claim --></label>
+        <name>Add_Claim</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add Email --></label>
+        <name>Add_Email</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add Email Description --></label>
+        <name>Add_Email_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Additional Information --></label>
+        <name>Additional_Information</name>
+    </customLabels>
+    <customLabels>
+        <label>Ajustes</label>
+        <name>Adjustments</name>
+    </customLabels>
+    <customLabels>
+        <label>Casos Cerrados</label>
+        <name>All_Closed_Cases</name>
+    </customLabels>
+    <customLabels>
+        <label>Casos Abiertos</label>
+        <name>All_Open_Cases</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Allocation Duplicate Message --></label>
+        <name>Allocation_Duplicate_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email Content-SLA time --></label>
+        <name>AppropriateSLA</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Approval Attached --></label>
+        <name>Approval_Attached</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email Content-approved claim --></label>
+        <name>ApprovedClaim</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AttachmentErrorMessage1 --></label>
+        <name>AttachmentErrorMessage1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AttachmentErrorMessage2 --></label>
+        <name>AttachmentErrorMessage2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Attachment Header --></label>
+        <name>Attachment_Header</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Attachment Instructions Order --></label>
+        <name>Attachment_Instructions_Order</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Attachment Instructions Order Claim --></label>
+        <name>Attachment_Instructions_Order_Claim</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Attachment Instructions Quality Claim --></label>
+        <name>Attachment_Instructions_Quality_Claim</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Attract recruit onboard --></label>
+        <name>Attract_recruit_onboard</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Audit --></label>
+        <name>Audit</name>
+    </customLabels>
+    <customLabels>
+        <label>Solicitud de auditoria</label>
+        <name>Audit_request</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Audits --></label>
+        <name>Audits</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Availability Date Known? --></label>
+        <name>Availability_Date_Known</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- BOMs --></label>
+        <name>BOMs</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- BSM Contact Confirm --></label>
+        <name>BSM_Contact_Confirm</name>
+    </customLabels>
+    <customLabels>
+        <label>"Se produjo un error al enviar un correo electrónico. Inténtelo de nuevo más tarde. Si el problema persiste, póngase en contacto con el administrador del sistema."</label>
+        <name>BSM_Coupon_Email_Failure</name>
+    </customLabels>
+    <customLabels>
+        <label>Correo electrónico enviado con éxito. Haga clic en el botón Cancelar para salir</label>
+        <name>BSM_Coupon_Email_Success</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- BSM Coupon Error --></label>
+        <name>BSM_Coupon_Error</name>
+    </customLabels>
+    <customLabels>
+        <label>OOPS !! El contacto seleccionado no tiene una dirección de correo electrónico. Actualice el registro de contacto con un correo electrónico válido y vuelva a intentarlo.</label>
+        <name>BSM_Coupon_No_Email</name>
+    </customLabels>
+    <customLabels>
+        <label>Regresar a Inicio de  Sesión</label>
+        <name>Back_to_login</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Bailment request --></label>
+        <name>Bailment_request</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Barrel Number --></label>
+        <name>Barrel_Number</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Barrel Order Number --></label>
+        <name>Barrel_Order_Number</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Base Company Community Survey URL --></label>
+        <name>Base_Company_Community_Survey_URL</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Base Company Community URL --></label>
+        <name>Base_Company_Community_URL</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Beam CS --></label>
+        <name>BeamCS</name>
+    </customLabels>
+    <customLabels>
+        <label>Empleados de Beam Suntory  clic aquí</label>
+        <name>Beam_Employee_Portal</name>
+    </customLabels>
+    <customLabels>
+        <label>Beam Suntory Account Management Specialists</label>
+        <name>Beam_Suntory_International_Distributor_Advocate_Team</name>
+    </customLabels>
+    <customLabels>
+        <label>Beneficios</label>
+        <name>Benefits</name>
+    </customLabels>
+    <customLabels>
+        <label>Saludos cordiales</label>
+        <name>Best_regards</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Block --></label>
+        <name>Block</name>
+    </customLabels>
+    <customLabels>
+        <label>Bonos</label>
+        <name>Bonus</name>
+    </customLabels>
+    <customLabels>
+        <label>Embajador de Marca</label>
+        <name>Brand_ambassador</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- COBRA --></label>
+        <name>COBRA</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CS Flow - Case Submission - Step 1 Header --></label>
+        <name>CS_Flow_Case_Submission_Step_1_Header</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CS Flow - Case Submission - Step 1 Sub-Header --></label>
+        <name>CS_Flow_Case_Submission_Step_1_Sub_Header</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CS Flow Picklist Option - Other --></label>
+        <name>CS_Flow_Picklist_Option_Other</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CS_Label_Traffic_Request_Description --></label>
+        <name>CS_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CS_Label_Availability_Date --></label>
+        <name>CS_Label_Availability_Date</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CS_Label_Beam_Item_Number --></label>
+        <name>CS_Label_Beam_Item_Number</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CS_Label_Beam_Suntory_Order_Number --></label>
+        <name>CS_Label_Beam_Suntory_Order_Number</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CS_Label_Beam_Suntory_Order_Number_Message --></label>
+        <name>CS_Label_Beam_Suntory_Order_Number_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CS_Label_Change_Multiple_Items_Text --></label>
+        <name>CS_Label_Change_Multiple_Items_Text</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CS_Label_Change_Type --></label>
+        <name>CS_Label_Change_Type</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CS_Label_Customer_Change_Type --></label>
+        <name>CS_Label_Customer_Change_Type</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CS_Label_Customer_Item_Number --></label>
+        <name>CS_Label_Customer_Item_Number</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CS_Label_Description --></label>
+        <name>CS_Label_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CS_Label_Document_Change_Description --></label>
+        <name>CS_Label_Document_Change_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CS_Label_Document_Type --></label>
+        <name>CS_Label_Document_Type</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CS_Label_Email_Address --></label>
+        <name>CS_Label_Email_Address</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CS_Label_Name --></label>
+        <name>CS_Label_Name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CS_Label_Newsletter_Description --></label>
+        <name>CS_Label_Newsletter_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CS_Label_Number_of_Orders_Affected --></label>
+        <name>CS_Label_Number_of_Orders_Affected</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CS_Label_Other_Document_Type --></label>
+        <name>CS_Label_Other_Document_Type</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CS_Label_Other_Internal_Change --></label>
+        <name>CS_Label_Other_Internal_Change</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CS_Label_Other_Traffic_Request_Reason --></label>
+        <name>CS_Label_Other_Traffic_Request_Reason</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CS_Label_Request_Justification --></label>
+        <name>CS_Label_Request_Justification</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CS_Label_Traffic_Request_Reason --></label>
+        <name>CS_Label_Traffic_Request_Reason</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CalendarDataLimit --></label>
+        <name>CalendarDataLimit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CalendarDataLimitExceed --></label>
+        <name>CalendarDataLimitExceed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CalendarReportExport --></label>
+        <name>CalendarReportExport</name>
+    </customLabels>
+    <customLabels>
+        <label>Cancelar</label>
+        <name>Cancel</name>
+    </customLabels>
+    <customLabels>
+        <label>No se puede imprimir la factura/ Creacion manual de la factura</label>
+        <name>Cannot_print_invoice_manual_invoice_creation</name>
+    </customLabels>
+    <customLabels>
+        <label>Estado de aprobación para tarjeta</label>
+        <name>Card_approval_status</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Carrier --></label>
+        <name>Carrier</name>
+    </customLabels>
+    <customLabels>
+        <label>Caso</label>
+        <name>Case</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email Content --></label>
+        <name>CaseAssigned</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email Content-picked up --></label>
+        <name>CasePickedUp</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email content --></label>
+        <name>CaseResolved</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email Content --></label>
+        <name>CaseResolved2</name>
+    </customLabels>
+    <customLabels>
+        <label>Case_Approval_es_MX</label>
+        <name>Case_Approval</name>
+    </customLabels>
+    <customLabels>
+        <label>"Caso #{0} esta en espera de tu aprobación.
+ 
+Caso #{1} esta en espera de tu aprobación. Por favor revisa este caso y apruebalo o rechazalo, ya sea respondiendo a este correo o entrando a la Comunidad Interna de Salesforce.
+
+Puedes colocar APRUEBO, APROBADO,SI, RECHAZO, RECHAZADO o NO en la primera linea de tu respuesta por correo. Puedes agregar tambien comentarios en la linea siguiente. 
+
+Tambien tienes al alternativa de Aprobar o rechazar en la Comunidad Interna de Salesforce usando esta liga:
+{2}"</label>
+        <name>Case_Approval_Requested</name>
+    </customLabels>
+    <customLabels>
+        <label>Case_Assigned_es_MX</label>
+        <name>Case_Assigned</name>
+    </customLabels>
+    <customLabels>
+        <label>Caso #{0} ha sido asignado</label>
+        <name>Case_Assigned_Email_Subject</name>
+    </customLabels>
+    <customLabels>
+        <label>Case_Assigned_Internal_es_MX</label>
+        <name>Case_Assigned_Internal</name>
+    </customLabels>
+    <customLabels>
+        <label>Caso le fue asignado a usted #{0}</label>
+        <name>Case_Assigned_Internal_Email_Subject</name>
+    </customLabels>
+    <customLabels>
+        <label>Case_Assigned_Internal_Notification_es_MX</label>
+        <name>Case_Assigned_Internal_Notification</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Case Assigned Outlook --></label>
+        <name>Case_Assigned_Outlook</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Case Assigned SBFE --></label>
+        <name>Case_Assigned_SBFE</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Case Assigned SBFE Outlook --></label>
+        <name>Case_Assigned_SBFE_Outlook</name>
+    </customLabels>
+    <customLabels>
+        <label>El caso no puede ser procesado con documentos faltantes</label>
+        <name>Case_Cannot_Process</name>
+    </customLabels>
+    <customLabels>
+        <label>Case_Closed_es_MX</label>
+        <name>Case_Closed</name>
+    </customLabels>
+    <customLabels>
+        <label>El caso #{0} ha sido resuelto;  ver detalles adjuntos</label>
+        <name>Case_Closed_Email_Subject</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Case Closed Outlook --></label>
+        <name>Case_Closed_Outlook</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Case Closed SBFE --></label>
+        <name>Case_Closed_SBFE</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Case Closed SBFE Outlook --></label>
+        <name>Case_Closed_SBFE_Outlook</name>
+    </customLabels>
+    <customLabels>
+        <label>Case_Escalated_es_MX</label>
+        <name>Case_Escalated</name>
+    </customLabels>
+    <customLabels>
+        <label>Download the case management user guide</label>
+        <name>Case_Management_Guide_Download</name>
+    </customLabels>
+    <customLabels>
+        <label>Numero de Caso</label>
+        <name>Case_Number</name>
+    </customLabels>
+    <customLabels>
+        <label>Case_Reopened_es_MX</label>
+        <name>Case_Reopened</name>
+    </customLabels>
+    <customLabels>
+        <label>Caso ha sido reabierto #{0}</label>
+        <name>Case_Reopened_Email_Subject</name>
+    </customLabels>
+    <customLabels>
+        <label>Envío de Caso</label>
+        <name>Case_Submission</name>
+    </customLabels>
+    <customLabels>
+        <label>Casos</label>
+        <name>Cases</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Change_Label_Type_of_Change --></label>
+        <name>Change</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email Content-change approved --></label>
+        <name>ChangeApproved</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email Content- Change Approval Body --></label>
+        <name>ChangeCaseNumber</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email Content -change approval body2 --></label>
+        <name>ChangeCaseNumber2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Changes Label --></label>
+        <name>Changes_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Chart of Accounts &amp; Mapping --></label>
+        <name>Chart_of_Accounts_Mapping</name>
+    </customLabels>
+    <customLabels>
+        <label>Ciudad</label>
+        <name>City</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email Content-Claim case --></label>
+        <name>ClaimCaseNumber</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email Content- Claim Routing --></label>
+        <name>ClaimRouting</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Claim Amount --></label>
+        <name>Claim_Amount</name>
+    </customLabels>
+    <customLabels>
+        <label>Demandas</label>
+        <name>Claims</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Claims Pending Submission --></label>
+        <name>Claims_Pending_Submission</name>
+    </customLabels>
+    <customLabels>
+        <label>Cerrar</label>
+        <name>Close</name>
+    </customLabels>
+    <customLabels>
+        <label>Cerrado</label>
+        <name>Closed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Closed Approved --></label>
+        <name>Closed_Approved</name>
+    </customLabels>
+    <customLabels>
+        <label>Cerrado sin acción</label>
+        <name>Closed_No_Action</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Closed Rejected --></label>
+        <name>Closed_Rejected</name>
+    </customLabels>
+    <customLabels>
+        <label>Comentarios</label>
+        <name>Comments</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Comments_Label --></label>
+        <name>Comments_Label</name>
+    </customLabels>
+    <customLabels>
+        <label>Compañía</label>
+        <name>Company</name>
+    </customLabels>
+    <customLabels>
+        <label>Domicilio de empresa</label>
+        <name>Company_Address</name>
+    </customLabels>
+    <customLabels>
+        <label>Código de Compañía</label>
+        <name>Company_Code</name>
+    </customLabels>
+    <customLabels>
+        <label>Nombre de compañía</label>
+        <name>Company_Name</name>
+    </customLabels>
+    <customLabels>
+        <label>Auto de la compañía</label>
+        <name>Company_car</name>
+    </customLabels>
+    <customLabels>
+        <label>Formulario de solicitud de factura financiera completo</label>
+        <name>Completed_FI_Request</name>
+    </customLabels>
+    <customLabels>
+        <label>Consultas sobre perfil Concur</label>
+        <name>Concur_profile_inquiries</name>
+    </customLabels>
+    <customLabels>
+        <label>Contacto</label>
+        <name>Contact</name>
+    </customLabels>
+    <customLabels>
+        <label>Aplicación para tarjeta corporativa</label>
+        <name>Corporate_Credit_Card_Form</name>
+    </customLabels>
+    <customLabels>
+        <label>Consultas Tarjeta Corporativa</label>
+        <name>Corporate_credit_card_inquiries</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Corresponding Collaborators --></label>
+        <name>Corresponding_Collaborators</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cost Center Change --></label>
+        <name>Cost_Center_Change</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cost Center Create --></label>
+        <name>Cost_Center_Create</name>
+    </customLabels>
+    <customLabels>
+        <label>"Tu centro de costo lo puedes encontrar en SuccessFactors. Cuando aparezca tu informacion cambia de ""Public Profile"" a ""Employment Information"" y el centro de costo estará en ""Organization Information"""</label>
+        <name>Cost_Center_Info</name>
+    </customLabels>
+    <customLabels>
+        <label>Actualización de centro de costo</label>
+        <name>Cost_center_data_upload</name>
+    </customLabels>
+    <customLabels>
+        <label>País</label>
+        <name>Country</name>
+    </customLabels>
+    <customLabels>
+        <label>País de interés</label>
+        <name>Country_of_Interest</name>
+    </customLabels>
+    <customLabels>
+        <label>Seleccione el país donde esta ubicado el empleado, o al país correspondiente a su consulta.</label>
+        <name>Country_of_Interest_Info</name>
+    </customLabels>
+    <customLabels>
+        <label>Crear caso</label>
+        <name>Create_Case</name>
+    </customLabels>
+    <customLabels>
+        <label>Crear un nuevo perfil</label>
+        <name>Create_new_profile</name>
+    </customLabels>
+    <customLabels>
+        <label>Para solicitar la reposición de tu tarjeta corporativa por robo o extravío debe llamar a la línea de soporte Citibank al 0155- 22260033 ó 0155 2226 8889</label>
+        <name>Credit_Card_Reissue_Steps</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Credit Note Number --></label>
+        <name>Credit_Note_Number</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Credit Request --></label>
+        <name>Credit_Request</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Credit and Collections --></label>
+        <name>Credit_and_Collections</name>
+    </customLabels>
+    <customLabels>
+        <label>"Para reemplazo de tu tarjeta de crédito corporativo contacta a Citibank directamente en los siguientes números: 
+ - U.S: 800-248-4553 (fuera de U.S. y Canadá, llamar al 904-954-7314) 
+ - Mexico: 55- 222-600-33 
+ - España:  +34 9153 84315 (fuera de España, llamar +34 9105 07128) 
+ - Citi Bank Australia: 1800 629 644 (+61 2 8225 0210) 
+ - Citi Bank New Zelanda: 0800 277 704 (+64 9369 5870) 
+ - Citi Bank Singapur: 800 181 1070 (+65 6238 6367) 
+ - Citi Bank Corea: 1588 4000  
+ - China Merchant Bank: 400 820 5558"</label>
+        <name>Credit_card_reissue</name>
+    </customLabels>
+    <customLabels>
+        <label>Moneda</label>
+        <name>Currency</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CurrencyConversionMM/DD --></label>
+        <name>CurrencyConversionMMDD</name>
+    </customLabels>
+    <customLabels>
+        <label>Tiene alguna orden pendiente?</label>
+        <name>Current_Order_Pending</name>
+    </customLabels>
+    <customLabels>
+        <label>Monto de Ordenes Actuales</label>
+        <name>Current_Orders_Amount</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Customer --></label>
+        <name>Customer</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Customer Hierarchy Maintenance --></label>
+        <name>Customer_Hierarchy_Maintenance</name>
+    </customLabels>
+    <customLabels>
+        <label>Numero de factura del cliente</label>
+        <name>Customer_Invoice_Number</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Customer Master Maintenance --></label>
+        <name>Customer_Master_Maintenance</name>
+    </customLabels>
+    <customLabels>
+        <label>Nombre de cliente</label>
+        <name>Customer_Name</name>
+    </customLabels>
+    <customLabels>
+        <label>Numero de Cliente</label>
+        <name>Customer_Number</name>
+    </customLabels>
+    <customLabels>
+        <label>Orden de pedido del cliente</label>
+        <name>Customer_PO_Number</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- D2D Transfer --></label>
+        <name>D2D_Transfer</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- This provides static resource base url for social media images --></label>
+        <name>DSC_Base_URL_SocialMediaImages</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DUP No Action --></label>
+        <name>DUP_No_Action</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Damage Claim Descrip --></label>
+        <name>Damage_Claim_Descrip</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Damage Claim Title --></label>
+        <name>Damage_Claim_Title</name>
+    </customLabels>
+    <customLabels>
+        <label>Deducciones</label>
+        <name>Deductions</name>
+    </customLabels>
+    <customLabels>
+        <label>Pregunta sobre deducciones</label>
+        <name>Deductions_inquiries</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Delete --></label>
+        <name>Delete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Delimit position(s) --></label>
+        <name>Delimit_positions</name>
+    </customLabels>
+    <customLabels>
+        <label>Descripción</label>
+        <name>Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Destruction Requests --></label>
+        <name>Destruction_Requests</name>
+    </customLabels>
+    <customLabels>
+        <label>Solicitud de Destruccion</label>
+        <name>Destruction_request</name>
+    </customLabels>
+    <customLabels>
+        <label>Detalles</label>
+        <name>Details</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Did you already log a case? --></label>
+        <name>Did_you_already_log_a_case</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Direct Import --></label>
+        <name>Direct_Import</name>
+    </customLabels>
+    <customLabels>
+        <label>Débitos directos</label>
+        <name>Direct_debits</name>
+    </customLabels>
+    <customLabels>
+        <label>Depósitos a cuenta</label>
+        <name>Direct_deposits</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Disability, parental or FMLA leave --></label>
+        <name>Disability_parental_or_FMLA_leave</name>
+    </customLabels>
+    <customLabels>
+        <label>Numero de Artículos Desplegados (Max 10)</label>
+        <name>Displayed_Articles</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Disposal --></label>
+        <name>Disposal</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Disposal Form Attached --></label>
+        <name>Disposal_Form_Attached</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Disposal Impairment template --></label>
+        <name>Disposal_Impairment_template</name>
+    </customLabels>
+    <customLabels>
+        <label>Eliminación / Deterioro</label>
+        <name>Disposal_impairment</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Distributor Currency --></label>
+        <name>Distributor_Currency</name>
+    </customLabels>
+    <customLabels>
+        <label>Solicitud de documento</label>
+        <name>Document_request</name>
+    </customLabels>
+    <customLabels>
+        <label>Documento(s) adjunto?</label>
+        <name>Documents_Attached</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Domain URL --></label>
+        <name>Domain_URL</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Drug screen/background check --></label>
+        <name>Drug_screen_background_check</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EDICOM Support --></label>
+        <name>EDICOM_Support</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EDW Mapping Maintenance --></label>
+        <name>EDW_Mapping_Maintenance</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CSV file is empty. --></label>
+        <name>EMPTY_FILE</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- The provided Json String was badly formatted. --></label>
+        <name>ERROR_JSON_BAD_FORMAT</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No field values were found in the Json String. --></label>
+        <name>ERROR_JSON_EMPTY</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Operation failed, please check messages! --></label>
+        <name>ERROR_OP_FAILED</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Request failed with no specified error. --></label>
+        <name>ERROR_REQUEST_FAILED_NO_ERROR</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Unauthorized endpoint, please check Setup --></label>
+        <name>ERROR_UNAUTHORIZED_ENDPOINT</name>
+    </customLabels>
+    <customLabels>
+        <label>Pregunta sobre ingresos</label>
+        <name>Earnings_inquiries</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Edit --></label>
+        <name>Edit</name>
+    </customLabels>
+    <customLabels>
+        <label>Correo electrónico</label>
+        <name>Email</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email Content- EmailToCase Email Template Body --></label>
+        <name>EmailToCase</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email Content- Email to Case- Subject Line --></label>
+        <name>EmailToCaseSubject</name>
+    </customLabels>
+    <customLabels>
+        <label>Aprobación escrita o por correo de la persona autorizada</label>
+        <name>Email_Approval_Authorized</name>
+    </customLabels>
+    <customLabels>
+        <label>No puedes encontrar el correo electrónico? Revisa tu correo electrónico de spam.</label>
+        <name>Email_Check_Spam</name>
+    </customLabels>
+    <customLabels>
+        <label>Correo electrónico</label>
+        <name>Email_Registration</name>
+    </customLabels>
+    <customLabels>
+        <label>Correo electrónico</label>
+        <name>Email_Web</name>
+    </customLabels>
+    <customLabels>
+        <label>Información de correo electrónico al caso</label>
+        <name>Email_to_Case_Information</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Employee ID --></label>
+        <name>Employee_ID</name>
+    </customLabels>
+    <customLabels>
+        <label>"Encontraras tu ID de empleado en SuccessFactors. Cuando aparezca tu información cambia de ""Public Profile"" a  ""Personal Information"" y bajo ""Biographical information"" encontraras tu ID de empleado."</label>
+        <name>Employee_ID_Info</name>
+    </customLabels>
+    <customLabels>
+        <label>Ubicación del empleado</label>
+        <name>Employee_Location</name>
+    </customLabels>
+    <customLabels>
+        <label>Nombre de empleado</label>
+        <name>Employee_Name</name>
+    </customLabels>
+    <customLabels>
+        <label>Código empleado proveedor</label>
+        <name>Employee_Vendor_Code</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Employee Vendor Creation guide --></label>
+        <name>Employee_Vendor_Creation_guide</name>
+    </customLabels>
+    <customLabels>
+        <label>Información de Empleado</label>
+        <name>Employee_information</name>
+    </customLabels>
+    <customLabels>
+        <label>Solicitudes de Empleado</label>
+        <name>Employee_requests_US_Canada</name>
+    </customLabels>
+    <customLabels>
+        <label>Autoayuda para empleado</label>
+        <name>Employee_self_service</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Employee separation --></label>
+        <name>Employee_separation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error --></label>
+        <name>Error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error Message --></label>
+        <name>Error_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error Message Formatted Label --></label>
+        <name>Error_Message_Formatted_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Escalated Form Label --></label>
+        <name>Escalated_Form_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Executive requests --></label>
+        <name>Executive_requests</name>
+    </customLabels>
+    <customLabels>
+        <label>Reporte de gastos</label>
+        <name>Expense_report</name>
+    </customLabels>
+    <customLabels>
+        <label>Expiración</label>
+        <name>Expiration</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Extend --></label>
+        <name>Extend</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Extended_Payment_Term_Request_Template_URL --></label>
+        <name>Extended_Payment_Term_Request_Template_URL</name>
+    </customLabels>
+    <customLabels>
+        <label>Termino extendido solicitado</label>
+        <name>Extended_Terms_Requested</name>
+    </customLabels>
+    <customLabels>
+        <label>Detalles del cliente externo</label>
+        <name>External_Customer_Details</name>
+    </customLabels>
+    <customLabels>
+        <label>Auditoría externa</label>
+        <name>External_audit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FA change template --></label>
+        <name>FA_change_template</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FA creation template --></label>
+        <name>FA_creation_template</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Please provide a comma separated file. --></label>
+        <name>FILE_MISSING</name>
+    </customLabels>
+    <customLabels>
+        <label>Alimentar</label>
+        <name>Feed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Field Length Error Message --></label>
+        <name>Field_Length_Error_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- File Format --></label>
+        <name>File_Format</name>
+    </customLabels>
+    <customLabels>
+        <label>Nombre de Archivo</label>
+        <name>File_Name</name>
+    </customLabels>
+    <customLabels>
+        <label>Archivos</label>
+        <name>Files</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FilesUploaded --></label>
+        <name>FilesUploaded</name>
+    </customLabels>
+    <customLabels>
+        <label>Solicitud para el pedido de facturacion financiera</label>
+        <name>Financial_Invoice_Request_Form</name>
+    </customLabels>
+    <customLabels>
+        <label>Guía de la solicitud para el pedido de facturacion financiera</label>
+        <name>Financial_Invoice_Request_Form_Guide</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Financial_Statements_FAQ_URL --></label>
+        <name>Financial_Statements_FAQ_URL</name>
+    </customLabels>
+    <customLabels>
+        <label>Actualizaciones de perfil Concur</label>
+        <name>Financial_data_upload_request</name>
+    </customLabels>
+    <customLabels>
+        <label>Solicitud de Factura Financiera</label>
+        <name>Financial_invoice_request</name>
+    </customLabels>
+    <customLabels>
+        <label>Como encontrar tu centro de costo</label>
+        <name>Find_Cost_Center</name>
+    </customLabels>
+    <customLabels>
+        <label>Como encontrar tu ID de empleado</label>
+        <name>Find_Employee_ID</name>
+    </customLabels>
+    <customLabels>
+        <label>Nombre</label>
+        <name>First_Name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Fixed asset request --></label>
+        <name>Fixed_asset_request</name>
+    </customLabels>
+    <customLabels>
+        <label>Parque vehicular</label>
+        <name>Fleet_vehicles</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FlowButtonAdd --></label>
+        <name>FlowButtonAdd</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ForecastReportUS --></label>
+        <name>ForecastReport</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ForecastReportAUS --></label>
+        <name>ForecastReportAUS</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Forecast Snapshot AUS Heading --></label>
+        <name>Forecast_Snapshot_AUS_Heading</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Forecast Snapshot App Name BI --></label>
+        <name>Forecast_Snapshot_App_Name_BI</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Forecast Snapshot Tab AUS --></label>
+        <name>Forecast_Snapshot_Tab_AUS</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Forecast Snapshot Tab US --></label>
+        <name>Forecast_Snapshot_Tab_US</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Forecast Snapshot US Heading --></label>
+        <name>Forecast_Snapshot_US_Heading</name>
+    </customLabels>
+    <customLabels>
+        <label>Olvidaste tu contraseña?</label>
+        <name>Forgot_Password</name>
+    </customLabels>
+    <customLabels>
+        <label>Olvidaste tu contraseña</label>
+        <name>Forgot_Password_Headline</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Formulas --></label>
+        <name>Formulas</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Freight Claim Descrip --></label>
+        <name>Freight_Claim_Descrip</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Freight Claim Sub Header --></label>
+        <name>Freight_Claim_Sub_Header</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Freight Claim Title --></label>
+        <name>Freight_Claim_Title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Freight Claim Type --></label>
+        <name>Freight_Claim_Type</name>
+    </customLabels>
+    <customLabels>
+        <label>"Proporcione un Centro de Costos y la descripción del mismo para las solicitudes de carga de centro de costos.
+Si solicita subir más de cinco centros de costos proporcione información en un documento de Excel, que se puede cargar en la siguiente pantalla"</label>
+        <name>GBSInst_Cost_center_data_upload</name>
+    </customLabels>
+    <customLabels>
+        <label>"Proporcione el número del libro mayor y la descripción del libro mayor para las solicitudes de carga de datos del libro mayor. 
+Si solicita subir más de cinco libros de mayor proporcione información en un documento de Excel, que se puede cargar en la siguiente pantalla"</label>
+        <name>GBSInst_General_ledger_data_upload</name>
+    </customLabels>
+    <customLabels>
+        <label>"Proporcione el código de IO / WBS / campaña, la descripción del código de IO / WBS / campaña y el código de la empresa para las solicitudes de carga de datos de WBS / pedidos internos.
+Si solicita cargar más de cinco datos de WBS/pedidos Internos proporcione información en un documento de Excel, que se puede cargar en la siguiente pantalla"</label>
+        <name>GBSInst_Internal_order_WBS_data_upload</name>
+    </customLabels>
+    <customLabels>
+        <label>Tipo de Caso</label>
+        <name>GBS_Breadcrumbs</name>
+    </customLabels>
+    <customLabels>
+        <label>Centro de GBS</label>
+        <name>GBS_Center</name>
+    </customLabels>
+    <customLabels>
+        <label>Vea los detalles del caso abierto haciendo click en el número de caso aquí abajo o vea casos cerrados usando el menú desplegable. Una vez cerrado el caso el botón para reabrir el caso se habilitará los siguientes 5 días naturales en caso de que necesite información extra sobre el mismo. Si el caso no puede ser reabierto o tiene alguna duda no relacionada con el caso por favor abra un caso nuevo.</label>
+        <name>GBS_Community_Cases_Info</name>
+    </customLabels>
+    <customLabels>
+        <label>Debes completar los siguientes campos requeridos</label>
+        <name>GBS_Error</name>
+    </customLabels>
+    <customLabels>
+        <label>Error, haga una selección por cada campo.</label>
+        <name>GBS_Flow_selection_error</name>
+    </customLabels>
+    <customLabels>
+        <label>He olvidado mi contraseña</label>
+        <name>GBS_Forgot_password</name>
+    </customLabels>
+    <customLabels>
+        <label>Elegir el tipo de Caso</label>
+        <name>GBS_Header_1</name>
+    </customLabels>
+    <customLabels>
+        <label>Elija una categoría de caso primario.</label>
+        <name>GBS_Header_2</name>
+    </customLabels>
+    <customLabels>
+        <label>Elige la Categoría Secundaria del Caso</label>
+        <name>GBS_Header_3</name>
+    </customLabels>
+    <customLabels>
+        <label>Complete el Formulario</label>
+        <name>GBS_Header_4</name>
+    </customLabels>
+    <customLabels>
+        <label>Adjuntar Documentos</label>
+        <name>GBS_Header_5</name>
+    </customLabels>
+    <customLabels>
+        <label>Elija la Tercer Categoría del caso</label>
+        <name>GBS_Header_6</name>
+    </customLabels>
+    <customLabels>
+        <label>Caso</label>
+        <name>GBS_Header_Finish</name>
+    </customLabels>
+    <customLabels>
+        <label>Ingresado Correctamente</label>
+        <name>GBS_Header_Finish_2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- GBS_Header_Number_of_Entries --></label>
+        <name>GBS_Header_Number_of_Entries</name>
+    </customLabels>
+    <customLabels>
+        <label>Monto</label>
+        <name>GBS_Label_Amount</name>
+    </customLabels>
+    <customLabels>
+        <label>Monto (INR)</label>
+        <name>GBS_Label_Amount_INR</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- GBS_Label_Balance_Due --></label>
+        <name>GBS_Label_Balance_Due</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- GBS_Label_Business_Phone --></label>
+        <name>GBS_Label_Business_Phone</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- GBS Label Case Type --></label>
+        <name>GBS_Label_Case_Type</name>
+    </customLabels>
+    <customLabels>
+        <label>Cheque o número de factura</label>
+        <name>GBS_Label_Check_Number</name>
+    </customLabels>
+    <customLabels>
+        <label>"Adjunte una copia de la reclamación, archivo u otros documentos de soporte."</label>
+        <name>GBS_Label_Claim_submission_attachment_message</name>
+    </customLabels>
+    <customLabels>
+        <label>Adjunte copia de la plantilla de solicitud de entrada de diario llenada.</label>
+        <name>GBS_Label_Claims_journal_entry_request_attachment_message</name>
+    </customLabels>
+    <customLabels>
+        <label>Comentarios</label>
+        <name>GBS_Label_Comments</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- GBS_Label_Corporate_Card_Application_Date --></label>
+        <name>GBS_Label_Corporate_Card_Application_Date</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- GBS_Label_Corporate_Card_Urgency_Header --></label>
+        <name>GBS_Label_Corporate_Card_Urgency_Header</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- GBS_Label_Corporate_Card_Urgency_Sub --></label>
+        <name>GBS_Label_Corporate_Card_Urgency_Sub</name>
+    </customLabels>
+    <customLabels>
+        <label>Centro de Costos</label>
+        <name>GBS_Label_Cost_Center</name>
+    </customLabels>
+    <customLabels>
+        <label>Correo Electrónico</label>
+        <name>GBS_Label_Email</name>
+    </customLabels>
+    <customLabels>
+        <label>ID de Empleado</label>
+        <name>GBS_Label_Employee_ID</name>
+    </customLabels>
+    <customLabels>
+        <label>Nombre del aprobador de gastos</label>
+        <name>GBS_Label_Expense_approver_name</name>
+    </customLabels>
+    <customLabels>
+        <label>"Solo se puede enviar un formulario de solicitud financiera por caso. Si tiene múltiples solicitudes, envíe casos separados."</label>
+        <name>GBS_Label_FIRequest_instructions</name>
+    </customLabels>
+    <customLabels>
+        <label>Nombre (Como se muestra en Identificación/ pasaporte emitido por el gobierno)</label>
+        <name>GBS_Label_First_Name</name>
+    </customLabels>
+    <customLabels>
+        <label>"Incluya el formulario CAR, y autorizaciones asociadas"</label>
+        <name>GBS_Label_Fixed_asset_creation_attachment_text</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- GBS_Label_Invoice_Correction_Affect_Inventory --></label>
+        <name>GBS_Label_Invoice_Correction_Affect_Inventory</name>
+    </customLabels>
+    <customLabels>
+        <label>Fecha de Factura</label>
+        <name>GBS_Label_Invoice_Date</name>
+    </customLabels>
+    <customLabels>
+        <label>Numero de Factura</label>
+        <name>GBS_Label_Invoice_Number</name>
+    </customLabels>
+    <customLabels>
+        <label>Instrucciones para la presentación de una factura</label>
+        <name>GBS_Label_Invoice_Submission_Header</name>
+    </customLabels>
+    <customLabels>
+        <label>Para enviar una factura y documentación de respaldo vaya al siguiente vinculo para instrucciones de envío. Podrá enviar varios documentos pdf en un solo correo pero solo una factura en cada pdf.</label>
+        <name>GBS_Label_Invoice_Submission_Instructions</name>
+    </customLabels>
+    <customLabels>
+        <label>Enviar una factura</label>
+        <name>GBS_Label_Invoice_submission_pdf</name>
+    </customLabels>
+    <customLabels>
+        <label>Por favor incluya documentos de soporte y aprobaciones relacionadas</label>
+        <name>GBS_Label_Journal_entry_attachment_message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- GBS_Label_Last_4_SSN --></label>
+        <name>GBS_Label_Last_4_SSN</name>
+    </customLabels>
+    <customLabels>
+        <label>Apellido (como se muestra en identificación / pasaporte emitido por el gobierno)</label>
+        <name>GBS_Label_Last_Name</name>
+    </customLabels>
+    <customLabels>
+        <label>Inicial del segundo nombre (como se muestra en identificación / pasaporte emitido por el gobierno)</label>
+        <name>GBS_Label_Middle_Name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- GBS_Label_Number_of_Invoices --></label>
+        <name>GBS_Label_Number_of_Invoices</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- GBS_Label_Number_of_Items_Requested --></label>
+        <name>GBS_Label_Number_of_Items_Requested</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- GBS_Label_Number_of_Payments --></label>
+        <name>GBS_Label_Number_of_Payments</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- GBS_Label_PO_Change --></label>
+        <name>GBS_Label_PO_Change</name>
+    </customLabels>
+    <customLabels>
+        <label>Orden de compra (PO)</label>
+        <name>GBS_Label_PO_Number</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- GBS_Label_PRPO_Number --></label>
+        <name>GBS_Label_PRPO_Number</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- GBS_Label_Payment_Date --></label>
+        <name>GBS_Label_Payment_Date</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- GBS_Label_Payment_Method --></label>
+        <name>GBS_Label_Payment_Method</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- GBS_Label_Payment_Reference --></label>
+        <name>GBS_Label_Payment_Reference</name>
+    </customLabels>
+    <customLabels>
+        <label>Categoría Principal</label>
+        <name>GBS_Label_Primary_Category</name>
+    </customLabels>
+    <customLabels>
+        <label>Razón de la solicitud</label>
+        <name>GBS_Label_Reason_for_request</name>
+    </customLabels>
+    <customLabels>
+        <label>Motivo de reclamación fuera de línea</label>
+        <name>GBS_Label_Reason_for_submitting_claim_offline</name>
+    </customLabels>
+    <customLabels>
+        <label>Descripción de la solicitud</label>
+        <name>GBS_Label_Request_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- GBS_Label_Required_Characters --></label>
+        <name>GBS_Label_Required_Characters</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- GBS_Label_SAP_Number --></label>
+        <name>GBS_Label_SAP_Number</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label_SKU_Number --></label>
+        <name>GBS_Label_SKU_Number</name>
+    </customLabels>
+    <customLabels>
+        <label>Número SPR</label>
+        <name>GBS_Label_SPR_Number</name>
+    </customLabels>
+    <customLabels>
+        <label>Categoría Secundaria</label>
+        <name>GBS_Label_Secondary_Category</name>
+    </customLabels>
+    <customLabels>
+        <label>Categoría terciaria</label>
+        <name>GBS_Label_Tertiary_Category</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- GBS_Label_Urgent --></label>
+        <name>GBS_Label_Urgent</name>
+    </customLabels>
+    <customLabels>
+        <label>Numero de Proveedor</label>
+        <name>GBS_Label_Vendor_Number</name>
+    </customLabels>
+    <customLabels>
+        <label>Dirección del trabajo</label>
+        <name>GBS_Label_Work_Address</name>
+    </customLabels>
+    <customLabels>
+        <label>Error, campos invalido.</label>
+        <name>GBS_Label_invalid_fields</name>
+    </customLabels>
+    <customLabels>
+        <label>"Las solicitudes de corrección de facturas no pueden procesarse a menos que las haya enviado alguien en la matriz de autoridad, o se adjunte al caso una prueba de aprobación de la corrección."</label>
+        <name>GBS_Label_invoice_correction_instructions</name>
+    </customLabels>
+    <customLabels>
+        <label>Para todos los problemas de cantidad, comuníquese con su Coordinador de Servicio al Cliente para resolver el problema. Al hacer clic en el botón "Siguiente", se dirigirá al inicio del proceso de Administración de casos de Global Business Services.</label>
+        <name>GBS_Label_quantity_issue_instructions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- GBS Label PO, invoice or order number --></label>
+        <name>GBS_PO_invoice_or_order_number</name>
+    </customLabels>
+    <customLabels>
+        <label>Por favor elija en la parte de abajo el tipo de caso que es más relevante a su solicitud</label>
+        <name>GBS_Sub_1</name>
+    </customLabels>
+    <customLabels>
+        <label>Por favor indique la categoría primaria para su solicitud de {!Case_Type}</label>
+        <name>GBS_Sub_2</name>
+    </customLabels>
+    <customLabels>
+        <label>Por favor indique la categoría secundaria para su solicitud de {!Case_Type}</label>
+        <name>GBS_Sub_3</name>
+    </customLabels>
+    <customLabels>
+        <label>Por favor complete el formulario siguiente. Los campos obligatorios están marcados en rojo. Tendrá la oportunidad de adjuntar uno o mas documentos en las pantallas siguientes</label>
+        <name>GBS_Sub_4</name>
+    </customLabels>
+    <customLabels>
+        <label>Por favor use el siguiente modulo para adjuntar uno o varios documentos relativos al caso.</label>
+        <name>GBS_Sub_5</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- GBS_Sub_6 --></label>
+        <name>GBS_Sub_6</name>
+    </customLabels>
+    <customLabels>
+        <label>Su caso ha sido ingresado con éxito. El Numero de Caso es</label>
+        <name>GBS_Sub_Exit_1</name>
+    </customLabels>
+    <customLabels>
+        <label>". De un clic en el botón ""Finalizar"" para ir directamente a su caso. De clic en la pestaña ""Mis Casos"" para ver todos sus casos."</label>
+        <name>GBS_Sub_Exit_2</name>
+    </customLabels>
+    <customLabels>
+        <label>Recursos Sugeridos</label>
+        <name>GBS_Suggested_Docs</name>
+    </customLabels>
+    <customLabels>
+        <label>Gracias por registrarse en la Comunidad de la Compañía Beam Suntory. Usted recibirá un correo electrónico con su confirmación de solicitud e información adicional.</label>
+        <name>GBS_Vendor_Confirmation</name>
+    </customLabels>
+    <customLabels>
+        <label>"Inicia sesión en el portal de la compañía para tener acceso a los recursos, preguntas frecuentes o abrir un caso en el administrador de casos. Si eres un usuario nuevo por favor da clic en ""Nuevos usuarios regístrense aquí"" para completar el proceso de registro."</label>
+        <name>GBS_Vendor_Registration_Info</name>
+    </customLabels>
+    <customLabels>
+        <label>Para restablecer su contraseña, introduzca su nombre de usuario</label>
+        <name>GBS_enter_username</name>
+    </customLabels>
+    <customLabels>
+        <label>Nombre de usuari</label>
+        <name>GBS_password_username</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- GL Account Change/Extend --></label>
+        <name>GL_Account_Change_Extend</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- GL Account Create --></label>
+        <name>GL_Account_Create</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- GMDM Other --></label>
+        <name>GMDM_Other</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- General Inquiries --></label>
+        <name>General_Inquiries</name>
+    </customLabels>
+    <customLabels>
+        <label>Actualizacion GL/SAP</label>
+        <name>General_ledger_data_upload</name>
+    </customLabels>
+    <customLabels>
+        <label>Gestión Global de Datos Maestros</label>
+        <name>Global_Master_Data_Management</name>
+    </customLabels>
+    <customLabels>
+        <label>Movilidad Global</label>
+        <name>Global_mobility</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Go to Service Console --></label>
+        <name>Go_to_Service_Console</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Goal / development plan --></label>
+        <name>Goal_development_plan</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- HRIS Information Report Requests --></label>
+        <name>HRIS_Information_Report_Requests</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- HR Other --></label>
+        <name>HR_Other</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- HSA, FSA or commuter account --></label>
+        <name>HSA_FSA_or_commuter_account</name>
+    </customLabels>
+    <customLabels>
+        <label>ha sido creado!</label>
+        <name>Has_Been_Created</name>
+    </customLabels>
+    <customLabels>
+        <label>Hola</label>
+        <name>Hello</name>
+    </customLabels>
+    <customLabels>
+        <label>Inicio</label>
+        <name>Home</name>
+    </customLabels>
+    <customLabels>
+        <label>Recursos Humanos</label>
+        <name>Human_Resources</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- The number of field values does not match the number of header fields on line --></label>
+        <name>INVALID_FILE_ROW_SIZE_DOESNT_MATCH</name>
+    </customLabels>
+    <customLabels>
+        <label>En progreso</label>
+        <name>In_Progress</name>
+    </customLabels>
+    <customLabels>
+        <label>"Por favor incluya, en rango de fechas, documento, número y condiciones de la consulta"</label>
+        <name>Include_Date_Doc_Num_Query</name>
+    </customLabels>
+    <customLabels>
+        <label>Por favor incluya solicitud de auditoria u otros documentos de soporte</label>
+        <name>Include_audit_req_and_other_docs</name>
+    </customLabels>
+    <customLabels>
+        <label>Por favor incluya las aprobaciones necesarias y/o documentación de soporte</label>
+        <name>Include_req_approvals_and_supporting_docs</name>
+    </customLabels>
+    <customLabels>
+        <label>Por favor incluya documentos de soporte</label>
+        <name>Include_supporting_docs</name>
+    </customLabels>
+    <customLabels>
+        <label>Verificación de ingreso</label>
+        <name>Income_verification</name>
+    </customLabels>
+    <customLabels>
+        <label>Influencia</label>
+        <name>Influence</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Inquiries --></label>
+        <name>Inquiries</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Inquiry Definition --></label>
+        <name>Inquiry_Definition</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Inquiry Label --></label>
+        <name>Inquiry_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Inquiry Type --></label>
+        <name>Inquiry_Type</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Internal Change Type --></label>
+        <name>Internal_Change_Type</name>
+    </customLabels>
+    <customLabels>
+        <label>Auditoria interna</label>
+        <name>Internal_audit</name>
+    </customLabels>
+    <customLabels>
+        <label>Otros</label>
+        <name>Internal_order_WBS_data_upload</name>
+    </customLabels>
+    <customLabels>
+        <label>Facturas a corregir por causas de calidad</label>
+        <name>Invoice_Correction_Due_to_Quantity_Issue</name>
+    </customLabels>
+    <customLabels>
+        <label>Número de Factura</label>
+        <name>Invoice_Number</name>
+    </customLabels>
+    <customLabels>
+        <label>Numero de Factura</label>
+        <name>Invoice_Number_s</name>
+    </customLabels>
+    <customLabels>
+        <label>Estado de la factura /  Resumen de detalles de remesas</label>
+        <name>Invoice_Status_Details_Summary</name>
+    </customLabels>
+    <customLabels>
+        <label>Cancelacion de Factura</label>
+        <name>Invoice_cancellation</name>
+    </customLabels>
+    <customLabels>
+        <label>Cuestiones de Facturación</label>
+        <name>Invoice_inquiries</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Invoice request --></label>
+        <name>Invoice_request</name>
+    </customLabels>
+    <customLabels>
+        <label>Estatus de factura</label>
+        <name>Invoice_status</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Invoices --></label>
+        <name>Invoices</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Issue Definition Label --></label>
+        <name>Issue_Definition_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Job requisition --></label>
+        <name>Job_requisition</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Journal entry-related inquiries --></label>
+        <name>Journal_entry_related_inquiries</name>
+    </customLabels>
+    <customLabels>
+        <label>Solicitud de Entrada de Diario</label>
+        <name>Journal_entry_request</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Journal entry template --></label>
+        <name>Journal_entry_template</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- 401K --></label>
+        <name>K401</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Language --></label>
+        <name>Language</name>
+    </customLabels>
+    <customLabels>
+        <label>Ultima modificación por ID</label>
+        <name>Last_Modified_Date</name>
+    </customLabels>
+    <customLabels>
+        <label>Apellido</label>
+        <name>Last_Name</name>
+    </customLabels>
+    <customLabels>
+        <label>Arrendamientos</label>
+        <name>Leases</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Leave of absence --></label>
+        <name>Leave_of_absence</name>
+    </customLabels>
+    <customLabels>
+        <label>Aquí</label>
+        <name>Link</name>
+    </customLabels>
+    <customLabels>
+        <label>Inicio de sesión</label>
+        <name>Log_In</name>
+    </customLabels>
+    <customLabels>
+        <label>Salir</label>
+        <name>Log_Out</name>
+    </customLabels>
+    <customLabels>
+        <label>Ingresado</label>
+        <name>Logged</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Lot Code Label --></label>
+        <name>Lot_Code_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Lotcode Message --></label>
+        <name>Lotcode_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Lucernex access request --></label>
+        <name>Lucernex_access_request</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Please check the Api names! --></label>
+        <name>MSG_CHECK_API_NAMES</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Make sure Custom Setting and Custom Metadata Types exists in the org! --></label>
+        <name>MSG_CS_MDT_EXISTS</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Please check the format, Custom Setting.field and Custom Metadata Types.field --></label>
+        <name>MSG_CS_MDT_FIELD_NAME_FORMAT</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Custom Setting Name/Field Name and CMT/Field Name names are required! --></label>
+        <name>MSG_CS_MDT_FIELD_NAME_REQ</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Custom Setting Name, Custom Metadata Types and Json Mapping names are required! --></label>
+        <name>MSG_CS_MDT_MAPPING_REQ</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Custom Setting Api Name and Custom Metadata Types Api names are required! --></label>
+        <name>MSG_CS_MDT_REQ</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Make sure Custom Setting exists in the org! --></label>
+        <name>MSG_CUSTOM_SETTINGS_EXISTS</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Please check the Api names in Json! --></label>
+        <name>MSG_JSON_API_NAMES</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Please check the Json format! --></label>
+        <name>MSG_JSON_FORMAT</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Custom Metadata Types name should end with --></label>
+        <name>MSG_MDT_END</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Migration Completed! --></label>
+        <name>MSG_MIGRATION_COMPLETED</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Migration In Progress, check status under Deploy -&gt; Deployment Status, Job Id: --></label>
+        <name>MSG_MIGRATION_IN_PROGRESS</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Not Supported!!! --></label>
+        <name>MSG_NOT_SUPPORTED</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Manage employee changes --></label>
+        <name>Manage_employee_changes</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Mandatory Allocation Message for Leaf Node --></label>
+        <name>Mandatory_Allocation_Message_for_Leaf_Node</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Manual JE form Attached --></label>
+        <name>Manual_JE_form_Attached</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Market Alert Description --></label>
+        <name>Market_Alert_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Material Change --></label>
+        <name>Material_Change</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Material Create --></label>
+        <name>Material_Create</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Material Extension --></label>
+        <name>Material_Extension</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Materials --></label>
+        <name>Materials</name>
+    </customLabels>
+    <customLabels>
+        <label>Máxima contidad de caracteres: {0}</label>
+        <name>Max_Length</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Medical, dental, vision or life insurance --></label>
+        <name>Medical_dental_vision_or_life_insurance</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Mis-Ship Descrip --></label>
+        <name>Mis_Ship_Descrip</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Mis-Ship Title --></label>
+        <name>Mis_Ship_Title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Monthly_Sales_Forecast_Template_URL --></label>
+        <name>Monthly_Sales_Forecast_Template_URL</name>
+    </customLabels>
+    <customLabels>
+        <label>Ver lista de artículos con mayor visita organizado por tema</label>
+        <name>Most_Viewed_Lists</name>
+    </customLabels>
+    <customLabels>
+        <label>hola {0}, 
+esto es una prueba</label>
+        <name>MultiLanguageTest</name>
+    </customLabels>
+    <customLabels>
+        <label>Mi caso</label>
+        <name>My_Cases</name>
+    </customLabels>
+    <customLabels>
+        <label>Mis casos cerrados</label>
+        <name>My_Closed_Cases</name>
+    </customLabels>
+    <customLabels>
+        <label>Mis casos abiertos</label>
+        <name>My_Open_Cases</name>
+    </customLabels>
+    <customLabels>
+        <label>Mi Perfil</label>
+        <name>My_Profile</name>
+    </customLabels>
+    <customLabels>
+        <label>Mi Configuración</label>
+        <name>My_Settings</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- New SKU --></label>
+        <name>New_SKU</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- New Status --></label>
+        <name>New_Status</name>
+    </customLabels>
+    <customLabels>
+        <label>Nuevos usuarios regístrense aquí</label>
+        <name>New_User_Registration</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- New hire notification changes --></label>
+        <name>New_hire_notification_changes</name>
+    </customLabels>
+    <customLabels>
+        <label>Siguiente</label>
+        <name>Next</name>
+    </customLabels>
+    <customLabels>
+        <label>No</label>
+        <name>No</name>
+    </customLabels>
+    <customLabels>
+        <label>Sin archivo adjunto</label>
+        <name>No_Attachments</name>
+    </customLabels>
+    <customLabels>
+        <label>Sin registros para mostrar</label>
+        <name>No_Records</name>
+    </customLabels>
+    <customLabels>
+        <label>Nada</label>
+        <name>None</name>
+    </customLabels>
+    <customLabels>
+        <label>Ninguno</label>
+        <name>None_Picklist</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Notes Label --></label>
+        <name>Notes_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Num Days to Reopen Case --></label>
+        <name>Num_Days_to_Reopen_Case</name>
+    </customLabels>
+    <customLabels>
+        <label>Cantidad de facturas a corregir</label>
+        <name>Number_of_Invoices_to_Correct</name>
+    </customLabels>
+    <customLabels>
+        <label>Numero de ítems requeridos</label>
+        <name>Number_of_Items_Requested</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OTC_Billing_Credit_Request_Msg --></label>
+        <name>OTC_Billing_Credit_Request_Msg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OTC Credit Approval --></label>
+        <name>OTC_Credit_Approval</name>
+    </customLabels>
+    <customLabels>
+        <label>"Número de orden de compra del cliente, Número de Factura o Número de orden SAP"</label>
+        <name>OTC_Request_for_Invoice_Flow</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OTC Storage Location Label --></label>
+        <name>OTC_Storage_Location_Label</name>
+    </customLabels>
+    <customLabels>
+        <label>Obsoleto</label>
+        <name>Obsolete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Offer accepted / Initiate onboarding --></label>
+        <name>Offer_accepted_Initiate_onboarding</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Offer letter --></label>
+        <name>Offer_letter</name>
+    </customLabels>
+    <customLabels>
+        <label>Fecha de creación</label>
+        <name>Open_Date</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Open Enrollment --></label>
+        <name>Open_enrollment</name>
+    </customLabels>
+    <customLabels>
+        <label>"Numero de Orden, Numero de Envío o Numero de factura es requerido"</label>
+        <name>OrderDeliveryInvoiceNumberRequired</name>
+    </customLabels>
+    <customLabels>
+        <label>"Numero de Orden, Numero de Envío, Numero de factura u Orden de Compra es requerido"</label>
+        <name>OrderDeliveryInvoicePONumberRequired</name>
+    </customLabels>
+    <customLabels>
+        <label>"Numero de Orden, Numero de Factura u Orden de Compra es requerido"</label>
+        <name>OrderInvoicePONumberRequired</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Order Claim --></label>
+        <name>Order_Claim</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Order Claim Component Instructions --></label>
+        <name>Order_Claim_Component_Instructions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Order Claim Information --></label>
+        <name>Order_Claim_Information</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Order Claim Sub Case --></label>
+        <name>Order_Claim_Sub_Case</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Order Information Header --></label>
+        <name>Order_Information_Header</name>
+    </customLabels>
+    <customLabels>
+        <label>Número de orden SAP</label>
+        <name>Order_Number</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Order Type --></label>
+        <name>Order_Type</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Order to Case / Billing --></label>
+        <name>Order_to_Case_Billing</name>
+    </customLabels>
+    <customLabels>
+        <label>Cuentas por Cobrar / Facturación</label>
+        <name>Order_to_Cash_Billing</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Orders Label --></label>
+        <name>Orders_Label</name>
+    </customLabels>
+    <customLabels>
+        <label>Otros</label>
+        <name>Other</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Other Benefits --></label>
+        <name>Other_Benefits</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Other Inquiry Type --></label>
+        <name>Other_Inquiry_Type</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Other Issue Label --></label>
+        <name>Other_Issue_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Other Newsletter --></label>
+        <name>Other_Newsletter</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Other Picklist --></label>
+        <name>Other_Picklist</name>
+    </customLabels>
+    <customLabels>
+        <label>Otro solicitud de auditoria</label>
+        <name>Other_audit_request</name>
+    </customLabels>
+    <customLabels>
+        <label>Otra solicitud de Fianza</label>
+        <name>Other_bailment_request</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Other billing request --></label>
+        <name>Other_billing_request</name>
+    </customLabels>
+    <customLabels>
+        <label>Otras solicitudes de tarjeta</label>
+        <name>Other_credit_card_requests</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Other employee data change --></label>
+        <name>Other_employee_data_change</name>
+    </customLabels>
+    <customLabels>
+        <label>Otro tipo de preguntas</label>
+        <name>Other_employee_requests</name>
+    </customLabels>
+    <customLabels>
+        <label>Otra Solicitud de Activos Fijos</label>
+        <name>Other_fixed_asset_request</name>
+    </customLabels>
+    <customLabels>
+        <label>Otra solicitud de entrada de diario</label>
+        <name>Other_journal_entry_request</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Other lease inquiries --></label>
+        <name>Other_lease_inquiries</name>
+    </customLabels>
+    <customLabels>
+        <label>Otro tipo de solicitud</label>
+        <name>Other_partner_request</name>
+    </customLabels>
+    <customLabels>
+        <label>Otras cuestiones de pago/sueldo</label>
+        <name>Other_pay_earning_inquiry</name>
+    </customLabels>
+    <customLabels>
+        <label>Otras solicitudes de nomina</label>
+        <name>Other_payroll_request</name>
+    </customLabels>
+    <customLabels>
+        <label>Otras consultas sobre pagos</label>
+        <name>Other_procure_to_pay_request</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Other record to report request --></label>
+        <name>Other_record_to_report_request</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Other tax requests --></label>
+        <name>Other_tax_requests</name>
+    </customLabels>
+    <customLabels>
+        <label>Otras consultas de T&amp;E</label>
+        <name>Other_travel_entertainment_request</name>
+    </customLabels>
+    <customLabels>
+        <label>Otras solicitudes de proveedor</label>
+        <name>Other_vendor_requests</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Overage Claim Descrip --></label>
+        <name>Overage_Claim_Descrip</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Overage Claim Title --></label>
+        <name>Overage_Claim_Title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Overage Disposition --></label>
+        <name>Overage_Disposition</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PAB Attached --></label>
+        <name>PAB_Attached</name>
+    </customLabels>
+    <customLabels>
+        <label>Número de Orden de compra del cliente</label>
+        <name>PO_Number</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PO Number of Pooled Order --></label>
+        <name>PO_Number_of_Pooled_Order</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PO Numbers --></label>
+        <name>PO_Numbers</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PTO --></label>
+        <name>PTO</name>
+    </customLabels>
+    <customLabels>
+        <label>Solicitudes Internas</label>
+        <name>Partner</name>
+    </customLabels>
+    <customLabels>
+        <label>Contraseña</label>
+        <name>Password</name>
+    </customLabels>
+    <customLabels>
+        <label>Contraseña</label>
+        <name>Password_Registration</name>
+    </customLabels>
+    <customLabels>
+        <label>Grupo de Pago</label>
+        <name>Pay_Group</name>
+    </customLabels>
+    <customLabels>
+        <label>Pregunta sobre pagos/sueldo</label>
+        <name>Pay_earnings_inquiry</name>
+    </customLabels>
+    <customLabels>
+        <label>Cuestiones de Pago</label>
+        <name>Payment_inquiries</name>
+    </customLabels>
+    <customLabels>
+        <label>Pregunta sobre pagos</label>
+        <name>Payment_requests</name>
+    </customLabels>
+    <customLabels>
+        <label>Nomina</label>
+        <name>Payroll</name>
+    </customLabels>
+    <customLabels>
+        <label>Sistemas de pago</label>
+        <name>Payroll_Systems</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pending Sub Case --></label>
+        <name>Pending_Sub_Case</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Performance management development --></label>
+        <name>Performance_management_development</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Performance review --></label>
+        <name>Performance_review</name>
+    </customLabels>
+    <customLabels>
+        <label>Teléfono</label>
+        <name>Phone</name>
+    </customLabels>
+    <customLabels>
+        <label>Desglose de activos físicos</label>
+        <name>Physical_Asset_Breakdown</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Please Update Child Campaign Budget --></label>
+        <name>Please_Update_Child_Campaign_Budget</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Please enter a value. --></label>
+        <name>Please_enter_a_value</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Please update the forecast --></label>
+        <name>Please_update_the_forecast</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pooled? --></label>
+        <name>Pooled</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Portfolio management --></label>
+        <name>Portfolio_management</name>
+    </customLabels>
+    <customLabels>
+        <label>Código Postal</label>
+        <name>Postal_Code</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Predictive Index (PI) requests --></label>
+        <name>Predictive_Index_requests</name>
+    </customLabels>
+    <customLabels>
+        <label>Anterior</label>
+        <name>Previous</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Price Master Maintenance --></label>
+        <name>Price_Master_Maintenance</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pricing --></label>
+        <name>Pricing</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pricing Management --></label>
+        <name>Pricing_Management</name>
+    </customLabels>
+    <customLabels>
+        <label>¿Con quién hace negocios principalmente?</label>
+        <name>Primary_Business</name>
+    </customLabels>
+    <customLabels>
+        <label>Categoría Principal</label>
+        <name>Primary_Category</name>
+    </customLabels>
+    <customLabels>
+        <label>"Ocurrió un error al procesar su solicitud. El equipo de Salesforce ya ha sido notificado. Si usted cree que tiene información que podría ayudar a reproducir el error o a corregirlo por favor contacte al equipo de Soporte Salesforce. Por favor indique el URL de la pagina que intento abrir, ID del error así como cualquier otra información relevante. Le pedimos una disculpa por las molestias. Gracias por su paciencia y apoyo. Gracias por usar Salesforce.com! Error ID:1046528676-43338 (1749087780)"</label>
+        <name>Process_Request_Error</name>
+    </customLabels>
+    <customLabels>
+        <label>Proceso de Compras / Compras / Departamento deTesorería</label>
+        <name>Procure_to_Pay_Accounts_Payable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Product Availability Label --></label>
+        <name>Product_Availability_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Product Description Label --></label>
+        <name>Product_Description_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Product Destination Country --></label>
+        <name>Product_Destination_Country</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Product Flavor_Label --></label>
+        <name>Product_Flavor_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Product Hierarchy Maintenance --></label>
+        <name>Product_Hierarchy_Maintenance</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Product Size Label --></label>
+        <name>Product_Size_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Progressions, promotions and compensation --></label>
+        <name>Progressions_promotions_and_compensation</name>
+    </customLabels>
+    <customLabels>
+        <label>Provincia</label>
+        <name>Province</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Purchase Order Number Label --></label>
+        <name>Purchase_Order_Number_Label</name>
+    </customLabels>
+    <customLabels>
+        <label>Orden de compra/Numero de requisición</label>
+        <name>Purchase_Order_Requisition_Number</name>
+    </customLabels>
+    <customLabels>
+        <label>"Gracias por su nueva orden de compra, la hemos procesado con fecha de carga"</label>
+        <name>Purchase_order</name>
+    </customLabels>
+    <customLabels>
+        <label>Ordenes de Compra</label>
+        <name>Purchase_order_inquiries</name>
+    </customLabels>
+    <customLabels>
+        <label>Consulta sobre Requisiciones</label>
+        <name>Purchase_requisition_inquiries</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quality Claim Issue --></label>
+        <name>Quality_Claim_Issue</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quality Claim Label --></label>
+        <name>Quality_Claim_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quantity Known Label --></label>
+        <name>Quantity_Known_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quantity Label --></label>
+        <name>Quantity_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quantity Type Label --></label>
+        <name>Quantity_Type_Label</name>
+    </customLabels>
+    <customLabels>
+        <label>Re-abrir</label>
+        <name>Re_Open</name>
+    </customLabels>
+    <customLabels>
+        <label>Re-abrir Caso</label>
+        <name>Re_Open_Case</name>
+    </customLabels>
+    <customLabels>
+        <label>Por favor explique porque necesita re-abrir este caso</label>
+        <name>Re_Open_Explanation</name>
+    </customLabels>
+    <customLabels>
+        <label>Razón para re-abrir</label>
+        <name>Re_Open_Reason</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Rebates --></label>
+        <name>Rebates</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email Content-receive claim --></label>
+        <name>ReceiveClaim</name>
+    </customLabels>
+    <customLabels>
+        <label>Lista de registros es una variación de página de objeto compartido. Los cambios realizados aquí se aplican donde aparece esta página.</label>
+        <name>Record_List_Shared</name>
+    </customLabels>
+    <customLabels>
+        <label>Reporteo</label>
+        <name>Record_to_Report</name>
+    </customLabels>
+    <customLabels>
+        <label>Número de Referencia</label>
+        <name>Reference_Number</name>
+    </customLabels>
+    <customLabels>
+        <label>Referencia de Flujo/Ticket existente</label>
+        <name>Referenced_Workflow</name>
+    </customLabels>
+    <customLabels>
+        <label>Región</label>
+        <name>Region</name>
+    </customLabels>
+    <customLabels>
+        <label>Registrar</label>
+        <name>Register</name>
+    </customLabels>
+    <customLabels>
+        <label>Registro</label>
+        <name>Registering</name>
+    </customLabels>
+    <customLabels>
+        <label>Registro</label>
+        <name>Registration</name>
+    </customLabels>
+    <customLabels>
+        <label>Solicitud de registro recibida</label>
+        <name>Registration_Request_Received_Email_Subject</name>
+    </customLabels>
+    <customLabels>
+        <label>Solicitud de registro rechazada</label>
+        <name>Registration_Request_Rejected</name>
+    </customLabels>
+    <customLabels>
+        <label>Advertencia: Si usted es un empleado Beam Suntory o un proveedor debe ingresar a Salesforce dando un clic en "Empleados Beam Suntory dar clic aquí" en la parte inferior de la pantalla. Si no puede ingresar contacte servicedesk@beamsuntory.com</label>
+        <name>Registration_Warning</name>
+    </customLabels>
+    <customLabels>
+        <label>Pago normal/aumento</label>
+        <name>Regular_pay_increase</name>
+    </customLabels>
+    <customLabels>
+        <label>Consulta de reembolso</label>
+        <name>Reimbursement_inquiry</name>
+    </customLabels>
+    <customLabels>
+        <label>Reembolsos</label>
+        <name>Reimbursements</name>
+    </customLabels>
+    <customLabels>
+        <label>Desbloqueo de tarjeta</label>
+        <name>Reinstate_credit_card</name>
+    </customLabels>
+    <customLabels>
+        <label>Reposición de tarjeta</label>
+        <name>Reissue_credit_card</name>
+    </customLabels>
+    <customLabels>
+        <label>Reubicación</label>
+        <name>Relocation</name>
+    </customLabels>
+    <customLabels>
+        <label>Detalle para reenvío</label>
+        <name>Remittance_detail_request</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Remove --></label>
+        <name>Remove</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Repack Requests --></label>
+        <name>Repack_Requests</name>
+    </customLabels>
+    <customLabels>
+        <label>Solicitud de Reempaque</label>
+        <name>Repack_request</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReportURLError --></label>
+        <name>ReportURLError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Report a system issue --></label>
+        <name>Report_a_system_issue</name>
+    </customLabels>
+    <customLabels>
+        <label>Solicitud de Reporte</label>
+        <name>Report_request</name>
+    </customLabels>
+    <customLabels>
+        <label>Solicitud de reporte</label>
+        <name>Report_requests</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Reporting structure change --></label>
+        <name>Reporting_structure_change</name>
+    </customLabels>
+    <customLabels>
+        <label>Reimprimir la factura existente</label>
+        <name>Reprint_existing_invoice</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReqDocCanadaComm --></label>
+        <name>ReqDocCanadaComm</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReqDocCanadaTPM --></label>
+        <name>ReqDocCanadaTPM</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReqDocD2DTrans --></label>
+        <name>ReqDocD2DTrans</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReqDocFIInvoiceReq --></label>
+        <name>ReqDocFIInvoiceReq</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReqDocRequestCreditCard --></label>
+        <name>ReqDocRequestCreditCard</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- RequDocCorrectInv --></label>
+        <name>RequDocCorrectInv</name>
+    </customLabels>
+    <customLabels>
+        <label>Si usted es empleado de Beam o contratista Beam por favor solicite su acceso a Salesforce en ServiceDesk@BeamSuntory.com.</label>
+        <name>Request_Access</name>
+    </customLabels>
+    <customLabels>
+        <label>Fecha limite de la solicitud</label>
+        <name>Request_Deadline</name>
+    </customLabels>
+    <customLabels>
+        <label>Solicitar Detalles</label>
+        <name>Request_Details</name>
+    </customLabels>
+    <customLabels>
+        <label>Solicitar Resumen</label>
+        <name>Request_Summary</name>
+    </customLabels>
+    <customLabels>
+        <label>Solicitar tarjeta corporativa</label>
+        <name>Request_credit_card</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Request for invoice correction --></label>
+        <name>Request_for_invoice_correction</name>
+    </customLabels>
+    <customLabels>
+        <label>Limite solicitado</label>
+        <name>Requested_Limit</name>
+    </customLabels>
+    <customLabels>
+        <label>Documentación Requerida</label>
+        <name>Required_Documentation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Research --></label>
+        <name>Research</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email Content-approved claim --></label>
+        <name>ResearchClaim</name>
+    </customLabels>
+    <customLabels>
+        <label>"Si todavía no puede iniciar la sesión, haz que enviemos el correo electrónico otra vez o póngase en contacto con su administrador."</label>
+        <name>Resend_Password_Email</name>
+    </customLabels>
+    <customLabels>
+        <label>Reenvio automatico de Factura</label>
+        <name>Resend_automatic_invoice</name>
+    </customLabels>
+    <customLabels>
+        <label>Hemos enviado un email con instrucciones para terminar de restablecer tu contraseña.</label>
+        <name>Reset_Password_Email_Link</name>
+    </customLabels>
+    <customLabels>
+        <label>"Si necesita resetear su contraseña para el sito Concur, por favor de clic en el link "" Olvido su contraseña?"" en la pág. de inicio de sesión, aquí: https://www.concursolutions.com/signin.asp. 
+
+Se le darán instrucciones para recibir una pista o para resetear la contraseña."</label>
+        <name>Reset_Password_Link</name>
+    </customLabels>
+    <customLabels>
+        <label>"Para resetear su contraseña, ingrese su nombre de usuario"</label>
+        <name>Reset_Password_Message</name>
+    </customLabels>
+    <customLabels>
+        <label>Resetear password</label>
+        <name>Reset_password</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Resignation / termination --></label>
+        <name>Resignation_termination</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Resume or application submission --></label>
+        <name>Resume_or_application_submission</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Retirement --></label>
+        <name>Retirement</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SB2 A geographical hierarchy has already been set up for this allocation. You ca --></label>
+        <name>SB2_A_geographical_hierarchy_has_already_been_set_up_for_this_allocation_You_ca</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message to show when quick action faces an error --></label>
+        <name>SB2_Action_Error_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message to show when action performed successfully. --></label>
+        <name>SB2_Action_Success_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SB2 Allocation is not available for this barrel order. Please contact your state --></label>
+        <name>SB2_Allocation_is_not_available_for_this_barrel_order_Please_contact_your_state</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SB2 Are you sure you want to Carryforward remaining Barrels? --></label>
+        <name>SB2_Are_you_sure_you_want_to_Carryforward_remaining_Barrels</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SB2 Are you sure you want to writeOff remaining Barrels? --></label>
+        <name>SB2_Are_you_sure_you_want_to_writeOff_remaining_Barrels</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SB2 Below is the list of all active Brand allocation for this year. --></label>
+        <name>SB2_Below_is_the_list_of_all_active_Brand_allocation_for_this_year</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SB2 Brand --></label>
+        <name>SB2_Brand</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SB2 Brand Allocation Error --></label>
+        <name>SB2_Brand_Allocation_Error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SB2 Brand Country Region State Allocation Deactivate Error Message --></label>
+        <name>SB2_Brand_Country_Region_State_Allocation_Deactivate_Error_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SB2 Brand Country Region State Allocation Deactivate  Waring Message --></label>
+        <name>SB2_Brand_Country_Region_State_Allocation_Deactivate_Waring_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SB2 Brand Country Region State Distributor Deactivation Error Message --></label>
+        <name>SB2_Brand_Country_Region_State_Distributor_Deactivation_Error_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SB2 Brand Country Region State Distributor Deactivation Warning Message --></label>
+        <name>SB2_Brand_Country_Region_State_Distributor_Deactivation_Warning_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SB2 Brand Country Region State Distributor Is Already Not a leaf Node --></label>
+        <name>SB2_Brand_Country_Region_State_Distributor_Is_Already_Not_a_leaf_Node</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SB2 Brand Duplicate Error --></label>
+        <name>SB2_Brand_Duplicate_Error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SB2 Clone Brand Allocation --></label>
+        <name>SB2_Clone_Brand_Allocation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SB2 Clone Error Message --></label>
+        <name>SB2_Clone_Error_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SB2 Copy Geographical Hierarchy --></label>
+        <name>SB2_Copy_Geographical_Hierarchy</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SB2 Deactivate Brand Allocation --></label>
+        <name>SB2_Deactivate_Brand_Allocation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SB2 Deactivate Brand Region State Allocation --></label>
+        <name>SB2_Deactivate_Brand_Region_State_Allocation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SB2 Deactivate Brand Region State Distribuor Allocation --></label>
+        <name>SB2_Deactivate_Brand_Region_State_Distribuor_Allocation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SB2 Deactivation Error Message --></label>
+        <name>SB2_Deactivation_Error_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SB2 Deactivation Message --></label>
+        <name>SB2_Deactivation_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Duplicate Alias Error --></label>
+        <name>SB2_Duplicate_Alias_Error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- It is use to show error message for duplicate record entry. --></label>
+        <name>SB2_Duplicate_Record_Error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SB2 For marking below future record as inactive please click Deactivate All. --></label>
+        <name>SB2_For_marking_below_future_record_as_inactive_please_click_Deactivate_All</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SB2 If you want only to create record for current Brand Allocation click CONTINU --></label>
+        <name>SB2_If_you_want_only_to_create_record_for_current_Brand_Allocation_click_CONTINU</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SB2 If you want to collapse all active Brand Allocation for this year click OK --></label>
+        <name>SB2_If_you_want_to_collapse_all_active_Brand_Allocation_for_this_year_click_OK</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SB2 If you will de-activate this allocation, you won&apos;t be able to activate it ag --></label>
+        <name>SB2_If_you_will_de_activate_this_allocation_you_won_t_be_able_to_activate_it_ag</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SB2 In Active Error --></label>
+        <name>SB2_In_Active_Error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SB2 Is Carry Forward --></label>
+        <name>SB2_Is_Carry_Forward</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SB2 Manage CarryForward/WriteOff Brand Allocation --></label>
+        <name>SB2_Manage_CarryForward_WriteOff_Brand_Allocation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SB2 On click of Deactivate only this allocation record will be marked as Inactiv --></label>
+        <name>SB2_On_click_of_Deactivate_only_this_allocation_record_will_be_marked_as_Inactiv</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SB2 Program Type --></label>
+        <name>SB2_Program_Type</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SB2 Remove State as Leaf Node --></label>
+        <name>SB2_Remove_State_as_Leaf_Node</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SB2 Review the errors on this page. --></label>
+        <name>SB2_Review_the_errors_on_this_page</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SB2 Select Brand --></label>
+        <name>SB2_Select_Brand</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SB2 Select Program Type --></label>
+        <name>SB2_Select_Program_Type</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SB2 Select Year of Allocation --></label>
+        <name>SB2_Select_Year_of_Allocation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- It is use to show error message while activating an inactive state. --></label>
+        <name>SB2_State_Active_Inactive_Error_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- State Active Message --></label>
+        <name>SB2_State_Active_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message to show when deactivating an inactive state --></label>
+        <name>SB2_State_Deactivation_Error_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Warning message to show when marking state inactive --></label>
+        <name>SB2_State_Deactivation_Warning_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- State Manager Missing --></label>
+        <name>SB2_State_Manager_Missing</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SB2 This Brand Allocation is Inactive at this time. --></label>
+        <name>SB2_This_Brand_Allocation_is_Inactive_at_this_time</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SB2 This Brand Allocation is inactive, cannot create hierarchy for this record. --></label>
+        <name>SB2_This_Brand_Allocation_is_inactive_cannot_create_hierarchy_for_this_record</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SB2 TimeOverlap Error --></label>
+        <name>SB2_TimeOverlap_Error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SB2 Time Interval --></label>
+        <name>SB2_Time_Interval</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SB2 Time Period --></label>
+        <name>SB2_Time_Period</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SB2 Year Of Allocation --></label>
+        <name>SB2_Year_Of_Allocation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SB2 You cannot remove the leaf node of this record as the record time interval h --></label>
+        <name>SB2_You_cannot_remove_the_leaf_node_of_this_record_as_the_record_time_interval_h</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SB2 error --></label>
+        <name>SB2_error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SB Allocation at distributor level is not set. You cannot move the allocation to --></label>
+        <name>SB_Allocation_at_distributor_level_is_not_set_You_cannot_move_the_allocation_to</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SB Do you want to move the allocations to region level and mark region as leaf n --></label>
+        <name>SB_Do_you_want_to_move_the_allocations_to_region_level_and_mark_region_as_leaf_n</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SB Do you want to move the allocations to state level and mark state as leaf nod --></label>
+        <name>SB_Do_you_want_to_move_the_allocations_to_state_level_and_mark_state_as_leaf_nod</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SB If you will remove distributor as leaf node then all the distributors for thi --></label>
+        <name>SB_If_you_will_remove_distributor_as_leaf_node_then_all_the_distributors_for_thi</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SB If you will remove state as leaf node then all the states/distributor for thi --></label>
+        <name>SB_If_you_will_remove_state_as_leaf_node_then_all_the_states_distributor_for_thi</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SB This state is Inactive --></label>
+        <name>SB_This_state_is_Inactive</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SB This state is not a leaf node. --></label>
+        <name>SB_This_state_is_not_a_leaf_node</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SF_Base_URL_BrandLogo --></label>
+        <name>SF_Base_URL_BrandLogo</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SKU --></label>
+        <name>SKU</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SKU Description --></label>
+        <name>SKU_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email Content 14days --></label>
+        <name>SLA14Days</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email Content- 24hours --></label>
+        <name>SLA24Hours</name>
+    </customLabels>
+    <customLabels>
+        <label>Seguimiento de SLA</label>
+        <name>SLA_Tracking</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Sample Available Label --></label>
+        <name>Sample_Available_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Save Claim --></label>
+        <name>Save_Claim</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Sb2 Remove Distributor as Leaf Node --></label>
+        <name>Sb2_Remove_Distributor_as_Leaf_Node</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Seal Intact? --></label>
+        <name>Seal_Intact</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SearchStringError --></label>
+        <name>SearchStringError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SelfRegAccount --></label>
+        <name>SelfRegAccount</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SelfRegAttachmentError1 --></label>
+        <name>SelfRegAttachmentError1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SelfRegAttachmentSuccess1 --></label>
+        <name>SelfRegAttachmentSuccess1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SelfRegCaseOrigin --></label>
+        <name>SelfRegCaseOrigin</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SelfRegCaseRTName --></label>
+        <name>SelfRegCaseRTName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SelfRegContactRTName --></label>
+        <name>SelfRegContactRTName</name>
+    </customLabels>
+    <customLabels>
+        <label>Si usted es empleado de Beam o contratista Beam por favor solicite su acceso a Salesforce en ServiceDesk@BeamSuntory.com.</label>
+        <name>SelfRegCustomerRedirect</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SelfRegDocumentError1 --></label>
+        <name>SelfRegDocumentError1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SelfRegEmailError1 --></label>
+        <name>SelfRegEmailError1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SelfRegEmailTemplate1 --></label>
+        <name>SelfRegEmailTemplate1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SelfRegProfile --></label>
+        <name>SelfRegProfile</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SelfRegUserTypeError1 --></label>
+        <name>SelfRegUserTypeError1</name>
+    </customLabels>
+    <customLabels>
+        <label>Mandar correo para resetear contraseña</label>
+        <name>Send_Password_Reset</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ship Date --></label>
+        <name>Ship_Date</name>
+    </customLabels>
+    <customLabels>
+        <label>Estaremos en contacto a la brevedad con más detalles sobre su carga. Por favor no dude en avisarnos si tiene cualquier pregunta.</label>
+        <name>Shipment_Detail</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Shipping Plant Label --></label>
+        <name>Shipping_Plant_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Shortage Claim Descrip --></label>
+        <name>Shortage_Claim_Descrip</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Shortage Claim Title --></label>
+        <name>Shortage_Claim_Title</name>
+    </customLabels>
+    <customLabels>
+        <label>Mostrar Titulo</label>
+        <name>Show_Title</name>
+    </customLabels>
+    <customLabels>
+        <label>Tamaño</label>
+        <name>Size</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Standard Case Email --></label>
+        <name>Standard_Case_Email</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Standard Label --></label>
+        <name>Standard_Label</name>
+    </customLabels>
+    <customLabels>
+        <label>Estado</label>
+        <name>State</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- StateCode Label --></label>
+        <name>StateCode_Label</name>
+    </customLabels>
+    <customLabels>
+        <label>Estado/Provincia</label>
+        <name>State_Province</name>
+    </customLabels>
+    <customLabels>
+        <label>Estatus</label>
+        <name>Status</name>
+    </customLabels>
+    <customLabels>
+        <label>Solicitud de status</label>
+        <name>Status_request</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Step1FormType --></label>
+        <name>Step1_Form_Type</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Step_1_GBS_Label --></label>
+        <name>Step_1_GBS_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Step_2_Change_Header --></label>
+        <name>Step_2_Change_Header</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Step_2_Change_Sub --></label>
+        <name>Step_2_Change_Sub</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Step 2 Escalation Header --></label>
+        <name>Step_2_Escalation_Header</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Step 2 Header Order Claims --></label>
+        <name>Step_2_Header_Order_Claims</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Step 2 Inquiry Sub Header --></label>
+        <name>Step_2_Inquiry_Sub_Header</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Step 2 Inquiry Type --></label>
+        <name>Step_2_Inquiry_Type</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Step 2 Order Claim Header --></label>
+        <name>Step_2_Order_Claim_Header</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Step 2 Order Claim Subheader --></label>
+        <name>Step_2_Order_Claim_Subheader</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Step 2 Order Subheader --></label>
+        <name>Step_2_Order_Subheader</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Step 2 Order Subheader Intl --></label>
+        <name>Step_2_Order_Subheader_Intl</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Step 2 Order Type Header --></label>
+        <name>Step_2_Order_Type_Header</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Step 2 Quality Claim Header --></label>
+        <name>Step_2_Quality_Claim_Header</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Step 2 Quality Claim Sub Header --></label>
+        <name>Step_2_Quality_Claim_Sub_Header</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Step 2 Quality Claim Type --></label>
+        <name>Step_2_Quality_Claim_Type</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Step 2 Sub Header Order Claim --></label>
+        <name>Step_2_Sub_Header_Order_Claim</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Step 3 Add Purchase Orders --></label>
+        <name>Step_3_Add_Purchase_Orders</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Step 3 Change_Claim_Header --></label>
+        <name>Step_3_Change_Claim_Header</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Step 3: Description --></label>
+        <name>Step_3_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Step 3 Enter User Details Header --></label>
+        <name>Step_3_Enter_User_Details_Header</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Step 3 Enter User Details Sub Header --></label>
+        <name>Step_3_Enter_User_Details_Sub_Header</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Step 3 Existing Order Header --></label>
+        <name>Step_3_Existing_Order_Header</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Step 3 Existing Order Sub Header --></label>
+        <name>Step_3_Existing_Order_Sub_Header</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Step 3 Newsletter --></label>
+        <name>Step_3_Newsletter</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Step 3 Product Details Header --></label>
+        <name>Step_3_Product_Details_Header</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Step 3 Product Details Sub Header 1 --></label>
+        <name>Step_3_Product_Details_Sub_Header_1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Step 3 Product Details Sub Header 2 --></label>
+        <name>Step_3_Product_Details_Sub_Header_2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Step 3 Quality Claim Header --></label>
+        <name>Step_3_Quality_Claim_Header</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Step 3 Specify Inquiry Header --></label>
+        <name>Step_3_Specify_Inquiry_Header</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Step 3 Specify Inquiry SubHeader --></label>
+        <name>Step_3_Specify_Inquiry_SubHeader</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Step 3 Stir --></label>
+        <name>Step_3_Stir</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Step 3 Subheader --></label>
+        <name>Step_3_Subheader</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Step 3 Subheader Barrel --></label>
+        <name>Step_3_Subheader_Barrel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Step 3 and 4 Newsletter Sub Header --></label>
+        <name>Step_3_and_4_Newsletter_Sub_Header</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Step_4_Change_Header --></label>
+        <name>Step_4_Change_Header</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Step 4 Newsletter Header --></label>
+        <name>Step_4_Newsletter_Header</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Stop/Block/Unblock payment --></label>
+        <name>Stop_Block_Unblock_payment</name>
+    </customLabels>
+    <customLabels>
+        <label>Suspender pago</label>
+        <name>Stop_payment</name>
+    </customLabels>
+    <customLabels>
+        <label>Calle</label>
+        <name>Street</name>
+    </customLabels>
+    <customLabels>
+        <label>Tema</label>
+        <name>Subject</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Submission Complete Header --></label>
+        <name>Submission_Complete_Header</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Submission Complete Line 1 --></label>
+        <name>Submission_Complete_Line_1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Submission Complete Line 2 --></label>
+        <name>Submission_Complete_Line_2</name>
+    </customLabels>
+    <customLabels>
+        <label>Enviar</label>
+        <name>Submit</name>
+    </customLabels>
+    <customLabels>
+        <label>Estado de cuenta</label>
+        <name>Submit_a_statement</name>
+    </customLabels>
+    <customLabels>
+        <label>Enviar factura</label>
+        <name>Submit_an_invoice</name>
+    </customLabels>
+    <customLabels>
+        <label>Presentador</label>
+        <name>Submitter</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Success Message --></label>
+        <name>Success_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Supporting documentation request --></label>
+        <name>Supporting_documentation_request</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Survey Landing Error 1 --></label>
+        <name>Survey_Landing_Error_1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Survey Landing Error 2 --></label>
+        <name>Survey_Landing_Error_2</name>
+    </customLabels>
+    <customLabels>
+        <label>Gracias por tomarse el tiempo para participar en nuestra encuesta. Su respuesta ha sido registrada y asociada con su caso.</label>
+        <name>Survey_Landing_Message_1</name>
+    </customLabels>
+    <customLabels>
+        <label>"Apreciamos enormemente sus comentarios, ya que nos ayuda a proporcionar una experiencia excepcional."</label>
+        <name>Survey_Landing_Message_2</name>
+    </customLabels>
+    <customLabels>
+        <label>Información del Sistema</label>
+        <name>System_Information</name>
+    </customLabels>
+    <customLabels>
+        <label>"RFC, VAT, TIN ó Número de Proveedor"</label>
+        <name>TIN_VAT_Number</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Please choose a valid custom metadata type. --></label>
+        <name>TYPE_OPTION_NOT_SELECTED</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Tax --></label>
+        <name>Tax</name>
+    </customLabels>
+    <customLabels>
+        <label>Impuestos</label>
+        <name>Tax_authority</name>
+    </customLabels>
+    <customLabels>
+        <label>Pregunta sobre impuestos</label>
+        <name>Tax_inquiries_W2_form_requests</name>
+    </customLabels>
+    <customLabels>
+        <label>Equipo</label>
+        <name>Team</name>
+    </customLabels>
+    <customLabels>
+        <label>Territorio</label>
+        <name>Territory</name>
+    </customLabels>
+    <customLabels>
+        <label>"Gracias,"</label>
+        <name>ThankYou</name>
+    </customLabels>
+    <customLabels>
+        <label>¡Gracias por tus comentarios!</label>
+        <name>Thank_You_Feedback</name>
+    </customLabels>
+    <customLabels>
+        <label>Gracias por su registro</label>
+        <name>Thank_You_Registration</name>
+    </customLabels>
+    <customLabels>
+        <label>La factura proforma está adjunta.</label>
+        <name>The_proforma_invoice</name>
+    </customLabels>
+    <customLabels>
+        <label>Horario y asistencia</label>
+        <name>Time_and_attendance</name>
+    </customLabels>
+    <customLabels>
+        <label>Titulo</label>
+        <name>Title</name>
+    </customLabels>
+    <customLabels>
+        <label>Top de Artículos</label>
+        <name>Top_Articles</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Total Purchase Orders Added --></label>
+        <name>Total_Purchase_Orders_Added</name>
+    </customLabels>
+    <customLabels>
+        <label>Viajes y Entretenimiento</label>
+        <name>Travel_Entertainment</name>
+    </customLabels>
+    <customLabels>
+        <label>Reembolso de matricula</label>
+        <name>Tuition_reimbursement</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Type --></label>
+        <name>Type</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Type of Newsletter --></label>
+        <name>Type_of_Newsletter</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Type of Order Claim --></label>
+        <name>Type_of_Order_Claim</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Type of Quality Claim --></label>
+        <name>Type_of_Quality_Claim</name>
+    </customLabels>
+    <customLabels>
+        <label>Cambiar solicitud</label>
+        <name>Update_change_request</name>
+    </customLabels>
+    <customLabels>
+        <label>Editar/actualizar perfil</label>
+        <name>Update_profile</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- UploadAttachments --></label>
+        <name>UploadAttachments</name>
+    </customLabels>
+    <customLabels>
+        <label>Por favor use el siguiente modulo para adjuntar uno o varios documentos relativos al caso.</label>
+        <name>Upload_Documents</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Upload Form Attached --></label>
+        <name>Upload_Form_Attached</name>
+    </customLabels>
+    <customLabels>
+        <label>Nombre de Usuario</label>
+        <name>Username</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- VAP Form Attached --></label>
+        <name>VAP_Form_Attached</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Vendor --></label>
+        <name>Vendor</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Vendor Master Maintenance --></label>
+        <name>Vendor_Master_Maintenance</name>
+    </customLabels>
+    <customLabels>
+        <label>Nombre de Proveedor</label>
+        <name>Vendor_Name</name>
+    </customLabels>
+    <customLabels>
+        <label>Vendor_Registration_Confirmation_es_MX</label>
+        <name>Vendor_Registration</name>
+    </customLabels>
+    <customLabels>
+        <label>Vendor_Rejected_es_MX</label>
+        <name>Vendor_Rejected</name>
+    </customLabels>
+    <customLabels>
+        <label>Vendor_Welcome_es_MX</label>
+        <name>Vendor_Welcome</name>
+    </customLabels>
+    <customLabels>
+        <label>"Gracias por registrarse en la Comunidad de la Compañía Beam Suntory – su solicitud ha sido aprobada. Por favor, haga clic en el siguiente enlace para completar el registro de su cuenta y para restablecer su contraseña, utilizando el nombre de usuario proporcionado. Una vez que active su cuenta, podrá acceder a las preguntas/respuestas más frecuentes o enviar una solicitud/consulta a la Comunidad de la Compañía Beam Suntory."</label>
+        <name>Vendor_Welcome_Text</name>
+    </customLabels>
+    <customLabels>
+        <label>Proveedor</label>
+        <name>Vendor_requests</name>
+    </customLabels>
+    <customLabels>
+        <label>En espera de tercera parte</label>
+        <name>Waiting_3rd_Party</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- 52 Weeks Warning Message --></label>
+        <name>WarningMessage52Weeks</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- 90 Days Warning Message --></label>
+        <name>WarningMessage90Days</name>
+    </customLabels>
+    <customLabels>
+        <label>Bienvenido!</label>
+        <name>Welcome</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- What Type of Inquiry --></label>
+        <name>What_Type_of_Inquiry</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- What Type of Order Claim? --></label>
+        <name>What_Type_of_Order_Claim</name>
+    </customLabels>
+    <customLabels>
+        <label>No podemos cargar la pagina dado que hace falta información. Ver Detalle</label>
+        <name>Wont_Load</name>
+    </customLabels>
+    <customLabels>
+        <label>Auditoria de compensación</label>
+        <name>Workers_compensation_audit</name>
+    </customLabels>
+    <customLabels>
+        <label>Sí</label>
+        <name>Yes</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- You have already attached --></label>
+        <name>You_have_already_attached</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email Content- request --></label>
+        <name>request</name>
+    </customLabels>
+    <customPageWebLinks>
+        <label><!-- Activation Training --></label>
+        <name>Activation_Training</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- Australia BI Training --></label>
+        <name>Australia_BI_Training</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- BI Brand/Brand Quality Combos --></label>
+        <name>Brand_and_Brand_Quality_Combinations</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- BI Customizing Reports --></label>
+        <name>Customizing_Reports</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- BI Data Dictionary --></label>
+        <name>Data_Dictionary</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- sales360 Mobile App Setup --></label>
+        <name>Mobile_App_Configuration_Steps</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- sales360 Mobile Navigation Guide --></label>
+        <name>Mobile_Navigation_Guide</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- Monitor Bulk Data Load Jobs --></label>
+        <name>Monitor_Bulk_Data_Load_Jobs</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- sales360 Non-Premise Request --></label>
+        <name>New_Non_Premise_Request_Form</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- BI Training --></label>
+        <name>NonAdminTraining</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- Outlook Integration Training and Setup Guide --></label>
+        <name>Outlook_Integration_Training_and_Setup_Guide</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- PR Request Link Procurement --></label>
+        <name>PR_Request_Link_Procurement</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- PR Search --></label>
+        <name>PR_Search</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- TCS MasterCraft --></label>
+        <name>TCS_MasterCraft</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- sales360 FAQ --></label>
+        <name>sales360_Accounts_Contacts_FAQ</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- sales360 FAQ --></label>
+        <name>sales360_Contacts_Accounts_FAQ</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- sales360 Reference Guides --></label>
+        <name>sales360_Reference_Guides</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- sales360 The BAR Filter &amp; Download Guide --></label>
+        <name>sales360_The_BAR_Filter_Download_Guide</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- sales360 Training Presentations --></label>
+        <name>sales360_Training_Presentations</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- sales360 Training Videos --></label>
+        <name>sales360_Training_Videos</name>
+    </customPageWebLinks>
+    <customTabs>
+        <label>Reportes BMX</label>
+        <name>BMX_Reporting</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Forecast Snapshot AUS --></label>
+        <name>Forecast_Snapshot_AUS</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Forecast Snapshot US --></label>
+        <name>Forecast_Snapshot_Vf_Page</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- GVP Admin --></label>
+        <name>GVP_Admin</name>
+    </customTabs>
+    <customTabs>
+        <label>Inicio</label>
+        <name>Home</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Modify Allocations --></label>
+        <name>Modify_Allocations</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- PR Search --></label>
+        <name>PR_Search</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Program Calendar --></label>
+        <name>Program_Calendar</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- BMX Rep Dashboard --></label>
+        <name>Rep_Dashboard</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Submit Legal Contract Request --></label>
+        <name>Submit_Legal_Contract_Request</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Submit Quality Claim --></label>
+        <name>Submit_Quality_Claim</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Tableau --></label>
+        <name>Tableau</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Test Case Library --></label>
+        <name>Test_Case_Library</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Transfer Allocations --></label>
+        <name>Transfer_Allocations</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Transfer Hierarchy --></label>
+        <name>Transfer_Hierarchy</name>
+    </customTabs>
+    <quickActions>
+        <label><!-- Guest Community Case --></label>
+        <name>GuestCommunityCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewAccount --></label>
+        <name>NewAccount</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewCase --></label>
+        <name>NewCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Community Case --></label>
+        <name>NewCommunityCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewGroup --></label>
+        <name>NewGroup</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewLead --></label>
+        <name>NewLead</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Case --></label>
+        <name>New_Case</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New GBS Case --></label>
+        <name>New_GBS_Case</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- PR Search --></label>
+        <name>PR_Search</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Email --></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <reportTypes>
+        <description><!-- Account Calls --></description>
+        <label><!-- Account Calls --></label>
+        <name>Account_Calls</name>
+        <sections>
+            <label><!-- Account Calls --></label>
+            <name>Account Calls</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Accounts Chatter Feed --></description>
+        <label><!-- Accounts Chatter Feed --></label>
+        <name>Accounts_Chatter_Feed</name>
+        <sections>
+            <label><!-- Account Feed --></label>
+            <name>Account Feed</name>
+        </sections>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Comments --></label>
+            <name>Comments</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Accounts and Activities --></description>
+        <label><!-- Accounts and Activities --></label>
+        <name>Accounts_and</name>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Activities --></label>
+            <name>Activities</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Accounts and Account Teams --></description>
+        <label><!-- Accounts and Account Teams --></label>
+        <name>Accounts_and_Account_Teams</name>
+        <sections>
+            <label><!-- Account Team --></label>
+            <name>Account Team</name>
+        </sections>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Accounts and Contacts --></description>
+        <label><!-- Accounts and Contacts --></label>
+        <name>Accounts_and_Contacts</name>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Contacts --></label>
+            <name>Contacts</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Accounts with Bonus Agreements --></description>
+        <label><!-- Accounts with Bonus Agreements --></label>
+        <name>Accounts_with_Bonus_Agreements</name>
+        <sections>
+            <label><!-- Bonus Agreements --></label>
+            <name>Bonus Agreements</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Accounts with Cases --></description>
+        <label><!-- Accounts with Cases --></label>
+        <name>Accounts_with_Cases</name>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+        <sections>
+            <label><!-- Plant Events --></label>
+            <name>Plant Events</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Accounts with Contacts and Activities --></description>
+        <label><!-- Accounts with Contacts and Activities --></label>
+        <name>Accounts_with_Contacts_and_Activities</name>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Activities --></label>
+            <name>Activities</name>
+        </sections>
+        <sections>
+            <label><!-- Contacts --></label>
+            <name>Contacts</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Accounts with Entitlements with Contacts --></description>
+        <label><!-- Accounts with Entitlements with Contacts --></label>
+        <name>Accounts_with_Entitlements_with_Contacts</name>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Contacts --></label>
+            <name>Contacts</name>
+        </sections>
+        <sections>
+            <label><!-- Entitlements --></label>
+            <name>Entitlements</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Accounts with Notes --></description>
+        <label><!-- Accounts with Notes --></label>
+        <name>Accounts_with_Notes</name>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Content Documents --></label>
+            <name>Content Documents</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Accounts with Opportunities --></description>
+        <label><!-- Accounts with Opportunities --></label>
+        <name>Accounts_with_Opportunities</name>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Opportunities --></label>
+            <name>Opportunities</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Accounts with Sales Goals --></description>
+        <label><!-- Accounts with Sales Goals --></label>
+        <name>Accounts_with_Sales_Goals</name>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Sales Goals --></label>
+            <name>Sales Goals</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Accounts with Sales Orders and Order Items-Custom --></description>
+        <label><!-- Accounts with Sales Orders and Order Items-Custom --></label>
+        <name>Accounts_with_Sales_Orders_and_Order_Items_Custom</name>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Sales Order Items --></label>
+            <name>Sales Order Items</name>
+        </sections>
+        <sections>
+            <label><!-- Sales Orders --></label>
+            <name>Sales Orders</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Allocation Logger with others --></description>
+        <label><!-- Allocation Logger with others --></label>
+        <name>Allocation_Logger_with_others</name>
+        <sections>
+            <columns>
+                <label><!-- Brand --></label>
+                <name>Brand</name>
+            </columns>
+            <columns>
+                <label><!-- Brand Allocation Name --></label>
+                <name>Brand Allocation Name</name>
+            </columns>
+            <columns>
+                <label><!-- From Distributor Allocation --></label>
+                <name>From Distributor Allocation</name>
+            </columns>
+            <columns>
+                <label><!-- From Region Allocation --></label>
+                <name>From Region Allocation</name>
+            </columns>
+            <columns>
+                <label><!-- From State Allocation --></label>
+                <name>From State Allocation</name>
+            </columns>
+            <columns>
+                <label><!-- Program Type --></label>
+                <name>Program Type</name>
+            </columns>
+            <columns>
+                <label><!-- Time Interval --></label>
+                <name>Time Interval</name>
+            </columns>
+            <columns>
+                <label><!-- To Distributor Allocation --></label>
+                <name>To Distributor Allocation</name>
+            </columns>
+            <columns>
+                <label><!-- To Region Allocation --></label>
+                <name>To Region Allocation</name>
+            </columns>
+            <columns>
+                <label><!-- To State Allocation --></label>
+                <name>To State Allocation</name>
+            </columns>
+            <columns>
+                <label><!-- Year of Allocation --></label>
+                <name>Year of Allocation</name>
+            </columns>
+            <label><!-- Allocation Loggers --></label>
+            <name>Allocation Loggers</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Allocation Loggers --></description>
+        <label><!-- Allocation Loggers --></label>
+        <name>Allocation_Loggers</name>
+        <sections>
+            <columns>
+                <label><!-- Brand --></label>
+                <name>Brand</name>
+            </columns>
+            <columns>
+                <label><!-- Brand Allocation Name --></label>
+                <name>Brand Allocation Name</name>
+            </columns>
+            <columns>
+                <label><!-- Program Type --></label>
+                <name>Program Type</name>
+            </columns>
+            <columns>
+                <label><!-- Time Interval --></label>
+                <name>Time Interval</name>
+            </columns>
+            <columns>
+                <label><!-- Year of Allocation --></label>
+                <name>Year of Allocation</name>
+            </columns>
+            <label><!-- Allocation Loggers --></label>
+            <name>Allocation Loggers</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Allocation Reports --></description>
+        <label><!-- Allocation Reports --></label>
+        <name>Allocation_Reports</name>
+        <sections>
+            <columns>
+                <label><!-- Allocation Carried --></label>
+                <name>Allocation Carried</name>
+            </columns>
+            <columns>
+                <label><!-- Brand --></label>
+                <name>Brand</name>
+            </columns>
+            <columns>
+                <label><!-- Brand Allocation Status --></label>
+                <name>Brand Allocation Status</name>
+            </columns>
+            <columns>
+                <label><!-- Country --></label>
+                <name>Country</name>
+            </columns>
+            <columns>
+                <label><!-- Distributor --></label>
+                <name>Distributor</name>
+            </columns>
+            <columns>
+                <label><!-- Program Type --></label>
+                <name>Program Type</name>
+            </columns>
+            <columns>
+                <label><!-- Region --></label>
+                <name>Region</name>
+            </columns>
+            <columns>
+                <label><!-- State --></label>
+                <name>State</name>
+            </columns>
+            <columns>
+                <label><!-- State Manager --></label>
+                <name>State Manager</name>
+            </columns>
+            <columns>
+                <label><!-- Time Interval --></label>
+                <name>Time Interval</name>
+            </columns>
+            <columns>
+                <label><!-- Time Period --></label>
+                <name>Time Period</name>
+            </columns>
+            <columns>
+                <label><!-- Year of Allocation --></label>
+                <name>Year of Allocation</name>
+            </columns>
+            <label><!-- Allocations Report --></label>
+            <name>Allocations Report</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Barrel Case Information --></description>
+        <label><!-- Barrel Case Information --></label>
+        <name>Barrel_Case_Information</name>
+        <sections>
+            <columns>
+                <label><!-- Allocation Year --></label>
+                <name>Allocation Year</name>
+            </columns>
+            <columns>
+                <label><!-- Brand --></label>
+                <name>Brand</name>
+            </columns>
+            <columns>
+                <label><!-- Brand Allocation Name --></label>
+                <name>Brand Allocation Name</name>
+            </columns>
+            <columns>
+                <label><!-- Carried Forward --></label>
+                <name>Carried Forward</name>
+            </columns>
+            <columns>
+                <label><!-- Distributor --></label>
+                <name>Distributor</name>
+            </columns>
+            <columns>
+                <label><!-- Distributor Level Allocation Name --></label>
+                <name>Distributor Level Allocation Name</name>
+            </columns>
+            <columns>
+                <label><!-- Program Type --></label>
+                <name>Program Type</name>
+            </columns>
+            <columns>
+                <label><!-- Region --></label>
+                <name>Region</name>
+            </columns>
+            <columns>
+                <label><!-- Region Level Allocation Name --></label>
+                <name>Region Level Allocation Name</name>
+            </columns>
+            <columns>
+                <label><!-- State --></label>
+                <name>State</name>
+            </columns>
+            <columns>
+                <label><!-- State Level Allocation Name --></label>
+                <name>State Level Allocation Name</name>
+            </columns>
+            <columns>
+                <label><!-- State Manager --></label>
+                <name>State Manager</name>
+            </columns>
+            <columns>
+                <label><!-- Time Interval --></label>
+                <name>Time Interval</name>
+            </columns>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Barrels with Case Custom --></description>
+        <label><!-- Barrels with Case Custom --></label>
+        <name>Barrels_with_Case_Custom</name>
+        <sections>
+            <label><!-- Barrels --></label>
+            <name>Barrels</name>
+        </sections>
+        <sections>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Brand Allocations --></description>
+        <label><!-- Brand Allocations --></label>
+        <name>Brand_Allocations</name>
+        <sections>
+            <columns>
+                <label><!-- % Used --></label>
+                <name>% Used</name>
+            </columns>
+            <columns>
+                <label><!-- Allocation Year --></label>
+                <name>Allocation Year</name>
+            </columns>
+            <columns>
+                <label><!-- Brand --></label>
+                <name>Brand</name>
+            </columns>
+            <columns>
+                <label><!-- Time Duration --></label>
+                <name>Time Duration</name>
+            </columns>
+            <columns>
+                <label><!-- Total Barrels Allocated --></label>
+                <name>Total Barrels Allocated</name>
+            </columns>
+            <columns>
+                <label><!-- Total Barrels Used --></label>
+                <name>Total Barrels Used</name>
+            </columns>
+            <label><!-- Brand Allocations --></label>
+            <name>Brand Allocations</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Brands Labels Items and Sizes --></description>
+        <label><!-- Brands Labels Items and Sizes --></label>
+        <name>Brands_Labels_Items_and_Sizes</name>
+        <sections>
+            <label><!-- Brands --></label>
+            <name>Brands</name>
+        </sections>
+        <sections>
+            <label><!-- Items --></label>
+            <name>Items</name>
+        </sections>
+        <sections>
+            <label><!-- Labels --></label>
+            <name>Labels</name>
+        </sections>
+        <sections>
+            <label><!-- Sizes --></label>
+            <name>Sizes</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Brands with Labels with Items (Custom) --></description>
+        <label><!-- Brands with Labels with Items (Custom) --></label>
+        <name>Brands_with_Labels_with_Items_Customer</name>
+        <sections>
+            <label><!-- Brands --></label>
+            <name>Brands</name>
+        </sections>
+        <sections>
+            <label><!-- Items --></label>
+            <name>Items</name>
+        </sections>
+        <sections>
+            <label><!-- Labels --></label>
+            <name>Labels</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Campaigns --></description>
+        <label><!-- Campaigns --></label>
+        <name>Campaigns</name>
+        <sections>
+            <label><!-- Campaigns --></label>
+            <name>Campaigns</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Campaigns with Forecast Snapshots --></description>
+        <label><!-- Campaigns with Forecast Snapshots --></label>
+        <name>Campaigns_with_Forecast_Snapshots</name>
+        <sections>
+            <label><!-- Campaigns --></label>
+            <name>Campaigns</name>
+        </sections>
+        <sections>
+            <label><!-- Forecast Snapshots --></label>
+            <name>Forecast Snapshots</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Campaigns with Forecast Weekly Snapshots --></description>
+        <label><!-- Campaigns with Forecast Weekly Snapshots --></label>
+        <name>Campaigns_with_Forecast_Weekly_Snapshots</name>
+        <sections>
+            <label><!-- Campaigns --></label>
+            <name>Campaigns</name>
+        </sections>
+        <sections>
+            <label><!-- Forecast Snapshots Weekly --></label>
+            <name>Forecast Snapshots Weekly</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Campaigns with or without Campaign Spend --></description>
+        <label><!-- Campaigns with or without Campaign Spend --></label>
+        <name>Campaigns_with_or_without_Campaign_Spend</name>
+        <sections>
+            <label><!-- Campaign Spend --></label>
+            <name>Campaign Spend</name>
+        </sections>
+        <sections>
+            <label><!-- Campaigns --></label>
+            <name>Campaigns</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Case Feed --></description>
+        <label><!-- Case Feed --></label>
+        <name>Case_Feed</name>
+        <sections>
+            <label><!-- Case Feed --></label>
+            <name>Case Feed</name>
+        </sections>
+        <sections>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Case with Cloned Milestone --></description>
+        <label><!-- Case with Cloned Milestone --></label>
+        <name>Case_with_Cloned_Milestone</name>
+        <sections>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+        <sections>
+            <label><!-- Cloned Milestones --></label>
+            <name>Cloned Milestones</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Cases --></description>
+        <label><!-- Cases --></label>
+        <name>Cases</name>
+        <sections>
+            <label><!-- Case Distributor Account --></label>
+            <name>Case Distributor Account</name>
+        </sections>
+        <sections>
+            <label><!-- Case Retail Account --></label>
+            <name>Case Retail Account</name>
+        </sections>
+        <sections>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+        <sections>
+            <label><!-- Parent Case Fields --></label>
+            <name>Parent Case Fields</name>
+        </sections>
+        <sections>
+            <label><!-- Submitter --></label>
+            <name>Submitter</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Cases Status History --></description>
+        <label><!-- Cases Status History --></label>
+        <name>Cases_Status_History</name>
+        <sections>
+            <label><!-- Case (Historical) --></label>
+            <name>Case (Historical)</name>
+        </sections>
+        <sections>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Cases with Barrels --></description>
+        <label><!-- Cases with Barrels --></label>
+        <name>Cases_with_Barrels</name>
+        <sections>
+            <label><!-- Barrels --></label>
+            <name>Barrels</name>
+        </sections>
+        <sections>
+            <label><!-- Case Distributor Account --></label>
+            <name>Case Distributor Account</name>
+        </sections>
+        <sections>
+            <label><!-- Case Retail Account --></label>
+            <name>Case Retail Account</name>
+        </sections>
+        <sections>
+            <columns>
+                <label><!-- Submitter Email --></label>
+                <name>Submitter Email</name>
+            </columns>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Cases with Barrels and POS Customizations --></description>
+        <label><!-- Cases with Barrels and POS Customizations --></label>
+        <name>Cases_with_Barrels_and_POS_Customizations</name>
+        <sections>
+            <label><!-- Barrels --></label>
+            <name>Barrels</name>
+        </sections>
+        <sections>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+        <sections>
+            <label><!-- POS Customizations --></label>
+            <name>POS Customizations</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Cases with Barrels and Samples --></description>
+        <label><!-- Cases with Barrels and Samples --></label>
+        <name>Cases_with_Barrels_and_Samples</name>
+        <sections>
+            <label><!-- Barrels --></label>
+            <name>Barrels</name>
+        </sections>
+        <sections>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+        <sections>
+            <label><!-- Samples --></label>
+            <name>Samples</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Cases with Comments --></description>
+        <label><!-- Cases with Comments --></label>
+        <name>Cases_with_Comments</name>
+        <sections>
+            <label><!-- Case Comments --></label>
+            <name>Case Comments</name>
+        </sections>
+        <sections>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Cases with Historical Trending --></description>
+        <label><!-- Cases with Historical Trending --></label>
+        <name>Cases_with_Historical_Trending</name>
+        <sections>
+            <label><!-- Case (Historical) --></label>
+            <name>Case (Historical)</name>
+        </sections>
+        <sections>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Cases with Milestone --></description>
+        <label><!-- Cases with Milestone --></label>
+        <name>Cases_with_Milestone</name>
+        <sections>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Cases with PO and SKUs ONLY --></description>
+        <label><!-- Cases with PO and SKUs ONLY --></label>
+        <name>Cases_with_PO_and_SKUs_ONLY</name>
+        <sections>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+        <sections>
+            <label><!-- Purchase Orders --></label>
+            <name>Purchase Orders</name>
+        </sections>
+        <sections>
+            <label><!-- SKUs --></label>
+            <name>SKUs</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Cases with PO and with or without SKUs --></description>
+        <label><!-- Cases with PO and with or without SKUs --></label>
+        <name>Cases_with_PO_and_with_or_without_SKUs</name>
+        <sections>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+        <sections>
+            <label><!-- Purchase Orders --></label>
+            <name>Purchase Orders</name>
+        </sections>
+        <sections>
+            <label><!-- SKUs --></label>
+            <name>SKUs</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Cases with Plant Events and Attendees --></description>
+        <label><!-- Cases with Plant Events and Attendees --></label>
+        <name>Cases_with_Plant_Events_and_Attendees</name>
+        <sections>
+            <label><!-- Attendees --></label>
+            <name>Attendees</name>
+        </sections>
+        <sections>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+        <sections>
+            <label><!-- Plant Events --></label>
+            <name>Plant Events</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Cases with Purchase Orders --></description>
+        <label><!-- Cases with Purchase Orders --></label>
+        <name>Cases_with_Purchase_Orders</name>
+        <sections>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+        <sections>
+            <label><!-- Purchase Orders --></label>
+            <name>Purchase Orders</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Cases with Purchases Order with SKUs --></description>
+        <label><!-- Cases with Purchases Order with SKUs --></label>
+        <name>Cases_with_Purchases_Order_with_SKUs</name>
+        <sections>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+        <sections>
+            <label><!-- Purchase Orders --></label>
+            <name>Purchase Orders</name>
+        </sections>
+        <sections>
+            <label><!-- SKUs --></label>
+            <name>SKUs</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Cases with Quote Requests --></description>
+        <label><!-- Cases with Quote Requests --></label>
+        <name>Cases_with_Quote_Requests</name>
+        <sections>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+        <sections>
+            <label><!-- Quote Requests --></label>
+            <name>Quote Requests</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Cases with Sample Kit --></description>
+        <label><!-- Cases with Sample Kit --></label>
+        <name>Cases_with_Sample_Kit</name>
+        <sections>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+        <sections>
+            <label><!-- Sample Kits --></label>
+            <name>Sample Kits</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Cases with Subcases --></description>
+        <label><!-- Cases with Subcases --></label>
+        <name>Cases_with_Subcases</name>
+        <sections>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+        <sections>
+            <label><!-- Child Cases --></label>
+            <name>Child Cases</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Chatter Activity --></description>
+        <label><!-- Chatter Activity --></label>
+        <name>Chatter_Activity</name>
+        <sections>
+            <label><!-- Chatter Activity --></label>
+            <name>Chatter Activity</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Connected Application Custom Report Types --></description>
+        <label><!-- Connected Application Custom Report Types --></label>
+        <name>Connected_Application_Custom_Report_Types</name>
+        <sections>
+            <label><!-- Identity Event Logs (User) --></label>
+            <name>Identity Event Logs (User)</name>
+        </sections>
+        <sections>
+            <label><!-- Users --></label>
+            <name>Users</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Contacts --></description>
+        <label><!-- Contacts --></label>
+        <name>Contacts</name>
+        <sections>
+            <label><!-- Contacts --></label>
+            <name>Contacts</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Contacts owned by inactive users --></description>
+        <label><!-- Contacts owned by inactive users --></label>
+        <name>Contacts_owned_by_inactive_users</name>
+        <sections>
+            <label><!-- Contacts --></label>
+            <name>Contacts</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Custom User Report --></description>
+        <label><!-- Custom User Report --></label>
+        <name>Custom_User_Report</name>
+        <sections>
+            <label><!-- Profile --></label>
+            <name>Profile</name>
+        </sections>
+        <sections>
+            <label><!-- Users --></label>
+            <name>Users</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Dashboards with Inactive RUser --></description>
+        <label><!-- Dashboards with Inactive RUser --></label>
+        <name>Dashboards_with_Inactive_RUser</name>
+        <sections>
+            <label><!-- Dashboard Components --></label>
+            <name>Dashboard Components</name>
+        </sections>
+        <sections>
+            <label><!-- Dashboards --></label>
+            <name>Dashboards</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- DataExtractForDSCMigration --></description>
+        <label><!-- DataExtractForDSCMigration --></label>
+        <name>DataExtractForDSCMigration</name>
+        <sections>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Geographical Allocation --></description>
+        <label><!-- Geographical Allocation --></label>
+        <name>Geographical_Allocation</name>
+        <sections>
+            <columns>
+                <label><!-- Allocation Carried --></label>
+                <name>Allocation Carried</name>
+            </columns>
+            <columns>
+                <label><!-- Barrels Allocated --></label>
+                <name>Barrels Allocated</name>
+            </columns>
+            <columns>
+                <label><!-- Barrels Used --></label>
+                <name>Barrels Used</name>
+            </columns>
+            <columns>
+                <label><!-- Brand --></label>
+                <name>Brand</name>
+            </columns>
+            <columns>
+                <label><!-- Brand Allocation Name --></label>
+                <name>Brand Allocation Name</name>
+            </columns>
+            <columns>
+                <label><!-- Country --></label>
+                <name>Country</name>
+            </columns>
+            <columns>
+                <label><!-- Program Type --></label>
+                <name>Program Type</name>
+            </columns>
+            <columns>
+                <label><!-- Remaining Allocations --></label>
+                <name>Remaining Allocations</name>
+            </columns>
+            <columns>
+                <label><!-- Time Interval --></label>
+                <name>Time Interval</name>
+            </columns>
+            <columns>
+                <label><!-- Year of Allocation --></label>
+                <name>Year of Allocation</name>
+            </columns>
+            <label><!-- Brand Country Allocations --></label>
+            <name>Brand Country Allocations</name>
+        </sections>
+        <sections>
+            <columns>
+                <label><!-- Barrels Allocated --></label>
+                <name>Barrels Allocated</name>
+            </columns>
+            <columns>
+                <label><!-- Barrels Used --></label>
+                <name>Barrels Used</name>
+            </columns>
+            <columns>
+                <label><!-- Region --></label>
+                <name>Region</name>
+            </columns>
+            <label><!-- Brand Country Region Allocations --></label>
+            <name>Brand Country Region Allocations</name>
+        </sections>
+        <sections>
+            <columns>
+                <label><!-- State --></label>
+                <name>State</name>
+            </columns>
+            <columns>
+                <label><!-- State Manager --></label>
+                <name>State Manager</name>
+            </columns>
+            <label><!-- Brand Country Region State Allocations --></label>
+            <name>Brand Country Region State Allocations</name>
+        </sections>
+        <sections>
+            <columns>
+                <label><!-- Distributor --></label>
+                <name>Distributor</name>
+            </columns>
+            <label><!-- Brand Country Region State Distributor Allocations --></label>
+            <name>Brand Country Region State Distributor Allocations</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Items and Requests --></description>
+        <label><!-- Items and Requests --></label>
+        <name>Items_and_Requests</name>
+        <sections>
+            <label><!-- Items --></label>
+            <name>Items</name>
+        </sections>
+        <sections>
+            <label><!-- Requests --></label>
+            <name>Requests</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Knowledge Articles --></description>
+        <label><!-- Knowledge Articles --></label>
+        <name>Knowledge_Articles</name>
+        <sections>
+            <label><!-- Article View Statistics --></label>
+            <name>Article View Statistics</name>
+        </sections>
+        <sections>
+            <label><!-- Knowledge Articles --></label>
+            <name>Knowledge Articles</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Lightning Sync Error --></description>
+        <label><!-- Lightning Sync Error --></label>
+        <name>Lightning_Sync_Error</name>
+        <sections>
+            <label><!-- LightningSyncError --></label>
+            <name>LightningSyncError</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Marketing Plans with Campaigns with Campaign Spend --></description>
+        <label><!-- Marketing Plans with Campaigns with Campaign Spend --></label>
+        <name>Marketing_Plans_with_Campaigns_with_Campaign_Spend</name>
+        <sections>
+            <label><!-- Campaign Spend --></label>
+            <name>Campaign Spend</name>
+        </sections>
+        <sections>
+            <label><!-- Campaigns --></label>
+            <name>Campaigns</name>
+        </sections>
+        <sections>
+            <label><!-- Marketing Plans --></label>
+            <name>Marketing Plans</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Marketing Plans with or without Campaigns --></description>
+        <label><!-- Marketing Plans with or without Campaigns --></label>
+        <name>Marketing_Plans_with_or_without_Campaigns</name>
+        <sections>
+            <label><!-- Campaigns --></label>
+            <name>Campaigns</name>
+        </sections>
+        <sections>
+            <label><!-- Marketing Plans --></label>
+            <name>Marketing Plans</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- PR Details --></description>
+        <label><!-- PR Details --></label>
+        <name>PR_Details</name>
+        <sections>
+            <label><!-- PR Details --></label>
+            <name>PR Details</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- PR_Header and Attachment --></description>
+        <label><!-- PR_Header and Attachment --></label>
+        <name>PR_Header_and_Attachment</name>
+        <sections>
+            <label><!-- PR Attachments --></label>
+            <name>PR Attachments</name>
+        </sections>
+        <sections>
+            <label><!-- PR Requests --></label>
+            <name>PR Requests</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- PR Headers &amp; Attachments --></description>
+        <label><!-- PR Headers &amp; Attachments --></label>
+        <name>PR_Headers_Attachments</name>
+        <sections>
+            <label><!-- PR Attachments --></label>
+            <name>PR Attachments</name>
+        </sections>
+        <sections>
+            <label><!-- PR Headers --></label>
+            <name>PR Headers</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Plant Event with Cases --></description>
+        <label><!-- Plant Event with Cases --></label>
+        <name>Plant_Event_with_Cases</name>
+        <sections>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+        <sections>
+            <label><!-- Plant Events --></label>
+            <name>Plant Events</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Plant Events --></description>
+        <label><!-- Plant Events --></label>
+        <name>Plant_Events</name>
+        <sections>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+        <sections>
+            <label><!-- Plant Events --></label>
+            <name>Plant Events</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Plant Events with Attendees --></description>
+        <label><!-- Plant Events with Attendees --></label>
+        <name>Plant_Events_with_Attendees</name>
+        <sections>
+            <label><!-- Attendees --></label>
+            <name>Attendees</name>
+        </sections>
+        <sections>
+            <label><!-- Plant Events --></label>
+            <name>Plant Events</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- PrHeader and Details --></description>
+        <label><!-- PrHeader and Details --></label>
+        <name>PrHeader_and_Details</name>
+        <sections>
+            <label><!-- PR Details --></label>
+            <name>PR Details</name>
+        </sections>
+        <sections>
+            <label><!-- PR Requests --></label>
+            <name>PR Requests</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Pr Attachment --></description>
+        <label><!-- Pr Attachment --></label>
+        <name>Pr_Attachment</name>
+        <sections>
+            <columns>
+                <label><!-- PR Header: Request Number --></label>
+                <name>PR Header: Request Number</name>
+            </columns>
+            <label><!-- PR Attachments --></label>
+            <name>PR Attachments</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- RAD With Accounts and Items --></description>
+        <label><!-- RAD With Accounts and Items --></label>
+        <name>RAD_With_Accounts_and_Items</name>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Distributors --></label>
+            <name>Distributors</name>
+        </sections>
+        <sections>
+            <label><!-- Items --></label>
+            <name>Items</name>
+        </sections>
+        <sections>
+            <label><!-- RAD (Account) --></label>
+            <name>RAD (Account)</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Service Contracts with Contract Line Items --></description>
+        <label><!-- Service Contracts with Contract Line Items --></label>
+        <name>Service_Contracts_with_Contract_Line_Items</name>
+        <sections>
+            <label><!-- Contract Line Items --></label>
+            <name>Contract Line Items</name>
+        </sections>
+        <sections>
+            <label><!-- Service Contracts --></label>
+            <name>Service Contracts</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Service Contracts with Entitlements --></description>
+        <label><!-- Service Contracts with Entitlements --></label>
+        <name>Service_Contracts_with_Entitlements</name>
+        <sections>
+            <label><!-- Entitlements --></label>
+            <name>Entitlements</name>
+        </sections>
+        <sections>
+            <label><!-- Service Contracts --></label>
+            <name>Service Contracts</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Test Mexico Claims --></description>
+        <label><!-- Test Mexico Claims --></label>
+        <name>Test_Mexico_Claims</name>
+        <sections>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+        <sections>
+            <label><!-- Cloned Milestones --></label>
+            <name>Cloned Milestones</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Time Logs with Time Entries --></description>
+        <label><!-- Time Logs with Time Entries --></label>
+        <name>Time_Logs_with_Time_Entries</name>
+        <sections>
+            <label><!-- Time Entries --></label>
+            <name>Time Entries</name>
+        </sections>
+        <sections>
+            <label><!-- Time Logs --></label>
+            <name>Time Logs</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- US Accounts --></description>
+        <label><!-- US Accounts --></label>
+        <name>US_Accounts</name>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Users --></description>
+        <label><!-- Users --></label>
+        <name>Users</name>
+        <sections>
+            <label><!-- Users --></label>
+            <name>Users</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Written off Allocation Reports --></description>
+        <label><!-- Written off Allocation Reports --></label>
+        <name>Written_off_Allocation_Reports</name>
+        <sections>
+            <columns>
+                <label><!-- Allocation Carried --></label>
+                <name>Allocation Carried</name>
+            </columns>
+            <columns>
+                <label><!-- Barrels Allocated in Previous Time Interval --></label>
+                <name>Barrels Allocated in Previous Time Interval</name>
+            </columns>
+            <columns>
+                <label><!-- Barrels Lost --></label>
+                <name>Barrels Lost</name>
+            </columns>
+            <columns>
+                <label><!-- Barrels Used in Previous Time Interval --></label>
+                <name>Barrels Used in Previous Time Interval</name>
+            </columns>
+            <columns>
+                <label><!-- Brand --></label>
+                <name>Brand</name>
+            </columns>
+            <columns>
+                <label><!-- Brand Allocation Status --></label>
+                <name>Brand Allocation Status</name>
+            </columns>
+            <columns>
+                <label><!-- Country --></label>
+                <name>Country</name>
+            </columns>
+            <columns>
+                <label><!-- Distributor --></label>
+                <name>Distributor</name>
+            </columns>
+            <columns>
+                <label><!-- Program Type --></label>
+                <name>Program Type</name>
+            </columns>
+            <columns>
+                <label><!-- Region --></label>
+                <name>Region</name>
+            </columns>
+            <columns>
+                <label><!-- State --></label>
+                <name>State</name>
+            </columns>
+            <columns>
+                <label><!-- State Manager --></label>
+                <name>State Manager</name>
+            </columns>
+            <columns>
+                <label><!-- Time Interval --></label>
+                <name>Time Interval</name>
+            </columns>
+            <columns>
+                <label><!-- Time Period --></label>
+                <name>Time Period</name>
+            </columns>
+            <columns>
+                <label><!-- Year of Allocation --></label>
+                <name>Year of Allocation</name>
+            </columns>
+            <label><!-- Allocations Report --></label>
+            <name>Allocations Report</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Screen Flows --></description>
+        <label><!-- Screen Flows --></label>
+        <name>screen_flows_prebuilt_crt</name>
+        <sections>
+            <label><!-- Flow Interview Log Entries --></label>
+            <name>Flow Interview Log Entries</name>
+        </sections>
+        <sections>
+            <label><!-- Flow Interview Logs --></label>
+            <name>Flow Interview Logs</name>
+        </sections>
+    </reportTypes>
+</Translations>

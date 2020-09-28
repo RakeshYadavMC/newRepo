@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Application Question Set --></label>
+        <name>Application_Question_Set__c</name>
+        <relationshipLabel><!-- Legal Contract Forms --></relationshipLabel>
+    </CustomFieldTranslation>

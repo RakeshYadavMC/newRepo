@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>청구서를 오프라인으로 제출한 이유</label>
+        <name>Reason_for_submitting_claim_offline__c</name>
+    </CustomFieldTranslation>

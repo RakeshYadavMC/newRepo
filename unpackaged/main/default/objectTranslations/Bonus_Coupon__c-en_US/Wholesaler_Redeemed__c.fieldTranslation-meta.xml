@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- This value can only be selected by the Customer Account --></help>
+        <label><!-- Wholesaler --></label>
+        <name>Wholesaler_Redeemed__c</name>
+        <relationshipLabel><!-- Bonus Coupons (Wholesaler Redeemed) --></relationshipLabel>
+    </CustomFieldTranslation>

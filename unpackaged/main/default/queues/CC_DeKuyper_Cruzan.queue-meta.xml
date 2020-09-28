@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>DeKuyper/Cruzan</name>
+    <queueMembers>
+        <publicGroups>
+            <publicGroup>ALL_Queues</publicGroup>
+        </publicGroups>
+        <users>
+            <user>reme.fernandez@beamsuntory.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

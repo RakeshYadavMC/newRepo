@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Marketing Plan</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Marketing Plans</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>AUS Campaigns Allowed - Not Editable</layout>
+        <sections>
+            <label><!-- BI Budget Allocation --></label>
+            <section>BI Budget Allocation</section>
+        </sections>
+        <sections>
+            <label><!-- Campaigns --></label>
+            <section>Campaigns</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Marketing Plan Hierarchy --></label>
+            <section>Marketing Plan Hierarchy</section>
+        </sections>
+        <sections>
+            <label><!-- Marketing Plan Level --></label>
+            <section>Marketing Plan Level</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>AUS Campaigns Prohibited - Not Editable</layout>
+        <sections>
+            <label><!-- BI Budget Allocation --></label>
+            <section>BI Budget Allocation</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Marketing Plan Hierarchy --></label>
+            <section>Marketing Plan Hierarchy</section>
+        </sections>
+        <sections>
+            <label><!-- Marketing Plan Level --></label>
+            <section>Marketing Plan Level</section>
+        </sections>
+        <sections>
+            <label><!-- Related Marketing Plans --></label>
+            <section>Related Marketing Plans</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Campaigns Allowed - Editable</layout>
+        <sections>
+            <label><!-- BI Budget Allocation --></label>
+            <section>BI Budget Allocation</section>
+        </sections>
+        <sections>
+            <label><!-- Campaigns --></label>
+            <section>Campaigns</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Marketing Plan Hierarchy --></label>
+            <section>Marketing Plan Hierarchy</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Campaigns Allowed - Not Editable</layout>
+        <sections>
+            <label><!-- BI Budget Allocation --></label>
+            <section>BI Budget Allocation</section>
+        </sections>
+        <sections>
+            <label><!-- Campaigns --></label>
+            <section>Campaigns</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Marketing Plan Hierarchy --></label>
+            <section>Marketing Plan Hierarchy</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Campaigns Prohibited - Editable</layout>
+        <sections>
+            <label><!-- BI Budget Allocation --></label>
+            <section>BI Budget Allocation</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Marketing Plan Hierarchy --></label>
+            <section>Marketing Plan Hierarchy</section>
+        </sections>
+        <sections>
+            <label><!-- Related Marketing Plans --></label>
+            <section>Related Marketing Plans</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Campaigns Prohibited - Not Editable</layout>
+        <sections>
+            <label><!-- BI Budget Allocation --></label>
+            <section>BI Budget Allocation</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Marketing Plan Hierarchy --></label>
+            <section>Marketing Plan Hierarchy</section>
+        </sections>
+        <sections>
+            <label><!-- Related Marketing Plans --></label>
+            <section>Related Marketing Plans</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- Marketing Plan is editable and allows for Campaigns. --></description>
+        <label><!-- Campaigns Allowed - Editable --></label>
+        <name>Campaigns_Allowed_Editable</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Marketing Plan is NOT editable and allows for Campaigns. --></description>
+        <label><!-- Campaigns Allowed - Not Editable --></label>
+        <name>Campaigns_Allowed_Not_Editable</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Marketing Plan is NOT editable and allows for AUS WBS Campaigns. --></description>
+        <label><!-- Campaigns Allowed - Not Editable (AUS WBS) --></label>
+        <name>Campaigns_Allowed_Not_Editable_AUS_WBS</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Marketing Plan is editable and DOES NOT allow for Campaigns. --></description>
+        <label><!-- Campaigns Prohibited - Editable --></label>
+        <name>Campaigns_Prohibited_Editable</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Marketing Plan is NOT editable and DOES NOT allow for Campaigns. --></description>
+        <label><!-- Campaigns Prohibited - Not Editable --></label>
+        <name>Campaigns_Prohibited_Not_Editable</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Marketing Plan is NOT editable and DOES NOT allow for AUS WBS Campaigns. --></description>
+        <label><!-- Campaigns Prohibited - Not Editable (AUS WBS) --></label>
+        <name>Campaigns_Prohibited_Not_Editable_AUS_WBS</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- MP Allocated Budget cannot exceed MP Budget. Either increase the MP Budget value or decrease the budget value on any associated Marketing Plans. --></errorMessage>
+        <name>Allocated_Budget_lessthanorequal_Budget</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campaign Allocated Budget cannot exceed MP Budget. Either increase the MP Budget value or decrease the budget value on any associated Campaigns. --></errorMessage>
+        <name>Balance_lessthan_Budget</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A Comment is required when changing a Marketing Plan Budget value. --></errorMessage>
+        <name>Comments_Required_for_MPBudget_Update</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- To ensure financial data integrity, we have prevented a Marketing Plan&apos;s Currency from changing after the record is initially created. If currency change is needed, please create a new Marketing Plan with the correct Currency, and transfer funds/plans. --></errorMessage>
+        <name>Currency_cannot_change_after_created</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A company code of US30 or USC0 must have a Controlling Area of 2000
+A company code of MX10 must have a Controlling Area of 3000
+A company code of AU60 must have a Controlling Area of 6000 --></errorMessage>
+        <name>Invalid_Co_Cd_and_Cost_Ctr_Combo</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- MP Budget cannot be less than zero dollars. Please update the MP Budget field. --></errorMessage>
+        <name>MPBudgetCannotbeLessThanZero</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Don&apos;t allow programs outside the country --></errorMessage>
+        <name>Restrict_Programs_by_Country</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You have entered an invalid Company Code or Controlling Area.  Valid Company Code values are US30, USC0, MX10, or AU60.  Valid Controlling Area values are 2000, 3000, and 6000 --></errorMessage>
+        <name>Validation_on_SAP_Reporting_Fields</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Generate_Brand_Plan_Review --></label>
+        <name>Generate_Brand_Plan_Review</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -12,19 +12,41 @@
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
+                <fullName>12:00 PM</fullName>
+                <default>false</default>
+                <label>12:00 PM</label>
+            </value>
+            <value>
+                <fullName>Cellar - 9 AM</fullName>
+                <default>false</default>
+                <label>Cellar - 9 AM</label>
+            </value>
+            <value>
+                <fullName>Lake - 9.30 AM</fullName>
+                <default>false</default>
+                <label>Lake - 9.30 AM</label>
+            </value>
+            <value>
+                <fullName>Cellar - 12 PM</fullName>
+                <default>false</default>
+                <label>Cellar - 12 PM</label>
+            </value>
+            <value>
+                <fullName>Lake - 12.30 PM</fullName>
+                <default>false</default>
+                <label>Lake - 12.30 PM</label>
+            </value>
+            <value>
                 <fullName>09:00 AM</fullName>
                 <default>false</default>
+                <isActive>false</isActive>
                 <label>09:00 AM</label>
             </value>
             <value>
                 <fullName>10:30 AM</fullName>
                 <default>false</default>
+                <isActive>false</isActive>
                 <label>10:30 AM</label>
-            </value>
-            <value>
-                <fullName>12:00 PM</fullName>
-                <default>false</default>
-                <label>12:00 PM</label>
             </value>
         </valueSetDefinition>
     </valueSet>

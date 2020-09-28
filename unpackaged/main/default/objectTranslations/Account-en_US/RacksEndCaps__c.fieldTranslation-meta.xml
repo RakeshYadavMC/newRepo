@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Are racks or end caps allowed? --></help>
+        <label><!-- Racks / End Caps --></label>
+        <name>RacksEndCaps__c</name>
+        <picklistValues>
+            <masterLabel>Both</masterLabel>
+            <translation><!-- Both --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>End Caps</masterLabel>
+            <translation><!-- End Caps --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Racks</masterLabel>
+            <translation><!-- Racks --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

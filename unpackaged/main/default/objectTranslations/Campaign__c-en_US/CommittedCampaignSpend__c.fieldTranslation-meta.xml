@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Sum of Committed Spend sent from SAP. --></help>
+        <label><!-- Committed Campaign Spend --></label>
+        <name>CommittedCampaignSpend__c</name>
+    </CustomFieldTranslation>

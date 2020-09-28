@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Spend Type [Marketing] --></label>
+        <name>Spend_Type_Marketing__c</name>
+        <picklistValues>
+            <masterLabel>BTL 'Equity'</masterLabel>
+            <translation><!-- BTL &apos;Equity&apos; --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Media</masterLabel>
+            <translation><!-- Media --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NPD Development</masterLabel>
+            <translation><!-- NPD Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NPD Launch Support</masterLabel>
+            <translation><!-- NPD Launch Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NPD Production &amp; Development</masterLabel>
+            <translation><!-- NPD Production &amp; Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Off</masterLabel>
+            <translation><!-- Off --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On</masterLabel>
+            <translation><!-- On --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>POS Storage &amp; Distribution</masterLabel>
+            <translation><!-- POS Storage &amp; Distribution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pendulum</masterLabel>
+            <translation><!-- Pendulum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Perm. Visibility</masterLabel>
+            <translation><!-- Perm. Visibility --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Research</masterLabel>
+            <translation><!-- Research --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Research Brand</masterLabel>
+            <translation><!-- Research Brand --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Research Syndicated</masterLabel>
+            <translation><!-- Research Syndicated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S'Ship / Experential</masterLabel>
+            <translation><!-- S&apos;Ship / Experential --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Syndicated Research</masterLabel>
+            <translation><!-- Syndicated Research --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

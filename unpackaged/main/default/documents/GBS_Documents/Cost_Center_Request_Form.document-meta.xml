@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Download, fill out, and upload the Cost Center Request Form to a GMDM case in the Salesforce GBS Community.</description>
+    <internalUseOnly>false</internalUseOnly>
+    <keywords>Cost Center, Request Form, GMDM, GBS</keywords>
+    <name>Cost Center Request Form</name>
+    <public>false</public>
+</Document>

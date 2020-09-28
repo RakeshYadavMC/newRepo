@@ -11,27 +11,27 @@
     <filters>
         <field>SAP_Number__c</field>
         <operation>equals</operation>
-        <value>4502077828,4502077829,4502143098,1022362939,1022362962,1022362898,1022362899</value>
+        <value>1022355546,4501884258,4501884294,1022357344,1022357345,1022357347,1022356042</value>
     </filters>
     <filters>
         <field>SAP_Number__c</field>
         <operation>equals</operation>
-        <value>1022363241,1022363243,1022363244,1022363245,1022363247,1022363248,1022363249</value>
+        <value>1022356043,1022356044,1022356045,1022356046,1022356052,1022356008,1022356540</value>
     </filters>
     <filters>
         <field>SAP_Number__c</field>
         <operation>equals</operation>
-        <value>1022363250,1022360961,1022360962,1022361502,1022361503,1022361504,1022361507</value>
+        <value>1022357387</value>
     </filters>
     <filters>
         <field>SAP_Number__c</field>
         <operation>equals</operation>
-        <value>1022361508,1022361511,1022361514,1022361515,1022362957,1022362958,1022362960</value>
+        <value>1022357354</value>
     </filters>
     <filters>
         <field>SAP_Number__c</field>
         <operation>equals</operation>
-        <value>1022361509,1022363246,4502145547,1022363299,1022361950,1022361949,1022362938</value>
+        <value>1022357351</value>
     </filters>
     <label>Ship Date Change</label>
     <language>en_US</language>

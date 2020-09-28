@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Level in the Hierarchy the Marketing Plan Exists in --></help>
+        <label><!-- Marketing Plan Level --></label>
+        <name>MP_Level__c</name>
+    </CustomFieldTranslation>

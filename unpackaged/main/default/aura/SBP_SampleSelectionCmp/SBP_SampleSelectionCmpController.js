@@ -60,6 +60,8 @@
                     var updateSampleSelectionPromise = helper.updateSampleSelection(component, event, helper);
                     updateSampleSelectionPromise.then(
                         $A.getCallback(function(result) {
+                            //Added by Jai for INC_241142
+                            helper.toggleSpinner(component, false);
                             console.log('barrel Cloned ', result);
                             component.set('v.areSamplesLeft', result['areSamplesLeft']);
                             var navigate = component.get("v.navigateFlow");
@@ -67,6 +69,8 @@
                         }),
                         $A.getCallback(function(error) {
                             // Something went wrong
+                            //Added by Jai for INC_241142
+                            helper.toggleSpinner(component, false);
                             alert('An error occurred getting events : ' + error.message);
                         })
                     );

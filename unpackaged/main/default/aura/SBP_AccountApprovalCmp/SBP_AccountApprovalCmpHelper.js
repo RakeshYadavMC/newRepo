@@ -56,6 +56,12 @@
         }
 
     },
+    onUserLookupChange: function(component, event, helper) {  //Added by ajeeta
+        var userRecord = component.get('v.userRecord');
+        if (!helper.isEmpty(userRecord)) {
+            component.set('v.userAssignId', userRecord.Id);
+        }
+    },
 
     getQuestions: function(component, event, helper) {
 
@@ -236,6 +242,11 @@
 
 
     createApplication: function(component, event, helper) {
+         var userId;
+         var userRecord = component.get('v.userRecord');
+        if (!helper.isEmpty(userRecord)) {
+            component.set('v.userId', userRecord.Id);
+        }
         var action = component.get("c.insertAccountApplication");
         console.log('Questions>>, ', JSON.stringify(helper.buildResponseRecords(component, event, helper)));
         var applications = helper.buildAccountApplication(component, event, helper);
@@ -244,7 +255,8 @@
 
         action.setParams({
             "questionMap": JSON.stringify(helper.buildResponseRecords(component, event, helper)),
-            "jsonApplications": JSON.stringify(Object.values(applications))
+            "jsonApplications": JSON.stringify(Object.values(applications)),
+             "userId": userRecord.Id
         });
 
         return new Promise(function(resolve, reject) {
@@ -364,6 +376,7 @@
         var accountId;
         var distributorAccountId;
         var distributorContactId;
+        var userId;
         if (component.get('v.accountRecord')) {
             accountId = component.get('v.accountRecord').Id;
         }
@@ -375,13 +388,18 @@
         if (component.get('v.distributorContactRecord')) {
             distributorContactId = component.get('v.distributorContactRecord').Id;
         }
+         if (component.get('v.userRecord')) {
+            userId = component.get('v.userRecord').Id;
+        }
+         var userRecord = component.get('v.userRecord');
 
         action.setParams({
             "accountId": accountId,
             "brand": component.get('v.brand'),
             "distributorAccountId": distributorAccountId,
             "distributorContactId": distributorContactId,
-            "NationalAccountFlag" : component.get("v.NationalAccount")
+            "NationalAccountFlag" : component.get("v.NationalAccount"),
+            "userId": userRecord.Id
         });
 
         return new Promise(function(resolve, reject) {
@@ -462,6 +480,7 @@
         application['Account_Name__c'] = component.get('v.accountName');
         application['Distributor_Account__c'] = component.get('v.distributorAccountRecord').Id;
         application['Distributor_Contact__c'] = component.get('v.distributorContactRecord').Id;
+        application['Diplomat_Partner_for_Your_Barrel__c'] = component.get('v.userRecord').Id;
         
         if(component.get('v.NationalAccount') =='Yes'){
         	application ['National_Account_Flag__c'] = true; 

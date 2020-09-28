@@ -154,14 +154,15 @@
         }
         return true;
     },
-    updateCaseRecord: function(component, event, helper) {
+    updateCaseRecord: function(component, event, helper,AvailableforSingle) {
         var action = component.get("c.updateCase");
         var cases = helper.buildCaseRecord(component, event, helper);
 
         console.log('JSON ', JSON.stringify(Object.values(cases)));
-
+		//alert('======AvailableforSingle===='+AvailableforSingle);
         action.setParams({
-            'jsonCases': JSON.stringify(Object.values(cases))
+            'jsonCases': JSON.stringify(Object.values(cases)),
+            'AvailableforSingleBarrel':AvailableforSingle
         });
 
         return new Promise(function(resolve, reject) {
@@ -216,7 +217,13 @@
                     helper.showToast('Missing Distributor Account information', 'Error', 'error');
                     resolve(false);
                 }
-                
+                 var premiseAccount = component.get('v.selectedAccountPremiseLookUpRecord');
+                if(!premiseAccount.Available_for_Single_barrel__c){
+					helper.updateCaseRecord(component, event, helper,premiseAccount.Available_for_Single_barrel__c);
+					component.set('v.AccerrorMessage','This account is blocked from ordering new Single Barrels for violations of Beam’s standards and practices on past Single Barrel orders. Please contact the Barrel Program Manager with any questions ?');
+                    component.set('v.AccopenModal', true);
+                    resolve(false);
+                }
                 /*if ((brand !='Makers Mark' && brand !='El Tesoro') && (distributorContact == '' || distributorContact == undefined || distributorContact == null)) {
                     console.log('inside distributorContact if:::',distributorContact);
                     helper.showToast('Missing Distributor Contact information', 'Error', 'error');
@@ -308,12 +315,14 @@
         caseRecord['POS_Label_Account_Name__c'] = accountLabel;
         caseRecord['Premise__c'] = component.get('v.premise');
         caseRecord['AccountId'] = component.get('v.distributorAccount');
+		//alert('=====distributor=='+component.get('v.distributorAccount'));
+        
         if (component.get('v.premiseAccount') == undefined || component.get('v.premiseAccount') == '') {
             caseRecord['Retail_Account__c'] = null;
         } else {
             caseRecord['Retail_Account__c'] = component.get('v.premiseAccount');
         }
-		
+		//alert('====retra;==='+component.get('v.premiseAccount'));
         if(component.get('v.accountName')!=undefined){
         caseRecord['Retail_Account_Name__c'] = component.get('v.accountName');
         }else{

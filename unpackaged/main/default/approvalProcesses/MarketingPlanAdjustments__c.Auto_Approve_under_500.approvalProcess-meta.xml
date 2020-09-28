@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApprovalProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <allowRecall>false</allowRecall>
+    <allowedSubmitters>
+        <type>creator</type>
+    </allowedSubmitters>
+    <allowedSubmitters>
+        <type>owner</type>
+    </allowedSubmitters>
+    <approvalPageFields>
+        <field>Name</field>
+        <field>TransferringMarketingPlan__c</field>
+        <field>ReceivingMarketingPlan__c</field>
+        <field>Amount__c</field>
+    </approvalPageFields>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>bob.ketchum@slalom.com.beam</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>Set first criteria to never be hit so we can auto-approve</description>
+        <entryCriteria>
+            <criteriaItems>
+                <field>MarketingPlanAdjustments__c.Amount__c</field>
+                <operation>greaterThan</operation>
+                <value>USD 500</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>ApproveRecord</ifCriteriaNotMet>
+        <label>Else Approve Criteria</label>
+        <name>Else_Approve_Criteria</name>
+    </approvalStep>
+    <enableMobileDeviceAccess>true</enableMobileDeviceAccess>
+    <entryCriteria>
+        <criteriaItems>
+            <field>MarketingPlanAdjustments__c.Amount__c</field>
+            <operation>lessThan</operation>
+            <value>USD 500</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>MarketingPlanAdjustments__c.Request_Status__c</field>
+            <operation>notEqual</operation>
+            <value>Rejected,Canceled,Approved,Failed</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>MarketingPlanAdjustments__c.Country_From__c</field>
+            <operation>equals</operation>
+            <value>US</value>
+        </criteriaItems>
+    </entryCriteria>
+    <finalApprovalActions>
+        <action>
+            <name>Update_Request_Status_Approved</name>
+            <type>FieldUpdate</type>
+        </action>
+    </finalApprovalActions>
+    <finalApprovalRecordLock>true</finalApprovalRecordLock>
+    <finalRejectionActions>
+        <action>
+            <name>Update_Request_Status_Rejected</name>
+            <type>FieldUpdate</type>
+        </action>
+    </finalRejectionActions>
+    <finalRejectionRecordLock>false</finalRejectionRecordLock>
+    <initialSubmissionActions>
+        <action>
+            <name>Update_Request_Status</name>
+            <type>FieldUpdate</type>
+        </action>
+    </initialSubmissionActions>
+    <label>US Auto Approve under $500</label>
+    <recordEditability>AdminOnly</recordEditability>
+    <showApprovalHistory>true</showApprovalHistory>
+</ApprovalProcess>

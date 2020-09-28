@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_NAME</field>
+    </columns>
+    <columns>
+        <field>Audit_Log__c.Amount_of_Adjustment__c</field>
+    </columns>
+    <columns>
+        <field>Audit_Log__c.Old_Total_Value__c</field>
+    </columns>
+    <columns>
+        <field>Audit_Log__c.New_Total_Value__c</field>
+    </columns>
+    <columns>
+        <field>Audit_Log__c.Reason_for_Adjustment__c</field>
+    </columns>
+    <columns>
+        <field>CUST_CREATED_NAME</field>
+    </columns>
+    <currency>USD</currency>
+    <format>Tabular</format>
+    <name>2017 Marketing Plan Audit Log</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Audit_Log__c@Audit_Log__c.Related_Marketing_Plan__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CUST_CREATED_DATE</dateColumn>
+        <endDate>2017-12-31</endDate>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2017-01-01</startDate>
+    </timeFrameFilter>
+</Report>

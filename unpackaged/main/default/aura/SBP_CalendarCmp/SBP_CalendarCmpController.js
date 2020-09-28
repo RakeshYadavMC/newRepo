@@ -140,18 +140,18 @@
         component.set('v.selectedTimePeriod', event.target.value);
         var checkDate = component.get('v.scheduledDate');
         var day = moment(checkDate).format('YYYY-MM-DD');
-        var amArray = ['09:00 AM'];// '10:30 AM' (Removed Time Slot for MMPS by Adithya Rajan (SR_178476))
-        var pmArray = ['12:00 PM'];
+        var amArray = ['Cellar – 9 AM','Lake – 9:30 AM'];// '10:30 AM' (Removed Time Slot for MMPS by Adithya Rajan (SR_178476))
+        var pmArray = ['Cellar – 12 PM','Lake – 12:30 PM'];
         
         console.log('amArray:::',amArray);
         console.log('pmArray:::',pmArray);
         if(event.target.value == 'AM' && !checkDate.includes("2019")){
             if(availableTimeSlotByDay.hasOwnProperty(day)){
-                if(availableTimeSlotByDay[day].hasOwnProperty('09:00 AM')){
-                    amArray.splice(amArray.indexOf('09:00 AM'),1);
+                if(availableTimeSlotByDay[day].hasOwnProperty('Cellar – 9 AM')){
+                    amArray.splice(amArray.indexOf('Cellar – 9 AM'),1);
                     console.log('amArray1:::',amArray);
-                }if(availableTimeSlotByDay[day].hasOwnProperty('10:30 AM')){
-                    amArray.splice(amArray.indexOf('10:30 AM'),1);
+                }if(availableTimeSlotByDay[day].hasOwnProperty('Lake – 9:30 AM')){
+                    amArray.splice(amArray.indexOf('Lake – 9:30 AM'),1);
                     console.log('amArray2:::',amArray);
                 }  
             }
@@ -162,7 +162,11 @@
         }
         else if(event.target.value == 'PM'&& !checkDate.includes("2019")){
             if(availableTimeSlotByDay.hasOwnProperty(day) && availableTimeSlotByDay[day].hasOwnProperty('12:00 PM')){
-                pmArray.splice(pmArray.indexOf('12:00 PM'),1);
+                pmArray.splice(pmArray.indexOf('Cellar – 12 PM'),1);
+                console.log('pmArray:::',pmArray);
+            }
+                if(availableTimeSlotByDay.hasOwnProperty(day) && availableTimeSlotByDay[day].hasOwnProperty('12:00 PM')){
+                pmArray.splice(pmArray.indexOf('Lake – 12:30 PM'),1);
                 console.log('pmArray:::',pmArray);
             }
             component.set('v.pmValues',pmArray); 
@@ -196,7 +200,56 @@
         var vx = component.get("v.eventSelect");
         //fire event from child and capture in parent
         $A.enqueueAction(vx);
-    }
+    },
+    timePeriodChangeForMM: function(component, event, helper) {
+        
+        var availableTimeSlotByDay = component.get('v.availableTimeSlotByDay');
+        var checkVal = component.find('checkVal1').get('v.checked');
+        component.set('v.selectedTimePeriod', event.target.value);
+        var checkDate = component.get('v.scheduledDate');
+        var day = moment(checkDate).format('YYYY-MM-DD');
+        var amArray = ['Cellar – 9 AM','Cellar – 12 PM'];
+        var pmArray = ['Lake – 9:30 AM','Lake – 12:30 PM'];
+        
+        console.log('amArray:::',amArray);
+        console.log('pmArray:::',pmArray);
+        if(event.target.value == 'Lake' && !checkDate.includes("2019")){
+            if(availableTimeSlotByDay.hasOwnProperty(day) && availableTimeSlotByDay[day].hasOwnProperty('Lake – 9:30 AM')){
+                pmArray.splice(pmArray.indexOf('Lake – 9:30 AM'),1);
+                console.log('pmArray:::',pmArray);
+            }
+            if(availableTimeSlotByDay[day].hasOwnProperty('Lake – 12:30 PM')){
+                    amArray.splice(amArray.indexOf('Lake – 12:30 PM'),1);
+                    console.log('pmArray:::',pmArray);
+                } 
+            component.set('v.lakeValues',pmArray); 
+            component.set('v.lakeTimeSlot', true);
+            component.set('v.cellarTimeSlot', false); 
+            component.set('v.slotDisabled', false); 
+            console.log('slotDisabled:::',slotDisabled);
+        }
+        if(event.target.value == 'Cellar' && !checkDate.includes("2019")){
+            if(availableTimeSlotByDay.hasOwnProperty(day)){
+                if(availableTimeSlotByDay[day].hasOwnProperty('Cellar – 9 AM')){
+                    amArray.splice(amArray.indexOf('Cellar – 9 AM'),1);
+                    console.log('amArray1:::',amArray);
+                }if(availableTimeSlotByDay[day].hasOwnProperty('Cellar – 12 PM')){
+                    amArray.splice(amArray.indexOf('Cellar – 12 PM'),1);
+                    console.log('amArray2:::',amArray);
+                }  
+            }
+            component.set('v.cellarValues',amArray); 
+            component.set('v.cellarTimeSlot', true);
+            component.set('v.lakeTimeSlot', false); 
+            component.set('v.slotDisabled', false); 
+            console.log('slotDisabled:::',slotDisabled);
+        }
+        
+            else{
+                component.set('v.slotDisabled', true); 
+            }
+    },
+    
     
     
 })

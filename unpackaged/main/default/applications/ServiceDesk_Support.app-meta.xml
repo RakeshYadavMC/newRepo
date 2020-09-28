@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <defaultLandingTab>standard-OtherUserProfile</defaultLandingTab>
+    <description>ServiceDesk Support app for the ServiceDesk support users</description>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>ServiceDesk Support</label>
+    <logo>SharedDocuments/Beam_Suntory_Logo.png</logo>
+    <tabs>standard-OtherUserProfile</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>standard-Dashboard</tabs>
+</CustomApplication>

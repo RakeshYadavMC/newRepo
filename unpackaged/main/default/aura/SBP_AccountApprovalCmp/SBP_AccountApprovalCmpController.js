@@ -63,6 +63,9 @@
     onContactLookupChange: function(component, event, helper) {
         helper.onContactLookupChange(component, event, helper);
     },
+     onUserLookupChange: function(component, event, helper) {   //Added by ajeeta
+        helper.onUserLookupChange(component, event, helper);
+    },
     
     handleInputChange: function(component, event, helper) {
         var response = event.getParam('value');
@@ -83,6 +86,7 @@
         var currentBrand = component.get('v.brand');
         var distributorAccount = component.get('v.distributorAccount');
         var distributorContact = component.get('v.distributorContact');
+        var userAssignId = component.get('v.userAssignId');
         
         /*if(((currentBrand == 'Makers Mark')||(currentBrand =='El Tesoro'))&&
            ((distributorAccount == null || distributorAccount == '' || distributorAccount == undefined)||
@@ -103,7 +107,12 @@
             helper.showToast('Missing Distributor Account information', 'Error', 'error');          
             return;
         }
-        
+        if((currentBrand == 'Makers Mark')&&
+           (userAssignId == null || userAssignId == '' || userAssignId == undefined))
+        {         
+            helper.showToast('Missing Diplomat Partner information', 'Error', 'error');          
+            return;
+        }
         var createApplicationPromise = helper.createApplication(component, event, helper);
         createApplicationPromise.then(
             $A.getCallback(function(result) {
@@ -138,6 +147,7 @@
         var currentBrand = component.get('v.brand');
         var distributorAccount = component.get('v.distributorAccount');
         var distributorContact = component.get('v.distributorContact');
+        var userAssignId = component.get('v.userAssignId');
         
         /*if(((currentBrand == 'Makers Mark')||(currentBrand =='El Tesoro'))&&
            ((distributorAccount == null || distributorAccount == '' || distributorAccount == undefined)||
@@ -156,6 +166,12 @@
            (distributorAccount == null || distributorAccount == '' || distributorAccount == undefined))
         {         
             helper.showToast('Missing Distributor Account information', 'Error', 'error');          
+            return;
+        }
+         if((currentBrand == 'Makers Mark')&&
+           (userAssignId == null || userAssignId == '' || userAssignId == undefined))
+        {         
+            helper.showToast('Missing Diplomat Partner information', 'Error', 'error');          
             return;
         }
             

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Work Days Remaining(10hr) --></label>
+        <name>Work_Days_Remaining_10hr__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Date Hold</masterLabel>
+            <translation><!-- Date Hold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distiller's Choice</masterLabel>
+            <translation><!-- Distiller&apos;s Choice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recent Recipes</masterLabel>
+            <translation><!-- Recent Recipes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Remote Selection</masterLabel>
+            <translation><!-- Remote Selection --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sample Kit</masterLabel>
+            <translation><!-- Sample Kit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Split Barrel</masterLabel>
+            <translation><!-- Split Barrel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trip and Tour</masterLabel>
+            <translation><!-- Trip and Tour --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

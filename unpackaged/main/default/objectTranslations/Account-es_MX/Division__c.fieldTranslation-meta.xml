@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>División</label>
+        <name>Division__c</name>
+        <picklistValues>
+            <masterLabel>Central Division</masterLabel>
+            <translation><!-- Central Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>East Coast Division</masterLabel>
+            <translation><!-- East Coast Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eastern Control Division</masterLabel>
+            <translation><!-- Eastern Control Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Florida Division</masterLabel>
+            <translation><!-- Florida Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Franchise Division</masterLabel>
+            <translation><!-- Franchise Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mideast Division</masterLabel>
+            <translation><!-- Mideast Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Midsouth Division</masterLabel>
+            <translation><!-- Midsouth Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Midwest Division</masterLabel>
+            <translation><!-- Midwest Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mountain Division</masterLabel>
+            <translation><!-- Mountain Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West Coast Division</masterLabel>
+            <translation><!-- West Coast Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Western Control Division</masterLabel>
+            <translation><!-- Western Control Division --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

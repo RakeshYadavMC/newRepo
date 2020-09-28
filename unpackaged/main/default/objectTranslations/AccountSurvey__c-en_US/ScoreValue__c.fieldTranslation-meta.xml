@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- This is a percentage which measures how well a store complies with the objectives of the survey. --></help>
+        <label><!-- Score Value (%) --></label>
+        <name>ScoreValue__c</name>
+    </CustomFieldTranslation>

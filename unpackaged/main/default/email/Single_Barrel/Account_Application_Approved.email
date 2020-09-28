@@ -3,7 +3,7 @@
 
 <html>
 <body>
-<apex:image id="Campaign_email_template_1_header" value="https://beamsuntory--c.na74.content.force.com/servlet/servlet.ImageServer?id=015o0000001Dyoa&oid=00Do0000000cCkJ" style="display: block; margin-left: auto;margin-right: auto; width:50%" />
+<apex:image id="Campaign_email_template_1_header" value="https://beamsuntory--c.na74.content.force.com/servlet/servlet.ImageServer?id=015o0000001Dyoa&oid=00D6s0000008aZv" style="display: block; margin-left: auto;margin-right: auto; width:50%" />
 <div style="content:' '; display:block; border:.5px solid black; margin-top:10px; border-color: #999999;"></div>
 
 <p> Hi, </p>

@@ -1,0 +1,16 @@
+<aura:component>
+    <!-- attributes -->
+    <aura:attribute name="data" type="Object" />
+    <aura:attribute name="columns" type="List" />
+
+    <!-- handlers-->
+    <aura:handler name="init" value="{! this }" action="{! c.init }" />
+
+    <lightning:datatable
+            keyField="id"
+            data="{! v.data }"
+            columns="{! v.columns }"
+            showRowNumberColumn="true"
+            hideCheckboxColumn="true"
+        />
+</aura:component>

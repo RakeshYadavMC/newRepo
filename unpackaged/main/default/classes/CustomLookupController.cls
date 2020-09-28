@@ -55,7 +55,7 @@ public with sharing class CustomLookupController {
         System.debug('city value is::'+city+'State value is:::'+state);
         
         if((city == null || city == '') && (state == null || state == '')){
-            List <sObject> lstOfRecords = [select id, Name, PremiseType__c, BillingStreet, BillingCity, BillingState, BillingPostalCode, RecordType.DeveloperName, State__c from Account where (RecordType.DeveloperName = 'OffPremise' OR RecordType.DeveloperName = 'OnPremise') AND (TDL_Match_Code__c = :searchKeyWord OR Name LIKE :searchKey) AND Available_for_Single_barrel__c=:AvailableForSingleBarrel order by createdDate DESC limit :queryLimit];
+            List <sObject> lstOfRecords = [select id, Name, PremiseType__c, BillingStreet, BillingCity, BillingState, BillingPostalCode, RecordType.DeveloperName, State__c, Available_for_Single_barrel__c from Account where (RecordType.DeveloperName = 'OffPremise' OR RecordType.DeveloperName = 'OnPremise') AND (TDL_Match_Code__c = :searchKeyWord OR Name LIKE :searchKey) /*AND Available_for_Single_barrel__c=:AvailableForSingleBarrel*/ order by createdDate DESC limit :queryLimit];
             for (sObject obj : lstOfRecords) {
                 returnList.add(obj);
             }
@@ -63,7 +63,7 @@ public with sharing class CustomLookupController {
         }
         
         else if(city != null && city != '' && state != null && state != ''){
-            List <sObject> lstOfRecordsNew1 = [select id, Name, PremiseType__c, BillingStreet, BillingCity, BillingState, BillingPostalCode, RecordType.DeveloperName, State__c from Account where (RecordType.DeveloperName = 'OffPremise' OR RecordType.DeveloperName = 'OnPremise') AND (TDL_Match_Code__c = :searchKeyWord OR Name LIKE :searchKey) AND BillingCity = :city AND BillingState = :state AND Available_for_Single_barrel__c=:AvailableForSingleBarrel order by createdDate DESC limit :queryLimit];
+            List <sObject> lstOfRecordsNew1 = [select id, Name, PremiseType__c, BillingStreet, BillingCity, BillingState, BillingPostalCode, RecordType.DeveloperName, State__c, Available_for_Single_barrel__c from Account where (RecordType.DeveloperName = 'OffPremise' OR RecordType.DeveloperName = 'OnPremise') AND (TDL_Match_Code__c = :searchKeyWord OR Name LIKE :searchKey) AND BillingCity = :city AND BillingState = :state /* AND Available_for_Single_barrel__c=:AvailableForSingleBarrel */ order by createdDate DESC limit :queryLimit];
             for (sObject obj : lstOfRecordsNew1) {
                 returnListNew1.add(obj);
             }
@@ -74,9 +74,9 @@ public with sharing class CustomLookupController {
             List <sObject> lstOfRecordsNew = new List <sObject> ();
             
             if(city != null && city != ''){
-                lstOfRecordsNew = [select id, Name, PremiseType__c, BillingStreet, BillingCity, BillingState, BillingPostalCode, RecordType.DeveloperName, State__c from Account where (RecordType.DeveloperName = 'OffPremise' OR RecordType.DeveloperName = 'OnPremise') AND BillingCity = :city AND Available_for_Single_barrel__c=:AvailableForSingleBarrel order by createdDate DESC limit :queryLimit];
+                lstOfRecordsNew = [select id, Name, PremiseType__c, BillingStreet, BillingCity, BillingState, BillingPostalCode, RecordType.DeveloperName, State__c, Available_for_Single_barrel__c from Account where (RecordType.DeveloperName = 'OffPremise' OR RecordType.DeveloperName = 'OnPremise') AND BillingCity = :city /* AND Available_for_Single_barrel__c=:AvailableForSingleBarrel */ order by createdDate DESC limit :queryLimit];
             }else{
-                lstOfRecordsNew = [select id, Name, PremiseType__c, BillingStreet, BillingCity, BillingState, BillingPostalCode, RecordType.DeveloperName, State__c from Account where (RecordType.DeveloperName = 'OffPremise' OR RecordType.DeveloperName = 'OnPremise') AND BillingState = :state  AND Available_for_Single_barrel__c=:AvailableForSingleBarrel order by createdDate DESC limit :queryLimit];
+                lstOfRecordsNew = [select id, Name, PremiseType__c, BillingStreet, BillingCity, BillingState, BillingPostalCode, RecordType.DeveloperName, State__c, Available_for_Single_barrel__c from Account where (RecordType.DeveloperName = 'OffPremise' OR RecordType.DeveloperName = 'OnPremise') AND BillingState = :state /* AND Available_for_Single_barrel__c=:AvailableForSingleBarrel */ order by createdDate DESC limit :queryLimit];
             }
             
             for (sObject obj : lstOfRecordsNew) {

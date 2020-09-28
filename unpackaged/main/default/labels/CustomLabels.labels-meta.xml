@@ -3236,6 +3236,13 @@ If requesting more than five uploads, please provide information in an excel doc
         <value>Lot Code</value>
     </labels>
     <labels>
+        <fullName>Lotcode_Message</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Lotcode Message</shortDescription>
+        <value>There are similar cases with a matching Lot Code. To check these cases</value>
+    </labels>
+    <labels>
         <fullName>Lucernex_access_request</fullName>
         <categories>GBS</categories>
         <language>en_US</language>

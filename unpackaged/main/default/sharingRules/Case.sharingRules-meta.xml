@@ -1,0 +1,985 @@
+<?xml version="1.0" encoding="utf-8"?><SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>ATHENS_DISTRIBUTING_CO_CHATTANOOG</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>ATHENS DISTRIBUTING CO &amp; CHATTANOOG</label>
+        <sharedTo>
+            <portalRole>ATHENSDISTRIBUTINGCOOFTENNESSEECustomerUser</portalRole>
+        </sharedTo>
+        <criteriaItems>
+            <field>AccountId</field>
+            <operation>equals</operation>
+            <value>001o000000cK3OZ</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>AccountId</field>
+            <operation>equals</operation>
+            <value>001o000000cK3Jz</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Bailment_Error_Sub_Cases</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Bailment Error Sub-Cases</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>GBS_OTC_Billing_Management_United_States</roleAndSubordinatesInternal>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>OTC Billing,OTC - Bailment</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>GBS_Center__c</field>
+            <operation>equals</operation>
+            <value>US/Canada</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Breakthru_Beverage_Nevada_Reno_LLC</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Breakthru Beverage Nevada Reno, LLC</label>
+        <sharedTo>
+            <portalRole>BREAKTHRUBEVERAGENEVADALLCCustomerUser</portalRole>
+        </sharedTo>
+        <criteriaItems>
+            <field>AccountId</field>
+            <operation>equals</operation>
+            <value>001o000000nGa0w</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Brian_Sturgulewski_MMPS_Cases</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Brian Sturgulewski MMPS Cases</label>
+        <sharedTo>
+            <group>Brian_Sturgulewski_Cases</group>
+        </sharedTo>
+        <booleanFilter>1 AND 2 AND 3</booleanFilter>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Single Barrel - Standard,Single Barrel - Proof Specific,Single Barrel - Split Barrel</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Brand__c</field>
+            <operation>equals</operation>
+            <value>Makers Mark</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>AccountState__c</field>
+            <operation>equals</operation>
+            <value>AL,IA,ID,MI,ME,MS,MT,NC,NH,OH,OR,PA,UT,VA,VT,WV,WY</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>CENTRAL_DISTRIBUTORS</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>CENTRAL DISTRIBUTORS</label>
+        <sharedTo>
+            <portalRole>MOONDISTRIBUTINGCustomerUser</portalRole>
+        </sharedTo>
+        <criteriaItems>
+            <field>AccountId</field>
+            <operation>equals</operation>
+            <value>001o000000cK3Nk</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>CommunitySiteGuestUserRule</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>This rule is related to the community site guest user to allow update the case and upload attachment.</description>
+        <label>CommunitySiteGuestUserRule</label>
+        <sharedTo>
+            <group>Contact_Us_Community_Site_Guest_User</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>OwnerId</field>
+            <operation>notEqual</operation>
+            <value>null</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Quality Claim</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>EMPIRE_DISTRIBUTORS_OF_NC_ASHVILL_RALEIGH</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>EMPIRE DISTRIBUTORS OF NC - ASHVILL &amp; RALEIGH</label>
+        <sharedTo>
+            <portalRole>EMPIREDISTRIBUTORSNORTHCAROLINCustomerUser</portalRole>
+        </sharedTo>
+        <criteriaItems>
+            <field>AccountId</field>
+            <operation>equals</operation>
+            <value>001o000000cK3Ox</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>AccountId</field>
+            <operation>equals</operation>
+            <value>001o000000cK3Ow</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>GENERAL_WHOLESALE_Sharing_Rule</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>GENERAL WHOLESALE Sharing Rule</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>GENERALWHOLESALECOCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>AccountId</field>
+            <operation>equals</operation>
+            <value>001o000000cK3Jy</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>HORIZON_WINE_SPIRITS_CHATTANOOGA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>HORIZON WINE &amp; SPIRITS CHATTANOOGA</label>
+        <sharedTo>
+            <portalRole>HORIZONWINESPIRITSNASHVILLECustomerUser</portalRole>
+        </sharedTo>
+        <criteriaItems>
+            <field>AccountId</field>
+            <operation>equals</operation>
+            <value>001o000000cK3Ny</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>MM_Diplomat_Access</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Rule grants access to all Makers Mark Diplomats to single barrel cases</description>
+        <label>MM Diplomat Access</label>
+        <sharedTo>
+            <group>Makers_Mark_Diplomats_Single_Barrel</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Single Barrel - Proof Specific</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Brand__c</field>
+            <operation>equals</operation>
+            <value>Makers Mark</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Major_Brands_Inc_Kansas_City</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Major Brands, Inc (Kansas City)</label>
+        <sharedTo>
+            <portalRole>MAJORBRANDSINCCustomerUser</portalRole>
+        </sharedTo>
+        <criteriaItems>
+            <field>AccountId</field>
+            <operation>equals</operation>
+            <value>001o000000cK3Oh</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Major_brands_Inc</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>List of cases submitted for Major brands Inc to share with Kim Kooken</description>
+        <label>Major brands Inc</label>
+        <sharedTo>
+            <group>Major_brands_Inc</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>AccountId</field>
+            <operation>equals</operation>
+            <value>001o000000cK3Oh</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>NATIONAL_DISTRIBUTING_SAVANNAH_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>NATIONAL DISTRIBUTING-SAVANNAH Sharing</label>
+        <sharedTo>
+            <portalRole>NATIONALDISTRIBUTINGATLANTACustomerUser</portalRole>
+        </sharedTo>
+        <criteriaItems>
+            <field>AccountId</field>
+            <operation>equals</operation>
+            <value>001o000000cK3Na</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>NAVY_PENSACOLA_NAVY_EXCHANGE_SERVICE_COMMAND</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>NAVY - PENSACOLA (NAVY EXCHANGE SERVICE COMMAND)</label>
+        <sharedTo>
+            <portalRole>NAVYPENSACOLANAVYEXCHANGESERVICECOMMANDCustomerUser</portalRole>
+        </sharedTo>
+        <criteriaItems>
+            <field>AccountId</field>
+            <operation>equals</operation>
+            <value>001o000000nGa0c</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>AccountId</field>
+            <operation>equals</operation>
+            <value>001o000000nGa2x</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>National_Distributing_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>National Distributing Sharing</label>
+        <sharedTo>
+            <portalRole>NATIONALDISTRIBUTINGSAVANNAHCustomerUser</portalRole>
+        </sharedTo>
+        <criteriaItems>
+            <field>AccountId</field>
+            <operation>equals</operation>
+            <value>001o000000cK3K3</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>AccountId</field>
+            <operation>equals</operation>
+            <value>001o000000cK3KE</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>ODOM_CORP_FIFE_ALASKA_STOCK_Customer_User</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>ODOM CORP/FIFE (ALASKA STOCK) Customer User</description>
+        <label>ODOM CORP/FIFE (ALASKA STOCK) Customer User</label>
+        <sharedTo>
+            <portalRole>ODOMCORPFIFEALASKASTOCKCustomerUser</portalRole>
+        </sharedTo>
+        <criteriaItems>
+            <field>AccountId</field>
+            <operation>equals</operation>
+            <value>001o000000nGa2l</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>REPUBLIC_NATIONAL_DISTRIBUTING</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>REPUBLIC NATIONAL DISTRIBUTING</description>
+        <label>REPUBLIC NATIONAL DISTRIBUTING</label>
+        <sharedTo>
+            <portalRole>REPUBLICNATIONALDISTRIBUTINGCustomerUser</portalRole>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3</booleanFilter>
+        <criteriaItems>
+            <field>AccountId</field>
+            <operation>equals</operation>
+            <value>001o000000cK3NiAAK</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>AccountId</field>
+            <operation>equals</operation>
+            <value>001o000000cK3NdAAK</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>AccountId</field>
+            <operation>equals</operation>
+            <value>001o000000cK3OQAA0</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>REPUBLIC_NATIONAL_DISTRIBUTING_COMP</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>REPUBLIC NATIONAL DISTRIBUTING COMP</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>REPUBLICNATIONALDISTRIBUTINGDCTHEFORMANCOMPANIESCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>AccountId</field>
+            <operation>equals</operation>
+            <value>001o000000cK3Kk</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>REPUBLIC_NATIONAL_DISTRIBUTING_COMP_Customer_User</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>REPUBLIC NATIONAL DISTRIBUTING COMP Customer User</description>
+        <label>REPUBLIC NATIONAL DISTRIBUTING COMP Customer User</label>
+        <sharedTo>
+            <portalRole>REPUBLICNATIONALDISTRIBUTINGCOMPCustomerUser</portalRole>
+        </sharedTo>
+        <criteriaItems>
+            <field>AccountId</field>
+            <operation>equals</operation>
+            <value>001o000000cK3Jh,001o000000nGa2W</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>REPUBLIC_NATIONAL_DISTRIBUTING_COMP_in_Maryland</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>REPUBLIC NATIONAL DISTRIBUTING COMP(in Maryland)</label>
+        <sharedTo>
+            <portalRole>REPUBLICNATIONALDISTRIBUTINGDCTHEFORMANCOMPANIESCustomerUser</portalRole>
+        </sharedTo>
+        <criteriaItems>
+            <field>AccountId</field>
+            <operation>equals</operation>
+            <value>001o000000cK3Jh</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>REPUBLIC_NATIONAL_DISTRIBUTING_DC_THE_FORMAN_COMPANIES_Customer_User</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>REPUBLIC NATIONAL DISTRIBUTING DC (THE FORMAN COMPANIES) Customer User</description>
+        <label>REPUBLIC NATIONAL DISTRIBUTING DC (THE FORMAN COMPANIES) Customer User</label>
+        <sharedTo>
+            <portalRole>REPUBLICNATIONALDISTRIBUTINGDCTHEFORMANCOMPANIESCustomerUser</portalRole>
+        </sharedTo>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <field>AccountId</field>
+            <operation>equals</operation>
+            <value>001o000000nGa2W</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>AccountId</field>
+            <operation>equals</operation>
+            <value>001o000000cK3Jh</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>REPUBLIC_NATIONAL_DISTRIBUTING_in_North_Dakota</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>REPUBLIC NATIONAL DISTRIBUTING (in North Dakota)</description>
+        <label>REPUBLIC NATIONAL DISTRIBUTING (in North Dakota)</label>
+        <sharedTo>
+            <portalRole>REPUBLICNATIONALDISTRIBUTINGCustomerUser</portalRole>
+        </sharedTo>
+        <criteriaItems>
+            <field>AccountId</field>
+            <operation>equals</operation>
+            <value>001o000000cK3Nd</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>AccountId</field>
+            <operation>equals</operation>
+            <value>001o000000cK3OQ</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Republic_National_Distributing_co</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Republic National Distributing co.</description>
+        <label>Republic National Distributing co.</label>
+        <sharedTo>
+            <portalRole>RepublicNationalDistributingcoCustomerUser</portalRole>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3 OR 4 OR 5 OR 6 OR 7 OR 8 OR 9</booleanFilter>
+        <criteriaItems>
+            <field>AccountId</field>
+            <operation>equals</operation>
+            <value>001o000000cK3OmAAK</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>AccountId</field>
+            <operation>equals</operation>
+            <value>001o000000cK3KYAA0</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>AccountId</field>
+            <operation>equals</operation>
+            <value>001o000000cK3LFAA0</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>AccountId</field>
+            <operation>equals</operation>
+            <value>001o000000cK3LlAAK</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>AccountId</field>
+            <operation>equals</operation>
+            <value>001o000000cK3NgAAK</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>AccountId</field>
+            <operation>equals</operation>
+            <value>001o000000cK3NoAAK</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>AccountId</field>
+            <operation>equals</operation>
+            <value>001o000000cK3OdAAK</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>AccountId</field>
+            <operation>equals</operation>
+            <value>001o000000cK3P0AAK</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>AccountId</field>
+            <operation>equals</operation>
+            <value>001o000000nGa1EAAS</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Republic_National_Distributing_co_in_Oklahoma</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Republic National Distributing co (in Oklahoma)</label>
+        <sharedTo>
+            <portalRole>RepublicNationalDistributingcoCustomerUser</portalRole>
+        </sharedTo>
+        <criteriaItems>
+            <field>AccountId</field>
+            <operation>equals</operation>
+            <value>001o000000cK3KY,001o000000cK3Ng,001o000000cK3No,001o000000cK3Od,001o000000cK3LF,001o000000nGa1E,001o000000cK3P0,001o000000cK3Ll</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>SOUTHERN_WINE_SPIRITS_OF_AMERICA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>SOUTHERN WINE &amp; SPIRITS OF AMERICA</description>
+        <label>SOUTHERN WINE &amp; SPIRITS OF AMERICA</label>
+        <sharedTo>
+            <portalRole>SOUTHERNWINESPIRITSOFAMERICACustomerUser</portalRole>
+        </sharedTo>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <field>AccountId</field>
+            <operation>equals</operation>
+            <value>001o000000cK3Nu,001o000000cK3PK,001o000000cK3OR,001o000000nGa2i,001o000000cK3Nv,001o000000cK3O4,001o000000cK3Jd,001o000000nGa2j,001o000000cK3Ji,001o000000cK3KN,001o000000cK3L7,001o000000cK3OJ,001o000000nGa2k,001o000000cK3PN,001o000000cK3OI</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>AccountId</field>
+            <operation>equals</operation>
+            <value>001o000000cK3O1,001o000000cK3Kn</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>SOUTHERN_WINE_SPIRITS_OF_AZ</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>SOUTHERN WINE &amp; SPIRITS OF AZ</description>
+        <label>SOUTHERN WINE &amp; SPIRITS OF AZ</label>
+        <sharedTo>
+            <portalRole>SOUTHERNWINESPIRITSOFAZCustomerUser</portalRole>
+        </sharedTo>
+        <criteriaItems>
+            <field>AccountId</field>
+            <operation>equals</operation>
+            <value>001o000000nGa2l</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>SOUTHERN_WINE_SPIRITS_OF_METRO_NY</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>SOUTHERN WINE &amp; SPIRITS OF METRO NY</description>
+        <label>SOUTHERN WINE &amp; SPIRITS OF METRO NY</label>
+        <sharedTo>
+            <portalRole>SOUTHERNWINESPIRITSOFMETRONYCustomerUser</portalRole>
+        </sharedTo>
+        <criteriaItems>
+            <field>AccountId</field>
+            <operation>equals</operation>
+            <value>001o000000nGa2k</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>SOUTHERN_WINE_SPIRITS_OF_NM</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>SOUTHERN WINE &amp; SPIRITS OF NM</description>
+        <label>SOUTHERN WINE &amp; SPIRITS OF NM</label>
+        <sharedTo>
+            <portalRole>SOUTHERNWINESPIRITSOFWACustomerUser</portalRole>
+        </sharedTo>
+        <criteriaItems>
+            <field>AccountId</field>
+            <operation>equals</operation>
+            <value>001o000000cK3KN</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>SOUTHERN_WINE_SPIRITS_OF_NV_Both_accounts</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>SOUTHERN WINE &amp; SPIRITS OF NV (Both accounts)</description>
+        <label>SOUTHERN WINE &amp; SPIRITS OF NV (Both accounts)</label>
+        <sharedTo>
+            <portalRole>SOUTHERNWINESPIRITSOFNMCustomerUser</portalRole>
+        </sharedTo>
+        <criteriaItems>
+            <field>AccountId</field>
+            <operation>equals</operation>
+            <value>001o000000cK3L7,001o000000cK3OJ</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>SOUTHERN_WINE_SPIRITS_OF_WA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>SOUTHERN WINE &amp; SPIRITS OF WA</description>
+        <label>SOUTHERN WINE &amp; SPIRITS OF WA</label>
+        <sharedTo>
+            <portalRole>SOUTHERNODOMWINEANDSPIRITSCustomerUser</portalRole>
+        </sharedTo>
+        <criteriaItems>
+            <field>AccountId</field>
+            <operation>equals</operation>
+            <value>001o000000nGa2l</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Share_CS_Cases_with_CS</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share CS Cases with CS</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Customer_Service_Management</roleAndSubordinatesInternal>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Changes,Third Party Case,Consumer Inquiry,Orders,Outlook,International Sub Case,Order Claim,Inquiry (Internal),Quality Claim,EDI Order,Inquiry,Beam Suntory Email-to-Case</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Share_CS_Escalated_Form_Cases_with_CS</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Share CS Escalated Form Cases with CS</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Customer_Service_Management</roleAndSubordinatesInternal>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Escalated Form</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Share_Case_with_All_of_GBS_Mexico</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Shares a case with all of GBS Mexico</description>
+        <label>Share Case with All of GBS Mexico</label>
+        <sharedTo>
+            <group>GBS_Mexico_All</group>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3 OR 4</booleanFilter>
+        <criteriaItems>
+            <field>OwnerId</field>
+            <operation>equals</operation>
+            <value>00G1J000003CQHmUAO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>OwnerId</field>
+            <operation>equals</operation>
+            <value>00G1J000003CQHoUAO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>OwnerId</field>
+            <operation>equals</operation>
+            <value>00G1J000003CQHsUAO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>OwnerId</field>
+            <operation>equals</operation>
+            <value>00G1J000003CQHuUAO</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Share_Quality_Claims_across_all_plants</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Share Quality Claims across all plants</description>
+        <label>Share Quality Claims across all plants</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Quality_Manager</roleAndSubordinatesInternal>
+        </sharedTo>
+        <criteriaItems>
+            <field>Assign_Queue_to_Case__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Quality Claim Sub Case</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Share_Single_Barrel_Records_with_Customer_Service_Management</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Shares Single Barrel Records with Customer Service Management</description>
+        <label>Share Single Barrel Records with Customer Service Management</label>
+        <sharedTo>
+            <role>Customer_Service_Management</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Single Barrel - Standard,Single Barrel - Proof Specific,Single Barrel - Split Barrel</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Share_cases_with_Compliance</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Share Maker's Mark cases with Compliance team for the Single Barrel Program</description>
+        <label>Share cases with Compliance</label>
+        <sharedTo>
+            <group>Compliance_Team</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Brand__c</field>
+            <operation>equals</operation>
+            <value>Makers Mark</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Single Barrel - Proof Specific</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Share_with_Cruzan</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Shares case records with the Cruzan group for the Single Barrel Program</description>
+        <label>Share with Cruzan</label>
+        <sharedTo>
+            <group>Cruzan_Single_Barrel</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Brand__c</field>
+            <operation>equals</operation>
+            <value>Cruzan</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Single Barrel - Standard,Single Barrel - Proof Specific,Single Barrel - Split Barrel</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Share_with_El_Tesoro</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Shares case records with the El Tesoro group for the Single Barrel Program</description>
+        <label>Share with El Tesoro</label>
+        <sharedTo>
+            <group>El_Tesoro_Single_Barrel</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Brand__c</field>
+            <operation>equals</operation>
+            <value>El Tesoro</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Single Barrel - Proof Specific</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Share_with_Jim_Beam</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Shares case records with the Jim Beam group for the Single Barrel Program</description>
+        <label>Share with Jim Beam</label>
+        <sharedTo>
+            <group>Jim_Beam_Single_Barrel</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Brand__c</field>
+            <operation>equals</operation>
+            <value>Jim Beam</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Single Barrel - Standard</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Share_with_Knob_Creek</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Shares case records with the Knob Creek group for the Single Barrel Program</description>
+        <label>Share with Knob Creek</label>
+        <sharedTo>
+            <group>Knob_Creek_Single_Barrel</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Brand__c</field>
+            <operation>equals</operation>
+            <value>Knob Creek</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Single Barrel - Standard</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Share_with_Makers_Mark</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Shares case records with the Makers Mark group for the Single Barrel Program</description>
+        <label>Share with Makers Mark</label>
+        <sharedTo>
+            <group>Makers_Mark_Single_Barrel</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Brand__c</field>
+            <operation>equals</operation>
+            <value>Makers Mark</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Single Barrel - Proof Specific</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingOwnerRules>
+        <fullName>CS_Coordinator_Sharing_Rule</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Allowing sharing of cases across Roles.</description>
+        <label>CS Coordinator Sharing Rule</label>
+        <sharedTo>
+            <role>Customer_Service_Coordinator</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Customer_Service_Coordinator</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>CS_Management_Sharing_Rule</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Allows sharing of records across CS Managers.</description>
+        <label>CS Managment Sharing Rule</label>
+        <sharedTo>
+            <role>Customer_Service_Management</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Customer_Service_Management</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>CS_Plant_Role_Case_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Sharing Rule set up to share the cases across the users with role - Customer Service Plant</description>
+        <label>CS Plant Role Case Sharing</label>
+        <sharedTo>
+            <role>Customer_Service_Plant</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Customer_Service_Plant</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Compliance_State_Managers</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Compliance State Managers</label>
+        <sharedTo>
+            <role>Control_NA_State_Manager</role>
+        </sharedTo>
+        <sharedFrom>
+            <group>Compliance_Team</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Compliance_Team</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Compliance Team</label>
+        <sharedTo>
+            <group>Compliance_Team</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>Compliance_Team</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Owner_is_Compliance_Coordinator</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Owner is Compliance Coordinator</label>
+        <sharedTo>
+            <role>Compliance_Coordinator</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Compliance_Coordinator</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>PTP_AP_MEXICO</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>PTP/AP MEXICO</label>
+        <sharedTo>
+            <group>GBS_PTP_AP_MX</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>GBS_PTP_AP_MX</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_Adjustments_Queue</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Share Adjustments Queue</description>
+        <label>Share Adjustments Queue</label>
+        <sharedTo>
+            <group>GBS_Employees_All</group>
+        </sharedTo>
+        <sharedFrom>
+            <queue>Adjustments_Queue</queue>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_GBS_Mexico_Cases</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Shares GBS Mexico Cases with All GBS Employees</description>
+        <label>Share GBS Mexico Cases</label>
+        <sharedTo>
+            <group>GBS_Mexico_All</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>GBS_Mexico_Excluding_HR_Payroll</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_GMDM_Queue_w_GBS</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Share R on records in the GMDM Queue with GBS Employees</description>
+        <label>Share GMDM Queue w/ GBS`</label>
+        <sharedTo>
+            <group>GBS_Employees_All</group>
+        </sharedTo>
+        <sharedFrom>
+            <queue>GMDM</queue>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_HR_Queue_w_HR_Payroll</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Share R on records in the HR Queue with HR and Payroll Employees</description>
+        <label>Share HR Queue w/ HR/Payroll</label>
+        <sharedTo>
+            <group>GBS_Employees_HR_Only</group>
+        </sharedTo>
+        <sharedFrom>
+            <queue>HR</queue>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_International_Queue</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Share International Queue</description>
+        <label>Share International Queue</label>
+        <sharedTo>
+            <group>GBS_Employees_All</group>
+        </sharedTo>
+        <sharedFrom>
+            <queue>International_Queue</queue>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_Orders_Queue</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Share Orders Queue</description>
+        <label>Share Orders Queue</label>
+        <sharedTo>
+            <group>GBS_Employees_All</group>
+        </sharedTo>
+        <sharedFrom>
+            <queue>Orders_Queue</queue>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_R_W_on_GMDM_Cases</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Share R/W on GMDM cases with GMDM employees.</description>
+        <label>Share R/W on GMDM Cases</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>GBS_GMDM_Management_United_States</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>GBS_GMDM_Management_United_States</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_R_W_on_HR_Cases</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Share R/W on HR cases with HR employees.</description>
+        <label>Share R/W on HR Cases</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>GBS_HR_Management_United_States</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>GBS_HR_Management_United_States</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_R_W_on_PR_Cases</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Share R/W on Payroll cases with Payroll employees.</description>
+        <label>Share R/W on PR Cases</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>GBS_Payroll_Management_United_States</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>GBS_Payroll_Management_United_States</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_R_W_on_PR_Cases_NEW_Roles</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Extend R/W to all GBS Payroll users in the new roles.</description>
+        <label>Share R/W on PR Cases NEW Roles</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>GBS_Management_US_Payroll</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>GBS_Management_US_Payroll</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_Read_on_CS_Cases_with_GBS</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Share Read on CS Cases with GBS</description>
+        <label>Share Read on CS Cases with GBS</label>
+        <sharedTo>
+            <group>GBS_Employees_All</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>CS_Employees</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_Read_on_Cases_Across_GBS</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Share read access on all GBS cases with all GBS employees.</description>
+        <label>Share Read on Cases Across GBS</label>
+        <sharedTo>
+            <group>GBS_Employees_All</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>GBS_Employees_All_but_HR_PR</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_Read_on_GBS_Cases_with_CS</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Share Read on GBS Cases with CS</description>
+        <label>Share Read on GBS Cases with CS</label>
+        <sharedTo>
+            <group>CS_Employees</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>GBS_Employees_All_but_HR_PR</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_Read_on_HR_PR_Cases_Across_HR_PR</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Share read across all HR and Payroll cases with HR and Payroll employees.</description>
+        <label>Share Read on HR/PR Cases Across HR/PR</label>
+        <sharedTo>
+            <group>GBS_Employees_HR_Only</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>GBS_Employees_HR_Only</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_US_Non_Payroll_owned_Cases_with_all_US_Non_Payroll</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Share US Non-Payroll cases owned by US Non-Payroll cases with others in that role.</description>
+        <label>Share US Non Payroll owned Cases with all US Non Payroll</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>GBS_Management_US_Non_Payroll</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>GBS_Management_US_Non_Payroll</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

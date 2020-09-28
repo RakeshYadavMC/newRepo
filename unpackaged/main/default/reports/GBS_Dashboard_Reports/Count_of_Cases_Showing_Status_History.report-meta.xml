@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Case.Case__hd$Last_Status_Change__c_hst</field>
+        <reverseColors>false</reverseColors>
+        <showChanges>false</showChanges>
+    </columns>
+    <columns>
+        <field>Case.Case__hd$Status__hst</field>
+        <reverseColors>false</reverseColors>
+        <showChanges>false</showChanges>
+    </columns>
+    <currency>USD</currency>
+    <description>Count of Cases Showing Status History</description>
+    <filter>
+        <criteriaItems>
+            <column>Case.Case__hd$Status__hst</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Logged,Active,Waiting on 3rd Party,Waiting for Requestor,Closed,Closed - No Action</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case$BSI_Function__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>GBS</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case.Case__hd$Status__hst</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Closed - Abandoned,Closed - No Action</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>SnapshotDate</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Case$CaseNumber</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <historicalSelector>
+        <snapshot>FIRST_DAY_N_MONTHS_AGO:0</snapshot>
+        <snapshot>FIRST_DAY_N_WEEKS_AGO:0</snapshot>
+    </historicalSelector>
+    <name>Count of Cases Showing Status History</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Cases_Status_History__c</reportType>
+    <scope>organization</scope>
+    <showCurrentDate>true</showCurrentDate>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Case$CreatedDate</dateColumn>
+        <interval>INTERVAL_THISMONTH</interval>
+    </timeFrameFilter>
+</Report>

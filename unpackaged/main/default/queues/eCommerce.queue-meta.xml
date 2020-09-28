@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>eCommerce</name>
+    <queueMembers>
+        <users>
+            <user>christopher.yenchek@beamsuntory.com</user>
+            <user>elizabeth.sterrett@beamsuntory.com</user>
+            <user>shannon.eagle@beamsuntory.com</user>
+            <user>taylor.knoles@beamsuntory.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>MarketingPlan__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Program__c</sobjectType>
+    </queueSobject>
+</Queue>

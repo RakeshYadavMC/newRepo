@@ -12,57 +12,12 @@
     <sections>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>Id</field>
-            <table>Plant_Event__c</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>Owner</field>
-            <table>Plant_Event__c</table>
-        </columns>
-        <columns>
-            <checkedByDefault>true</checkedByDefault>
-            <field>Name</field>
-            <table>Plant_Event__c</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>CurrencyIsoCode</field>
-            <table>Plant_Event__c</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>RecordType</field>
-            <table>Plant_Event__c</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>CreatedDate</field>
-            <table>Plant_Event__c</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>CreatedBy</field>
-            <table>Plant_Event__c</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>LastModifiedDate</field>
-            <table>Plant_Event__c</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>LastModifiedBy</field>
+            <field>Account__c</field>
             <table>Plant_Event__c</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
             <field>AM_PM__c</field>
-            <table>Plant_Event__c</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>Account__c</field>
             <table>Plant_Event__c</table>
         </columns>
         <columns>
@@ -78,6 +33,21 @@
         <columns>
             <checkedByDefault>false</checkedByDefault>
             <field>Case__c</field>
+            <table>Plant_Event__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>CreatedBy</field>
+            <table>Plant_Event__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>CreatedDate</field>
+            <table>Plant_Event__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>CurrencyIsoCode</field>
             <table>Plant_Event__c</table>
         </columns>
         <columns>
@@ -102,7 +72,17 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
+            <field>hasTripHappened__c</field>
+            <table>Plant_Event__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
             <field>Include_Boxed_Lunches__c</field>
+            <table>Plant_Event__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Initiator__c</field>
             <table>Plant_Event__c</table>
         </columns>
         <columns>
@@ -117,7 +97,32 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>Initiator__c</field>
+            <field>isBottling__c</field>
+            <table>Plant_Event__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>isTripToday__c</field>
+            <table>Plant_Event__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>LastModifiedBy</field>
+            <table>Plant_Event__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>LastModifiedDate</field>
+            <table>Plant_Event__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Number_of_Attendees__c</field>
+            <table>Plant_Event__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Owner</field>
             <table>Plant_Event__c</table>
         </columns>
         <columns>
@@ -127,7 +132,22 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
+            <field>Id</field>
+            <table>Plant_Event__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <field>Name</field>
+            <table>Plant_Event__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
             <field>Product_Type__c</field>
+            <table>Plant_Event__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>RecordType</field>
             <table>Plant_Event__c</table>
         </columns>
         <columns>
@@ -182,27 +202,17 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>hasTripHappened__c</field>
-            <table>Plant_Event__c</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>isBottling__c</field>
-            <table>Plant_Event__c</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>isTripToday__c</field>
-            <table>Plant_Event__c</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>Number_of_Attendees__c</field>
+            <field>Location_Of_Visit__c</field>
             <table>Plant_Event__c</table>
         </columns>
         <masterLabel>Plant Events</masterLabel>
     </sections>
     <sections>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Additional_Notes__c</field>
+            <table>Plant_Event__c.Attendees__r</table>
+        </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
             <field>Id</field>
@@ -215,7 +225,7 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>CurrencyIsoCode</field>
+            <field>CreatedBy</field>
             <table>Plant_Event__c.Attendees__r</table>
         </columns>
         <columns>
@@ -225,32 +235,7 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>CreatedBy</field>
-            <table>Plant_Event__c.Attendees__r</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>LastModifiedDate</field>
-            <table>Plant_Event__c.Attendees__r</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>LastModifiedBy</field>
-            <table>Plant_Event__c.Attendees__r</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>First_Name__c</field>
-            <table>Plant_Event__c.Attendees__r</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>Last_Name__c</field>
-            <table>Plant_Event__c.Attendees__r</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>Additional_Notes__c</field>
+            <field>CurrencyIsoCode</field>
             <table>Plant_Event__c.Attendees__r</table>
         </columns>
         <columns>
@@ -260,12 +245,17 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>Incoming_Airline__c</field>
+            <field>First_Name__c</field>
             <table>Plant_Event__c.Attendees__r</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
             <field>Incoming_Arrival_Time__c</field>
+            <table>Plant_Event__c.Attendees__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Incoming_Airline__c</field>
             <table>Plant_Event__c.Attendees__r</table>
         </columns>
         <columns>
@@ -276,6 +266,21 @@
         <columns>
             <checkedByDefault>false</checkedByDefault>
             <field>Incoming_Flight_Number__c</field>
+            <table>Plant_Event__c.Attendees__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>LastModifiedBy</field>
+            <table>Plant_Event__c.Attendees__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>LastModifiedDate</field>
+            <table>Plant_Event__c.Attendees__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Last_Name__c</field>
             <table>Plant_Event__c.Attendees__r</table>
         </columns>
         <columns>

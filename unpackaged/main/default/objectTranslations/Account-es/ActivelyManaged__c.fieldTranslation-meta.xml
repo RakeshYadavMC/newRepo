@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Is this Account actively managed by Beam Suntory? --></help>
+        <label><!-- Actively Managed --></label>
+        <name>ActivelyManaged__c</name>
+    </CustomFieldTranslation>

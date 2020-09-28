@@ -1697,6 +1697,10 @@ I如果您不在美国和加拿大，请拨打对方付费电话 904-954-7314。
         <name>Lot_Code_Label</name>
     </customLabels>
     <customLabels>
+        <label><!-- Lotcode Message --></label>
+        <name>Lotcode_Message</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Lucernex access request --></label>
         <name>Lucernex_access_request</name>
     </customLabels>
@@ -3527,4 +3531,1297 @@ https://www.concursolutions.com/signin.asp.
         <label><!-- Email --></label>
         <name>SendEmail</name>
     </quickActions>
+    <reportTypes>
+        <description><!-- Account Calls --></description>
+        <label><!-- Account Calls --></label>
+        <name>Account_Calls</name>
+        <sections>
+            <label><!-- Account Calls --></label>
+            <name>Account Calls</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Accounts Chatter Feed --></description>
+        <label><!-- Accounts Chatter Feed --></label>
+        <name>Accounts_Chatter_Feed</name>
+        <sections>
+            <label><!-- Account Feed --></label>
+            <name>Account Feed</name>
+        </sections>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Comments --></label>
+            <name>Comments</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Accounts and Activities --></description>
+        <label><!-- Accounts and Activities --></label>
+        <name>Accounts_and</name>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Activities --></label>
+            <name>Activities</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Accounts and Account Teams --></description>
+        <label><!-- Accounts and Account Teams --></label>
+        <name>Accounts_and_Account_Teams</name>
+        <sections>
+            <label><!-- Account Team --></label>
+            <name>Account Team</name>
+        </sections>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Accounts and Contacts --></description>
+        <label><!-- Accounts and Contacts --></label>
+        <name>Accounts_and_Contacts</name>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Contacts --></label>
+            <name>Contacts</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Accounts with Bonus Agreements --></description>
+        <label><!-- Accounts with Bonus Agreements --></label>
+        <name>Accounts_with_Bonus_Agreements</name>
+        <sections>
+            <label><!-- Bonus Agreements --></label>
+            <name>Bonus Agreements</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Accounts with Cases --></description>
+        <label><!-- Accounts with Cases --></label>
+        <name>Accounts_with_Cases</name>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+        <sections>
+            <label><!-- Plant Events --></label>
+            <name>Plant Events</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Accounts with Contacts and Activities --></description>
+        <label><!-- Accounts with Contacts and Activities --></label>
+        <name>Accounts_with_Contacts_and_Activities</name>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Activities --></label>
+            <name>Activities</name>
+        </sections>
+        <sections>
+            <label><!-- Contacts --></label>
+            <name>Contacts</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Accounts with Entitlements with Contacts --></description>
+        <label><!-- Accounts with Entitlements with Contacts --></label>
+        <name>Accounts_with_Entitlements_with_Contacts</name>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Contacts --></label>
+            <name>Contacts</name>
+        </sections>
+        <sections>
+            <label><!-- Entitlements --></label>
+            <name>Entitlements</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Accounts with Notes --></description>
+        <label><!-- Accounts with Notes --></label>
+        <name>Accounts_with_Notes</name>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Content Documents --></label>
+            <name>Content Documents</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Accounts with Opportunities --></description>
+        <label><!-- Accounts with Opportunities --></label>
+        <name>Accounts_with_Opportunities</name>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Opportunities --></label>
+            <name>Opportunities</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Accounts with Sales Goals --></description>
+        <label><!-- Accounts with Sales Goals --></label>
+        <name>Accounts_with_Sales_Goals</name>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Sales Goals --></label>
+            <name>Sales Goals</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Accounts with Sales Orders and Order Items-Custom --></description>
+        <label><!-- Accounts with Sales Orders and Order Items-Custom --></label>
+        <name>Accounts_with_Sales_Orders_and_Order_Items_Custom</name>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Sales Order Items --></label>
+            <name>Sales Order Items</name>
+        </sections>
+        <sections>
+            <label><!-- Sales Orders --></label>
+            <name>Sales Orders</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Allocation Logger with others --></description>
+        <label><!-- Allocation Logger with others --></label>
+        <name>Allocation_Logger_with_others</name>
+        <sections>
+            <columns>
+                <label><!-- Brand --></label>
+                <name>Brand</name>
+            </columns>
+            <columns>
+                <label><!-- Brand Allocation Name --></label>
+                <name>Brand Allocation Name</name>
+            </columns>
+            <columns>
+                <label><!-- From Distributor Allocation --></label>
+                <name>From Distributor Allocation</name>
+            </columns>
+            <columns>
+                <label><!-- From Region Allocation --></label>
+                <name>From Region Allocation</name>
+            </columns>
+            <columns>
+                <label><!-- From State Allocation --></label>
+                <name>From State Allocation</name>
+            </columns>
+            <columns>
+                <label><!-- Program Type --></label>
+                <name>Program Type</name>
+            </columns>
+            <columns>
+                <label><!-- Time Interval --></label>
+                <name>Time Interval</name>
+            </columns>
+            <columns>
+                <label><!-- To Distributor Allocation --></label>
+                <name>To Distributor Allocation</name>
+            </columns>
+            <columns>
+                <label><!-- To Region Allocation --></label>
+                <name>To Region Allocation</name>
+            </columns>
+            <columns>
+                <label><!-- To State Allocation --></label>
+                <name>To State Allocation</name>
+            </columns>
+            <columns>
+                <label><!-- Year of Allocation --></label>
+                <name>Year of Allocation</name>
+            </columns>
+            <label><!-- Allocation Loggers --></label>
+            <name>Allocation Loggers</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Allocation Loggers --></description>
+        <label><!-- Allocation Loggers --></label>
+        <name>Allocation_Loggers</name>
+        <sections>
+            <columns>
+                <label><!-- Brand --></label>
+                <name>Brand</name>
+            </columns>
+            <columns>
+                <label><!-- Brand Allocation Name --></label>
+                <name>Brand Allocation Name</name>
+            </columns>
+            <columns>
+                <label><!-- Program Type --></label>
+                <name>Program Type</name>
+            </columns>
+            <columns>
+                <label><!-- Time Interval --></label>
+                <name>Time Interval</name>
+            </columns>
+            <columns>
+                <label><!-- Year of Allocation --></label>
+                <name>Year of Allocation</name>
+            </columns>
+            <label><!-- Allocation Loggers --></label>
+            <name>Allocation Loggers</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Allocation Reports --></description>
+        <label><!-- Allocation Reports --></label>
+        <name>Allocation_Reports</name>
+        <sections>
+            <columns>
+                <label><!-- Allocation Carried --></label>
+                <name>Allocation Carried</name>
+            </columns>
+            <columns>
+                <label><!-- Brand --></label>
+                <name>Brand</name>
+            </columns>
+            <columns>
+                <label><!-- Brand Allocation Status --></label>
+                <name>Brand Allocation Status</name>
+            </columns>
+            <columns>
+                <label><!-- Country --></label>
+                <name>Country</name>
+            </columns>
+            <columns>
+                <label><!-- Distributor --></label>
+                <name>Distributor</name>
+            </columns>
+            <columns>
+                <label><!-- Program Type --></label>
+                <name>Program Type</name>
+            </columns>
+            <columns>
+                <label><!-- Region --></label>
+                <name>Region</name>
+            </columns>
+            <columns>
+                <label><!-- State --></label>
+                <name>State</name>
+            </columns>
+            <columns>
+                <label><!-- State Manager --></label>
+                <name>State Manager</name>
+            </columns>
+            <columns>
+                <label><!-- Time Interval --></label>
+                <name>Time Interval</name>
+            </columns>
+            <columns>
+                <label><!-- Time Period --></label>
+                <name>Time Period</name>
+            </columns>
+            <columns>
+                <label><!-- Year of Allocation --></label>
+                <name>Year of Allocation</name>
+            </columns>
+            <label><!-- Allocations Report --></label>
+            <name>Allocations Report</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Barrel Case Information --></description>
+        <label><!-- Barrel Case Information --></label>
+        <name>Barrel_Case_Information</name>
+        <sections>
+            <columns>
+                <label><!-- Allocation Year --></label>
+                <name>Allocation Year</name>
+            </columns>
+            <columns>
+                <label><!-- Brand --></label>
+                <name>Brand</name>
+            </columns>
+            <columns>
+                <label><!-- Brand Allocation Name --></label>
+                <name>Brand Allocation Name</name>
+            </columns>
+            <columns>
+                <label><!-- Carried Forward --></label>
+                <name>Carried Forward</name>
+            </columns>
+            <columns>
+                <label><!-- Distributor --></label>
+                <name>Distributor</name>
+            </columns>
+            <columns>
+                <label><!-- Distributor Level Allocation Name --></label>
+                <name>Distributor Level Allocation Name</name>
+            </columns>
+            <columns>
+                <label><!-- Program Type --></label>
+                <name>Program Type</name>
+            </columns>
+            <columns>
+                <label><!-- Region --></label>
+                <name>Region</name>
+            </columns>
+            <columns>
+                <label><!-- Region Level Allocation Name --></label>
+                <name>Region Level Allocation Name</name>
+            </columns>
+            <columns>
+                <label><!-- State --></label>
+                <name>State</name>
+            </columns>
+            <columns>
+                <label><!-- State Level Allocation Name --></label>
+                <name>State Level Allocation Name</name>
+            </columns>
+            <columns>
+                <label><!-- State Manager --></label>
+                <name>State Manager</name>
+            </columns>
+            <columns>
+                <label><!-- Time Interval --></label>
+                <name>Time Interval</name>
+            </columns>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Barrels with Case Custom --></description>
+        <label><!-- Barrels with Case Custom --></label>
+        <name>Barrels_with_Case_Custom</name>
+        <sections>
+            <label><!-- Barrels --></label>
+            <name>Barrels</name>
+        </sections>
+        <sections>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Brand Allocations --></description>
+        <label><!-- Brand Allocations --></label>
+        <name>Brand_Allocations</name>
+        <sections>
+            <columns>
+                <label><!-- % Used --></label>
+                <name>% Used</name>
+            </columns>
+            <columns>
+                <label><!-- Allocation Year --></label>
+                <name>Allocation Year</name>
+            </columns>
+            <columns>
+                <label><!-- Brand --></label>
+                <name>Brand</name>
+            </columns>
+            <columns>
+                <label><!-- Time Duration --></label>
+                <name>Time Duration</name>
+            </columns>
+            <columns>
+                <label><!-- Total Barrels Allocated --></label>
+                <name>Total Barrels Allocated</name>
+            </columns>
+            <columns>
+                <label><!-- Total Barrels Used --></label>
+                <name>Total Barrels Used</name>
+            </columns>
+            <label><!-- Brand Allocations --></label>
+            <name>Brand Allocations</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Brands Labels Items and Sizes --></description>
+        <label><!-- Brands Labels Items and Sizes --></label>
+        <name>Brands_Labels_Items_and_Sizes</name>
+        <sections>
+            <label><!-- Brands --></label>
+            <name>Brands</name>
+        </sections>
+        <sections>
+            <label><!-- Items --></label>
+            <name>Items</name>
+        </sections>
+        <sections>
+            <label><!-- Labels --></label>
+            <name>Labels</name>
+        </sections>
+        <sections>
+            <label><!-- Sizes --></label>
+            <name>Sizes</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Brands with Labels with Items (Custom) --></description>
+        <label><!-- Brands with Labels with Items (Custom) --></label>
+        <name>Brands_with_Labels_with_Items_Customer</name>
+        <sections>
+            <label><!-- Brands --></label>
+            <name>Brands</name>
+        </sections>
+        <sections>
+            <label><!-- Items --></label>
+            <name>Items</name>
+        </sections>
+        <sections>
+            <label><!-- Labels --></label>
+            <name>Labels</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Campaigns --></description>
+        <label><!-- Campaigns --></label>
+        <name>Campaigns</name>
+        <sections>
+            <label><!-- Campaigns --></label>
+            <name>Campaigns</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Campaigns with Forecast Snapshots --></description>
+        <label><!-- Campaigns with Forecast Snapshots --></label>
+        <name>Campaigns_with_Forecast_Snapshots</name>
+        <sections>
+            <label><!-- Campaigns --></label>
+            <name>Campaigns</name>
+        </sections>
+        <sections>
+            <label><!-- Forecast Snapshots --></label>
+            <name>Forecast Snapshots</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Campaigns with Forecast Weekly Snapshots --></description>
+        <label><!-- Campaigns with Forecast Weekly Snapshots --></label>
+        <name>Campaigns_with_Forecast_Weekly_Snapshots</name>
+        <sections>
+            <label><!-- Campaigns --></label>
+            <name>Campaigns</name>
+        </sections>
+        <sections>
+            <label><!-- Forecast Snapshots Weekly --></label>
+            <name>Forecast Snapshots Weekly</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Campaigns with or without Campaign Spend --></description>
+        <label><!-- Campaigns with or without Campaign Spend --></label>
+        <name>Campaigns_with_or_without_Campaign_Spend</name>
+        <sections>
+            <label><!-- Campaign Spend --></label>
+            <name>Campaign Spend</name>
+        </sections>
+        <sections>
+            <label><!-- Campaigns --></label>
+            <name>Campaigns</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Case Feed --></description>
+        <label><!-- Case Feed --></label>
+        <name>Case_Feed</name>
+        <sections>
+            <label><!-- Case Feed --></label>
+            <name>Case Feed</name>
+        </sections>
+        <sections>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Case with Cloned Milestone --></description>
+        <label><!-- Case with Cloned Milestone --></label>
+        <name>Case_with_Cloned_Milestone</name>
+        <sections>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+        <sections>
+            <label><!-- Cloned Milestones --></label>
+            <name>Cloned Milestones</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Cases --></description>
+        <label><!-- Cases --></label>
+        <name>Cases</name>
+        <sections>
+            <label><!-- Case Distributor Account --></label>
+            <name>Case Distributor Account</name>
+        </sections>
+        <sections>
+            <label><!-- Case Retail Account --></label>
+            <name>Case Retail Account</name>
+        </sections>
+        <sections>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+        <sections>
+            <label><!-- Parent Case Fields --></label>
+            <name>Parent Case Fields</name>
+        </sections>
+        <sections>
+            <label><!-- Submitter --></label>
+            <name>Submitter</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Cases Status History --></description>
+        <label><!-- Cases Status History --></label>
+        <name>Cases_Status_History</name>
+        <sections>
+            <label><!-- Case (Historical) --></label>
+            <name>Case (Historical)</name>
+        </sections>
+        <sections>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Cases with Barrels --></description>
+        <label><!-- Cases with Barrels --></label>
+        <name>Cases_with_Barrels</name>
+        <sections>
+            <label><!-- Barrels --></label>
+            <name>Barrels</name>
+        </sections>
+        <sections>
+            <label><!-- Case Distributor Account --></label>
+            <name>Case Distributor Account</name>
+        </sections>
+        <sections>
+            <label><!-- Case Retail Account --></label>
+            <name>Case Retail Account</name>
+        </sections>
+        <sections>
+            <columns>
+                <label><!-- Submitter Email --></label>
+                <name>Submitter Email</name>
+            </columns>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Cases with Barrels and POS Customizations --></description>
+        <label><!-- Cases with Barrels and POS Customizations --></label>
+        <name>Cases_with_Barrels_and_POS_Customizations</name>
+        <sections>
+            <label><!-- Barrels --></label>
+            <name>Barrels</name>
+        </sections>
+        <sections>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+        <sections>
+            <label><!-- POS Customizations --></label>
+            <name>POS Customizations</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Cases with Barrels and Samples --></description>
+        <label><!-- Cases with Barrels and Samples --></label>
+        <name>Cases_with_Barrels_and_Samples</name>
+        <sections>
+            <label><!-- Barrels --></label>
+            <name>Barrels</name>
+        </sections>
+        <sections>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+        <sections>
+            <label><!-- Samples --></label>
+            <name>Samples</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Cases with Comments --></description>
+        <label><!-- Cases with Comments --></label>
+        <name>Cases_with_Comments</name>
+        <sections>
+            <label><!-- Case Comments --></label>
+            <name>Case Comments</name>
+        </sections>
+        <sections>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Cases with Historical Trending --></description>
+        <label><!-- Cases with Historical Trending --></label>
+        <name>Cases_with_Historical_Trending</name>
+        <sections>
+            <label><!-- Case (Historical) --></label>
+            <name>Case (Historical)</name>
+        </sections>
+        <sections>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Cases with Milestone --></description>
+        <label><!-- Cases with Milestone --></label>
+        <name>Cases_with_Milestone</name>
+        <sections>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Cases with PO and SKUs ONLY --></description>
+        <label><!-- Cases with PO and SKUs ONLY --></label>
+        <name>Cases_with_PO_and_SKUs_ONLY</name>
+        <sections>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+        <sections>
+            <label><!-- Purchase Orders --></label>
+            <name>Purchase Orders</name>
+        </sections>
+        <sections>
+            <label><!-- SKUs --></label>
+            <name>SKUs</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Cases with PO and with or without SKUs --></description>
+        <label><!-- Cases with PO and with or without SKUs --></label>
+        <name>Cases_with_PO_and_with_or_without_SKUs</name>
+        <sections>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+        <sections>
+            <label><!-- Purchase Orders --></label>
+            <name>Purchase Orders</name>
+        </sections>
+        <sections>
+            <label><!-- SKUs --></label>
+            <name>SKUs</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Cases with Plant Events and Attendees --></description>
+        <label><!-- Cases with Plant Events and Attendees --></label>
+        <name>Cases_with_Plant_Events_and_Attendees</name>
+        <sections>
+            <label><!-- Attendees --></label>
+            <name>Attendees</name>
+        </sections>
+        <sections>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+        <sections>
+            <label><!-- Plant Events --></label>
+            <name>Plant Events</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Cases with Purchase Orders --></description>
+        <label><!-- Cases with Purchase Orders --></label>
+        <name>Cases_with_Purchase_Orders</name>
+        <sections>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+        <sections>
+            <label><!-- Purchase Orders --></label>
+            <name>Purchase Orders</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Cases with Purchases Order with SKUs --></description>
+        <label><!-- Cases with Purchases Order with SKUs --></label>
+        <name>Cases_with_Purchases_Order_with_SKUs</name>
+        <sections>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+        <sections>
+            <label><!-- Purchase Orders --></label>
+            <name>Purchase Orders</name>
+        </sections>
+        <sections>
+            <label><!-- SKUs --></label>
+            <name>SKUs</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Cases with Quote Requests --></description>
+        <label><!-- Cases with Quote Requests --></label>
+        <name>Cases_with_Quote_Requests</name>
+        <sections>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+        <sections>
+            <label><!-- Quote Requests --></label>
+            <name>Quote Requests</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Cases with Sample Kit --></description>
+        <label><!-- Cases with Sample Kit --></label>
+        <name>Cases_with_Sample_Kit</name>
+        <sections>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+        <sections>
+            <label><!-- Sample Kits --></label>
+            <name>Sample Kits</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Cases with Subcases --></description>
+        <label><!-- Cases with Subcases --></label>
+        <name>Cases_with_Subcases</name>
+        <sections>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+        <sections>
+            <label><!-- Child Cases --></label>
+            <name>Child Cases</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Chatter Activity --></description>
+        <label><!-- Chatter Activity --></label>
+        <name>Chatter_Activity</name>
+        <sections>
+            <label><!-- Chatter Activity --></label>
+            <name>Chatter Activity</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Connected Application Custom Report Types --></description>
+        <label><!-- Connected Application Custom Report Types --></label>
+        <name>Connected_Application_Custom_Report_Types</name>
+        <sections>
+            <label><!-- Identity Event Logs (User) --></label>
+            <name>Identity Event Logs (User)</name>
+        </sections>
+        <sections>
+            <label><!-- Users --></label>
+            <name>Users</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Contacts --></description>
+        <label><!-- Contacts --></label>
+        <name>Contacts</name>
+        <sections>
+            <label><!-- Contacts --></label>
+            <name>Contacts</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Contacts owned by inactive users --></description>
+        <label><!-- Contacts owned by inactive users --></label>
+        <name>Contacts_owned_by_inactive_users</name>
+        <sections>
+            <label><!-- Contacts --></label>
+            <name>Contacts</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Custom User Report --></description>
+        <label><!-- Custom User Report --></label>
+        <name>Custom_User_Report</name>
+        <sections>
+            <label><!-- Profile --></label>
+            <name>Profile</name>
+        </sections>
+        <sections>
+            <label><!-- Users --></label>
+            <name>Users</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Dashboards with Inactive RUser --></description>
+        <label><!-- Dashboards with Inactive RUser --></label>
+        <name>Dashboards_with_Inactive_RUser</name>
+        <sections>
+            <label><!-- Dashboard Components --></label>
+            <name>Dashboard Components</name>
+        </sections>
+        <sections>
+            <label><!-- Dashboards --></label>
+            <name>Dashboards</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- DataExtractForDSCMigration --></description>
+        <label><!-- DataExtractForDSCMigration --></label>
+        <name>DataExtractForDSCMigration</name>
+        <sections>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Geographical Allocation --></description>
+        <label><!-- Geographical Allocation --></label>
+        <name>Geographical_Allocation</name>
+        <sections>
+            <columns>
+                <label><!-- Allocation Carried --></label>
+                <name>Allocation Carried</name>
+            </columns>
+            <columns>
+                <label><!-- Barrels Allocated --></label>
+                <name>Barrels Allocated</name>
+            </columns>
+            <columns>
+                <label><!-- Barrels Used --></label>
+                <name>Barrels Used</name>
+            </columns>
+            <columns>
+                <label><!-- Brand --></label>
+                <name>Brand</name>
+            </columns>
+            <columns>
+                <label><!-- Brand Allocation Name --></label>
+                <name>Brand Allocation Name</name>
+            </columns>
+            <columns>
+                <label><!-- Country --></label>
+                <name>Country</name>
+            </columns>
+            <columns>
+                <label><!-- Program Type --></label>
+                <name>Program Type</name>
+            </columns>
+            <columns>
+                <label><!-- Remaining Allocations --></label>
+                <name>Remaining Allocations</name>
+            </columns>
+            <columns>
+                <label><!-- Time Interval --></label>
+                <name>Time Interval</name>
+            </columns>
+            <columns>
+                <label><!-- Year of Allocation --></label>
+                <name>Year of Allocation</name>
+            </columns>
+            <label><!-- Brand Country Allocations --></label>
+            <name>Brand Country Allocations</name>
+        </sections>
+        <sections>
+            <columns>
+                <label><!-- Barrels Allocated --></label>
+                <name>Barrels Allocated</name>
+            </columns>
+            <columns>
+                <label><!-- Barrels Used --></label>
+                <name>Barrels Used</name>
+            </columns>
+            <columns>
+                <label><!-- Region --></label>
+                <name>Region</name>
+            </columns>
+            <label><!-- Brand Country Region Allocations --></label>
+            <name>Brand Country Region Allocations</name>
+        </sections>
+        <sections>
+            <columns>
+                <label><!-- State --></label>
+                <name>State</name>
+            </columns>
+            <columns>
+                <label><!-- State Manager --></label>
+                <name>State Manager</name>
+            </columns>
+            <label><!-- Brand Country Region State Allocations --></label>
+            <name>Brand Country Region State Allocations</name>
+        </sections>
+        <sections>
+            <columns>
+                <label><!-- Distributor --></label>
+                <name>Distributor</name>
+            </columns>
+            <label><!-- Brand Country Region State Distributor Allocations --></label>
+            <name>Brand Country Region State Distributor Allocations</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Items and Requests --></description>
+        <label><!-- Items and Requests --></label>
+        <name>Items_and_Requests</name>
+        <sections>
+            <label><!-- Items --></label>
+            <name>Items</name>
+        </sections>
+        <sections>
+            <label><!-- Requests --></label>
+            <name>Requests</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Knowledge Articles --></description>
+        <label><!-- Knowledge Articles --></label>
+        <name>Knowledge_Articles</name>
+        <sections>
+            <label><!-- Article View Statistics --></label>
+            <name>Article View Statistics</name>
+        </sections>
+        <sections>
+            <label><!-- Knowledge Articles --></label>
+            <name>Knowledge Articles</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Lightning Sync Error --></description>
+        <label><!-- Lightning Sync Error --></label>
+        <name>Lightning_Sync_Error</name>
+        <sections>
+            <label><!-- LightningSyncError --></label>
+            <name>LightningSyncError</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Marketing Plans with Campaigns with Campaign Spend --></description>
+        <label><!-- Marketing Plans with Campaigns with Campaign Spend --></label>
+        <name>Marketing_Plans_with_Campaigns_with_Campaign_Spend</name>
+        <sections>
+            <label><!-- Campaign Spend --></label>
+            <name>Campaign Spend</name>
+        </sections>
+        <sections>
+            <label><!-- Campaigns --></label>
+            <name>Campaigns</name>
+        </sections>
+        <sections>
+            <label><!-- Marketing Plans --></label>
+            <name>Marketing Plans</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Marketing Plans with or without Campaigns --></description>
+        <label><!-- Marketing Plans with or without Campaigns --></label>
+        <name>Marketing_Plans_with_or_without_Campaigns</name>
+        <sections>
+            <label><!-- Campaigns --></label>
+            <name>Campaigns</name>
+        </sections>
+        <sections>
+            <label><!-- Marketing Plans --></label>
+            <name>Marketing Plans</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- PR Details --></description>
+        <label><!-- PR Details --></label>
+        <name>PR_Details</name>
+        <sections>
+            <label><!-- PR Details --></label>
+            <name>PR Details</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- PR_Header and Attachment --></description>
+        <label><!-- PR_Header and Attachment --></label>
+        <name>PR_Header_and_Attachment</name>
+        <sections>
+            <label><!-- PR Attachments --></label>
+            <name>PR Attachments</name>
+        </sections>
+        <sections>
+            <label><!-- PR Requests --></label>
+            <name>PR Requests</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- PR Headers &amp; Attachments --></description>
+        <label><!-- PR Headers &amp; Attachments --></label>
+        <name>PR_Headers_Attachments</name>
+        <sections>
+            <label><!-- PR Attachments --></label>
+            <name>PR Attachments</name>
+        </sections>
+        <sections>
+            <label><!-- PR Headers --></label>
+            <name>PR Headers</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Plant Event with Cases --></description>
+        <label><!-- Plant Event with Cases --></label>
+        <name>Plant_Event_with_Cases</name>
+        <sections>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+        <sections>
+            <label><!-- Plant Events --></label>
+            <name>Plant Events</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Plant Events --></description>
+        <label><!-- Plant Events --></label>
+        <name>Plant_Events</name>
+        <sections>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+        <sections>
+            <label><!-- Plant Events --></label>
+            <name>Plant Events</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Plant Events with Attendees --></description>
+        <label><!-- Plant Events with Attendees --></label>
+        <name>Plant_Events_with_Attendees</name>
+        <sections>
+            <label><!-- Attendees --></label>
+            <name>Attendees</name>
+        </sections>
+        <sections>
+            <label><!-- Plant Events --></label>
+            <name>Plant Events</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- PrHeader and Details --></description>
+        <label><!-- PrHeader and Details --></label>
+        <name>PrHeader_and_Details</name>
+        <sections>
+            <label><!-- PR Details --></label>
+            <name>PR Details</name>
+        </sections>
+        <sections>
+            <label><!-- PR Requests --></label>
+            <name>PR Requests</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Pr Attachment --></description>
+        <label><!-- Pr Attachment --></label>
+        <name>Pr_Attachment</name>
+        <sections>
+            <columns>
+                <label><!-- PR Header: Request Number --></label>
+                <name>PR Header: Request Number</name>
+            </columns>
+            <label><!-- PR Attachments --></label>
+            <name>PR Attachments</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- RAD With Accounts and Items --></description>
+        <label><!-- RAD With Accounts and Items --></label>
+        <name>RAD_With_Accounts_and_Items</name>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Distributors --></label>
+            <name>Distributors</name>
+        </sections>
+        <sections>
+            <label><!-- Items --></label>
+            <name>Items</name>
+        </sections>
+        <sections>
+            <label><!-- RAD (Account) --></label>
+            <name>RAD (Account)</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Service Contracts with Contract Line Items --></description>
+        <label><!-- Service Contracts with Contract Line Items --></label>
+        <name>Service_Contracts_with_Contract_Line_Items</name>
+        <sections>
+            <label><!-- Contract Line Items --></label>
+            <name>Contract Line Items</name>
+        </sections>
+        <sections>
+            <label><!-- Service Contracts --></label>
+            <name>Service Contracts</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Service Contracts with Entitlements --></description>
+        <label><!-- Service Contracts with Entitlements --></label>
+        <name>Service_Contracts_with_Entitlements</name>
+        <sections>
+            <label><!-- Entitlements --></label>
+            <name>Entitlements</name>
+        </sections>
+        <sections>
+            <label><!-- Service Contracts --></label>
+            <name>Service Contracts</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Test Mexico Claims --></description>
+        <label><!-- Test Mexico Claims --></label>
+        <name>Test_Mexico_Claims</name>
+        <sections>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+        <sections>
+            <label><!-- Cloned Milestones --></label>
+            <name>Cloned Milestones</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Time Logs with Time Entries --></description>
+        <label><!-- Time Logs with Time Entries --></label>
+        <name>Time_Logs_with_Time_Entries</name>
+        <sections>
+            <label><!-- Time Entries --></label>
+            <name>Time Entries</name>
+        </sections>
+        <sections>
+            <label><!-- Time Logs --></label>
+            <name>Time Logs</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- US Accounts --></description>
+        <label><!-- US Accounts --></label>
+        <name>US_Accounts</name>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Users --></description>
+        <label><!-- Users --></label>
+        <name>Users</name>
+        <sections>
+            <label><!-- Users --></label>
+            <name>Users</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Written off Allocation Reports --></description>
+        <label><!-- Written off Allocation Reports --></label>
+        <name>Written_off_Allocation_Reports</name>
+        <sections>
+            <columns>
+                <label><!-- Allocation Carried --></label>
+                <name>Allocation Carried</name>
+            </columns>
+            <columns>
+                <label><!-- Barrels Allocated in Previous Time Interval --></label>
+                <name>Barrels Allocated in Previous Time Interval</name>
+            </columns>
+            <columns>
+                <label><!-- Barrels Lost --></label>
+                <name>Barrels Lost</name>
+            </columns>
+            <columns>
+                <label><!-- Barrels Used in Previous Time Interval --></label>
+                <name>Barrels Used in Previous Time Interval</name>
+            </columns>
+            <columns>
+                <label><!-- Brand --></label>
+                <name>Brand</name>
+            </columns>
+            <columns>
+                <label><!-- Brand Allocation Status --></label>
+                <name>Brand Allocation Status</name>
+            </columns>
+            <columns>
+                <label><!-- Country --></label>
+                <name>Country</name>
+            </columns>
+            <columns>
+                <label><!-- Distributor --></label>
+                <name>Distributor</name>
+            </columns>
+            <columns>
+                <label><!-- Program Type --></label>
+                <name>Program Type</name>
+            </columns>
+            <columns>
+                <label><!-- Region --></label>
+                <name>Region</name>
+            </columns>
+            <columns>
+                <label><!-- State --></label>
+                <name>State</name>
+            </columns>
+            <columns>
+                <label><!-- State Manager --></label>
+                <name>State Manager</name>
+            </columns>
+            <columns>
+                <label><!-- Time Interval --></label>
+                <name>Time Interval</name>
+            </columns>
+            <columns>
+                <label><!-- Time Period --></label>
+                <name>Time Period</name>
+            </columns>
+            <columns>
+                <label><!-- Year of Allocation --></label>
+                <name>Year of Allocation</name>
+            </columns>
+            <label><!-- Allocations Report --></label>
+            <name>Allocations Report</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Screen Flows --></description>
+        <label><!-- Screen Flows --></label>
+        <name>screen_flows_prebuilt_crt</name>
+        <sections>
+            <label><!-- Flow Interview Log Entries --></label>
+            <name>Flow Interview Log Entries</name>
+        </sections>
+        <sections>
+            <label><!-- Flow Interview Logs --></label>
+            <name>Flow Interview Logs</name>
+        </sections>
+    </reportTypes>
 </Translations>

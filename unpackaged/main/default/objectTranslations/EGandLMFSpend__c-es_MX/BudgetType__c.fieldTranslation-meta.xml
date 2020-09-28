@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Type of budget. --></help>
+        <label><!-- Budget Type --></label>
+        <name>BudgetType__c</name>
+        <picklistValues>
+            <masterLabel>Events / Sponsorships</masterLabel>
+            <translation><!-- Events / Sponsorships --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Free Goods</masterLabel>
+            <translation><!-- Free Goods --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Local Materials / POS</masterLabel>
+            <translation><!-- Local Materials / POS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Margin Enhancement</masterLabel>
+            <translation><!-- Margin Enhancement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Menu Printing</masterLabel>
+            <translation><!-- Menu Printing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Misc (undefined)</masterLabel>
+            <translation><!-- Misc (undefined) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price Support</masterLabel>
+            <translation><!-- Price Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SKI Goals</masterLabel>
+            <translation><!-- SKI Goals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Incentives</masterLabel>
+            <translation><!-- Sales Incentives --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Programs</masterLabel>
+            <translation><!-- Sales Programs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Samples</masterLabel>
+            <translation><!-- Sales Samples --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sampling / Tasting</masterLabel>
+            <translation><!-- Sampling / Tasting --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

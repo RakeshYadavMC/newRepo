@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Program --></label>
+        <name>Program__c</name>
+        <picklistValues>
+            <masterLabel>225 YEARS</masterLabel>
+            <translation><!-- 225 YEARS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AFL</masterLabel>
+            <translation><!-- AFL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AGENCY FEES</masterLabel>
+            <translation><!-- AGENCY FEES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bourbon Legends</masterLabel>
+            <translation><!-- Bourbon Legends --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CC SPONSORSHIPS/TRIAL</masterLabel>
+            <translation><!-- CC SPONSORSHIPS/TRIAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CC SUMMER / TENNIS</masterLabel>
+            <translation><!-- CC SUMMER / TENNIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CC WINTER/BAD SWEATER</masterLabel>
+            <translation><!-- CC WINTER/BAD SWEATER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cinco</masterLabel>
+            <translation><!-- Cinco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cocktail Platform</masterLabel>
+            <translation><!-- Cocktail Platform --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Crafted for Sipping</masterLabel>
+            <translation><!-- Crafted for Sipping --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DRINK BOURBON DIFFERENTLY</masterLabel>
+            <translation><!-- DRINK BOURBON DIFFERENTLY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DRINKS STRATEGY</masterLabel>
+            <translation><!-- DRINKS STRATEGY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FIRST POUR SUPPORT</masterLabel>
+            <translation><!-- FIRST POUR SUPPORT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Holiday</masterLabel>
+            <translation><!-- Holiday --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Horseracing</masterLabel>
+            <translation><!-- Horseracing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Iconic Maker's</masterLabel>
+            <translation><!-- Iconic Maker&apos;s --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JBB REAPPRAISAL</masterLabel>
+            <translation><!-- JBB REAPPRAISAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M46 Gifting</masterLabel>
+            <translation><!-- M46 Gifting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MEDIA</masterLabel>
+            <translation><!-- MEDIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MM SPONSORSHIP/TRIAL</masterLabel>
+            <translation><!-- MM SPONSORSHIP/TRIAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MUSIC</masterLabel>
+            <translation><!-- MUSIC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NPD DEVELOPMENT</masterLabel>
+            <translation><!-- NPD DEVELOPMENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OPINIONS WELCOME</masterLabel>
+            <translation><!-- OPINIONS WELCOME --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>POS STORAGE &amp; DISTRIBUTION</masterLabel>
+            <translation><!-- POS STORAGE &amp; DISTRIBUTION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RESEARCH</masterLabel>
+            <translation><!-- RESEARCH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RETAILER WHISKEY PROGRAM</masterLabel>
+            <translation><!-- RETAILER WHISKEY PROGRAM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAKURA</masterLabel>
+            <translation><!-- SAKURA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SPONSORSHIPS</masterLabel>
+            <translation><!-- SPONSORSHIPS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SUPERCARS</masterLabel>
+            <translation><!-- SUPERCARS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sports</masterLabel>
+            <translation><!-- Sports --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spring</masterLabel>
+            <translation><!-- Spring --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stories from the Still</masterLabel>
+            <translation><!-- Stories from the Still --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Summer</masterLabel>
+            <translation><!-- Summer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Summer Refreshment</masterLabel>
+            <translation><!-- Summer Refreshment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>THE BLEND</masterLabel>
+            <translation><!-- THE BLEND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>THE EXCHANGE</masterLabel>
+            <translation><!-- THE EXCHANGE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>THE PERFECT SERVE</masterLabel>
+            <translation><!-- THE PERFECT SERVE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRIAL</masterLabel>
+            <translation><!-- TRIAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tailgating</masterLabel>
+            <translation><!-- Tailgating --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VISIBILITY</masterLabel>
+            <translation><!-- VISIBILITY --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

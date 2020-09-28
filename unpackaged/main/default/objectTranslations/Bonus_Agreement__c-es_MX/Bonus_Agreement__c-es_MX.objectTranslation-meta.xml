@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Acuerd de Bonificación</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Acuerdos de Bonificación</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Bonus Agreement Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Bonus Offer Layout</layout>
+        <sections>
+            <label><!-- Bonus Details --></label>
+            <section>Bonus Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Bonus Agreement # --></nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- Please only select Brand OR Label but not both --></errorMessage>
+        <name>Bonus_Offer_Product_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please only select Brand OR Label but not both --></errorMessage>
+        <name>Bonus_Offer_Product_Validation_Blanks</name>
+    </validationRules>
+</CustomObjectTranslation>

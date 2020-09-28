@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Campaign__c$Name</field>
+    </columns>
+    <columns>
+        <field>Campaign__c.Campaign_Spend__r$Name</field>
+    </columns>
+    <columns>
+        <field>Campaign__c.Campaign_Spend__r$Amount__c</field>
+    </columns>
+    <columns>
+        <field>Campaign__c.Campaign_Spend__r$ReportingDate__c</field>
+    </columns>
+    <columns>
+        <field>Campaign__c$IOCode__c</field>
+    </columns>
+    <columns>
+        <field>Campaign__c.Campaign_Spend__r$RecordType</field>
+    </columns>
+    <currency>USD</currency>
+    <description>Actuals that are hitting</description>
+    <filter>
+        <criteriaItems>
+            <column>Campaign__c.Campaign_Spend__r$RecordType</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Campaign_Spend__c.Actual</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Campaign Level - Actuals</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Campaigns_with_or_without_Campaign_Spend__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>Campaign__c.Campaign_Spend__r$ReportingDate__c</sortColumn>
+    <sortOrder>Desc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>Campaign__c.Campaign_Spend__r$ReportingDate__c</dateColumn>
+        <interval>INTERVAL_YESTERDAY</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>Lista de Verificación Internacional</label>
+        <name>International_Documentation_Checklist__c</name>
+        <picklistValues>
+            <masterLabel>Annex VIII</masterLabel>
+            <translation>Anexo VIII</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bill of Lading</masterLabel>
+            <translation>Conocimiento de Embarque</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Certificate of Age</masterLabel>
+            <translation>Certificado de Caducidad</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Certificate of Analysis</masterLabel>
+            <translation>Certificado de Análisis</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Certificate of Analysis with Lot Codes</masterLabel>
+            <translation>Certificado de Análisis con Código de Lote</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Certificate of Freesale</masterLabel>
+            <translation>Certificado de Venta Libre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Certificate of Freesale with Lot Codes</masterLabel>
+            <translation>Certificado de Venta Libre con Códigos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Certificate of Origin</masterLabel>
+            <translation>Certificado de Origen</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Certificate of Origin with Lot Codes</masterLabel>
+            <translation>Certificado de Origen con Códigos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice</masterLabel>
+            <translation>Factura</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Packing List</masterLabel>
+            <translation>Lista de Empaque</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Proforma</masterLabel>
+            <translation><!-- Proforma --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

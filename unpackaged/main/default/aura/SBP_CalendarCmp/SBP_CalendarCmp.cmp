@@ -65,8 +65,8 @@
     <aura:attribute name="waitingOptionsVal" type="String" default=""/>
     <aura:attribute name="isTour" type="Boolean" default="false"/>
     <aura:attribute name="availableTimeSlotByDay" type="Map"/>
-    <aura:attribute name="amValues" type="List" default="['09:00 AM','10:30 AM']"/>
-	<aura:attribute name="pmValues" type="List" default="['12:00 PM']"/>
+    <aura:attribute name="amValues" type="List" default="['Cellar – 9 AM','Lake – 9:30 AM']"/>
+	<aura:attribute name="pmValues" type="List" default="['Cellar – 12 PM','Lake – 12:30 PM']"/>
     
     <aura:attribute name="amTimeSlot" type="Boolean" default="false"/>
     <aura:attribute name="pmTimeSlot" type="Boolean" default="false"/>    

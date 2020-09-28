@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?><Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>BSM_Bonus_Coupon_Wholesaler</fullName>
+        <description>BSM Send Email Coupon Redeemed</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <recipients>
+            <field>Wholesaler_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>customer.service@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>BSM_GreatVines/BSM_Bonus_Coupon</template>
+    </alerts>
+    <alerts>
+        <fullName>BSM_Retailer_Coupon_Issues_Notification</fullName>
+        <description>BSM Send Email Coupon Issued</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>customer.service@beamsuntory.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>BSM_GreatVines/BSM_Bonus_Coupon</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>BSM_Copy_Wholesaler_Email</fullName>
+        <field>Wholesaler_Email__c</field>
+        <formula>Wholesaler_Redeemed__r.gvp__Primary_Email__c</formula>
+        <name>BSM Copy Wholesaler Email</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <rules>
+        <fullName>BSM Bonus Coupon Issued</fullName>
+        <actions>
+            <name>BSM_Retailer_Coupon_Issues_Notification</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>BSM_Copy_Wholesaler_Email</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Bonus_Coupon__c.Status__c</field>
+            <operation>equals</operation>
+            <value>Issued</value>
+        </criteriaItems>
+        <description>Email the Retailer (EmailTo) Contact when a Coupon has been Issued (Pin -&gt; Coupon Code) and copy Wholesaler Primary Email</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>BSM Bonus Coupon Redeemed</fullName>
+        <actions>
+            <name>BSM_Bonus_Coupon_Wholesaler</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Bonus_Coupon__c.Status__c</field>
+            <operation>equals</operation>
+            <value>Redeemed</value>
+        </criteriaItems>
+        <description>Send Email to the Retailer and Wholesaler when Coupon has been Redeemed</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Send Email to Venue when Issued</fullName>
+        <actions>
+            <name>BSM_Retailer_Coupon_Issues_Notification</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Bonus_Coupon__c.Status__c</field>
+            <operation>equals</operation>
+            <value>Issued</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Send Email to Venue when Redeemed</fullName>
+        <actions>
+            <name>BSM_Retailer_Coupon_Issues_Notification</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Bonus_Coupon__c.Status__c</field>
+            <operation>equals</operation>
+            <value>Redeemed</value>
+        </criteriaItems>
+        <description>An email matching the above should be sent to the Venue at redemption + the language added</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>PR Team</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>PR Teams</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>PR Team Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- You can not change the Access Level. Instead delete the record and create a new record. --></errorMessage>
+        <name>AccessLevel_Can_Not_Be_Changed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can not change the Collaborator. Instead delete the record and create a new record. --></errorMessage>
+        <name>Collaborator_Can_Not_Be_Changed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must select Collaborator --></errorMessage>
+        <name>Collaborator_Required_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can not change the PR Header. Instead delete the record and create a new record. --></errorMessage>
+        <name>PRHeader_Can_Not_Be_Changed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Can not self assign.You are the owner of the record with full access. --></errorMessage>
+        <name>Self_Assignment_Validation</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Add_Collaborator --></label>
+        <name>Add_Collaborator</name>
+    </webLinks>
+</CustomObjectTranslation>

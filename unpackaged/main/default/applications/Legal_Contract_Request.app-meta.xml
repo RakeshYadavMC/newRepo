@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <content>Legal_Home_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>standard-home</pageOrSobjectType>
+    </actionOverrides>
+    <brand>
+        <headerColor>#1576AE</headerColor>
+        <logo>LegalImage</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <description>Legal Contract Request with Standard navigation for company employees legal</description>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>Legal Contract Request</label>
+    <navType>Standard</navType>
+    <tabs>standard-home</tabs>
+    <tabs>Legal_Contract_Form__c</tabs>
+    <tabs>Application_Question__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>Legal_Contract_Request_UtilityBar</utilityBar>
+</CustomApplication>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Barrel</masterLabel>
+            <translation><!-- Barrel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Barrel Display</masterLabel>
+            <translation><!-- Barrel Display --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Barrel Head Sign</masterLabel>
+            <translation><!-- Barrel Head Sign --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Barrel Plaque</masterLabel>
+            <translation><!-- Barrel Plaque --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Barrel Plaque-INSERT</masterLabel>
+            <translation><!-- Barrel Plaque-INSERT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bottle Cradle</masterLabel>
+            <translation><!-- Bottle Cradle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bottle Cradle-INSERT</masterLabel>
+            <translation><!-- Bottle Cradle-INSERT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bottle Glorifier</masterLabel>
+            <translation><!-- Bottle Glorifier --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bottle Label Text City and State</masterLabel>
+            <translation><!-- Bottle Label Text City and State --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bottle Necker</masterLabel>
+            <translation><!-- Bottle Necker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bottle Plate Text</masterLabel>
+            <translation><!-- Bottle Plate Text --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commemorative Stave</masterLabel>
+            <translation><!-- Commemorative Stave --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flight Tray</masterLabel>
+            <translation><!-- Flight Tray --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flight Tray: $994</masterLabel>
+            <translation><!-- Flight Tray: $994 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Floor Display</masterLabel>
+            <translation><!-- Floor Display --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Floor Display-INSERT</masterLabel>
+            <translation><!-- Floor Display-INSERT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Full Barrel Rack</masterLabel>
+            <translation><!-- Full Barrel Rack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Half Barrel</masterLabel>
+            <translation><!-- Half Barrel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Half Barrel Rack</masterLabel>
+            <translation><!-- Half Barrel Rack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hang Tag</masterLabel>
+            <translation><!-- Hang Tag --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Menu Insert Card</masterLabel>
+            <translation><!-- Menu Insert Card --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Menu Insert Card-INSERT</masterLabel>
+            <translation><!-- Menu Insert Card-INSERT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pour Spout</masterLabel>
+            <translation><!-- Pour Spout --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ring</masterLabel>
+            <translation><!-- Ring --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ring: $40</masterLabel>
+            <translation><!-- Ring: $40 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Selection Frame</masterLabel>
+            <translation><!-- Selection Frame --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shelf Glorifier</masterLabel>
+            <translation><!-- Shelf Glorifier --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shelf Glorifier-INSERT</masterLabel>
+            <translation><!-- Shelf Glorifier-INSERT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Snifter Glassware</masterLabel>
+            <translation><!-- Snifter Glassware --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wall Art</masterLabel>
+            <translation><!-- Wall Art --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wall Art: $45</masterLabel>
+            <translation><!-- Wall Art: $45 --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

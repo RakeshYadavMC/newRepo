@@ -100,7 +100,7 @@ public without sharing class SBP_AccountInfoCmpCtrl {
 
 	***************************************************************************************************************/
 	@AuraEnabled
-	public static LightningComponentUtility.RequestStatus updateCase(String jsonCases) {
+	public static LightningComponentUtility.RequestStatus updateCase(String jsonCases,boolean AvailableforSingleBarrel ) {
 		Boolean success = true;
 		String message = null;
 		Map<String, Object> responseMap = new Map<String, Object>();
@@ -163,7 +163,11 @@ public without sharing class SBP_AccountInfoCmpCtrl {
                     message = Label.SB2_Allocation_is_not_available_for_this_barrel_order_Please_contact_your_state;
                     success = false;
                     caseFromComponent.status = 'Cancelled-Allocation';
-                }   
+                } 
+                if(!AvailableforSingleBarrel) {
+                    caseFromComponent.status = 'Canceled';
+                }
+                system.debug('===========================AvailableforSingleBarrel==='+AvailableforSingleBarrel);
             }
             System.debug('caseFromComponent--'+caseFromComponent);
             update caseFromComponent;

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>State Level Allocation</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>State Level Allocations</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>State Allocation Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Deactivate State Allocation --></label>
+        <name>Deactivate_State_Allocation</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Edit --></label>
+        <name>Edit</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Remove leaf Node --></label>
+        <name>Remove_leaf_Node</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

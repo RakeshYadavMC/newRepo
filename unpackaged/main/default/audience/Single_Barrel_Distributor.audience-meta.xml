@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Audience xmlns="http://soap.sforce.com/2006/04/metadata">
+    <audienceName>Single Barrel - Standard - Distributor</audienceName>
+    <container>Beam Suntory Customer Community</container>
+    <criteria>
+        <criterion>
+            <criterionValue>
+                <entityField>RecordTypeId</entityField>
+                <entityType>Case</entityType>
+                <fieldValue>Case.Single_Barrel_Standard</fieldValue>
+            </criterionValue>
+            <operator>Equal</operator>
+            <type>FieldBased</type>
+        </criterion>
+        <criterion>
+            <criterionValue>
+                <profile>distributor community plus</profile>
+            </criterionValue>
+            <operator>Equal</operator>
+            <type>Profile</type>
+        </criterion>
+        <criterion>
+            <criterionValue>
+                <profile>distributor community</profile>
+            </criterionValue>
+            <operator>Equal</operator>
+            <type>Profile</type>
+        </criterion>
+        <criterion>
+            <criterionValue>
+                <entityField>RecordTypeId</entityField>
+                <entityType>Case</entityType>
+                <fieldValue>Case.Single_Barrel_Split_Barrel</fieldValue>
+            </criterionValue>
+            <operator>Equal</operator>
+            <type>FieldBased</type>
+        </criterion>
+    </criteria>
+    <formulaFilterType>AllCriteriaMatch</formulaFilterType>
+    <isDefaultAudience>false</isDefaultAudience>
+    <targets>
+        <target>
+            <groupName>a9ea2332-f772-4504-b6d1-383c5ce1b4c0</groupName>
+            <priority>1</priority>
+            <targetType>ExperienceVariation</targetType>
+            <targetValue>Case_Detail_Single_Barrel_Standard_Distributor_Page</targetValue>
+        </target>
+    </targets>
+</Audience>

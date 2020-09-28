@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Case$CaseNumber</field>
+    </columns>
+    <columns>
+        <field>Case$CreatedDate</field>
+    </columns>
+    <columns>
+        <field>Case$Status</field>
+    </columns>
+    <columns>
+        <field>Case$Type</field>
+    </columns>
+    <columns>
+        <field>Case$Account</field>
+    </columns>
+    <columns>
+        <field>Case$Submitter__c</field>
+    </columns>
+    <columns>
+        <field>Case.Barrels__r$State__c</field>
+    </columns>
+    <columns>
+        <field>Case$Retail_Account__c</field>
+    </columns>
+    <columns>
+        <field>Case$SAP_Number__c</field>
+    </columns>
+    <columns>
+        <field>Case.Barrels__r$SKU__c</field>
+    </columns>
+    <columns>
+        <field>Case.Barrels__r$Ship_Date__c</field>
+    </columns>
+    <currency>USD</currency>
+    <description>All MMPS orders created in 2019</description>
+    <filter>
+        <criteriaItems>
+            <column>Case$RecordType</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Case.Single_Barrel_Proof_Specific,Case.Single_Barrel_Split_Barrel,Case.Single_Barrel_Standard</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case$Brand__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Maker&apos;s Mark,Makers Mark</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case$Status</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Closed - Abandoned,Canceled</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case$CreatedDate</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>greaterOrEqual</operator>
+            <value>1/1/2019 12:00 AM</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case$CreatedDate</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>lessOrEqual</operator>
+            <value>12/31/2019 12:00 AM</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>MMPS 2019 Orders</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Cases_with_Barrels__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Case.Barrels__r$Ship_Date__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

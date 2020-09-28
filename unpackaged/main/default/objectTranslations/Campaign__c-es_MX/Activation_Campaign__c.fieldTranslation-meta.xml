@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- This field is used for National Marketing to identify Activation Campaigns. --></help>
+        <label><!-- Activation Campaign? --></label>
+        <name>Activation_Campaign__c</name>
+    </CustomFieldTranslation>

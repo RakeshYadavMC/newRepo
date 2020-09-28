@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?><Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>AmericanFieldUpdate</fullName>
+        <description>If Region is American, update Region_Hidden Picklist value.</description>
+        <field>Region_Hidden__c</field>
+        <literalValue>American</literalValue>
+        <name>AmericanFieldUpdate</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CampaignRequestIOFieldUpdate</fullName>
+        <field>RequestStatus__c</field>
+        <literalValue>IO Not Requested</literalValue>
+        <name>CampaignRequestIOFieldUpdate</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Check_IsBudgetChange</fullName>
+        <field>Is_Budget_Change__c</field>
+        <literalValue>1</literalValue>
+        <name>Check IsBudgetChange</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>FieldUpdatetoNA</fullName>
+        <description>If NA Division is chosen, update Region_Hidden field.</description>
+        <field>Region_Hidden__c</field>
+        <literalValue>National Accounts</literalValue>
+        <name>FieldUpdatetoNA</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>NationalAccountsFieldUpdate</fullName>
+        <description>If Region is National Accounts, update Region_Hidden Picklist value.</description>
+        <field>Region_Hidden__c</field>
+        <literalValue>National Accounts</literalValue>
+        <name>NationalAccountsFieldUpdate</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Test</fullName>
+        <field>Description__c</field>
+        <formula>ParentMarketingPlan__r.Territory__r.IOCodeSegment__c</formula>
+        <name>Test</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Campaign_Record_type</fullName>
+        <field>RecordTypeId</field>
+        <lookupValue>parent_campaign</lookupValue>
+        <lookupValueType>RecordType</lookupValueType>
+        <name>Update Campaign Record type</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Code_Created_Date</fullName>
+        <field>Code_Created_Date__c</field>
+        <formula>NOW()</formula>
+        <name>Update Code Created Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Updating_National_POS_Record_type</fullName>
+        <field>RecordTypeId</field>
+        <lookupValue>POS_Finance_Only</lookupValue>
+        <lookupValueType>RecordType</lookupValueType>
+        <name>Updating National POS Record type</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <rules>
+        <fullName>Campaign Budget change</fullName>
+        <actions>
+            <name>Check_IsBudgetChange</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>AND(ISCHANGED(PlannedCampaignSpend__c), PlannedCampaignSpend__c != 0)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Campaign Request Status Populated</fullName>
+        <actions>
+            <name>CampaignRequestIOFieldUpdate</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Campaign__c.RequestStatus__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <description>If the Request Status field is null, then 'IO Not Requested' will populate.</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>IO%2FWBS code created date</fullName>
+        <actions>
+            <name>Update_Code_Created_Date</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <criteriaItems>
+            <field>Campaign__c.RequestStatus__c</field>
+            <operation>equals</operation>
+            <value>IO Created</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Campaign__c.RequestStatus__c</field>
+            <operation>equals</operation>
+            <value>WBS Created</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Campaign__c.Code_Created_Date__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <description>Updates the Code created date field when the Status changes to IO/WBS Created</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Lock National POS Campaign Records</fullName>
+        <actions>
+            <name>Updating_National_POS_Record_type</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1</booleanFilter>
+        <criteriaItems>
+            <field>Campaign__c.CampaignType__c</field>
+            <operation>equals</operation>
+            <value>National POS (Finance Only),National POS-COGS (Finance Only)</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>National Accounts - Participating States</fullName>
+        <actions>
+            <name>FieldUpdatetoNA</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Campaign__c.Division__c</field>
+            <operation>equals</operation>
+            <value>National Accounts</value>
+        </criteriaItems>
+        <description>If a Campaign is created under National Accounts Division, the Participating States field will be editable.</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Updating Record Type to Parent Campaign</fullName>
+        <actions>
+            <name>Update_Campaign_Record_type</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Updating record type to Parent Campaign for National POS(Finalnce only) campaign type when the campaign type changed from National POS(Finalnce only) to other.</description>
+        <formula>AND(  OR( ISPICKVAL(PRIORVALUE(CampaignType__c) , "National POS (Finance Only)") , ISPICKVAL(PRIORVALUE(CampaignType__c) , "National POS-COGS (Finance Only)")),  !ISPICKVAL(CampaignType__c, "National POS (Finance Only)"), !ISPICKVAL(CampaignType__c, "National POS-COGS (Finance Only)"),  Country__c = "US" )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

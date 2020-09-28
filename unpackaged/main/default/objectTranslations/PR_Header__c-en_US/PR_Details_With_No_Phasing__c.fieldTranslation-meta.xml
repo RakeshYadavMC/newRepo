@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- PR Details With No Phasing --></label>
+        <name>PR_Details_With_No_Phasing__c</name>
+    </CustomFieldTranslation>

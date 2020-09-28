@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- MP Budget - Campaign Budget. --></help>
+        <label><!-- Campaign Unallocated Budget --></label>
+        <name>CampaignBalance__c</name>
+    </CustomFieldTranslation>

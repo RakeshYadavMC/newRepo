@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Brand --></label>
+        <name>Brand__c</name>
+        <picklistValues>
+            <masterLabel>2 Gingers</masterLabel>
+            <translation><!-- 2 Gingers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alberta Rye</masterLabel>
+            <translation><!-- Alberta Rye --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ardmore</masterLabel>
+            <translation><!-- Ardmore --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auchentoshan</masterLabel>
+            <translation><!-- Auchentoshan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Baker's</masterLabel>
+            <translation><!-- Baker&apos;s --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Basil Hayden's</masterLabel>
+            <translation><!-- Basil Hayden&apos;s --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beam Suntory Corporate</masterLabel>
+            <translation><!-- Beam Suntory Corporate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Booker's</masterLabel>
+            <translation><!-- Booker&apos;s --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bowmore</masterLabel>
+            <translation><!-- Bowmore --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Calico Jack</masterLabel>
+            <translation><!-- Calico Jack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canadian Club</masterLabel>
+            <translation><!-- Canadian Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Connemara</masterLabel>
+            <translation><!-- Connemara --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Courvoisier</masterLabel>
+            <translation><!-- Courvoisier --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cruzan</masterLabel>
+            <translation><!-- Cruzan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DeKuyper</masterLabel>
+            <translation><!-- DeKuyper --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Drink Smart</masterLabel>
+            <translation><!-- Drink Smart --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EFFEN</masterLabel>
+            <translation><!-- EFFEN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>El Tesoro</masterLabel>
+            <translation><!-- El Tesoro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Glen Garioch</masterLabel>
+            <translation><!-- Glen Garioch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Green Ore Wiskey</masterLabel>
+            <translation><!-- Green Ore Wiskey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hornitos</masterLabel>
+            <translation><!-- Hornitos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>House of Suntory</masterLabel>
+            <translation><!-- House of Suntory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jim Beam</masterLabel>
+            <translation><!-- Jim Beam --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jim Beam Global</masterLabel>
+            <translation><!-- Jim Beam Global --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kamora</masterLabel>
+            <translation><!-- Kamora --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kilbeggan</masterLabel>
+            <translation><!-- Kilbeggan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kilbeggan Distillery</masterLabel>
+            <translation><!-- Kilbeggan Distillery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Knob Creek</masterLabel>
+            <translation><!-- Knob Creek --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Laphroaig</masterLabel>
+            <translation><!-- Laphroaig --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Legent</masterLabel>
+            <translation><!-- Legent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Little Book</masterLabel>
+            <translation><!-- Little Book --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Makers Mark</masterLabel>
+            <translation><!-- Makers Mark --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Midori</masterLabel>
+            <translation><!-- Midori --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Old Whiskeys</masterLabel>
+            <translation><!-- Old Whiskeys --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pavan</masterLabel>
+            <translation><!-- Pavan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Peated Malts of Distinction</masterLabel>
+            <translation><!-- Peated Malts of Distinction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pinnacle</masterLabel>
+            <translation><!-- Pinnacle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sauza</masterLabel>
+            <translation><!-- Sauza --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sauza 901</masterLabel>
+            <translation><!-- Sauza 901 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sipsmith</masterLabel>
+            <translation><!-- Sipsmith --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skinnygirl</masterLabel>
+            <translation><!-- Skinnygirl --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Teacher's</masterLabel>
+            <translation><!-- Teacher&apos;s --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Teachers origin</masterLabel>
+            <translation><!-- Teachers origin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Cocktail Project</masterLabel>
+            <translation><!-- The Cocktail Project --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Olds</masterLabel>
+            <translation><!-- The Olds --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tokitime</masterLabel>
+            <translation><!-- Tokitime --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tres Generaciones</masterLabel>
+            <translation><!-- Tres Generaciones --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tyrconnell</masterLabel>
+            <translation><!-- Tyrconnell --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yamazaki</masterLabel>
+            <translation><!-- Yamazaki --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

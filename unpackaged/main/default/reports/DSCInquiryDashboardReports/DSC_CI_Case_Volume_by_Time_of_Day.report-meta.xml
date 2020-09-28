@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <chart>
+        <backgroundColor1>#FFFFFF</backgroundColor1>
+        <backgroundColor2>#FFFFFF</backgroundColor2>
+        <backgroundFadeDir>Diagonal</backgroundFadeDir>
+        <chartSummaries>
+            <axisBinding>y</axisBinding>
+            <column>RowCount</column>
+        </chartSummaries>
+        <chartType>Line</chartType>
+        <enableHoverLabels>false</enableHoverLabels>
+        <expandOthers>true</expandOthers>
+        <groupingColumn>CDF1</groupingColumn>
+        <location>CHART_BOTTOM</location>
+        <showAxisLabels>true</showAxisLabels>
+        <showPercentage>false</showPercentage>
+        <showTotal>false</showTotal>
+        <showValues>false</showValues>
+        <size>Medium</size>
+        <summaryAxisRange>Auto</summaryAxisRange>
+        <textColor>#000000</textColor>
+        <textSize>12</textSize>
+        <title>Inquiry Case by Time of Day</title>
+        <titleColor>#000000</titleColor>
+        <titleSize>18</titleSize>
+    </chart>
+    <columns>
+        <field>OWNER</field>
+    </columns>
+    <columns>
+        <field>CASE_ID</field>
+    </columns>
+    <columns>
+        <field>CREATED_DATEONLY</field>
+    </columns>
+    <columns>
+        <field>CREATED_DATE</field>
+    </columns>
+    <columns>
+        <field>Case.Created_Time__c</field>
+    </columns>
+    <columns>
+        <field>Case.Brand__c</field>
+    </columns>
+    <columns>
+        <field>ORIGIN</field>
+    </columns>
+    <currency>USD</currency>
+    <customDetailFormulas>
+        <calculatedFormula>CASE(MID(TEXT(CREATED_DATE),12,2),
+ &apos;00&apos;, &apos;a) 12-2AM&apos;,
+ &apos;01&apos;, &apos;a) 12-2AM&apos;,
+ &apos;02&apos;, &apos;b) 2-4AM&apos;,
+ &apos;03&apos;, &apos;b) 2-4AM&apos;,
+ &apos;04&apos;, &apos;c) 4-6AM&apos;,
+ &apos;05&apos;, &apos;c) 4-6AM&apos;,
+ &apos;06&apos;, &apos;d) 6-8AM&apos;,
+ &apos;07&apos;, &apos;d) 6-8AM&apos;,
+ &apos;08&apos;, &apos;e) 8-10AM&apos;,
+ &apos;09&apos;, &apos;e) 8-10AM&apos;,
+ &apos;10&apos;, &apos;f) 10AM-12PM&apos;,
+ &apos;11&apos;, &apos;f) 10AM-12PM&apos;,
+ &apos;12&apos;, &apos;g) 12-2PM&apos;,
+ &apos;13&apos;, &apos;g) 12-2PM&apos;,
+ &apos;14&apos;, &apos;h) 2-4PM&apos;,
+ &apos;15&apos;, &apos;h) 2-4PM&apos;,
+ &apos;16&apos;, &apos;i) 4-6PM&apos;,
+ &apos;17&apos;, &apos;i) 4-6PM&apos;,
+ &apos;18&apos;, &apos;j) 6-8PM&apos;,
+ &apos;19&apos;, &apos;j) 6-8PM&apos;,
+ &apos;20&apos;, &apos;k) 8-10PM&apos;,
+ &apos;21&apos;, &apos;k) 8-10PM&apos;,
+ &apos;22&apos;, &apos;l) 10PM-12AM&apos;,
+ &apos;23&apos;, &apos;l) 10PM-12AM&apos;,
+ &apos;Not Found&apos;)</calculatedFormula>
+        <dataType>Text</dataType>
+        <developerName>CDF1</developerName>
+        <label>Time Range</label>
+        <scale>2</scale>
+    </customDetailFormulas>
+    <description>Inquiry cases monthly grouped by 2 hours range</description>
+    <filter>
+        <criteriaItems>
+            <column>RECORDTYPE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Case.Consumer_Inquiry</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>CDF1</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>DSC CI Case Volume by Time of Day</name>
+    <params>
+        <name>units</name>
+        <value>h</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CaseList</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>Case.Created_Time__c</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATEONLY</dateColumn>
+        <interval>INTERVAL_LASTMONTH</interval>
+    </timeFrameFilter>
+</Report>

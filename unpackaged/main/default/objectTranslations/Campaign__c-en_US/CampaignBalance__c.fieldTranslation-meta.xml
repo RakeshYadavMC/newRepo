@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Campaign Budget - (Actual Campaign Spend + Committed Campaign Spend + Pending Campaign Spend). --></help>
+        <label><!-- Campaign Balance --></label>
+        <name>CampaignBalance__c</name>
+    </CustomFieldTranslation>

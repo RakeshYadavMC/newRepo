@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>EG and LMF</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>EGs and LMFs</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>EG / DA Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- EG Hierarchy --></label>
+            <section>EG Hierarchy</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>LMF Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- EG Hierarchy --></label>
+            <section>EG Hierarchy</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- EG / DA Budget. --></description>
+        <label><!-- EG / DA Budget --></label>
+        <name>EGDABudget</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- LMF Budget. --></description>
+        <label><!-- LMF Budget --></label>
+        <name>LMFBudget</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

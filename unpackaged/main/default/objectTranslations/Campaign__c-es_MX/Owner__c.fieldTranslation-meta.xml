@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Owner --></label>
+        <name>Owner__c</name>
+        <picklistValues>
+            <masterLabel>BT INNOVATION</masterLabel>
+            <translation><!-- BT INNOVATION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BTL/ON PREMISE</masterLabel>
+            <translation><!-- BTL/ON PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FBS/ATL</masterLabel>
+            <translation><!-- FBS/ATL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FBS/BTL/OFF PREMISE</masterLabel>
+            <translation><!-- FBS/BTL/OFF PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INNOVATION - BT</masterLabel>
+            <translation><!-- INNOVATION - BT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ON PREMISE</masterLabel>
+            <translation><!-- ON PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OTHER</masterLabel>
+            <translation><!-- OTHER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PENDULUM</masterLabel>
+            <translation><!-- PENDULUM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RESEARCH – ADHOC</masterLabel>
+            <translation><!-- RESEARCH – ADHOC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RESEARCH – CONSUMER</masterLabel>
+            <translation><!-- RESEARCH – CONSUMER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RESEARCH – INNOVATION</masterLabel>
+            <translation><!-- RESEARCH – INNOVATION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RESEARCH – SYND</masterLabel>
+            <translation><!-- RESEARCH – SYND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RTD/ATL</masterLabel>
+            <translation><!-- RTD/ATL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RTD/BTL/OFF PREMISE</masterLabel>
+            <translation><!-- RTD/BTL/OFF PREMISE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TCC</masterLabel>
+            <translation><!-- TCC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>THE BLEND</masterLabel>
+            <translation><!-- THE BLEND --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

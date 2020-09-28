@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The User who submitted a Single Barrel Order.  An email will be sent to this user once the tracking number is entered. --></help>
+        <label><!-- Submitter --></label>
+        <name>Submitter__c</name>
+        <relationshipLabel><!-- Sample Kits --></relationshipLabel>
+    </CustomFieldTranslation>

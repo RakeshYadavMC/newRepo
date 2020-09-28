@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ManagedTopics xmlns="http://soap.sforce.com/2006/04/metadata">
+    <managedTopic>
+        <fullName>Beam Suntory Company Community.Featured:Global Master Data Management</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Global Master Data Management</name>
+        <parentName></parentName>
+        <position>0</position>
+        <topicDescription>Global Master Data Management</topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Beam Suntory Company Community.Featured:Human Resources</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Human Resources</name>
+        <parentName></parentName>
+        <position>1</position>
+        <topicDescription>Human Resources</topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Beam Suntory Company Community.Featured:Order to Cash / Billing</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Order to Cash / Billing</name>
+        <parentName></parentName>
+        <position>2</position>
+        <topicDescription>Order to Cash / Billing</topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Beam Suntory Company Community.Featured:Payroll</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Payroll</name>
+        <parentName></parentName>
+        <position>3</position>
+        <topicDescription>Payroll</topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Beam Suntory Company Community.Featured:Procure-to-Pay / Procurement / TBO</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Procure-to-Pay / Procurement / TBO</name>
+        <parentName></parentName>
+        <position>5</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Beam Suntory Company Community.Featured:Record to Report</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Record to Report</name>
+        <parentName></parentName>
+        <position>4</position>
+        <topicDescription>Record to Report</topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Beam Suntory Company Community.Featured:Travel &amp; Entertainment</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Travel &amp; Entertainment</name>
+        <parentName></parentName>
+        <position>6</position>
+        <topicDescription>Travel &amp; Entertainment</topicDescription>
+    </managedTopic>
+</ManagedTopics>

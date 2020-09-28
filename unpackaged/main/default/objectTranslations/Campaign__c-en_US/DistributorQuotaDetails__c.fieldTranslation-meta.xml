@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The Distributor Quota Details as it&apos;s found on the mirrored program in which the state managers are managing this field --></help>
+        <label><!-- Distributor Quota Details --></label>
+        <name>DistributorQuotaDetails__c</name>
+    </CustomFieldTranslation>

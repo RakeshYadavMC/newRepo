@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Z2 Reasons --></label>
+        <name>Z2_Reasons__c</name>
+        <picklistValues>
+            <masterLabel>Artwork Delays</masterLabel>
+            <translation><!-- Artwork Delays --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Awaiting Costing</masterLabel>
+            <translation><!-- Awaiting Costing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Compressed Project Timing</masterLabel>
+            <translation><!-- Compressed Project Timing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Volume Delays</masterLabel>
+            <translation><!-- Volume Delays --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

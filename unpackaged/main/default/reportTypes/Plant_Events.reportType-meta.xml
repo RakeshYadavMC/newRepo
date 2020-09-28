@@ -205,6 +205,11 @@
             <field>Time_Slot__c</field>
             <table>Plant_Event__c</table>
         </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Location_Of_Visit__c</field>
+            <table>Plant_Event__c</table>
+        </columns>
         <masterLabel>Plant Events</masterLabel>
     </sections>
     <sections>

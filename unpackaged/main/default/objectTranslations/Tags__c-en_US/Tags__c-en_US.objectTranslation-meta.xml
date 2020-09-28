@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Tag</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Tags</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>BS &amp; C</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Brand Family Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Brand Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Brand Quality Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Brand Variety Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PL4 Brand</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Territory Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- Brand Record Type. --></description>
+        <label><!-- Brand --></label>
+        <name>Brand</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Brand Family Record Type. --></description>
+        <label><!-- Brand Family --></label>
+        <name>BrandFamily</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Brand Quality Record Type. --></description>
+        <label><!-- Brand Quality --></label>
+        <name>BrandQuality</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Brand Variety Record Type. --></description>
+        <label><!-- Brand Variety --></label>
+        <name>BrandVariety</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- PL4 Brand --></label>
+        <name>PL4Brand</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Territory Record Type. --></description>
+        <label><!-- Territory --></label>
+        <name>Territory</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- A Brand&apos;s WBS Code Segment must be exactly four characters long. --></errorMessage>
+        <name>WBS_Segment_Length_Brand</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A Brand Quality&apos;s WBS Code Segment must be exactly three characters long. --></errorMessage>
+        <name>WBS_Segment_Length_Brand_Quality</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A Territory&apos;s WBS Code Segment must be exactly six characters long. --></errorMessage>
+        <name>WBS_Segment_Length_Territory</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -22,6 +22,8 @@
     <aura:attribute name="areSamplesLeft" type="Boolean" default="false"/>
     <aura:attribute name="doneRendering" type="Boolean" default="false"/>
     <aura:attribute name="caseType" type="String"/>
+    <!-- Added by Jai for INC_241142 -->
+    <aura:attribute name="loading" type="Boolean" default="false" />
     <lightning:notificationsLibrary aura:id="sample_selection_prompt" />
     <!-- Handlers -->
     <aura:handler name="init" action="{!c.init}" value="{!this}" />
@@ -39,6 +41,10 @@
                         
                         <aura:if isTrue="{!not(empty(v.data))}">
                             <c:AlertCmp type="warning" message="Only one sample can be selected per barrel case." />
+                            <!-- Added by Jai for INC_241142 -->
+                            <aura:if isTrue="{!v.loading}">
+                            	<lightning:spinner alternativeText="Loading" variant="brand" />
+                            </aura:if>
                             <div class="slds-grid slds-align_absolute-center slds-p-top_xx-large slds-p-bottom_xx-large" style="background-color:#706e6b">
                                 <div class="slds-col slds-size_11-of-12 slds-p-bottom_small" style="background-color:#f4f6f9;box-shadow:0 2px 6px 6px rgba(0, 0, 0, 0.16);">
                                     <div class="slds-align_absolute-center ">

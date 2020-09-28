@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- To Region Allocation --></label>
+        <name>To_Region_Allocation__c</name>
+        <relationshipLabel><!-- Allocation Loggers (To Region Allocation) --></relationshipLabel>
+    </CustomFieldTranslation>

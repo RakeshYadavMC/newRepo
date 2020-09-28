@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>Región</label>
+        <name>Region__c</name>
+        <picklistValues>
+            <masterLabel>America</masterLabel>
+            <translation><!-- America --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asia Pacific</masterLabel>
+            <translation><!-- Asia Pacific --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Central Region</masterLabel>
+            <translation>Región Central</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Control States &amp; Na Region</masterLabel>
+            <translation>Región o Estados controlados</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>East Region</masterLabel>
+            <translation>Región Este</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Europe</masterLabel>
+            <translation><!-- Europe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Franchise Region</masterLabel>
+            <translation>Región de Franquicia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GTR HQ</masterLabel>
+            <translation><!-- GTR HQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Midsouth Region</masterLabel>
+            <translation>Región Sur</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oceania</masterLabel>
+            <translation><!-- Oceania --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West Region</masterLabel>
+            <translation>Región Oeste</translation>
+        </picklistValues>
+    </CustomFieldTranslation>

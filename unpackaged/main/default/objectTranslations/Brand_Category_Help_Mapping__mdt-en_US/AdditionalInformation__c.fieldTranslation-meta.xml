@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Additional Information --></label>
+        <name>AdditionalInformation__c</name>
+        <picklistValues>
+            <masterLabel>Be a Brand Influencer</masterLabel>
+            <translation><!-- Be a Brand Influencer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bottle</masterLabel>
+            <translation><!-- Bottle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Can</masterLabel>
+            <translation><!-- Can --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Caramel</masterLabel>
+            <translation><!-- Caramel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Charity</masterLabel>
+            <translation><!-- Charity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coupons</masterLabel>
+            <translation><!-- Coupons --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Decanter Inquiry</masterLabel>
+            <translation><!-- Decanter Inquiry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distributions</masterLabel>
+            <translation><!-- Distributions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Free Merchandise</masterLabel>
+            <translation><!-- Free Merchandise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Free Product</masterLabel>
+            <translation><!-- Free Product --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gluten</masterLabel>
+            <translation><!-- Gluten --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>License our Brand</masterLabel>
+            <translation><!-- License our Brand --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Liquid</masterLabel>
+            <translation><!-- Liquid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Login</masterLabel>
+            <translation><!-- Login --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nutritional Information</masterLabel>
+            <translation><!-- Nutritional Information --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plots</masterLabel>
+            <translation><!-- Plots --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Points</masterLabel>
+            <translation><!-- Points --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Problem with my Order</masterLabel>
+            <translation><!-- Problem with my Order --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Availability</masterLabel>
+            <translation><!-- Product Availability --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Ingredients</masterLabel>
+            <translation><!-- Product Ingredients --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Shelf life</masterLabel>
+            <translation><!-- Product Shelf life --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rebates</masterLabel>
+            <translation><!-- Rebates --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sponsorship</masterLabel>
+            <translation><!-- Sponsorship --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suppliers</masterLabel>
+            <translation><!-- Suppliers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Used Barrels</masterLabel>
+            <translation><!-- Used Barrels --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Value of my bottle</masterLabel>
+            <translation><!-- Value of my bottle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Website Question/Issue</masterLabel>
+            <translation><!-- Website Question/Issue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Work for us</masterLabel>
+            <translation><!-- Work for us --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

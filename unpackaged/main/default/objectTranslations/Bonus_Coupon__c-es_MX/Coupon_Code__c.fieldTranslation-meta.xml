@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Este Campo será generado automáticamente</help>
+        <label>Código de Cupón</label>
+        <name>Coupon_Code__c</name>
+    </CustomFieldTranslation>

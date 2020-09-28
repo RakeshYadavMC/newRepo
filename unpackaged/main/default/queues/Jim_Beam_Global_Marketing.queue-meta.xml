@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Queue xmlns="http://soap.sforce.com/2006/04/metadata">
     <doesSendEmailToMembers>false</doesSendEmailToMembers>
-    <email>brittney.blackmon@beamsuntory.com</email>
+    <email>layne.hazlip@beamsuntory.com</email>
     <name>Jim Beam Global Marketing</name>
     <queueMembers>
         <users>
+            <user>ashlea.derkits@beamsuntory.com</user>
             <user>brittney.blackmon@beamsuntory.com</user>
             <user>hallie.hastings@beamsuntory.com</user>
-            <user>katie.funk@beamsuntory.com</user>
+            <user>layne.hazlip@beamsuntory.com</user>
             <user>nicole.buttafaro@beamsuntory.com</user>
             <user>nicole.pellecchia@beamsuntory.com</user>
             <user>theresa.richards@beamsuntory.com</user>

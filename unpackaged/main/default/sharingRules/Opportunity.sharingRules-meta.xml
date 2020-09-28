@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Bulk_Barrel_opportunity_sharing</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Sharing of Bulk Barrel opportunities with Bulk &amp; Barrel profile</description>
+        <label>Bulk Barrel opportunity sharing</label>
+        <sharedTo>
+            <role>Manager_Bulk_Spirits_Casks</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Bulk &amp; Barrels</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+</SharingRules>

@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Objective (JTBDI) --></label>
+        <name>Objective__c</name>
+        <picklistValues>
+            <masterLabel>BIG GINGER On-Premise Menus/Features</masterLabel>
+            <translation><!-- BIG GINGER On-Premise Menus/Features --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BIG GINGER sampling</masterLabel>
+            <translation><!-- BIG GINGER sampling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bartender training and education</masterLabel>
+            <translation><!-- Bartender training and education --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Build 10YO distribution</masterLabel>
+            <translation><!-- Build 10YO distribution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Build Wine and Vodka on-premise</masterLabel>
+            <translation><!-- Build Wine and Vodka on-premise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Build big, impactful displays</masterLabel>
+            <translation><!-- Build big, impactful displays --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Close distribution gaps</masterLabel>
+            <translation><!-- Close distribution gaps --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Close distribution gaps to Smirnoff</masterLabel>
+            <translation><!-- Close distribution gaps to Smirnoff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Close distribution gaps with Bacardi</masterLabel>
+            <translation><!-- Close distribution gaps with Bacardi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Co-display with Casa Sauza family</masterLabel>
+            <translation><!-- Co-display with Casa Sauza family --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Connect JT in-store and on-premise</masterLabel>
+            <translation><!-- Connect JT in-store and on-premise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cross merchandising at retail</masterLabel>
+            <translation><!-- Cross merchandising at retail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Devil’s Cut and Flavors on-premise activation</masterLabel>
+            <translation><!-- Devil’s Cut and Flavors on-premise activation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Displays via secondary placement</masterLabel>
+            <translation><!-- Displays via secondary placement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distribution of JDK &amp; Sons</masterLabel>
+            <translation><!-- Distribution of JDK &amp; Sons --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Drive Maker’s 46 distribution</masterLabel>
+            <translation><!-- Drive Maker’s 46 distribution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Drive Sauza Blue distribution</masterLabel>
+            <translation><!-- Drive Sauza Blue distribution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Drive display and increase velocity</masterLabel>
+            <translation><!-- Drive display and increase velocity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Drive distribution</masterLabel>
+            <translation><!-- Drive distribution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Drive distribution in focus channels</masterLabel>
+            <translation><!-- Drive distribution in focus channels --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Drive distribution of KC variants</masterLabel>
+            <translation><!-- Drive distribution of KC variants --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Drive distribution on Devil’s Cut</masterLabel>
+            <translation><!-- Drive distribution on Devil’s Cut --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Drive hitchhikers in the marketplace</masterLabel>
+            <translation><!-- Drive hitchhikers in the marketplace --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Drive menu &amp; back bar placement</masterLabel>
+            <translation><!-- Drive menu &amp; back bar placement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Drive on-premise distribution</masterLabel>
+            <translation><!-- Drive on-premise distribution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Drive on-premise distribution (JBW, DC, Flavors)</masterLabel>
+            <translation><!-- Drive on-premise distribution (JBW, DC, Flavors) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Drive shot machines</masterLabel>
+            <translation><!-- Drive shot machines --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Drive trial of new products and categories</masterLabel>
+            <translation><!-- Drive trial of new products and categories --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Drive trial on flavors</masterLabel>
+            <translation><!-- Drive trial on flavors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Engage bartenders</masterLabel>
+            <translation><!-- Engage bartenders --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Engage trade and ambassadors</masterLabel>
+            <translation><!-- Engage trade and ambassadors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Establish Distiller’s Collection on back bar</masterLabel>
+            <translation><!-- Establish Distiller’s Collection on back bar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Execute Jim Beam White Taste Challenge</masterLabel>
+            <translation><!-- Execute Jim Beam White Taste Challenge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Execute local Art of Craft events</masterLabel>
+            <translation><!-- Execute local Art of Craft events --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Execute sampling programs</masterLabel>
+            <translation><!-- Execute sampling programs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Execute sampling programs (Devil’s Cut &amp; Flavors)</masterLabel>
+            <translation><!-- Execute sampling programs (Devil’s Cut &amp; Flavors) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expand KC base distribution</masterLabel>
+            <translation><!-- Expand KC base distribution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expand On-Premise presence</masterLabel>
+            <translation><!-- Expand On-Premise presence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expand distribution</masterLabel>
+            <translation><!-- Expand distribution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expand distributionOn- and Off-Premise</masterLabel>
+            <translation><!-- Expand distributionOn- and Off-Premise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expand luxury on-premise</masterLabel>
+            <translation><!-- Expand luxury on-premise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Family displays in key periods</masterLabel>
+            <translation><!-- Family displays in key periods --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gain high-impact Make History displays</masterLabel>
+            <translation><!-- Gain high-impact Make History displays --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Generate educational tastings and events</masterLabel>
+            <translation><!-- Generate educational tastings and events --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Get 901 to the floor</masterLabel>
+            <translation><!-- Get 901 to the floor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Get seasonal flavors to the floor</masterLabel>
+            <translation><!-- Get seasonal flavors to the floor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grow Distiller’s Collection</masterLabel>
+            <translation><!-- Grow Distiller’s Collection --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grow distribution of priority flavors</masterLabel>
+            <translation><!-- Grow distribution of priority flavors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ice Surge shot occasions</masterLabel>
+            <translation><!-- Ice Surge shot occasions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Increase POS and themed display/shelf support</masterLabel>
+            <translation><!-- Increase POS and themed display/shelf support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Increase presence in luxury on-premise</masterLabel>
+            <translation><!-- Increase presence in luxury on-premise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Increase velocity</masterLabel>
+            <translation><!-- Increase velocity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Increased summer programming</masterLabel>
+            <translation><!-- Increased summer programming --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Innovation Features &amp; Menus</masterLabel>
+            <translation><!-- Innovation Features &amp; Menus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Introduce new pack for Sauza Sparkling</masterLabel>
+            <translation><!-- Introduce new pack for Sauza Sparkling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Launch 1L for on-premise</masterLabel>
+            <translation><!-- Launch 1L for on-premise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Launch Blueberry Lemonade</masterLabel>
+            <translation><!-- Launch Blueberry Lemonade --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Launch innovation - Sauza Cucumber Chili</masterLabel>
+            <translation><!-- Launch innovation - Sauza Cucumber Chili --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Launch new package</masterLabel>
+            <translation><!-- Launch new package --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leverage Barrel Program/POS to secure display</masterLabel>
+            <translation><!-- Leverage Barrel Program/POS to secure display --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leverage Barrel program</masterLabel>
+            <translation><!-- Leverage Barrel program --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leverage custom selling tools/Winery Exchange</masterLabel>
+            <translation><!-- Leverage custom selling tools/Winery Exchange --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Merchandising Don’t Hurry</masterLabel>
+            <translation><!-- Merchandising Don’t Hurry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mixability &amp; Cocktail focus</masterLabel>
+            <translation><!-- Mixability &amp; Cocktail focus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>National Marketing</masterLabel>
+            <translation><!-- National Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On premise menus and specials</masterLabel>
+            <translation><!-- On premise menus and specials --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Own the Old Fashioned via menu programs</masterLabel>
+            <translation><!-- Own the Old Fashioned via menu programs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>POP/John/Vicky/Simon</masterLabel>
+            <translation><!-- POP/John/Vicky/Simon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pinot Noir/Bare Naked 1.75 Launch</masterLabel>
+            <translation><!-- Pinot Noir/Bare Naked 1.75 Launch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plata distribution</masterLabel>
+            <translation><!-- Plata distribution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Premiumize off-premise presence</masterLabel>
+            <translation><!-- Premiumize off-premise presence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Promote cocktail development</masterLabel>
+            <translation><!-- Promote cocktail development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reach out to Whisky Women</masterLabel>
+            <translation><!-- Reach out to Whisky Women --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recruit new women drinkers through mixability</masterLabel>
+            <translation><!-- Recruit new women drinkers through mixability --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regain/Increase distribution</masterLabel>
+            <translation><!-- Regain/Increase distribution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sampling</masterLabel>
+            <translation><!-- Sampling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sampling (Flavors, Black Barrel)</masterLabel>
+            <translation><!-- Sampling (Flavors, Black Barrel) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sampling programs</masterLabel>
+            <translation><!-- Sampling programs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Secure menu placements</masterLabel>
+            <translation><!-- Secure menu placements --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Secure menu placements and features</masterLabel>
+            <translation><!-- Secure menu placements and features --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sharpen mix by swapping out low velocity SKUs</masterLabel>
+            <translation><!-- Sharpen mix by swapping out low velocity SKUs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Showcase “Big, Full Flavor” POS</masterLabel>
+            <translation><!-- Showcase “Big, Full Flavor” POS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strengthen luxury on-premise with Upper Variants</masterLabel>
+            <translation><!-- Strengthen luxury on-premise with Upper Variants --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support bourbon heritage month activation</masterLabel>
+            <translation><!-- Support bourbon heritage month activation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support retail partnerships</masterLabel>
+            <translation><!-- Support retail partnerships --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Utilize Bloodhound (Max) in-market</masterLabel>
+            <translation><!-- Utilize Bloodhound (Max) in-market --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Utilize Craft Whiskey Specialists</masterLabel>
+            <translation><!-- Utilize Craft Whiskey Specialists --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Utilize New brand identity</masterLabel>
+            <translation><!-- Utilize New brand identity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Utilize POS</masterLabel>
+            <translation><!-- Utilize POS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Utilize mixology inspiration kits</masterLabel>
+            <translation><!-- Utilize mixology inspiration kits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Utilize “Most Awarded Bourbon” claim in-store</masterLabel>
+            <translation><!-- Utilize “Most Awarded Bourbon” claim in-store --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Win bartender and influencer endorsement</masterLabel>
+            <translation><!-- Win bartender and influencer endorsement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Win in premium bars/nightclubs</masterLabel>
+            <translation><!-- Win in premium bars/nightclubs --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

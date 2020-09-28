@@ -21,7 +21,16 @@
     gotoURL : function (component, event, helper) {
         var urlEvent = $A.get("e.force:navigateToURL");
         urlEvent.setParams({
-            "url": "/case/Case/Default"
+            "url": "/single-barrel"
+        });
+        urlEvent.fire();
+    },
+    
+    //Added for SR_188782
+    orderAnotherBarrel: function(component, event, helper) {
+        var urlEvent = $A.get("e.force:navigateToURL");
+        urlEvent.setParams({
+            "url": window.location.href
         });
         urlEvent.fire();
     }

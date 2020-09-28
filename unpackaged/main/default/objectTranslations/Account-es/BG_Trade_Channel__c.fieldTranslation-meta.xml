@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Post-2017 BG Trade Channel --></help>
+        <label><!-- New BG Trade Channel --></label>
+        <name>BG_Trade_Channel__c</name>
+        <picklistValues>
+            <masterLabel>Bar</masterLabel>
+            <translation><!-- Bar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Casino/Gaming</masterLabel>
+            <translation><!-- Casino/Gaming --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Convenience/Drug</masterLabel>
+            <translation><!-- Convenience/Drug --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Events/Stadiums</masterLabel>
+            <translation><!-- Events/Stadiums --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grocery/Mass</masterLabel>
+            <translation><!-- Grocery/Mass --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Large Format Liquor</masterLabel>
+            <translation><!-- Large Format Liquor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lodging/Resorts</masterLabel>
+            <translation><!-- Lodging/Resorts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium Format Liquor</masterLabel>
+            <translation><!-- Medium Format Liquor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nightclub</masterLabel>
+            <translation><!-- Nightclub --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Off-premise</masterLabel>
+            <translation><!-- Other Off-premise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other On-premise</masterLabel>
+            <translation><!-- Other On-premise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Restaurant</masterLabel>
+            <translation><!-- Restaurant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small Format Liquor</masterLabel>
+            <translation><!-- Small Format Liquor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TO BE DETERMINED</masterLabel>
+            <translation><!-- TO BE DETERMINED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wholesale/Club</masterLabel>
+            <translation><!-- Wholesale/Club --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

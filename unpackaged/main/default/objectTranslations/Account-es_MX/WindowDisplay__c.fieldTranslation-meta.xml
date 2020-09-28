@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>¿La cuenta permite Exhibidores de Vitrina?</help>
+        <label>Exhibidor de Vitrina</label>
+        <name>WindowDisplay__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation>Si</translation>
+        </picklistValues>
+    </CustomFieldTranslation>

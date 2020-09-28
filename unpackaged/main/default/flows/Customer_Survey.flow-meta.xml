@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <choices>
+        <name>Email_Address</name>
+        <choiceText>Yes</choiceText>
+        <dataType>String</dataType>
+        <userInput>
+            <isRequired>true</isRequired>
+            <promptText>Email</promptText>
+            <validationRule>
+                <errorMessage>Please enter a valid email address</errorMessage>
+                <formulaExpression>NOT ( REGEX ( UPPER ( {!Email_Address} ) ,&quot;^[A-Z0-9._%+-/!#$%&amp;&apos;*=?^_`{|}~]+@[A-Z0-9.-]+\\.[A-Z]{2,4}$&quot;))</formulaExpression>
+            </validationRule>
+        </userInput>
+    </choices>
+    <choices>
+        <name>Email_No_Selected</name>
+        <choiceText>No</choiceText>
+        <dataType>String</dataType>
+    </choices>
+    <choices>
+        <name>Not_available</name>
+        <choiceText>Not available</choiceText>
+        <dataType>String</dataType>
+    </choices>
+    <choices>
+        <name>Other</name>
+        <choiceText>Other</choiceText>
+        <dataType>String</dataType>
+        <userInput>
+            <isRequired>false</isRequired>
+        </userInput>
+    </choices>
+    <choices>
+        <name>Tour_No_Selected</name>
+        <choiceText>No</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>No</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Tour_Yes_Selected</name>
+        <choiceText>Yes</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Yes</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>TourLostDetail</name>
+        <choiceText>Other</choiceText>
+        <dataType>String</dataType>
+        <userInput>
+            <isRequired>false</isRequired>
+        </userInput>
+    </choices>
+    <choices>
+        <name>TourLostReasonCustomerSchedule</name>
+        <choiceText>Didn&apos;t fit my schedule</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Didn&apos;t fit my schedule</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>TourLostReasonNotAvailable</name>
+        <choiceText>Not available</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Not available</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>X1_Needs_Work</name>
+        <choiceText>1 - Needs Work</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>1</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>X2</name>
+        <choiceText>2</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>2</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>X3</name>
+        <choiceText>3</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>3</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>X4</name>
+        <choiceText>4</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>4</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>X5_Damn_Good</name>
+        <choiceText>5 - Damn Good</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>5</stringValue>
+        </value>
+    </choices>
+    <constants>
+        <name>DateOffsetEastern</name>
+        <dataType>Number</dataType>
+        <value>
+            <numberValue>0.16666666666667</numberValue>
+        </value>
+    </constants>
+    <constants>
+        <name>TimeOffsetEastern</name>
+        <dataType>Number</dataType>
+        <value>
+            <numberValue>0.2083333333333333</numberValue>
+        </value>
+    </constants>
+    <decisions>
+        <name>Tour_Decision</name>
+        <label>Tour?</label>
+        <locationX>182</locationX>
+        <locationY>30</locationY>
+        <defaultConnectorLabel>[Default Outcome]</defaultConnectorLabel>
+        <rules>
+            <name>Tour_Yes</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Tour_Response</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>Tour_Yes_Selected</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Tour_Rating</targetReference>
+            </connector>
+            <label>Yes</label>
+        </rules>
+        <rules>
+            <name>Tour_No</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Tour_Response</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>Tour_No_Selected</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Tour_Lost_Reason_Screen</targetReference>
+            </connector>
+            <label>No</label>
+        </rules>
+    </decisions>
+    <formulas>
+        <name>Email_Opt_In_Special_Events</name>
+        <dataType>Boolean</dataType>
+        <expression>IF(NOT(ISBLANK({!Email_Address})),TRUE,FALSE)</expression>
+    </formulas>
+    <formulas>
+        <name>Tour</name>
+        <dataType>Boolean</dataType>
+        <expression>IF({!Tour_Response}={!Tour_Yes_Selected},True,False)</expression>
+    </formulas>
+    <formulas>
+        <name>Tour_Date_Formula</name>
+        <dataType>Date</dataType>
+        <expression>TODAY() - {!TimeOffsetEastern}</expression>
+    </formulas>
+    <formulas>
+        <name>Tour_DateTime_Formula</name>
+        <dataType>DateTime</dataType>
+        <expression>DATETIMEVALUE(
+TEXT({!Tour_Date}) &amp;
+&quot; &quot; &amp;
+IF( (LEN({!Tour_Time})==7 &amp;&amp; RIGHT({!Tour_Time},2)=&quot;AM&quot;) , LEFT({!Tour_Time}, 4),
+IF( (LEN({!Tour_Time})==8 &amp;&amp; RIGHT({!Tour_Time},2)=&quot;AM&quot;) , LEFT({!Tour_Time}, 5),
+
+IF( (LEN({!Tour_Time})==7 &amp;&amp; RIGHT({!Tour_Time},2)=&quot;PM&quot;) , (TEXT(VALUE(MID({!Tour_Time},1,1))+12) &amp; MID({!Tour_Time},2,3)),
+
+IF( (LEN({!Tour_Time})==8 &amp;&amp; RIGHT({!Tour_Time},2)=&quot;PM&quot;) , (TEXT(VALUE(MID({!Tour_Time},1,2))+12) &amp; MID({!Tour_Time},3,3)),
+ 
+&quot;00:00&quot;
+)))) &amp;
+&quot;:00&quot;
+) + {!TimeOffsetEastern}</expression>
+    </formulas>
+    <formulas>
+        <name>Tour_Time_Formula</name>
+        <dataType>String</dataType>
+        <expression>IF(
+OR(
+VALUE( MID( TEXT( {!$Flow.CurrentDateTime} - {!DateOffsetEastern} ), 12, 2 ) ) = 0,
+VALUE( MID( TEXT( {!$Flow.CurrentDateTime} - {!DateOffsetEastern} ), 12, 2 ) ) = 12
+),
+&quot;12&quot;,
+TEXT( VALUE( MID( TEXT( {!$Flow.CurrentDateTime} - {!DateOffsetEastern} ), 12, 2 ) )
+-
+IF(
+VALUE( MID( TEXT( {!$Flow.CurrentDateTime} - {!DateOffsetEastern}), 12, 2 ) ) &lt; 12,
+0,
+12
+)
+)
+)&amp;
+&quot;:&quot; &amp;
+MID( TEXT( {!$Flow.CurrentDateTime} - {!DateOffsetEastern} ), 15, 2 )
+&amp; &quot; &quot; &amp;
+IF(
+VALUE( MID( TEXT( {!$Flow.CurrentDateTime} - {!DateOffsetEastern} ), 12, 2 ) ) &lt; 12,
+&quot;AM&quot;,
+&quot;PM&quot;
+)</expression>
+    </formulas>
+    <formulas>
+        <name>TourLostReason</name>
+        <dataType>String</dataType>
+        <expression>IF({!Tour_Lost_Reason_Selected}={!TourLostReasonNotAvailable},{!TourLostReasonNotAvailable},
+IF({!Tour_Lost_Reason_Selected}={!TourLostReasonCustomerSchedule},{!TourLostReasonCustomerSchedule},
+IF(ISBLANK({!Tour_Lost_Reason_Selected}),&quot;&quot;,
+&quot;Other&quot;)))</expression>
+    </formulas>
+    <interviewLabel>Customer Survey {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Customer Survey</label>
+    <processType>Flow</processType>
+    <recordCreates>
+        <name>Customer_Survey</name>
+        <label>Customer Survey</label>
+        <locationX>497</locationX>
+        <locationY>157</locationY>
+        <connector>
+            <targetReference>Thank_You</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Comments__c</field>
+            <value>
+                <elementReference>Comments</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>CurrencyIsoCode</field>
+            <value>
+                <stringValue>USD</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Email_Address__c</field>
+            <value>
+                <elementReference>Email_Address</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Email_Opt_In_Special_Events__c</field>
+            <value>
+                <elementReference>Email_Opt_In_Special_Events</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Food_Rating__c</field>
+            <value>
+                <elementReference>Food_Rating</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Gift_Shop_Rating__c</field>
+            <value>
+                <elementReference>Gift_Shop_Rating</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Local_Tour_Date__c</field>
+            <value>
+                <elementReference>Tour_Date</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Local_Tour_Time__c</field>
+            <value>
+                <elementReference>Tour_Time</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Location__c</field>
+            <value>
+                <stringValue>American Stillhouse</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Overall_Rating__c</field>
+            <value>
+                <elementReference>Overall_Rating</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Tasting_Rating__c</field>
+            <value>
+                <elementReference>Tasting_Rating</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Tour_Content_Rating__c</field>
+            <value>
+                <elementReference>Tour_Content_Rating</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Tour_Date_Time__c</field>
+            <value>
+                <elementReference>Tour_DateTime_Formula</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Tour_Guide_Rating__c</field>
+            <value>
+                <elementReference>Tour_Guide_Rating</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Tour_Guide__c</field>
+            <value>
+                <elementReference>Tour_Guide</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Tour_Lost_Detail__c</field>
+            <value>
+                <elementReference>TourLostDetail</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Tour_Lost_Reason__c</field>
+            <value>
+                <elementReference>TourLostReason</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Tour__c</field>
+            <value>
+                <elementReference>Tour</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Customer_Survey__c</object>
+    </recordCreates>
+    <screens>
+        <name>American_Stillhouse</name>
+        <label>American Stillhouse</label>
+        <locationX>351</locationX>
+        <locationY>155</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <connector>
+            <targetReference>Customer_Survey</targetReference>
+        </connector>
+        <fields>
+            <name>Gift_Shop_Rating</name>
+            <choiceReferences>X1_Needs_Work</choiceReferences>
+            <choiceReferences>X2</choiceReferences>
+            <choiceReferences>X3</choiceReferences>
+            <choiceReferences>X4</choiceReferences>
+            <choiceReferences>X5_Damn_Good</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Rate the selection of the gift shop merchandise</fieldText>
+            <fieldType>RadioButtons</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Food_Rating</name>
+            <choiceReferences>X1_Needs_Work</choiceReferences>
+            <choiceReferences>X2</choiceReferences>
+            <choiceReferences>X3</choiceReferences>
+            <choiceReferences>X4</choiceReferences>
+            <choiceReferences>X5_Damn_Good</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Rate the food quality at Fred&apos;s Smokehouse</fieldText>
+            <fieldType>RadioButtons</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Overall_Rating</name>
+            <choiceReferences>X1_Needs_Work</choiceReferences>
+            <choiceReferences>X2</choiceReferences>
+            <choiceReferences>X3</choiceReferences>
+            <choiceReferences>X4</choiceReferences>
+            <choiceReferences>X5_Damn_Good</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Overall my visit here left me feeling?</fieldText>
+            <fieldType>RadioButtons</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>EmailSpecialEvents</name>
+            <choiceReferences>Email_Address</choiceReferences>
+            <choiceReferences>Email_No_Selected</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Would you like information on special events?</fieldText>
+            <fieldType>RadioButtons</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Comments</name>
+            <fieldText>Additional comments / suggestion</fieldText>
+            <fieldType>LargeTextArea</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>Thank_You</name>
+        <label>Thank You</label>
+        <locationX>646</locationX>
+        <locationY>157</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <fields>
+            <name>Thank_You_Message</name>
+            <fieldText>TBD</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>Label</name>
+            <fieldText>&lt;SPAN ALIGN=&quot;LEFT&quot;&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;1&quot;&gt;{!Tour_DateTime_Formula}&lt;/FONT&gt;&lt;/SPAN&gt;&lt;DIV ALIGN=&quot;LEFT&quot;&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;&lt;/FONT&gt;&lt;/DIV&gt;&lt;DIV ALIGN=&quot;LEFT&quot;&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;{!Customer_Survey}&lt;/FONT&gt;&lt;/DIV&gt;&lt;DIV ALIGN=&quot;LEFT&quot;&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;{!$Flow.CurrentDateTime}&lt;/FONT&gt;&lt;/DIV&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>Tour_Lost_Reason_Screen</name>
+        <label>Why Not?</label>
+        <locationX>180</locationX>
+        <locationY>157</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>American_Stillhouse</targetReference>
+        </connector>
+        <fields>
+            <name>Tour_Lost_Reason_Selected</name>
+            <choiceReferences>TourLostReasonNotAvailable</choiceReferences>
+            <choiceReferences>TourLostReasonCustomerSchedule</choiceReferences>
+            <choiceReferences>TourLostDetail</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Why Not?</fieldText>
+            <fieldType>RadioButtons</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>Tour_Rating</name>
+        <label>Tour Rating</label>
+        <locationX>352</locationX>
+        <locationY>29</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <connector>
+            <targetReference>American_Stillhouse</targetReference>
+        </connector>
+        <fields>
+            <name>Tour_Date</name>
+            <dataType>Date</dataType>
+            <defaultValue>
+                <elementReference>Tour_Date_Formula</elementReference>
+            </defaultValue>
+            <fieldText>Tour Date</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Tour_Time</name>
+            <dataType>String</dataType>
+            <defaultValue>
+                <elementReference>Tour_Time_Formula</elementReference>
+            </defaultValue>
+            <fieldText>Tour Time</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Tour_Guide</name>
+            <dataType>String</dataType>
+            <fieldText>Tour Guide</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Tour_Guide_Rating</name>
+            <choiceReferences>X1_Needs_Work</choiceReferences>
+            <choiceReferences>X2</choiceReferences>
+            <choiceReferences>X3</choiceReferences>
+            <choiceReferences>X4</choiceReferences>
+            <choiceReferences>X5_Damn_Good</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>How was your tour guide?</fieldText>
+            <fieldType>RadioButtons</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Tour_Content_Rating</name>
+            <choiceReferences>X1_Needs_Work</choiceReferences>
+            <choiceReferences>X2</choiceReferences>
+            <choiceReferences>X3</choiceReferences>
+            <choiceReferences>X4</choiceReferences>
+            <choiceReferences>X5_Damn_Good</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>How was the content of the tour?</fieldText>
+            <fieldType>RadioButtons</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Tasting_Rating</name>
+            <choiceReferences>X1_Needs_Work</choiceReferences>
+            <choiceReferences>X2</choiceReferences>
+            <choiceReferences>X3</choiceReferences>
+            <choiceReferences>X4</choiceReferences>
+            <choiceReferences>X5_Damn_Good</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>How was the tasting experience?</fieldText>
+            <fieldType>RadioButtons</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>Welcome</name>
+        <label>Welcome</label>
+        <locationX>31</locationX>
+        <locationY>29</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <connector>
+            <targetReference>Tour_Decision</targetReference>
+        </connector>
+        <fields>
+            <name>GreetCustomerText</name>
+            <fieldText>&lt;SPAN ALIGN=&quot;LEFT&quot;&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:26px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;We are very interested in hearing about your experience at the American Stillhouse.&lt;/FONT&gt;&lt;/SPAN&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>Tour_Response</name>
+            <choiceReferences>Tour_Yes_Selected</choiceReferences>
+            <choiceReferences>Tour_No_Selected</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>&lt;SPAN ALIGN=&quot;LEFT&quot;&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:22px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;Did you take a tour today?&lt;/FONT&gt;&lt;/SPAN&gt;</fieldText>
+            <fieldType>RadioButtons</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <startElementReference>Welcome</startElementReference>
+    <status>Draft</status>
+</Flow>

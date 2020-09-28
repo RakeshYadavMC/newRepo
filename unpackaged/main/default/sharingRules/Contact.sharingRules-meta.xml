@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?><SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Contact_Access_to_GBS_Group</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Contact Access to GBS Group</label>
+        <sharedTo>
+            <group>GBS_Employees_All</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Email</field>
+            <operation>notEqual</operation>
+            <value>NULL</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingOwnerRules>
+        <fullName>BSM_Contacts</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>BSM Contacts</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Beam_Suntory_Mexico</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>Beam_Suntory_Mexico</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>BSM_Coupon_Contacts</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>BSM Coupon Contacts</label>
+        <sharedTo>
+            <group>BSM_Site_Guest_User</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Beam_Suntory_Mexico</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>ContactReadOnly</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Contact Read Only</label>
+        <sharedTo>
+            <group>sales360AllUsers</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>Application_Admin</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

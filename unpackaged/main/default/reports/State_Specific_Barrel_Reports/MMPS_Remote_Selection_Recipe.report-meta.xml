@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Case$CaseNumber</field>
+    </columns>
+    <columns>
+        <field>Case$Barrel_Selected_Date__c</field>
+    </columns>
+    <columns>
+        <field>Case$Bottle_Text_Entered__c</field>
+    </columns>
+    <columns>
+        <field>Case.Barrels__r$Barrel_Recipe__c</field>
+    </columns>
+    <columns>
+        <field>Case.Barrels__r$State__c</field>
+    </columns>
+    <columns>
+        <field>Case$Account</field>
+    </columns>
+    <columns>
+        <field>Case$Retail_Account__c</field>
+    </columns>
+    <columns>
+        <field>Case$Submitter__c</field>
+    </columns>
+    <columns>
+        <field>Case.Barrels__r$Name</field>
+    </columns>
+    <currency>USD</currency>
+    <description>MMPS Remote Selection Barrels with barrel selected yesterday - advises the barrel recipe selected. Sent to Jacklyn Evans, Kayla Cambron, and Kristi Marski daily.</description>
+    <filter>
+        <criteriaItems>
+            <column>Case$RecordType</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Case.Single_Barrel_Proof_Specific,Case.Single_Barrel_Split_Barrel,Case.Single_Barrel_Standard</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case$Status</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Closed,Closed - Abandoned,Canceled</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case$Brand__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Maker&apos;s Mark,Makers Mark</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case$Type</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Remote Selection</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>MMPS Remote Selection Stave Combos</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Cases_with_Barrels__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Case$Barrel_Selected_Date__c</dateColumn>
+        <interval>INTERVAL_YESTERDAY</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,1201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>Categoría Secundaria</label>
+        <name>Category_2__c</name>
+        <picklistValues>
+            <masterLabel>2017 Open Enrollment</masterLabel>
+            <translation><!-- 2017 Open Enrollment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>401k</masterLabel>
+            <translation><!-- 401k --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ADP ESS inquires</masterLabel>
+            <translation><!-- ADP ESS inquires --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Accrual/reclassification</masterLabel>
+            <translation>Provisión/ Reclasificación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Add Output</masterLabel>
+            <translation><!-- Add Output --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Addition</masterLabel>
+            <translation><!-- Addition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Address Change(s)</masterLabel>
+            <translation><!-- Address Change(s) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Adjustment PD</masterLabel>
+            <translation><!-- Adjustment PD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asset Tagging</masterLabel>
+            <translation><!-- Asset Tagging --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Assets Forecast</masterLabel>
+            <translation><!-- Assets Forecast --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Audit</masterLabel>
+            <translation><!-- Audit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Audits</masterLabel>
+            <translation><!-- Audits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Awards</masterLabel>
+            <translation><!-- Awards --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOMs</masterLabel>
+            <translation><!-- BOMs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Background/Screenings</masterLabel>
+            <translation><!-- Background/Screenings --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bailment Inventory</masterLabel>
+            <translation><!-- Bailment Inventory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bailment inventory reporting</masterLabel>
+            <translation><!-- Bailment inventory reporting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Barrel Invoice Correction</masterLabel>
+            <translation><!-- Barrel Invoice Correction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Billing Posting - OTC</masterLabel>
+            <translation><!-- Billing Posting - OTC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bonuses</masterLabel>
+            <translation><!-- Bonuses --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brand ambassador</masterLabel>
+            <translation>Embajador de Marca</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bulk Invoice Correction</masterLabel>
+            <translation><!-- Bulk Invoice Correction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA PTO Notifications</masterLabel>
+            <translation><!-- CA PTO Notifications --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COBRA</masterLabel>
+            <translation><!-- COBRA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancel Invoice</masterLabel>
+            <translation><!-- Cancel Invoice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Candidate Phone Screen</masterLabel>
+            <translation><!-- Candidate Phone Screen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cannot print invoice/manual invoice creation</masterLabel>
+            <translation>No se puede imprimir la factura/ Creacion manual de la factura</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Card approval status</masterLabel>
+            <translation>Estado de aprobación para tarjeta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Goods Invoice Correction</masterLabel>
+            <translation><!-- Case Goods Invoice Correction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change</masterLabel>
+            <translation><!-- Change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change in credit limit</masterLabel>
+            <translation>Modificación de limite de crédito</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change in fixed asset location</masterLabel>
+            <translation>Cambio de ubicación de activos fijos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Collections (Former Employees)</masterLabel>
+            <translation><!-- Collections (Former Employees) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commissions</masterLabel>
+            <translation><!-- Commissions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commuter Benefits</masterLabel>
+            <translation><!-- Commuter Benefits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Company correspondence</masterLabel>
+            <translation><!-- Company correspondence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complex Invoice Posting</masterLabel>
+            <translation><!-- Complex Invoice Posting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Connection</masterLabel>
+            <translation><!-- Connection --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cost Center Change</masterLabel>
+            <translation><!-- Cost Center Change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cost Center Create</masterLabel>
+            <translation><!-- Cost Center Create --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cost Centers</masterLabel>
+            <translation><!-- Cost Centers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cost center data</masterLabel>
+            <translation>Actualización de centro de costo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Create</masterLabel>
+            <translation><!-- Create --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Create Credit</masterLabel>
+            <translation><!-- Create Credit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Create Credit + Debit</masterLabel>
+            <translation><!-- Create Credit + Debit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Create Debit</masterLabel>
+            <translation><!-- Create Debit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Create Manual Invoice</masterLabel>
+            <translation><!-- Create Manual Invoice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Create new profile</masterLabel>
+            <translation>Crear perfil nuevo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cruzan Ambassador</masterLabel>
+            <translation><!-- Cruzan Ambassador --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Hierarchy Maintenance</masterLabel>
+            <translation><!-- Customer Hierarchy Maintenance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Master Maintenance</masterLabel>
+            <translation><!-- Customer Master Maintenance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D2D Transfer</masterLabel>
+            <translation><!-- D2D Transfer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Death Claims</masterLabel>
+            <translation><!-- Death Claims --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deduction adjustments</masterLabel>
+            <translation><!-- Deduction adjustments --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deduction/Imputed Income</masterLabel>
+            <translation><!-- Deduction/Imputed Income --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deductions</masterLabel>
+            <translation>Deducciones</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deductions inquiries</masterLabel>
+            <translation>Pregunta sobre deducciones</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delimit position(s)</masterLabel>
+            <translation><!-- Delimit position(s) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dental</masterLabel>
+            <translation><!-- Dental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dependent Care Flexible Spending (FSA)</masterLabel>
+            <translation><!-- Dependent Care Flexible Spending (FSA) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Destruction Requests</masterLabel>
+            <translation><!-- Destruction Requests --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Destruction request</masterLabel>
+            <translation>Solicitud de Destruccion</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Direct Deposit inquires</masterLabel>
+            <translation><!-- Direct Deposit inquires --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Direct debits</masterLabel>
+            <translation>Débitos directos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Direct deposits</masterLabel>
+            <translation><!-- Direct deposits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disability, parental or FMLA leave</masterLabel>
+            <translation><!-- Disability, parental or FMLA leave --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disposal</masterLabel>
+            <translation><!-- Disposal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disposal/impairment</masterLabel>
+            <translation>Eliminación / Deterioro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Domestic Relocation</masterLabel>
+            <translation><!-- Domestic Relocation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Drug screen/background check</masterLabel>
+            <translation><!-- Drug screen/background check --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Duplicate Request</masterLabel>
+            <translation><!-- Duplicate Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E-mail</masterLabel>
+            <translation><!-- E-mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EDI</masterLabel>
+            <translation><!-- EDI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EDI Failure Notification</masterLabel>
+            <translation><!-- EDI Failure Notification --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EDW Mapping Maintenance</masterLabel>
+            <translation><!-- EDW Mapping Maintenance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Earnings inquiries</masterLabel>
+            <translation>Pregunta sobre ingresos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee information</masterLabel>
+            <translation>Información de Empleado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee self-service (ESS)</masterLabel>
+            <translation>Autoayuda para empleado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employment Verifications</masterLabel>
+            <translation><!-- Employment Verifications --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Etime</masterLabel>
+            <translation><!-- Etime --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Executive</masterLabel>
+            <translation><!-- Executive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Executive Pay Changes</masterLabel>
+            <translation><!-- Executive Pay Changes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Executive Reimbursement</masterLabel>
+            <translation><!-- Executive Reimbursement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exit notifications</masterLabel>
+            <translation><!-- Exit notifications --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expense report</masterLabel>
+            <translation>Reporte de gastos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>External audit</masterLabel>
+            <translation>Auditoria externa</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FMLA</masterLabel>
+            <translation><!-- FMLA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Family Status Change</masterLabel>
+            <translation><!-- Family Status Change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Filing</masterLabel>
+            <translation><!-- Filing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial Invoice Request</masterLabel>
+            <translation>Solicitud de Factura Financiera</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fixed Assets</masterLabel>
+            <translation><!-- Fixed Assets --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fixed asset queries</masterLabel>
+            <translation>Otra Solicitud de Activos Fijos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fixed asset reporting</masterLabel>
+            <translation><!-- Fixed asset reporting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fleet vehicles</masterLabel>
+            <translation>Parque vehicular</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Food and Gas Cards</masterLabel>
+            <translation>Tarjetas de Gas/Comida/Despensa</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Formulas</masterLabel>
+            <translation><!-- Formulas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G/L Upload Mapping</masterLabel>
+            <translation><!-- G/L Upload Mapping --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GL Account Change/Extend</masterLabel>
+            <translation><!-- GL Account Change/Extend --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GL Account Create</masterLabel>
+            <translation><!-- GL Account Create --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GL Info</masterLabel>
+            <translation><!-- GL Info --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Garnishments</masterLabel>
+            <translation><!-- Garnishments --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General Inquiries</masterLabel>
+            <translation><!-- General Inquiries --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General Inquiry</masterLabel>
+            <translation><!-- General Inquiry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General Questions</masterLabel>
+            <translation><!-- General Questions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General ledger data</masterLabel>
+            <translation>Actualizacion GL/SAP</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gift Cards</masterLabel>
+            <translation><!-- Gift Cards --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global Relocation</masterLabel>
+            <translation><!-- Global Relocation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global mobility</masterLabel>
+            <translation>Movilidad Global</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Goal / development plan</masterLabel>
+            <translation><!-- Goal / development plan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Goal/Development</masterLabel>
+            <translation><!-- Goal/Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Goal/Development Planning</masterLabel>
+            <translation><!-- Goal/Development Planning --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR Interface</masterLabel>
+            <translation><!-- HR Interface --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR Other</masterLabel>
+            <translation><!-- HR Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HSA, FSA or commuter account</masterLabel>
+            <translation><!-- HSA, FSA or commuter account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Health Care Flexible Spending (FSA)</masterLabel>
+            <translation><!-- Health Care Flexible Spending (FSA) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Health Savings Account (HSA)</masterLabel>
+            <translation><!-- Health Savings Account (HSA) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I9 Inquiries</masterLabel>
+            <translation><!-- I9 Inquiries --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Income verification</masterLabel>
+            <translation>Verificación de ingreso</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Informational</masterLabel>
+            <translation><!-- Informational --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inquiries</masterLabel>
+            <translation><!-- Inquiries --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal audit</masterLabel>
+            <translation>Auditoria interna</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal order/WBS data</masterLabel>
+            <translation>Otros</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice Posting - PTP</masterLabel>
+            <translation><!-- Invoice Posting - PTP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice Status</masterLabel>
+            <translation>Estatus de factura</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice cancellation</masterLabel>
+            <translation>Cancelacion de Factura</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoices</masterLabel>
+            <translation><!-- Invoices --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Job Change</masterLabel>
+            <translation><!-- Job Change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Job Posting Inquiry</masterLabel>
+            <translation><!-- Job Posting Inquiry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Job requisition</masterLabel>
+            <translation><!-- Job requisition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Journal Entry</masterLabel>
+            <translation><!-- Journal Entry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Journal Entry Posting</masterLabel>
+            <translation><!-- Journal Entry Posting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Journal entry queries</masterLabel>
+            <translation>Otra solicitud de entrada de diario</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Journal entry upload</masterLabel>
+            <translation>Registro contable</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Journal entry-related inquiries</masterLabel>
+            <translation>Registros-Consultas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Late instruction request</masterLabel>
+            <translation>Solicitud tardia de instrucción</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leave of absence</masterLabel>
+            <translation><!-- Leave of absence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Life Insurance</masterLabel>
+            <translation><!-- Life Insurance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Long Term Disability</masterLabel>
+            <translation><!-- Long Term Disability --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lucernex access request</masterLabel>
+            <translation>Lucernex solicitud de acceso</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manual claim</masterLabel>
+            <translation>Reclamo manual</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Master Data</masterLabel>
+            <translation><!-- Master Data --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Material Change</masterLabel>
+            <translation><!-- Material Change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Material Create</masterLabel>
+            <translation><!-- Material Create --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Material Extension</masterLabel>
+            <translation><!-- Material Extension --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medical</masterLabel>
+            <translation><!-- Medical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medical, dental, vision or life insurance</masterLabel>
+            <translation><!-- Medical, dental, vision or life insurance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Miscellaneous</masterLabel>
+            <translation><!-- Miscellaneous --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Miscellaneous/Other</masterLabel>
+            <translation><!-- Miscellaneous/Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly payroll queries</masterLabel>
+            <translation>Consultas mensuales de nómina</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC Billing Orders</masterLabel>
+            <translation><!-- NC Billing Orders --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC Billing Upload</masterLabel>
+            <translation><!-- NC Billing Upload --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Hire Notification Revisions</masterLabel>
+            <translation><!-- New Hire Notification Revisions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Job Requisition</masterLabel>
+            <translation><!-- New Job Requisition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Pulldown</masterLabel>
+            <translation><!-- New Pulldown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New hire notification changes</masterLabel>
+            <translation><!-- New hire notification changes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New hire notifications</masterLabel>
+            <translation><!-- New hire notifications --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Notice of Relocation</masterLabel>
+            <translation><!-- Notice of Relocation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Off-cycle request</masterLabel>
+            <translation>Solicitud fuera de periodo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Offer Accepted</masterLabel>
+            <translation><!-- Offer Accepted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Offer Letter (External)</masterLabel>
+            <translation><!-- Offer Letter (External) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Offer Letter (Internal)</masterLabel>
+            <translation><!-- Offer Letter (Internal) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Offer accepted / Initiate onboarding</masterLabel>
+            <translation><!-- Offer accepted / Initiate onboarding --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Offer letter</masterLabel>
+            <translation><!-- Offer letter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Boarding Inquiry</masterLabel>
+            <translation><!-- On Boarding Inquiry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open Enrollment</masterLabel>
+            <translation><!-- Open Enrollment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other - bailment inventory</masterLabel>
+            <translation><!-- Other - bailment inventory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Benefits</masterLabel>
+            <translation><!-- Other Benefits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Concur inquiry</masterLabel>
+            <translation>Otras consultas de CONCUR</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other audit request</masterLabel>
+            <translation>Otro solicitud de auditoria</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other bailment request</masterLabel>
+            <translation>Otra solicitud de Fianza</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other credit card requests</masterLabel>
+            <translation>Otras solicitudes de tarjeta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other employee data change</masterLabel>
+            <translation><!-- Other employee data change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other employee requests</masterLabel>
+            <translation>Otro tipo de preguntas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other lease inquiries</masterLabel>
+            <translation>Otras Consultas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other partner request</masterLabel>
+            <translation>Otro tipo de solicitud</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other vendor requests</masterLabel>
+            <translation>Otras solicitudes de proveedor</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other – Audit request</masterLabel>
+            <translation><!-- Other – Audit request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other – Fixed asset</masterLabel>
+            <translation><!-- Other – Fixed asset --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PI Inquiries</masterLabel>
+            <translation><!-- PI Inquiries --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PI Request</masterLabel>
+            <translation><!-- PI Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PO Status</masterLabel>
+            <translation>Solicitud de estatus</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PR Status</masterLabel>
+            <translation>Solicitud de estatus</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PTO</masterLabel>
+            <translation><!-- PTO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PTO Payouts</masterLabel>
+            <translation><!-- PTO Payouts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parental Leave</masterLabel>
+            <translation><!-- Parental Leave --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pay Change</masterLabel>
+            <translation><!-- Pay Change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pay Changes Report</masterLabel>
+            <translation><!-- Pay Changes Report --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pay/earnings inquiry</masterLabel>
+            <translation>Pregunta sobre pagos/sueldo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment Posting - PTP</masterLabel>
+            <translation><!-- Payment Posting - PTP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment requests</masterLabel>
+            <translation>Pregunta sobre pagos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment status</masterLabel>
+            <translation>Estatus de pago</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payroll Card Support</masterLabel>
+            <translation>Tarjetas Vales/Comida/Gas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payroll GL Accounting</masterLabel>
+            <translation><!-- Payroll GL Accounting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payroll GL accounting reports</masterLabel>
+            <translation><!-- Payroll GL accounting reports --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payroll Processing Paperwork</masterLabel>
+            <translation><!-- Payroll Processing Paperwork --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payroll Systems</masterLabel>
+            <translation>Sistemas de pago</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payroll questions</masterLabel>
+            <translation><!-- Payroll questions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pension Plan</masterLabel>
+            <translation>Plan de Pension</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Performance review</masterLabel>
+            <translation><!-- Performance review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personal Information Change</masterLabel>
+            <translation><!-- Personal Information Change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Physical Asset Breakdown (PAB)</masterLabel>
+            <translation>Desglose de activos físicos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portfolio management</masterLabel>
+            <translation>Administración de Expediente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Position Management</masterLabel>
+            <translation><!-- Position Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Post Goods Issue (PGI)</masterLabel>
+            <translation><!-- Post Goods Issue (PGI) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Predictive Index (PI) requests</masterLabel>
+            <translation><!-- Predictive Index (PI) requests --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price Master Maintenance</masterLabel>
+            <translation><!-- Price Master Maintenance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Hierarchy Maintenance</masterLabel>
+            <translation><!-- Product Hierarchy Maintenance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Knowledge Reimbursements</masterLabel>
+            <translation><!-- Product Knowledge Reimbursements --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Progressions, promotions and compensation</masterLabel>
+            <translation><!-- Progressions, promotions and compensation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Project Number/IO</masterLabel>
+            <translation><!-- Project Number/IO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RSU</masterLabel>
+            <translation><!-- RSU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rebate claim (Online)</masterLabel>
+            <translation>Reclamo de reembolso (en línea)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rebates</masterLabel>
+            <translation><!-- Rebates --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reference</masterLabel>
+            <translation><!-- Reference --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reference Checks</masterLabel>
+            <translation><!-- Reference Checks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Referrals</masterLabel>
+            <translation><!-- Referrals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reimbursements</masterLabel>
+            <translation>Reembolsos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reinstate credit card</masterLabel>
+            <translation>Desbloqueo de tarjeta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reissue credit card</masterLabel>
+            <translation>Reposición de tarjeta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Relocation</masterLabel>
+            <translation>Reubicación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Removal PD</masterLabel>
+            <translation><!-- Removal PD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repack Requests</masterLabel>
+            <translation><!-- Repack Requests --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repack request</masterLabel>
+            <translation>Solicitud de Reempaque</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Report</masterLabel>
+            <translation><!-- Report --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Report Request</masterLabel>
+            <translation>Solicitud de reporte</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Report Requests</masterLabel>
+            <translation>Solicitud de reporte</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Report a system issue</masterLabel>
+            <translation><!-- Report a system issue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Report dispute/discrepancy</masterLabel>
+            <translation>Informar disputa / discrepancia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reporting</masterLabel>
+            <translation><!-- Reporting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reporting structure change</masterLabel>
+            <translation><!-- Reporting structure change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reports</masterLabel>
+            <translation><!-- Reports --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reprint Invoice</masterLabel>
+            <translation><!-- Reprint Invoice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reprint existing invoice</masterLabel>
+            <translation>Reimprimir la factura existente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Request</masterLabel>
+            <translation>Solicitud</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Request credit card</masterLabel>
+            <translation>Solicitar tarjeta corporativa</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Requires Service Desk Ticket</masterLabel>
+            <translation><!-- Requires Service Desk Ticket --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Research</masterLabel>
+            <translation><!-- Research --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resend Automatic Invoice</masterLabel>
+            <translation>Reenvio automatico de Factura</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reset password</masterLabel>
+            <translation>Resetear password</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resignation / termination</masterLabel>
+            <translation><!-- Resignation / termination --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resume or application submission</masterLabel>
+            <translation><!-- Resume or application submission --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resume/Application Submission</masterLabel>
+            <translation><!-- Resume/Application Submission --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retiree Medical</masterLabel>
+            <translation><!-- Retiree Medical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retirement</masterLabel>
+            <translation><!-- Retirement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retirement/Pension</masterLabel>
+            <translation><!-- Retirement/Pension --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return</masterLabel>
+            <translation><!-- Return --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return to Work Physicals</masterLabel>
+            <translation><!-- Return to Work Physicals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Review</masterLabel>
+            <translation><!-- Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reviews</masterLabel>
+            <translation><!-- Reviews --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAP Changes</masterLabel>
+            <translation><!-- SAP Changes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Safety Shoes</masterLabel>
+            <translation><!-- Safety Shoes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salaried</masterLabel>
+            <translation><!-- Salaried --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Severance Draft</masterLabel>
+            <translation><!-- Severance Draft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Severance Final Documentation</masterLabel>
+            <translation><!-- Severance Final Documentation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Severance Memo</masterLabel>
+            <translation><!-- Severance Memo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ship Compliant</masterLabel>
+            <translation><!-- Ship Compliant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Short Term Disability</masterLabel>
+            <translation><!-- Short Term Disability --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sign on bonuses</masterLabel>
+            <translation><!-- Sign on bonuses --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Special Projects</masterLabel>
+            <translation><!-- Special Projects --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Status</masterLabel>
+            <translation><!-- Status --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Status request</masterLabel>
+            <translation>Solicitud de status</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stock Options</masterLabel>
+            <translation><!-- Stock Options --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supporting documentation request</masterLabel>
+            <translation>Solicitud de documentación de apoyo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TPM</masterLabel>
+            <translation><!-- TPM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Taste Panel</masterLabel>
+            <translation><!-- Taste Panel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tax</masterLabel>
+            <translation><!-- Tax --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tax Inquiries</masterLabel>
+            <translation>Preguntas sobre impuestos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tax Notifications</masterLabel>
+            <translation><!-- Tax Notifications --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tax Related</masterLabel>
+            <translation><!-- Tax Related --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tax authority</masterLabel>
+            <translation>Impuestos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tax inquiries/W2 form requests</masterLabel>
+            <translation>Pregunta sobre impuestos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Taxi</masterLabel>
+            <translation><!-- Taxi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Termination/Retirement</masterLabel>
+            <translation><!-- Termination/Retirement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Time and attendance</masterLabel>
+            <translation>Horario y asistencia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transfers</masterLabel>
+            <translation><!-- Transfers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tuition Application</masterLabel>
+            <translation><!-- Tuition Application --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tuition Reimbursement Application</masterLabel>
+            <translation><!-- Tuition Reimbursement Application --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tuition reimbursement</masterLabel>
+            <translation>Reembolso de matricula</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UFCW</masterLabel>
+            <translation><!-- UFCW --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UPS Shipments Status</masterLabel>
+            <translation><!-- UPS Shipments Status --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Bank</masterLabel>
+            <translation><!-- US Bank --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unemployment Claims</masterLabel>
+            <translation><!-- Unemployment Claims --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Union</masterLabel>
+            <translation><!-- Union --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Union Benefits</masterLabel>
+            <translation><!-- Union Benefits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>United Way Info</masterLabel>
+            <translation><!-- United Way Info --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Update profile</masterLabel>
+            <translation>Editar/actualizar perfil</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Update/change</masterLabel>
+            <translation><!-- Update/change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Update/change request</masterLabel>
+            <translation>Cambiar solicitud</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vendor Master Maintenance</masterLabel>
+            <translation><!-- Vendor Master Maintenance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Verification of employment</masterLabel>
+            <translation><!-- Verification of employment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Visa/Work Authorization</masterLabel>
+            <translation><!-- Visa/Work Authorization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vision</masterLabel>
+            <translation><!-- Vision --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>W2 Requests</masterLabel>
+            <translation><!-- W2 Requests --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>W2's</masterLabel>
+            <translation><!-- W2&apos;s --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Winshuttle/Termination Notices</masterLabel>
+            <translation><!-- Winshuttle/Termination Notices --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wires</masterLabel>
+            <translation><!-- Wires --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Workers Compensation</masterLabel>
+            <translation><!-- Workers Compensation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Workers compensation audit</masterLabel>
+            <translation>Auditoria de compensación</translation>
+        </picklistValues>
+    </CustomFieldTranslation>

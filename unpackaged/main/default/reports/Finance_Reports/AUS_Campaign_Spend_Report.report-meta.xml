@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Campaign__c$Name</field>
+    </columns>
+    <columns>
+        <field>Campaign__c$WBSCode__c</field>
+    </columns>
+    <columns>
+        <field>Campaign__c$GLAccountType__c</field>
+    </columns>
+    <columns>
+        <field>Campaign__c$GLCode__c</field>
+    </columns>
+    <columns>
+        <field>Campaign__c$PlannedCampaignSpend__c.CONVERT</field>
+    </columns>
+    <columns>
+        <field>Campaign__c$CommittedCampaignSpend__c.CONVERT</field>
+    </columns>
+    <columns>
+        <field>Campaign__c$ActualCampaignSpend__c.CONVERT</field>
+    </columns>
+    <columns>
+        <field>Campaign__c$Campaign_Balance_Budget_Actuals__c.CONVERT</field>
+    </columns>
+    <currency>AUD</currency>
+    <description>AUS only</description>
+    <filter>
+        <criteriaItems>
+            <column>Campaign__c$Country__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>AUS</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>AUS Campaign Spend Report</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Campaigns_with_or_without_Campaign_Spend__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Campaign__c$CreatedDate</dateColumn>
+        <interval>INTERVAL_CURRENT</interval>
+    </timeFrameFilter>
+</Report>

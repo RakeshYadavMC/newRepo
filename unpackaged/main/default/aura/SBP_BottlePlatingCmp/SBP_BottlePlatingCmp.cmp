@@ -57,6 +57,8 @@
 	<aura:attribute name="citystateText" type="String"/>
     <aura:attribute name="remainingcityStateCharacters" type="Integer" default="40" />
 
+    <aura:attribute name="premiseType" type="String" />
+
     <aura:attribute name="characterLimitMap" type="Map" default="{
     	'Makers Mark' : 40,
     	'Knob Creek' : 41,
@@ -144,7 +146,7 @@
                         <div class="slds-grid slds-wrap" >
                            
                             <div class="slds-grid slds-col slds-wrap slds-float_middle slds-transition-show ">
-                                <output value="{!v.labelText}" class="slds-col slds-size_1-of-1 makers_mark_output_text standard-font" aura:id="knob_creek_label" style="width:100%; bottom:-50px"/>
+                                  <output value="{!v.labelText}" class="slds-col slds-size_1-of-1 makers_mark_output_text standard-font" aura:id="knob_creek_label" style="width:100%; bottom:-50px"/>
                                 	<img src="{!v.bottleLabelImage}" class=""/>
                             </div>
                         </div>
@@ -290,7 +292,7 @@
                     <div class="slds-col slds-align_absolute-center slds-size_5-of-12 slds-p-left_large">
                         <div class="slds-grid slds-wrap">
                             <!-- style="width:216px;height:57.6px" -->
-                            <output value="{!v.labelText}" style="z-index:30;bottom:-80px;padding-left:10px;padding-right:10px" class="slds-col slds-size_1-of-1 makers_mark_output_text standard-font" aura:id="el_tesoro_label" />
+                            <output value="{!v.labelText}" style="z-index:30;bottom:-80px;padding-left:10px;padding-right:10px;" class="slds-col slds-size_1-of-1 makers_mark_output_text standard-font" aura:id="el_tesoro_label" />
                             <img src="{!v.bottleLabelImage}" class="" style="z-index:10" />
 
                         </div>

@@ -20,6 +20,7 @@
 
     <aura:attribute name="retailAccountCity" type="string"/> <!-- Added by Mahesh -->
     <aura:attribute name="retailAccountState" type="string"/> <!-- Added by Mahesh -->
+    <aura:attribute name="AvailableForSingleBarrel" type="Boolean" default="false"/>
 
     <!--declare events hendlers-->
     <aura:handler name="oSelectedRecordEvent" event="c:selectedsObjectRecordEvent" action="{!c.handleComponentEvent}" />

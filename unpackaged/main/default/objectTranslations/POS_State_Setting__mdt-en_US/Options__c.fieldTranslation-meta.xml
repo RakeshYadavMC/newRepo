@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Options --></label>
+        <name>Options__c</name>
+        <picklistValues>
+            <masterLabel>Include;Don't Include</masterLabel>
+            <translation><!-- Include;Don&apos;t Include --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Include;Don't Include;Insert Only</masterLabel>
+            <translation><!-- Include;Don&apos;t Include;Insert Only --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

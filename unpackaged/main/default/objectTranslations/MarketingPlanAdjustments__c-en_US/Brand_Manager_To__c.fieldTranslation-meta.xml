@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Brand Manager To --></label>
+        <name>Brand_Manager_To__c</name>
+        <relationshipLabel><!-- Marketing Plan Transfers (Brand Manager To) --></relationshipLabel>
+    </CustomFieldTranslation>

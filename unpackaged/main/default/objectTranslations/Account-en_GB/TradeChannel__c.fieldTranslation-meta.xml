@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Trade Channel --></label>
+        <name>TradeChannel__c</name>
+        <picklistValues>
+            <masterLabel>Casinos</masterLabel>
+            <translation><!-- Casinos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Casual &amp; Theme Dining</masterLabel>
+            <translation><!-- Casual &amp; Theme Dining --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Casual Bar &amp; Dining</masterLabel>
+            <translation><!-- Casual Bar &amp; Dining --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Casual Bars &amp; Nightclubs</masterLabel>
+            <translation><!-- Casual Bars &amp; Nightclubs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Caterer</masterLabel>
+            <translation><!-- Caterer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Club &amp; Warehouse Stores</masterLabel>
+            <translation><!-- Club &amp; Warehouse Stores --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Convenience Store</masterLabel>
+            <translation><!-- Convenience Store --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dining</masterLabel>
+            <translation><!-- Dining --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Drug Stores</masterLabel>
+            <translation><!-- Drug Stores --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fine Dining</masterLabel>
+            <translation><!-- Fine Dining --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Golf &amp; Yacht</masterLabel>
+            <translation><!-- Golf &amp; Yacht --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grocery</masterLabel>
+            <translation><!-- Grocery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grocery, Mass Merchandised, Club &amp; Drug</masterLabel>
+            <translation><!-- Grocery, Mass Merchandised, Club &amp; Drug --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invalid</masterLabel>
+            <translation><!-- Invalid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Large Format Liquor</masterLabel>
+            <translation><!-- Large Format Liquor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Liquor</masterLabel>
+            <translation><!-- Liquor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lodging</masterLabel>
+            <translation><!-- Lodging --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Luxury Accounts</masterLabel>
+            <translation><!-- Luxury Accounts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Off-Premise</masterLabel>
+            <translation><!-- Other Off-Premise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other On-Premise</masterLabel>
+            <translation><!-- Other On-Premise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Premium Bars &amp; Nightclubs</masterLabel>
+            <translation><!-- Premium Bars &amp; Nightclubs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small Format, Convenience, Urban</masterLabel>
+            <translation><!-- Small Format, Convenience, Urban --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Social, Fraternal &amp; Veteran Clubs</masterLabel>
+            <translation><!-- Social, Fraternal &amp; Veteran Clubs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stadium, Theater, Theme Park</masterLabel>
+            <translation><!-- Stadium, Theater, Theme Park --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>To Be Determined</masterLabel>
+            <translation><!-- To Be Determined --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transportation</masterLabel>
+            <translation><!-- Transportation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unassigned Off-Premise</masterLabel>
+            <translation><!-- Unassigned Off-Premise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unassigned On-Premise</masterLabel>
+            <translation><!-- Unassigned On-Premise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

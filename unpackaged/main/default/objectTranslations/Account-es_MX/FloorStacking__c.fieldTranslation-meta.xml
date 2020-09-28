@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>¿Se permite estibar a nivel de piso?</help>
+        <label>Estiba a nivel de piso</label>
+        <name>FloorStacking__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation>Si</translation>
+        </picklistValues>
+    </CustomFieldTranslation>

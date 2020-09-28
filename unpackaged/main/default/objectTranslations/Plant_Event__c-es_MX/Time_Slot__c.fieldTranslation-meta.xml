@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Time Slot --></label>
+        <name>Time_Slot__c</name>
+        <picklistValues>
+            <masterLabel>12:00 PM</masterLabel>
+            <translation><!-- 12:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cellar - 12 PM</masterLabel>
+            <translation><!-- Cellar - 12 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cellar - 9 AM</masterLabel>
+            <translation><!-- Cellar - 9 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lake - 12.30 PM</masterLabel>
+            <translation><!-- Lake - 12.30 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lake - 9.30 AM</masterLabel>
+            <translation><!-- Lake - 9.30 AM --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Making it mark won&apos;t allow it&apos;s children to have allocations --></help>
+        <label><!-- Is Leaf Node --></label>
+        <name>Is_Leaf_Node__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DelegateGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <groups>All Admin Marketing Users</groups>
+    <groups>All Non-Admin Marketing Users</groups>
+    <groups>sales360 All Users</groups>
+    <groups>GBS Employees - All</groups>
+    <groups>GBS Employees - All but HR/PR</groups>
+    <groups>GBS Employees - HR Only</groups>
+    <groups>CS Employees</groups>
+    <label>ServiceDesk Support</label>
+    <loginAccess>false</loginAccess>
+    <permissionSets>ManageIntegrations</permissionSets>
+    <permissionSets>Analyst and COMs Transfer Account Records Permission Set</permissionSets>
+    <permissionSets>CS Community Users</permissionSets>
+    <permissionSets>Company Community for Force.com</permissionSets>
+    <profiles>BSMX On Premise Exec</profiles>
+    <profiles>BSMX On Premise Manager</profiles>
+    <profiles>BSMX Off Premise KAM</profiles>
+    <profiles>BSMX Trade Marketing &amp; Finance</profiles>
+    <profiles>BSMX Off Premise Manager</profiles>
+    <profiles>Brand Manager - Platform</profiles>
+    <profiles>CBT Finance - Platform</profiles>
+    <profiles>Field Marketing Manager - Platform</profiles>
+    <profiles>Field Marketing Analyst - Platform</profiles>
+    <profiles>Field Marketing Director - Platform</profiles>
+    <profiles>National Account Analyst - Platform</profiles>
+    <profiles>National Account Manager - Platform</profiles>
+    <profiles>National Marketing Analyst - Platform</profiles>
+    <profiles>Application Admin - Platform</profiles>
+    <profiles>Activation Manager</profiles>
+    <profiles>Advocacy</profiles>
+    <profiles>Operations, Admins and Reps</profiles>
+    <profiles>Sales Strategy</profiles>
+    <profiles>Company Communities User - ServiceDesk</profiles>
+    <profiles>CS Coordinator</profiles>
+    <profiles>CS Management</profiles>
+    <profiles>GBS Management</profiles>
+    <profiles>Company Employee</profiles>
+    <profiles>Commercial Services Management</profiles>
+    <profiles>GBS Analyst</profiles>
+    <roles>GBS Director</roles>
+    <roles>ServiceDesk</roles>
+    <roles>Company Employee</roles>
+    <roles>Customer Service Sr. Director</roles>
+    <roles>GBS Director - North America</roles>
+    <roles>GBS GMDM Management - United States</roles>
+    <roles>GBS HR Management - United States</roles>
+    <roles>GBS OTC Billing Management - United States</roles>
+    <roles>GBS Payroll Management - United States</roles>
+    <roles>Commercial Services Management</roles>
+</DelegateGroup>

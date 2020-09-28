@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?><Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Set_Time_Interval_to_Inactive</fullName>
+        <field>isActive__c</field>
+        <literalValue>0</literalValue>
+        <name>Set Time Interval to Inactive</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <rules>
+        <fullName>Maker%27s Mark Date Hold Ended</fullName>
+        <active>true</active>
+        <criteriaItems>
+            <field>Time_Interval__c.Brand__c</field>
+            <operation>equals</operation>
+            <value>Makers Mark</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Time_Interval__c.isActive__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Set_Time_Interval_to_Inactive</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>Time_Interval__c.CreatedDate</offsetFromField>
+            <timeLength>14</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Time Interval Ended</fullName>
+        <active>true</active>
+        <criteriaItems>
+            <field>Time_Interval__c.Brand__c</field>
+            <operation>equals</operation>
+            <value>El Tesoro</value>
+        </criteriaItems>
+        <description>Once the end date of the interval is reached then the interval record will be set to inactive</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Set_Time_Interval_to_Inactive</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>Time_Interval__c.End_Date__c</offsetFromField>
+            <timeLength>1</timeLength>
+            <workflowTimeTriggerUnit>Hours</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+</Workflow>

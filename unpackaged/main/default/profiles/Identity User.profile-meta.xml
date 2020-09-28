@@ -167,6 +167,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.Available_for_Single_barrel__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Account.BillingAddress</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -423,6 +428,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Account_Application__c.Account_State__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account_Application__c.Diplomat_Partner_for_Your_Barrel__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3403,6 +3413,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>PartnerMarketingBudget.Description</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Plant_Event__c.Location_Of_Visit__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

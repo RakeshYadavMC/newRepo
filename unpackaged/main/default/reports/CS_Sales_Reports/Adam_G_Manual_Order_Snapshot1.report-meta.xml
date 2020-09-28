@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Case.Purchase_Orders__r$PO_Number__c</field>
+    </columns>
+    <columns>
+        <field>Case$CreatedDate</field>
+    </columns>
+    <columns>
+        <field>Case$Account</field>
+    </columns>
+    <columns>
+        <field>Case$Subject</field>
+    </columns>
+    <currency>USD</currency>
+    <filter>
+        <booleanFilter>(1 AND 2 AND 3 AND 4 AND (5 OR 6)) AND 7</booleanFilter>
+        <criteriaItems>
+            <column>Case$Status</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>DUP - No Action,Closed,Closed - Abandoned</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case$RecordType</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Case.Orders</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case$Owner</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>orders queue</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case$Type</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Barrel</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case$Account</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>BOARDWALK DISTRIBUTION COMPANY,CENTRAL LIQUOR CO,DASH WAREHOUSE,FIREWATER SUPPLY CO.,JARBOE SALES CO,LDF WINE AND SPIRITS,STERLING WINE &amp; SPIRITS,Stranger &amp; Ghost,REPUBLIC NATIONAL DISTRIBUTING COMP,NATIONAL DISTRIBUTING-SAVANNAH,GENERAL WHOLESALE,GENERAL WHOLESALE CO,GEORGIA CROWN-CENTRAL FACILITY,NATIONAL DISTRIBUTING-ALBANY,NATIONAL DISTRIBUTING-ATLANTA,SAVANNAH DISTRIBUTING,UNITED DISTRIBUTORS,MONTGOMERY COUNTY MD,MONTGOMERY COUNTY MD (LIQUOR ACCTG SECTION),ATHENS DISTRIBUTING CO - CHATTANOOG,ATHENS DISTRIBUTING CO OF TENNESSEE,ATHENS DISTRIBUTING CO - MEMPHIS,ATHENS DISTRIBUTING CO OF TENNESSEE (AKA SHELBY LIQUORS),ATHENS DISTRIBUTING CO,ATHENS DISTRIBUTING CO - NASHVILLE,BEST BRANDS INC,B &amp; T DISTRIBUTING CO. INC.,DELTA WHOLESALE LIQUORS,D &amp; V DISTRIBUTING CO.,HORIZON WINE &amp; SPIRITS NASHVILLE,KNOXVILLE BEVERAGE COMPANY,INC,KNOXVILLE BEVERAGE CO,WEST TENNESSEE CROWN DISTRIBUTING C,TENNESSEE WINE &amp; SPIRITS CO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case$Account</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>TRIPLE C DISTRIBUTING CO,UNITED LIQUORS CORP</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case$Submitted__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>1</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Adam G Manual Order Snapshot</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Cases_with_Purchase_Orders__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Case$CreatedDate</dateColumn>
+        <interval>INTERVAL_LAST7</interval>
+    </timeFrameFilter>
+</Report>

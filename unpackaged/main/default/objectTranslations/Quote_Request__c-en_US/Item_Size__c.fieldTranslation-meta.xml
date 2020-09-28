@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Item Size --></label>
+        <name>Item_Size__c</name>
+        <picklistValues>
+            <masterLabel>1.5L</masterLabel>
+            <translation><!-- 1.5L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1.75L</masterLabel>
+            <translation><!-- 1.75L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>100ML</masterLabel>
+            <translation><!-- 100ML --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1L</masterLabel>
+            <translation><!-- 1L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>200ML</masterLabel>
+            <translation><!-- 200ML --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>355ML</masterLabel>
+            <translation><!-- 355ML --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>375ML</masterLabel>
+            <translation><!-- 375ML --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50ML</masterLabel>
+            <translation><!-- 50ML --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>750ML</masterLabel>
+            <translation><!-- 750ML --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

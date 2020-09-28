@@ -53,10 +53,14 @@
     <aura:attribute name="NationalAccount" type="String" default="No" />
     
     <aura:attribute name="retailAccountCity" type="String" />  <!-- Added by Mahesh -->
-    <aura:attribute name="retailAccountState1" type="String" /> <!-- Added by Mahesh -->
+    <aura:attribute name="retailAccountState1" type="String" />  <!-- Added by Mahesh -->
+    <aura:attribute name="userRecord" type="sObject" default="{}" /> <!-- Added by Ajeeta -->
+    <aura:attribute name="userAssignId" type="String" />   <!-- Added by Ajeeta -->
+    
     
     <aura:handler name="change" action="{!c.onDistributorAccountChange}" value="{!v.distributorAccountRecord}" />
     <aura:handler name="change" action="{!c.onContactLookupChange}" value="{!v.distributorContactRecord}" />
+    <aura:handler name="change" action="{!c.onUserLookupChange}" value="{!v.userRecord}" />
     
     <lightning:notificationsLibrary aura:id="account_approval_prompt" />
     <!-- <lightning:spinner aura:id="account_approval_spinner" variant="brand" /> -->
@@ -72,7 +76,7 @@
     <aura:if isTrue="{!v.isProgramAvailable}">
         <aura:if isTrue="{!equals(v.currentUserCountry,'US')}">
             <!-- Added by Mahesh Starts-->
-           <p class="slds-text-heading_medium slds-align_absolute-center">
+            <p class="slds-text-heading_medium slds-align_absolute-center">
             <div class="slds-align_absolute-center">
                 <div class="slds-form-element slds-size_1-of-2">
                     <lightning:input class="" type="text" label="City" name="city" value="{!v.retailAccountCity}" aura:id="retailCity" required="false"></lightning:input>
@@ -86,7 +90,7 @@
             <p class="slds-text-heading_medium slds-align_absolute-center">Enter Account Name/TDLinx Number</p>
             <div class="slds-clearfix">
                 <div class="slds-form-element slds-size_3-of-8 slds-p-bottom_x-small slds-align_absolute-center">
-                    <c:CustomLookup aura:id="recordSearch" objectAPIName="account" IconName="standard:account" selectedRecord="{!v.accountRecord}" label="" methodToSearchWith="getPremiseRecordType" brand="{!v.brand}" retailAccountCity="{!v.retailAccountCity}" retailAccountState="{!v.retailAccountState1}"/> <!-- Added retailAccountCity & retailAccountState by Mahesh retailAccountCity="{!v.retailAccountCity}" retailAccountState="{!v.retailAccountState1}" -->
+                    <c:CustomLookup aura:id="recordSearch" objectAPIName="account" IconName="standard:account" selectedRecord="{!v.accountRecord}" label="" methodToSearchWith="getPremiseRecordType" brand="{!v.brand}" retailAccountCity="{!v.retailAccountCity}" retailAccountState="{!v.retailAccountState1}"/>
                 </div>
                 <div class="slds-align_absolute-center">
                     <div class="slds-form-element slds-size_1-of-3 slds-p-around_x-small">
@@ -99,6 +103,14 @@
                         <lightning:input class="" disabled="true" type="text" label="State" name="state" value="{!v.accountRecord.BillingState}" aura:id="state" required="false" ></lightning:input>
                     </div>
                 </div>
+                 <!--Added by ajeeta SR_178746 -->
+                <aura:if isTrue="{!equals(v.brand,'Makers Mark')}">
+                <div class="slds-grid slds-gutters">
+                    <div class="slds-col slds-size_1-of-2">
+                    <c:CustomLookup aura:id="userRecordSearch" objectAPIName="User" IconName="standard:user" selectedRecord="{!v.userRecord}" label="Please Select the Diplomat Partner for Your Barrel" methodToSearchWith="getUserRecord" required = "true" retailAccountState="{!v.accountRecord.State__c}"/>
+                </div>
+                    </div>
+                </aura:if>
             </div>
         </aura:if>  
         <aura:if isTrue="{!or(equals(v.brand,'Makers Mark'),equals(v.brand,'El Tesoro'))}">

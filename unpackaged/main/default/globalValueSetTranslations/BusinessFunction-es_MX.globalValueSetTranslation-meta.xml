@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>CS</masterLabel>
+        <translation>CS</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Default</masterLabel>
+        <translation>Por Defecto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GBS</masterLabel>
+        <translation>GBS</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

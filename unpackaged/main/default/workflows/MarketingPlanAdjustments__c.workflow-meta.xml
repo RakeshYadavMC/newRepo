@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?><Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Marketing_Plan_Transfer_Approval_Response</fullName>
+        <description>Marketing Plan Transfer Approval Response</description>
+        <protected>false</protected>
+        <recipients>
+            <type>creator</type>
+        </recipients>
+        <recipients>
+            <field>Receiving_Marketing_Plan_Owner_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Marketing_Plan_Transfer_Status</template>
+    </alerts>
+    <alerts>
+        <fullName>Marketing_Plan_Transfer_Approval_Response_for_Mexico</fullName>
+        <description>Marketing Plan Transfer Approval Response for Mexico</description>
+        <protected>false</protected>
+        <recipients>
+            <type>creator</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Marketing_Plan_Transfer_Status</template>
+    </alerts>
+    <alerts>
+        <fullName>Marketing_Plan_Transfer_Approval_Response_for_Mexico_US</fullName>
+        <description>Marketing Plan Transfer Approval Response for Mexico US</description>
+        <protected>false</protected>
+        <recipients>
+            <type>creator</type>
+        </recipients>
+        <recipients>
+            <field>Receiving_Marketing_Plan_Owner_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <recipients>
+            <field>Receiving_Marketing_Plan_Queue_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Marketing_Plan_Transfer_Status</template>
+    </alerts>
+    <alerts>
+        <fullName>Marketing_Plan_Transfer_Rejection_Response_for_Mexico</fullName>
+        <description>Marketing Plan Transfer Rejection Response for Mexico</description>
+        <protected>false</protected>
+        <recipients>
+            <type>creator</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Marketing_Plan_Transfer_Status</template>
+    </alerts>
+    <alerts>
+        <fullName>Marketing_Plan_Transfer_Rejection_Response_for_US</fullName>
+        <description>Marketing Plan Transfer Rejection Response for US</description>
+        <protected>false</protected>
+        <recipients>
+            <type>creator</type>
+        </recipients>
+        <recipients>
+            <field>Receiving_Marketing_Plan_Owner_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <recipients>
+            <field>Receiving_Marketing_Plan_Queue_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Marketing_Plan_Transfer_Status</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>SetEmailMPTransferReceipient</fullName>
+        <description>The formual entails receiving marketing plan record owner email.</description>
+        <field>Receiving_Marketing_Plan_Owner_Email__c</field>
+        <formula>ReceivingMarketingPlan__r.Owner:User.Email</formula>
+        <name>SetEmailMPTransferReceipient</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>SetReceivingMPTransferQueueEmail</fullName>
+        <description>This formula inserts the receiving marketing plan owner queue email.</description>
+        <field>Receiving_Marketing_Plan_Queue_Email__c</field>
+        <formula>ReceivingMarketingPlan__r.Owner:Queue.Email</formula>
+        <name>SetReceivingMPTransferQueueEmail</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Request_Status</fullName>
+        <description>Update Request Status to Pending</description>
+        <field>Request_Status__c</field>
+        <literalValue>Pending</literalValue>
+        <name>Update Request Status - Pending</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Request_Status_Approved</fullName>
+        <description>Update Request Status to Approved</description>
+        <field>Request_Status__c</field>
+        <literalValue>Approved</literalValue>
+        <name>Update Request Status - Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Request_Status_Rejected</fullName>
+        <description>Update Request Status to Rejected</description>
+        <field>Request_Status__c</field>
+        <literalValue>Rejected</literalValue>
+        <name>Update Request Status - Rejected</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+</Workflow>

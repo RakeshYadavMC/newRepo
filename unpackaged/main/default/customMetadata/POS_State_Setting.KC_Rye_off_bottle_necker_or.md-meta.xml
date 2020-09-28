@@ -7,6 +7,10 @@
         <value xsi:nil="true"/>
     </values>
     <values>
+        <field>Is_Active__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
         <field>Options__c</field>
         <value xsi:type="xsd:string">Include;Don&apos;t Include</value>
     </values>
