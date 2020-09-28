@@ -85,9 +85,15 @@
             <fullName>12%3A00 PM</fullName>
             <default>false</default>
         </values>
-        
-            
-            <values>
+        <values>
+            <fullName>Cellar - 12 PM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cellar - 9 AM</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>Lake - 12%2E30 PM</fullName>
             <default>false</default>
         </values>

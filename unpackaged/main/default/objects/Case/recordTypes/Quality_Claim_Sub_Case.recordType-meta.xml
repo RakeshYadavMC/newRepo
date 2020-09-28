@@ -10046,8 +10046,11 @@
             <fullName>Incorrect State Code in SAP</fullName>
             <default>false</default>
         </values>
-        
-            <values>
+        <values>
+            <fullName>Knob Creek Previous Wax</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>Known Issue</fullName>
             <default>false</default>
         </values>

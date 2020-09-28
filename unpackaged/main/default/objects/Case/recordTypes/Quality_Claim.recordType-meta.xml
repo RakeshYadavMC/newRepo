@@ -4121,8 +4121,11 @@
             <fullName>AMERICAN OAK</fullName>
             <default>false</default>
         </values>
-        
-            <values>
+        <values>
+            <fullName>AMERICAN OAK RESERVE</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>ANEJO</fullName>
             <default>false</default>
         </values>
@@ -4238,8 +4241,11 @@
             <fullName>BLANCO%2FPLATA%2FSILVER</fullName>
             <default>false</default>
         </values>
-        
-            <values>
+        <values>
+            <fullName>BLOOD OAK</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>BLOOD ORANGE</fullName>
             <default>false</default>
         </values>
@@ -4819,8 +4825,11 @@
             <fullName>DARK BATCH</fullName>
             <default>false</default>
         </values>
-        
-            <values>
+        <values>
+            <fullName>DARK OAK</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>DARK RYE</fullName>
             <default>false</default>
         </values>
