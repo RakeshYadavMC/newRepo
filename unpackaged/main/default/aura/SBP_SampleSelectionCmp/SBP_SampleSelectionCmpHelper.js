@@ -61,6 +61,8 @@
                     }
                 }
             });
+            //Added by Jai for INC_241142
+            helper.toggleSpinner(component, true);
             $A.enqueueAction(action);
         });
     },
@@ -131,5 +133,9 @@
             }]);
         }
 
+    },
+    //Added by Jai for INC_241142
+    toggleSpinner: function(component, toggle) {
+        component.set('v.loading', toggle);
     }
 })

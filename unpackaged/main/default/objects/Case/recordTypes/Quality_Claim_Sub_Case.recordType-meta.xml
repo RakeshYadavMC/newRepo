@@ -8716,6 +8716,14 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>HEARTWOOD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HIGHGROVE</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>HIGHLAND</fullName>
             <default>false</default>
         </values>

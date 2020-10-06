@@ -42,8 +42,8 @@
 	<aura:attribute name="openModal" type="Boolean" default="false"/>
     <aura:attribute name="errorMessage" type="String"/>
     <aura:attribute name="productType" type="String"/>
-
-    
+	<aura:attribute name="AccopenModal" type="Boolean" default="false"/>
+    <aura:attribute name="AccerrorMessage" type="String"/>
 	<aura:attribute name="retailAccountCity" type="String" />  <!-- Added by Mahesh -->
    	<aura:attribute name="retailAccountState1" type="String" /> <!-- Added by Mahesh -->
     
@@ -574,6 +574,34 @@
                 <div class="slds-modal__content slds-p-around--medium">
                     <center> <p><b>
                         {!v.errorMessage}
+                        </b>
+                        </p></center>
+                </div>
+                <!--Modal Box Button-->
+                <div class="slds-modal__footer">
+                    <button class="slds-button slds-button--brand" onclick="{!c.handleOkModal}">Ok</button>
+                </div>
+            </div>
+        </div>
+        <div class="slds-backdrop slds-backdrop--open"></div>            
+    </aura:if>
+    
+    <aura:if isTrue="{!v.AccopenModal}">
+        <!--Modal Box Start-->
+        <div role="dialog" class="slds-modal slds-fade-in-open ">
+            <div class="slds-modal__container">
+                <div class="slds-modal__header">
+                    <button class="slds-button slds-modal__close slds-button--icon-inverse" title="Close" onclick="{!c.handleCloseModal}">
+                        X
+                        <span class="slds-assistive-text">Close</span>
+                    </button>
+                    <h1 class="slds-text-heading--medium">Account Blocked</h1>
+                </div>
+                 
+                <!--Modal Box Header-->
+                <div class="slds-modal__content slds-p-around--medium">
+                    <center> <p><b>
+                        {!v.AccerrorMessage}
                         </b>
                         </p></center>
                 </div>

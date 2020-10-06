@@ -169,6 +169,10 @@
                 <behavior>Readonly</behavior>
                 <field>VIP_Check__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Traffic_Light__c</field>
+            </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>
     </layoutSections>

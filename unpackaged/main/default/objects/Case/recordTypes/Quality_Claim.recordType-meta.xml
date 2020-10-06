@@ -4122,10 +4122,6 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>AMERICAN OAK RESERVE</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>ANEJO</fullName>
             <default>false</default>
         </values>
@@ -4239,10 +4235,6 @@
         </values>
         <values>
             <fullName>BLANCO%2FPLATA%2FSILVER</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>BLOOD OAK</fullName>
             <default>false</default>
         </values>
         <values>
@@ -4826,10 +4818,6 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>DARK OAK</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>DARK RYE</fullName>
             <default>false</default>
         </values>
@@ -4991,6 +4979,14 @@
         </values>
         <values>
             <fullName>HAZELNUT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HEARTWOOD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HIGHGROVE</fullName>
             <default>false</default>
         </values>
         <values>

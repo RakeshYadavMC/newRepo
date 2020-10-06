@@ -4,6 +4,7 @@
         console.log('METHOD ', methodToSearchWith);
         // call the apex class method
         var action = component.get("c." + methodToSearchWith);
+        
         // set param to method
         action.setParams({
             'searchKeyWord': getInputkeyWord,
@@ -12,7 +13,8 @@
             'limit': component.get('v.limit'),
             'accountbillingState': component.get('v.distributorAccountBillingState'),
             'city': component.get('v.retailAccountCity'),
-            'state': component.get('v.retailAccountState')
+            'state': component.get('v.retailAccountState'),
+            'AvailableForSingleBarrel': component.get('v.AvailableForSingleBarrel')
         });
         // set a callBack
         action.setCallback(this, function (response) {

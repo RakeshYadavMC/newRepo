@@ -10,9 +10,13 @@
         <c:AlertCmp type="success" message="Your Order Has Been Submitted!" />
     </div>
     
-    <div class="slds-grid slds-p-around_medium">
-        <div class="slds-col slds-size_1-of-1 slds-align_absolute-center submit_button">
-            <lightning:button variant="brand" label="Go to Cases" title="Success" class="submit_button slds-align_absolute-center" onclick="{!c.gotoURL}"/>
+    <div class="slds-grid slds-wrap slds-p-around_medium">
+        <div class="slds-col slds-size_1-of-1 slds-align_absolute-center">
+            <lightning:button variant="brand" label="Go to Cases" title="Success" class="submit_button" onclick="{!c.gotoURL}"/>
+        </div>
+        <!-- Added for SR_188782 -->
+         <div class="slds-col slds-size_1-of-1 slds-align_absolute-center slds-m-top_small">
+            <lightning:button variant="brand" label="Order Another Barrel" title="Success" class="submit_button" onclick="{!c.orderAnotherBarrel}"/>
         </div>
     </div>
 </aura:component>

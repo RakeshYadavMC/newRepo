@@ -11,7 +11,7 @@
                 <field>Status</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Readonly</behavior>
+                <behavior>Edit</behavior>
                 <field>Case_Resolution_Details__c</field>
             </layoutItems>
             <layoutItems>

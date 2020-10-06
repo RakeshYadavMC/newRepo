@@ -86,6 +86,14 @@
     <picklistValues>
         <picklist>Time_Slot__c</picklist>
         <values>
+            <fullName>09%3A00 AM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10%3A30 AM</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>12%3A00 PM</fullName>
             <default>false</default>
         </values>

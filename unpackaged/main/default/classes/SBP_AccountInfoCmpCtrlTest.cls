@@ -220,7 +220,7 @@ private class SBP_AccountInfoCmpCtrlTest {
 		                   + '"Split_Order__c":false}]';
 
 
-		LightningComponentUtility.RequestStatus response = SBP_AccountInfoCmpCtrl.updateCase(jsonCases);
+		LightningComponentUtility.RequestStatus response = SBP_AccountInfoCmpCtrl.updateCase(jsonCases,false);
 
 		Test.stopTest();
 
@@ -243,7 +243,7 @@ private class SBP_AccountInfoCmpCtrlTest {
 		                   + '"Split_Order__c":false}]';
 
 
-		LightningComponentUtility.RequestStatus response = SBP_AccountInfoCmpCtrl.updateCase(jsonCases);
+		LightningComponentUtility.RequestStatus response = SBP_AccountInfoCmpCtrl.updateCase(jsonCases,true);
 
 		Test.stopTest();
 
@@ -275,7 +275,7 @@ private class SBP_AccountInfoCmpCtrlTest {
 		                   + '"Split_Order__c":false}]';
 
 
-		LightningComponentUtility.RequestStatus response = SBP_AccountInfoCmpCtrl.updateCase(jsonCases);
+		LightningComponentUtility.RequestStatus response = SBP_AccountInfoCmpCtrl.updateCase(jsonCases,true);
 
 		Test.stopTest();
 
@@ -315,7 +315,7 @@ private class SBP_AccountInfoCmpCtrlTest {
 		                   + '"Split_Order__c":false}]';
 
 
-		LightningComponentUtility.RequestStatus response = SBP_AccountInfoCmpCtrl.updateCase(jsonCases);
+		LightningComponentUtility.RequestStatus response = SBP_AccountInfoCmpCtrl.updateCase(jsonCases,true);
 
 		Test.stopTest();
 
@@ -346,7 +346,7 @@ private class SBP_AccountInfoCmpCtrlTest {
 		                   + '"Split_Order__c":false}]';
 
 
-		LightningComponentUtility.RequestStatus response = SBP_AccountInfoCmpCtrl.updateCase(jsonCases);
+		LightningComponentUtility.RequestStatus response = SBP_AccountInfoCmpCtrl.updateCase(jsonCases,true);
 
 		Test.stopTest();
 
@@ -380,7 +380,7 @@ private class SBP_AccountInfoCmpCtrlTest {
 		                   + '"Split_Order__c":false}]';
 
 
-		LightningComponentUtility.RequestStatus response = SBP_AccountInfoCmpCtrl.updateCase(jsonCases);
+		LightningComponentUtility.RequestStatus response = SBP_AccountInfoCmpCtrl.updateCase(jsonCases,true);
 
 		Test.stopTest();
 
@@ -414,7 +414,7 @@ private class SBP_AccountInfoCmpCtrlTest {
 		                   + '"Split_Order__c":false}]';
 
 
-		LightningComponentUtility.RequestStatus response = SBP_AccountInfoCmpCtrl.updateCase(jsonCases);
+		LightningComponentUtility.RequestStatus response = SBP_AccountInfoCmpCtrl.updateCase(jsonCases,true);
 
 		Test.stopTest();
 
@@ -445,7 +445,7 @@ private class SBP_AccountInfoCmpCtrlTest {
 		                   + '"Split_Order__c":false}]';
 
 
-		LightningComponentUtility.RequestStatus response = SBP_AccountInfoCmpCtrl.updateCase(jsonCases);
+		LightningComponentUtility.RequestStatus response = SBP_AccountInfoCmpCtrl.updateCase(jsonCases,true);
 
 		Test.stopTest();
 
@@ -472,7 +472,7 @@ private class SBP_AccountInfoCmpCtrlTest {
 		                   + '"Split_Order__c":false}]';
 
 
-		LightningComponentUtility.RequestStatus response = SBP_AccountInfoCmpCtrl.updateCase(jsonCases);
+		LightningComponentUtility.RequestStatus response = SBP_AccountInfoCmpCtrl.updateCase(jsonCases,true);
 
 		Test.stopTest();
 
@@ -498,7 +498,7 @@ private class SBP_AccountInfoCmpCtrlTest {
 		                   + '"Split_Order__c":false}]';
 
 
-		LightningComponentUtility.RequestStatus response = SBP_AccountInfoCmpCtrl.updateCase(jsonCases);
+		LightningComponentUtility.RequestStatus response = SBP_AccountInfoCmpCtrl.updateCase(jsonCases,true);
 
 		Test.stopTest();
 
@@ -525,7 +525,7 @@ private class SBP_AccountInfoCmpCtrlTest {
 		                   + '"Split_Order__c":false}]';
 
 
-		LightningComponentUtility.RequestStatus response = SBP_AccountInfoCmpCtrl.updateCase(jsonCases);
+		LightningComponentUtility.RequestStatus response = SBP_AccountInfoCmpCtrl.updateCase(jsonCases,true);
 
 		Test.stopTest();
 
@@ -556,7 +556,7 @@ private class SBP_AccountInfoCmpCtrlTest {
 		                   + '"Split_Order__c":false}]';
 
 
-		LightningComponentUtility.RequestStatus response = SBP_AccountInfoCmpCtrl.updateCase(jsonCases);
+		LightningComponentUtility.RequestStatus response = SBP_AccountInfoCmpCtrl.updateCase(jsonCases,true);
 
 		Test.stopTest();
 
@@ -586,7 +586,7 @@ private class SBP_AccountInfoCmpCtrlTest {
 		                   + '"Split_Order__c":false}]';
 
 
-		LightningComponentUtility.RequestStatus response = SBP_AccountInfoCmpCtrl.updateCase(jsonCases);
+		LightningComponentUtility.RequestStatus response = SBP_AccountInfoCmpCtrl.updateCase(jsonCases,true);
 
 		Test.stopTest();
 
@@ -620,7 +620,7 @@ private class SBP_AccountInfoCmpCtrlTest {
 		                   + '"Split_Order__c":false}]';
 
 
-		LightningComponentUtility.RequestStatus response = SBP_AccountInfoCmpCtrl.updateCase(jsonCases);
+		LightningComponentUtility.RequestStatus response = SBP_AccountInfoCmpCtrl.updateCase(jsonCases,true);
 
 		Test.stopTest();
 
@@ -654,7 +654,7 @@ private class SBP_AccountInfoCmpCtrlTest {
 		                   + '"Split_Order__c":false}]';
 
 
-		LightningComponentUtility.RequestStatus response = SBP_AccountInfoCmpCtrl.updateCase(jsonCases);
+		LightningComponentUtility.RequestStatus response = SBP_AccountInfoCmpCtrl.updateCase(jsonCases,true);
 
 		Test.stopTest();
 
@@ -688,7 +688,7 @@ private class SBP_AccountInfoCmpCtrlTest {
 		                   + '"Split_Order__c":false}]';
 
 
-		LightningComponentUtility.RequestStatus response = SBP_AccountInfoCmpCtrl.updateCase(jsonCases);
+		LightningComponentUtility.RequestStatus response = SBP_AccountInfoCmpCtrl.updateCase(jsonCases,true);
 
 		Test.stopTest();
 
@@ -722,7 +722,7 @@ private class SBP_AccountInfoCmpCtrlTest {
 		                   + '"Split_Order__c":false}]';
 
 
-		LightningComponentUtility.RequestStatus response = SBP_AccountInfoCmpCtrl.updateCase(jsonCases);
+		LightningComponentUtility.RequestStatus response = SBP_AccountInfoCmpCtrl.updateCase(jsonCases,true);
 
 		Test.stopTest();
 

@@ -1872,15 +1872,7 @@
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Auchentoshan</controllingFieldValue>
-            <valueName>AMERICAN OAK RESERVE</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Auchentoshan</controllingFieldValue>
-            <valueName>BLOOD OAK</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Auchentoshan</controllingFieldValue>
-            <valueName>DARK OAK</valueName>
+            <valueName>HEARTWOOD</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Baker's</controllingFieldValue>
@@ -2336,6 +2328,10 @@
         <valueSettings>
             <controllingFieldValue>Laphroaig</controllingFieldValue>
             <valueName>PX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Laphroaig</controllingFieldValue>
+            <valueName>HIGHGROVE</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Little Book</controllingFieldValue>

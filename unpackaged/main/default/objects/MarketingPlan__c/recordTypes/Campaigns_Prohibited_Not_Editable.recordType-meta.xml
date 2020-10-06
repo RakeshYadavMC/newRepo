@@ -451,5 +451,6 @@
             <fullName>2019</fullName>
             <default>false</default>
         </values>
-    </picklistValues>
+        
+        </picklistValues>
 </RecordType>

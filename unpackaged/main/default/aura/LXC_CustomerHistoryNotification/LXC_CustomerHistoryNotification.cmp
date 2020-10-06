@@ -1,21 +1,38 @@
-<aura:component implements="force:hasRecordId,flexipage:availableForRecordHome" access="global" controller="CNT_CustomerHistory">
+<aura:component
+    implements="force:hasRecordId,flexipage:availableForRecordHome"
+    access="global"
+    controller="CNT_CustomerHistory"
+>
     <!-- Attributes -->
     <aura:attribute name="caseRecord" type="Object" />
     <aura:attribute name="warningMessage" type="String" />
-    
+
+    <!-- Added for SR_188791 -->
+    <aura:attribute name="data" type="Object" />
+    <aura:attribute name="loading" type="Boolean" default="false" />
+
+    <lightning:overlayLibrary aura:id="overlayLib" />
+
     <!-- Accessing current case -->
     <force:recordData
         aura:id="recordLoader"
         recordId="{!v.recordId}"
-        fields="Contact.Email, Contact.MailingCountry, Contact.MailingStreet, Contact.MailingPostalCode, Contact.MailingCity, Contact.MailingState, CreatedDate"
+        fields="Contact.Email, Contact.MailingCountry, Contact.MailingStreet, Contact.MailingPostalCode, Contact.MailingCity, Contact.MailingState, CreatedDate, Lot_Code__c"
         targetFields="{!v.caseRecord}"
         recordUpdated="{!c.handleRecordUpdated}"
     />
-    
+
     <!-- Displaying warning message -->
-    <aura:if isTrue="{!v.warningMessage}">
-        <div class="slds-box slds-theme--warning" style="font-size:16px;text-align:center;">
+    <aura:if isTrue="{! or(v.warningMessage, v.data)}">
+        <div class="slds-box slds-theme_warning" style="font-size: 16px; text-align: center">
             <p>{!v.warningMessage}</p>
+            <!-- Added for SR_188791 -->
+            <aura:if isTrue="{!and(v.data, v.caseRecord.Contact.MailingCountry == 'United States')}">
+                <p>
+                    {!$Label.c.Lotcode_Message}&nbsp;
+                    <lightning:button variant="base" label="Click here" onclick="{! c.handleLotCodeCases }" />
+                </p>
+            </aura:if>
         </div>
     </aura:if>
 </aura:component>

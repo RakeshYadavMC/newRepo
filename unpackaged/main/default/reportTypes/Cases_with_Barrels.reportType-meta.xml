@@ -1747,6 +1747,11 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
+            <field>Submitter_Email__c</field>
+            <table>Case</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
             <field>Satisfaction_Rating__c</field>
             <table>Case</table>
         </columns>

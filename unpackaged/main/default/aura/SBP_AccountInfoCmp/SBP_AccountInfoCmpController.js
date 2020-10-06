@@ -54,7 +54,8 @@
                 var attendeeInfoValid = component.get('v.attendeeInfoValid');
                 console.log('result from account info validation ===============================', result);
                 if (result && attendeeInfoValid) {
-                    return helper.updateCaseRecord(component, event, helper);
+                    var availableforsingle = true;
+                    return helper.updateCaseRecord(component, event, helper,availableforsingle);
                 } else {
                     //helper.showToast('An error occurred please contact the support team', 'Error', 'error');
                 }
@@ -103,11 +104,13 @@
         
     },
     handleCloseModal: function(component, event, helper) {
-        //For Close Modal, Set the "openModal" attribute to "fasle"  
+        //For Close Modal, Set the "openModal" attribute to "fasle"  tre
         component.set("v.openModal", false);
+        component.set("v.AccopenModal", false);
     },
     handleOkModal:function(component, event, helper){
         component.set("v.openModal", false);
+        component.set("v.AccopenModal", false);
         $A.get('e.force:refreshView').fire();
         window.location.reload();
     }
